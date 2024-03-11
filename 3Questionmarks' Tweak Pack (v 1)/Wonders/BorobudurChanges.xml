@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/26/2024 7:07:52 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set Happiness="3" />
+			<Where Type="BUILDING_BOROBUDUR" />
+		</Update>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_FeatureYieldChanges>
+        <Row>
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_BOROBUDUR_HELP"/>
+			<Set Text="+2 [ICON_PEACE] Faith from Jungle tiles worked by this city, and 3 free [ICON_MISSIONARY] Missionaries appear.[NEWLINE][NEWLINE]Must be built in a [ICON_RELIGION] Holy City."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_BOROBUDUR_GAME_INFO"/>
+			<Set Text="+2 [ICON_PEACE] Faith from Jungle tiles worked by this city, and 3 free [ICON_MISSIONARY] Missionaries appear.[NEWLINE][NEWLINE]Must be built in a [ICON_RELIGION] Holy City."/>
+		</Update>
+	</Language_en_US>
+  
+</GameData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/11/2016 10:02:39 PM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Where Type="TRAIT_CAPITAL_BUILDINGS_CHEAPER"/>
+			<Set CapitalBuildingModifier="100" ImprovementMaintenanceModifier="-50" CityUnhappinessModifier="-25" />
+		</Update> 
+	</Traits>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER" />
+		<Row Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER">
+			<Text>All Cities recive double [ICON_PRODUCTION] Production towards any buildings that already exist in the [ICON_CAPITAL] Capital City. -50% [ICON_GOLD] Gold maintenance for Roads and Railroads. -25% [ICON_HAPPINESS_4] Unhappiness from number of cities.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy when I got a life -->
+<!-- THEY ARE THE PANZER ELITE BORN TO COMPETE NEVER RETREAT -->
+<GameData>
+	<!--Bismarck's War Music shizzle-->
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_BISMARCK_WAR</SoundID>
+			<Filename>Germany War</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_BISMARCK_WAR</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_BISMARCK_WAR</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>80</MinVolume>
+			<MaxVolume>80</MaxVolume>
+			<IsMusic>True</IsMusic>
+		</Row>
+	</Audio_2DSounds>
+</GameData>

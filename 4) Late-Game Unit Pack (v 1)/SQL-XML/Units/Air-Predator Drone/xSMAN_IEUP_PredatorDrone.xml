@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/09/17 2:15:31 PM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_PREDATOR_DRONE</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_PREDATOR_DRONE</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_PREDATOR_DRONE</DefaultUnit>			
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Type>UNIT_SMAN_IEUP_PREDATOR_DRONE</Type>
+			<Class>UNITCLASS_SMAN_IEUP_PREDATOR_DRONE</Class>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+			<ObsoleteTech>TECH_NANOTECHNOLOGY</ObsoleteTech>
+			<Combat>14</Combat>
+			<RangedCombat>30</RangedCombat>
+			<Range>2</Range>
+			<Moves>4</Moves>
+			<Cost>250</Cost>			
+			<!--<FaithCost>500</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>-->
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_PREDATOR_DRONE</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_PREDATOR_DRONE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_PREDATOR_DRONE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_PREDATOR_DRONE_HELP</Help>
+		
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+					
+			<Mechanized>true</Mechanized>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<CombatLimit>0</CombatLimit>
+			
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<HurryCostModifier>50</HurryCostModifier>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_PREDATOR_DRONE</UnitArtInfo>
+			<MoveRate>WHEELED</MoveRate>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PREDATOR_DRONE</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PREDATOR_DRONE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PREDATOR_DRONE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PREDATOR_DRONE</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PREDATOR_DRONE</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PREDATOR_DRONE</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PREDATOR_DRONE</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_UAV_1</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PREDATOR_DRONE</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PREDATOR_DRONE</UnitType>
+			<SelectionSound>AS2D_SELECT_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FIGHTER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_PREDATOR_DRONE">
+			<Text>Predator Drone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_PREDATOR_DRONE_HELP">
+			<Text>Information Era recon and ranged unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_PREDATOR_DRONE_STRATEGY">
+			<Text>The Predator Drone is a late game hovering unit. It can move around the map like helicopters. It can perform ranged attacks within its range of 2 tiles. The Predator Drone provides great flexibility to military operations, quickly responding to crises around the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_PREDATOR_DRONE_PEDIA">
+			<Text>
+				The Predator Drone is an enhanced recon unit, operating similarly to a Helicopter Gunship. It deals light damage up to 2 tiles away. It is available on the discovery of Telecommunications, and becomes obsolete on the discovery of Nanotechnology. Requires [ICON_RES_OIL] Oil.[NEWLINE][NEWLINE]The Predator Drone is based on the General Atomics MQ-1 Predator, which is an American remotely piloted aircraft built by General Atomics and used primarily by the United States Air Force and Central Intelligence Agency. Initially conceived in the early 1990s for aerial reconnaissance and forward observation roles, the Predator carries cameras and other sensors but has been modified and upgraded to carry and fire two AGM-114 Hellfire missiles or other munitions. The aircraft, in use since 1995, has seen combat in war in Afghanistan, Pakistan, the NATO intervention in Bosnia, Serbia, Iraq War, Yemen, Libyan civil war, the intervention in Syria, and Somalia.[NEWLINE][NEWLINE]The USAF describes the Predator as a 'Tier II' MALE UAS, for medium-altitude, long-endurance unmanned aircraft system. The UAS consists of four aircraft or 'air vehicles' with sensors, a ground control station, and a primary satellite link communication suite Powered by a Rotax engine and driven by a propeller, the air vehicle can fly up to 460 miles to a target, loiter overhead for 14 hours, then return to its base.[NEWLINE][NEWLINE]Following 2001, the RQ-1 Predator became the primary remotely piloted aircraft used for offensive operations by the USAF and the CIA in Afghanistan and the Pakistani tribal areas; it has also been deployed elsewhere. Because offensive uses of the Predator are classified by the US, U.S. military officials have reported an appreciation for the intelligence and reconnaissance-gathering abilities of RPAs but declined to publicly discuss their offensive use.
+			</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

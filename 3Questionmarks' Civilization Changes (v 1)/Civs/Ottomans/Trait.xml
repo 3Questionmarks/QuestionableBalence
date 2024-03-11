@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 2:07:52 PM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set LevelExperienceModifier="-25" />
+			<Where Type="CONVERTS_SEA_BARBARIANS" />
+		</Update>
+	</Traits>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<PromotionType>PROMOTION_COASTAL_RAIDER_1</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS" />
+			<Set Text="Melee naval units gain the Prize Ships and the Coastal Raider promotions. Melee land units gain the Siege promotion. Pay only one-third the [ICON_GOLD] Gold cost for naval unit maintenance. Units need 25% less [ICON_WAR] XP for promotions."/>
+		</Update>
+	</Language_en_US>
+
+</GameData>

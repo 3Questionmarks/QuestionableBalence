@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/19/2018 6:46:44 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_GOD_OF_WAR</Type>
+			<Description>TXT_KEY_BELIEF_GOD_OF_WAR</Description>
+			<ShortDescription>TXT_KEY_BELIEF_GOD_OF_WAR_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+            <FaithFromKills>100</FaithFromKills>
+		</Row>
+	</Beliefs>
+
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_GOD_OF_WAR</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_GOD_OF_WAR</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_GOD_OF_WAR</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_GOD_OF_WAR</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_GOD_OF_WAR">
+			<Text>+3 [ICON_PRODUCTION] Production from Shrines and Temples. +3 [ICON_PEACE] Faith from Barracks and Armories. Units Gain [ICON_PEACE] Faith From Kills equal to the [ICON_STRENGTH] Combat Strength of the defeated unit (or [ICON_RANGE_STRENGTH] Ranged Combat Strength if it is higher).</Text>
+		</Row>
+	</Language_en_US>
+    
+    <Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_GOD_OF_WAR_SHORT">
+			<Text>God of War</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

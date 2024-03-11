@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/9/2020 1:22:29 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_LAND_IRONCLAD</Type>
+			<Description>TXT_KEY_UNIT_LAND_IRONCLAD_CUS</Description>
+			<DefaultUnit>UNIT_LAND_IRONCLAD</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_LAND_IRONCLAD</Class>
+			<Type>UNIT_LAND_IRONCLAD</Type>
+			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+			<Combat>45</Combat>
+			<Cost>300</Cost>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_LAND_IRONCLAD_CUS</Description>
+			<Strategy>TXT_KEY_UNIT_LAND_IRONCLAD_CUS_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_UNIT_LAND_IRONCLAD_CUS_PEDIA</Civilopedia>
+			<Help>TXT_KEY_UNIT_HELP_LAND_IRONCLAD_CUS</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_WWI_TANK</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMOKEY_LANDSHIP_LEVEL_1</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_SCEN_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_SCEN_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<!-- Upgrading Calvery into Landships (needs to be before the upgrade for the landship gets defined else it will upgrade into itself -->
+	<Units>
+		<Update>
+			<Where Class="UNITCLASS_CAVALRY"/>
+			<Set ObsoleteTech="TECH_STEAM_POWER"/>
+		</Update>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Update>
+			<Where UnitClassType="UNITCLASS_WWI_TANK"/>
+			<Set UnitClassType="UNITCLASS_LAND_IRONCLAD"/>
+		</Update>
+	</Unit_ClassUpgrades>
+	<!-- Upgrading Calvery into Landships -->
+	
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<UnitClassType>UNITCLASS_WWI_TANK</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>11</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<PromotionType>PROMOTION_ARMOR_VS_LAND</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_LAND_IRONCLAD</UnitClassType>
+			<UnitType />
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_LAND_IRONCLAD</UnitType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_LAND_IRONCLAD">
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_LAND_IRONCLAD_CUS">
+			<Text>Land Ironclad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LAND_IRONCLAD_CUS_STRATEGY">
+			<Text>The land ironclad is the first tank-type unit to appear in the game, it has a stronger combat strength than other land units and has a bonus vs land units but is weak against Airships and Anti-tank units. It requires and consume 1 Coal when produced.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LAND_IRONCLAD_CUS">
+			<Text>Industrial Era unit wich is good against all other land units but weak against Airships and Anti-tank units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LAND_IRONCLAD_CUS_PEDIA">
+			<Text>Much had been learned from the construction of the "Iron Horse" that was the railroad. Soon, inventors tried to engineer a vehicle with the power of a locomotive without the need of a track. Designing the apparatus for moving the unwieldy beasts that were the first prototypes proved extremely difficult. The process merged into a simpler design with much less armor plating but enough to withstand gunfire and the elements. The first drivers found that having a light, maneuverable craft was much more effective than a bulky one. It allowed for quick travel on less fuel, as well as agility in combat.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

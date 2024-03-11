@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 3:41:47 PM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_HIDE_SHIELDING</Type>
+			<Description>Hide Shielding</Description>
+			<Help>+100% Combat Strength when defending agaisnt ranged attacks</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<RangeChange>1</RangeChange>
+			<PortraitIndex>15</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>Hide Shielding</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<RangedDefenseMod>100</RangedDefenseMod>
+		</Row>
+		<Row>
+			<Type>PROMOTION_WEAK_MELEE_DEFENCE</Type>
+			<Description>Melee Defence Penalty</Description>
+			<Help>-50% Combat Strength when defending from melee attacks.</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<DefenseMod>-50</DefenseMod>
+			<RangedDefenseMod>50</RangedDefenseMod>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>57</PortraitIndex>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>Melee Defence Penalty</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_HORSEBACK_WITHDRAWAL</Type>
+			<Description>Withdraw before melee</Description>
+			<Help>Chance to withdraw when faced with a melee attack.</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>Withdraw before melee</PediaEntry>
+			<ExtraWithdrawal>50</ExtraWithdrawal>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SCOURGE_OF_GOD</Type>
+			<Description>Scourge of God</Description>
+			<Help>+15% Combat Strength to friendly units within 2 tiles and +20 Healing to friendly units within 1 tile.</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<GreatGeneral>true</GreatGeneral>
+			<AdjacentTileHealChange>20</AdjacentTileHealChange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>Scourge of God</PediaEntry>
+		</Row>
+	</UnitPromotions>
+</GameData>

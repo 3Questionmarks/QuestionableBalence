@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/14/2014 10:03:45 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+            <Where Type="BUILDING_CN_TOWER"/>
+            <Set>
+                <HappinessPerCity>2</HappinessPerCity>
+                <GlobalPopulationChange>2</GlobalPopulationChange>
+                <PrereqTech>TECH_ELECTRONICS</PrereqTech>
+				<PolicyBranchType>POLICY_BRANCH_PATRONAGE</PolicyBranchType>
+            </Set>
+		</Update>
+	</Buildings>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CN_TOWER</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CN_TOWER</BuildingType>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CN_TOWER</BuildingType>
+			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CN_TOWER</BuildingType>
+			<FeatureType>FEATURE_FUJI</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CN_TOWER</BuildingType>
+			<FeatureType>FEATURE_MT_KAILASH</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CN_TOWER</BuildingType>
+			<FeatureType>FEATURE_KILIMANJARO</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CN_TOWER</BuildingType>
+			<FeatureType>FEATURE_MT_SINAI</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_CN_TOWER</BuildingType>
+			<FeatureType>FEATURE_SRI_PADA</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_CN_TOWER_HELP" />
+			<Set Text="Provides a free Broadcast Tower in all cities. +2 [ICON_CITIZEN] Population in each city and +2 [ICON_HAPPINESS_1] Happiness per city. +2 [ICON_CULTURE] Culture from Mountains.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Empire[ENDCOLOR]." />
+		</Update>
+	</Language_en_US>
+</GameData>

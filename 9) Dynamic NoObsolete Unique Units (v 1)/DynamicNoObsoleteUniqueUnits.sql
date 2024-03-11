@@ -1,0 +1,1 @@
+UPDATE Units SET ObsoleteTech = NULL WHERE Type IN (SELECT UnitType FROM Civilization_UnitClassOverrides WHERE Units.Type = Civilization_UnitClassOverrides.UnitType);

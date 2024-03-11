@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="382206e8-cbb5-4383-8fab-50ac02bf65c4" version="1">
+  <Properties>
+    <Name>3Questionmarks' Civilization Changes</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>3Questionmarks' Civilization Changes</Teaser>
+    <Description>3Questionmarks' Civilization Changes</Description>
+    <Authors>???</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="9AB403D9BD3BA84D2CC4E0BBC2CFEABF" import="0">Civs/America/ART/Art.xml</File>
+    <File md5="B61F2B56187BA4A2A9D370639BC596A0" import="1">Civs/America/ART/MovieTheater128.dds</File>
+    <File md5="5AB7F608F1062E51B9F41C2A063BDC08" import="1">Civs/America/ART/MovieTheater256.dds</File>
+    <File md5="1662871C4B9D105F9E080151091E4AC6" import="1">Civs/America/ART/MovieTheater45.dds</File>
+    <File md5="262FEFD839577D76BD3F3B1BD1D0BE3E" import="1">Civs/America/ART/MovieTheater64.dds</File>
+    <File md5="0B0FCC6171E4CA7A66F0E4DA5116418E" import="0">Civs/America/Building.xml</File>
+    <File md5="050920D86167D314058EBDC4845B331C" import="0">Civs/America/Trait.xml</File>
+    <File md5="E93772937BF13D568BCCF574392EB900" import="0">Civs/America/Unit.xml</File>
+    <File md5="482D8ACBA4CC90FAC146C7A945439513" import="0">Civs/Assyria/Building.sql</File>
+    <File md5="A4E8F1761D18EED7112F060ACFC232FF" import="0">Civs/Assyria/Building.xml</File>
+    <File md5="2D67195EFE2895099EE812FCF3B7FC12" import="0">Civs/Assyria/Trait.xml</File>
+    <File md5="D307604E6D3DC4230C2BC6631D6365A1" import="0">Civs/Assyria/Unit.xml</File>
+    <File md5="6EC0026256EBE6C45A18932F15E191E3" import="0">Civs/Austria/Civ.xml</File>
+    <File md5="067B3149A80940FAC44C4DB649C538B5" import="0">Civs/Austria/Trait.xml</File>
+    <File md5="4F4FA0C2EC4468DD634C9155A39C1FC4" import="0">Civs/Austria/Update.xml</File>
+    <File md5="C9FF6198A2707076F5BB3618E8B08D0D" import="0">Civs/Aztecs/Promotions.xml</File>
+    <File md5="510E8AC4A2483FA5C5C5797E458FE441" import="0">Civs/Aztecs/Trait.xml</File>
+    <File md5="04C660B2CEF9284C4914C8C036B2EE60" import="0">Civs/Babylon/Building.xml</File>
+    <File md5="AC8A425C441F3FFA4AD1CF6725AB9560" import="0">Civs/Babylon/Trait.xml</File>
+    <File md5="86D988525F984CCBCB42C781C386348E" import="0">Civs/Babylon/Unit.xml</File>
+    <File md5="BFC9A0406BF43E34F05E1208E2370143" import="0">Civs/Brazil/Improvement.xml</File>
+    <File md5="83C1504AD3EE537309A891A8D144C972" import="0">Civs/Brazil/Trait.xml</File>
+    <File md5="307E83318913F71ADB72D78A03ED1994" import="0">Civs/Brazil/Unit.xml</File>
+    <File md5="C4970DD44E48DDCF413A5CA32C5D5BA2" import="1">Civs/Byzantium/ART/greekfire_portrait256.dds</File>
+    <File md5="3854E0F277DFDAF14251A299957AED62" import="1">Civs/Byzantium/ART/greekfire_portrait32.dds</File>
+    <File md5="A3DBB85BC16DEFB4558346FD63DB7621" import="1">Civs/Byzantium/ART/greekfire_portrait44.dds</File>
+    <File md5="46D5A468E758B579DEE0F13EF78F0B89" import="1">Civs/Byzantium/ART/greekfire_portrait64.dds</File>
+    <File md5="9208F81A73843F4E3C13EF152CFF7B42" import="0">Civs/Byzantium/ART/PeristyleIcon.xml</File>
+    <File md5="FB705BC2AD645684F9C948948642AE93" import="1">Civs/Byzantium/ART/PeristyleIcon128.dds</File>
+    <File md5="1A6D3B1AC57A1591871B183C8C23143C" import="1">Civs/Byzantium/ART/PeristyleIcon256.dds</File>
+    <File md5="8465BF36B6E080975B1C39F0E5F9A391" import="1">Civs/Byzantium/ART/PeristyleIcon45.dds</File>
+    <File md5="4B4BF285428BFD7813D9973B405C8C0F" import="1">Civs/Byzantium/ART/PeristyleIcon64.dds</File>
+    <File md5="9A808BB9DC51456D1EC69CFE8E567C12" import="0">Civs/Byzantium/Building.xml</File>
+    <File md5="9E7C39B665271BFE387C86EFF9E5429C" import="0">Civs/Byzantium/Unit.xml</File>
+    <File md5="C8FD68B8B96D14B0ECF4E52BB23D3880" import="0">Civs/Byzantium/Trait.xml</File>
+    <File md5="E4DEDE3CA45564DF0DB01060DC19E0BE" import="0">Civs/Carthage/Trait.lua</File>
+    <File md5="6C85DB97749459A087F9CB6B63C6FADC" import="0">Civs/Carthage/Trait.sql</File>
+    <File md5="6420D1C6F4A42048DAA2B5F68F2CEE03" import="0">Civs/Carthage/Trait.xml</File>
+    <File md5="DDAB5D846AFC48AA2680EF3E9B6262A4" import="0">Civs/Carthage/Unit.xml</File>
+    <File md5="3990A114D2D3E806339632969ABDAFD7" import="0">Civs/Celts/Building.xml</File>
+    <File md5="AA7A145152FFF848CD84FC020F57A624" import="0">Civs/Celts/Trait.xml</File>
+    <File md5="4C9D2A90163A4ED59E31AC4CA12760D5" import="0">Civs/China/Building.xml</File>
+    <File md5="E21911CEBD08B72FCB0E1409B55D5E7A" import="0">Civs/China/Trait.xml</File>
+    <File md5="72E0181984F647A3D0E4785730FECD16" import="0">Civs/China/Unit.xml</File>
+    <File md5="918E037FAB270EA3B17B698F8A5D1806" import="0">Civs/Denmark/BuildingText.xml</File>
+    <File md5="0CE37D4E9621FF0A2238134D696484E3" import="0">Civs/Denmark/Denmark_TradingPost.lua</File>
+    <File md5="BB6F4B1E3F007B48D98482475ABCD895" import="0">Civs/Denmark/Denmark_TradingPost.sql</File>
+    <File md5="74308CD39AA5A9D3C69C71D02AB9FCAF" import="0">Civs/Denmark/Trait.xml</File>
+    <File md5="ADC5FF85DD114A31962D8666E8F7756D" import="0">Civs/Denmark/Unit.xml</File>
+    <File md5="F3C60A65AA4E616FE99D8E89E691412C" import="0">Civs/Egypt/Building.xml</File>
+    <File md5="6B32E33B4B5DB1F61F553111F9D9BFC8" import="0">Civs/Egypt/Trait.xml</File>
+    <File md5="287D9E753B36774D25FA7A518ABD61EA" import="0">Civs/Egypt/Units.xml</File>
+    <File md5="F62EF8AC6ECF68C2AD514AF4A21D1DD8" import="0">Civs/England/Promotions.xml</File>
+    <File md5="AB359C79461EB2ECE9E6F05D7F95675D" import="0">Civs/England/Trait.xml</File>
+    <File md5="D8A592D674AB693ECC6F356DC93996CD" import="0">Civs/England/Units.xml</File>
+    <File md5="D1B6464501EAB0C8D1505F4E708BB25E" import="0">Civs/Ethiopia/Building.xml</File>
+    <File md5="2483D689768F0329628D67063D321B3F" import="0">Civs/Ethiopia/Trait.xml</File>
+    <File md5="2E0AE0FAA59C73D1E64548E46C258250" import="0">Civs/Ethiopia/Unit.xml</File>
+    <File md5="CE984949893F486E1E6D3DCAA5CF4CFA" import="1">Civs/France/ART/3uc_salon128.dds</File>
+    <File md5="B3FC4A234C25210235EBC073F4D943E7" import="1">Civs/France/ART/3uc_salon256.dds</File>
+    <File md5="D312021DC75B0E8640B5FB17907C0560" import="1">Civs/France/ART/3uc_salon45.dds</File>
+    <File md5="0B6879BDC3C16505E819D8A35A0C09EE" import="1">Civs/France/ART/3uc_salon64.dds</File>
+    <File md5="D05F13C153557D775616A64BEE8D490F" import="0">Civs/France/ART/IconAtlas.xml</File>
+    <File md5="C197B5B6F90DD40E2A106D5AED01A8DB" import="1">Civs/France/ART/IconAtlas032.dds</File>
+    <File md5="56951A390EA46448599743E064585EF8" import="1">Civs/France/ART/IconAtlas045.dds</File>
+    <File md5="562A9D2BEC0228C5D2E38729CA0F79BA" import="1">Civs/France/ART/IconAtlas064.dds</File>
+    <File md5="687F2B32EC507B5EE397FC1D1D98CBCD" import="1">Civs/France/ART/IconAtlas080.dds</File>
+    <File md5="F53BC9DBE1EED01D6BE1D291B2BF6BAB" import="1">Civs/France/ART/IconAtlas128.dds</File>
+    <File md5="18B76834F19882BE8CF1BF9DFE4A9AD0" import="1">Civs/France/ART/IconAtlas256.dds</File>
+    <File md5="3A823071EA7F471FEF8F2DC6247A7358" import="1">Civs/France/ART/salon256.dds</File>
+    <File md5="D77DBA4268CB37EF08DFB6CED966D15F" import="0">Civs/France/Building.sql</File>
+    <File md5="006D2D144A2DF11A923D2CB95EEEA421" import="0">Civs/France/Building.xml</File>
+    <File md5="3D9EC04A9A6996519D80EF1A889996E0" import="0">Civs/France/Improvement.xml</File>
+    <File md5="7789E47986B160C453B1B91A70C41339" import="0">Civs/France/Trait.xml</File>
+    <File md5="58504CEDCF775BF97F242FE6A0F57CC8" import="0">Civs/Germany/Trait.xml</File>
+    <File md5="404B3F84CC9548FF5FB97D0DBE589E91" import="0">Civs/Germany/Unit.xml</File>
+    <File md5="C2C5E208B7B7D6C4CDC25A31273ADF09" import="0">Civs/Greece/Trait.xml</File>
+    <File md5="098F2A7591454098193B1ECA6209CC7B" import="0">Civs/Greece/Units.xml</File>
+    <File md5="1425F1B275214FA42E7C57945EB6CD88" import="0">Civs/Huns/Promotions.xml</File>
+    <File md5="BDE2AF77583C82D35B89B03BFD23AEF8" import="0">Civs/Huns/Trait.xml</File>
+    <File md5="9327269EBD9A6C392179B2C9728549F2" import="0">Civs/Huns/Units.xml</File>
+    <File md5="35016816C242DE90E9F858406A5F13C1" import="0">Civs/Inca/Improvement.xml</File>
+    <File md5="47C2A9D697025F01B7B66999116C01BA" import="0">Civs/Inca/Trait.lua</File>
+    <File md5="B2D33D3CEB7AB30B4F10678E5FDE79C0" import="0">Civs/Inca/Trait.xml</File>
+    <File md5="63D8CB65E680DA8C512A31431F4EFDC5" import="0">Civs/India/Building.xml</File>
+    <File md5="609195FF77E02E9BB500F046EDC125D2" import="0">Civs/India/Trait.xml</File>
+    <File md5="0A2B304E4B291969DA7CC7942717E5DE" import="0">Civs/India/Unit.xml</File>
+    <File md5="C5EF5574405CBD76B629EEB780D5FB10" import="0">Civs/Indonesia/Promotions.xml</File>
+    <File md5="EC8792C31442350CA135B700860F063F" import="0">Civs/Indonesia/Trait.xml</File>
+    <File md5="19B3878586E0C7E4DEE2680AC45C70B8" import="0">Civs/Indonesia/Unit.xml</File>
+    <File md5="FFCF23AA47B5F81497DE2CB5EAA39AD1" import="0">Civs/Iroquois/Building.xml</File>
+    <File md5="44041A6D9CB6D2EFC030F1FD4E744EA7" import="0">Civs/Iroquois/Promotions.xml</File>
+    <File md5="14E5DB1F548400B2E427341850A2933C" import="0">Civs/Iroquois/Trait.xml</File>
+    <File md5="97EA44B94553CD4CA7C8E5DCD53AF7AA" import="0">Civs/Iroquois/Unit.xml</File>
+    <File md5="8D4B9599886D04A31BEB69D447B366E9" import="0">Civs/Japan/ART/IconTextureAtlases.xml</File>
+    <File md5="CC7A477B7D12C0E90BBF9B7BE3CA83F1" import="1">Civs/Japan/ART/Tech_Atlas_128.dds</File>
+    <File md5="1A0D6811994701B0E7A021B8BE0DC8E2" import="1">Civs/Japan/ART/Tech_Atlas_214.dds</File>
+    <File md5="5F6A9C968DB4AEABA57BAFE16F91D4D6" import="1">Civs/Japan/ART/Tech_Atlas_256.dds</File>
+    <File md5="07E33901BDAE1EBEE1D99E2FCBABB620" import="1">Civs/Japan/ART/Tech_Atlas_45.dds</File>
+    <File md5="326FBE273640348C0D1BA500CF6BD978" import="1">Civs/Japan/ART/Tech_Atlas_64.dds</File>
+    <File md5="38C73559B97A25CBB745E4A22DC14298" import="1">Civs/Japan/ART/Tech_Atlas_80.dds</File>
+    <File md5="3F38044FCD88A872AD3DC924EF63FEDD" import="0">Civs/Japan/Building.xml</File>
+    <File md5="D80394336EFC858FAD4225B190169C9B" import="0">Civs/Japan/Trait.xml</File>
+    <File md5="834A225E5B473B75EB2DBA5596FCBEA4" import="0">Civs/Japan/Units.xml</File>
+    <File md5="D05F13C153557D775616A64BEE8D490F" import="0">Civs/Korea/ART/IconAtlas.xml</File>
+    <File md5="C197B5B6F90DD40E2A106D5AED01A8DB" import="1">Civs/Korea/ART/IconAtlas032.dds</File>
+    <File md5="56951A390EA46448599743E064585EF8" import="1">Civs/Korea/ART/IconAtlas045.dds</File>
+    <File md5="562A9D2BEC0228C5D2E38729CA0F79BA" import="1">Civs/Korea/ART/IconAtlas064.dds</File>
+    <File md5="687F2B32EC507B5EE397FC1D1D98CBCD" import="1">Civs/Korea/ART/IconAtlas080.dds</File>
+    <File md5="F53BC9DBE1EED01D6BE1D291B2BF6BAB" import="1">Civs/Korea/ART/IconAtlas128.dds</File>
+    <File md5="18B76834F19882BE8CF1BF9DFE4A9AD0" import="1">Civs/Korea/ART/IconAtlas256.dds</File>
+    <File md5="9E32DBBCCC0AAA4D6DDC2F95E66ECC3A" import="1">Civs/Korea/ART/Seowon_Icon045.dds</File>
+    <File md5="1C557D1DCF9194956FFDB4A076C9985B" import="1">Civs/Korea/ART/Seowon_Icon064.dds</File>
+    <File md5="7DE6C6720768579FACEC015D0E419663" import="1">Civs/Korea/ART/Seowon_Icon128.dds</File>
+    <File md5="CABA6B1DA1A96B106531C8087546B9CD" import="1">Civs/Korea/ART/Seowon_Icon256.dds</File>
+    <File md5="337D4A87BDB51FC985697CAE685E49D0" import="0">Civs/Korea/Building.sql</File>
+    <File md5="817CF1922252D38F52AFD57EB602C5FB" import="0">Civs/Korea/Building.xml</File>
+    <File md5="427673B1E6D8771406E8F680E1F8C9E2" import="0">Civs/Korea/Promotion.xml</File>
+    <File md5="7503E6F40A3BBA749B50DA1A9DB93A61" import="0">Civs/Korea/Trait.xml</File>
+    <File md5="B1AEFB08C563BBD4E5E3359B0A65F241" import="0">Civs/Korea/Unit.xml</File>
+    <File md5="0CBF0B62BB0FE88CF02EB03236B5655E" import="0">Civs/Maya/Building.xml</File>
+    <File md5="C9D995854059D99D6FEA50DBB05E7C81" import="0">Civs/Maya/Trait.xml</File>
+    <File md5="E9505A12D9ED6586D6295313CA8A19D6" import="0">Civs/Maya/Unit.xml</File>
+    <File md5="EFAD8ABA7A4EE41C1E577910B3F8A161" import="0">Civs/Mongolia/Promotion.xml</File>
+    <File md5="DBF75B0E590BBC6700BC379F068E3372" import="0">Civs/Mongolia/Trait.xml</File>
+    <File md5="F269348183B0B47E4679E8261EC940AD" import="0">Civs/Mongolia/Units.xml</File>
+    <File md5="A710CB628354D1970010847E7AEA44E3" import="0">Civs/Morocco/Improvement.xml</File>
+    <File md5="6865EB5ECCAD9C92BC47A79118E9C18F" import="0">Civs/Morocco/Trait.xml</File>
+    <File md5="58354465C43D2195C54A250373BA9504" import="0">Civs/Neatherlands/Civ.xml</File>
+    <File md5="23CC87AA34FDD06CBF41229D192A63DF" import="0">Civs/Neatherlands/Improvement.xml</File>
+    <File md5="3A6D8E846BDCCD6E82C2D540315EF492" import="0">Civs/Neatherlands/Trait.xml</File>
+    <File md5="F91D0D509F902FB0454CC92205E4E83F" import="0">Civs/Neatherlands/WetLandsRegion.xml</File>
+    <File md5="E59C444EA93FBD7DAB4065B869E4F4BA" import="1">Civs/Ottomans/ART/3uc_ottocanon128.dds</File>
+    <File md5="B456C5C418D633E7A8AEA41657FC703A" import="1">Civs/Ottomans/ART/3uc_ottocanon256.dds</File>
+    <File md5="3E9D7A84F7D89D7A73305780E854DEDD" import="1">Civs/Ottomans/ART/3uc_ottocanon45.dds</File>
+    <File md5="B18CBEC3BB09AC00AF4DAF1004D098C3" import="1">Civs/Ottomans/ART/3uc_ottocanon64.dds</File>
+    <File md5="AC221F314D6A1EEB3BE5FD97DB15C802" import="1">Civs/Ottomans/ART/3uc_ottocanon80.dds</File>
+    <File md5="52C8FF6A652C4DC407FDA6E7C93CCE2E" import="1">Civs/Ottomans/ART/4BombardUnitFlag_32.dds</File>
+    <File md5="3AEFACCEAFFB412D0537D282ACEE5039" import="1">Civs/Ottomans/ART/Bombard.fxsxml</File>
+    <File md5="6B4998B63948B671F810B6C3DCEAE04E" import="1">Civs/Ottomans/ART/Bombard.gr2</File>
+    <File md5="4DA2B4CAAE9C895CDFCD92F3EDD41D0D" import="1">Civs/Ottomans/ART/bombard_crew_diff.dds</File>
+    <File md5="0B1534B32C405A3EE4B9D784471DA90B" import="1">Civs/Ottomans/ART/Bombard_diff.dds</File>
+    <File md5="B72AF20074CF79CA94D5327FDDC096CC" import="1">Civs/Ottomans/ART/Bombard_sref.dds</File>
+    <File md5="AE80A76BAE9DE2C0E8EAA52873951B8B" import="1">Civs/Ottomans/ART/sv_GreatBombard.dds</File>
+    <File md5="F331C353F360639E6210CE86FCA9FF25" import="0">Civs/Ottomans/Promotions.xml</File>
+    <File md5="CCFFD5B72D2285FBADF7061112C55AE8" import="0">Civs/Ottomans/Trait.xml</File>
+    <File md5="487722FCF0F8880480AC787B9AB52EB2" import="0">Civs/Ottomans/Unit.sql</File>
+    <File md5="3A385D07DCA2F29E1244293B5D10F059" import="0">Civs/Ottomans/Unit.xml</File>
+    <File md5="EA2ACF57339E36FC08D6610CFC8C3C41" import="0">Civs/Persia/Building.xml</File>
+    <File md5="CB16D2FD60C55AB703DBDAC5AB83514D" import="0">Civs/Persia/Trait.xml</File>
+    <File md5="BEF0715AD18F6CF62480BCAA5658DB51" import="0">Civs/Poland/Building.xml</File>
+    <File md5="A788DF79ACEB2FE396B2A74A4C95DE2C" import="0">Civs/Poland/Trait.xml</File>
+    <File md5="D267C7EA27F0016024613D7B94E6FC9F" import="0">Civs/Poland/Unit.xml</File>
+    <File md5="2FA8F94B82717E7B2E745762764ECAA6" import="0">Civs/Portugal/Improvement.xml</File>
+    <File md5="AA61A3DCA2B7086A032A9CC9996696BD" import="0">Civs/Portugal/Trait.xml</File>
+    <File md5="3C70046A2BAB136A47247A9F2849994D" import="0">Civs/Portugal/Units.xml</File>
+    <File md5="4B376A5B2465E539918F7F086E01B13A" import="1">Civs/Rome/ART/UB-FontIcons.dds</File>
+    <File md5="80FCA7A8933F9B199FE5DC3794056C5F" import="1">Civs/Rome/ART/UB-FontIcons.ggxml</File>
+    <File md5="53CC6A7F1D27A9B71FBCE41644A1BF84" import="1">Civs/Rome/ART/UBAtlas128.dds</File>
+    <File md5="AF01F9103956844CF1EAACCBA079AB28" import="1">Civs/Rome/ART/UBAtlas256.dds</File>
+    <File md5="0776B489DE428B0B260039CD47B40578" import="1">Civs/Rome/ART/UBAtlas45.dds</File>
+    <File md5="37709671D79A9402A68479C9DE27DC69" import="1">Civs/Rome/ART/UBAtlas64.dds</File>
+    <File md5="E11F52AB3D062DF5377D61FDBA695CE5" import="1">Civs/Rome/ART/UBAtlas80.dds</File>
+    <File md5="F512E4A94E2B8D56E39B126BC8F2CE0A" import="0">Civs/Rome/ART/UB_IconAtlas.sql</File>
+    <File md5="E8F0F65F5925F7AF88F7C1242C429990" import="0">Civs/Rome/Promotion.xml</File>
+    <File md5="203AB6AEFD2F238817BF27630504B390" import="0">Civs/Rome/Building.sql</File>
+    <File md5="09EAF19D7081B1A5CECFAB91A03DC778" import="0">Civs/Rome/Trait.xml</File>
+    <File md5="F1618521919A067F3FB9CB3A371B56AB" import="0">Civs/Rome/Building.xml</File>
+    <File md5="2DCF7D3890E1E8904576AD93A60F8A2E" import="0">Civs/Rome/Unit.xml</File>
+    <File md5="79A896D99A41A078D03A4F93B46EA70F" import="0">Civs/Russia/Building.xml</File>
+    <File md5="EEF27E91E9A10B45161F408877F8C292" import="0">Civs/Russia/Trait.xml</File>
+    <File md5="A08C19692B84901A392389C20F31F4B5" import="0">Civs/Russia/Units.xml</File>
+    <File md5="0A0883843FAE9E1ABD682CB4590336EC" import="1">Civs/Shoshone/ART/4buffalopound128.dds</File>
+    <File md5="0EC0F6710D54965C9921B588E390620C" import="1">Civs/Shoshone/ART/4buffalopound256.dds</File>
+    <File md5="89CEAB06714976FCF75D530B775F6016" import="1">Civs/Shoshone/ART/4buffalopound45.dds</File>
+    <File md5="6303C0ECA165527FFB1326198FF02C95" import="1">Civs/Shoshone/ART/4buffalopound64.dds</File>
+    <File md5="EC2A5CFD36D4EBDEC26C5B510BCE30E2" import="0">Civs/Shoshone/Building.sql</File>
+    <File md5="CC4F4245D29463628081599FD8017F72" import="0">Civs/Shoshone/Building.xml</File>
+    <File md5="ADB44340A9A4BB4C6D6D80F47C2EF4B6" import="0">Civs/Shoshone/Trait.lua</File>
+    <File md5="C81B7A13DA8F19BFC552800C28CCBBB5" import="0">Civs/Shoshone/Trait.xml</File>
+    <File md5="EEF78A57E6D125C46E19F1B6AFB35776" import="0">Civs/Shoshone/Units.xml</File>
+    <File md5="CB611A070379EBB1567E9B486CB32B47" import="0">Civs/Siam/Building.xml</File>
+    <File md5="8BE1B555DCCFA0FAE8DB9EA484A863C8" import="0">Civs/Siam/Trait.xml</File>
+    <File md5="598E0BEE2D59B3439B10940ED45F9BFA" import="0">Civs/Siam/Unit.xml</File>
+    <File md5="6DB11FE384E2BAEE0913EDBBB480AE96" import="0">Civs/Songhai/Building.xml</File>
+    <File md5="07ED8C5A44E3E2CE62B8AB329546DA16" import="0">Civs/Songhai/Trait.lua</File>
+    <File md5="034F28990B618E3B4D77C17BEDEB8B34" import="0">Civs/Songhai/Trait.sql</File>
+    <File md5="36F82095B28ED28ABE13C37999F834EA" import="0">Civs/Songhai/Trait.xml</File>
+    <File md5="5A663B9595B12EAF1BF27BA3DA9BEAE4" import="0">Civs/Songhai/Unit.xml</File>
+    <File md5="D05F13C153557D775616A64BEE8D490F" import="0">Civs/Spain/ART/IconAtlas.xml</File>
+    <File md5="C197B5B6F90DD40E2A106D5AED01A8DB" import="1">Civs/Spain/ART/IconAtlas032.dds</File>
+    <File md5="56951A390EA46448599743E064585EF8" import="1">Civs/Spain/ART/IconAtlas045.dds</File>
+    <File md5="562A9D2BEC0228C5D2E38729CA0F79BA" import="1">Civs/Spain/ART/IconAtlas064.dds</File>
+    <File md5="687F2B32EC507B5EE397FC1D1D98CBCD" import="1">Civs/Spain/ART/IconAtlas080.dds</File>
+    <File md5="F53BC9DBE1EED01D6BE1D291B2BF6BAB" import="1">Civs/Spain/ART/IconAtlas128.dds</File>
+    <File md5="18B76834F19882BE8CF1BF9DFE4A9AD0" import="1">Civs/Spain/ART/IconAtlas256.dds</File>
+    <File md5="DC92045DD32270F9A45E9D82552BCE6E" import="0">Civs/Spain/Building.sql</File>
+    <File md5="25B64242BAAA7C5025620798AC7BDD2F" import="0">Civs/Spain/Building.xml</File>
+    <File md5="C723894B226FEFA7CE298808245563FB" import="0">Civs/Spain/Trait.xml</File>
+    <File md5="89BBF83837A9F7E2259EE961FF63D94A" import="1">Civs/Sweden/ART/3skola128.dds</File>
+    <File md5="172D95D94488C93CA2ACDAC5FA43CD16" import="1">Civs/Sweden/ART/3skola256.dds</File>
+    <File md5="93FFA52E4E8AC75B2BC508FF86B72970" import="1">Civs/Sweden/ART/3skola45.dds</File>
+    <File md5="A4C4934D75E9044FF404F8C9082AFF40" import="1">Civs/Sweden/ART/3skola64.dds</File>
+    <File md5="958D3B8C71AFDA47FB4BED9F48C43451" import="0">Civs/Sweden/Building.sql</File>
+    <File md5="5D3BDA8862F11561D0BF5C6FFD4B5C59" import="0">Civs/Sweden/Building.xml</File>
+    <File md5="3C796AF2EBE740B54BE3BD1E22DE4182" import="0">Civs/Sweden/Trait.xml</File>
+    <File md5="416E66A4E5443FCE77587EE1CF658D11" import="1">Civs/Venice/ART/Venice_128.dds</File>
+    <File md5="85C08348B32AB8DBAEC6BA3570A29B48" import="1">Civs/Venice/ART/Venice_256.dds</File>
+    <File md5="F71251F1F640118E4A933336C21FE0D9" import="1">Civs/Venice/ART/Venice_45.dds</File>
+    <File md5="DED2DDD25807C919DD0AE935B3942C68" import="1">Civs/Venice/ART/Venice_64.dds</File>
+    <File md5="441383499BB9D7D3AF9AF6247CB273F3" import="1">Civs/Venice/ART/Venice_80.dds</File>
+    <File md5="EC4AB5B2E85B3AB8CD43DF87920CF296" import="0">Civs/Venice/ART/Venice_IconTextureAtlases.xml</File>
+    <File md5="E0EEE8A72E2C42AAFC805AAA83D3939C" import="0">Civs/Venice/Building.xml</File>
+    <File md5="B0B2A17479EE4347567370FAB0E83960" import="0">Civs/Venice/Civ.xml</File>
+    <File md5="11614733350C4AE2330D9FAABDBB0880" import="0">Civs/Venice/Trait.xml</File>
+    <File md5="57BA1E99B684B7A1297C7606E4426148" import="0">Civs/Venice/Unit.xml</File>
+    <File md5="9057FBC0853FBD031DB0A72A25ACA86B" import="0">Civs/Zulu/Building.xml</File>
+    <File md5="3871D3E79856FC5FF14E92841C967CF6" import="0">Civs/Zulu/Promotion.xml</File>
+    <File md5="FEB6353332199E65E25BD844A558BC0A" import="0">Civs/Zulu/Trait.xml</File>
+    <File md5="6EA7BEEBB408CC43534998300BD2EEF1" import="0">Music Replacers/Mongolia/Genghis Khan Music Replacer.xml</File>
+    <File md5="05890FF3A1EC8CFB8F7CE07AAFFB9BC9" import="0">Music Replacers/Mongolia/Genghis Khan War.mp3</File>
+    <File md5="0B74D44E960B9994DAEAC97AC949D55E" import="0">Music Replacers/Japan/JapanPeaceMusicReplacer.xml</File>
+    <File md5="7D8899B4BC5D347BC1196CA3DC6A828A" import="0">Music Replacers/Japan/Japan Peace.mp3</File>
+    <File md5="83F4BE54FB9B06CBCAAF1BFC13D86E13" import="0">Music Replacers/Japan/Japan War.mp3</File>
+    <File md5="96418E5172B1D240B208EB5C8DC74BAA" import="0">Music Replacers/Japan/JapanWarMusicReplacer.xml</File>
+    <File md5="405DB5681BAAC05D4C0BFC6CAF968E2E" import="0">Music Replacers/India/India War Music Replacer.xml</File>
+    <File md5="DABD27329CA5B03499BDBD133B192599" import="0">Music Replacers/India/India Peace Music Replacer.xml</File>
+    <File md5="3714D8365B48B812204C11106E284CBF" import="0">Music Replacers/India/India Peace.mp3</File>
+    <File md5="32B7A9C5E935636E49E1DEE80A9D262A" import="0">Music Replacers/India/India War.mp3</File>
+    <File md5="A48A3895CFA3D379F43AE7D713E55E0D" import="0">Music Replacers/Inca/Incan Peace Musik Ersetzer.xml</File>
+    <File md5="32E3F4505D05A4E566C2FE6BA8325FC9" import="0">Music Replacers/Inca/Incan Peace.mp3</File>
+    <File md5="4DCFD81639572C1FAEE44375E2B56F53" import="0">Music Replacers/Germany/Germany War.mp3</File>
+    <File md5="BC4FBC09FB3AD055B6C911AD067BF5A2" import="0">Music Replacers/Germany/MusicReplacementBismarck.xml</File>
+    <File md5="BB4709BE8670F41DEDC5674572DD6EA4" import="0">Music Replacers/France/France War Music Replacer.xml</File>
+    <File md5="202DA934D161C7D58FBA513AB629879C" import="0">Music Replacers/France/France War.mp3</File>
+    <File md5="0629E834ABD86F29B3237953F72908C7" import="0">Music Replacers/America/America War Music Replacer.xml</File>
+    <File md5="ACC14588969BD0B694E18337155D33D9" import="0">Music Replacers/America/America War.mp3</File>
+    <File md5="D848ED3DECF43C0B53B2497CA26630DA" import="0">Music Replacers/Poland/MusicReplacement.xml</File>
+    <File md5="50B270E89002F5341208AE48F7D9168E" import="0">Music Replacers/Poland/Poland War.mp3</File>
+    <File md5="B2373965AE5D67C60AD2E22CE5F37C41" import="0">Music Replacers/Rome/Rome Peace Music Replacer.xml</File>
+    <File md5="29798795C1A89D61CA0C2EFC55C5D4C4" import="0">Music Replacers/Rome/Rome Peace.mp3</File>
+    <File md5="020310D5E092F3122B336F1D5E74C007" import="0">Music Replacers/Remove any civs you don't want the music replaced for.txt</File>
+    <File md5="B29A7EF79994CDF5D0E3AC2A1E85C125" import="0">Music Replacers/Russia/Moskau - Russian Peace Music Replacer.xml</File>
+    <File md5="A4837917F48124DDFE1185AEC64C3D68" import="0">Music Replacers/Russia/Russia Peace.mp3</File>
+    <File md5="85ED936056F1BCAEF21A35DC92229AA8" import="0">Music Replacers/Russia/Russia War.mp3</File>
+    <File md5="496D95EDB84CC068A46D6131800F0776" import="0">Music Replacers/Russia/RussianWarMusic.xml</File>
+    <File md5="248DD4725CA5BDA07886A0459AF0C618" import="0">Music Replacers/Sweden/Sweden War.mp3</File>
+    <File md5="A94D7A62E436179599DFF623B714F5E2" import="0">Music Replacers/Sweden/SwedenWarMusicReplacer.xml</File>
+    <File md5="5C9A72289D176CAB8455E2BF85372555" import="0">Music Replacers/Zulu/MusicReplacementShaka.xml</File>
+    <File md5="9FD5082D69199C7BF76221C4D5C86389" import="0">Music Replacers/Zulu/Shaka War.mp3</File>
+    <File md5="B4E22C0096BB556AF8C919F3BC7E3AC1" import="1">Shared/JFD_TopPanelUpdated.lua</File>
+    <File md5="02C1B3C03249532E1C5FCF32599A5CCA" import="1">Shared/PlotIterators.lua</File>
+    <File md5="2BF649C76A1685527B9EC6BC56A3EB1D" import="0">Shared/Promotion_Created.xml</File>
+    <File md5="E3AB73844886B35F4B78A604FA2D13D2" import="0">Shared/SerialEventUnitCreatedGood.lua</File>
+    <File md5="FA224CF6320CE41309C0864F202F4007" import="1">Shared/Serializer.lua</File>
+    <File md5="92D445C34334A73A66CD8C2BB5269432" import="1">Shared/UA_Functions.lua</File>
+    <File md5="E7A7829DA046CAE14CD9E998EA2CDCC6" import="0">Shared/UA_Globals.sql</File>
+    <File md5="4075CC9481FE196874FF9279811BA802" import="1">Shared/UA_Main.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Music Replacers/Zulu/MusicReplacementShaka.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Zulu/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Zulu/Promotion.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Zulu/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Venice/ART/Venice_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Venice/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Venice/Civ.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Venice/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Venice/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Sweden/Building.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/Sweden/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Sweden/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/Sweden/SwedenWarMusicReplacer.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Spain/ART/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Spain/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Spain/Building.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/Spain/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Shared/UA_Globals.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/Songhai/Trait.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/Songhai/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Songhai/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Siam/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Siam/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Siam/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Shoshone/Building.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/Shoshone/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Shoshone/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Shoshone/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/Russia/Moskau - Russian Peace Music Replacer.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/Russia/RussianWarMusic.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Russia/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Russia/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Russia/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/Rome/Rome Peace Music Replacer.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Rome/ART/UB_IconAtlas.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/Rome/Building.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/Rome/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Rome/Promotion.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Rome/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Rome/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Portugal/Improvement.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Portugal/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Portugal/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Poland/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Poland/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/Poland/MusicReplacement.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Persia/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Persia/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Ottomans/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Ottomans/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Ottomans/Unit.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/Ottomans/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Neatherlands/Civ.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Neatherlands/Improvement.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Neatherlands/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Neatherlands/WetLandsRegion.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Morocco/Improvement.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Morocco/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Mongolia/Promotion.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Mongolia/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Mongolia/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/Mongolia/Genghis Khan Music Replacer.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Maya/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Maya/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Maya/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Korea/ART/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Korea/Building.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/Korea/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Korea/Promotion.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Korea/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Korea/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Japan/ART/IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Japan/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Japan/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Japan/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/Japan/JapanPeaceMusicReplacer.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/Japan/JapanWarMusicReplacer.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Iroquois/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Iroquois/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Iroquois/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Indonesia/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Indonesia/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Indonesia/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/India/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/India/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/India/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/India/India Peace Music Replacer.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/India/India War Music Replacer.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/Inca/Incan Peace Musik Ersetzer.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Inca/Improvement.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Inca/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Huns/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Huns/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Huns/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Greece/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Greece/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Germany/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Germany/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/Germany/MusicReplacementBismarck.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/France/France War Music Replacer.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/France/ART/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/France/Building.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/France/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/France/Improvement.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/France/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Ethiopia/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Ethiopia/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Ethiopia/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/England/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/England/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/England/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Egypt/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Egypt/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Egypt/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Denmark/BuildingText.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Denmark/Denmark_TradingPost.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/Denmark/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Denmark/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/China/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/China/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/China/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Celts/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Celts/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Carthage/Trait.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/Carthage/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Carthage/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Byzantium/ART/PeristyleIcon.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Byzantium/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Byzantium/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Brazil/Improvement.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Brazil/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Brazil/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Babylon/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Babylon/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Babylon/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Aztecs/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Aztecs/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Austria/Civ.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Austria/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Austria/Update.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Assyria/Building.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/Assyria/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Assyria/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Assyria/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/America/ART/Art.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/America/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/America/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/America/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Music Replacers/America/America War Music Replacer.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Songhai/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Shared/Promotion_Created.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Poland/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Iroquois/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Byzantium/Unit.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Shared/SerialEventUnitCreatedGood.lua">
+      <Name>SerialEventUnitCreatedGood</Name>
+      <Description>SerialEventUnitCreatedGood</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Shared/JFD_TopPanelUpdated.lua">
+      <Name>JFD_TopPanelUpdated</Name>
+      <Description>JFD_TopPanelUpdated</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Shared/PlotIterators.lua">
+      <Name>PlotIterators</Name>
+      <Description>PlotIterators</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Shared/Serializer.lua">
+      <Name>Serializer</Name>
+      <Description>Serializer</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Shared/UA_Functions.lua">
+      <Name>UA_Functions</Name>
+      <Description>UA_Functions</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Shared/UA_Main.lua">
+      <Name>UA_Main</Name>
+      <Description>UA_Main</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Civs/Songhai/Trait.lua">
+      <Name>SonghaiTrait</Name>
+      <Description>SonghaiTrait</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Civs/Shoshone/Trait.lua">
+      <Name>ShoshoneTrait</Name>
+      <Description>ShoshoneTrait</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Civs/Inca/Trait.lua">
+      <Name>IncaTrait</Name>
+      <Description>IncaTrait</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Civs/Denmark/Denmark_TradingPost.lua">
+      <Name>Denmark_TradingPost</Name>
+      <Description>Denmark_TradingPost</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Civs/Carthage/Trait.lua">
+      <Name>CarthageTrait</Name>
+      <Description>CarthageTrait</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

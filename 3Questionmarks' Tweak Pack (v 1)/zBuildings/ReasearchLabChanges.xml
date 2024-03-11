@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 3:54:05 PM -->
+<GameData>
+	<!-- Reasearch Labs Provides +40% Science (down from +50%). -->
+	<Building_YieldModifiers>
+		<Update>
+			<Set Yield="40" />
+			<Where BuildingType="BUILDING_LABORATORY" YieldType="YIELD_SCIENCE" />
+		</Update>
+	</Building_YieldModifiers>
+</GameData>

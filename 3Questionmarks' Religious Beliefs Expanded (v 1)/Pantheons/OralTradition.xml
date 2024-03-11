@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
+<GameData>
+	
+	<Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_ORAL_TRADITION</BeliefType>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_ORAL_TRADITION</BeliefType>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_ORAL_TRADITION" />
+		<Row Tag="TXT_KEY_BELIEF_ORAL_TRADITION">
+			<Text>+1 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, and +1 [ICON_RESEARCH] Science from Plantations</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

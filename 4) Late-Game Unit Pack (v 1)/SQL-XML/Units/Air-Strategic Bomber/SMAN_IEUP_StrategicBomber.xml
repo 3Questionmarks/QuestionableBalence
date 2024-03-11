@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+
+	<!--<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_STRATEGIC_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_STRATEGIC_BOMBER</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_STRATEGIC_BOMBER</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
+  <Units>
+   	  <Row>
+		  <Type>UNIT_SMAN_IEUP_STRATEGIC_BOMBER</Type>
+		  <Description>TXT_KEY_UNIT_SMAN_IEUP_STRATEGIC_BOMBER</Description>
+		  <CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+		  <Domain>DOMAIN_AIR</Domain>
+		  <Special>SPECIALUNIT_STEALTH</Special>
+		  <Class>UNITCLASS_SMAN_IEUP_STRATEGIC_BOMBER</Class>
+		  <Cost>380</Cost>
+		  <AdvancedStartCost>50</AdvancedStartCost>
+		  <RangedCombat>75</RangedCombat>
+		  <Range>17</Range>
+		  <RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+		  <IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		  <Moves>2</Moves>
+		  <Immobile>true</Immobile>
+		  <Strategy>TXT_KEY_UNIT_SMAN_IEUP_STRATEGIC_BOMBER_STRATEGY</Strategy>
+		  <Help>TXT_KEY_UNIT_SMAN_IEUP_STRATEGIC_BOMBER_HELP</Help>
+		  <Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_STRATEGIC_BOMBER_PEDIA</Civilopedia>
+		  <PrereqTech>TECH_ROCKETRY</PrereqTech>
+		  <ObsoleteTech>TECH_STEALTH</ObsoleteTech>
+		  <Pillage>false</Pillage>
+		  <PillagePrereqTech>TECH_ROCKETRY</PillagePrereqTech>
+		  <MoveRate>AIR_REBASE</MoveRate>
+		  <Mechanized>true</Mechanized>
+		  <UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_STRATEGIC_BOMBER</UnitArtInfo>
+		  <IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+		  <PortraitIndex>6</PortraitIndex>
+		  
+		  <RangedCombatLimit>100</RangedCombatLimit>
+		  <DomainCargo>DOMAIN_AIR</DomainCargo>
+		  <UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+		  <UnitFlagIconOffset>6</UnitFlagIconOffset>
+		  <AirUnitCap>1</AirUnitCap>
+		  <MilitaryProduction>true</MilitaryProduction>
+		  <MilitarySupport>true</MilitarySupport>
+		  <DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+	  </Row>
+  </Units>
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_STRATEGIC_BOMBER</UnitType>
+      <UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+    </Row>
+    
+  </Unit_AITypes>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_STRATEGIC_BOMBER</UnitType>
+      <FlavorType>FLAVOR_AIR</FlavorType>
+      <Flavor>15</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_STRATEGIC_BOMBER</UnitType>
+      <FlavorType>FLAVOR_OFFENSE</FlavorType>
+      <Flavor>13</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_STRATEGIC_BOMBER</UnitType>
+      <FlavorType>FLAVOR_DEFENSE</FlavorType>
+      <Flavor>7</Flavor>
+    </Row>
+  </Unit_Flavors>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_STRATEGIC_BOMBER</UnitType>
+			<UnitClassType>UNITCLASS_STEALTH_BOMBER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	 
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_STRATEGIC_BOMBER</UnitType>
+			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
+		</Row>	
+	</Unit_FreePromotions>
+	
+  <Unit_ResourceQuantityRequirements>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_STRATEGIC_BOMBER</UnitType>
+      <ResourceType>RESOURCE_OIL</ResourceType>
+    </Row>
+  </Unit_ResourceQuantityRequirements-->
+ 
+  <ArtDefine_UnitInfos>
+    <Row>
+      <Type>ART_DEF_UNIT_SMAN_IEUP_STRATEGIC_BOMBER</Type>
+      <DamageStates>1</DamageStates>
+      <Formation>BomberWing</Formation>
+    </Row>
+  </ArtDefine_UnitInfos>
+  <ArtDefine_UnitInfoMemberInfos>
+    <Row>
+      <UnitInfoType>ART_DEF_UNIT_SMAN_IEUP_STRATEGIC_BOMBER</UnitInfoType>
+      <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_STRATEGIC_BOMBER</UnitMemberInfoType>
+      <NumMembers>1</NumMembers>
+    </Row>
+  </ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_SMAN_IEUP_STRATEGIC_BOMBER</Type>
+			<Scale>.100</Scale>
+			<Domain>Air</Domain>
+			<Model>SMAN_IEUP_StrategicBomber.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_STRATEGIC_BOMBER</UnitMemberType>
+			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
+			<AttackRadius>135.0</AttackRadius>
+			<MoveRate>2</MoveRate>
+			<TurnRateMin>0.25</TurnRateMin>
+			<TurnRateMax>0.5</TurnRateMax>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_STRATEGIC_BOMBER</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<ProjectileSpeed>3.0</ProjectileSpeed>
+			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
+			<HitRadius>15.0</HitRadius>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_STRATEGIC_BOMBER</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>1.0</VisKillStrengthMin>
+			<VisKillStrengthMax>1.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
+			<HitRadius>15.0</HitRadius>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_STRATEGIC_BOMBER</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>1</SubIndex>
+			<ID>PROJECTILE</ID>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<ProjectileSpeed>3.0</ProjectileSpeed>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+  <UnitGameplay2DScripts>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_STRATEGIC_BOMBER</UnitType>
+      <SelectionSound />
+      <FirstSelectionSound />
+    </Row>
+  </UnitGameplay2DScripts>
+
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_STRATEGIC_BOMBER</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_Bomber.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_STRATEGIC_BOMBER</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_STRATEGIC_BOMBER</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	
+	
+  <!--Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_SMAN_IEUP_STRATEGIC_BOMBER">
+      <Text>Strategic Bomber</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SMAN_IEUP_STRATEGIC_BOMBER_STRATEGY">
+      <Text>The Strategic Bomber is an air unit, effective against ground targets, less so against naval targets, and it's quite vulnerable to enemy aircraft. It can move from base to base and perform missions within its range of "17." Use Bombers to attack enemy units and cities. When possible, send in fighters first to "use up" the enemy's anti-aircraft defenses for that turn.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SMAN_IEUP_STRATEGIC_BOMBER_HELP">
+      <Text>Air Unit that rains death from above onto enemy Units and Cities.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SMAN_IEUP_STRATEGIC_BOMBER_PEDIA">
+      <Text>
+		  The Strategic Bomber is an upgraded Bomber unit, available on the discovery of Rocketry, and does not become obsolete. Requires [ICON_RES_OIL] Oil.[NEWLINE][NEWLINE]The Strategic Bomber is based on the Boeing B-52 Stratofortress, which is a long-range, subsonic, jet-powered strategic bomber. The B-52 was designed and built by Boeing, which has continued to provide support and upgrades. It has been operated by the United States Air Force (USAF) since the 1950s. The bomber is capable of carrying up to 70,000 pounds (32,000 kg) of weapons.[NEWLINE]Beginning with the successful contract bid in June 1946, the B-52 design evolved from a straight wing aircraft powered by six turboprop engines to the final prototype YB-52 with eight turbojet engines and swept wings. The B-52 took its maiden flight in April 1952. Built to carry nuclear weapons for Cold War-era deterrence missions, the B-52 Stratofortress replaced the Convair B-36. A veteran of several wars, the B-52 has dropped only conventional munitions in combat. The B-52's official name Stratofortress is rarely used; informally, the aircraft has become commonly referred to as the BUFF (Big Ugly Fat Fucker).[NEWLINE]The B-52 has been in active service with the USAF since 1955. As of 2012, 85 were in active service with nine in reserve. The bombers flew under the Strategic Air Command (SAC) until it was inactivated in 1992 and its aircraft absorbed into the Air Combat Command (ACC); in 2010 all B-52 Stratofortresses were transferred from the ACC to the new Air Force Global Strike Command (AFGSC). Superior performance at high subsonic speeds and relatively low operating costs have kept the B-52 in service despite the advent of later, more advanced aircraft, including the canceled Mach 3 B-70 Valkyrie, the variable-geometry B-1 Lancer, and the stealth B-2 Spirit. The B-52 completed fifty years of continuous service with its original operator in 2005; after being upgraded between 2013 and 2015, it is expected to serve into the 2040s.</Text>
+    </Row>
+  </Language_en_US-->
+</GameData>
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 3:37:45 PM -->
+<GameData>
+	<!-- Horse Archer -->
+	<Units>
+		<Update>
+			<Set Combat="9" RangedCombat="12"/>
+			<Where Type="UNIT_HUN_HORSE_ARCHER" />
+		</Update>
+	</Units>
+	
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_HUN_HORSE_ARCHER</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_HORSE_ARCHER</UnitType>
+			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_HORSE_ARCHER</UnitType>
+			<PromotionType>PROMOTION_HORSEBACK_WITHDRAWAL</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_HUN_HORSE_ARCHER</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY"/>
+			<Set Text="Horse Archers are fast ranged units, deadly on open terrain. They are slightly stronger than the Chariot Archer and can move through rough terrain without the Chariot Archer's movement penalty as well as being able to move after attacking, Pillage tiles without expending movement and withdrawing when faced with a melee attack. They also start with the Accuracy I promotion. As a mounted unit, the Horse Archer is vulnerable to Spearmen."/>
+		</Update>
+	</Language_en_US>
+	
+	<!-- Battering Ram -->
+	<Units>
+		<Update>
+			<Set Class="UNITCLASS_CATAPULT" Combat="14" RangedCombat="0" Range="0"/>
+			<Where Type="UNIT_HUN_BATTERING_RAM" />
+		</Update>
+	</Units>
+	
+	<Civilization_UnitClassOverrides>
+		<Update>
+			<Set UnitClassType="UNITCLASS_CATAPULT" />
+			<Where UnitType="UNIT_HUN_BATTERING_RAM" />
+		</Update>
+	</Civilization_UnitClassOverrides>
+	
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_HUN_BATTERING_RAM" />
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<PromotionType>PROMOTION_CITY_ASSAULT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<PromotionType>PROMOTION_HIDE_SHIELDING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<PromotionType>PROMOTION_WEAK_MELEE_DEFENCE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<PromotionType>PROMOTION_ONLY_ATTACKS_CITIES</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_HUN_BATTERING_RAM</UnitType>
+			<ResourceType>RESOURCE_HARDWOOD</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HUN_BATTERING_RAM_STRATEGY"/>
+			<Set Text="Battering Rams are a Hunnic unique unit replacing the Catapult. Use Battering Rams to knock down the defenses of a city. They have the Hide Shielding promotion to keep them safe from ranged units; attack them with melee units to defeat them."/>
+		</Update>
+	</Language_en_US>
+</GameData>

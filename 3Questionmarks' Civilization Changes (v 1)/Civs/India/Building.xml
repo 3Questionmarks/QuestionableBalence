@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 11:31:51 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set Happiness="2" TechEnhancedTourism="4" FoodKept="15" />
+			<Where Type="BUILDING_MUGHAL_FORT" />
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP"/>
+			<Set>
+				<Text>15% of [ICON_FOOD] Food is kept after a [ICON_CITIZEN] Citzen is born. Provides +4 [ICON_TOURISM] Tourism after Flight is researched. [NEWLINE][NEWLINE]City must have Walls</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 12:36:14 PM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_LONGSHOT</Type>
+			<Description>Longshot</Description>
+			<Help>TXT_KEY_PROMOTION_RANGE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<RangeChange>1</RangeChange>
+			<PortraitIndex>34</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>Longshot</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+		<Row>
+			<Type>PROMOTION_LINE_FORMATION</Type>
+			<Description>Line Formation</Description>
+			<Help>+25% Combat Bonus when fighting adjacent to a friendly unit. Can move after attacking.</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<AdjacentMod>25</AdjacentMod>
+			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>line Formation</PediaEntry>
+		</Row>
+	</UnitPromotions>
+</GameData>

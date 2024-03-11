@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="99635056-ff83-4223-8f0e-5f87810b0503" version="6">
+  <Properties>
+    <Name>Commonwealth of Australia (GK and BNW)</Name>
+    <Teaser>The Commonwealth of Australia, led by Robert Menzies, as a playable Civilization.</Teaser>
+    <Description>[b]Latest Updates (Please note that updates may break savegames): [/b]
+[b]- New Unique Ability![/b]
+- Updated for Brave New World! 
+- Citystate names now display correctly!
+
+[b]The Commonwealth of Australia, led by Robert Menzies, as a playable Civilization. [/b]
+
+Australia has access to the unique '[b]Digger[/b]' infantry unit. This unit replaces the Great War Infantry. Digger units are more resiliant than the unit they replace, and suffer no penalty for attacking across sea or rivers. 
+
+They also have the [b]GoldFields[/b], a unique building that replaces the Mint and offers increased Happiness and a boost to Population when built.. 
+
+[b][i]New![/i] Boundless Plains to Share:[/b] Australia now gains happiness from settling coastal cities, and is able to produce Gold and Food from desert tiles thanks to their resilient nature.
+
+If you're not using Steam Workshop, you can Direct Download here: http://forums.civfanatics.com/showthread.php?t=500221</Description>
+    <Authors>BamFlux</Authors>
+    <SpecialThanks>Kael's Modders Guide, CivFanatics Forum, /u/redhammer11, Pangolian Empire,</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=500221</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="C9514779D1FB9D5BACC9B62A1066CA0E" import="1">Art/Australia_Map_DDS.dds</File>
+    <File md5="2F82B27959C019546D2292841CF356BE" import="1">Art/DiggerFlag.dds</File>
+    <File md5="10F3B0E275215CEA6BB0316B742AE2CB" import="1">Art/DOM_Robert_Menzies.dds</File>
+    <File md5="C154BF521C9C7B111F61A2F214F1CBE4" import="1">Art/IconAlphaAtlas128_AUSTRALIA_DDS.dds</File>
+    <File md5="5AAE3CC50CF164892F4EEC22B527C17F" import="1">Art/IconAlphaAtlas256_AUSTRALIA_DDS.dds</File>
+    <File md5="F845914F90036C3A0FA8F20C8FBF14F1" import="1">Art/IconAlphaAtlas32_AUSTRALIA_DDS.dds</File>
+    <File md5="D6D77A21DA2E5A3E5AF04D62DA97D51D" import="1">Art/IconAlphaAtlas64_AUSTRALIA_DDS.dds</File>
+    <File md5="8910ED5A0F9C94B4224E1FCDE2E45D60" import="1">Art/IconAlphaAtlas80_AUSTRALIA_DDS.dds</File>
+    <File md5="818554C6FEA50C0170A4E5F729CA1296" import="1">Art/IconAtlas128_AUSTRALIA_DDS.dds</File>
+    <File md5="570E147A3C2449D7EE084A65146323FC" import="1">Art/IconAtlas256_AUSTRALIA_DDS.dds</File>
+    <File md5="1B10E0209820FA9305E1F8B6F21E37A8" import="1">Art/IconAtlas32_AUSTRALIA_DDS.dds</File>
+    <File md5="171ABD90A98E8AB100F4387729285A46" import="1">Art/IconAtlas45_AUSTRALIA_DDS.dds</File>
+    <File md5="60206A9E4DC656C845A2A33BFB3CEEB7" import="1">Art/IconAtlas64_AUSTRALIA_DDS.dds</File>
+    <File md5="214780D0FCDF847F152C14150CAF9D09" import="1">Art/IconAtlas80_AUSTRALIA_DDS.dds</File>
+    <File md5="25980AE37AAE67CE15F94CB8DB9794F9" import="1">Art/Menzies_Diplomacy_DDS.dds</File>
+    <File md5="DF3D2356A13EC83586D1472CC409C247" import="0">XML/Buildings/CIV5BuildingClasses.xml</File>
+    <File md5="34D939D2FFFADC0EBD587A72DA7BDA65" import="1">XML/Buildings/CIV5Buildings.xml</File>
+    <File md5="11714F6B51CB1B0C7997DFEB86FDAB16" import="1">XML/Civilizations/Civ5Traits.xml</File>
+    <File md5="D5217891A1EB1CAA710D7217697960E1" import="1">XML/Civilizations/Civilization.xml</File>
+    <File md5="68E679EF8A2A5505C801F6D9AA0C4E81" import="0">XML/Civilizations/DeleteCivs.xml</File>
+    <File md5="096DECBADD08F0CF8E0C11C63BD88EEB" import="0">XML/Civilizations/MinorCivReplacements.xml</File>
+    <File md5="1869C0136490DAC29DCA20C9767A52D5" import="1">XML/GameInfo/CIV5IconTextureAtlases.xml</File>
+    <File md5="B195713987C06FC485864F71AD848DF6" import="1">XML/Leaders/Leader.xml</File>
+    <File md5="EE4B58723F14195A2F22926C268EB645" import="1">XML/Leaders/Menzies_Scene.xml</File>
+    <File md5="4E19B8D684CA186775DE33262611FB41" import="0">XML/NewText/Civ5Diplomacy_Responses.xml</File>
+    <File md5="78929DAE62FF4CCAD40FA47D1619CEFC" import="0">XML/NewText/Civ5_Dialog_Menzies.xml</File>
+    <File md5="42324F23E81EFBBB99CE5D90096413E9" import="1">XML/Units/Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Civilizations/Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/CIV5IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Menzies_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ5Traits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/CIV5Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/Civ5_Dialog_Menzies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/Civ5Diplomacy_Responses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/MinorCivReplacements.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/DeleteCivs.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/CIV5BuildingClasses.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

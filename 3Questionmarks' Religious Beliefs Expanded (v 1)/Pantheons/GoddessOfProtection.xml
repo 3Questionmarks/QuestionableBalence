@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/19/2018 6:46:44 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_GODDESS_OF_PROTECTION</Type>
+			<Description>TXT_KEY_BELIEF_GODDESS_OF_PROTECTION</Description>
+			<ShortDescription>TXT_KEY_BELIEF_GODDESS_OF_PROTECTION_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+            <FriendlyHealChange>20</FriendlyHealChange>
+            <CityRangeStrikeModifier>20</CityRangeStrikeModifier>
+		</Row>
+	</Beliefs>
+
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_GODDESS_OF_PROTECTION</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_GODDESS_OF_PROTECTION</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_GODDESS_OF_PROTECTION</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_GODDESS_OF_PROTECTION">
+			<Text>+3 [ICON_PRODUCTION] Production from Monuments and +5 [ICON_PEACE] Faith from Walls and Castles. Units Recover 20 More Health When Healing inside freindly teritory and +20% [ICON_RANGE_STRENGTH] Ranged Combat Strength for cities.</Text>
+		</Row>
+	</Language_en_US>
+    
+    <Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_GODDESS_OF_PROTECTION_SHORT">
+			<Text>Goddess of Protection</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

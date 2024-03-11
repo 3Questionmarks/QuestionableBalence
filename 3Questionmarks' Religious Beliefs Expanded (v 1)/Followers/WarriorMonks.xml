@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- Use Faith to purchase Land and Naval Units -->
+	<Belief_EraFaithUnitPurchase>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<EraType>ERA_INDUSTRIAL</EraType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<EraType>ERA_MODERN</EraType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<EraType>ERA_POSTMODERN</EraType>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<EraType>ERA_FUTURE</EraType>
+		</Row>
+	</Belief_EraFaithUnitPurchase>
+	
+	<!-- Add Faith costs to all Naval Units and their unique counterparts. -->
+
+	<Units>
+		<Update>
+			<Set FaithCost="850" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_MISSILE_CRUISER" />
+		</Update>
+		<Update>
+			<Set FaithCost="850" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_NUCLEAR_SUBMARINE" />
+		</Update>
+		<Update>
+			<Set FaithCost="750" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_CARRIER" />
+		</Update>
+		<Update>
+			<Set FaithCost="750" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_BATTLESHIP" />
+		</Update>
+		<Update>
+			<Set FaithCost="650" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_SUBMARINE" />
+		</Update>
+		<Update>
+			<Set FaithCost="500" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_IRONCLAD" />
+		</Update>
+		<Update>
+			<Set FaithCost="650" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_DESTROYER" />
+		</Update>
+		<Update>
+			<Set FaithCost="370" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_FRIGATE" />
+		</Update>
+		<Update>
+			<Set FaithCost="340" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_ENGLISH_SHIPOFTHELINE" />
+		</Update>
+		<Update>
+			<Set FaithCost="240" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_CARAVEL" />
+		</Update>
+		<Update>
+			<Set FaithCost="90" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_TRIREME" />
+		</Update>
+		<Update>
+			<Set FaithCost="240" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_KOREAN_TURTLE_SHIP" />
+		</Update>
+		<Update>
+			<Set FaithCost="112" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_BYZANTINE_DROMON" />
+		</Update>
+		<Update>
+			<Set FaithCost="90" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_CARTHAGINIAN_QUINQUEREME" />
+		</Update>
+		<Update>
+			<Set FaithCost="300" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_DUTCH_SEA_BEGGAR" />
+		</Update>
+		<Update>
+			<Set FaithCost="200" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_GALLEASS" />
+		</Update>
+		<Update>
+			<Set FaithCost="300" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_PRIVATEER" />
+		</Update>
+		<Update>
+			<Set FaithCost="240" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_PORTUGUESE_NAU" />
+		</Update>
+		<Update>
+			<Set FaithCost="200" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_VENETIAN_GALLEASS" />
+		</Update>
+	</Units>
+
+	<Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_HOLY_WARRIORS</BeliefType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_WARRIOR_MONKS</Type>
+			<Description>TXT_KEY_BELIEF_HOLY_WARRIORS_SHORT</Description>
+			<Help>TXT_KEY_PROMOTION_WARRIOR_MONKS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_WARRIOR_MONKS</PediaEntry>
+			<GreatGeneralModifier>50</GreatGeneralModifier>
+		</Row>
+	</UnitPromotions>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_HOLY_WARRIORS" />
+		<Row Tag="TXT_KEY_BELIEF_HOLY_WARRIORS">
+			<Text>Use [ICON_PEACE] Faith to purchase Land and Naval Units. +1 [ICON_PEACE] Faith from Forts, +3 [ICON_PEACE] Faith from Citadels, and units built in cities that follow this [ICON_RELIGION] Religion earn [ICON_GREAT_GENERAL] Great Generals 50% faster.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_BELIEF_HOLY_WARRIORS_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_HOLY_WARRIORS_SHORT">
+			<Text>Warrior Monks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WARRIOR_MONKS_HELP">
+			<Text>+50% more Great General points from Combat.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

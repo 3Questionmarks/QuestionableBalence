@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 08/15/16 12:39:59 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- DIPLOMACY: VANILLA Vanilla -->
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_UC_MICANOPY_FIRSTGREETING_1">
+			<Text>Greetings wanderer. I am Micanopy, chief of the Seminole people. We will respect you as long as you respect our sovereignty.</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_UC_MICANOPY_DEFEATED_1">
+			<Text>I'd rather die in combat than sign a cowardly peace treaty.</Text>
+		</Row>
+		<!--First Greeting from leaders that don't have their own file yet-->
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_UC_MICANOPY_GREETING_POLITE_HELLO_1">
+			<Text>Hello again friend. There's quite a tranquility here in the swamp. Can you sense it too?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_MICANOPY_DOW_LEADER_UC_MICANOPY_1">
+			<Text>Your dishonorable crimes cannot go unpunished. We shall send you back to whence you came.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_MICANOPY_DENOUNCE_1">
+			<Text>You have no respect for the rights of other nations, and as such, we will have no respect for you.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_MICANOPY_DEC_FRIENDSHIP_1">
+			<Text>Survival is infinitely more difficult without help. If we combine our forces, we can brace any onslaught or live through any disaster. Do you agree?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_MICANOPY_NO_PEACE_1">
+			<Text>The Seminole will never surrender!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_MICANOPY_ATTACKED_HOSTILE_1">
+			<Text>I suspected such treachery from the likes of you. So be it, send your armies into our swamps and see them perish!</Text>
+		</Row>
+
+	</Language_en_US>
+  
+</GameData>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/26/2020 11:22:39 AM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set Capture="UNITCLASS_ARCHAEOLOGIST"/>
+			<Where Type="UNIT_ARCHAEOLOGIST"/>
+		</Update>
+		<Update>
+			<Set Capture="UNITCLASS_SETTLER"/>
+			<Where Type="UNIT_SETTLER"/>
+		</Update>
+		<Update>
+			<Set Capture="UNITCLASS_WORKBOAT"/>
+			<Where Type="UNIT_WORKBOAT"/>
+		</Update>
+		<Update>
+			<Set Capture="UNITCLASS_ARTIST"/>
+			<Where Type="UNIT_ARTIST"/>
+		</Update>
+		<Update>
+			<Set Capture="UNITCLASS_ENGINEER"/>
+			<Where Type="UNIT_ENGINEER"/>
+		</Update>
+		<Update>
+			<Set Capture="UNITCLASS_MERCHANT"/>
+			<Where Type="UNIT_MERCHANT"/>
+		</Update>
+        <Update>
+			<Set Capture="UNITCLASS_MUSICIAN"/>
+			<Where Type="UNIT_MUSICIAN"/>
+		</Update>
+		<Update>
+			<Set Capture="UNITCLASS_SCIENTIST"/>
+			<Where Type="UNIT_SCIENTIST"/>
+		</Update>
+		<Update>
+			<Set Capture="UNITCLASS_GREAT_GENERAL"/>
+			<Where Type="UNIT_GREAT_GENERAL"/>
+		</Update>
+		<Update>
+			<Set Capture="UNITCLASS_PROPHET"/>
+			<Where Type="UNIT_PROPHET"/>
+		</Update>
+		<Update>
+			<Set Capture="UNITCLASS_MISSIONARY"/>
+			<Where Type="UNIT_MISSIONARY"/>
+		</Update>
+		<Update>
+			<Set Capture="UNITCLASS_INQUISITOR"/>
+			<Where Type="UNIT_INQUISITOR"/>
+		</Update>
+		<Update>
+			<Set Capture="UNITCLASS_WRITER"/>
+			<Where Type="UNIT_WRITER"/>
+		</Update>
+		<Update>
+			<Set Capture="UNITCLASS_GREAT_ADMIRAL"/>
+			<Where Type="UNIT_GREAT_ADMIRAL"/>
+		</Update>
+	</Units>
+</GameData>

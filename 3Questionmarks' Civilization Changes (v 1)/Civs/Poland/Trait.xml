@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/11/2018 18:44:36 AM -->
+<GameData>
+
+	<!-- New Solidarity: Culture cost of adopting new Policies reduced by 20%. -->
+	<Traits>
+		<Update>
+			<Set PolicyCostModifier="-25" FreeSocialPoliciesPerEra="0" />
+			<Where Type="TRAIT_SOLIDARITY" />
+		</Update>
+	</Traits>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_SOLIDARITY" />
+		<Row Tag="TXT_KEY_TRAIT_SOLIDARITY">
+			<Text>The [ICON_CULTURE] Culture cost of adopting policies is reduced by 25%.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

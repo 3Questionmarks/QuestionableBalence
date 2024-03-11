@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/28/2014 5:59:46 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DJSH_LEATHERWORKER</Type>
+			<DefaultBuilding>BUILDING_DJSH_LEATHERWORKER</DefaultBuilding>
+			<Description>Leatherworker</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DJSH_LEATHERWORKER</Type>
+			<BuildingClass>BUILDINGCLASS_DJSH_LEATHERWORKER</BuildingClass>
+			<Cost>100</Cost>
+            <GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<Description>Leatherworker</Description>
+			<Civilopedia>Leather is a durable and flexible material created by the tanning of animal rawhide and skin. Leather is used for various purposes including clothing bookbinding, leather wallpaper, and as a furniture covering. It is produced in a wide variety of types and styles and is decorated by a wide range of techniques.</Civilopedia>
+			<Strategy>Requires a Tannery in the City. +10% [ICON_GOLD] Gold. Units trained in this City gain +10% [ICON_STRENGTH] Defense.</Strategy>
+			<Help>Units trained in this City gain +10% [ICON_STRENGTH] Defense.[NEWLINE][NEWLINE]Requires a Tannery in this City.</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+			<TrainedFreePromotion>PROMOTION_DJSH_LEATHERWORKER</TrainedFreePromotion>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>RES_BUILDING_DJSH_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DJSH_LEATHERWORKER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_LEATHERWORKER</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_DJSH_LEATHERWORKER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_DJSH_TANNERY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_DJSH_LEATHERWORKER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_DJSH_LEATHERWORKER</Type>
+			<Description>Hard Leather Armour</Description>
+			<Help>+10% [ICON_STRENGTH] Defense.</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<DefenseMod>10</DefenseMod>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>Hard Leather Armour</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_DJSH_LEATHERWORKER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_DJSH_LEATHERWORKER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_DJSH_LEATHERWORKER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_DJSH_LEATHERWORKER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_DJSH_LEATHERWORKER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_DJSH_LEATHERWORKER</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+</GameData>

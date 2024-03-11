@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
+<GameData>
+	
+	<Belief_YieldChangeNaturalWonder>
+		<Delete BeliefType="BELIEF_ONE_WITH_NATURE" />
+		<Row>
+			<BeliefType>BELIEF_ONE_WITH_NATURE</BeliefType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_ONE_WITH_NATURE</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_ONE_WITH_NATURE</BeliefType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ONE_WITH_NATURE</BeliefType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_ONE_WITH_NATURE</BeliefType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ONE_WITH_NATURE</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Belief_YieldChangeNaturalWonder>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE" />
+		<Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE">
+			<Text>+2 [ICON_FOOD] Food, +2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold, +2 [ICON_PRODUCTION] Production, +2 [ICON_RESEARCH] Science, and +5 [ICON_PEACE] Faith from Natural Wonders.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

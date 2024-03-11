@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/24/2021 1:33:24 PM -->
+<GameData>
+	<Worlds>
+		<Update>
+			<Where Type="WORLDSIZE_DUEL"/>
+			<Set NumCitiesPolicyCostMod="10" NumCitiesUnhappinessPercent="90" NumCitiesTechCostMod="10"/>
+		</Update>
+		<Update>
+			<Where Type="WORLDSIZE_TINY"/>
+			<Set NumCitiesPolicyCostMod="10" NumCitiesUnhappinessPercent="90" NumCitiesTechCostMod="10"/>
+		</Update>
+		<Update>
+			<Where Type="WORLDSIZE_SMALL"/>
+			<Set NumCitiesPolicyCostMod="10" NumCitiesUnhappinessPercent="90" NumCitiesTechCostMod="10"/>
+		</Update>
+		<Update>
+			<Where Type="WORLDSIZE_STANDARD"/>
+			<Set NumCitiesPolicyCostMod="10" NumCitiesUnhappinessPercent="90" NumCitiesTechCostMod="10"/>
+		</Update>
+		<Update>
+			<Where Type="WORLDSIZE_LARGE"/>
+			<Set NumCitiesPolicyCostMod="10" NumCitiesUnhappinessPercent="90" NumCitiesTechCostMod="10"/>
+		</Update>
+		<Update>
+			<Where Type="WORLDSIZE_HUGE"/>
+			<Set NumCitiesPolicyCostMod="10" NumCitiesUnhappinessPercent="90" NumCitiesTechCostMod="10"/>
+		</Update>
+	</Worlds>
+</GameData>

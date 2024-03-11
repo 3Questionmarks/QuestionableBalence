@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/22/2020 9:49:48 AM -->
+<GameData>
+	<!-- Fertility Rites -->
+	<Beliefs>
+		<Update>
+			<Where Type="BELIEF_FERTILITY_RITES" />
+			<Set CityGrowthModifier="10"
+                 HappinessPerCity="2"
+				 MinPopulation="6" />
+		</Update>
+	</Beliefs>
+    <Belief_CityYieldChanges>
+        <Row>
+			<BeliefType>BELIEF_FERTILITY_RITES</BeliefType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_FERTILITY_RITES</BeliefType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_FERTILITY_RITES</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_FERTILITY_RITES</BeliefType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_FERTILITY_RITES</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_FERTILITY_RITES</BeliefType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Belief_CityYieldChanges>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_FERTILITY_RITES" />
+			<Set Text="+10% [ICON_FOOD] Growth in cities; +2 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, [ICON_PEACE] Faith, and [ICON_HAPPINESS_1] Happiness in cities with a [ICON_CITIZEN] Population of 6+." />
+		</Update>
+	</Language_en_US>
+</GameData>

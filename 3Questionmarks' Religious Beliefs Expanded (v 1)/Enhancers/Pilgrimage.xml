@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- +1 Trade Route and foreign Trade Routes provide +2 Faith -->
+	<Beliefs>
+		<Update>
+			<Set Enhancer="true" Founder="false" SpreadDistanceModifier="50" />
+			<Where Type="BELIEF_PILGRIMAGE" />
+		</Update>
+	</Beliefs>
+    
+    <Belief_YieldChangePerForeignCity>
+		<Update>
+            <Set>
+                <BeliefType>BELIEF_PILGRIMAGE</BeliefType>
+                <YieldType>YIELD_FAITH</YieldType>
+                <Yield>3</Yield>
+            </Set>
+        </Update>
+	</Belief_YieldChangePerForeignCity>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_PILGRIMAGE" />
+		<Row Tag="TXT_KEY_BELIEF_PILGRIMAGE">
+			<Text> +3 [ICON_PEACE] Faith for every foreign City following this [ICON_RELGION] Religion and [ICON_RELGION] Religion spreads 50% further.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

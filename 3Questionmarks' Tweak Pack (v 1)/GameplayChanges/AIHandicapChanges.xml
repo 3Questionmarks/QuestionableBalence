@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/27/2024 10:39:07 PM -->
+<GameData>
+	
+	<!-- No Free Tech -->
+	<HandicapInfo_AIFreeTechs>
+		<Delete TechType="TECH_POTTERY" />
+		<Delete TechType="TECH_ARCHERY" />
+		<Delete TechType="TECH_MINING" />
+		<Delete TechType="TECH_ANIMAL_HUSBANDRY" />
+		<Delete TechType="TECH_THE_WHEEL" />
+	</HandicapInfo_AIFreeTechs>
+	<HandicapInfos>
+		<!-- No Starting Workers or unit multiplier -->
+		<Update>
+			<Set AIStartingWorkerUnits="0" AIStartingUnitMultiplier="0"/>
+		</Update>
+		<!-- Wonder Rate -->
+		<Update>
+			<Set AIWorldConstructPercent="110" />
+			<Where Type="HANDICAP_PRINCE"/>
+		</Update>
+		<Update>
+			<Set AIWorldConstructPercent="110" />
+			<Where Type="HANDICAP_KING"/>
+		</Update>
+		<Update>
+			<Set AIWorldConstructPercent="110" />
+			<Where Type="HANDICAP_EMPEROR"/>
+		</Update>
+		<Update>
+			<Set AIWorldConstructPercent="110" />
+			<Where Type="HANDICAP_IMMORTAL"/>
+		</Update>
+		<!-- Unhappiness Mod -->
+		<Update>
+			<Set AIUnhappinessPercent="100" />
+		</Update>
+		<!-- No Free XP -->
+		<Update>
+			<Set AIFreeXP="0" />
+		</Update>
+		<!-- No XP multiplier -->
+		<Update>
+			<Set AIFreeXPPercent="0" />
+		</Update>
+		<!-- Reduce Growth Mod -->
+		<Update>
+			<Set AIGrowthPercent="95" />
+			<Where Type="HANDICAP_KING"/>
+		</Update>
+		<Update>
+			<Set AIGrowthPercent="95" />
+			<Where Type="HANDICAP_EMPEROR"/>
+		</Update>
+		<Update>
+			<Set AIGrowthPercent="75" />
+			<Where Type="HANDICAP_IMMORTAL"/>
+		</Update>
+		<Update>
+			<Set AIGrowthPercent="65" />
+			<Where Type="HANDICAP_DEITY"/>
+		</Update>
+	</HandicapInfos>
+	
+</GameData>

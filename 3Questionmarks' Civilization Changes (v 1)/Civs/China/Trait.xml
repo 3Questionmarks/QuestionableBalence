@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 2:35:52 PM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set GreatGeneralRateModifier="100" />
+			<Where Type="TRAIT_ART_OF_WAR" />
+		</Update>
+		<Update>
+			<Set GreatGeneralExtraBonus="25" />
+			<Where Type="TRAIT_ART_OF_WAR" />
+		</Update>
+		<Update>
+			<Set AfraidMinorPerTurnInfluence="500" />
+			<Where Type="TRAIT_ART_OF_WAR" />
+		</Update>
+	</Traits>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_ART_OF_WAR" />
+			<Set Text="The Great General [ICON_STRENGTH] Combat Strength bonus is increased by 25%, and their spawn rate is increased by 100%. +5 [ICON_INFLUENCE] Influence per turn with [ICON_CITY_STATE] City States that you could demand a tribute from, but do not."/>
+		</Update>
+	</Language_en_US>
+</GameData>

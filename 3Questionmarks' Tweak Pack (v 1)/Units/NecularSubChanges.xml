@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:18:26 PM -->
+<GameData>
+	<!-- Urainium and Aluminium now required for Nucular Subs -->
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+
+	<!-- Icreases nucular sub speed by 2 -->
+	<Units>
+		<Update>
+			<Set Moves="8" />
+			<Where Type="UNIT_NUCLEAR_SUBMARINE" />
+		</Update>
+	</Units>
+
+	<!-- buffs nucular subs to 95 ranged strength -->
+	<Units>
+		<Update>
+			<Set RangedCombat="95" />
+			<Where Type="UNIT_NUCLEAR_SUBMARINE" />
+		</Update>
+	</Units>
+	<Units>
+		<Update>
+			<Set Cost="1000" />
+			<Where Class ="UNITCLASS_NUCLEAR_SUBMARINE" />
+		</Update>
+	</Units>
+
+	<!-- Text -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_NUCLEAR_SUBMARINE_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_NUCLEAR_SUBMARINE_STRATEGY">
+			<Text>The Nuclear Submarine is tougher and stronger than the earlier model. It too is invisible to most units and can see other submarines. Most importantly, Nuclear Submarines can carry guided missiles. Like submarines, Nuclear Subs are vulnerable to enemy Destroyers, and Subs, so send units of your own out ahead to make sure the coast is clear.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

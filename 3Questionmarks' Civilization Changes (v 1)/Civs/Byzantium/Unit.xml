@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/9/2024 2:03:20 AM -->
+<GameData>
+	<!-- Allow unqiue promotion to pass on, but nurf to +25%-->
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_BYZANTINE_DROMON" PromotionType="PROMOTION_NAVAL_BONUS"/>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<PromotionType>PROMOTION_GREEK_FIRE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_GREEK_FIRE</Type>
+			<Description>TXT_KEY_PROMOTION_GREEK_FIRE</Description>
+			<Help>TXT_KEY_PROMOTION_GREEK_FIRE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>GREEK_FIRE_ICON</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_GREEK_FIRE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_UnitCombatMods>
+		<Row>
+			<PromotionType>PROMOTION_GREEK_FIRE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<Modifier>25</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_GREEK_FIRE</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<Modifier>25</Modifier>
+		</Row>
+	</UnitPromotions_UnitCombatMods>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_GREEK_FIRE">
+			<Text>Greek Fire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREEK_FIRE_HELP">
+			<Text>+25% Bonus vs Naval Units</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>GREEK_FIRE_ICON</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>greekfire_portrait256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GREEK_FIRE_ICON</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>greekfire_portrait64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GREEK_FIRE_ICON</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>greekfire_portrait44.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GREEK_FIRE_ICON</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>greekfire_portrait32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+  
+</GameData>

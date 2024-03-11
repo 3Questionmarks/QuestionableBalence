@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-26 00:15:53 -->
+<GameData>
+	
+	<!-- Gold gifts to City States earn 100% more Influence. -->
+	<Beliefs>
+		<Update>
+			<Set Reformation="false" Founder="true" CityStateInfluenceModifier="100" FriendlyCityStateSpreadModifier="50" />
+			<Where Type="BELIEF_CHARITABLE_MISSIONS" />
+		</Update>
+	</Beliefs>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS" />
+		<Row Tag="TXT_KEY_BELIEF_CHARITABLE_MISSIONS">
+			<Text>[ICON_INFLUENCE] Influence boosts from [ICON_GOLD] Gold gifts to [ICON_CITY_STATE] City-States are increased by 100%, and [ICON_RELIGION] Religion spreads 50% faster to friendly [ICON_CITY_STATE] City-States.</Text>
+		</Row>
+	</Language_en_US>	
+</GameData>

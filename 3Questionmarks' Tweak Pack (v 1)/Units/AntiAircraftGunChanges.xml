@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/24/2021 3:57:37 PM -->
+<GameData>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_ANTI_AIRCRAFT_GUN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_ANTI_AIRCRAFT_GUN</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Units>
+		<Update>
+			<Set Cost="420" />
+			<Where Class="UNITCLASS_ANTI_AIRCRAFT_GUN" />
+		</Update>
+	</Units>
+</GameData>

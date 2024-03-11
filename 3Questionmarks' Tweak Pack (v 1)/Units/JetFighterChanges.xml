@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/5/2024 7:52:29 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set Cost="1000" RangedCombat="85" Range="20" />
+			<Where Class="UNITCLASS_JET_FIGHTER" />
+		</Update>
+	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_JET_FIGHTER_STRATEGY"/>
+		<Row Tag="TXT_KEY_UNIT_JET_FIGHTER_STRATEGY">
+			<Text>The Jet Fighter is a powerful air unit. It can be based in any city you own or aboard an aircraft carrier. It can move from base to base and can perform "missions" within its range of "20". Use Jet Fighters to attack enemy aircraft and ground units, to scout enemy positions, and to defend against enemy air attacks. Jet Fighters are especially effective against enemy helicopters. The Jet Fighter has the "air recon" ability, which means that everything within 6 tiles of its starting location is visible at the beginning of the turn. See the rules on Aircraft for more information.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

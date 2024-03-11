@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/27/2024 7:37:15 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_PIONEER</Type>
+			<Description>TXT_KEY_UNIT_PIONEER</Description>
+			<DefaultUnit>UNIT_PIONEER</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Update>
+			<Set ObsoleteTech="TECH_COMPASS"/>
+			<Where type="UNIT_SETTLER"/>
+		</Update>
+		<Row>
+			<Class>UNITCLASS_PIONEER</Class>
+			<Cost>250</Cost>
+			<Type>UNIT_PIONEER</Type>
+			<Moves>3</Moves>
+			<Capture>UNITCLASS_PIONEER</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH_EARLY_GAME_ONLY</CivilianAttackPriority>
+			<HurryCostModifier>20</HurryCostModifier>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_SETTLE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_PIONEER</Description>
+			<Civilopedia>TXT_KEY_CIV5_PIONEER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_PIONEER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_PIONEER</Help>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
+			<Food>true</Food>
+			<Found>true</Found>
+			<ObsoleteTech>TECH_BIOLOGY</ObsoleteTech>
+			<CombatLimit>0</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT__SETTLER</UnitArtInfo>
+			<UnitArtInfoCulturalVariation>true</UnitArtInfoCulturalVariation>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_PIONEER</UnitType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_PIONEER</UnitType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_PIONEER</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PIONEER</UnitType>
+			<PromotionType>PROMOTION_DEFENSIVE_EMBARKATION</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_SETTLER</UnitType>
+			<UnitClassType>UNITCLASS_PIONEER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Trait_NoTrain>
+		<Row>
+			<TraitType>TRAIT_SUPER_CITY_STATE</TraitType>
+			<UnitClassType>UNITCLASS_PIONEER</UnitClassType>
+		</Row>
+	</Trait_NoTrain>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_PIONEER">
+			<Text>Pioneer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
+			<Text>
+				Use this unit to construct new cities midgame. Cities built by Pioneers earn free buildings and start with 4 [ICON_CITIZEN] Citizens. Pioneers turn into a Worker unit after founding a city. It cannot defend itself, so accompany it with a combat unit.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PIONEER_TEXT">
+			<Text>
+				Pioneers drive civilization. While most are satisfied with the status quo, happy just to survive, in every culture there are a few hardy individuals willing to strike out on their own, to risk everything in the hope of finding a better life for themselves and their children. In the midevil and renaissance eras, Pioneers of the most powerful counties spread across the globe, claiming the goods of the world for their own. In the future they may lead the way to the moon, Mars, and even beyond.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PIONEER">
+			<Text>
+				Founds new Cities with advanced infrastructure and additional population and territory. [NEWLINE]Turns into a worker after founding a city.[NEWLINE][ICON_FOOD] Growth of the City is stopped while this Unit is being built.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

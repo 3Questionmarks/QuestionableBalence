@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/3/2021 8:37:59 PM -->
+<GameData>
+	<Defines>
+		<!-- Cities can expand out to 12 tiles -->
+		<Update>
+			<Set Value="12"/>
+			<Where Name="MAXIMUM_ACQUIRE_PLOT_DISTANCE"/>
+		</Update>
+		<!-- make tiles cheaper to buy -->
+		<Update>
+			<Where Name="PLOT_BASE_COST"/>
+			<Set Value="50" />
+		</Update>
+		<Update>
+			<Where Name="PLOT_ADDITIONAL_COST_PER_PLOT"/>
+			<Set Value="0" />
+		</Update>
+	</Defines>
+</GameData>

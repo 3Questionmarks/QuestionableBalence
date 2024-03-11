@@ -1,0 +1,1 @@
+UPDATE BuildFeatures SET Production = 20 WHERE FeatureType = 'FEATURE_JUNGLE' AND Remove = '1'

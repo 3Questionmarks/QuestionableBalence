@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/5/2024 11:55:54 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set Cost="520" />
+			<Where Class="UNITCLASS_BOMBER" />
+		</Update>
+	</Units>
+  
+</GameData>

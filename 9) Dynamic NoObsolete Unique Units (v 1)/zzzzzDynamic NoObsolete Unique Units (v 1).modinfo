@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3e02d448-6631-4670-a403-4ee24be15468" version="1">
+  <Properties>
+    <Name>zzzzzDynamic NoObsolete Unique Units</Name>
+    <Teaser>Removes Unique Unit's "Obsolete" from tech progress.</Teaser>
+    <Description>This mod removes Unique Unit's "Obsolete" from tech progress.</Description>
+    <Authors>Manbok</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="2824D1F6754A9AB4B0E2BF76970AFE2C" import="0">DynamicNoObsoleteUniqueUnits.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>DynamicNoObsoleteUniqueUnits.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2016 6:11:27 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_LUMBER_YARD_UNIT</Type>
+			<Description>TXT_KEY_UNIT_LUMBER_YARD_UNIT</Description>
+			<DefaultUnit>UNIT_LUMBER_YARD_UNIT</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_LUMBER_YARD_UNIT</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_LUMBER_YARD_UNIT</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_LUMBER_YARD_UNIT</Class>
+			<Type>UNIT_LUMBER_YARD_UNIT</Type>
+			<Cost>-1</Cost> <!-- Makes invisible in City Build Queue -->
+			<FaithCost>-1</FaithCost> <!-- Makes invisible in Civilopedia -->
+			<Moves>2</Moves>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_LUMBER_YARD_UNIT</Description> <!--
+			<Civilopedia>TXT_KEY_UNIT_LUMBER_YARD_UNIT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_LUMBER_YARD_UNIT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_LUMBER_YARD_UNIT_HELP</Help>-->
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<CombatLimit>0</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT__WORKER</UnitArtInfo>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+		</Row>
+	</Units>
+</GameData>

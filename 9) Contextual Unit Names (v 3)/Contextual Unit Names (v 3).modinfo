@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5cf176bb-7470-4eb4-8ffc-8975457ade14" version="3">
+  <Properties>
+    <Name>Contextual Unit Names</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Each unit now gets a unique name based on where it was trained.</Teaser>
+    <Description>This mod aims to add a bit of variety to your units name. Based on where a unit was born (or upgraded), it gets a unique name. Units like "7th Cavalry of Warsaw", or "15th Artillery of Delhi", will be comman place in your army (except the city name depends on the cities you have). "Enemy Reconnaissance" is the third expansion to this mod.[NEWLINE][NEWLINE]
+
+Enemy Reconnaissance: Features[NEWLINE][NEWLINE]
+
+[ICON_BULLET]Instead of having to switch presets, every time you entered a new era, there is now a preset for each era that cycles through automatically.[NEWLINE][NEWLINE]
+
+[ICON_BULLET]There is now a "Overall Preset", that basically sets all the presets for each era. Easier way to understand this is, "Overall Preset" is a preset for presets. [COLOR_WARNING_TEXT]Note: If using a mod that changes eras (like add more or completely change them), please read through compatibility section.[ENDCOLOR]
+[NEWLINE][NEWLINE]
+
+[ICON_BULLET]Like most things in this mod, you can change each individual era-preset from "Advanced Settings."[NEWLINE][NEWLINE]
+
+[ICON_BULLET]Till now only human units were named, but now I have add a feature for enemy units to be named. So in addition to adding context to all your units, this mod adds context to non-human players.  [COLOR_WARNING_TEXT]Note: This feature REQUIRES my add-on, because you wont be able to see enemy units name, even though they will be named. Because of this, I have disabled this feature, but I recommenend enabling this within the advanced settings panel, if you are using my add-on.[ENDCOLOR]</Description>
+    <Authors>astog</Authors>
+    <SpecialThanks>whoward69</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="070E9AE5C578FD607D29304A2EA1268F" import="1">Core/LUA/NameSettings.lua</File>
+    <File md5="A0FDB660DE7B580603AB9D221C7415FE" import="0">Core/LUA/NamingScript.lua</File>
+    <File md5="801F902A090210370FD6B27E1E96469C" import="1">Core/LUA/PlotIterators.lua</File>
+    <File md5="7279B60360E3ADF5F05CCF615D8A4901" import="1">UI/LUA/ContextualNameDialogBox.lua</File>
+    <File md5="216E437F9A084149F651B2D1ADA28741" import="0">UI/XML/ContextualNameDialogBox.xml</File>
+    <File md5="ED42260D752C8059D3F090362397328B" import="0">UI/XML/DialogText.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>UI/XML/DialogText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Core/LUA/NamingScript.lua">
+      <Name>NamingScript</Name>
+      <Description>NamingScript</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="UI/XML/ContextualNameDialogBox.xml">
+      <Name>ContextualNameDialogBox.xml</Name>
+      <Description>ContextualNameDialogBox.xml</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

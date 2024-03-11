@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:42:02 PM -->
+<GameData>
+	<Civilization_UnitClassOverrides>
+		<Delete>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<UnitClassType>UNITCLASS_GALLEASS</UnitClassType>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+		</Delete>
+	</Civilization_UnitClassOverrides>
+	<!--Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+			<PromotionType>PROMOTION_SIEGE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Units>
+		<Update>
+			<Where Type="UNIT_VENETIAN_GALLEASS"/>
+			<Set Combat="20" RangedCombat="22" Cost="100"/>
+		</Update>
+	</Units>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS"/>
+			<Set Text="A brutally powerful Medieval Era Naval Unit used to wrest control of the seas with its ranged attack. Better at attacking and defending than the normal Galleass it replaces, but more expensive. May only be built by Venice. Receives free Siege promotion."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GAME_INFO_VENETIAN_GALLEASS"/>
+			<Set Text="A brutally powerful Medieval Era Naval Unit used to wrest control of the seas with its ranged attack. Better at attacking and defending than the normal Galleass it replaces, but more expensive. May only be built by Venice. Receives free Siege promotion."/>
+		</Update>
+	</Language_en_US-->
+</GameData>

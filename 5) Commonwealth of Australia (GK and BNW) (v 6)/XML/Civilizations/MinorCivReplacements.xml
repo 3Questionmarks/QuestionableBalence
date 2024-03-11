@@ -1,0 +1,104 @@
+<GameData>
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_WELLINGTON</Type>
+			<Description>TXT_KEY_CITYSTATE_WELLINGTON</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_WELLINGTON</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_WELLINGTON_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_WELLINGTON_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_AUCKLAND</Type>
+			<Description>
+				TXT_KEY_CITYSTATE_AUCKLAND</Description>
+				<ShortDescription>TXT_KEY_CITYSTATE_AUCKLAND</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_AUCKLAND_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_AUCKLAND_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_WELLINGTON</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_WELLINGTON</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_AUCKLAND</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_AUCKLAND</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_WELLINGTON</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WELLINGTON</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WELLINGTON</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WELLINGTON</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_AUCKLAND</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_AUCKLAND</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_AUCKLAND</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_AUCKLAND</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_WELLINGTON">
+			<Text>Wellington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_WELLINGTON_ADJ">
+			<Text>Wellington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_WELLINGTON_PEDIA">
+			<Text>Wellington is the capital city of New Zealand, and it's second most populated city. It is home to 395,600 residents.[NEWLINE][NEWLINE]Wellington is the major population center of the northern island of New Zealand, and is notable for large Maori and Pacific Islander communities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_AUCKLAND">
+			<Text>Auckland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_AUCKLAND_ADJ">
+			<Text>Auckland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_AUCKLAND_PEDIA">
+			<Text>Auckland is the most populated urban area in New Zealand, and accounts for 32 percent of the country's population. It has the largest Polynesian population of any city in the world.[NEWLINE][NEWLINE]In Maori, Auckland's name is Tamaki Makaurau.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

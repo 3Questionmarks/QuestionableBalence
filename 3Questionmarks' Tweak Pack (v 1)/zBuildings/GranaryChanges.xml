@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/8/2014 11:00:38 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_GRANARY"/>
+			<Set>
+				<ExtraCityHitPoints>10</ExtraCityHitPoints>
+			</Set>
+		</Update>
+	</Buildings>
+ 	<Building_ResourceYieldChanges>
+		<Delete BuildingType="BUILDING_GRANARY"/>
+	</Building_ResourceYieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_GRANARY_HELP"/>
+			<Set>
+				<Text>+10% [ICON_FOOD] Food produced by this city.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+</GameData>

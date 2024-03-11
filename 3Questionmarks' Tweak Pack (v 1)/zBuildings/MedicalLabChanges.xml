@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/28/2024 12:12:32 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_MEDICAL_LAB"/>
+			<Set>
+				<FoodKept>20</FoodKept>
+				<Cost>520</Cost>
+				<GoldMaintenance>4</GoldMaintenance>
+			</Set>
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_MEDICAL_LAB_STRATEGY" />
+			<Set Text="The Medical Lab is a late-game building which decreases the amount of [ICON_FOOD] Food a city needs to increase in size by 20%. The city needs to have a Hospital in order to construct the Medical Lab." />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_MEDICAL_LAB_HELP" />
+			<Set Text="20% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born." />
+		</Update>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2024 6:36:58 PM -->
+<GameData>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_MAYA_PYRAMID_STRATEGY"/>
+		<Row Tag="TXT_KEY_BUILDING_MAYA_PYRAMID_STRATEGY">
+			<Text>The Pyramid is an Ancient-era building unique to the Maya, replacing the Shrine. It increases the [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith of a city, speeding the civilization's acquisition of Technology, Policies, and Religions.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

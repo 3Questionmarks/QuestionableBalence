@@ -1,0 +1,313 @@
+<trigger_system type="FGrannyTimedTriggerSystem">
+  <event_tracks>
+    <event_track ec="1160">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1800">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1580">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2220">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1200">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1520">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1620">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1400">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2040">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1180">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1500">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1120">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1440">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1220">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1540">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1000">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1640">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1100">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1420">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1040">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2000">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1140">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2100">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1560">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2200">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1290">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1020">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1285">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1710">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1280">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1600">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1705">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1700">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="2020">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+    <event_track ec="1110">
+      <track id="1" name="Sound"/>
+      <track id="2" name="Effect"/>
+      <track id="3" name="Transfer"/>
+      <track id="4" name="Action"/>
+    </event_track>
+  </event_tracks>
+  <triggers>
+
+	  <!-- ===================================================  Attack Animations  ============================================================= -->
+
+	  <!-- ec="1100" -->
+	  <trigger type="FTimedTriggerEffect" id="200" time="0" duration="0.4" repeat="0" ec="1100" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="201" time="0.383332551" duration="0" repeat="0" ec="1100" track="3" refid="200" speed="3" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+	  <trigger type="FTimedTriggerSound" id="202" time="0.503704" duration="0" repeat="0" ec="1100" track="1" tier="0" event="AS3D_UNIT_U_JAPANESE_SAMURAI_ATTACK_VOX_B" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="203" time="0.3925928" duration="0" repeat="0" ec="1100" track="1" event="AS3D_UNIT_HEAVY_INFANTRY_XCOM_HEAVY_PLASMA" bone="" tier="0" />
+	  <trigger type="FTimedTriggerSound" id="204" time="0.388888985" duration="0" repeat="0" ec="1100" track="1" event="AS3D_UNIT_HEAVY_INFANTRY_XCOM_HEAVY_PLASMA_T1" bone="" tier="1" />
+
+	  <trigger type="FTimedTriggerEffect" id="1200" time="0.2" duration="0.4" repeat="0" ec="1100" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="1201" time="0.583332551" duration="0" repeat="0" ec="1100" track="3" refid="1200" speed="0" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+	  <trigger type="FTimedTriggerEffect" id="1202" time="0.4" duration="0.4" repeat="0" ec="1100" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="1203" time="0.783332551" duration="0" repeat="0" ec="1100" track="3" refid="1202" speed="0" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+
+	  <!-- ec="1140" -->
+	  <trigger type="FTimedTriggerEffect" id="210" time="0" duration="0.4" repeat="0" ec="1140" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="211" time="0.383332551" duration="0" repeat="0" ec="1140" track="3" refid="210" speed="0" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+	  <trigger type="FTimedTriggerSound" id="212" time="0" duration="1.00555551" repeat="0" ec="1140" track="1" tier="1" event="AS3D_UNIT_U_JAPANESE_SAMURAI_ATTACK_VOX_B" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="213" time="0" duration="1.00555551" repeat="0" ec="1140" track="1" tier="2" event="AS3D_UNIT_U_JAPANESE_SAMURAI_ATTACK_VOX_B" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="214" time="0.3925928" duration="0" repeat="0" ec="1140" track="1" event="AS3D_UNIT_HEAVY_INFANTRY_XCOM_HEAVY_PLASMA" bone="" tier="0" />
+	  <trigger type="FTimedTriggerSound" id="215" time="0.388888985" duration="0" repeat="0" ec="1140" track="1" event="AS3D_UNIT_HEAVY_INFANTRY_XCOM_HEAVY_PLASMA_T1" bone="" tier="1" />
+
+	  <trigger type="FTimedTriggerEffect" id="1210" time="0.2" duration="0.4" repeat="0" ec="1140" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="1211" time="0.583332551" duration="0" repeat="0" ec="1140" track="3" refid="1210" speed="0" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+	  <trigger type="FTimedTriggerEffect" id="1212" time="0.4" duration="0.4" repeat="0" ec="1160" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="1213" time="0.783332551" duration="0" repeat="0" ec="1140" track="3" refid="1212" speed="0" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+
+	  <!-- ec="1160" -->
+	  <trigger type="FTimedTriggerEffect" id="220" time="0" duration="0.4" repeat="0" ec="1160" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="221" time="0.383332551" duration="0" repeat="0" ec="1160" track="3" refid="220" speed="44" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+	  <trigger type="FTimedTriggerSound" id="222" time="0.5629633" duration="0" repeat="0" ec="1160" track="1" tier="0" event="AS3D_UNIT_U_JAPANESE_SAMURAI_ATTACK_VOX_B" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="223" time="0.3925928" duration="0" repeat="0" ec="1160" track="1" event="AS3D_UNIT_HEAVY_INFANTRY_XCOM_HEAVY_PLASMA" bone="" tier="0" />
+	  <trigger type="FTimedTriggerSound" id="224" time="0.388888985" duration="0" repeat="0" ec="1160" track="1" event="AS3D_UNIT_HEAVY_INFANTRY_XCOM_HEAVY_PLASMA_T1" bone="" tier="1" />
+
+	  <trigger type="FTimedTriggerEffect" id="1220" time="0.2" duration="0.4" repeat="0" ec="1160" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="1221" time="0.583332551" duration="0" repeat="0" ec="1160" track="3" refid="1220" speed="0" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+	  <trigger type="FTimedTriggerEffect" id="1222" time="0.4" duration="0.4" repeat="0" ec="1160" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="1223" time="0.783332551" duration="0" repeat="0" ec="1160" track="3" refid="1222" speed="0" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+
+	  <!-- ec="1180" -->
+	  <trigger type="FTimedTriggerEffect" id="230" time="0" duration="0.4" repeat="0" ec="1180" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="231" time="0.383332551" duration="0" repeat="0" ec="1180" track="3" refid="230" speed="0" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+	  <trigger type="FTimedTriggerSound" id="232" time="0.562962949" duration="0" repeat="0" ec="1180" track="1" tier="0" event="AS3D_UNIT_U_JAPANESE_SAMURAI_ATTACK_VOX_B" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="233" time="0.3925928" duration="0" repeat="0" ec="1180" track="1" event="AS3D_UNIT_HEAVY_INFANTRY_XCOM_HEAVY_PLASMA" bone="" tier="0" />
+	  <trigger type="FTimedTriggerSound" id="234" time="0.388888985" duration="0" repeat="0" ec="1180" track="1" event="AS3D_UNIT_HEAVY_INFANTRY_XCOM_HEAVY_PLASMA_T1" bone="" tier="1" />
+
+	  <trigger type="FTimedTriggerEffect" id="1230" time="0.2" duration="0.4" repeat="0" ec="1180" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="1231" time="0.583332551" duration="0" repeat="0" ec="1180" track="3" refid="1230" speed="0" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+	  <trigger type="FTimedTriggerEffect" id="1232" time="0.4" duration="0.4" repeat="0" ec="1180" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="1233" time="0.783332551" duration="0" repeat="0" ec="1180" track="3" refid="1232" speed="0" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+	  
+	  <!-- ec="2100" -->
+	  <trigger type="FTimedTriggerEffect" id="96" time="0" duration="0.4" repeat="0" ec="2100" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="97" time="0.383332551" duration="0" repeat="0" ec="2100" track="3" refid="96" speed="0" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+	  <trigger type="FTimedTriggerSound" id="22" time="0.422222167" duration="0" repeat="0" ec="2100" track="1" tier="0" event="AS3D_UNIT_U_JAPANESE_SAMURAI_ATTACK_VOX_B" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="98" time="0.3925928" duration="0" repeat="0" ec="2100" track="1" event="AS3D_UNIT_HEAVY_INFANTRY_XCOM_HEAVY_PLASMA" bone="" tier="0" />
+	  <trigger type="FTimedTriggerSound" id="99" time="0.388888985" duration="0" repeat="0" ec="2100" track="1" event="AS3D_UNIT_HEAVY_INFANTRY_XCOM_HEAVY_PLASMA_T1" bone="" tier="1" />
+
+	  <trigger type="FTimedTriggerEffect" id="1240" time="0.2" duration="0.4" repeat="0" ec="2100" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="1241" time="0.583332551" duration="0" repeat="0" ec="2100" track="3" refid="1240" speed="0" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+	  <trigger type="FTimedTriggerEffect" id="1242" time="0.4" duration="0.4" repeat="0" ec="2100" track="2" event="ART_DEF_VEFFECT_PLASMA_RIFLE_PROJ" bone="fire" />
+	  <trigger type="FTimedTriggerTransfer" id="1243" time="0.783332551" duration="0" repeat="0" ec="2100" track="3" refid="1242" speed="0" tangent.x="-0.0279216766" tangent.y="-0.06175995" tangent.z="0.0108795166" />
+
+
+	  <!-- ===================================================  Non-attack Animations  ============================================================= -->
+
+
+	  <trigger type="FTimedTriggerEffect" id="61" time="0.177778" duration="0.833333" repeat="0" ec="1200" track="2" tier="0" event="ART_DEF_VEFFECT_IDLE_DEATH_SMOKE_01" bone="tank_bone_main"/>
+	  <trigger type="FTimedTriggerEffect" id="46" time="0" duration="0" repeat="0" ec="1200" track="2" tier="0" event="ART_DEF_VEFFECT_TANK_DEATH_01" bone="tank_bone_main"/>
+	  <trigger type="FTimedTriggerSound" id="27" time="0.008" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_TANK_HIT" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="14" time="0.0148148" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_TANK_IMPACT_$(WEAPON)" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="29" time="0.713636" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_DEATH_DEBRIS" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="28" time="0.519697" duration="0" repeat="0" ec="1200" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_DEATH_PIECE_SM" bone=""/>
+	  <trigger type="FTimedTriggerEffect" id="60" time="0" duration="0.633333" repeat="0" ec="1220" track="2" tier="0" event="ART_DEF_VEFFECT_IDLE_DEATH_SMOKE_01" bone="tank_bone_main"/>
+	  <trigger type="FTimedTriggerSound" id="43" time="0" duration="0" repeat="0" ec="1280" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_REV" bone=""/>
+	  <trigger type="FTimedTriggerEffect" id="50" time="0" duration="0.666667" repeat="0" ec="1400" track="2" tier="0" event="ART_DEF_VEFFECT_TANK_DIRT_TRAIL_MD" bone="tank_bone_main"/>
+	  <trigger type="FTimedTriggerEffect" id="1" time="0" duration="0.666667" repeat="0" ec="1400" track="2" tier="0" event="ART_DEF_VEFFECT_TANK_DUST_TRAIL_SM" bone="tank_bone_main"/>
+	  <trigger type="FTimedTriggerSound" id="58" time="0" duration="0.67" repeat="0" ec="1400" track="1" tier="-1" event="AS3D_UNIT_TANK_RUN" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="58" time="0" duration="0.67" repeat="0" ec="1400" track="1" tier="-1" event="AS3D_UNIT_TANK_T1_RUN_$(TERRAIN)" bone=""/>
+	  <trigger type="FTimedTriggerEffect" id="51" time="0" duration="0.5" repeat="0" ec="1420" track="2" tier="0" event="ART_DEF_VEFFECT_TANK_DIRT_TRAIL_MD" bone="tank_bone_main"/>
+	  <trigger type="FTimedTriggerSound" id="41" time="0" duration="0" repeat="0" ec="1440" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_STOP_RUN_$(TERRAIN)" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="34" time="0.004878" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_TANK_FORTIFY" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="35" time="0.158537" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_CANNON_RAISE" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="44" time="0.012195" duration="0" repeat="0" ec="1500" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_REV" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="39" time="0" duration="0" repeat="0" ec="1600" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_CANNON_RAISE" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="40" time="0.437168" duration="0" repeat="0" ec="1800" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_CANNON_DOWN" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="45" time="0.010811" duration="0" repeat="0" ec="1800" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_REV" bone=""/>
+	  <trigger type="FTimedTriggerEffect" id="57" time="0.57037" duration="0.433333" repeat="0" ec="2200" track="2" tier="0" event="ART_DEF_VEFFECT_IDLE_DEATH_SMOKE_02" bone="tank_bone_main"/>
+	  <trigger type="FTimedTriggerEffect" id="47" time="0.044444" duration="0" repeat="0" ec="2200" track="2" tier="0" event="ART_DEF_VEFFECT_TANK_DEATH_01" bone="tank_bone_main"/>
+	  <trigger type="FTimedTriggerSound" id="30" time="0.003871" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_TANK_HIT" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="36" time="0" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_TANK_IMPACT_$(WEAPON)" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="33" time="0.623226" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_DEATH_DEBRIS" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="32" time="0.76" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_DEATH_PIECE_LG" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="31" time="0.516129" duration="0" repeat="0" ec="2200" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_DEATH_PIECE_SM" bone=""/>
+	  <trigger type="FTimedTriggerEffect" id="59" time="0" duration="0.633333" repeat="0" ec="2220" track="2" tier="0" event="ART_DEF_VEFFECT_IDLE_DEATH_SMOKE_02" bone="tank_bone_main"/>
+
+  </triggers>
+</trigger_system>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="175ca27d-cd92-4cec-8adc-bc03e5d0173c" version="1">
+  <Properties>
+    <Name>All Promotions Dynamic Tooltip BNW</Name>
+    <Teaser>Show all the descriptions and effects of the promotions that a unit has earned in a tooltip.</Teaser>
+    <Description>A rework of the mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=138527605] All Promotions description tooltip [/url] by Gilestiel 
+
+[h1]Description:[/h1]
+Show all the descriptions and effects of the promotions that a unit has earned in a tooltip. Group ranked promotions that have ranks like I, II, III.  And display current fortification bonus of unit if greater than 0  To display tooltip, just move the mouse over unit icon in panel on bottom left when you have selected an unit.
+
+[h1]Differences:[/h1]
+This version will dynamically group tooltips together through pattern matching while the original mod was hard coded to only group specific promotions.  This means that it can better support promotions added by other mods assuming they follow the vanilla naming standards. While having the downside of being less likely to group promotions for non-English languages.  This version also has a wider tooltip and less line spacing to better support large numbers of promotions, and displays the terrain defense bonus/penalty.  I suggest you try out both mods separately and decide which works best for your setup.
+
+[h1]Optional Support:[/h1]
+Tweaks the english text of some of the promotions in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=84863495] Promotions - Expansion Pack [/url] to better support grouping.</Description>
+    <Authors>Mavoc</Authors>
+    <SpecialThanks>Gilestiel</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="0d764575-8028-4350-a363-c1ffb88b6a9a" minversion="0" maxversion="999" title="Promotions - Expansion Pack" />
+  </References>
+  <Blocks>
+    <Mod id="6c320032-ec20-4023-8ff8-413bca93bec9" minversion="0" maxversion="999" title="All Promotions description tooltip" />
+  </Blocks>
+  <Files>
+    <File md5="D793C328ACC3258DEDA3879FD75DCFA7" import="0">Compatability Tweaks.xml</File>
+    <File md5="542085E18AC0A0A5E4393B9FE91FD914" import="1">UnitPanel.lua</File>
+    <File md5="6E638AC2F74906AFC805EC5E0C82F9E6" import="1">UnitPanel.xml</File>
+    <File md5="FC6BE48214193C9AD8AF4BAE3DC788CD" import="1">UnitPanel_small.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Compatability Tweaks.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

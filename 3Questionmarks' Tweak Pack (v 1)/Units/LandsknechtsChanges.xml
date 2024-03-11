@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:20:07 PM -->
+<GameData>
+	<!-- Landsknechts upgrade into Musketmen -->
+	<Units>
+		<Update>
+			<Set Combat ="19"/>
+			<Where Type ="UNIT_GERMAN_LANDSKNECHT" />
+		</Update>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Delete UnitType="UNIT_GERMAN_LANDSKNECHT" />
+		<Row>
+			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_GERMAN_LANDSKNECHT_STRATEGY"/>
+		<Row Tag="TXT_KEY_UNIT_GERMAN_LANDSKNECHT_STRATEGY">
+			<Text>The Landsknecht is a unit that must be purchased with gold. The Landsknecht is much cheaper than the Pikeman and has a number of bonuses related to pillaging tiles and sacking cities. These units create a cheap army that can provide a nice return on their investment if sent rampaging across enemy territory.[NEWLINE]Requires [COLOR_POSITIVE_TEXT]Communes[ENDCOLOR].</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_UNIT_HELP_LANDSKNECHT"/>
+		<Row Tag="TXT_KEY_UNIT_HELP_LANDSKNECHT">
+			<Text>This unit is much cheaper than the Pikeman, and can pillage without using any movement points. Receives double [ICON_GOLD] Gold when capturing a city. These units may not be built; they must be purchased through gold. May move immediately after purchase.[NEWLINE]Requires [COLOR_POSITIVE_TEXT]Communes[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

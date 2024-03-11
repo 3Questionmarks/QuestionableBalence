@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/16/2014 8:28:00 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_POTTER</Type>
+			<DefaultBuilding>BUILDING_POTTER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_POTTER</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_POTTER</Type>
+			<BuildingClass>BUILDINGCLASS_POTTER</BuildingClass>
+			<Cost>50</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_POTTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_POTTER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_POTTER_STRATEGY</Strategy>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>ANCIENT2_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_POTTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POTTER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_POTTER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POTTER</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<!-- Description Tags-->
+		<Row Tag="TXT_KEY_BUILDING_POTTER">
+			<Text>Potter</Text>
+		</Row>
+		<!-- Help Tags->
+		<Row Tag="TXT_KEY_BUILDING_POTTER_HELP">
+			<Text></Text>
+		</Row>
+		<!-- Pedia Tags-->
+		<Row Tag="TXT_KEY_BUILDING_POTTER_PEDIA">
+			<Text>Pottery originates during the Neolithic period. Ceramic objects like the Gravettian culture Venus of Dolní Věstonice figurine discovered in the Czech Republic date back to 29,000–25,000 BC, and pottery vessels discovered in Jiangxi, China date back to 20,000 BP. Early Neolithic pottery has also been found in Jomon Japan (10,500 BC), the Russian Far East (14,000 BC), Sub-Saharan Africa and South America.[NEWLINE][NEWLINE]Pottery is made by forming a clay body into objects of a required shape and heating them to high temperatures in a kiln which removes all the water from the clay, which induces reactions that lead to permanent changes including increasing their strength and hardening and setting their shape. A clay body can be decorated before or after firing. Prior to some shaping processes, clay must be prepared. Kneading helps to ensure an even moisture content throughout the body. Air trapped within the clay body needs to be removed. This is called de-airing and can be accomplished by a machine called a vacuum pug or manually by wedging. Wedging can also help produce an even moisture content. Once a clay body has been kneaded and de-aired or wedged, it is shaped by a variety of techniques. After shaping it is dried and then fired.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+		<!-- Strategy Tags-->
+		<Row Tag="TXT_KEY_BUILDING_POTTER_STRATEGY">
+			<Text>The Potter is an early multi-purpose building that provides culture and production.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

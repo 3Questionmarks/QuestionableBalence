@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 07/02/17 11:45:45 AM -->
+<GameData>
+
+	<!--UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_SUBORBITAL_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_IEUP_SUBORBITAL_BOMBER</Class>
+			<Type>UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</Type>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<RangedCombat>110</RangedCombat>
+			<Cost>600</Cost>
+			<Moves>2</Moves>
+			<Special>SPECIALUNIT_STEALTH</Special>
+			<Immobile>true</Immobile>
+			<Range>30</Range>
+			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</UnitArtInfo>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>8</UnitFlagIconOffset>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_SUBORBITAL_EVASION</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SUBORBITAL_BOMBER</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SUBORBITAL_BOMBER</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER">
+			<Text>Suborbital Bomber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER_TEXT">
+			<Text>
+				The Suborbital Bomber is a long-range Air Unit that rains death from above onto enemy Units and Cities up to 30 tiles away. It is available on the discovery of Nuclear Fusion, and does not become obsolete. Requires [ICON_RES_URANIUM] Uranium.[NEWLINE][NEWLINE]In an effort to try and push the range and striking power of bombers to their limit, newer generations of bombers were developed capable of travelling high in the atmosphere, just short of actually travelling into orbit. At these altitudes, they were extremely difficult to intercept, and could travel quickly through the thin atmosphere on semi-ballistic trajectories.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER_STRATEGY">
+			<Text>The Suborbital Bomber is a futuristic bomber unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER_HELP">
+			<Text>
+				Rains death from above onto enemy Units and Cities up to 30 tiles away. Requires [ICON_RES_URANIUM] Uranium.
+			</Text>
+		</Row>
+	</Language_en_US-->
+
+
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>BomberWing</Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_SUBORBITAL_BOMBER</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_SMAN_IEUP_SUBORBITAL_BOMBER</Type>
+			<Scale>0.07</Scale>
+			<Domain>Air</Domain>
+			<Model>SMAN_IEUP_SuborbitalBomber.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_SUBORBITAL_BOMBER</UnitMemberType>
+			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
+			<AttackRadius>64.0</AttackRadius>
+			<MoveRate>3.2</MoveRate>
+			<TurnRateMin>0.150000005960464</TurnRateMin>
+			<TurnRateMax>0.349999994039536</TurnRateMax>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_SUBORBITAL_BOMBER</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>35.0</VisKillStrengthMin>
+			<VisKillStrengthMax>60.0</VisKillStrengthMax>
+			<ProjectileSpeed>0.899999976158142</ProjectileSpeed>
+			<TargetGround>1</TargetGround>
+			<IsDropped>1</IsDropped>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION1TON</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_StealthBomber.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+
+
+</GameData>

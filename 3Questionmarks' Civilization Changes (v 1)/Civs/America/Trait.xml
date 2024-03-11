@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/22/2017 9:10:31 PM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Where Type="TRAIT_RIVER_EXPANSION"></Where>
+			<Set PlotBuyCostModifier="-50"></Set>
+		</Update>
+	</Traits>
+
+	<Trait_FreeResourceFirstXCities>
+		<Row>
+			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<ResourceQuantity>1</ResourceQuantity>
+			<NumCities>10</NumCities>
+		</Row>
+	</Trait_FreeResourceFirstXCities>
+    <!--Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_CITY_SETTLE</UnitAIType>
+			<Count>2</Count>
+		</Row>
+	</Civilization_FreeUnits-->
+    
+    <!-- Adding a unique palace to spawn a settler in the capitol -->
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AMERICAN_PALACE</Type>
+			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
+			<Cost>0</Cost>
+			<Help>TXT_KEY_BUILDING_PALACE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PALACE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PALACE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PALACE_STRATEGY</Strategy>
+			<ArtDefineTag>PALACE</ArtDefineTag>
+			<Capital>true</Capital>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>250</Defense>
+			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+			<DisplayPosition>32</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+    <Building_FreeUnits>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_PALACE</BuildingType>
+			<UnitType>UNIT_SETTLER</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+    
+    
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_RIVER_EXPANSION"></Where>
+			<Set Text="Land military units have +1 sight. 50% [ICON_GOLD] discount when purchasing tiles. Gain 1 free [ICON_RES_URANIUM] Uranium in the first 10 cities. Upon founding the [ICON_CAPITAL] Capital, recive a free settler. If the [ICON_CAPITAL] Capital is lost, a settler spawns in the new [ICON_CAPITAL] Capital."></Set>
+		</Update>
+	</Language_en_US>
+    
+    
+</GameData>

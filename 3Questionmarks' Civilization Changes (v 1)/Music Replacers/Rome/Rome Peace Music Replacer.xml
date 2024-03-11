@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/30/2016 6:48:12 PM -->
+<GameData>
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_CEASAR_WAR</SoundID>
+			<Filename>Rome Peace</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_AUGUSTUS_WAR</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_CEASAR_WAR</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>100</MinVolume>
+			<MaxVolume>100</MaxVolume>
+			<IsMusic>True</IsMusic>
+		</Row>
+	</Audio_2DSounds>
+</GameData>

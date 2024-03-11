@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2021 5:14:44 AM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Where Type="TRAIT_SENSHI_HAWKE"/>
+			<Set GoldenAgeDurationModifier="50"/>
+		</Update>
+	</Traits>
+</GameData>

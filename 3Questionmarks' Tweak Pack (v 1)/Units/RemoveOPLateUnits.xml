@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:24:31 PM -->
+<GameData>
+	<!-- Removing Nuke Missiles Giant Death Robots and Xcom -->
+	<Units>
+		<Delete Type="UNIT_MECH" />
+		<Delete Type="UNIT_XCOM_SQUAD" />
+	</Units>
+	<UnitClasses>
+		<Delete Type="UNITCLASS_MECH" />
+		<Delete Type="UNITCLASS_XCOM_SQUAD" />
+	</UnitClasses>
+	<Unit_AITypes>
+		<Delete UnitType="UNIT_MECH" />
+		<Delete UnitType="UNIT_XCOM_SQUAD" />
+	</Unit_AITypes>
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_MECH" />
+		<Delete UnitType="UNIT_XCOM_SQUAD" />
+	</Unit_FreePromotions>
+	<Unit_Flavors>
+		<Delete UnitType="UNIT_MECH" />
+		<Delete UnitType="UNIT_XCOM_SQUAD" />
+	</Unit_Flavors>
+	<Unit_ResourceQuantityREquirements>
+		<Delete UnitType="UNIT_MECH" />
+		<Delete UnitType="UNIT_XCOM_SQUAD" />
+	</Unit_ResourceQuantityREquirements>
+	<UnitGameplay2DScripts>
+		<Delete UnitType="UNIT_MECH" />
+		<Delete UnitType="UNIT_XCOM_SQUAD" />
+	</UnitGameplay2DScripts>
+</GameData>

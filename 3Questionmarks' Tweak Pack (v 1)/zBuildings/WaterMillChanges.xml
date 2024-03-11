@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/10/2014 8:42:51 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_WATERMILL"/>
+			<Set River="false"/>
+		</Update>
+	</Buildings>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_WATERMILL</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_YieldChanges>
+		<Delete BuildingType="BUILDING_WATERMILL"/>
+		<Row>
+			<BuildingType>BUILDING_WATERMILL</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WATERMILL</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Delete BuildingType="BUILDING_WATERMILL"/>
+		<Row>
+			<BuildingType>BUILDING_WATERMILL</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WATERMILL</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WATERMILL</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>	
+	</Building_Flavors>
+	<LANGUAGE_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_WATERMILL_HELP"/>
+			<Set>
+				<Text>+1 [ICON_FOOD] food from Wheat. City must be built near to a River.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_WATERMILL_STRATEGY"/>
+			<Set>
+				<Text>The Water Mill can only be constructed in a city located near a river. The Water Mill increases the city's [ICON_FOOD] Food and [ICON_PRODUCTION] Production.</Text>
+			</Set>
+		</Update>
+	</LANGUAGE_en_US>
+</GameData>

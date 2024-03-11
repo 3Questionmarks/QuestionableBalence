@@ -1,0 +1,6 @@
+Files that need to be replaced
+
+Placeholders:
+Mario
+Pokemon
+Doom

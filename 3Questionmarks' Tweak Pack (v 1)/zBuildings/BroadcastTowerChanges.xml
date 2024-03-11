@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2016 8:39:17 AM -->
+<GameData>
+
+	<!-- Broadcast Towers now need Opera Houses instead of Museums. They also now provide +2 Culture and +10% Culture. -->
+	<Buildings>
+		<Update>
+			<Set Cost="500" GoldMaintenance="4" CultureRateModifier="10" />
+			<Where Type="BUILDING_BROADCAST_TOWER" />
+		</Update>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Update>
+			<Set BuildingClassType="BUILDINGCLASS_OPERA_HOUSE" />
+			<Where BuildingType="BUILDING_BROADCAST_TOWER" />
+		</Update>
+	</Building_ClassesNeededInCity>
+	<Building_YieldChanges>
+		<Update>
+			<Set Yield="2" />
+			<Where BuildingType="BUILDING_BROADCAST_TOWER" YieldType="YIELD_CULTURE" />
+		</Update>
+        <Update>
+			<Set Yield="2" />
+			<Where BuildingType="BUILDING_AMPHITHEATER" YieldType="YIELD_CULTURE" />
+		</Update>
+	</Building_YieldChanges>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<FeatureType>FEATURE_FUJI</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<FeatureType>FEATURE_MT_KAILASH</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<FeatureType>FEATURE_KILIMANJARO</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<FeatureType>FEATURE_MT_SINAI</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<FeatureType>FEATURE_SRI_PADA</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_HELP">
+			<Text>+10% [ICON_CULTURE] Culture in this City. +1 [ICON_CULTURE] Culture from Mountains.[NEWLINE][NEWLINE]City must have an Opera House.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_STRATEGY">
+			<Text>A Broadcast Tower is a late-game Building which increases [ICON_CULTURE] Culture output of the city by 10%. Placing a broadcast tower atop a mountain will increase the functional range and therefore the [ICON_CULTURE] Culture yield of said mountain. The City must possess a Opera House (or a unique Building which replaces the Opera House) before it can construct a Broadcast Tower.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

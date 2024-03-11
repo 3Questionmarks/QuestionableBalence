@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/8/2024 11:40:36 PM -->
+<GameData>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_COMPOSITE_BOWMAN</UnitType>
+			<ResourceType>RESOURCE_HARDWOOD</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+  
+</GameData>

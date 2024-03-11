@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/25/2024 11:56:43 AM -->
+<GameData>
+	<!-- 
+	14 Founders
+	20 Followers - 2 Followers Needed per civ = 10 pairs
+	12 Enhancers
+	11 Reformations
+	
+	10 Maximum religions limited by Followers
+	Byzantium can choose 3 Followers so actual max is 9 Religions
+	-->
+	<Worlds>
+		<Update>
+			<Set MaxActiveReligions="2"/> <!-- Unchanged -->
+			<Where Type="WORLDSIZE_DUEL"/>
+		</Update>
+		<Update>
+			<Set MaxActiveReligions="4"/> <!-- +1 -->
+			<Where Type="WORLDSIZE_TINY"/>
+		</Update>
+		<Update>
+			<Set MaxActiveReligions="5"/> <!-- +1 -->
+			<Where Type="WORLDSIZE_SMALL"/>
+		</Update>
+		<Update>
+			<Set MaxActiveReligions="7"/> <!-- +2 -->
+			<Where Type="WORLDSIZE_STANDARD"/>
+		</Update>
+		<Update>
+			<Set MaxActiveReligions="8"/> <!-- +2 -->
+			<Where Type="WORLDSIZE_LARGE"/>
+		</Update>
+		<Update>
+			<Set MaxActiveReligions="9"/> <!-- +2 -->
+			<Where Type="WORLDSIZE_HUGE"/>
+		</Update>
+	</Worlds>
+</GameData>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/23/2014 9:06:36 PM -->
+<GameData>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TXT_KEY_IMPROVEMENT_TOWN</TraitType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TXT_KEY_IMPROVEMENT_TOWN</TraitType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TXT_KEY_IMPROVEMENT_LARGE_TOWN</TraitType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TXT_KEY_IMPROVEMENT_LARGE_TOWN</TraitType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+    <Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+        <Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+        <Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+        <Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+        <Row>
+			<TraitType>TRAIT_FAITH_FROM_NATURE</TraitType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+    
+    <!-- Dummy building for Celts to get faith from forrest. -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CELTSDUMMYBUILDING</Type>
+			<Description>TXT_KEY_BUILDING_CELTSDUMMYBUILDING</Description>
+			<DefaultBuilding>BUILDING_CELTSDUMMYBUILDING</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+
+	<Building_FeatureYieldChanges>
+        <Row>
+			<BuildingType>BUILDING_CELTSDUMMYBUILDING</BuildingType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CELTSDUMMYBUILDING</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CELTSDUMMYBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_CELTSDUMMYBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_CELTSDUMMYBUILDING</Description>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+
+	<!-- All Celts's cities get dummy building for free and zeroing old trait. -->
+	<Traits>
+		<Update>
+			<Set FreeBuilding="BUILDING_CELTSDUMMYBUILDING" FreeBuildingOnConquest="BUILDING_CELTSDUMMYBUILDING" FaithFromUnimprovedForest="false"/>
+			<Where Type="TRAIT_FAITH_FROM_NATURE" />
+		</Update>
+	</Traits>
+	
+	<!-- Dummy building -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CELTSDUMMYBUILDING">
+			<Text>You should not see this in game?</Text>
+		</Row>
+	</Language_en_US>
+    
+    
+	<Language_en_US>
+		<Update>
+			<Set Text="+1 [ICON_PEACE] Faith from each Forest and Jungle tile. Villages, Towns, and Large Towns yield +3 [ICON_PEACE] Faith and +3 [ICON_CULTURE] Culture. Militarty Units gain the Survivalism promotion." />
+			<Where Tag="TXT_KEY_TRAIT_FAITH_FROM_NATURE" />
+		</Update>
+	</Language_en_US>
+</GameData>

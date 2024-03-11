@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/24/2014 9:00:55 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CHEMIST</Type>
+			<DefaultBuilding>BUILDING_CHEMIST</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CHEMIST</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CHEMIST</Type>
+			<BuildingClass>BUILDINGCLASS_CHEMIST</BuildingClass>
+			<Cost>360</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_CHEMIST</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CHEMIST_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_CHEMIST_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>INDUSTRIAL_ICONATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_CHEMIST</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_CHEMIST</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CHEMIST</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<!-- Chemist -->
+		<Row>
+			<BuildingType>BUILDING_CHEMIST</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHEMIST</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<!-- Description Tags-->
+		<Row Tag="TXT_KEY_BUILDING_CHEMIST">
+			<Text>Chemist</Text>
+		</Row>
+		<!-- Help Tags-->
+		<Row Tag="TXT_KEY_BUILDING_CHEMIST_HELP">
+			<Text>City must have a University.</Text>
+		</Row>
+		<!-- Pedia Tags-->
+		<Row Tag="TXT_KEY_BUILDING_CHEMIST_PEDIA">
+			<Text>The roots of chemistry can be traced to the phenomenon of burning. Fire was a mystical force that transformed one substance into another and thus was of primary interest to mankind. It was fire that led to the discovery of iron and glass. After gold was discovered and became a precious metal, many people were interested to find a method that could convert other substances into gold. This led to the protoscience called alchemy. The word chemist is derived from the New Latin noun chimista, an abbreviation of alchimista (alchemist). Alchemists discovered many chemical processes that led to the development of modern chemistry. Chemistry as we know it today, was invented by Antoine Lavoisier with his law of conservation of mass in 1783. The discoveries of the chemical elements has a long history culminating in the creation of the periodic table by Dmitri Mendeleev.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

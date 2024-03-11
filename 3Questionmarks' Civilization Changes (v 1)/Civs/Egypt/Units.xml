@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:42:38 PM -->
+<GameData>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
+			<PromotionType>PROMOTION_ATTACK_BONUS</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_EGYPTIAN_WARCHARIOT"/>
+			<Set Text="A fast Ranged Unit on flat ground, but slowed when entering rough terrain. Only the Egyptians may build it. This Unit does not require [ICON_RES_HORSE] Horses to be built, unlike the Chariot Archer which it replaces. It also receives +25% [ICON_RANGE_STRENGTH] Combat Strenght during attack."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GAME_INFO_EGYPTIAN_WARCHARIOT"/>
+			<Set Text="A fast Ranged Unit on flat ground, but slowed when entering rough terrain. Only the Egyptians may build it. This Unit does not require [ICON_RES_HORSE] Horses to be built, unlike the Chariot Archer which it replaces. It also receives +25% [ICON_RANGE_STRENGTH] Combat Strenght during attack."/>
+		</Update>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:17:12 PM -->
+<GameData>
+
+	<!-- Gunboat Diplomacy: Gain 6 Influence from city states that you tribute could demand tribute from but do not, and Military Units are 100% more effective at intimidating City-States. -->
+	<Policies>
+		<Update>
+			<Set Level="1" MinorBullyScoreModifier="100" AfraidMinorPerTurnInfluence="1000" />
+			<Where Type="POLICY_GUNBOAT_DIPLOMACY" />
+		</Update>
+	</Policies>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Gunboat Diplomacy[ENDCOLOR][NEWLINE]Gain 10 [ICON_INFLUENCE] Influence per turn from city states that you could demand a tribute from, but do not. Military Units are 100% more effective at intimidating City-States.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

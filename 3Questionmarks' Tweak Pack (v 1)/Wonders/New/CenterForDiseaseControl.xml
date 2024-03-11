@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/26/2024 7:41:17 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_RA_CDC</Type>
+			<DefaultBuilding>BUILDING_RA_CDC</DefaultBuilding>
+			<Description>TXT_KEY_RA_CDC</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_RA_CDC</Type>
+			<BuildingClass>BUILDINGCLASS_RA_CDC</BuildingClass>
+			<Cost>600</Cost>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_RA_CDC</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDING_RA_CDC_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_RA_CDC_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_RA_CDC_HELP</Help>
+			<TrainedFreePromotion>PROMOTION_MEDIC</TrainedFreePromotion>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<PortraitIndex>39</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_RA_CDC</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_RA_CDC</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_RA_CDC</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_RA_CDC</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>20</Yield>
+		</Row>
+	</Building_YieldModifiers>
+
+	<Building_SpecialistYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_RA_CDC</BuildingType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SpecialistYieldChanges>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_RA_CDC</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_CDC</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_CDC</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_CDC</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_CDC</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_CDC</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_RA_CDC">
+			<Text>Center for Disease Control</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_RA_CDC_TEXT">
+			<Text>The Center for Disease Control is the leading national public health institute of the United States. Officially active from 1961, it is responsible for researching and combating infectious diseases as well as promoting general public health and safety. Aside from scientists and medical practitioners, the organisation is formed of staff from many professions including engineers, economists and military personnel that can be called upon during national and international disease outbreaks. Organisations of similar name and function exist in countries worldwide.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RA_CDC_HELP">
+			<Text>+1 [ICON_FOOD] Food from Scientist Specialists in every city. All newly-trained Gunpowder Units in this City receive the [COLOR_POSITIVE_TEXT]Medic[ENDCOLOR] Promotion. Must have built a Medical Lab in all Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RA_CDC_STRATEGY">
+			<Text>The Center for Disease Control increases the [ICON_FOOD] Food output of all Cities with Scientist Specialists and gives all Gunpowder Units built in the City the "Medic" promotion, which heals all adjacent units an additional 5 HP per turn. It cannot be constructed unless the civilization has a Medical Lab built in all of its cities.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

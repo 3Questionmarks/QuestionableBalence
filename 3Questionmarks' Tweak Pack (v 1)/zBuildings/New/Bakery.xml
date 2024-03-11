@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2021 1:31:02 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_BAKERY</Type>
+			<DefaultBuilding>BUILDING_BAKERY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BAKERY</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_BAKERY</Type>
+			<BuildingClass>BUILDINGCLASS_BAKERY</BuildingClass>
+			<Cost>50</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_BAKERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BAKERY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BAKERY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_BAKERY_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BAKERY_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_BAKERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_BAKERY</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BAKERY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BAKERY</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_BAKERY</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_BAKERY">
+			<Text>Bakery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BAKERY_HELP">
+			<Text>+1 [ICON_FOOD] Food from [ICON_RES_WHEAT] Wheat.[NEWLINE][NEWLINE]City must have an Granary and a source of [ICON_RES_WHEAT] Wheat nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BAKERY_PEDIA">
+			<Text>The first group of people to bake bread were ancient Egyptians, around 8000 BC. During the Middle Ages it was common for each landlord to have a bakery, which was actually a public oven; Housewives would bring dough that they had prepared to the baker, who would tend the oven and bake them into bread. As time went on, bakers began to sell their own goods, supplying staples to urban citizens.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BAKERY_STRATEGY">
+			<Text>The Bakery requires Wheat and is helpful for growing early cities.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

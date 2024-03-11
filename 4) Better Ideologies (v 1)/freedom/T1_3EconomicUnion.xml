@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:08:25 PM -->
+<GameData>
+
+	<Policies>
+		<Update>
+			<Set Level="1" SharedIdeologyTradeGoldChange="10" MinorGoldFriendshipMod="50" />
+			<Where Type="POLICY_ECONOMIC_UNION" />
+		</Update>
+	</Policies>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_ECONOMIC_UNION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_ECONOMIC_UNION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Economic Union[ENDCOLOR][NEWLINE]+10 [ICON_GOLD] Gold from each trade route with other freedom Civilizations. Gain 50% more [ICON_INFLUENCE] Influence from [ICON_GOLD] Gold Gifts to City-States.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

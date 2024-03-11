@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/3/2024 1:03:15 AM -->
+<GameData>
+	<GameSpeeds>
+		<Update>
+			<Set LeaguePercent="200" />
+			<Where Type ="GAMESPEED_MARATHON" />
+		</Update>
+		<Update>
+			<Set LeaguePercent="100" />
+			<Where Type ="GAMESPEED_EPIC" />
+		</Update>
+		<Update>
+			<Set LeaguePercent="66" />
+			<Where Type ="GAMESPEED_STANDARD" />
+		</Update>
+		<Update>
+			<Set LeaguePercent="33" />
+			<Where Type ="GAMESPEED_QUICK" />
+		</Update>
+	</GameSpeeds>
+  
+</GameData>

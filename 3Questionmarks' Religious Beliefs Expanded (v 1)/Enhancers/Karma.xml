@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- +12 Culture in the Empire, +1 from farms -->
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_KARMA</Type>
+			<Description>TXT_KEY_BELIEF_KARMA</Description>
+			<ShortDescription>TXT_KEY_BELIEF_KARMA_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+		</Row>
+	</Beliefs>
+	<Belief_HolyCityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_KARMA</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>12</Yield>
+		</Row>
+    </Belief_HolyCityYieldChanges>
+    
+    <Belief_ImprovementYieldChanges>
+        <Row>
+           <BeliefType>BELIEF_KARMA</BeliefType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+        </Row>
+        <Row>
+           <BeliefType>BELIEF_KARMA</BeliefType>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+        </Row>
+    </Belief_ImprovementYieldChanges>
+    
+
+	<!-- localization -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_KARMA">
+			<Text>+12 [ICON_CULTURE] Culture in the Holy city and +1 [ICON_CULTURE] Culture from Farms and Terrace Farms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_KARMA_SHORT">
+			<Text>Karma</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

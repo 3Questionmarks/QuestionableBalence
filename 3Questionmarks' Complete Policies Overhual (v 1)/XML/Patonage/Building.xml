@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2021 3:32:03 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_MEMORIAL</Type>
+			<DefaultBuilding>BUILDING_TCS_MEMORIAL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_MEMORIAL</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TCS_MEMORIAL</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_MEMORIAL</BuildingClass>
+			<Cost>250</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_AESTHETICS</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_MEMORIAL</Description>
+			<Help>TXT_KEY_BUILDING_TCS_MEMORIAL_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<EnhancedYieldTech>TECH_ARCHITECTURE</EnhancedYieldTech>
+			<TechEnhancedTourism>4</TechEnhancedTourism>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<Happiness>4</Happiness>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+            <CultureRateModifier>10</CultureRateModifier>
+		</Row>
+	</Buildings>
+	
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_TCS_MEMORIAL</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TCS_MEMORIAL">
+			<Text>Memorial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TCS_MEMORIAL_HELP">
+			<Text>+10% [ICON_CULTURE] in the city. +4 [ICON_TOURISM] Tourism with Architecture.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+
+</GameData>

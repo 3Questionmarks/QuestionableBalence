@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<UnitMemberArtInfos>
+	<UnitMemberArtInfo>
+		<Type>ART_DEF_UNIT_MEMBER_BENIN_PIKEMAN</Type>
+		<fScale>0.14</fScale>
+		<Granny>Isienmwenro.fxsxml.xml</Granny>
+		<Combat>
+			<Defaults>ART_DEF_TEMPLATE_SOLDIER</Defaults>
+			<bReformBeforeCombat>1</bReformBeforeCombat>
+			<Weapon>
+				<WeaponTypeTag>METAL</WeaponTypeTag>
+				<WeaponTypeSoundOverrideTag>SPEAR</WeaponTypeSoundOverrideTag>
+			</Weapon>
+			<Weapon>
+				<Usage>Vs_City ShortRange</Usage>
+				<fVisKillStrengthMin>10.0</fVisKillStrengthMin>
+				<fVisKillStrengthMax>20.0</fVisKillStrengthMax>
+				<WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+			</Weapon>
+		</Combat>
+		<MaterialTypeTag>ARMOR</MaterialTypeTag>
+		<MaterialTypeSoundOverrideTag>ARMOR</MaterialTypeSoundOverrideTag>
+	</UnitMemberArtInfo>
+</UnitMemberArtInfos>

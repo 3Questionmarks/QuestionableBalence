@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 2:14:05 PM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set CityStateFriendshipModifier="50" />
+			<Where Type="TRAIT_CITY_STATE_BONUSES" />
+		</Update>
+	</Traits>
+	<Traits>
+		<Update>
+			<Set CityStateBonusModifier="100" />
+			<Where Type="TRAIT_CITY_STATE_BONUSES" />
+		</Update>
+	</Traits>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES" />
+			<Set Text="Double [ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith from friendly [ICON_CITY_STATE] City-States. [ICON_CITY_STATE] City State [ICON_INFLUENCE] Influence decays at half rate, and recovers 50% faster."/>
+		</Update>
+	</Language_en_US>
+</GameData>

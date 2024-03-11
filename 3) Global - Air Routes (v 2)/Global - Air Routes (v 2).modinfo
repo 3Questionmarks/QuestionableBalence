@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7d12def5-835d-4de6-a69b-dc8f8504f07b" version="2">
+  <Properties>
+    <Name>Global - Air Routes</Name>
+    <Teaser>Creates an air route between two cities if they both have an airport</Teaser>
+    <Description>Moves the extra stationed aircraft capabilities of the Airport to the Military Base and creates an air route between two cities which both have airports (similar to a water route between two cities with harbours)</Description>
+    <Authors>William Howard</Authors>
+    <SpecialThanks>Translation: Russian - Tomahawk.nsk</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="44" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="308A38A87B7AE402AAFC87CC1BAF54D5" import="0">LUA/GlobalAirRoutes.lua</File>
+    <File md5="7DED0BA737830EF37AADE2BB9FDEC87A" import="0">SQL/GlobalAirRoutes.sql</File>
+    <File md5="6A5C92FD374318EEDA9611204E0616B0" import="0">XML/GlobalAirRoutes.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/GlobalAirRoutes.sql</UpdateDatabase>
+      <UpdateDatabase>XML/GlobalAirRoutes.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/GlobalAirRoutes.lua">
+      <Name>Global Air Routes</Name>
+      <Description>Global Air Routes</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

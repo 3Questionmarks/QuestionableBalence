@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:30:55 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_SATRAPS_COURT" />
+			<Set Happiness="4" />
+		</Update>
+	</Buildings>
+	<Building_TerrainYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SATRAPS_COURT</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_SATRAPS_COURT_STRATEGY"/>
+			<Set Text="The Satrap's Court is the Persian unique building. It replaces the Bank. Like a bank the Satrap's Court increases the city's output of wealth. However, the Satrap's Court also increases the civilization's [ICON_HAPPINESS_1] Happiness and provides [ICON_GOLD] Gold from desert tiles. The city must have a Market before the Satrap's Court may be constructed."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_SATRAPS_COURT_HELP"/>
+			<Set Text="Trade routes other players make to a city with a Satrap's Court will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route. +1 [ICON_GOLD] Gold from desert tiles. City must have a Market."/>
+		</Update>
+	</Language_en_US>
+
+
+</GameData>

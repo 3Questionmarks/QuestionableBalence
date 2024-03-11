@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Update><!-- Promotions - Expansion Pack   http://steamcommunity.com/sharedfiles/filedetails/?id=84863495 -->
+			<Where Tag="TXT_PROM_UNLOCK_LVL_2"/>
+			<Set Text="Unlock Skill Level II"/>
+		</Update>
+		<Update><!-- Promotions - Expansion Pack   http://steamcommunity.com/sharedfiles/filedetails/?id=84863495 -->
+			<Where Tag="TXT_PROM_UNLOCK_LVL_3"/>
+			<Set Text="Unlock Skill Level III"/>
+		</Update>
+		<Update><!-- Promotions - Expansion Pack   http://steamcommunity.com/sharedfiles/filedetails/?id=84863495 -->
+			<Where Tag="TXT_PROM_UNLOCK_LVL_4"/>
+			<Set Text="Unlock Skill Level IV"/>
+		</Update>
+		<Update><!-- Promotions - Expansion Pack   http://steamcommunity.com/sharedfiles/filedetails/?id=84863495 -->
+			<Where Tag="TXT_PROM_UNLOCK_LVL_2_H"/>
+			<Set Text="Unlock [COLOR_POSITIVE_TEXT]Skill Level II[ENDCOLOR] as well as receive +34% [COLOR_POSITIVE_TEXT]XP[ENDCOLOR] and +5% [ICON_STRENGTH] Combat Strength."/>
+		</Update>
+		<Update><!-- Promotions - Expansion Pack   http://steamcommunity.com/sharedfiles/filedetails/?id=84863495 -->
+			<Where Tag="TXT_PROM_UNLOCK_LVL_3_H"/>
+			<Set Text="Unlock [COLOR_POSITIVE_TEXT]Skill Level III[ENDCOLOR] as well as receive +33% [COLOR_POSITIVE_TEXT]XP[ENDCOLOR] and +5% [ICON_STRENGTH] Combat Strength."/>
+		</Update>
+		<Update><!-- Promotions - Expansion Pack   http://steamcommunity.com/sharedfiles/filedetails/?id=84863495 -->
+			<Where Tag="TXT_PROM_UNLOCK_LVL_4_H"/>
+			<Set Text="Unlock [COLOR_POSITIVE_TEXT]Skill Level IV[ENDCOLOR] as well as receive +33% [COLOR_POSITIVE_TEXT]XP[ENDCOLOR] and +5% [ICON_STRENGTH] Combat Strength."/>
+		</Update>
+	</Language_en_US>
+</GameData>

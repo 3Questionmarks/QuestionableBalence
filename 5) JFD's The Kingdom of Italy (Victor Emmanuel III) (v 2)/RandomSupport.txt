@@ -1,0 +1,36 @@
+TraitBasedLua = 'TRUE';
+
+OVERRIDE_AUTO  = { 
+	CIVILIZATIONS = {
+		CIVILIZATION = {
+			Civilization = 'CIVILIZATION_JFD_ITALY_V_E_III';
+			Leader = 'LEADER_JFD_V_E_III';
+		};
+	};
+
+	MOD_SUPPORT = {
+		Civ4Traits = {
+			LEADER_JFD_V_E_III = {
+				Leader 	= 	'LEADER_JFD_V_E_III';
+				LeaderTXT	=	'Victor Emmanuel III ';
+			};
+		};
+	};
+
+	COMPONENTS = {
+		COMPONENT = {
+			Type = 'UNIT_JFD_ALPINI';
+			Class = 'UNITCLASS_GREAT_WAR_INFANTRY';
+		};
+		COMPONENT = {
+			Type = 'UNIT_JFD_ANDREA_DORIA';
+			Class = 'UNITCLASS_IRONCLAD';
+		};
+	};
+
+	TRAITS = {
+		TRAIT = {
+			Type = 'TRAIT_JFD_ITALY_V_E_III';
+		};
+	};
+};

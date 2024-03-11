@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:17:12 PM -->
+<GameData>
+
+	<!-- Universal Healthcare: Now also affects Guilds (in addition to National Wonders). -->
+	
+	<Policy_BuildingClassHappiness>
+		<Delete PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A" />
+	</Policy_BuildingClassHappiness>
+
+	<Policies>
+		<Update>
+			<Set Description="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A" Civilopedia="TXT_KEY_POLICY_NATIONALISM_TEXT" Help="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP" />
+			<Where Type="POLICY_UNIVERSAL_HEALTHCARE_A" />
+		</Update>
+	</Policies>
+
+	<Policy_CityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE_A</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE_A</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE_A</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_CityYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
+			<Text>Nationalism</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR][NEWLINE] +3 [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, and [ICON_RESEARCH] Science in each City.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

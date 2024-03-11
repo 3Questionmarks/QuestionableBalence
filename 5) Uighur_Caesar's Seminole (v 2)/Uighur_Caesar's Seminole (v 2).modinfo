@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="626975e0-b58e-4f29-96f6-ac796cbaeb70" version="2">
+  <Properties>
+    <Name>Uighur_Caesar's Seminole</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Seminole under Chief Micanopy to the game.</Teaser>
+    <Description>Adds the Seminole under Chief Micanopy to the game.</Description>
+    <Authors>Uighur_Caesar</Authors>
+    <SpecialThanks>Hoop Thrower, TPangolin, DarthStarKiller, Neirai, DJSHenniger, Urdnot_Scott</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD's Rise to Power" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact's Events and Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YNAEMP" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="RED" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="CIV Traits" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Histroical Relgions" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="9A0F0B4D893F04F860B16B24B564B744" import="1">Art/black_4x4.dds</File>
+    <File md5="0B566474BAB7C9A6C759D361B3107B5F" import="1">Art/CuirassierMusket.dds</File>
+    <File md5="70D7CAA7FD4718C545ED8C1F2BB3B664" import="1">Art/feathers_64.dds</File>
+    <File md5="CB3ECC574A8A4B930C9DE6FF8AC24690" import="1">Art/HammockFlag.dds</File>
+    <File md5="8C8DB2E195A33F54BAB2D609E1C41AD8" import="1">Art/Micanopy.dds</File>
+    <File md5="54664DBC4F001E60096B0BBF2A5E9E5F" import="1">Art/SeminoleAtlas128.dds</File>
+    <File md5="FB6AC38D72CB96609997048CBF560B73" import="1">Art/SeminoleAtlas256.dds</File>
+    <File md5="1B9FB05E31C4D6B37AA9AC33D350B368" import="1">Art/SeminoleAtlas32.dds</File>
+    <File md5="28902F8BFA7C581FBF320B1F974CEE3C" import="1">Art/SeminoleAtlas45.dds</File>
+    <File md5="2695E65404808C8E7E8F2984F05DDB5B" import="1">Art/SeminoleAtlas64.dds</File>
+    <File md5="B6B5227226CB1290C3605FA88AC7EA78" import="1">Art/SeminoleAtlas80.dds</File>
+    <File md5="936C1F1143C9156B8E840DE8AE7C2050" import="1">Art/SeminoleDOM.dds</File>
+    <File md5="012B2574A772EF2D16499406F85B37DD" import="1">Art/SeminoleHutBuild45.dds</File>
+    <File md5="1EAD0937CCCE9A2CEDC84937D4F6E6A8" import="1">Art/SeminoleHutBuild64.dds</File>
+    <File md5="87FA9B20059544719881707865665E10" import="1">Art/SeminolePeace.mp3</File>
+    <File md5="20A2557C99CCDD3B39186C9174C7EDBC" import="1">Art/native_rifleman.fxsxml</File>
+    <File md5="F1144003774057C8A24DC5364946605D" import="1">Art/native_rifleman.gr2</File>
+    <File md5="5F94F57F071C31A8B49C0F019D1642CC" import="1">Art/Native_Warrior.dds</File>
+    <File md5="C2C94A8031506724EBA91D3AF931BB0F" import="1">Art/scout05.dds</File>
+    <File md5="D0ABE8A50D5BBEE862A94AA9F88B4E34" import="1">Art/Seminole Hut B.fxsxml</File>
+    <File md5="E764756D023FF24B589896E48B857D25" import="1">Art/Seminole Hut B.gr2</File>
+    <File md5="F5F9A77A3A51604DE7C0FCC06C668E38" import="1">Art/Seminole Hut HB.fxsxml</File>
+    <File md5="1E937A480A92A14440E1960965C8FCB5" import="1">Art/Seminole Hut HB.gr2</File>
+    <File md5="B29C518AF636611026D31D7E628AE1CD" import="1">Art/Seminole Hut PL.fxsxml</File>
+    <File md5="FDF35566C3F2D054869FFDC56E26D7B4" import="1">Art/Seminole Hut.dds</File>
+    <File md5="EFBA2608D7F61ED007392789F4ACB365" import="1">Art/Seminole Pole.dds</File>
+    <File md5="A818878384088C45FE8348A5F42534E6" import="1">Art/SeminoleWar.mp3</File>
+    <File md5="469953F3CA6D6BCD96F7EB6C1BCA97C5" import="1">Art/SeminoleAlpha128.dds</File>
+    <File md5="EC0AB76ACCC35B04FBB44D5E0CEDADA2" import="1">Art/SeminoleAlpha16.dds</File>
+    <File md5="8A58905729BFEF5AF805912EF39A8583" import="1">Art/SeminoleAlpha24.dds</File>
+    <File md5="7243557B6888A1D5D2C72FC6E391C093" import="1">Art/SeminoleAlpha32.dds</File>
+    <File md5="0283A10AB06996B662ED55F8D32B31D7" import="1">Art/SeminoleAlpha45.dds</File>
+    <File md5="1AE16026409C18F80E160D3EB3E35E5F" import="1">Art/SeminoleAlpha48.dds</File>
+    <File md5="C0D8EB47B0B90207C5EBDB37C21340C3" import="1">Art/SeminoleAlpha64.dds</File>
+    <File md5="16BA8631D3627E2EFF9CDA09A46083D8" import="1">Art/SeminoleAlpha80.dds</File>
+    <File md5="3EFFB9021E5189AE4913D60015D3E3DE" import="1">Art/SeminoleMap.dds</File>
+    <File md5="F9822843D3A1825562145827A2261242" import="1">Art/SeminoleSV.dds</File>
+    <File md5="C5250407E4084D3856A42750AF4BC1D9" import="0">Core/Civ.xml</File>
+    <File md5="2BADA20399EDC23216FE747EBBC6C546" import="0">Core/Build.sql</File>
+    <File md5="E098E161ABE30FD6127A1FC9A9A2687D" import="0">Core/Game Rules1.sql</File>
+    <File md5="BE5E959FCE44F6859FCEF235D78F36AB" import="0">Core/Diplo.xml</File>
+    <File md5="B6FE57843FBBA8FA3C7FE227FF9DB535" import="0">Core/Diplo.sql</File>
+    <File md5="75B4FEE4FD5066E08B71ED785FC6C6DA" import="1">Core/Micanopy.xml</File>
+    <File md5="2C2FB5AF603DBC4328E795D9B0D2848A" import="0">Core/SeminoleScene.xml</File>
+    <File md5="A39576C60ED2DB2A4A2C2CE47F51AF5A" import="0">Core/Leader.xml</File>
+    <File md5="E2353749DF4853F094D81AB9914517F3" import="0">Core/Improvement.xml</File>
+    <File md5="2F47D211FF59DB32E2765BD9E092CFCF" import="0">Core/Unit.xml</File>
+    <File md5="08B74B551F81C759CE05A61CED9481E1" import="0">Core/Buildings.xml</File>
+    <File md5="7F00054845EAE9121686E72EBD4E3ECE" import="0">Core/Unit_NativeRifleman_Art.xml</File>
+    <File md5="7BD2FBE46D0E789BDFF45CAC065DB4E4" import="1">Lua/PlotIterators.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">Lua/SaveUtils.lua</File>
+    <File md5="FFA4053683CD3C00976936394B7DF23B" import="0">Lua/SeminoleFunctions.lua</File>
+    <File md5="87FA9B20059544719881707865665E10" import="1">Music/SeminolePeace.mp3</File>
+    <File md5="A818878384088C45FE8348A5F42534E6" import="1">Music/SeminoleWar.mp3</File>
+    <File md5="9047B78B8B2A7549839967BD691C8EF4" import="0">Support/SuppotText.xml</File>
+    <File md5="FEAB4999358919C59B32037BC2485AA1" import="1">Support/SeminoleDecisions.lua</File>
+    <File md5="EC816D7A17F411C713720748A50556B7" import="0">Support/Support.sql</File>
+    <File md5="6CEDC7FC25BC8025D13C29371FBDCA4B" import="0">Text/Text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Civ.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Improvement.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Build.sql</UpdateDatabase>
+      <UpdateDatabase>Text/Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Unit_NativeRifleman_Art.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Game Rules1.sql</UpdateDatabase>
+      <UpdateDatabase>Support/Support.sql</UpdateDatabase>
+      <UpdateDatabase>Support/SuppotText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Diplo.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Diplo.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/SaveUtils.lua">
+      <Name>oiktyujnhfdgbf</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/PlotIterators.lua">
+      <Name>uyiutyjrgf</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/SeminoleFunctions.lua">
+      <Name>7l8yiktgrfed</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

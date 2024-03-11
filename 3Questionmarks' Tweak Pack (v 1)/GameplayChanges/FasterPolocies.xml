@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/30/2020 10:42:41 PM -->
+<GameData>
+	<GameSpeeds>
+		<Update>
+			<Where Type="GAMESPEED_MARATHON"/>
+			<Set CulturePercent="201" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_EPIC"/>
+			<Set CulturePercent="100" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_STANDARD"/>
+			<Set CulturePercent="67" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_QUICK"/>
+			<Set CulturePercent="60" />
+		</Update>
+	</GameSpeeds>
+
+	<Defines>
+		<Update>
+			<Where Name="POLICY_COST_VISIBLE_DIVISOR"/>
+			<Set Value="1" />
+		</Update>
+		<Update>
+			<Where Name="POLICY_COST_EXPONENT"/>
+			<Set Value="2" />
+		</Update>
+		<Update>
+			<Where Name="POLICY_COST_INCREASE_TO_BE_EXPONENTED"/>
+			<Set Value="2.8" />
+		</Update>
+	</Defines>
+</GameData>

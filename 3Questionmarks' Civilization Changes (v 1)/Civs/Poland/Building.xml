@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:30:55 PM -->
+<GameData>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_DUCAL_STABLE_STRATEGY"/>
+			<Set Text="In addition to the regular abilities of the Stable, the Ducal Stable increases [ICON_GOLD] Gold and [ICON_CULTURE] Culture on Pasture tiles and +15 XP for Mounted Units. Only the Polish may build it."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_DUCAL_STABLE_HELP"/>
+			<Set Text="Unique Polish Stable replacement. +15% [ICON_PRODUCTION] Production and +15 XP for Mounted Units.[NEWLINE][NEWLINE]Each Pasture worked by this City produces +1 [ICON_PRODUCTION] Production, +1 [ICON_GOLD] Gold, and +1 [ICON_CULTURE] Culture."/>
+		</Update>
+	</Language_en_US>
+</GameData>

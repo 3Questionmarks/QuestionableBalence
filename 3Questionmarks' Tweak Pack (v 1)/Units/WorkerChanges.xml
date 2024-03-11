@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/11/2019 19:47:56 AM -->
+<GameData>
+
+	<!-- Worker production cost reduced by ~30% -->
+	<Units>
+		<Update>
+			<Set Cost="50" />
+			<Where Class="UNITCLASS_WORKER" />
+		</Update>
+	</Units>
+	
+	<!-- Gains +25% Work rate at Construction, Industrilization, Combustion, and Robotics. -->
+	<Technologies>
+		<Update>
+			<Set WorkerSpeedModifier="25"/>
+			<Where Type="TECH_CONSTRUCTION"/>
+		</Update>
+		<Update>
+			<Set WorkerSpeedModifier="25"/>
+			<Where Type="TECH_INDUSTRIALIZATION"/>
+		</Update>
+		<Update>
+			<Set WorkerSpeedModifier="25"/>
+			<Where Type="TECH_COMBUSTION"/>
+		</Update>
+		<Update>
+			<Set WorkerSpeedModifier="25"/>
+			<Where Type="TECH_ROBOTICS"/>
+		</Update>
+	</Technologies>
+	<!-- Promotions don't do anything, they are just visual conformations -->
+	<Technology_FreePromotions>
+		<Row>
+			<TechType>TECH_CONSTRUCTION</TechType>
+			<PromotionType>PROMOTION_SKILLED_WORKER</PromotionType>
+		</Row>
+		<Row>
+			<TechType>TECH_INDUSTRIALIZATION</TechType>
+			<PromotionType>PROMOTION_SKILLED_WORKER_1</PromotionType>
+		</Row>
+		<Row>
+			<TechType>TECH_COMBUSTION</TechType>
+			<PromotionType>PROMOTION_SKILLED_WORKER_2</PromotionType>
+		</Row>
+		<Row>
+			<TechType>TECH_ROBOTICS</TechType>
+			<PromotionType>PROMOTION_SKILLED_WORKER_3</PromotionType>
+		</Row>
+	</Technology_FreePromotions>
+	<UnitPromotions_CivilianUnitType>
+		<Row>
+			<PromotionType>PROMOTION_SKILLED_WORKER</PromotionType>
+			<UnitType>UNIT_WORKER</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SKILLED_WORKER_1</PromotionType>
+			<UnitType>UNIT_WORKER</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SKILLED_WORKER_2</PromotionType>
+			<UnitType>UNIT_WORKER</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SKILLED_WORKER_3</PromotionType>
+			<UnitType>UNIT_WORKER</UnitType>
+		</Row>
+	</UnitPromotions_CivilianUnitType>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SKILLED_WORKER</Type>
+			<Description>TXT_KEY_PROMOTION_SKILLED_WORKER</Description>
+			<Help>TXT_KEY_PROMOTION_SKILLED_WORKER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>TRUE</CannotBeChosen>
+			<TechPrereq>TECH_CONSTRUCTION</TechPrereq>
+			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SKILLED_WORKER</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SKILLED_WORKER_1</Type>
+			<Description>TXT_KEY_PROMOTION_SKILLED_WORKER_1</Description>
+			<Help>TXT_KEY_PROMOTION_SKILLED_WORKER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>TRUE</CannotBeChosen>
+			<TechPrereq>TECH_INDUSTRIALIZATION</TechPrereq>
+			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SKILLED_WORKER</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SKILLED_WORKER_2</Type>
+			<Description>TXT_KEY_PROMOTION_SKILLED_WORKER_2</Description>
+			<Help>TXT_KEY_PROMOTION_SKILLED_WORKER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>TRUE</CannotBeChosen>
+			<TechPrereq>TECH_COMBUSTION</TechPrereq>
+			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SKILLED_WORKER</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_SKILLED_WORKER_3</Type>
+			<Description>TXT_KEY_PROMOTION_SKILLED_WORKER_3</Description>
+			<Help>TXT_KEY_PROMOTION_SKILLED_WORKER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>TRUE</CannotBeChosen>
+			<TechPrereq>TECH_ROBOTICS</TechPrereq>
+			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SKILLED_WORKER</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_SKILLED_WORKER">
+			<Text>Skilled Worker I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKILLED_WORKER_1">
+			<Text>Skilled Worker II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKILLED_WORKER_2">
+			<Text>Skilled Worker III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKILLED_WORKER_3">
+			<Text>Skilled Worker IV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SKILLED_WORKER_HELP">
+			<Text>+25% [ICON_WORKER] Work Rate.</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Worker gets +1 Movement at Civil Service and Electricity -->
+	<Technology_FreePromotions>
+		<Row>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			<PromotionType>PROMOTION_FAST_WORKER</PromotionType>
+		</Row>
+		<Row>
+			<TechType>TECH_ELECTRICITY</TechType>
+			<PromotionType>PROMOTION_FAST_WORKER_1</PromotionType>
+		</Row>
+	</Technology_FreePromotions>
+	<UnitPromotions_CivilianUnitType>
+		<Row>
+			<PromotionType>PROMOTION_FAST_WORKER</PromotionType>
+			<UnitType>UNIT_WORKER</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_FAST_WORKER_1</PromotionType>
+			<UnitType>UNIT_WORKER</UnitType>
+		</Row>
+	</UnitPromotions_CivilianUnitType>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_FAST_WORKER</Type>
+			<Description>TXT_KEY_PROMOTION_FAST_WORKER</Description>
+			<Help>TXT_KEY_PROMOTION_FAST_WORKER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>TRUE</CannotBeChosen>
+			<TechPrereq>TECH_CIVIL_SERVICE</TechPrereq>
+			<MovesChange>1</MovesChange>
+			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FAST_WORKER</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FAST_WORKER_1</Type>
+			<Description>TXT_KEY_PROMOTION_FAST_WORKER_1</Description>
+			<Help>TXT_KEY_PROMOTION_FAST_WORKER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>TRUE</CannotBeChosen>
+			<TechPrereq>TECH_ELECTRICITY</TechPrereq>
+			<MovesChange>1</MovesChange>
+			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FAST_WORKER</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_FAST_WORKER">
+			<Text>Mobile Worker I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FAST_WORKER_1">
+			<Text>Mobile Worker II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FAST_WORKER_HELP">
+			<Text>+1 [ICON_MOVES] Movement.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

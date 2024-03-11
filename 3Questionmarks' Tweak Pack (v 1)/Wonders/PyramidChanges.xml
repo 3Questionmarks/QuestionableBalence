@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2024 1:33:23 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_PYRAMID" />
+			<Set>
+				<Help>TXT_KEY_WONDER_PYRAMID_HELP1</Help>
+			</Set>
+		</Update>
+	</Buildings>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_WONDER_PYRAMID_HELP1">
+			<Text>Tile improvement construction speed is increased by 25% and two free [ICON_WORKER] Workers appear.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

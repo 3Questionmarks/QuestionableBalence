@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<Unit_UniqueNames>
+		<!-- Artist -->
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PAUL_TERRY</UniqueName>
+			<GreatWorkType>GREAT_WORK_SOMEONE_TOUCHA_MY_SPAGHET</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ATSUKO_SATO</UniqueName>
+			<GreatWorkType>GREAT_WORK_DOGE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PICKLE_RICK</UniqueName>
+			<GreatWorkType>GREAT_WORK_PICKLE_RICK</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PEWDIEPIE_CHAIR</UniqueName>
+			<GreatWorkType>GREAT_WORK_CAN_YOU_DO_THIS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_UGANDA_KNUCKLES</UniqueName>
+			<GreatWorkType>GREAT_WORK_UGANDA_KNUCKLES</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_TIM_BUCKLEY</UniqueName>
+			<GreatWorkType>GREAT_WORK_LOSSMEME</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_TIDE</UniqueName>
+			<GreatWorkType>GREAT_WORK_TIDE_PODS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_DESPEROSOLACE</UniqueName>
+			<GreatWorkType>GREAT_WORK_BUFFSUKI</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_UNKNOWN_BOI</UniqueName>
+			<GreatWorkType>GREAT_WORK_BOI</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_MONIKA_DDLC</UniqueName>
+			<GreatWorkType>GREAT_WORK_MONIKA_DDLC</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_VRCHAT_EMOJI</UniqueName>
+			<GreatWorkType>GREAT_WORK_VRCHAT_EMOJI</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_MATT_FURIE</UniqueName>
+			<GreatWorkType>GREAT_WORK_PEPE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_TOMMY_WISEAU</UniqueName>
+			<GreatWorkType>GREAT_WORK_TOMMY_WISEAU</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_UNKNOWN_BUFF_POOH</UniqueName>
+			<GreatWorkType>GREAT_WORK_BUFF_POOH</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_DONALD_TRUMP_CHINA</UniqueName>
+			<GreatWorkType>GREAT_WORK_DONALD_TRUMP_CHINA</GreatWorkType>
+		</Row>
+		<!-- Writer -->
+		<Row>
+			<UnitType>UNIT_WRITER</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_RICK_AND_MORTY_FAN</UniqueName>
+			<GreatWorkType>GREAT_WORK_RICK_AND_MORTY_IQ_COPYPASTA</GreatWorkType>
+		</Row>
+		<!-- Musician -->
+		<Row>
+			<UnitType>UNIT_MUSICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_UNKNOWN_DDLC_EARRAPE</UniqueName>
+			<GreatWorkType>GREAT_WORK_DDLC_EARRAPE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MUSICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_CABLETURNEDOFFCADE</UniqueName>
+			<GreatWorkType>GREAT_WORK_DANCE_TILL_YOURE_DEAD</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MUSICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ELLIE_RAGE</UniqueName>
+			<GreatWorkType>GREAT_WORK_OH_YEAH_MR_KRABS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MUSICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_UNKNOWN_NIGHT_OF_NIGHTS</UniqueName>
+			<GreatWorkType>GREAT_WORK_NIGHT_OF_NIGHTS_PHONE_COVER</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MUSICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_INITIAL_D</UniqueName>
+			<GreatWorkType>GREAT_WORK_DEJA_VU</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+	<GreatWorks>
+		<!-- Arts -->
+		<Row>
+			<Type>GREAT_WORK_SOMEONE_TOUCHA_MY_SPAGHET</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_SOMEONE_TOUCHA_MY_SPAGHET</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_SomeoneTouchaMySpaghet.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_DOGE</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_DOGE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Doge.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_PICKLE_RICK</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_PICKLE_RICK</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_PickleRick.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_CAN_YOU_DO_THIS</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_CAN_YOU_DO_THIS</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_CanYouDoThis.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_LOSSMEME</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_LOSSMEME</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_LossMeme.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_TOMMY_WISEAU</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_TOMMY_WISEAU</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_TommyWiseau.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_BUFF_POOH</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_BUFF_POOH</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_BuffPooh.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_DONALD_TRUMP_CHINA</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_DONALD_TRUMP_CHINA</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_DTChina.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_UGANDA_KNUCKLES</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_UGANDA_KNUCKLES</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_UgandaKnuckles.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_TIDE_PODS</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_TIDE_PODS</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_TidePods.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_BUFFSUKI</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_BUFFSUKI</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Buffsuki.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_BOI</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_BOI</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Boi.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_MONIKA_DDLC</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_MONIKA_DDLC</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Monika_DDLC.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_VRCHAT_EMOJI</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_VRCHAT_EMOJI</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_VRChatEmoji.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_PEPE</Type>
+			<GreatWorkClasssType>GREAT_WORK_ART</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_PEPE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Pepe.dds</Image>
+		</Row>
+		<!-- Writing -->
+		<Row>
+			<Type>GREAT_WORK_RICK_AND_MORTY_IQ_COPYPASTA</Type>
+			<GreatWorkClasssType>GREAT_WORK_LITERATURE</GreatWorkClasssType>
+			<Description>TXT_KEY_GREAT_WORK_RICK_AND_MORTY_IQ_COPYPASTA</Description>
+			<Quote>TXT_KEY_GREAT_WORK_QUOTE_RICK_AND_MORTY_IQ_COPYPASTA</Quote>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GreatWriter_Background.dds</Image>
+		</Row>
+		<!-- Music -->
+		<Row>
+			<Type>GREAT_WORK_DDLC_EARRAPE</Type>
+			<GreatWorkClassType>GREAT_WORK_MUSIC</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_DDLC_EARRAPE</Description>
+			<Audio>AS2D_GREAT_MUSICIAN_DDLC_EARRAPE</Audio>
+			<Image>GreatMusician_Background.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_DANCE_TILL_YOURE_DEAD</Type>
+			<GreatWorkClassType>GREAT_WORK_MUSIC</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_DANCE_TILL_YOURE_DEAD</Description>
+			<Audio>AS2D_GREAT_MUSICIAN_CABLETURNEDOFFCADE</Audio>
+			<Image>GreatMusician_Background.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_OH_YEAH_MR_KRABS</Type>
+			<GreatWorkClassType>GREAT_WORK_MUSIC</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_OH_YEAH_MR_KRABS</Description>
+			<Audio>AS2D_GREAT_MUSICIAN_ELLIE_RAGE</Audio>
+			<Image>GreatMusician_Background.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_NIGHT_OF_NIGHTS_PHONE_COVER</Type>
+			<GreatWorkClassType>GREAT_WORK_MUSIC</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_NIGHT_OF_NIGHTS_PHONE_COVER</Description>
+			<Audio>AS2D_GREAT_MUSICIAN_UNKNOWN_NIGHT_OF_NIGHTS</Audio>
+			<Image>GreatMusician_Background.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_DEJA_VU</Type>
+			<GreatWorkClassType>GREAT_WORK_MUSIC</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_DEJA_VU</Description>
+			<Audio>AS2D_GREAT_MUSICIAN_INITIAL_D</Audio>
+			<Image>GreatMusician_Background.dds</Image>
+		</Row>
+	</GreatWorks>
+	<!-- Music -->
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_GREAT_MUSICIAN_DDLC_EARRAPE</SoundID>
+			<FileName>GWM_DokiDokiEarRape</FileName>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_GREAT_MUSICIAN_CABLETURNEDOFFCADE</SoundID>
+			<FileName>GWM_DanceTillYoureDead</FileName>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_GREAT_MUSICIAN_ELLIE_RAGE</SoundID>
+			<FileName>GWM_OhYeahMrKrabs</FileName>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_GREAT_MUSICIAN_UNKNOWN_NIGHT_OF_NIGHTS</SoundID>
+			<FileName>GWM_NightOfNightsPhoneCover</FileName>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_GREAT_MUSICIAN_INITIAL_D</SoundID>
+			<FileName>GWM_DejaVu</FileName>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_GREAT_MUSICIAN_DDLC_EARRAPE</ScriptID>
+			<SoundID>SND_GREAT_MUSICIAN_DDLC_EARRAPE</SoundID>
+			<SoundType>GAME_MUSIC_STINGS</SoundType>
+			<TaperSoundtrackVolume>0.0</TaperSoundtrackVolume>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_GREAT_MUSICIAN_CABLETURNEDOFFCADE</ScriptID>
+			<SoundID>SND_GREAT_MUSICIAN_CABLETURNEDOFFCADE</SoundID>
+			<SoundType>GAME_MUSIC_STINGS</SoundType>
+			<TaperSoundtrackVolume>0.0</TaperSoundtrackVolume>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_GREAT_MUSICIAN_ELLIE_RAGE</ScriptID>
+			<SoundID>SND_GREAT_MUSICIAN_ELLIE_RAGE</SoundID>
+			<SoundType>GAME_MUSIC_STINGS</SoundType>
+			<TaperSoundtrackVolume>0.0</TaperSoundtrackVolume>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_GREAT_MUSICIAN_UNKNOWN_NIGHT_OF_NIGHTS</ScriptID>
+			<SoundID>SND_GREAT_MUSICIAN_UNKNOWN_NIGHT_OF_NIGHTS</SoundID>
+			<SoundType>GAME_MUSIC_STINGS</SoundType>
+			<TaperSoundtrackVolume>0.0</TaperSoundtrackVolume>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_GREAT_MUSICIAN_INITIAL_D</ScriptID>
+			<SoundID>SND_GREAT_MUSICIAN_INITIAL_D</SoundID>
+			<SoundType>GAME_MUSIC_STINGS</SoundType>
+			<TaperSoundtrackVolume>0.0</TaperSoundtrackVolume>
+		</Row>
+	</Audio_2DSounds>
+	<Language_en_US>
+		<!-- Artists -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_PAUL_TERRY">
+			<Text>Paul Terry - The Three Bears</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ATSUKO_SATO">
+			<Text>Atsuko Sato's rescued doge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PICKLE_RICK">
+			<Text>Pickle Rick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PEWDIEPIE_CHAIR">
+			<Text>PewDiePie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_UGANDA_KNUCKLES">
+			<Text>Uganda Knuckles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TIDE">
+			<Text>Tide</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DESPEROSOLACE">
+			<Text>@desperosolace on Twitter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_UNKNOWN_BOI">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MONIKA_DDLC">
+			<Text>Doki Doki Literature Club</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VRCHAT_EMOJI">
+			<Text>VR Chat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MATT_FURIE">
+			<Text>Matt Furie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TOMMY_WISEAU">
+			<Text>Tommy Wiseau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_UNKNOWN_BUFF_POOH">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DONALD_TRUMP_CHINA">
+			<Text>Donald Trump</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TIM_BUCKLEY">
+			<Text>Tim Buckley</Text>
+		</Row>
+		<!-- Writers -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_RICK_AND_MORTY_FAN">
+			<Text>Very intelligent person</Text>
+		</Row>
+		<!-- Musicians -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_UNKNOWN_DDLC_EARRAPE">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CABLETURNEDOFFCADE">
+			<Text>CableTurnedOffCade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ELLIE_RAGE">
+			<Text>Ellie Rage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_UNKNOWN_NIGHT_OF_NIGHTS">
+			<Text>Someone from Asia?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_INITIAL_D">
+			<Text>Initial D</Text>
+		</Row>
+		<!-- Art -->
+		<Row Tag="TXT_KEY_GREAT_WORK_SOMEONE_TOUCHA_MY_SPAGHET">
+			<Text>SOMEONE TOUCHA MAH SPAGHETT!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_DOGE">
+			<Text>Doge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PICKLE_RICK">
+			<Text>Pickle Rick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_CAN_YOU_DO_THIS">
+			<Text>BUT CAN YOU DO THIS?!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_UGANDA_KNUCKLES">
+			<Text>Do you kno de wae?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_TIDE_PODS">
+			<Text>Tide Pods (the tastiest food)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_BUFFSUKI">
+			<Text>Buffsuki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_BOI">
+			<Text>BOI</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MONIKA_DDLC">
+			<Text>Monika gonna delet everyone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_VRCHAT_EMOJI">
+			<Text>Save your soul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PEPE">
+			<Text>Pepe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_TOMMY_WISEAU">
+			<Text>Oh hi, Mark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_BUFF_POOH">
+			<Text>NO SWEARING!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_DONALD_TRUMP_CHINA">
+			<Text>CHINA!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_LOSSMEME">
+			<Text>Loss</Text>
+		</Row>
+		<!-- Literature -->
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_RICK_AND_MORTY_IQ_COPYPASTA">
+			<Text>To be fair, you have to have a very high IQ to understand Rick and Morty.[NEWLINE]The humour is extremely subtle, and without a solid grasp of theoretical physics most of the jokes will go over a typical viewer’s head.[NEWLINE]There’s also Rick’s nihilistic outlook, which is deftly woven into his characterisation- his personal philosophy draws heavily from Narodnaya Volya literature, for instance.[NEWLINE]The fans understand this stuff; they have the intellectual capacity to truly appreciate the depths of these jokes, to realise that they’re not just funny- they say something deep about LIFE.</Text>
+		</Row>
+		<!-- Music -->
+		<Row Tag="TXT_KEY_GREAT_WORK_DDLC_EARRAPE">
+			<Text>Tfw Sayori dies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_DANCE_TILL_YOURE_DEAD">
+			<Text>Dance Till Youre Dead</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_OH_YEAH_MR_KRABS">
+			<Text>Oh Yeah Mr. Krabs (Rmx)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_NIGHT_OF_NIGHTS_PHONE_COVER">
+			<Text>Night Of Nights (Phone Cover)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_DEJA_VU">
+			<Text>Deja Vu</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

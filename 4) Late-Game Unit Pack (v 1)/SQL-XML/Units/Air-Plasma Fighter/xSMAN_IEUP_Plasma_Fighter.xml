@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/09/17 2:15:31 PM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_PLASMA_FIGHTER</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_PLASMA_FIGHTER</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_PLASMA_FIGHTER</DefaultUnit>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Type>UNIT_SMAN_IEUP_PLASMA_FIGHTER</Type>
+			<Class>UNITCLASS_SMAN_IEUP_PLASMA_FIGHTER</Class>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<ObsoleteTech></ObsoleteTech>
+			<RangedCombat>105</RangedCombat>
+			<Range>20</Range>
+			<Moves>2</Moves>
+			<Cost>750</Cost>			
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<Immobile>true</Immobile>
+			<AirInterceptRange>20</AirInterceptRange>
+			<RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_PLASMA_FIGHTER</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_PLASMA_FIGHTER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_PLASMA_FIGHTER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_PLASMA_FIGHTER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>		
+			<AdvancedStartCost>90</AdvancedStartCost>
+			<HurryCostModifier>10</HurryCostModifier>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_PLASMA_FIGHTER</UnitArtInfo>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>7</UnitFlagIconOffset>
+		</Row>
+	</Units>
+
+	<!--
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_FIGHTER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_SMAN_EU_MERC_CONSULATE</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	-->
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_FIGHTER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_FIGHTER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_FIGHTER</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+		
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_FIGHTER</UnitType>
+			<SelectionSound>AS2D_SELECT_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FIGHTER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_PLASMA_FIGHTER">
+			<Text>Plasma Fighter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_PLASMA_FIGHTER_HELP">
+			<Text>Fighter unit that specialises in obtaining Air Superiority. Requires [ICON_RES_URANIUM] Uranium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_PLASMA_FIGHTER_STRATEGY">
+			<Text>Use Plasma Fighters to wrest control of the skies from your enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_PLASMA_FIGHTER_PEDIA">
+			<Text>
+				The Plasma Fighter is an enhanced fighter unit which deals heavy damage up to 20 tiles away. It is available on the discovery of Nuclear Fusion, and does not become obsolete. Requires [ICON_RES_URANIUM] Uranium.
+			</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

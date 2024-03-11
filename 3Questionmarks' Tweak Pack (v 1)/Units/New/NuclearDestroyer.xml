@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/9/2020 6:35:14 AM -->
+<GameData>
+	<!-- Destroyers upgrade into them -->
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_DESTROYER</UnitType>
+			<UnitClassType>UNITCLASS_NUCLEAR_DESTROYER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	
+	<!--  Neclear Destroyer Info -->
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_NUCLEAR_DESTROYER</Type>
+			<Description>TXT_KEY_UNIT_NUCLEAR_DESTROYER</Description>
+			<DefaultUnit>UNIT_NUCLEAR_DESTROYER</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_NUCLEAR_DESTROYER</Class>
+			<Type>UNIT_NUCLEAR_DESTROYER</Type>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+			<Combat>100</Combat>
+			<Cost>800</Cost>
+			<Moves>8</Moves>
+			<AirInterceptRange>4</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_NUCLEAR_DESTROYER</Description>
+			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_DESTROYER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_NUCLEAR_DESTROYER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_NUCLEAR_DESTROYER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>75</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_DESTROYER_RAILGUN</UnitArtInfo>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>45</UnitFlagIconOffset>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>45</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_DESTROYER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_DESTROYER</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_DESTROYER</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_DESTROYER</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_DESTROYER</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_DESTROYER</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_DESTROYER</UnitType>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_DESTROYER</UnitType>
+			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_DESTROYER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_DESTROYER</UnitType>
+			<PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_DESTROYER</UnitType>
+			<PromotionType>PROMOTION_SUB_DEFEND</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_DESTROYER</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_DESTROYER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_NUCLEAR_DESTROYER">
+			<Text>Nuclear Destroyer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_NUCLEAR_DESTROYER">
+			<Text>Powerful information Era naval melee unit which specializes in anti-submarine warfare.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NUCLEAR_DESTROYER_STRATEGY">
+			<Text>Fast and tough, the Nuclear Destroyer is a modern warship which carries a mean Melee Combat punch. It is pretty good at intercepting enemy aircraft and excels at hunting submarines. When combined with Missile Cruisers, Neclear Subs and Carriers, your navy will be almost unstopable.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

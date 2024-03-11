@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/28/2012 12:24:02 AM -->
+<GameData>
+	<Language_en_US>
+		<!--Rome Forum-->
+		<Row Tag="TXT_KEY_BUILDING_FA_FORUM">
+			<Text>Forum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FA_FORUM_HELP">
+			<Text>The Forum is the Roman unique building, replacing the Market. Like the market, the Forum provides a [ICON_GOLD] Gold bonus to the city. Additionally the Forum provides a [ICON_CULTURE] bonus to the city (+25%) and [ICON_CULTURE] culture costs of acquiring new tiles is reduced by 25% for the city that the forum is built in.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

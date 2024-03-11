@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-26 23:38:28 -->
+<GameData>
+
+	<!-- +4 [ICON_FOOD] Food and +35% [ICON_FOOD] Growth (excess Food) in all cities. -->
+	<Beliefs>
+		<Update>
+			<Set Follower="false" Reformation="true" CityGrowthModifier="0" RequiresPeace="true" />
+			<Where Type="BELIEF_SWORD_PLOWSHARES" />
+		</Update>
+	</Beliefs>
+	<Belief_CityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_SWORD_PLOWSHARES</BeliefType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Belief_CityYieldChanges>
+	<Belief_MaxYieldModifierPerFollower>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_COMMUNITY</BeliefType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Max>25</Max>
+		</Row>
+	</Belief_MaxYieldModifierPerFollower>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_SWORD_PLOWSHARES" />
+		<Row Tag="TXT_KEY_BELIEF_SWORD_PLOWSHARES">
+			<Text>+3 [ICON_FOOD] Food in all Cities and +1% [ICON_FOOD] Food per follower (Max 25%) while at Peace.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

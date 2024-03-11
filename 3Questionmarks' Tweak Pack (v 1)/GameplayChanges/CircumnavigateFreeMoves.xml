@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2021 3:41:52 AM -->
+<GameData>
+	<Defines>
+		<Update>
+			<Where Name="CIRCUMNAVIGATE_FREE_MOVES"/>
+			<Set Value="1" />
+		</Update>
+	</Defines>
+</GameData>

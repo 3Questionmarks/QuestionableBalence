@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/24/2021 4:25:07 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set Cost="500" Range="2" Combat="50" RangedCombat="65"/>
+			<Where Class="UNITCLASS_MACHINE_GUN"/>
+		</Update>
+	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_MACHINE_GUN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_MACHINE_GUN_STRATEGY"/>
+			<Set Text="The Machine Gun is the penultimate non-siege ranged unit. It is more powerful than earlier ranged units. It can deal significant damage to other units without being hurt itself. It is vulnerable to melee attack."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_MACHINE_GUN"/>
+			<Set Text="Late-game ranged Infantry Unit."/>
+		</Update>
+	</Language_en_US>
+</GameData>

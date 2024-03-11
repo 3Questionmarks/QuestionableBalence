@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:13:41 PM -->
+<GameData>
+	<!-- Marines buffed-->
+	<Units>
+		<Update>
+			<Set Cost="600" Combat="75" />
+			<Where Type="UNIT_MARINE" />
+		</Update>
+	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_MARINE</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_MARINE</UnitType>
+			<UnitClassType>UNITCLASS_SPECIAL_FORCES</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+</GameData>

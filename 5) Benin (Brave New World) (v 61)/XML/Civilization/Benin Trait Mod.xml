@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_BENIN_MOD_TRAIT</Type>
+			<Description>TXT_KEY_TRAIT_BENIN_MOD_TRAIT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_BENIN_MOD_TRAIT_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+    
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_BENIN_MOD_TRAIT</TraitType>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_BENIN_MOD_TRAIT</TraitType>
+			<ImprovementType>IMPROVEMENT_BENIN_MOD_IYA</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+
+</GameData>

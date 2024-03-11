@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 2:05:07 PM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set FreeSocialPoliciesPerEra="1" AngerFreeIntrusionOfCityStates="1" />
+			<Where Type="TRAIT_CITY_STATE_FRIENDSHIP" />
+		</Update>
+	</Traits>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP" />
+			<Set Text="Receive a free [ICON_CULTURE] Social Policy when you advance to the next era. City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate. Units do not cause City-State [ICON_INFLUENCE] Influence to fall when stationed within their borders. "/>
+		</Update>
+	</Language_en_US>
+</GameData>

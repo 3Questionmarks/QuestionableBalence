@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/20/2018 9:33:03 AM -->
+<GameData>
+	<Beliefs>
+		<Update>
+			<Where Type="BELIEF_PEACE_GARDENS" />
+			<Set RequiresPeace="false" />
+		</Update>
+	</Beliefs>
+	<Belief_BuildingClassHappiness>
+		<Delete BeliefType="BELIEF_PEACE_GARDENS" />
+		<Row>
+			<BeliefType>BELIEF_PEACE_GARDENS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+	</Belief_BuildingClassHappiness>
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_PEACE_GARDENS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_PEACE_GARDENS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_PEACE_GARDENS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+	<Belief_BuildingClassTourism>
+		<Row>
+			<BeliefType>BELIEF_PEACE_GARDENS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
+			<Tourism>3</Tourism>
+		</Row>
+	</Belief_BuildingClassTourism>
+	
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_PEACE_GARDENS" />
+			<Set Text="+3 [ICON_HAPPINESS_1] Happiness, [ICON_FOOD] Food, [ICON_CULTURE] Culture, [ICON_PEACE] Faith and [ICON_TOURISM] Tourism from Gardens." />
+		</Update>
+	</Language_en_US>
+
+</GameData>

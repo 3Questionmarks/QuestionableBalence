@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="33ca122a-65bc-4504-9eac-2b3d74ec277a" version="3">
+  <Properties>
+    <Name>Civilization Selection Bonus Tooltips</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Detail toolips for UU/UB/UI during Civilization Selection Screen</Teaser>
+    <Description>This mod add more detail tooltips to the Unique Units, Unique Buildings, and Unique Improvements for each civilization during the civilization selection process when starting a game.[NEWLINE]
+[NEWLINE]
+[COLOR_GREEN]Installation Instruction:[ENDCOLOR][NEWLINE]
+[ICON_BULLET]Subscribe to mod.[NEWLINE]
+[ICON_BULLET]Enable mod.[NEWLINE]
+[ICON_BULLET]Start Game or Load Game, do not click [COLOR_RED]Back[ENDCOLOR].[NEWLINE]
+[NEWLINE]
+[COLOR_GREEN]Make this mod default without having to load in mod section:[ENDCOLOR][NEWLINE]
+[ICON_BULLET]Subscribe to mod.[NEWLINE]
+[ICON_BULLET]Go to your mod folder.[NEWLINE]
+[ICON_BULLET]Default mod folder is: Documents\My Games\Sid Meier's Civilization 5\MODS\[NEWLINE]
+[ICON_BULLET]Copy the "zStuff" folder in the "Civilization Selection Bonus Tooltips (v 1)" folder to the Assets\UI\ folder in your Civ 5 installation.[NEWLINE]
+[ICON_BULLET]Default location for steam is SteamApps\common\Sid Meier's Civilization V\Assets\UI\[NEWLINE]</Description>
+    <Authors>bacons</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="7D61F5CB9B08B1DE5C44D6D308B3D671" import="1">zStuff/UniqueBonuses.lua</File>
+  </Files>
+</Mod>

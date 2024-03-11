@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2024 4:32:29 PM -->
+<GameData>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_BRANDENBURG_GATE_HELP"/>
+		<Row Tag="TXT_KEY_WONDER_BRANDENBURG_GATE_HELP">
+			<Text>A [ICON_GREAT_GENERAL] Great General appears near the City where the Wonder was built and +15 [ICON_WAR] XP for all Units built in this City.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

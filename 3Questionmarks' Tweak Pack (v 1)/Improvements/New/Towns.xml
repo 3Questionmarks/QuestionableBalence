@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/21/2023 7:57:19 AM -->
+<GameData>
+
+	<Improvements>
+		<Update>
+			<Where Type="IMPROVEMENT_TRADING_POST" />
+			<Set>
+				<PillageGold>30</PillageGold>
+				<DefenseModifier>10</DefenseModifier>
+			</Set>
+		</Update>
+		<Row>
+			<Type>IMPROVEMENT_TOWN</Type>
+			<Description>TXT_KEY_IMPROVEMENT_TOWN</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_TOWN_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_TOWN</ArtDefineTag>
+			<PillageGold>65</PillageGold>
+			<DefenseModifier>20</DefenseModifier>
+			<PortraitIndex>32</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_LARGE_TOWN</Type>
+			<Description>TXT_KEY_IMPROVEMENT_LARGE_TOWN</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_LARGE_TOWN_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_LARGE_TOWN</ArtDefineTag>
+			<PillageGold>150</PillageGold>
+			<DefenseModifier>30</DefenseModifier>
+			<PortraitIndex>32</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+
+	<!-- Prereq tech for Village (aka Trading Post) is now Trapping -->
+	<Builds>
+		<Update>
+			<Where Type="BUILD_TRADING_POST" />
+			<Set>
+				<PrereqTech>TECH_TRAPPING</PrereqTech>
+				<Time>600</Time>
+				<!-- default: 700 -->
+			</Set>
+		</Update>
+	</Builds>
+
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_Yields>
+
+	<Improvement_RouteYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<RouteType>ROUTE_ROAD</RouteType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<RouteType>ROUTE_RAILROAD</RouteType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<RouteType>ROUTE_RAILROAD</RouteType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<RouteType>ROUTE_ROAD</RouteType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<RouteType>ROUTE_RAILROAD</RouteType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<RouteType>ROUTE_RAILROAD</RouteType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<RouteType>ROUTE_ROAD</RouteType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<RouteType>ROUTE_RAILROAD</RouteType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<RouteType>ROUTE_RAILROAD</RouteType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Improvement_RouteYieldChanges>
+
+	<Improvement_ValidTerrains>
+		<!-- Village (aka Trading Post) as is: Grass, Plains, Tundra, Desert -->
+
+		<!-- Town is valid on Grass, Plains, Tundra, Desert -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+
+		<!-- Large Town is valid on Grass, Plains, Tundra, Desert -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+
+	<Improvement_ValidFeatures>
+		<!-- Village is already valid on Flood Plains, Forest, Jungle -->
+		<!-- Village (aka Trading Post) is now valid on Marsh -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+		</Row>
+
+		<!-- Town is valid on Flood Plains, Forest, Jungle, Marsh -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>
+
+		<!-- Large Town is valid on Flood Plains, Forest, Jungle -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>
+	</Improvement_ValidFeatures>
+
+	<!-- +1 Gold from Economics -->
+	<Improvement_TechYieldChanges>
+		<Row>
+			<TechType>TECH_ECONOMICS</TechType>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TechType>TECH_ECONOMICS</TechType>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+	<!-- Technology Flavors -->
+	<Technology_Flavors>
+		<!-- Trapping -->
+		<Update>
+			<Where>
+				<TechType>TECH_TRAPPING</TechType>
+				<FlavorType>FLAVOR_GOLD</FlavorType>
+			</Where>
+			<Set Flavor="12" />
+		</Update>
+		<Update>
+			<Where>
+				<TechType>TECH_TRAPPING</TechType>
+				<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			</Where>
+			<Set Flavor="5" />
+		</Update>
+
+		<!-- Guilds -->
+		<Update>
+			<Where>
+				<TechType>TECH_GUILDS</TechType>
+				<FlavorType>FLAVOR_GOLD</FlavorType>
+			</Where>
+			<Set Flavor="20" />
+		</Update>
+		<Row>
+			<TechType>TECH_GUILDS</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_GUILDS</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+
+		<!-- Banking -->
+		<Update>
+			<Where>
+				<TechType>TECH_BANKING</TechType>
+				<FlavorType>FLAVOR_GOLD</FlavorType>
+			</Where>
+			<Set Flavor="30" />
+		</Update>
+		<Update>
+			<Where>
+				<TechType>TECH_BANKING</TechType>
+				<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			</Where>
+			<Set Flavor="10" />
+		</Update>
+		<Row>
+			<TechType>TECH_BANKING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_BANKING</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Technology_Flavors>
+
+	<Language_en_US>
+		
+		<!-- Village -->
+		<Replace Tag="TXT_KEY_IMPROVEMENT_TRADING_POST">
+			<Text>Village</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_TRADING_POST_TEXT">
+			<Text>Villages are small settlements where merchants and traders set up shop, sometimes only seasonally. Travelers and city folk come to purchase and trade food, weapons, whiskey, gold, and all of the other trappings of society. This trade generates [ICON_GOLD] Gold, and the buildings of the Village provide a [ICON_STRENGTH] +10% defensive bonus.[NEWLINE][NEWLINE]After researching Guilds, a Village will grow into a [LINK=IMPROVEMENT_TOWN]Town[/LINK] if it meets these criteria for 8 turns (on Standard speed):[NEWLINE][ICON_BULLET] worked by a City[NEWLINE][ICON_BULLET] not next to another Town (Large Towns are ok)[NEWLINE][ICON_BULLET] in a good location[NEWLINE][NEWLINE]A Good Location[NEWLINE]Has any of these qualities:[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Desirable[ENDCOLOR]: Next to an improved Luxury.[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Important[ENDCOLOR]: Next to a Great Person improvement.[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Historic[ENDCOLOR]: Next to a Natural Wonder or Landmark.[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Convenient[ENDCOLOR]: Next to a waterway -- river, coast, lake, or oasis. Or next to a road going directly to the City where people work.[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Bountiful[ENDCOLOR]: On fertile terrain -- grassland, jungle, or flood plains. Or next to an improved Bonus Food Resource, or wild Bananas.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILD_TRADING_POST">
+			<Text>Build a Village</Text>
+		</Replace>
+
+		<!-- Town -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_TOWN">
+			<Text>Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_TOWN_TEXT">
+			<Text>Towns are bustling settlements with a busy populace. Local trade generates [ICON_GOLD] Gold, local industries generate [ICON_PRODUCTION] Production, and the buildings of the Town provide a [ICON_STRENGTH] +20% defensive bonus.[NEWLINE][NEWLINE]After researching Banking, a Town will grow into a [LINK=IMPROVEMENT_LARGE_TOWN]Large Town[/LINK] if it meets these criteria for 16 turns (on Standard speed):[NEWLINE][ICON_BULLET] worked by a City[NEWLINE][ICON_BULLET] at least 3 tiles away from a City or another Large Town[NEWLINE][ICON_BULLET] in a great location[NEWLINE][NEWLINE]A Great Location[NEWLINE]Has any [COLOR_POSITIVE_TEXT]TWO[ENDCOLOR] of these qualities:[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Desirable[ENDCOLOR]: Next to an improved Luxury. [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Important[ENDCOLOR]: Next to a Great Person improvement. [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Historic[ENDCOLOR]: Next to a Natural Wonder or Landmark. [NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Convenient[ENDCOLOR]: Next to a waterway -- river, coast, lake, or oasis. Or next to a road going directly to the City where people work.[NEWLINE][NEWLINE]Note that a bountiful location will help sustain a Town, but won't help it grow into a Large Town.[NEWLINE][NEWLINE]Towns can lose population and eventually shrink back into Villages if they are pillaged, or if they aren't in a good location anymore.</Text>
+		</Row>
+
+		<!-- Large Town -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_LARGE_TOWN">
+			<Text>Large Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_LARGE_TOWN_TEXT">
+			<Text>Large Towns are regional centers of commerce and industry. They generate significant [ICON_GOLD] Gold and [ICON_PRODUCTION] Production, and the buildings of the Large Town provide a [ICON_STRENGTH] +30% defensive bonus.[NEWLINE][NEWLINE]Large Towns can lose population and eventually shrink back into Towns if they are pillaged, or if they aren't in a great location anymore.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

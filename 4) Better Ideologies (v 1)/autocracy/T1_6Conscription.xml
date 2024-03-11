@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:17:12 PM -->
+<GameData>
+
+	<!-- Conscription (NEW POLICY): Puppeted Cities do not increase Science costs and allow purchasing as if they were annexed. -->
+	<Policies>
+		<Row>
+			<Type>POLICY_CLIENT_STATES</Type>
+			<Description>TXT_KEY_POLICY_CLIENT_STATES</Description>
+			<Civilopedia>TXT_KEY_POLICY_CLIENT_STATES_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_CLIENT_STATES_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_AUTOCRACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
+			<Level>1</Level>
+			<BaseFreeUnits>5</BaseFreeUnits>
+			<FreeUnitsPopulationPercent>25</FreeUnitsPopulationPercent>
+			<MilitaryProductionModifier>25</MilitaryProductionModifier>
+		</Row>
+	</Policies>
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_CLIENT_STATES</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CLIENT_STATES</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CLIENT_STATES</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_CLIENT_STATES">
+			<Text>Conscription</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CLIENT_STATES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Conscription[ENDCOLOR][NEWLINE]5 Units are maintenance free. For every 4 [ICON_CITIZEN] Population, one millitary unit is maintenance free. +25% production towards millitary units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CLIENT_STATES_TEXT">
+			<Text></Text>
+		</Row>
+	</Language_en_US>
+</GameData>

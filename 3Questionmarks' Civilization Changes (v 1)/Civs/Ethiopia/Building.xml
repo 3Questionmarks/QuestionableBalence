@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2024 10:46:38 PM -->
+<GameData>
+	<Building_YieldChanges>
+		<Update>
+			<Set Yield="3" />
+			<Where BuildingType="BUILDING_STELE" />
+		</Update>
+	</Building_YieldChanges>
+</GameData>

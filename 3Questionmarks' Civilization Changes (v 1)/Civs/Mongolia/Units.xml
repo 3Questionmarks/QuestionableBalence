@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2024 6:40:58 PM -->
+<GameData>
+	<Units>
+		<Set Combat="17" RangedCombat="17"/>
+		<Where Type="UNIT_MONGOLIAN_KESHIK" />
+	</Units>
+</GameData>

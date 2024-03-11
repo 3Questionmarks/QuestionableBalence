@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/9/2020 4:12:58 PM -->
+<GameData>
+	<!-- Opener -->
+	<Policy_CityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_CityYieldChanges>
+	<!-- Finisher -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_LIBERTY_FINISHER" />
+			<Set>
+				<NumFreePolicies>0</NumFreePolicies>
+				<GreatPeopleRateModifier>15</GreatPeopleRateModifier>
+			</Set>
+		</Update>
+	</Policies>
+    <Policy_SpecialistExtraYields>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_SpecialistExtraYields>
+	<!-- Opener and Finisher Text -->
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_CAP" />
+			<Set Text="Democracy" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_LIBERTY" />
+			<Set Text="Democracy" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_POLICY_LIBERTY_TEXT" />
+			<Set Text="Democracy was born in Greece. It is a form of government where the power belongs to the people; for this reason, the branch democracy is focused on the [ICON_CULTURE] Culture of civilization but also on the expantion and [ICON_HAPPINESS_1] Happiness of civilization." />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_LIBERTY_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR] lends itself well to a civilization that focuses on [ICON_CULTURE] Culture and expansion.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR] provides +1 [ICON_CULTURE] Culture and +1 [ICON_PRODUCTION] Production in each city. Unlocks building [COLOR_BUILDING_TEXT]Town Councils[ENDCOLOR] and the [COLOR_CITY_GREEN]Pyramids[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies of [COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR] will provide +15% [ICON_GREAT_PEOPLE] Great Person Generation in all cities, and you will recive a free [ICON_GREAT_PEOPLE] Great Person of your choice. Additionally gain +1 [ICON_CULTURE] Culture from each specialist." />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR] lends itself well to a civilization that focuses on [ICON_CULTURE] Culture and expansion.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR] provides +1 [ICON_CULTURE] Culture and +1 [ICON_PRODUCTION] Production in each city. Unlocks building [COLOR_BUILDING_TEXT]Town Councils[ENDCOLOR] and the [COLOR_CITY_GREEN]Pyramids[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies of [COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR] will provide +15% [ICON_GREAT_PEOPLE] Great Person Generation in all cities, and you will recive a free [ICON_GREAT_PEOPLE] Great Person of your choice. Additionally gain +1 [ICON_CULTURE] Culture from each specialist." />
+		</Update>
+	</Language_en_US>
+
+	
+	
+	<!-- Citenzanship -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_CITIZENSHIP" />
+			<Set>
+				<GridX>2</GridX>
+				<GridY>1</GridY>
+			</Set>
+		</Update>
+	</Policies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CITIZENSHIP_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Citizenship[ENDCOLOR][NEWLINE]Improvement construction speed is increased by 25% and a [ICON_WORKER] Worker appears near the [ICON_CAPITAL] Capital City.[NEWLINE]This policy unlocks the [COLOR_XP_BLUE]Tradeing Ship[ENDCOLOR] unit." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Representation -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_REPRESENTATION" />
+			<Set>
+				<GridX>4</GridX>
+				<GridY>1</GridY>
+				<GoldenAgeTurns>0</GoldenAgeTurns>
+				<NumCitiesFreeCultureBuilding>999</NumCitiesFreeCultureBuilding>
+				<NumCitiesPolicyCostDiscount>15</NumCitiesPolicyCostDiscount>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
+	<Policy_PrereqPolicies>
+		<Delete>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<PrereqPolicy>POLICY_CITIZENSHIP</PrereqPolicy>
+		</Delete>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_REPRESENTATION" />
+			<Set Text="Growth" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_POLICY_REPRESENTATION_TEXT" />
+			<Set Text="Focus on growth" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_REPRESENTATION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Growth[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness and +2 [ICON_FOOD] Food from Granaries.[NEWLINE]The penalty to the cost of new [ICON_CULTURE] Policies due to the number of cities owned is decresed by 15%.[NEWLINE]Provides a free monument in all cities.[NEWLINE]This policy unlocks the [COLOR_XP_BLUE]Horseback Scout[ENDCOLOR] unit." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Collective Rule -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_COLLECTIVE_RULE" />
+			<Set>
+				<GridX>2</GridX>
+				<GridY>2</GridY>
+				<SettlerProductionModifier>100</SettlerProductionModifier>
+				<NewCityExtraPopulation>1</NewCityExtraPopulation>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_PrereqPolicies>
+		<Update>
+			<Where PolicyType="POLICY_COLLECTIVE_RULE" />
+			<Set>
+				<PrereqPolicy>POLICY_CITIZENSHIP</PrereqPolicy>
+			</Set>
+		</Update>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Collective Rule[ENDCOLOR][NEWLINE]+100% [ICON_PRODUCTION] Production when training Settlers in the [ICON_CAPITAL] Capital City and a free Settler appears near the [ICON_CAPITAL] Capital City.[NEWLINE]Newly founded cities start with one extra [ICON_CITIZEN] Population." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Republic -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_REPUBLIC" />
+			<Set>
+				<GridX>4</GridX>
+				<GridY>2</GridY>
+				<CulturePerCity>1</CulturePerCity>
+				<BuildingProductionModifier>10</BuildingProductionModifier>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_CityYieldChanges>
+		<Delete>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Delete>
+	</Policy_CityYieldChanges>
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldMod>10</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<ImprovementType>IMPROVEMENT_SIOUX_TIPI_MOD</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Policy_PrereqPolicies>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<PrereqPolicy>POLICY_REPRESENTATION</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_REPUBLIC" />
+			<Set Text="Rupublic" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_POLICY_REPUBLIC_TEXT" />
+			<Set Text="Republic" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_REPUBLIC_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Republic[ENDCOLOR][NEWLINE]+10% [ICON_FOOD] Food from Monuments, +10% [ICON_PRODUCTION] Production towards buildings and +1 [ICON_CULTURE] Culture in each city.[NEWLINE]+1 [ICON_FOOD] Food from [COLOR_YIELD_GOLD]Tipis[ENDCOLOR]." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Meritocracy -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_MERITOCRACY" />
+			<Set>
+				<GridX>2</GridX>
+				<GridY>3</GridY>
+				<HappinessPerTradeRoute>0</HappinessPerTradeRoute>
+				<BuildingProductionModifier>5</BuildingProductionModifier>
+			</Set>
+		</Update>
+	</Policies>
+    <Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_MERITOCRACY</PolicyType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Policy_PrereqPolicies>
+		<Update>
+			<Where PolicyType="POLICY_MERITOCRACY" />
+			<Set>
+				<PrereqPolicy>POLICY_COLLECTIVE_RULE</PrereqPolicy>
+			</Set>
+		</Update>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MERITOCRACY" />
+			<Set Text="Meritocracy" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_POLICY_MERITOCRACY_TEXT" />
+			<Set Text="Meritocracy" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MERITOCRACY_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Meritocracy[ENDCOLOR][NEWLINE]-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population in non [ICON_OCCUPIED] Occupied Cities and +10% [ICON_PRODUCTION] Production for buildings.[NEWLINE]+1 [ICON_GOLD] Gold from [COLOR_YIELD_GOLD]Farms[ENDCOLOR]." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Legalism -->
+	<Policies>
+		<Row>
+			<Type>POLICY_LEGALISM1</Type>
+			<Description>TXT_KEY_POLICY_LEGALISM</Description>
+			<Civilopedia>TXT_KEY_POLICY_LEGALISM_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_LEGALISM1_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<OneShot>true</OneShot>
+			<GridX>4</GridX>
+			<GridY>3</GridY>
+			<ExtraHappinessPerLuxury>1</ExtraHappinessPerLuxury>
+			<PortraitIndex>57</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	<Policy_PrereqPolicies>
+		<Row>
+			<PolicyType>POLICY_LEGALISM1</PolicyType>
+			<PrereqPolicy>POLICY_REPUBLIC</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_POLICY_LEGALISM1</Tag>
+			<Text>Luxury</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_POLICY_LEGALISM1_TEXT</Tag>
+			<Text>Court Luxury</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_POLICY_LEGALISM1_HELP</Tag>
+			<Text>[COLOR_POSITIVE_TEXT]Legalism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from each unique Luxury Resource.[NEWLINE]+1 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold per city.</Text>
+		</Row>
+	</Language_en_US>
+    <Policy_CityYieldChanges>
+        <Row>
+			<PolicyType>POLICY_LEGALISM1</PolicyType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_LEGALISM1</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+    </Policy_CityYieldChanges>
+	
+	<!-- Flavours -->
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_LEGALISM1</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Update>
+			<Where PolicyType="POLICY_MERITOCRACY" />
+			<Set>
+				<Flavor>0</Flavor>
+			</Set>
+		</Update>
+		<Row>
+			<PolicyType>POLICY_MERITOCRACY</PolicyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPUBLIC</PolicyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Update>
+			<Where PolicyType="POLICY_REPUBLIC" />
+			<Set>
+				<Flavor>0</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_REPRESENTATION" />
+			<Set>
+				<Flavor>0</Flavor>
+			</Set>
+		</Update>
+		<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Policy_Flavors>
+    	
+</GameData>

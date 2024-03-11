@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 2:59:31 PM -->
+<GameData>
+	<!-- Great Engineer equation set to (50 + (24 * pop)) instead of (200 + (20 * pop)) on quick speed -->
+	<!-- movement increased to 4 -->
+	<Units>
+		<Update>
+			<Set BaseHurry="75" HurryMultiplier="36" Moves="4" />
+			<Where Type="UNIT_ENGINEER" />
+		</Update>
+	</Units>
+	<!-- Add +2 base movement to Great Generals and +4 for Khans -->
+	<Units>
+		<Update>
+			<Set Moves="4" />
+			<Where Type="UNIT_GREAT_GENERAL" />
+		</Update>
+		<Update>
+			<Set Moves="9" />
+			<Where Type="UNIT_MONGOLIAN_KHAN" />
+		</Update>
+		<Update>
+			<Set Moves="4" />
+			<Where Type="UNIT_JFD_KHAGAN_BEK" />
+		</Update>
+	</Units>
+	<!-- movement increased to 4 -->
+	<Units>
+		<Update>
+			<Set Moves="4" />
+			<Where Type="UNIT_MERCHANT" />
+		</Update>
+		<Update>
+			<Set Moves="4" />
+			<Where Type="UNIT_VENETIAN_MERCHANT" />
+		</Update>
+		<Update>
+			<Set Moves="4" />
+			<Where Type="UNIT_PROPHET" />
+		</Update>
+        <Update>
+			<Set Moves="4" />
+			<Where Type="UNIT_ARTIST" />
+		</Update>
+        <Update>
+			<Set Moves="4" />
+			<Where Type="UNIT_MUSICIAN" />
+		</Update>
+        <Update>
+			<Set Moves="4" />
+			<Where Type="UNIT_WRITER" />
+		</Update>
+		<Update>
+			<Set Moves="4" />
+			<Where Type="UNIT_SCIENTIST" />
+		</Update>
+		<Update>
+			<Set Moves="4" />
+			<Where Type="UNIT_TAR_PHYSICIAN" />
+		</Update>
+	</Units>
+</GameData>

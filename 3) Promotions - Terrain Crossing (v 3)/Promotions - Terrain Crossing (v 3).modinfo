@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4f184876-e029-4aad-98a4-10e5334ce52e" version="3">
+  <Properties>
+    <Name>Promotions - Terrain Crossing</Name>
+    <Teaser>Various promotions related to crossing hostile terrains</Teaser>
+    <Description>Adds the Alpine Corp (mountain crossing) and Arctic Corp (ice crossing) promotions for recon, melee, archer and gunpowder units.
+
+Adds an Ice Breaker promotion which permits ships to enter ice tiles, taking damage if they end their turn there (cannot be earnt)
+
+Adds an Ocean Explorer promotion which permits coastal ships to enter deep water, taking damage if they end their turn there (cannot be earnt)
+
+Adds a Deep Water Embarkation promotion which permits hovering units to (dis)embark at the ocean/coastal boundary (see also Units - Steampunk Airships) (cannot be earnt)</Description>
+    <Authors>William</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="1" maxversion="999" title="DLL - Various Mod Components" />
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="351DBB15FC90CCD1EA58F69D43B08C41" import="0">XML/PromotionsTerrainCrossing.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/PromotionsTerrainCrossing.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

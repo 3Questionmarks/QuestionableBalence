@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/10/2020 4:54:09 AM -->
+<GameData>
+	<PolicyBranchTypes>
+		<Update>
+			<Where Type="POLICY_BRANCH_AESTHETICS" />
+			<Set>
+				<EraPrereq>ERA_MEDIEVAL</EraPrereq>
+			</Set>
+		</Update>
+	</PolicyBranchTypes>
+	
+	<!-- Opener -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_AESTHETICS" />
+			<Set>
+				<GreatPeopleRateModifier>15</GreatPeopleRateModifier>
+			</Set>
+		</Update>
+	</Policies>
+	<!-- Finisher -->
+	<Resources>
+		<Update>
+			<Set PolicyReveal="POLICY_AESTHETICS_FINISHER" />
+			<Where Type="RESOURCE_HIDDEN_ARTIFACTS" />
+		</Update>
+	</Resources>
+	<Policies>
+		<Update>
+			<Where Type="POLICY_AESTHETICS_FINISHER" />
+			<Set>
+				<GoldenAgeTurns>15</GoldenAgeTurns>
+				<HappinessToCulture>50</HappinessToCulture>
+				<NumFreePolicies>0</NumFreePolicies>
+			</Set>
+		</Update>
+	</Policies>
+	
+	<!-- Finisher and Opener Text -->
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_CAP" />
+			<Set Text="Patronage" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS" />
+			<Set Text="Patronage" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_AESTHETICS_TEXT" />
+			<Set Text="Patronage is a policy branch that focuses on the earning of [ICON_GREAT_PEOPLE] Great People, [ICON_CULTURE] Culture, and [ICON_TOURISM] Tourism." />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_AESTHETICS_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] focuses on the earning of [ICON_GREAT_PEOPLE] Great People, [ICON_CULTURE] Culture, and [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] causes [ICON_GREAT_PEOPLE] Great People to be born 25% faster, and [ICON_GREAT_ARTIST] Great Artists, [ICON_GREAT_WRITER] Writers, and [ICON_GREAT_MUSICIAN] Musicians to be born a further 25% faster. Unlocks building [COLOR_BUILDING_TEXT]Memorials[ENDCOLOR], the [COLOR_CITY_GREEN]Louvre[ENDCOLOR] and [COLOR_CITY_GREEN]Uffizi[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies of [COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] reveals hidden [ICON_RES_ARTIFACTS] Antiquity Sites, doubles theming bonuses, and provides +50% of excess [ICON_HAPPINESS_1] Happiness as [ICON_CULTURE] Culture per turn. Additionally, the empire enters a [ICON_GOLDEN_AGE] Golden Age." />
+		</Update>
+		<Update>
+            <Where Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] focuses on the earning of [ICON_GREAT_PEOPLE] Great People, [ICON_CULTURE] Culture, and [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] causes [ICON_GREAT_PEOPLE] Great People to be born 25% faster, and [ICON_GREAT_ARTIST] Great Artists, [ICON_GREAT_WRITER] Writers, and [ICON_GREAT_MUSICIAN] Musicians to be born a further 25% faster. Unlocks building [COLOR_BUILDING_TEXT]Memorials[ENDCOLOR], the [COLOR_CITY_GREEN]Louvre[ENDCOLOR] and [COLOR_CITY_GREEN]Uffizi[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies of [COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] reveals hidden [ICON_RES_ARTIFACTS] Antiquity Sites, doubles theming bonuses, and provides +50% of excess [ICON_HAPPINESS_1] Happiness as [ICON_CULTURE] Culture per turn. Additionally, the empire enters a [ICON_GOLDEN_AGE] Golden Age." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Humanism -->
+	<Policies>
+		<Row>
+			<Type>POLICY_HUMANISM1</Type>
+			<Description>TXT_KEY_POLICY_HUMANISM1</Description>
+			<Civilopedia>TXT_KEY_CIV5_POLICY_HUMANISM1_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_HUMANISM1_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_AESTHETICS</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>1</GridX>
+			<GridY>1</GridY>
+			<PortraitIndex>47</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	<Policy_GreatWorkYieldChanges>
+		<Row>
+			<PolicyType>POLICY_HUMANISM1</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_HUMANISM1</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Policy_GreatWorkYieldChanges>
+	<Policy_BuildingClassTourismModifiers>
+		<Row>
+			<PolicyType>POLICY_HUMANISM1</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LOUVRE</BuildingClassType>
+			<TourismModifier>15</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HUMANISM1</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GREAT_LIBRARY</BuildingClassType>
+			<TourismModifier>15</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HUMANISM1</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SISTINE_CHAPEL</BuildingClassType>
+			<TourismModifier>15</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HUMANISM1</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BROADWAY</BuildingClassType>
+			<TourismModifier>15</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HUMANISM1</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<TourismModifier>15</TourismModifier>
+		</Row>
+	</Policy_BuildingClassTourismModifiers>
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_POLICY_HUMANISM1</Tag>
+			<Text>Humanism</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_POLICY_HUMANISM1_TEXT</Tag>
+			<Text>Humanism</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_POLICY_HUMANISM1_HELP</Tag>
+			<Text>[COLOR_POSITIVE_TEXT]Humanism[ENDCOLOR][NEWLINE]+2 [ICON_CULTURE] Culture and [ICON_GOLD] Gold from [ICON_GREAT_WORK] Great Works.[NEWLINE]+15% [ICON_TOURISM] Tourism from Museums, Broadway, the Louvre, Sistine Chapel, and the Great Library.[NEWLINE]This policy unlocks the [COLOR_XP_BLUE]Warwolf[ENDCOLOR] unit.</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Enhancement -->
+	<Policies>
+		<Row>
+			<Type>POLICY_ENHANCEMENT</Type>
+			<Description>TXT_KEY_POLICY_ENHANCEMENT</Description>
+			<Civilopedia>TXT_KEY_CIV5_POLICY_ENHANCEMENT_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_ENHANCEMENT_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_AESTHETICS</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<CulturePerCity>3</CulturePerCity>
+			<GreatPeopleRateModifier>10</GreatPeopleRateModifier>
+			<GridX>3</GridX>
+			<GridY>1</GridY>
+			<PortraitIndex>55</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	<Policy_BuildingClassTourismModifiers>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOTEL</BuildingClassType>
+			<TourismModifier>25</TourismModifier>
+		</Row>
+	</Policy_BuildingClassTourismModifiers>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_MC_MAORI_PA</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_UC_SWAMP_CHICKEE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_UC_CHICKEE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_DZONG2</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_DZONG</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_KASBAH</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_MC_LITE_NUBIAN_ROYAL_PYRAMID</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_FEITORIA_X</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_POLICY_ENHANCEMENT</Tag>
+			<Text>Enhancement</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_POLICY_ENHANCEMENT_TEXT</Tag>
+			<Text>Enhancement</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_POLICY_ENHANCEMENT_HELP</Tag>
+			<Text>[COLOR_POSITIVE_TEXT]Enhancement[ENDCOLOR][NEWLINE]+3 [ICON_CULTURE] Culture from [ICON_GREAT_PEOPLE][COLOR_YIELD_GOLD] Great Person tile improvements[ENDCOLOR], [COLOR_YIELD_GOLD]Landmarks[ENDCOLOR], and in each city.[NEWLINE]+10% [ICON_GREAT_PEOPLE] Great Person generation.[NEWLINE]+25% [ICON_TOURISM] Tourism from Hotels.[NEWLINE]+1 [ICON_CULTURE] Culture from [COLOR_YIELD_GOLD]Brazilwood Camps[ENDCOLOR], [COLOR_YIELD_GOLD]Kasbahs[ENDCOLOR], [COLOR_YIELD_GOLD]Moai[ENDCOLOR], [COLOR_YIELD_GOLD]Dzongs[ENDCOLOR], [COLOR_YIELD_GOLD]Chickees[ENDCOLOR], [COLOR_YIELD_GOLD]Royal Pyramids[ENDCOLOR], [COLOR_YIELD_GOLD]Feitorias[ENDCOLOR], and [COLOR_YIELD_GOLD]Pas[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Fine Arts -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_FINE_ARTS" />
+			<Set>
+				<GridX>5</GridX>
+				<GridY>1</GridY>
+				<HappinessToCulture>50</HappinessToCulture>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_FINE_ARTS</PolicyType>
+			<ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FINE_ARTS</PolicyType>
+			<ImprovementType>IMPROVEMENT_SIOUX_TIPI_MOD</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_FINE_ARTS_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Fine Arts[ENDCOLOR][NEWLINE]50% of excess [ICON_HAPPINESS_1] Happiness is added each turn to the amount of [ICON_CULTURE] Culture that may be spent on Social Policies.[NEWLINE]+1 [ICON_CULTURE] Culture from [COLOR_YIELD_GOLD]Chateaus[ENDCOLOR] and [COLOR_YIELD_GOLD]Tipis[ENDCOLOR]." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Artistic Genius -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_ARTISTIC_GENIUS" />
+			<Set>
+				<GridX>2</GridX>
+				<GridY>2</GridY>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_FreeUnitClasses>
+		<Row>
+			<PolicyType>POLICY_ARTISTIC_GENIUS</PolicyType>
+			<UnitClassType>UNITCLASS_MUSICIAN</UnitClassType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARTISTIC_GENIUS</PolicyType>
+			<UnitClassType>UNITCLASS_ARTIST</UnitClassType>
+			<Count>1</Count>
+		</Row>
+	</Policy_FreeUnitClasses>
+	<Policy_GreatWorkYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ARTISTIC_GENIUS</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_GreatWorkYieldChanges>
+	<Policy_PrereqPolicies>
+		<Update>
+			<Where PolicyType="POLICY_ARTISTIC_GENIUS" />
+			<Set>
+				<PrereqPolicy>POLICY_HUMANISM1</PrereqPolicy>
+			</Set>
+		</Update>
+		<Row>
+			<PolicyType>POLICY_ARTISTIC_GENIUS</PolicyType>
+			<PrereqPolicy>POLICY_ENHANCEMENT</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Artistic Genius[ENDCOLOR][NEWLINE]A free [ICON_GREAT_ARTIST] Great Artist and [ICON_GREAT_MUSICIAN] Great Musician appears near the [ICON_CAPITAL] Capital City. +3 [ICON_CULTURE] Culture from [ICON_GREAT_WORK] Great Works." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Cultural Centers -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_CULTURAL_CENTERS" />
+			<Set>
+				<GridX>4</GridX>
+				<GridY>2</GridY>
+				<GreatPeopleRateModifier>15</GreatPeopleRateModifier>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Policy_PrereqPolicies>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<PrereqPolicy>POLICY_FINE_ARTS</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<PrereqPolicy>POLICY_ENHANCEMENT</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
+	<Policy_BuildingClassProductionModifiers>
+		<Update>
+			<Where PolicyType="POLICY_ARTISTIC_GENIUS" />
+			<Set>
+				<ProductionModifier>25</ProductionModifier>
+			</Set>
+		</Update>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AGORA</BuildingClassType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_POTTER</BuildingClassType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PRINTER</BuildingClassType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDING_TCS_MEMORIAL</BuildingClassType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDING_TCS_TOWN_COUNCIL</BuildingClassType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CULTURAL_CENTERS_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Cultural Centers[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] production when producing a [ICON_CULTURE] Cultural building.[NEWLINE]+15% [ICON_GREAT_PEOPLE] Great Person generation.[NEWLINE][COLOR_YIELD_GOLD]Landmarks[ENDCOLOR] yield +2 [ICON_PRODUCTION] Production, +3 [ICON_GOLD] Gold and +4 [ICON_CULTURE] Culture." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Cultural Exchange -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_ETHICS" />
+			<Set>
+				<GridX>2</GridX>
+				<GridY>3</GridY>
+				<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ETHICS</PolicyType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ETHICS</PolicyType>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ETHICS</PolicyType>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Policy_FreeUnitClasses>
+		<Row>
+			<PolicyType>POLICY_ETHICS</PolicyType>
+			<UnitClassType>UNITCLASS_WRITER</UnitClassType>
+			<Count>1</Count>
+		</Row>
+	</Policy_FreeUnitClasses>
+	<Policy_PrereqPolicies>
+		<Update>
+			<Where PolicyType="POLICY_ETHICS" />
+			<Set>
+				<PrereqPolicy>POLICY_ARTISTIC_GENIUS</PrereqPolicy>
+			</Set>
+		</Update>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ETHICS_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Cultural Exchange[ENDCOLOR][NEWLINE]Increases the [ICON_TOURISM] Tourism modifier for shared [ICON_RELIGION] Religion, mutal [ICON_INTERNATIONAL_TRADE] Trade Routes, and mutal [ICON_SWAP] Open Borders by 15% each.[NEWLINE]+1 [ICON_CULTURE] Culture from [COLOR_YIELD_GOLD]Villages[ENDCOLOR], +2 from [COLOR_YIELD_GOLD]Towns[ENDCOLOR], and +3 from [COLOR_YIELD_GOLD]Large Towns[ENDCOLOR].[NEWLINE]A Free [ICON_GREAT_WRITER] Great Writer appears near the [ICON_CAPITAL] Capital City." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Flourising of Arts -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_FLOURISHING_OF_ARTS" />
+			<Set>
+				<GridX>4</GridX>
+				<GridY>3</GridY>
+				<CulturePerWonder>3</CulturePerWonder>
+				<GoldenAgeTurns>0</GoldenAgeTurns>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_PrereqPolicies>
+		<Row>
+			<PolicyType>POLICY_FLOURISHING_OF_ARTS</PolicyType>
+			<PrereqPolicy>POLICY_CULTURAL_CENTERS</PrereqPolicy>
+		</Row>
+		<Delete>
+			<PolicyType>POLICY_FLOURISHING_OF_ARTS</PolicyType>
+			<PrereqPolicy>POLICY_FINE_ARTS</PrereqPolicy>
+		</Delete>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Flourishing of Arts[ENDCOLOR][NEWLINE]+33% [ICON_CULTURE] Culture in cities that have at least one wonder built, and +3 [ICON_CULTURE] Culture from each wonder present in a city." />
+		</Update>
+	</Language_en_US>
+		
+	
+
+	<!-- Flavors -->
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_ENHANCEMENT</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HUMANISM1</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Delete>
+			<PolicyType>POLICY_AESTHETICS_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Delete>
+		<Row>
+			<PolicyType>POLICY_AESTHETICS_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>45</Flavor>
+		</Row>
+	</Policy_Flavors>
+	
+	
+</GameData>

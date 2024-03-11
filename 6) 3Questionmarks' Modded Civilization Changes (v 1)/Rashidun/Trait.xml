@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:47:55 PM -->
+<GameData>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_TAR_RASHIDUN_UMAR</TraitType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_TAR_RASHIDUN_UMAR</TraitType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_TAR_RASHIDUN_UMAR"/>
+			<Set Text="Your [ICON_PEACE] Faith output is the starting [ICON_PRODUCTION] Production threshold towards all land units. +5 [ICON_PEACE] Faith and [ICON_CULTURE] Culture per Holy City. +5 [ICON_PEACE] Faith and [ICON_CULTURE] Culture from Holy Sites."/>
+		</Update>
+	</Language_en_US>
+</GameData>

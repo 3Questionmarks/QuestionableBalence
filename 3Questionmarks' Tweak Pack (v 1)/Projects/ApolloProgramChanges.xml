@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2024 1:23:24 AM -->
+<GameData>
+	<Projects>
+		<Update>
+			<Where Type="PROJECT_APOLLO_PROGRAM" />
+			<Set Cost="1800" />
+		</Update>
+	</Projects>
+</GameData>

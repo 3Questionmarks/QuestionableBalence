@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+
+	<!--UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_CAS_FIGHTER</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_CAS_FIGHTER</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_CAS_FIGHTER</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
+	<Units>
+    <Row>
+      <Type>UNIT_SMAN_IEUP_CAS_FIGHTER</Type>
+      <Description>TXT_KEY_UNIT_SMAN_IEUP_CAS_FIGHTER</Description>
+      <CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+      <Domain>DOMAIN_AIR</Domain>
+      <Class>UNITCLASS_SMAN_IEUP_CAS_FIGHTER</Class>
+	  <Special>SPECIALUNIT_STEALTH</Special>
+      <Cost>395</Cost>
+      <AdvancedStartCost>50</AdvancedStartCost>
+      <RangedCombat>80</RangedCombat>
+      <Range>12</Range>
+      <IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+      <Moves>2</Moves>
+      <Immobile>true</Immobile>
+      <Strategy>TXT_KEY_UNIT_SMAN_IEUP_CAS_FIGHTER_STRATEGY</Strategy>
+      <Help>TXT_KEY_UNIT_SMAN_IEUP_CAS_FIGHTER_HELP</Help>
+      <Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_CAS_FIGHTER_PEDIA</Civilopedia>
+      <PrereqTech>TECH_COMPUTERS</PrereqTech>
+      <Pillage>true</Pillage>
+      <PillagePrereqTech>TECH_RADAR</PillagePrereqTech>
+      <MoveRate>AIR_REBASE</MoveRate>
+      <Mechanized>true</Mechanized>
+      <UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_CAS_FIGHTER</UnitArtInfo>
+      <IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+      <PortraitIndex>0</PortraitIndex>
+      <RangedCombatLimit>100</RangedCombatLimit>
+      <AirUnitCap>1</AirUnitCap>
+      <MilitaryProduction>true</MilitaryProduction>
+		<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+		<UnitFlagIconOffset>0</UnitFlagIconOffset>
+      <MilitarySupport>true</MilitarySupport>
+      <DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+    </Row>
+  </Units>
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_CAS_FIGHTER</UnitType>
+      <UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+    </Row>
+    
+  </Unit_AITypes>
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_CAS_FIGHTER</UnitType>
+      <FlavorType>FLAVOR_AIR</FlavorType>
+      <Flavor>25</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_CAS_FIGHTER</UnitType>
+      <FlavorType>FLAVOR_DEFENSE</FlavorType>
+      <Flavor>9</Flavor>
+    </Row>
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_CAS_FIGHTER</UnitType>
+		  <FlavorType>FLAVOR_OFFENSE</FlavorType>
+		  <Flavor>15</Flavor>
+	  </Row>
+  </Unit_Flavors>
+	
+  <Unit_FreePromotions>
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_CAS_FIGHTER</UnitType>
+		  <PromotionType>PROMOTION_AIR_REPAIR</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_CAS_FIGHTER</UnitType>
+		  <PromotionType>PROMOTION_AIR_RECON</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_CAS_FIGHTER</UnitType>
+		  <PromotionType>PROMOTION_EVASION</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_CAS_FIGHTER</UnitType>
+		  <PromotionType>PROMOTION_AIR_AMBUSH_2</PromotionType>
+	  </Row>	 
+  </Unit_FreePromotions>
+	
+  <Unit_ResourceQuantityRequirements>
+    <Row>
+		  <UnitType>UNIT_SMAN_IEUP_CAS_FIGHTER</UnitType>
+		  <ResourceType>RESOURCE_OIL</ResourceType>
+	  </Row>
+  </Unit_ResourceQuantityRequirements-->
+	
+  <ArtDefine_UnitInfos>
+    <Row>
+      <Type>ART_DEF_UNIT_SMAN_IEUP_CAS_FIGHTER</Type>
+      <DamageStates>1</DamageStates>
+      <Formation>BomberWing</Formation>
+    </Row>
+  </ArtDefine_UnitInfos>
+  <ArtDefine_UnitInfoMemberInfos>
+    <Row>
+      <UnitInfoType>ART_DEF_UNIT_SMAN_IEUP_CAS_FIGHTER</UnitInfoType>
+      <UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_CAS_FIGHTER</UnitMemberInfoType>
+      <NumMembers>1</NumMembers>
+    </Row>
+  </ArtDefine_UnitInfoMemberInfos>
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_SMAN_IEUP_CAS_FIGHTER</Type>
+			<Scale>.1</Scale>
+			<Domain>Air</Domain>
+			<Model>SMAN_IEUP_CASFighter.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_CAS_FIGHTER</UnitMemberType>
+			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
+			<AttackRadius>135.0</AttackRadius>
+			<MoveRate>2.2</MoveRate>
+			<TurnRateMin>0.25</TurnRateMin>
+			<TurnRateMax>0.5</TurnRateMax>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_CAS_FIGHTER</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<ProjectileSpeed>3.0</ProjectileSpeed>
+			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
+			<HitRadius>15.0</HitRadius>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_CAS_FIGHTER</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>1.0</VisKillStrengthMin>
+			<VisKillStrengthMax>1.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
+			<HitRadius>15.0</HitRadius>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_CAS_FIGHTER</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>1</SubIndex>
+			<ID>PROJECTILE</ID>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<ProjectileSpeed>3.0</ProjectileSpeed>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+  <UnitGameplay2DScripts>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_CAS_FIGHTER</UnitType>
+      <SelectionSound />
+      <FirstSelectionSound />
+    </Row>
+  </UnitGameplay2DScripts>
+
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>UNIT_SMAN_IEUP_CAS_FIGHTER</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_JetFighter.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_CAS_FIGHTER</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_CAS_FIGHTER</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<!--Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_CAS_FIGHTER">
+		  <Text>Close Air Support Fighter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_CAS_FIGHTER_STRATEGY">
+		  <Text>Close Air Support Fighter is a ground attack unit, it has a range of 12 tiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_CAS_FIGHTER_HELP">
+		  <Text>Air Unit designed to rain death down on your enemies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_CAS_FIGHTER_PEDIA">
+		  <Text>The CAS Fighter deals heavy damage to land units up to 12 tiles away. It is available on the discovery of Computers, and does not become obsolete. Requires [ICON_RES_OIL] Oil.[NEWLINE][NEWLINE]The Fairchild Republic A-10 Thunderbolt II is an American twin-engine, straight wing jet aircraft developed by Fairchild-Republic in the early 1970s. It is the only United States Air Force production aircraft designed solely for close air support, including attacking tanks, armored vehicles, and other ground targets with limited air defenses.[NEWLINE]The A-10 was designed around the 30 mm GAU-8 Avenger rotary cannon that is its primary armament and the heaviest-ever automatic cannon mounted on an aircraft. The A-10's airframe was designed for durability, with measures such as 1,200 pounds (540 kg) of titanium aircraft armour to protect the cockpit and aircraft systems, enabling it to absorb a significant amount of damage and continue flying. The A-10A single-seat variant was the only version built, though one A-10A was converted to an A-10B twin-seat version. In 2005, a program was begun to upgrade remaining A-10A aircraft to the A-10C configuration.[NEWLINE]The A-10's official name comes from the Republic P-47 Thunderbolt of World War II, a fighter that was particularly effective at close air support. The A-10 is more commonly known by its nicknames "Warthog" or "Hog". Its secondary mission is to provide airborne forward air control, directing other aircraft in attacks on ground targets. Aircraft used primarily in this role are designated OA-10. With a variety of upgrades and wing replacements, the A-10's service life may be extended to 2028, though there are proposals to retire it sooner.</Text>
+		</Row>
+  </Language_en_US-->
+</GameData>
+

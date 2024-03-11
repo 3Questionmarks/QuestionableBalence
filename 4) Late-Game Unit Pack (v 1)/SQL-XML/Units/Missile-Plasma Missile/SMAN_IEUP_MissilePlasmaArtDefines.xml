@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 07/01/17 9:55:13 AM -->
+<GameData>
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_SMAN_IEUP_PLASMA_MISSILE</Type>
+			<DamageStates>1</DamageStates>
+			<Formation></Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+
+	<ArtDefine_UnitInfoMemberInfos>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_SMAN_IEUP_PLASMA_MISSILE</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_PLASMA_MISSILE</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_SMAN_IEUP_PLASMA_MISSILE</Type>
+			<Scale>0.14</Scale>
+			<Domain>Air</Domain>
+			<ZOffset>15.0</ZOffset>
+			<Model>Assets/Units/GuidedMissile/GuidedMissile.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_PLASMA_MISSILE</UnitMemberType>
+			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
+			<AttackRadius>64.0</AttackRadius>
+			<MoveRate>3.59999990463257</MoveRate>
+			<TurnRateMin>0.5</TurnRateMin>
+			<TurnRateMax>1.5</TurnRateMax>
+			<PitchRateMin>1.0</PitchRateMin>
+			<PitchRateMax>3.0</PitchRateMax>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasCollisionAttack>1</HasCollisionAttack>
+			<AttackAltitude>45.0</AttackAltitude>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_PLASMA_MISSILE</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>100.0</VisKillStrengthMin>
+			<VisKillStrengthMax>100.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_GUIDED_MISSILE_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_SMAN_IEUP_PLASMA_MISSILE</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_GuidedMissile.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+  
+</GameData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2024 1:34:46 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_LOUVRE" />
+			<Set>
+				<PolicyBranchType>POLICY_BRANCH_AESTHETICS</PolicyBranchType>
+			</Set>
+		</Update>
+	</Buildings>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_LOUVRE_HELP" />
+		<Row Tag="TXT_KEY_WONDER_LOUVRE_HELP">
+			<Text>1 free Great Artist appears near the City where the Wonder was built. Contains 4 slots for Great Works of Art.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

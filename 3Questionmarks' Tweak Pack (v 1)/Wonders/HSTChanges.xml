@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/31/2020 12:33:28 PM -->
+<GameData>
+	<Building_FreeUnits>
+		<Delete BuildingType="BUILDING_HUBBLE" />
+	</Building_FreeUnits>
+
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_HUBBLE"/>
+			<Set>
+				<FreeTechs>1</FreeTechs>
+                <GreatPeopleRateChange>3</GreatPeopleRateChange>
+				<Cost>3000</Cost>
+			</Set>
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_HUBBLE_HELP" />
+		<Row Tag="TXT_KEY_WONDER_HUBBLE_HELP">
+			<Text>1 Free Technology. +25% [ICON_PRODUCTION] Production when building Spaceship Parts.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

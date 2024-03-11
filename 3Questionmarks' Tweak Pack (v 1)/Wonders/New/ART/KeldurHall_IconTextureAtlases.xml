@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/11/2016 1:54:35 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BW_ATLAS_KELDUR_HALL</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Keldur_Hall_icon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_KELDUR_HALL</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Keldur_Hall_icon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_KELDUR_HALL</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Keldur_Hall_icon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_KELDUR_HALL</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Keldur_Hall_icon80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_KELDUR_HALL</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Keldur_Hall_icon45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

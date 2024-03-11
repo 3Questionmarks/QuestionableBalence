@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<!-- Ingenuity Changes -->
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BABYLON</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<BuildingType>BUILDING_BABBYCOURTHOUSE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Traits>
+		<Update>
+			<Where Type="TRAIT_INGENIOUS"/>
+			<Set GreatScientistRateModifier="100"/>
+		</Update>
+	</Traits>
+	<Trait_SpecialistYieldChanges>
+		<Row>
+			<TraitType>TRAIT_INGENIOUS</TraitType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Trait_SpecialistYieldChanges>
+    <Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_INGENIOUS"/>
+			<Set>
+				<Text>Receive a free [ICON_GREAT_SCIENTIST] Great Scientist when you discover Writing, and earn [ICON_GREAT_SCIENTIST] Great Scientists twice as fast. Scientist specialists provide +3 [ICON_CULTURE] Culture. +2 [ICON_HAPPINESS_1] Happiness from Courthouses.</Text>
+			</Set>
+		</Update>
+    </Language_en_US>
+</GameData>

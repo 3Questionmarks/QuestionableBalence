@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/1/2018 12:39:30 PM -->
+<GameData>
+  <!-- Now also gets +1 Gold and culture from Strategic Resources. -66% naval unit maintenance -->
+
+	<Traits>
+		<Update>
+			<Set NavalUnitMaintenanceModifier="-66" />
+			<Where Type="TRAIT_OCEAN_MOVEMENT" />
+		</Update>
+	</Traits>
+	<Trait_YieldChangesStrategicResources>
+		<Row>
+			<TraitType>TRAIT_OCEAN_MOVEMENT</TraitType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_YieldChangesStrategicResources>
+
+	<Trait_YieldChangesStrategicResources>
+		<Row>
+			<TraitType>TRAIT_OCEAN_MOVEMENT</TraitType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_YieldChangesStrategicResources>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
+			<Text>+2 [ICON_MOVES] Movement for all embarked Units and Naval Units. Strategic Resources provide +1 [ICON_GOLD] Gold and [ICON_CULTURE] Culture. Receives 1 extra [ICON_SPY] Spy. -66% [ICON_GOLD] Gold spent on Naval Unit maintainence.</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Rename Ocean Movement promo to Sun Never Sets -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PEDIA_PROMOTION_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_OCEAN_MOVEMENT">
+			<Text>Sun Never Sets</Text>
+		</Row>
+	</Language_en_US>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT">
+			<Text>Sun Never Sets</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

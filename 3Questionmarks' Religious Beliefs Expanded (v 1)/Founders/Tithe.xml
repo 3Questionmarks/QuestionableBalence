@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- +1 Gold per 4 Followers. -->
+    
+    <Beliefs>
+		<Update>
+			<Where Type="BELIEF_TITHE" />
+			<Set GoldPerXFollowers="1" />
+		</Update>
+	</Beliefs>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_TITHE" />
+		<Row Tag="TXT_KEY_BELIEF_TITHE">
+			<Text>+1 [ICON_GOLD] Gold for every follower of this Religion.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 11:30:29 AM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set CityUnhappinessModifier="0"
+				 PopulationUnhappinessModifier="-50"
+				 Description="TXT_POP_GROW_MOD"/>
+			<Where Type="TRAIT_POPULATION_GROWTH" />
+		</Update>
+	</Traits>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_POPULATION_GROWTH</TraitType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+	<Language_en_US>
+		<Row Tag="TXT_POP_GROW_MOD">
+			<Text>-50% [ICON_HAPPINESS_4] Unhappiness from number of [ICON_CITIZEN] Citizens. +2 [ICON_PEACE] Faith from Pastures.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

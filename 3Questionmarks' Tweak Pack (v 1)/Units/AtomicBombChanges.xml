@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:21:00 PM -->
+<GameData>
+	<!-- Atomic Bomb require 2 uranium, and cost more -->
+	<Units>
+		<Update>
+			<Set Cost="1400" />
+			<Where Class="UNITCLASS_ATOMIC_BOMB" />
+		</Update>
+	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Delete UnitType="UNIT_ATOMIC_BOMB" />
+		<Row>
+			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+    
+    <!-- Nuclear Missiles require 3 uranium, and cost much, much more. Moved to Nuclear Fission -->
+    <Units>
+		<Update>
+			<Set Cost="3000" />
+			<Where Class="UNITCLASS_NUCLEAR_MISSILE" />
+		</Update>
+        <Update>
+			<Set PrereqTech="TECH_NUCLEAR_FUSION" />
+			<Where Class="UNITCLASS_NUCLEAR_MISSILE" />
+		</Update>
+	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Delete UnitType="UNIT_NUCLEAR_MISSILE" />
+		<Row>
+			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+    
+    <Language_en_US>
+		<Update>
+            <Set Text="Unleash nuclear destruction upon your foes. Does great damage to Cities and damages any Unit caught in the blast radius.[NEWLINE][NEWLINE]Requires Manhattan Project and three Uranium resources."/>
+			<Where Tag="TXT_KEY_UNIT_HELP_NUCLEAR_MISSILE"/>
+        </Update>
+        <Update>
+            <Set Text="Unleash nuclear destruction upon your foes. Does great damage to Cities and damages any Unit caught in the blast radius. May be stationed on Aircraft Carriers.[NEWLINE][NEWLINE]Requires Manhattan Project and two Uranium resources."/>
+			<Where Tag="TXT_KEY_UNIT_HELP_ATOMIC_BOMB"/>
+        </Update>
+	</Language_en_US>
+    
+</GameData>

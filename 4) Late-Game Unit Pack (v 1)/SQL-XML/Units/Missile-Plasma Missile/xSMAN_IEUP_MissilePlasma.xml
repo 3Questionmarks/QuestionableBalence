@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 07/01/17 9:55:08 AM -->
+<GameData>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_PLASMA_MISSILE</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_PLASMA_MISSILE</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_PLASMA_MISSILE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_IEUP_PLASMA_MISSILE</Class>
+			<Type>UNIT_SMAN_IEUP_PLASMA_MISSILE</Type>
+			<PrereqTech>TECH_PARTICLE_PHYSICS</PrereqTech>
+			<RangedCombat>180</RangedCombat>
+			<Cost>380</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<NoMaintenance>true</NoMaintenance>
+			<Range>14</Range>
+			<Special>SPECIALUNIT_MISSILE</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_PLASMA_MISSILE</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_PLASMA_MISSILE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_PLASMA_MISSILE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_PLASMA_MISSILE_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_PLASMA_MISSILE</UnitArtInfo>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>35</UnitFlagIconOffset>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_MISSILE</UnitType>
+			<UnitAIType>UNITAI_MISSILE_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_MISSILE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_MISSILE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_MISSILE</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_MISSILE</UnitType>
+			<PromotionType>PROMOTION_EVASION_I</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<!--
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PLASMA_MISSILE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>	
+	-->
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_PLASMA_MISSILE</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_PLASMA_MISSILE</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_PLASMA_MISSILE">
+			<Text>Plasma Missile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_PLASMA_MISSILE_STRATEGY">
+			<Text>The Plasma Missile is a one-shot unit which is destroyed when it attacks an enemy target. The Plasma Missile may be based in a player-owned friendly city or unit that can carry missiles. They may move from base to base or attack an enemy unit or city with their range of '12'. See the rules on Missiles for more information.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_PLASMA_MISSILE_HELP">
+			<Text>An expensive but powerful missile that may be used once to damage enemy Units or Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_PLASMA_MISSILE_PEDIA">
+			<Text>
+				Plasma Missiles are an enhanced Guided Missile upgrade, available on the discovery of Particle Physics. They do not become obsolete.[NEWLINE][NEWLINE]Plasma Missiles get their name from the advanced plasma propulsion technology propells them, but are otherwise similar to conventional guided missiles, though they do have greater range and destructive power.
+			</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

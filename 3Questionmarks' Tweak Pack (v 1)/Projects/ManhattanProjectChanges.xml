@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/4/2024 7:43:15 PM -->
+<GameData>
+	<Projects>
+		<Update>
+			<Where Type="PROJECT_MANHATTAN_PROJECT" />
+			<Cost>1800</Cost>
+		</Update>
+	</Projects>
+
+
+</GameData>

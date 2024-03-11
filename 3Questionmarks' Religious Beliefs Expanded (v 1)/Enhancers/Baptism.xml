@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_BAPTISM</Type>
+			<Description>TXT_KEY_BELIEF_BAPTISM</Description>
+			<ShortDescription>TXT_KEY_BELIEF_BAPTISM_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+		</Row>
+	</Beliefs>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_BAPTISM_SHORT">
+			<Text>Baptism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_BAPTISM">
+			<Text>When a new [ICON_CITIZEN] Citizen is born, the city gets +5 [ICON_PRODUCTION] Production (on Standard Speed) for every city following this [ICON_RELIGION] Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BAPTISM_NOTIFICATION_HEADING">
+			<Text>Baptism in {@1city_name}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BAPTISM_NOTIFICATION_BODY">
+			<Text>+{@2_num} [ICON_PRODUCTION] Production in {@1city_name}.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

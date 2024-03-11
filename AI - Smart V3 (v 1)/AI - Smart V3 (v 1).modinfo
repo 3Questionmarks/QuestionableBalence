@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="19cefee6-d2bb-40ad-a06f-2fe93205aebd" version="1">
+  <Properties>
+    <Name>AI - Smart V3</Name>
+    <Teaser>Features from the "Smart AI V3 mod" by Ninakoru</Teaser>
+    <Description>Features from the "Smart AI V3 mod" by Ninakoru
+
+See http://forums.civfanatics.com/showthread.php?t=562319 for details</Description>
+    <Authors>William Howard</Authors>
+    <SpecialThanks>Ninakoru</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>0</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="85" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="7293480DB625C0CC57EF466781BB8599" import="0">XML/AISmartV3.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/AISmartV3.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

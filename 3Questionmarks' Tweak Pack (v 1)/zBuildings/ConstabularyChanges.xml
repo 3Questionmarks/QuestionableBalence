@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/26/2024 6:59:37 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set Happiness="2" />
+			<Where Type="BUILDING_CONSTABLE" />
+		</Update>
+	</Buildings>
+</GameData>

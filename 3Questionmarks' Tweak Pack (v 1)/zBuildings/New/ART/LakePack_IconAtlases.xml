@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/17/2014 10:01:32 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>1MOD_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>1mod_atlas_256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>1MOD_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>1mod_atlas_128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>1MOD_ICON_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>1mod_atlas_80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>1MOD_ICON_ATLAS</Atlas>
+			<IconSize>164</IconSize>
+			<Filename>mod_atlas_64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>1MOD_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>1mod_atlas_45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

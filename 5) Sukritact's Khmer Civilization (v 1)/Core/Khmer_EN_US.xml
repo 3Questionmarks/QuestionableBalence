@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!----------------------------------------------------------------
+						Khmer Empire
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_KHMER_DESC">
+			<Text>Khmer Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KHMER_SHORT_DESC">
+			<Text>The Khmer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KHMER_ADJ">
+			<Text>Khmer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_KHMER_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_KHMER_TEXT_1">
+			<Text>The Khmer empire was a powerful state in South East Asia, formed by people of the same name, lasting from 802 CE to 1431 CE. At its peak, the empire covered much of what today is Cambodia, Thailand, Laos, and southern Vietnam.[NEWLINE][NEWLINE]By the 7th century CE, Khmer people inhabited territories along the Mekong river -the world's seventh longest river - from the delta to roughly the modern Cambodia-Laos border, plus the region between that river and the great Tonle Sap lake to the west and the area running along the Tonle Sap river (which runs from the lake to the sea, joining the Mekong in the delta). There were several kingdoms at constant war against each other, with art and culture heavily influenced by India due to long established sea trade routes with that subcontinent.[NEWLINE][NEWLINE]Hinduism mostly, but Buddhism as well, were important religions in the region, mixed with animist and traditional cults. Important cities from that time include Angkor Borei, Sambor Prei Kuk, Banteay Prei Nokor and Wat Phu. A man called Jayavarman II, who is said to have come from a place named Java - which may or may not be the island we call Java in Southeast Asia, led a series of successful military campaigns, subjugating most of these petty kingdoms, that resulted in the founding of a large territorial state. In 802 CE he took the title chakravartin, “universal ruler”, and that date is used to signal the start of the empire.[NEWLINE][NEWLINE]Using the city of Angkor as capital, for the next centuries the Khmer empire expanded its territorial base, mostly to the north (entering the Khorat plateau) and the west, to the Chao Phraya basin and beyond. To the east outcomes were different: several times the Khmer fought wars against two neighboring peoples with powerful kingdoms, the Cham (in today's central Vietnam) and the Vietnamese (in today's northern Vietnam). Despite some victories, as in 1145 CE, when Cham's capital Vijaya was taken, the empire was never able to annex those lands. Conversely, Chams and Vietnamese enjoyed some victories of their own, the most spectacular of which was Cham's humiliating revenge, looting Angkor (1177 CE) and pushing the empire to the edge of destruction.[NEWLINE][NEWLINE]Throughout the empire's history, Khmer's court was repeatedly concerned with putting down rebellions initiated by ambitious nobles trying to achieve independence, or fighting conspiracies against the king. This was particularly true each time a king died, as successions were usually contested.[NEWLINE][NEWLINE]The Khmer were great builders, filling the landscape with monumental temples, huge reservoirs (called baray) and canals, and laying an extensive road network with all sorts of bridges -the main highways are 800 km long. The most stunning temple, Angkor Wat, is a microcosm of the Hindu universe and defies imagination as the world's largest religious complex - covering 200 hectares; nowadays it is crowded with tourists amazed with ruins that until recently were covered by the jungle. Its construction took some 30 years and was started by one of the greatest kings, Suryavarman II, around 1122 CE.[NEWLINE][NEWLINE]The empire's greatest king was Jayavarman VII (r. 1181 CE - 1215 CE). He expelled the Chams who took Angkor, restoring the realm from anarchy, and then invaded Champa (Cham's kingdom). The scale of his construction programme was unprecedented: he built temples, monuments, highways, a hundred hospitals, and the spectacular Angkor Thom complex - a city within a city in Angkor. Jayavarman also expanded the empire's territorial control to its zenith.[NEWLINE][NEWLINE]Angkor's original name was Yashodharapura (“Glory-bearing city”), and at its apogee it was the biggest city in the world, covering an area of a thousand square kilometres, close to that of modern Los Angeles in the USA. Its population is much harder to estimate, but a figure of aproximately one million is acceptable.[NEWLINE][NEWLINE]The Khmer were festive people, with many celebrations all the year round. Wrestling, horse races, cock fights, fireworks, music and dances were an integral part of their culture. Most of the realm's commerce was apparently in the hands of women.The king and the elite were transported on palanquins, and used umbrellas to cover from the sun. There were several religious beliefs present, with Hinduism being favoured (yet not exclusively) by the the kings at first, and Buddhism later. The state was divided into approximately 23 provinces, with a sophisticated administration and extensive personnel going down even to the village level. Censuses were carried out periodically. Although key to the empire's prosperity, the high officers of this bureaucracy were also part of the plots that plagued the court's history.[NEWLINE][NEWLINE]The empire's decline and final collapse is deeply connected with the great Thai migration of the 12th-14th centuries CE. They inhabitated an area to the north of the empire, roughly where China ends and Southeast Asia begins; the Yunnan. It is a mountainous, harsh land, where a Thai kingdom called Nanchao existed. For unknown reasons, Thai populations started migrating south, in small groups at first. Thais first appear in records as as hired mercenaries for the empire, and their numbers rose as they began to establish themselves as settlers in marginal areas. The migration intensified when Mongol campaigns shook China, and when the Mongols took Yunnan in 1253 CE, further pressure for Thai migration ensued. Eventually the Thai created their own small kingdoms, the most important of them in the western side of the empire. As these kingdoms grew in power, they started to attack and annex imperial territories. The empire's economy by this time may also have been deteriorated by increased silting of the massive water works that the Khmer core area depended on. The Thai kingdom of Ayutthaya took Angkor in 1431 CE, which constitutes the end of the Khmer empire.</Text>
+		</Row>
+		<!-- City Names -->
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_ANGKOR_THOM">	
+			<Text>Angkor Thom</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_YASODHARAPURA">	
+			<Text>Yasodharapura</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_HARIHARALAYA">	
+			<Text>Hariharalaya</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_NAGARA_JAYASRI">	
+			<Text>Nagara Jayasri</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_RAJAVIHARA">	
+			<Text>Rajavihara</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_ISVARAPURA">	
+			<Text>Isvarapura</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_BANTEAY_KDEI">	
+			<Text>Banteay Kdei</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_JAYENDRANAGARI">	
+			<Text>Jayendranagari</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_PRE_RUP">	
+			<Text>Pre Rup</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_VIMAYAPURA">	
+			<Text>Vimayapura</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_LINGAPURA">	
+			<Text>Lingapura</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_KRONG_CHAKTOMUK">	
+			<Text>Krong Chaktomuk</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_CHOK_GARGYAR">	
+			<Text>Chok Gargyar</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_MAHENDRAPARVATA">	
+			<Text>Mahendraparvata</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_AMARENDRAPURA">	
+			<Text>Amarendrapura</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_INDRAPURA">	
+			<Text>Indrapura</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_LAVO">	
+			<Text>Lavo</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_PREAH_VIHEAR">	
+			<Text>Preah Vihear</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_PHANOM_RUNG">	
+			<Text>Phanom Rung</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_MUANG_TAM">	
+			<Text>Muang Tam</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_BENG_MELEA">	
+			<Text>Beng Melea</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_PRASAT_BAKAN">	
+			<Text>Prasat Bakan</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_SINGHAPURA">	
+			<Text>Singhapura</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_CHALIENG">	
+			<Text>Chalieng</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_SUKHOTHAI">	
+			<Text>Sukhothai</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_VIANGCHAN">	
+			<Text>Viangchan</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_BATTAMBANG">	
+			<Text>Battambang</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_SURYAPARVATA">	
+			<Text>Suryaparvata</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_PREY_NOKOR">	
+			<Text>Prey Nokor</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_ANINDITAPURA">	
+			<Text>Aninditapura</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_ISANAPURA">	
+			<Text>Isanapura</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_SHRESTAPURA">	
+			<Text>Shrestapura</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_ANGKOR_BOREI">	
+			<Text>Angkor Borei</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_VYADHAPURA">	
+			<Text>Vyadhapura</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_BHAVAPURA">	
+			<Text>Bhavapura</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_SAMBHUPURA">	
+			<Text>Sambhupura</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_LOVEK">	
+			<Text>Lovek</Text>
+		</Row>	
+		<Row Tag="TXT_KEY_CITY_NAME_KHMER_UDONG">	
+			<Text>Udong</Text>
+		</Row>	
+		<!-- Spy Names -->
+		<Row Tag="TXT_KEY_SPY_NAME_KHMER_9">
+			<Text>Veasna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KHMER_8">
+			<Text>Phirun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KHMER_7">
+			<Text>Ratanak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KHMER_6">
+			<Text>Veha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KHMER_5">
+			<Text>Rithysen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KHMER_4">
+			<Text>Thida</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KHMER_3">
+			<Text>Chantrea </Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KHMER_2">
+			<Text>Champey</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KHMER_1">
+			<Text>Seyha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_KHMER_0">
+			<Text>Raksmei</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Jayavarman VII
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII">
+			<Text>Jayavarman VII</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JAYAVARMAN_VII_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JAYAVARMAN_VII_TEXT_1">
+			<Text>Jayavarman VII wasone of the most forceful and productive kings of the Khmer (Cambodian) empire. He expanded the empire to its greatest territorial extent and engaged in a building program that yielded numerous temples, highways, rest houses, and hospitals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JAYAVARMAN_VII_HEADING_2">
+			<Text>Early life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JAYAVARMAN_VII_TEXT_2">
+			<Text>Jayavarman was born into the royal family of Angkor. He married a very religious and strong-minded princess named Jayarajadevi, who exerted an important influence on him, both before he gained the throne and during the early years of his reign. Following her death he married her older sister, a very pious and learned woman whom he had previously installed as the head professor in an important Buddhist monastery.[NEWLINE][NEWLINE]Though practically nothing is known of Jayavarman's childhood and youth, it is clear that during his late 30s and early 40s he settled in the neighbouring kingdom of Champa, in what is now the central region of Vietnam. At the time of the death of his father, King Dharanindravarman II (ruled 1150-60), Jayavarman was engaged in a military campaign in Champa, and, after the accession of his brother (or possibly his cousin), Yasovarman II (ruled 1160-66), he chose to remain there, returning to Cambodia only when he received word that a palace rebellion was in progress. Although Jayavarman arrived at Angkor too late to prevent the murder of Yasovarman and the accession of the rebel Tribhuvanadityavarman (ruled 1166-77), he decided to remain in his homeland and to await an opportunity to assert his own claim to the throne.[NEWLINE][NEWLINE]Some 12 years later, when Jayavarman was in his late 50s, that opportunity came as a result of a Cham invasion, which brought about the demise of Tribhuvanadityavarman, the sacking of Angkor, and its subjection to foreign rule. In this situation Jayavarman organized a struggle for independence and in less than five years' time succeeded in driving out the invaders and establishing his hegemony over all his Cambodian rivals. Finally in 1181, at the age of 61, he was crowned king of a reconstituted Khmer empire and began a brilliant reign of more than 30 years, during which he brought the empire to its zenith, both in terms of territorial expansion and of royal architecture and construction.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JAYAVARMAN_VII_HEADING_3">
+			<Text>Jayavarman's building program</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JAYAVARMAN_VII_TEXT_3">
+			<Text>During his reign Jayavarman continued his military activities, bringing Champa, southern Laos, and portions of the Malay Peninsula and Burma under his control. But increasingly he devoted his energies and organizational capacities to the kind of religious and religio-political construction projects that had been carried on by his royal predecessors. He built a large number of awesome new temples, including the Bayon, a distinctively Mahayana Buddhist central pyramid temple designed to serve as the primary locus of the royal cult and also as his own personal mausoleum; personal funerary temples of the Mahayana type, which were dedicated to his mother and father; and a series of provincial temples, which housed reduced replicas of the Royal Buddha—i.e., Jayavarman represented with the attributes of the Buddha, the original of which had been set up in the Bayon. He rebuilt the city of Angkor, now known as Angkor Thom, and rebuilt and extended the system of highways, which radiated outward from the Bayon and the royal palace and reached far into the provinces. In addition, he constructed more than 100 rest houses along these roads and built more than 100 hospitals, which he dispersed throughout his kingdom.[NEWLINE][NEWLINE]Jayavarman seems to have been obsessed with the need for rapid and extensive construction. For example, the less than careful workmanship evident in the temples attributed to Jayavarman's reign vividly points to the great haste with which they were built. Some scholars have suggested that the almost frantic sense of urgency associated with Jayavarman's works derived from the fact that, having begun his reign at a relatively advanced age, he felt that his time was short and had to be utilized to the fullest. Others have suggested that Jayavarman's concern to carry through such a vast program of largely Buddhist-oriented construction was greatly encouraged by Jayarajadevi and her sister, both of whom dedicated a tremendous amount of energy toward gaining support for Buddhism and specifically for building Buddhist temples. And finally, if scholars are correct in their surmise that Jayavarman suffered from the dread disease of leprosy, his concern to mitigate his sin and suffering through the accumulation of great merit may have given a still further impetus to his piety and zealousness. He was more than 90 years old when he died.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JAYAVARMAN_VII_HEADING_4">
+			<Text>Judgement of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JAYAVARMAN_VII_TEXT_4">
+			<Text>Despite the importance of Jayavarman VII in the history of the Khmer Empire, no memory of him was preserved in the later Cambodian chronicles. In modern times, however, as archaeological studies generated popular interest in his reign, Jayavarman VII became a kind of paradigmatic national hero, who was credited not only with establishing the full greatness of the Cambodian nation but also with bringing into being a welfare state that was motivated by Buddhism and dedicated to serving both the spiritual and the physical needs of the Cambodian people. Ultimately, Jayavarman succeeded during his lifetime in creating a legacy that few monarchs in history (Khmer or otherwise) have been able to equal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JAYAVARMAN_VII_NAME">
+			<Text>Jayavarman VII</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JAYAVARMAN_VII_SUBTITLE">
+			<Text>Leader of the Khmer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JAYAVARMAN_VII_TITLES_1">
+			<Text>King of the Khmer Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JAYAVARMAN_VII_LIVED">
+			<Text>1125 - 1218 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_JAYAVARMAN_VII_TEXT">
+			<Text>May you be blessed with fulfilment and long life, O' Great King Jayavarman VII, leader of the ancient and illustrious Khmer Empire. You arose to power during a time of great turmoil, with the capital sacked, your predecessor murdered by foreign invaders and the empire in shambles, yet your reign was a golden age for Cambodia. You valiantly repelled the invaders and deftly restored order within the nation, and thus you were crowned king of a reconstituted Khmer empire. This would mark the beginning of a brilliant reign lasting over thirty years, in which you embarked on a program of construction and expansion that would bring the empire to its zenith. During your rule, you established the famed city of Angkor Thom, you built many great wonders and ordered the construction of hospitals, reservoirs and rest houses throughout the land. Truly your reign brought the Khmer Empire to heights that have never been achieved, before or since.[NEWLINE][NEWLINE]King Jayavarman, your people beckon you to take the throne once again, to return the nation to the glory of old. Will the cities of Cambodia flourish once again with you as their architect? Will great monuments be raised to stand testament to the ages? Will you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Diplomacy
+		------------------------------------------------------------------>
+		<!--First Greeting messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_FIRSTGREETING_1">
+			<Text>I, King Jayavarman VII, welcome you on behalf of the Khmer People. Now, let us talk about religion and architecture!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_FIRSTGREETING_2">
+			<Text>Cambodia welcomes you stranger! I am Jayavarman VII, leader of this empire. Now tell me, how does your empire compare to mine?</Text>
+		</Row>
+		<!--Defeated messages from AI leaders-->
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DEFEATED_1">
+			<Text>You may have won today, but one day you shall get your just deserts. All men, weak or mighty, are subject to the Law of Karma.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DEFEATED_2">
+			<Text>Do you understand what you have done? Years of work, ruined! Enjoy the remainder of your life, after what you've done, I doubt your next will be as kind.</Text>
+		</Row>
+		<!-- Human repeats an action too much, gets the following responses -->
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_REPEAT_TOO_MUCH_1">
+			<Text>Please, stop asking. The answer is no.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_REPEAT_TRADE_TOO_MUCH_1">
+			<Text>Have you no ears? No.</Text>
+		</Row>
+		<!-- Greetings -->
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_GREETING_HOSTILE_HELLO_1">
+			<Text>What do you come to rob from us today?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_GREETING_POLITE_HELLO_1">
+			<Text>You're back again, good. What news have you today?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_GREETING_HOSTILE_HUMAN_AT_WAR_1">
+			<Text>I cannot wait until the day you've been defeated in your war. Anything to ask other than war funds you're not getting?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_GREETING_HUMAN_AT_WAR_1">
+			<Text>I hope you can gain a swift victory, so that the world can once more return to peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>The highways I've built are for the use of my people, not your army. I ask you keep that in mind.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JAYAVARMAN_VII_GREETING_HOSTILE_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>This land is all of ours. Stop buying it for personal gain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_GREETING_AGGRESSIVE_PLOT_BUYING_1">
+			<Text>I take the sovereignty of my empire seriously. Please be careful of how you expand.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_GREETING_HOSTILE_AGGRESSIVE_EXPANSION_1">
+			<Text>I see that your people want to take more of out land. We shall not allow it until they follow our way of life.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_GREETING_AGGRESSIVE_EXPANSION_1">
+			<Text>May I ask that you to please stop your expansion?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_GREETING_FRIENDLY_STRONG_MILITARY_1">
+			<Text>Your military might is almost unrivalled, friend. I hope you are able to use it wisely.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_GREETING_FRIENDLY_STRONG_ECONOMY_1">
+			<Text>Your nation's economic might is seen as an inspiration around the world! The Khmer would love to know how they've managed to achieve such prosperity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_GREETING_HOSTILE_HUMAN_FEW_CITIES_1">
+			<Text>We boast the most magnificent cities in the world. I hear you also have great cities - sorry, perhaps one city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_GREETING_HOSTILE_HUMAN_SMALL_ARMY_1">
+			<Text>Your nation may once have prided itself on its military might, but now, you'd be crushed by any outside power! That includes us, you know.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_GREETING_HOSTILE_HUMAN_IS_WARMONGER_1">
+			<Text>You again? Here to spread the hatred, I suspect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_TOO_SOON_FOR_DOF_1">
+			<Text>My apologies, but no. While I have the greatest confidence in you, my people are less optimistic.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DENOUNCE_1">
+			<Text>I cannot wait until somebody can take the time to wipe your kind off the planet.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DENOUNCE_2">
+			<Text>If I hadn't better things to do for my people, I would destroy your empire with pleasure.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>If you want to make an enemy of me, then do the same to the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_HUMAN_DOFED_FRIEND_1">
+			<Text>I happened to hear of your friendship with {1_CivName}. They are friends to us as well; hopefully this will strengthen our relationship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_HUMAN_DOFED_ENEMY_1">
+			<Text>I cannot believe you would want to do diplomacy with {1_CivName}, those scoundrels. For the sake of your people, I advise you against talking to them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_HUMAN_DENOUNCED_FRIEND_1">
+			<Text>Why would you talk badly of {1_CivName}? I simply cannot understand it - the Khmer have benefited greatly from them, it's beyond me why it wouldn't work for you..</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_HUMAN_DENOUNCED_ENEMY_1">
+			<Text>Thank you for rightly denouncing {1_CivName}. The Khmer will stand alongside you on this matter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_HUMAN_DOF_SO_AI_DOF_1">
+			<Text>Your declaration of friendship with {1_CivName} fits our interests nicely.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_HUMAN_DOF_SO_AI_DENOUNCE_1">
+			<Text>We're worried by your friendliness towards {1_CivName}. All my advisor warn against further diplomacy with them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_HUMAN_DENOUNCE_SO_AI_DENOUNCE_1">
+			<Text>Thank you for denouncing {1_CivName}. It's good to know the Khmer are backed on this issue by so great a power.</Text>
+		</Row>
+		<!-- General Diplo Text -->
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_COOP_WAR_REQUEST_1">
+			<Text>Sorry to bother you, but please could you take up arms against {1_PlayerName:textkey}? It may save us all one day.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_COOP_WAR_TIME_1">
+			<Text>Now is the time for war against {1_PlayerName:textkey}. What say you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DEC_FRIENDSHIP_1">
+			<Text>The Khmer trust you, as I told them - are you willing to further our relationship?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>We will not shy from war if you continue to build up military forces here. It's life or death, war or peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_PLOT_BUYING_WARNING_1">
+			<Text>Continuing to buy this land will only lead to less land for us to build on. Do you not want a world filled with peace and beauty?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>War comes to those who don't heed the advice of those up above. Stop buying land.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Your cities are spreading all over the land, none as great as ours. Let us deal with the expansion, you can try to make your cities better.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_EXPANSION_WARNING">
+			<Text>Your cities are spreading all over the land, none as great as ours. Let us deal with the expansion, you can try to make your cities better.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_RETURNED_CIVILIAN_1">
+			<Text>We are indebted to you for bringing our people home. Should we be able to return the favour, we shall willingly do so. </Text>
+		</Row>
+		<!--Public Declarations-->
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DECLARATION_PROTECT_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} announces to the world that it is now protecting {1_MinorCivName:textkey}. Attacking the City-State will greatly damage relations and may lead to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DECLARATION_ABANDON_CITY_STATE_1">
+			<Text>{2_MajorCivName:textkey} has taken back its guarantee of protecting {1_MinorCivName:textkey}.</Text>
+		</Row>
+		<!-- Human is asking the AI for something -->
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DONT_SETTLE_NO_1">
+			<Text>We'll settle where we want, thank you. How will we be able to get some culture into the world otherwise?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DONT_SETTLE_YES_1">
+			<Text>Very well; I agree we've taken too much already.</Text>
+		</Row>
+		<!--Deal Offers and related-->
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_LUXURY_TRADE_1">
+			<Text>Temples aren't built from nothing. May we use this to assist us?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Let us remove these unneeded barriers that we might facilitate trade and cultural exchange.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_RESPONSE_REQUEST_1">
+			<Text>My friend, may we have this? My people are in much need of it.</Text>
+		</Row>
+		<!--AI Attacked by Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_ATTACKED_HOSTILE_1">
+			<Text>You've declared war? Pity I was expecting it. You'll be crushed, and you know it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_ATTACKED_EXCITED_1">
+			<Text>We shall destroy your army ruthlessly and subsequently tear through your cities. May the Khmer ever be triumphant!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_ATTACKED_SAD_1">
+			<Text>This is a bleak day for my people. May people pray for you at your temples, because we certainly won't.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_ATTACKED_BETRAYED_1">
+			<Text>I thought we could have benefited greatly together. As saddened as I am by your attack, you'll be remembered as little more than a tyrant by us.</Text>
+		</Row>
+		<!--AI Declaring War on Human - Strong and Weak also include the default response sets-->
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DOW_GENERIC_1">
+			<Text>War is now upon you by your evildoing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DOW_GENERIC_2">
+			<Text>This is war, whether you like it or not. Don't talk to us again; you'll only rally more hatred.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DOW_LAND_1">
+			<Text>I always thought our land has always been too small for such a great people. Yours will have to do.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DOW_WORLD_CONQUEST_1">
+			<Text>Once we're done with you, nothing will stop us with the rest of the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DOW_OPPORTUNITY_1">
+			<Text>I cannot resist taking advantage of your situation. Prepare to die.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DOW_DESPERATE_1">
+			<Text>I didn't want to attack you now, but this was our only chance. We'll destroy you regardless, don't worry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_DOW_BETRAYAL_1">
+			<Text>You've let slip one too many signs of disloyalty, my friend. From now on, we are at war.</Text>
+		</Row>
+		<!--AI Responses to a human peace offer-->
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_TOO_SOON_NO_PEACE_1">
+			<Text>Ha! If you want to make peace, then make war first.</Text>
+		</Row>
+		<!--AI Responses to a discussion mode topics-->
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_BAD_1">
+			<Text>Heavens above, are you serious?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JAYAVARMAN_VII_GOOD_1">
+			<Text>That sounds like a wise thing to do.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Great Barays of Angkor
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_TRAIT_KHMER_BARAYS_SHORT">
+			<Text>Great Barays of Angkor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_KHMER_BARAYS">
+			<Text>Choose between a [ICON_FOOD] Food and a [ICON_PEACE] Faith boost upon the completion of a World Wonder. +3 [ICON_GREAT_PEOPLE] Great Engineer Points from your first 4 Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KHMER_DIALOG">
+			<Text>Your workers have completed the Barays around the {1_WonderName}! Who shall we dedicate them to?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KHMER_FOOD">
+			<Text>The People!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KHMER_FAITH">
+			<Text>The Gods!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KHMER_FOOD_TOOLTIP">
+			<Text>You will receive {1_Amount} [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KHMER_FAITH_TOOLTIP">
+			<Text>You will receive {1_Amount} [ICON_PEACE] Faith.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Royal Tromeak
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_UNIT_KHMER_TROMEAK">
+			<Text>Royal Tromeak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_KHMER_TROMEAK_TEXT">
+			<Text>Tromeak is the Khmer term for a Mahout, the keeper or driver of an elephant. The elephants' ability to work under instruction makes them particularly useful for carrying heavy objects. They have been used particularly for timber-carrying in jungle areas. Other than their work use, they have been used in war, in ceremonies, and for carriage. It is said that over 6000 elephants were involved in the construction of Angkor Wat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KHMER_TROMEAK_HELP">
+			<Text>This Khmer Great Engineer replacement can be stationed in cities, causing Domestic Trade Routes to and from the city to provide +3 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]The Royal Tromeak has +2 movement and does not contribute to unit maintenance costs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KHMER_TROMEAK_STRATEGY">
+			<Text>The Royal Tromeak is the Khmer Unique Great Person. While it retains all the benefits of the Great Engineer which it replaces, the Royal Tromeak can also be stationed in cities to cause Domestic Trade Routes to and from the city to provide +3 [ICON_PRODUCTION] Production to the city. Additionally, the Royal Tromeak has +2 movement and does not contribute to unit maintenance costs, unlike the Great Engineer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_KHMER_TROMEAK_MCIS">
+			<Text>Domestic Trade Routes to and from cities with a Royal Tromeak Stationed inside provide +3 [ICON_PRODUCTION] Production to the city.[NEWLINE]----------------[NEWLINE] You are currently earning {1_Num} [ICON_PRODUCTION] Production from Domestic Trade Routes.</Text>
+		</Row>
+		<!----------------------------------------------------------------
+						Prasat 
+		------------------------------------------------------------------>
+		<Row Tag="TXT_KEY_BUILDING_KHMER_PRASAT">
+			<Text>Prasat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KHMER_PRASAT_HELP">
+			<Text>+10% [ICON_CULTURE] Culture when a World Wonder is present in the City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KHMER_PRASAT_STRATEGY">
+			<Text>The Prasat is the unique Khmer replacement for the Colosseum. In addition to the extra [ICON_PEACE] Faith it provides, the Prasat will also provide +10% [ICON_CULTURE] Culture when a World Wonder is present in the City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_KHMER_PRASAT_TEXT">
+			<Text>Prasat is a Khmer term meaning 'Palace' or 'Temple' derived from the Pali "Pasada" and Sanskrit "Prasada". Over the 30 some years of his reign, Jayavarman VII initiated a grand program of construction that resulted in the construction of many such structures; Prasat Ta Prohm and Prasat Bayon being the most famous of them. Other Prasats built by other Khmer monarchs can be found throughout Southeast Asia, a lasting testament to the grandeur of the Khmer Empire.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

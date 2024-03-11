@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- +1 Production from Great Person tile improvements -->
+	<Beliefs>
+		<Update>
+			<Set Follower="true" Founder="false" />
+			<Where Type="BELIEF_GURUSHIP" />
+		</Update>
+	</Beliefs>
+	
+	<Belief_YieldChangeAnySpecialist>
+		<Delete BeliefType="BELIEF_GURUSHIP" />
+	</Belief_YieldChangeAnySpecialist>
+	<Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_GURUSHIP</BeliefType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GURUSHIP</BeliefType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GURUSHIP</BeliefType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GURUSHIP</BeliefType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GURUSHIP</BeliefType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_GURUSHIP" />
+		<Row Tag="TXT_KEY_BELIEF_GURUSHIP">
+			<Text>+3 [ICON_PRODUCTION] Production from Great Person tile improvements.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

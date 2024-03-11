@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/27/2024 5:43:42 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set HurryCostModifier="20" />
+			<Where Class="UNITCLASS_ARCHAEOLOGIST" />
+		</Update>
+	</Units>
+	<Language_en_US>
+		<Update>
+			<Set Text="Archaeologists are a special subtype of Worker that are used to excavate Antiquity Sites to either create Landmark improvements or to extract Artifacts to fill in Great Work of Art slots in Museums, Palaces, Hermitages, and selected Wonders. Archaeologists may work in territory owned by any player. They are consumed once they complete an Archaeological Dig at an Antiquity Site. Archaeologists may only be built or purchased in a city with a University." />
+			<Where Tag="TXT_KEY_UNIT_HELP_ARCHAEOLOGIST"/>
+		</Update>
+	</Language_en_US>
+</GameData>

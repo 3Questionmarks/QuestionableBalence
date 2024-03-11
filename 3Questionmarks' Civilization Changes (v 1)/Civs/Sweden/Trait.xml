@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 2:09:56 PM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set GreatPeopleRateModifier="25" GreatPersonGiftInfluence="0" />
+			<Where Type="TRAIT_DIPLOMACY_GREAT_PEOPLE" />
+		</Update>
+	</Traits>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_DIPLOMACY_GREAT_PEOPLE</TraitType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_DIPLOMACY_GREAT_PEOPLE</TraitType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_DIPLOMACY_GREAT_PEOPLE</TraitType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_DIPLOMACY_GREAT_PEOPLE</TraitType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_DIPLOMACY_GREAT_PEOPLE</TraitType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_DIPLOMACY_GREAT_PEOPLE</TraitType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE" />
+			<Set Text="+25% [ICON_GREAT_PEOPLE] Great Person rate, and when declaring friendship Sweden and their friend gain an additional +10% [ICON_GREAT_PEOPLE] Great Person rate. [ICON_GREAT_PEOPLE] Great Person Improvements and Landmarks produce an additional +3 [ICON_CULTURE] Culture."/>
+		</Update>
+	</Language_en_US>
+</GameData>

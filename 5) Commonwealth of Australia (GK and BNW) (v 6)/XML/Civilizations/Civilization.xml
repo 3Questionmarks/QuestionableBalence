@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_AUSTRALIA</Type>
+			<Description>TXT_KEY_CIV_AUSTRALIA_DESC</Description>
+			<Civilopedia></Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_AUSTRALIA</CivilopediaTag>
+			<Strategy></Strategy>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<ShortDescription>TXT_KEY_CIV_AUSTRALIA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_AUSTRALIA_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_AUSTRALIA</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<DerivativeCiv></DerivativeCiv>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_LEGENDS</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS_AUSTRALIA</AlphaIconAtlas>
+			<MapImage>Australia_Map_DDS.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_AUSTRALIA_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Robert_Menzies.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_AUSTRALIA</DawnOfManAudio>
+			<PackageID></PackageID>
+			<SoundtrackTag>England</SoundtrackTag>
+		</Row>
+	</Civilizations>
+
+	<!-- Civilization_BuildingClassOverrides -->
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_15</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_16</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_17</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_18</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_19</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_20</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_21</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_22</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_23</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_24</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_25</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_26</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_27</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_28</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_29</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_30</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_31</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_32</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_33</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_34</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_35</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_36</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_AUSTRALIA_37</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<!-- Civilization_DisableTechs -->
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_OUTPOST</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<LeaderheadType>LEADER_MENZIES</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_AUSTRALIA_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_AUSTRALIA_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_AUSTRALIA_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_AUSTRALIA_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_AUSTRALIA_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_AUSTRALIA_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_AUSTRALIA_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_AUSTRALIA_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_AUSTRALIA_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_AUSTRALIA_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<UnitClassType>UNITCLASS_GREAT_WAR_INFANTRY</UnitClassType>
+			<UnitType>UNIT_AUSTRALIAN_DIGGER</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
+			<BuildingType>BUILDING_AUSTRALIA_GOLDFIELD</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Civilization_Start_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_AUSTRALIA</CivilizationType>
+			<StartAlongOcean>1</StartAlongOcean>
+		</Row>
+	</Civilization_Start_Along_Ocean>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_AUSTRALIA</Type>
+			<PrimaryColor>COLOR_PLAYER_AUSTRALIA_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_AUSTRALIA_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_AUSTRALIA_ICON</Type>
+			<Red>0.929</Red>
+			<Green>0.615</Green>
+			<Blue>0.274</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_AUSTRALIA_BACKGROUND</Type>
+			<Red>0</Red>
+			<Green>0.349</Green>
+			<Blue>0.223</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_AUSTRALIA_DESC">
+			<Text>Australian Commonwealth</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AUSTRALIA_FACTOID_HEADING">
+			<Text>Australia Factoid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AUSTRALIA_FACTOID_TEXT">
+			<Text>
+				Australia is the world's smallest continent, but the sixth largest country by total area.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AUSTRALIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AUSTRALIA_TEXT_1">
+			<Text>
+Australia is estimated to have been habitated between 42,000 and 48,000 years ago by immigrants from South East asia crossing land bridges or short sea-crossings.[NEWLINE][NEWLINE]
+At the time of European settlement in the late 18th century, most Indigenous Australians were hunter-gatherers with complex oral culture and spiritual values based on reverence for the land and a belief in the 'Dreamtime'.[NEWLINE][NEWLINE]
+Captain Phillip Arthur, commander of the First Fleet established the first European colony in New South Wales at Port Jackson on January 26, 1788. This date is now known as Australia day.[NEWLINE][NEWLINE]
+Most colonial authority was severed by the Statue of Westminster in 1931, and Australia is now close to independance. The country shares close military bonds with the UK and America under the ANZUS treaty.[NEWLINE][NEWLINE]
+Australia is most well known for it's multiculturalism, with more than a quarter of Australian's born overseas and 41% of Australian citizens having foreign-born parents. Most Australians are of European descent, however large contingents of Asian and indiginous Aborigonal anscestry is prevelant in the country today.
+				
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_AUSTRALIA_TITLE">
+			<Text>Australia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_AUSTRALIA_SHORT_DESC">
+			<Text>Australia</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_AUSTRALIA_ADJECTIVE">
+			<Text>Australian</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_AUSTRALIA_TEXT">
+			<Text>Greetings, Sir Robert Menzies! As the longest serving Prime Minister of the Commonwealth of Australia, your eighteen year reign as leader of our great nation will forever be remembered.[NEWLINE][NEWLINE]
+To this day, you stand as the last Australian Prime Minister to retire rather than fail to be reelected, and stand as a paragon of the Australian virtues of freedom, sacrifice, and honorable service to ones country. You are recognized as the catalyst for an incredible period of growth and dominance in Australian education. [NEWLINE][NEWLINE]
+Despite what many consider a failure of your first term, once elected again as Prime Minister you held that office for sixteen years, until your final retirement. You are the only Australian Prime Minister to appoint four governor-generals, and oversaw an incredible period of growth after World War I. [NEWLINE][NEWLINE]
+Decades after your death in 1978, you are still recognized as one of the most important Australian figures in history. Prove the resiliance of the Australian spirit, and build a new Australian Empire that will stand the test of time!
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_0">
+			<Text>Sydney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_1">
+			<Text>Canberra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_2">
+			<Text>Melbourne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_3">
+			<Text>Brisbane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_4">
+			<Text>Perth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_5">
+			<Text>Adelaide</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_6">
+			<Text>Gold Coast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_7">
+			<Text>Newcastle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_8">
+			<Text>Capital Territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_9">
+			<Text>Sunshine Coast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_10">
+			<Text>Wollongong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_11">
+			<Text>Hobart</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_12">
+			<Text>Geelong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_13">
+			<Text>Townsville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_14">
+			<Text>Cairns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_15">
+			<Text>Darwin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_16">
+			<Text>Toowoomba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_17">
+			<Text>Ballarat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_18">
+			<Text>Bendigo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_19">
+			<Text>Launceston</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_20">
+			<Text>Albury</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_21">
+			<Text>Mackay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_22">
+			<Text>Rockhampton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_23">
+			<Text>Bundaberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_24">
+			<Text>Bunbury</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_25">
+			<Text>Coffs Harbour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_26">
+			<Text>Hervey Bay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_27">
+			<Text>Mildura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_28">
+			<Text>Shepparton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_29">
+			<Text>Gladstone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_30">
+			<Text>Port Macquarie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_31">
+			<Text>Tamworth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_32">
+			<Text>Traralgon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_33">
+			<Text>Orange</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_34">
+			<Text>Geraldton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_35">
+			<Text>Devonport</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_36">
+			<Text>Albany</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AUSTRALIA_37">
+			<Text>Bathurst</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_AUSTRALIA_0">
+			<Text>James</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_AUSTRALIA_1">
+			<Text>Scarlett</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_AUSTRALIA_2">
+			<Text>Mycroft</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_AUSTRALIA_3">
+			<Text>Charlotte</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_AUSTRALIA_4">
+			<Text>Ms. Wispelaere</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_AUSTRALIA_5">
+			<Text>Mr. Eks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_AUSTRALIA_6">
+			<Text>Dr. Grey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_AUSTRALIA_7">
+			<Text>Andrew</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_AUSTRALIA_8">
+			<Text>Scott</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_AUSTRALIA_9">
+			<Text>Anne</Text>
+			<Gender>feminine</Gender>
+		</Row>
+	</Language_en_US>
+</GameData>

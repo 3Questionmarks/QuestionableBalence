@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 3:10:38 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set Range ="1" />
+			<Where Type ="UNIT_ANTI_TANK_GUN" />
+		</Update>
+		<Update>
+			<Set Combat="50"/>
+			<Where Type="UNIT_ANTI_TANK_GUN"/>
+		</Update>
+		<Update>
+			<Set RangedCombat="50"/>
+			<Where Type="UNIT_ANTI_TANK_GUN"/>
+		</Update>
+		<Update>
+			<Set Cost="420" />
+			<Where Type="UNIT_ANTI_TANK_GUN" />
+		</Update>
+	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_ANTI_TANK_GUN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+</GameData>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2018 2:10:42 AM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_DHARMA</Type>
+			<Description>TXT_KEY_BELIEF_DHARMA</Description>
+			<ShortDescription>TXT_KEY_BELIEF_DHARMA_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+		</Row>
+	</Beliefs>
+
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_DHARMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>10</YieldChange>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_DHARMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>10</YieldChange>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_DHARMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>10</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_DHARMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>10</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_DHARMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>10</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_DHARMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>10</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Belief_BuildingClassHappiness>
+		<Row>
+			<BeliefType>BELIEF_DHARMA</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<Happiness>10</Happiness>
+		</Row>
+	</Belief_BuildingClassHappiness>
+	
+	<!-- localization -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_DHARMA">
+			<Text>+10 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, [ICON_RESEARCH] Science, [ICON_CULTURE], Culture [ICON_PEACE] Faith and [ICON_HAPPINESS_1] from the Palace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DHARMA_SHORT">
+			<Text>Dharma</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

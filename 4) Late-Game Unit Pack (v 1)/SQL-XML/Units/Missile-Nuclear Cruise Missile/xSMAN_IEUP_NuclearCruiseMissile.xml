@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 07/10/17 3:47:23 PM -->
+<GameData>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_NUCLEAR_CRUISE</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_NUCLEAR_CRUISE</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_NUCLEAR_CRUISE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_IEUP_NUCLEAR_CRUISE</Class>
+			<Type>UNIT_SMAN_IEUP_NUCLEAR_CRUISE</Type>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+
+			<Combat>0</Combat>
+			<RangedCombat>500</RangedCombat>
+			<BaseSightRange>2</BaseSightRange>
+			<NoMaintenance>1</NoMaintenance>
+			
+			<Cost>700</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<Range>9</Range>
+			<Special>SPECIALUNIT_MISSILE</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_MISSILE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_NUCLEAR_CRUISE</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_NUCLEAR_CRUISE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_NUCLEAR_CRUISE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_NUCLEAR_CRUISE_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>100</AdvancedStartCost>
+			<NukeDamageLevel>-1</NukeDamageLevel>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_GUIDED_MISSILE</UnitArtInfo>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>34</UnitFlagIconOffset>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>34</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NUCLEAR_CRUISE</UnitType>
+			<UnitAIType>UNITAI_MISSILE_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NUCLEAR_CRUISE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NUCLEAR_CRUISE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NUCLEAR_CRUISE</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NUCLEAR_CRUISE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NUCLEAR_CRUISE</UnitType>
+			<PromotionType>PROMOTION_EVASION_I</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NUCLEAR_CRUISE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>	
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_NUCLEAR_CRUISE</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_NUCLEAR_CRUISE</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_NUCLEAR_CRUISE">
+			<Text>Nuclear Cruise Missile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_NUCLEAR_CRUISE_STRATEGY">
+			<Text>The Nuclear Cruise Missile is a one-shot unit which is destroyed when it attacks an enemy target. It may be based in a player-owned friendly city or unit that can carry missiles. They may move from base to base or attack an enemy unit or city with their range of '9.' See the rules on Missiles for more information.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_NUCLEAR_CRUISE_HELP">
+			<Text>A relatively inexpensive nuclear tipped missile that may be used once to damage enemy Units or Cities up to 9 tiles away. Because these missiles are so small and stealthy, they may be built in secret - even if there is a ban on producing other nuclear weapons.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_NUCLEAR_CRUISE_PEDIA">
+			<Text>
+				The Nuclear Cruise Missile is a specialized guided missile which does incredible damage to a single, point target. Its payload is so small it does not leave significant fallout damage. It is available on the discovery of Advanced Ballistics, and does not become obsolete. Requires [ICON_RES_URANIUM] Uranium.[NEWLINE][NEWLINE]A Nuclear Cruise Missile is similar to a normal cruise missile, but is equipped with a nuclear warhead. Cruise missiles are a guided missile used against terrestrial targets that remains in the atmosphere and flies the major portion of its flight path at approximately constant speed. Cruise missiles are designed to deliver a large warhead over long distances with high precision. Modern cruise missiles are capable of travelling at supersonic or high subsonic speeds, are self-navigating, and are able to fly on a non-ballistic, extremely low-altitude trajectory.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

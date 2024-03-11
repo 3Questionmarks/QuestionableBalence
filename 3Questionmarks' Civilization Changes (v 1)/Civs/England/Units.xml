@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 12:36:41 PM -->
+<GameData>
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_ENGLISH_LONGBOWMAN" />
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<PromotionType>PROMOTION_LONGSHOT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<PromotionType>PROMOTION_LINE_FORMATION</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+			<ResourceType>RESOURCE_HARDWOOD</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<ResourceType>RESOURCE_HARDWOOD</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_ENGLISH_SHIPOFTHELINE_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_ENGLISH_SHIPOFTHELINE_STRATEGY">
+			<Text>The Ship of the Line is the English unique unit, replacing the Frigate. The Ship of the Line has a higher Ranged Combat strength than the Frigate, and it's slightly cheaper to produce. As well as this it recives the line formation promotion, allowing it to move after attacking and increasing its combat strength when adjacent to friendly units. It can see one hex farther than the Frigate, allowing it to spot enemies in a significantly larger section of ocean.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

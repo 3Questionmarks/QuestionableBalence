@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/4/2024 5:42:10 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where Type="UNIT_WRITER" />
+			<Set BaseCultureTurnsToCount="4"/>
+		</Update>
+	</Units>
+</GameData>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:16:13 PM -->
+<GameData>
+	<Unitpromotions>
+		<Update>
+			<Set CityAttack="20" Help="+20% [ICON_STRENGTH] Combat Strength vs cities."/>
+			<Where Type="PROMOTION_STATUE_ZEUS"/>
+		</Update>
+	</Unitpromotions>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP"/>
+			<Set Text="All units gain +20% [ICON_STRENGTH] Combat Strength when attacking cities.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Art of War[ENDCOLOR]."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_STATUE_ZEUS_GAME_INFO"/>
+			<Set Text="All units gain +20% [ICON_STRENGTH] Combat Strength when attacking cities.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Art of War[ENDCOLOR]."/>
+		</Update>
+	</Language_en_US>
+</GameData>

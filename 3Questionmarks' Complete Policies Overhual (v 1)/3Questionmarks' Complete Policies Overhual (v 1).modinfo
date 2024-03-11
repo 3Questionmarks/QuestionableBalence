@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="da0f2975-e71f-4300-acad-cdd6c1ed6d53" version="1">
+  <Properties>
+    <Name>3Questionmarks' Complete Policies Overhual</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>3Questionmarks' Complete Policies Overhual</Teaser>
+    <Description>3Questionmarks' Complete Policies Overhual</Description>
+    <Authors>???</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="8897B58B2284BE998273943A64F78BB3" import="1">ART/ExoticUnitAtlas032.dds</File>
+    <File md5="98972FB46D99D8B4907B427032F09B2D" import="1">ART/ExoticUnitAtlas045.dds</File>
+    <File md5="80ECC827DEC18CB5F7B021B42CDC7AEA" import="1">ART/ExoticUnitAtlas064.dds</File>
+    <File md5="8589DC599A1C9F59F1139706281B2B15" import="1">ART/ExoticUnitAtlas080.dds</File>
+    <File md5="9338C9FB235D47E5A6FCB46DCFC78992" import="1">ART/ExoticUnitAtlas128.dds</File>
+    <File md5="C4711A672D157A8CA82C895CF8B661DF" import="1">ART/ExoticUnitAtlas256.dds</File>
+    <File md5="53C39378C977C6F304F6AD4C0C068F57" import="0">ART/ExoticUnitAtlas_Definitions.xml</File>
+    <File md5="3A50BED0BA8BA6B408D966055F657422" import="1">ART/ExoticUnitFlagAtlas032.dds</File>
+    <File md5="5178BE6697B9C90DBF7B17CF1665CD36" import="1">ART/Policy_IconAtlas128.dds</File>
+    <File md5="EA4FE89D7627E40CF26F7CBCB7EF6ABD" import="1">ART/Policy_IconAtlas256.dds</File>
+    <File md5="0637CF446D51702596599AE1017C6A21" import="1">ART/Policy_IconAtlas45.dds</File>
+    <File md5="9FC236B74F32DC646859C7590F7258C2" import="1">ART/Policy_IconAtlas64.dds</File>
+    <File md5="1D24A0F0F9E15A9C16FC730B508C4DFA" import="1">ART/Policy_IconAtlas80.dds</File>
+    <File md5="75D6D5BB9A7C85C46EE52631A560F0BC" import="0">ART/Policy_IconAtlases.xml</File>
+    <File md5="3018284FD4F50C8823543917B0A76D86" import="0">XML/Art of War/ART/BattleGalleyArtDefines.xml</File>
+    <File md5="254772CD8B8C7E81A413C635F58DA32C" import="0">XML/Art of War/ART/MadyanArchersArtDefines.sql</File>
+    <File md5="6FD2A4C1CCD8609342ECC067669BCD2A" import="1">XML/Art of War/ART/SMAN_EU_BattleGalley.fxsxml</File>
+    <File md5="96CBCD646D3736E67999648ADF0EE48F" import="1">XML/Art of War/ART/SMAN_EU_BattleGalley.gr2</File>
+    <File md5="780ACECAD186174C79A92CA48BE52E57" import="1">XML/Art of War/ART/SMAN_EU_BattleGalley_diff.dds</File>
+    <File md5="3D21450136413378010DDAA8924E3295" import="1">XML/Art of War/ART/SMAN_EU_MadyanArchers.fxsxml</File>
+    <File md5="C341FCABDC0A7B0D883BC2B24A4E1E79" import="1">XML/Art of War/ART/SMAN_EU_MadyanArchers.gr2</File>
+    <File md5="0FEC5F1F2EC6898AF9716CC415C7BC29" import="1">XML/Art of War/ART/SMAN_EU_MadyanArchers_diff.dds</File>
+    <File md5="F60D427F1D9F4B94F07DE18C3A673447" import="1">XML/Art of War/ART/SMAN_EU_MadyanArchers_gloss.dds</File>
+    <File md5="C17A67AB9D9DD61784CF8826E382C847" import="0">XML/Art of War/Building.xml</File>
+    <File md5="398F66D94400D7AEEEB894AB374BE5DC" import="0">XML/Art of War/Policies.xml</File>
+    <File md5="3F4B33E62868733C1C889CF45EFF9C01" import="0">XML/Art of War/Units.xml</File>
+    <File md5="441DEE216380A7FB934759B14070C476" import="0">XML/Communes/ART/CorsairArtDefines.sql</File>
+    <File md5="D65BD470A9CAFED1F110C71B983B3A69" import="0">XML/Communes/ART/DhowArtDefines.sql</File>
+    <File md5="8090B298FAB7F80CE5FCE5CE7229577A" import="1">XML/Communes/ART/SMAN_EU_Corsair.fxsxml</File>
+    <File md5="9FBC0EA2AA4E0333E6C4BDE28F3511C1" import="1">XML/Communes/ART/SMAN_EU_Corsair.gr2</File>
+    <File md5="1C199341AEA1F02385BC343999565257" import="1">XML/Communes/ART/SMAN_EU_Corsair_diff.dds</File>
+    <File md5="DD8FF41E0EDC578D82191D8B39889D3B" import="1">XML/Communes/ART/SMAN_EU_Dhow.fxsxml</File>
+    <File md5="7D52A181083185806478BBFEB21F3924" import="1">XML/Communes/ART/SMAN_EU_Dhow.gr2</File>
+    <File md5="88BBE22705A15212ACC85DAC72771EB6" import="1">XML/Communes/ART/SMAN_EU_Dhow_diff.dds</File>
+    <File md5="4B9094E43AD9C1F4C32563515029C387" import="1">XML/Communes/ART/SMAN_EU_Dhow_sref.dds</File>
+    <File md5="4F6724BDE63C905771E2FB02DE56830A" import="1">XML/Communes/ART/SMAN_EU_WarJunk.fxsxml</File>
+    <File md5="A540526B74282DC75DCE861797A65A37" import="1">XML/Communes/ART/SMAN_EU_WarJunk.gr2</File>
+    <File md5="7038C2D91B8CFDBE084AE650311D0165" import="1">XML/Communes/ART/SMAN_EU_WarJunk_diff.dds</File>
+    <File md5="A0259BA1FB1B544F89BBD5A07BE8B90F" import="1">XML/Communes/ART/SMAN_EU_WarJunk_sref.dds</File>
+    <File md5="476F493747ADA572482E1314ECA9728F" import="0">XML/Communes/ART/WarJunkArtDefines.sql</File>
+    <File md5="5FAA69682B2AF1C09A002C99FFCC000D" import="0">XML/Communes/Building.xml</File>
+    <File md5="B1C80E7DC6D3A034476262A1860BFBD3" import="0">XML/Communes/Policies.xml</File>
+    <File md5="7C666B2FEBC8684EF636E4F37827E7B3" import="0">XML/Communes/Units.xml</File>
+    <File md5="20124B488A6093D4031EED1395AB5920" import="0">XML/Democracy/ART/CheyenneDSArtDefines.sql</File>
+    <File md5="A69C7661C61B0C00B8FAF64199CC7E9E" import="1">XML/Democracy/ART/fx_triggers_SMAN_EU_CDS.ftsxml</File>
+    <File md5="38ECF0CB7A9302BC25659E9BFB7F348F" import="1">XML/Democracy/ART/SMAN_EU_CDS.fxsxml</File>
+    <File md5="A0F6717601A900248C3F77A33CD81C00" import="1">XML/Democracy/ART/SMAN_EU_CDS.gr2</File>
+    <File md5="1B7595DFD9CCD2A840A8350572BA5A02" import="1">XML/Democracy/ART/SMAN_EU_CDS_diff.dds</File>
+    <File md5="17FE9F1C9A4AFF2C233918CB06DFE03C" import="1">XML/Democracy/ART/SMAN_EU_CDS_Horse_diff.dds</File>
+    <File md5="4EC10543D28DE1048527FAFDDC47DE13" import="1">XML/Democracy/ART/SMAN_EU_CDS_Horse_sref.dds</File>
+    <File md5="E5E6AE27DD8042529CA684662060A413" import="1">XML/Democracy/ART/SMAN_EU_CDS_sref.dds</File>
+    <File md5="178B7E42B8FEA92934E10502403324AC" import="0">XML/Democracy/Building.xml</File>
+    <File md5="14AEDC9FC5094E88B758CB2B5F72201D" import="0">XML/Democracy/Policies.xml</File>
+    <File md5="A46D3ED483BC3ECA9E90E381AE47BE26" import="0">XML/Democracy/Units.xml</File>
+    <File md5="2F5F51D702CEE4501F7AD35118639F10" import="0">XML/Diplomacy/ART/CavalierArtDefines.sql</File>
+    <File md5="5D33DA6439A447E8634AFF5D878F277B" import="1">XML/Diplomacy/ART/SMAN_EU_Cavalier.fxsxml</File>
+    <File md5="40D5F62BC4D59D7BFD7417E1EBB3697B" import="1">XML/Diplomacy/ART/SMAN_EU_Cavalier.gr2</File>
+    <File md5="0D26193EAE3D81B0A0D56747514E5DBF" import="1">XML/Diplomacy/ART/SMAN_EU_Cavalier_Confederate_cav_diff.dds</File>
+    <File md5="5153CC917DEC990CDB4F911F01B34859" import="1">XML/Diplomacy/ART/SMAN_EU_Cavalier_Confederate_cav_sref.dds</File>
+    <File md5="51D4FAAB21AC4EEC4AAFDCC945A91733" import="1">XML/Diplomacy/ART/SMAN_EU_Cavalier_Musketeer_diff.dds</File>
+    <File md5="5F75B69AFD02477F0057234F5C649F7B" import="1">XML/Diplomacy/ART/SMAN_EU_Cavalier_Musketeer_sref.dds</File>
+    <File md5="B3A919EAE570F83E8CBE066C6A45D65D" import="0">XML/Diplomacy/Building.xml</File>
+    <File md5="0724D7DC12DAF7EB0A650CB0F69211D8" import="0">XML/Diplomacy/Policies.xml</File>
+    <File md5="822FFA8CCA05417DA35DFD7502F0EEDD" import="0">XML/Diplomacy/Units.xml</File>
+    <File md5="3E45CE03376F7001D48EEB82DF50D3AD" import="0">XML/Empire/Building.xml</File>
+    <File md5="364780B03BB0FAF613AD95B7355A4E05" import="0">XML/Empire/Policies.xml</File>
+    <File md5="71D39CF25C7E291A0BE22A732E9072F1" import="0">XML/Empire/Units.xml</File>
+    <File md5="F2998C0A1ED89841689E62A65F7982C0" import="0">XML/Feudalism/ART/CondottieriArtDefines.sql</File>
+    <File md5="6CB1C02FD7D8A166FEF34D4AAFBF7F4E" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_1_sref.dds</File>
+    <File md5="2A29EB2940CDD4CABC12523DBEE79418" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_2.dds</File>
+    <File md5="D6DAE9F677AEC21EC3AC6549D21023B5" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_HRE.fxsxml</File>
+    <File md5="F08F4973CC07A5DAC8FB028E9F0CF034" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_HRE.gr2</File>
+    <File md5="8A093FE901065E63689E5BCD5003DC24" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_HRE_diff.dds</File>
+    <File md5="EA0149E58F7C010AB40955BA365ECF06" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Milan.fxsxml</File>
+    <File md5="2DB0A72C286C7B8F782C023073447C25" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Milan.gr2</File>
+    <File md5="570BE8E8180CA55C2A704E5EB7B09866" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Milan_diff.dds</File>
+    <File md5="F183C92CB4F2FADF67937C230DE6D8E5" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Ragusa.fxsxml</File>
+    <File md5="0D9D11C387E556F18529D522CD652BA5" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Ragusa.gr2</File>
+    <File md5="F394A6B5E47AF813C961B53A72FEA7C5" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Ragusa_diff.dds</File>
+    <File md5="FC3A469C3CC30588C17830094133E724" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Venice.fxsxml</File>
+    <File md5="CCAB07C15C2104E1F9D4CA35927FD2DC" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Venice.gr2</File>
+    <File md5="120C87D94087EC516EA1C074074E039E" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Venice_diff.dds</File>
+    <File md5="315311E049F777DFB4BA9DCFA2D1563C" import="0">XML/Feudalism/Building.xml</File>
+    <File md5="75AA90B7B2F7D219BE74020E2F64F2A3" import="0">XML/Feudalism/Policies.xml</File>
+    <File md5="884B3AECFD7ECB8F437E0B31E47EBD54" import="0">XML/Feudalism/Units.xml</File>
+    <File md5="3FBCCE10F866842D2D0A53277D1A1EAF" import="0">XML/Industry/Building.xml</File>
+    <File md5="4AF510426F2F6B7082A551FFDE5E5590" import="0">XML/Industry/Policies.xml</File>
+    <File md5="EC0736F0ECC30C1CBE5BA025212EE0A4" import="0">XML/Industry/Units.xml</File>
+    <File md5="EE74068DDB8D6E426767B469199A1618" import="0">XML/Monarchy/ART/3UC_ASSYRIA.sql</File>
+    <File md5="63F9B3C1A211BC0650AD8C4F77465E7A" import="0">XML/Monarchy/ART/MonarcyIconAtlas.xml</File>
+    <File md5="D005EF8D9DF44FD3008CA20026C7A037" import="1">XML/Monarchy/ART/Pikeman_Babylon.dds</File>
+    <File md5="220F9E5652A1933908D246D70CBE6AB3" import="1">XML/Monarchy/ART/Pikeman_Babylon.gr2</File>
+    <File md5="5385607B69A48BC7DFD85B0543F4691A" import="1">XML/Monarchy/ART/Pikeman_BabylonX.fxsxml</File>
+    <File md5="806FE862E433F5985FE662F04F49AF18" import="1">XML/Monarchy/ART/Pikeman_Babylon_gloss.dds</File>
+    <File md5="C197B5B6F90DD40E2A106D5AED01A8DB" import="1">XML/Monarchy/ART/POMIconAtlas032.dds</File>
+    <File md5="56951A390EA46448599743E064585EF8" import="1">XML/Monarchy/ART/POMIconAtlas045.dds</File>
+    <File md5="562A9D2BEC0228C5D2E38729CA0F79BA" import="1">XML/Monarchy/ART/POMIconAtlas064.dds</File>
+    <File md5="687F2B32EC507B5EE397FC1D1D98CBCD" import="1">XML/Monarchy/ART/POMIconAtlas080.dds</File>
+    <File md5="F53BC9DBE1EED01D6BE1D291B2BF6BAB" import="1">XML/Monarchy/ART/POMIconAtlas128.dds</File>
+    <File md5="18B76834F19882BE8CF1BF9DFE4A9AD0" import="1">XML/Monarchy/ART/POMIconAtlas256.dds</File>
+    <File md5="DDE7B88B36228FF4F7D5B96F79E7E8DF" import="0">XML/Monarchy/ART/RoyalGuard.xml</File>
+    <File md5="80FD452EA157C548ED71950D4B02E4AC" import="1">XML/Monarchy/ART/royalguard128.dds</File>
+    <File md5="4CB760BEEC86379992B98AA3234B031F" import="1">XML/Monarchy/ART/royalguard256.dds</File>
+    <File md5="855C03EEE0518AF9EA5A0A85ECA1664C" import="1">XML/Monarchy/ART/royalguard45.dds</File>
+    <File md5="310574581FEF58096956182D6F09BD99" import="1">XML/Monarchy/ART/royalguard64.dds</File>
+    <File md5="730077D062ED17DF57B8974BE92724E2" import="1">XML/Monarchy/ART/royalguard80.dds</File>
+    <File md5="F94EE06D74C628605F68346546CB1D52" import="1">XML/Monarchy/ART/royalguardicon.dds</File>
+    <File md5="2C32FD057A9BAE99F003D21473253462" import="0">XML/Monarchy/Building.xml</File>
+    <File md5="30F015CA21202BB295B5F03FD706627F" import="0">XML/Monarchy/CulturePerPopulation.lua</File>
+    <File md5="6A205F293A402AA1E2F9022A9923DB87" import="0">XML/Monarchy/Policies.xml</File>
+    <File md5="06F5D920CFB7F1E27AF94731BAA8BA7C" import="0">XML/Monarchy/Units.xml</File>
+    <File md5="784073E2D05CE860A4A68F0E0465FDF7" import="0">XML/Patonage/ART/CIV5IconTextureAtlases.xml</File>
+    <File md5="83735AB125FD729E6D4DDE9BF57283AD" import="1">XML/Patonage/ART/IronwoodTrebuchet128.dds</File>
+    <File md5="3DA6E09F5EF2551BCD1B09CC8CCDAFE4" import="1">XML/Patonage/ART/IronwoodTrebuchet256.dds</File>
+    <File md5="2D5E503281AB6C4036A3E8FFD3E116F8" import="1">XML/Patonage/ART/IronwoodTrebuchet32.dds</File>
+    <File md5="507F87D3CCA60ED7321B608128378B58" import="1">XML/Patonage/ART/IronwoodTrebuchet45.dds</File>
+    <File md5="A33FAFCA5CF24639E26B90ECB9B5C675" import="1">XML/Patonage/ART/IronwoodTrebuchet64.dds</File>
+    <File md5="3D99F028EEE5BE58B94FEC20F6483EEF" import="1">XML/Patonage/ART/IronwoodTrebuchet80.dds</File>
+    <File md5="1B1AA368E1FB1E88C2A0943F0DF0EE1A" import="1">XML/Patonage/ART/ITrebuchetAlpha32.dds</File>
+    <File md5="D60E743E7C785276A180AF6541182665" import="0">XML/Patonage/Building.xml</File>
+    <File md5="899D0711D5E5973FD4CF922E9CF1FC5B" import="0">XML/Patonage/Policies.xml</File>
+    <File md5="FDCC14D2092C39821129980414F2EF97" import="0">XML/Patonage/Units.xml</File>
+    <File md5="650C66C482B7427A416747AB4398CDBD" import="0">XML/Shared/Policies Grant Building (v 8)/PGB_Tables.xml</File>
+    <File md5="EE3735B85974B1A9FEDC969D218DF777" import="0">XML/Shared/Policies Grant Building (v 8)/Policies grant Buildings.lua</File>
+    <File md5="4B09EFFA33DB8880891933936552CC2B" import="0">XML/Shared/Policies Grant Building (v 8)/Policy_PGB_FreeBuildingClassCapital_Table.lua</File>
+    <File md5="B445E90581DFA0EED6279B035749108E" import="0">XML/Shared/Policies Grant Building (v 8)/Policy_PGB_FreeBuildingClassCityState_Table.lua</File>
+    <File md5="25D0B93DDEC21FD03772EC51643F3801" import="0">XML/Shared/Policies Grant Building (v 8)/Policy_PGB_FreeBuildingClass_Table.lua</File>
+    <File md5="7B9C65948A44F53E5159CD6DFE0C15D9" import="0">XML/Shared/Promotions.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Shared/Policies Grant Building (v 8)/PGB_Tables.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Shared/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>ART/ExoticUnitAtlas_Definitions.xml</UpdateDatabase>
+      <UpdateDatabase>ART/Policy_IconAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art of War/ART/BattleGalleyArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art of War/ART/MadyanArchersArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Art of War/Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art of War/Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art of War/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Communes/ART/CorsairArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Communes/ART/DhowArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Communes/ART/WarJunkArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Communes/Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Communes/Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Communes/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Democracy/ART/CheyenneDSArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Democracy/Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Democracy/Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Democracy/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy/ART/CavalierArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy/Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy/Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Empire/Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Empire/Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Empire/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Feudalism/ART/CondottieriArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Feudalism/Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Feudalism/Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Feudalism/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Industry/Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Industry/Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Industry/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Monarchy/ART/MonarcyIconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Monarchy/ART/3UC_ASSYRIA.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Monarchy/ART/RoyalGuard.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Monarchy/Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Monarchy/Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Monarchy/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Patonage/ART/CIV5IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Patonage/Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Patonage/Policies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Patonage/Units.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="XML/Monarchy/CulturePerPopulation.lua">
+      <Name>CulturePerPopulation</Name>
+      <Description>CulturePerPopulation</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="XML/Shared/Policies Grant Building (v 8)/Policies grant Buildings.lua">
+      <Name>Policies grant Buildings</Name>
+      <Description>Policies grant Buildings</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="XML/Shared/Policies Grant Building (v 8)/Policy_PGB_FreeBuildingClass_Table.lua">
+      <Name>Policy_PGB_FreeBuildingClass_Table</Name>
+      <Description>Policy_PGB_FreeBuildingClass_Table</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="XML/Shared/Policies Grant Building (v 8)/Policy_PGB_FreeBuildingClassCapital_Table.lua">
+      <Name>Policy_PGB_FreeBuildingClassCapital_Table</Name>
+      <Description>Policy_PGB_FreeBuildingClassCapital_Table</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="XML/Shared/Policies Grant Building (v 8)/Policy_PGB_FreeBuildingClassCityState_Table.lua">
+      <Name>Policy_PGB_FreeBuildingClassCityState_Table</Name>
+      <Description>Policy_PGB_FreeBuildingClassCityState_Table</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

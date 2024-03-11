@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/22/2020 11:03:45 AM -->
+<GameData>
+	<Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_ASCETISM</BeliefType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ASCETISM</BeliefType>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ASCETISM</BeliefType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ASCETISM</BeliefType>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ASCETISM</BeliefType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_ASCETISM</BeliefType>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_ASCETISM" />
+		<Row Tag="TXT_KEY_BELIEF_ASCETISM">
+			<Text>-1 [ICON_FOOD] Food From Farms and Terrace Farms in extange for +2 [ICON_CULTURE] and [ICON_PEACE] from these improvements.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

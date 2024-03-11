@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 1:25:07 PM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_HABSBURG_DOMINANCE</Type>
+			<Description>TXT_KEY_TRAIT_HABSBURG_DOMINANCE</Description>
+			<ShortDescription>TXT_KEY_TRAIT_HABSBURG_DOMINANCE_SHORT</ShortDescription>
+			<!-- Changed palace to provide +2 culture and increased great person generation in capital -->
+			<CityCultureBonus>0</CityCultureBonus>
+			<AbleToAnnexCityStates>true</AbleToAnnexCityStates>
+		</Row>
+	</Traits>
+	<Buildings>
+		<!--Defining new Palace, very similar to original one-->
+		<Row>
+			<Type>BUILDING_PALACE_CA</Type>
+			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
+			<Cost>-1</Cost>
+			<Help>TXT_KEY_BUILDING_PALACE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PALACE_CA</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PALACE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PALACE_STRATEGY</Strategy>
+			<ArtDefineTag>PALACE</ArtDefineTag>
+			<Capital>true</Capital>
+			<NukeImmune>true</NukeImmune>
+			<!--Increased great person generation in the capital defined here via new Palace-->
+			<GreatPeopleRateModifier>20</GreatPeopleRateModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>250</Defense>
+			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+			<DisplayPosition>32</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_Flavors>
+		<!--Standard palace flavors-->
+		<Row>
+			<BuildingType>BUILDING_PALACE_CA</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_CA</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_CA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_YieldChanges>
+		<!--Standard palace gold, production, and science yields-->
+		<Row>
+			<BuildingType>BUILDING_PALACE_CA</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_CA</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE_CA</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<!-- +2 Culture over normal palace -->
+		<Row>
+			<BuildingType>BUILDING_PALACE_CA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Language_en_US>
+		<!--Text information for trait, Habsburg Dominance-->
+		<Row Tag="TXT_KEY_TRAIT_HABSBURG_DOMINANCE">
+			<Text>+2 [ICON_CULTURE] Culture and +20% [ICON_GREAT_PEOPLE] Great People generation in the [ICON_CAPITAL] Capital. Can spend [ICON_GOLD] Gold to annex or puppet a City-State that has been your ally for 5 turns. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_HABSBURG_DOMINANCE_SHORT">
+			<Text>Habsburg Dominance</Text>
+		</Row>
+		<!--Text information for new buildings: modified Palace-->
+		<Row Tag="TXT_KEY_BUILDING_PALACE_CA">
+			<Text>Schloss Schoenbrunn</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

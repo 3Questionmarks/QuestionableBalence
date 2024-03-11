@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 3:37:45 PM -->
+<GameData>
+	<!-- Pathfinder has been made cheaper. Starts with scouting 1 and survivalism 1 -->
+	<Units>
+		<Update>
+			<Set Combat="40"/>
+			<Where Type="UNIT_RUSSIAN_COSSACK" />
+		</Update>
+	</Units>
+</GameData>

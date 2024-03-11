@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2021 3:49:03 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_BOTANICAL_GARDENS</Type>
+			<DefaultBuilding>BUILDING_TCS_BOTANICAL_GARDENS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_BOTANICAL_GARDENS</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TCS_BOTANICAL_GARDENS</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_BOTANICAL_GARDENS</BuildingClass>
+			<Cost>300</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_PATRONAGE</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_BOTANICAL_GARDENS</Description>
+			<Help>TXT_KEY_BUILDING_TCS_BOTANICAL_GARDENS_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+            <GreatPeopleRateModifier>5</GreatPeopleRateModifier>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_TCS_BOTANICAL_GARDENS</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TCS_BOTANICAL_GARDENS">
+			<Text>Botanical Gardens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TCS_BOTANICAL_GARDENS_HELP">
+			<Text>+5% [ICON_GREAT_PEOPLE] Great Person Genration.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Empire[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

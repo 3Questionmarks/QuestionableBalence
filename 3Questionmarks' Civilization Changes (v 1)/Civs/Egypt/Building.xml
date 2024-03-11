@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2021 5:05:21 AM -->
+<GameData>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_BURIAL_TOMB" />
+			<Set Happiness="4" />
+		</Update>
+	</Buildings>
+</GameData>

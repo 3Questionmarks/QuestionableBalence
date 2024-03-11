@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- Religion spreads twice as fast to your cities but 75% slower to other cities -->
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_PROMISED_LAND</Type>
+			<Description>TXT_KEY_BELIEF_PROMISED_LAND</Description>
+			<ShortDescription>TXT_KEY_BELIEF_PROMISED_LAND_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+			<SpreadModifierOwnedCities>100</SpreadModifierOwnedCities>
+			<SpreadModifierUnownedCities>50</SpreadModifierUnownedCities>
+		</Row>
+	</Beliefs>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_PROMISED_LAND">
+			<Text>[ICON_RELGION] Religion spreads twice as fast to your Cities and 50% faster to other Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_PROMISED_LAND_SHORT">
+			<Text>Promised Land</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

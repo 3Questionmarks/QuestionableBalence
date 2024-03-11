@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 11:12:47 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set MilitaryProductionModifier="10"/>
+			<Where Type="BUILDING_ROYAL_LIBRARY"/>
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+
+		<Update>
+			<Set Text="In addition to the [ICON_RESEARCH] Science output of the Library it replaces, the Royal Library also has a Great Work of Writing slot, it provides extra XP to Units trained in this city and increases the speed of production of military units. Only the Assyrians may build it."/>
+			<Where Tag="TXT_KEY_BUILDING_ROYAL_LIBRARY_STRATEGY"/>
+		</Update>
+		<Update>
+			<Set Text="Unique Assyrian Library replacement. +1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City. Land units trained in this City receive 10 XP. It has a slot for a Great Work of Writing which, when filled, gives 10 XP to all Units. Also receive +10% [ICON_PRODUCTION] when building Military Units."/>
+			<Where Tag="TXT_KEY_BUILDING_ROYAL_LIBRARY_HELP"/>
+		</Update>
+	</Language_en_US>
+</GameData>

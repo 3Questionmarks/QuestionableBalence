@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:17:12 PM -->
+<GameData>
+
+	<!-- Partisans (replaces Nationalism): +50% speed to city state election rig. 25 Influence from Military Unit gifts to City-States. -->
+	<Policies>
+		<Update>
+			<Set Level="3" UnitGoldMaintenanceMod="0" RiggingElectionModifier="100" MilitaryUnitGiftExtraInfluence="20" Civilopedia="TXT_KEY_POLICY_PARTISANS_TEXT" />
+			<Where Type="POLICY_NATIONALISM" />
+		</Update>
+	</Policies>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_NATIONALISM" />
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM">
+			<Text>Partisans</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_NATIONALISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Partisans[ENDCOLOR][NEWLINE]City State elections are Rigged 100% faster. Earn 25 [ICON_INFLUENCE] Influence from Military Unit gifts to City-States.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_PARTISANS_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Partisan_(military))[ENDCOLOR][NEWLINE][NEWLINE]A partisan is a member of an irregular military force formed to oppose control of an area by a foreign power or by an army of occupation by some kind of insurgent activity. The term can apply to the field element of resistance movements, examples of which are the civilians who opposed Nazi German, Fascist Italian and Ustaše Croatian rule in several countries during World War II.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

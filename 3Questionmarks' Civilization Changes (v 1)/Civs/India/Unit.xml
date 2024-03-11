@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:44:58 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_INDIAN_WARELEPHANT"/>
+			<Set RangedCombat="13"/>
+		</Update>
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_INDIAN_WARELEPHANT</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_INDIAN_WARELEPHANT</UnitType>
+			<PromotionType>PROMOTION_FEARED_ELEPHANT</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_INDIAN_WAR_ELEPHANT"/>
+			<Set Text="An Indian heavy Ranged Unit, slower and more expensive than Chariot Archer which it replaces. This Unit has a higher [ICON_STRENGTH] Combat, lowers the combat strength of nearby units and moves faster on difficult terrain than Chariot Archer."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GAME_INFO_INDIAN_WAR_ELEPHANT"/>
+			<Set Text="An Indian heavy Ranged Unit, slower and more expensive than Chariot Archer which it replaces. This Unit has a higher [ICON_STRENGTH] Combat, lowers the combat strength of nearby units and moves faster on difficult terrain than Chariot Archer."/>
+		</Update>
+	</Language_en_US>
+</GameData>

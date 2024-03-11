@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2016 3:22:50 PM -->
+<GameData>
+	<Resources>
+		<Row>
+			<Type>RESOURCE_HARDWOOD</Type>
+			<TechReveal>TECH_LOGGING</TechReveal>
+			<TechCityTrade>TECH_LOGGING</TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_HARDWOOD</Description>
+			<Civilopedia>TXT_KEY_RESOURCE_HARDWOOD_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_HARDWOOD_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
+			<ResourceUsage>1</ResourceUsage>
+			<AITradeModifier>10</AITradeModifier>
+			<AIObjective>1</AIObjective>
+			<IconString>[ICON_RES_HARDWOOD]</IconString>
+			<IconAtlas>HardwoodMOD_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Resources>
+	<Improvement_ResourceTypes>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<ResourceType>RESOURCE_HARDWOOD</ResourceType>
+		</Row>
+	</Improvement_ResourceTypes>
+	<Resource_YieldChanges>
+		<Row>
+			<ResourceType>RESOURCE_HARDWOOD</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Resource_YieldChanges>
+
+	<Resource_FeatureBooleans>
+		<Row>
+			<ResourceType>RESOURCE_HARDWOOD</ResourceType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_HARDWOOD</ResourceType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>
+	</Resource_FeatureBooleans>
+</GameData>

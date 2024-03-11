@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2024 12:02:06 AM -->
+<GameData>
+	<Units>
+		<Set Combat="16" />
+		<Where Type="UNIT_IROQUOIAN_MOHAWKWARRIOR" />
+	</Units>
+  
+</GameData>

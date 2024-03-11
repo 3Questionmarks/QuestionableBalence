@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/28/2014 5:59:46 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DJSH_PERFUMERY</Type>
+			<DefaultBuilding>BUILDING_DJSH_PERFUMERY</DefaultBuilding>
+			<Description>Perfumery</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DJSH_PERFUMERY</Type>
+			<BuildingClass>BUILDINGCLASS_DJSH_PERFUMERY</BuildingClass>
+			<Cost>200</Cost>
+            <GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
+			<Description>Perfumery</Description>
+			<Civilopedia>Perfume is a mixture of fragrant essential oils or aroma compounds, fixatives and solvents used to give the human body, animals, food, objects, and living spaces "a pleasant scent." Perfumes have been known to exist in some of the earliest human civilizations, either through ancient texts or from archaeological digs. Modern perfumery began in the late 19th century with the commercial synthesis of aroma compounds such as vanillin or coumarin, which allowed for the composition of perfumes with smells previously unattainable solely from natural aromatics alone.</Civilopedia>
+			<Strategy>The Perfumery can only be constructed in a city with an improved perfume resource nearby. The Perfumery increases the [ICON_GOLD] Gold and [ICON_CULTURE] Culture output of each such resource the city has access to. Contains a Great Work of Art slot.</Strategy>
+			<Help>Each source of [ICON_RES_PERFUME] Perfume worked by this City produces +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture. Contains a Great Work of Art slot.[NEWLINE][NEWLINE]City must have at least one [ICON_RES_PERFUME] Perfume resource worked nearby.</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>RES_BUILDING_DJSH_ATLAS</IconAtlas>
+			<PortraitIndex>12</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DJSH_PERFUMERY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_PERFUMERY</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_DJSH_PERFUMERY</BuildingType>
+			<ResourceType>RESOURCE_PERFUME</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DJSH_PERFUMERY</BuildingType>
+			<ResourceType>RESOURCE_PERFUME</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_PERFUMERY</BuildingType>
+			<ResourceType>RESOURCE_PERFUME</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+</GameData>

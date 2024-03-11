@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 16:02:08 -->
+<GameData>
+
+	<!-- Propaganda (replaces Dictatorship of the Proletariat): Reduces Unhappiness from Ideology pressure by 50%. -->
+	<Policies>
+		<Update>
+			<Set Level="1" LessHappyTourismModifier="0" CityCountUnhappinessMod="-50" />
+			<Where Type="POLICY_DICTATORSHIP_PROLETARIAT" />
+		</Update>
+	</Policies>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP" />
+		<Row Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Dictatorship Proletariat[ENDCOLOR][NEWLINE] -50% [ICON_HAPPINESS_4] From Cities</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

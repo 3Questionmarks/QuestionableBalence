@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2021 1:37:41 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_SMOKEHOUSE</Type>
+			<DefaultBuilding>BUILDING_SMOKEHOUSE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SMOKEHOUSE</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_SMOKEHOUSE</Type>
+			<BuildingClass>BUILDINGCLASS_SMOKEHOUSE</BuildingClass>
+			<Cost>60</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_SMOKEHOUSE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SMOKEHOUSE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SMOKEHOUSE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_SMOKEHOUSE_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BAKERY_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_SMOKEHOUSE</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_SMOKEHOUSE">
+			<Text>Smokehouse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMOKEHOUSE_HELP">
+			<Text>+1 [ICON_FOOD] Food from [ICON_RES_COW] Cattle, [ICON_RES_DEER] Deer, [ICON_RES_FISH] Fish, [ICON_RES_SHEEP] Sheep, and [ICON_RES_WHALE] Whales.[NEWLINE][NEWLINE]City must have at least one of these resources improved nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMOKEHOUSE_PEDIA">
+			<Text>Prior to the widespread availability of mains electricity and freezers, meat was preserved by heavy salting. Hogs were slaughtered after the onset of cold weather, and hams and other pork products were salted and hung up or placed on a shelf to last into the following summer. Whether the meat should be smoked as well as salted is personal preference, frequently backed up with strong local or family prejudice.[NEWLINE][NEWLINE]A smokehouse is a building where meat or fish is cured with smoke. The finished product might be stored in the building, sometimes for a year or more.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMOKEHOUSE_STRATEGY">
+			<Text>The Smokehouse requires [ICON_RES_COW] Cattle, [ICON_RES_DEER] Deer, [ICON_RES_FISH] Fish, [ICON_RES_SHEEP] Sheep, or [ICON_RES_WHALE] Whales and is an early growth booster by increasing those resources' [ICON_FOOD] Food yields.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

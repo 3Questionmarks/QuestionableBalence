@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/5/2024 9:11:55 PM -->
+<GameData>
+	<!-- Centre Agriculture Tech-->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_AGRICULTURE"/>
+			<Set GridY="4"/>
+		</Update>
+	</Technologies>
+	<!-- Added Fishing Tech (Allows for building fishing boats earlier) -->
+	<Technologies>
+		<Row>
+			<Type>TECH_FISHING</Type>
+			<Cost>30</Cost>
+			<Description>TXT_KEY_TECH_FISHING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_FISHING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_FISHING_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>1</GridX>
+			<GridY>0</GridY>
+			<Quote>TXT_KEY_TECH_FISHING_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>FISHING_ICON</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+		</Row>
+		<!-- Moving Pottery to give a bit of space for Fishing -->
+		<Update>
+			<Where Type="TECH_POTTERY"/>
+			<Set GridY="2"/>
+		</Update>
+	</Technologies>
+	<!-- AI will actually want to choose Fishing -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_FISHING</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_FISHING</TechType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<!-- Removing redundent Flavors from Sailing -->
+		<Delete TechType="TECH_SAILING" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT"/>
+		<Delete TechType="TECH_SAILING" FlavorType="FLAVOR_GOLD"/>
+		<Delete TechType="TECH_SAILING" FlavorType="FLAVOR_HAPPINESS"/>
+		<Delete TechType="TECH_SAILING" FlavorType="FLAVOR_WONDER"/>
+		<Update>
+			<Where TechType="TECH_SAILING" FlavorType="FLAVOR_NAVAL"/>
+			<Set Flavor="8"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_SAILING" FlavorType="FLAVOR_NAVAL_RECON"/>
+			<Set Flavor="5"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_OPTICS" FlavorType="FLAVOR_SCIENCE"/>
+			<Set Flavor="3"/>
+		</Update>
+		<!-- Optics doens't have a wonder flavor for some reason even though great lighthouse -->
+		<Row>
+			<TechType>TECH_OPTICS</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Updating and setting Prereq Techs -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_FISHING</TechType>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+		</Row>
+		<Update>
+			<Where TechType="TECH_SAILING"/>
+			<Set PrereqTech="TECH_FISHING"/>
+		</Update>
+	</Technology_PrereqTechs>
+	<!-- Fish are improved at Fishing -->
+	<Resources>
+		<Update>
+			<Where Type="RESOURCE_FISH"/>
+			<Set TechCityTrade="TECH_FISHING"/>
+		</Update>
+	</Resources>
+	<!-- Language stuff done in "TechTextChanges" -->
+
+	<!-- Added Logging Tech (Allows for getting lumbermills earlier) -->
+	<Technologies>
+		<Row>
+			<Type>TECH_LOGGING</Type>
+			<Cost>50</Cost>
+			<Description>TXT_KEY_TECH_LOGGING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_LOGGING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_LOGGING_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GoodyTech>true</GoodyTech>
+			<GridX>2</GridX>
+			<GridY>7</GridY>
+			<Quote>TXT_KEY_TECH_LOGGING_QUOTE</Quote>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>HardwoodMOD_ICON_ATLAS</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to choose Logging -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_LOGGING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_LOGGING</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_LOGGING</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>FLAVOR_DEFENSE</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>FLAVOR_DEFENSE</TechType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Updating and setting Prereq Techs -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_LOGGING</TechType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CONSTRUCTION</TechType>
+			<PrereqTech>TECH_LOGGING</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	
+	<!-- Lumbermills are at Logging -->
+	<BuildFeatures>
+		<Update>
+			<Set PrereqTech="TECH_LOGGING" />
+			<Where BuildType="BUILD_LUMBERMILL" />
+		</Update>
+	</BuildFeatures>
+	<Builds>
+		<Update>
+			<Set PrereqTech="TECH_LOGGING" />
+			<Where Type="BUILD_LUMBERMILL" />
+		</Update>
+	</Builds>
+	
+	<!-- Moved Forest and Jungle Chop to Logging -->
+	<BuildFeatures>
+		<Update>
+			<Set PrereqTech="TECH_LOGGING" />
+			<Where BuildType="BUILD_REMOVE_JUNGLE" />
+		</Update>
+	</BuildFeatures>
+	<Builds>
+		<Update>
+			<Set PrereqTech="TECH_LOGGING" />
+			<Where Type="BUILD_REMOVE_FOREST" />
+		</Update>
+	</Builds>
+	<BuildFeatures>
+		<Update>
+			<Set PrereqTech="TECH_LOGGING" />
+			<Where BuildType="BUILD_REMOVE_FOREST" />
+		</Update>
+	</BuildFeatures>
+	<Builds>
+		<Update>
+			<Set PrereqTech="TECH_LOGGING" />
+			<Where Type="BUILD_REMOVE_JUNGLE" />
+		</Update>
+	</Builds>
+	<BuildFeatures>
+		<Update>
+			<Set PrereqTech="TECH_LOGGING" />
+			<Where PrereqTech="TECH_BRONZE_WORKING" />
+		</Update>
+		<Update>
+			<Set PrereqTech="TECH_LOGGING" />
+			<Where PrereqTech="TECH_MINING" />
+		</Update>
+	</BuildFeatures>
+	<!-- Language stuff done in "TechTextChanges" -->
+
+	<!-- Move Iron from Bronze Working to Mining -->
+	<Resources>
+		<Update>
+			<Set TechReveal="TECH_MINING" TechCityTrade="TECH_MINING" />
+			<Where Type="RESOURCE_IRON" />
+		</Update>
+	</Resources>
+
+	<!-- Slightly Cheeper Ancient Era Tech -->
+	<Technologies>
+		<Update>
+			<Set Cost="30" />
+			<Where Type="TECH_POTTERY" />
+		</Update>
+		<Update>
+			<Set Cost="30" />
+			<Where Type="TECH_ANIMAL_HUSBANDRY" />
+		</Update>
+		<Update>
+			<Set Cost="30" />
+			<Where Type="TECH_ARCHERY" />
+		</Update>
+		<Update>
+			<Set Cost="30" />
+			<Where Type="TECH_MINING" />
+		</Update>
+		<Update>
+			<Set Cost="50" />
+			<Where Type="TECH_SAILING" />
+		</Update>
+		<Update>
+			<Set Cost="50" />
+			<Where Type="TECH_CALENDAR" />
+		</Update>
+		<Update>
+			<Set Cost="50" />
+			<Where Type="TECH_WRITING" />
+		</Update>
+		<Update>
+			<Set Cost="50" />
+			<Where Type="TECH_TRAPPING" />
+		</Update>
+		<Update>
+			<Set Cost="50" />
+			<Where Type="TECH_THE_WHEEL" />
+		</Update>
+		<Update>
+			<Set Cost="50" />
+			<Where Type="TECH_MASONRY" />
+		</Update>
+		<Update>
+			<Set Cost="50" />
+			<Where Type="TECH_BRONZE_WORKING" />
+		</Update>
+	</Technologies>
+	
+  
+</GameData>

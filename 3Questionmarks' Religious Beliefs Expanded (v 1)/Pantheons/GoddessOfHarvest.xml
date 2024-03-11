@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/7/2017 2:12:31 PM -->
+<GameData>
+
+	<!-- +1 food and faith from farms -->
+	<Beliefs>
+		<Update>
+			<Set MinPopulation="1" HappinessPerCity="0" />
+			<Where Type="BELIEF_GODDESS_LOVE" />
+		</Update>
+	</Beliefs>
+    
+    <Belief_CityYieldChanges>
+		<Row>
+            <BeliefType>BELIEF_GODDESS_LOVE</BeliefType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>0</Yield>
+        </Row>
+	</Belief_CityYieldChanges>
+    <Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_GODDESS_LOVE</BeliefType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_GODDESS_LOVE</BeliefType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+        <Delete Tag="TXT_KEY_BELIEF_GODDESS_LOVE_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_GODDESS_LOVE_SHORT">
+			<Text>Goddess of Harvest</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_BELIEF_GODDESS_LOVE" />
+		<Row Tag="TXT_KEY_BELIEF_GODDESS_LOVE">
+			<Text>+1 [ICON_FOOD] Food and +1 [ICON_PEACE] Faith from Farms.</Text>
+		</Row>
+    </Language_en_US>
+</GameData>

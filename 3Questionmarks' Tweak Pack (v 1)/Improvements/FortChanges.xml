@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 3:30:10 PM -->
+<GameData>
+	<Builds>
+		<Update>
+			<Set Time="400" />
+			<Where Type="BUILD_FORT" />
+		</Update>
+	</Builds>
+	<BuildFeatures>
+		<Row>
+			<BuildType>BUILD_FORT</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>400</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FORT</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>200</Time>
+		</Row>
+		<Row>
+			<BuildType>BUILD_FORT</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>400</Time>
+		</Row>
+	</BuildFeatures>
+
+	<Language_en_US>
+		<Update>
+			<Set Text="A fort is a special improvement that improves the defensive bonus of a hex by 50%, and provides +1 XP per turn for units stationed on that hex when worked by a citizen. They do not provide a defensive bonus to units in enemy territory."/>
+			<Where Tag="TXT_KEY_CIV5_IMPROVEMENTS_FORT_TEXT"/>
+		</Update>
+		<Update>
+			<Set Text="A Citadel is a mighty fortification that can only be constructed by a Great General, usually near a city or on a particularly defensible piece of terrain. The Acropolis in Athens, Greece, is an example of an early powerful Citadel. Such structures were almost impossible to take by direct attack, and they were capable of withstanding protracted sieges before they fell. Any unit stationed within a Citadel receives a 100% defensive strength bonus and +3 XP per turn if the tile is worked. Additionally, any enemy unit which ends its turn next to a Citadel takes 30 damage (damage does not stack with other Citadels)."/>
+			<Where Tag="TXT_KEY_CIV5_IMPROVEMENTS_CITADEL_TEXT"/>
+		</Update>
+		<!--Update>
+			<Set Text="Allows Workers to construct [COLOR_POSITIVE_TEXT]Forts[ENDCOLOR] on map tiles, increasing the defense and experience of units stationed there. Additionally, bridges are automatically added to roads which cross rivers, allowing units to pass over them without slowing down."/>
+			<Where Tag="TXT_KEY_TECH_ENGINEERING_HELP"/>
+		</Update-->
+	</Language_en_US>
+</GameData>

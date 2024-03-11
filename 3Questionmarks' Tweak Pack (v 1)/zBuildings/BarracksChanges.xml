@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2024 4:25:45 PM -->
+<GameData>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_BARRACKS_HELP"/>
+		<Row Tag="TXT_KEY_BUILDING_BARRACKS_HELP">
+			<Text>+15 [ICON_WAR] XP for all Units.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

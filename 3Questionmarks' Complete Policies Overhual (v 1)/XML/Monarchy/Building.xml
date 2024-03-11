@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2021 3:05:47 AM -->
+<GameData>
+	<Table name="Building_CultureChangePerPop">
+		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
+		<Column name="Culture" type="integer"/>
+		<Column name="Pop" type="integer"/>
+	</Table>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_PUBLIC_BATHS</Type>
+			<DefaultBuilding>BUILDING_TCS_PUBLIC_BATHS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_PUBLIC_BATHS</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TCS_PUBLIC_BATHS</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_PUBLIC_BATHS</BuildingClass>
+			<Cost>110</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_PUBLIC_BATHS</Description>
+			<Help>TXT_KEY_BUILDING_TCS_PUBLIC_BATHS_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TCS_PUBLIC_BATHS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_CultureChangePerPop>
+		<Row>
+			<BuildingType>BUILDING_TCS_PUBLIC_BATHS</BuildingType>
+			<Culture>1</Culture>
+			<Pop>4</Pop>
+		</Row>
+	</Building_CultureChangePerPop>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_TCS_PUBLIC_BATHS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_TCS_PUBLIC_BATHS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_PUBLIC_BATHS</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TCS_PUBLIC_BATHS">
+			<Text>Public Baths</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TCS_PUBLIC_BATHS_HELP">
+			<Text>+1 [ICON_FOOD] Food. +10% [ICON_FOOD] Food. +1 [ICON_CULTURE] Culture for every 4 [ICON_CITIZEN] Citizens.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Monarchy[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+
+</GameData>

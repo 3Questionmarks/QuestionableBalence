@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2024 7:08:12 PM -->
+<GameData>
+	<!-- Allow Turtle Ships to move into deep ocean, but they only can move 2 tiles in ocean. Gives them +33% Defence that can pass on with upgrade -->
+	<Units>
+		<Update>
+			<Set Moves="2" Combat="40"/>
+			<Where Type="UNIT_KOREAN_TURTLE_SHIP" />
+		</Update>
+	</Units>
+	<!-- Giving a unique promotion to double movement in Coast Tiles -->
+	<Unit_FreePromotions>
+		<Delete>
+			<UnitType>UNIT_KOREAN_TURTLE_SHIP</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Delete>
+		<Row>
+			<UnitType>UNIT_KOREAN_TURTLE_SHIP</UnitType>
+			<PromotionType>PROMOTION_TURTLE_SHELL</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KOREAN_TURTLE_SHIP</UnitType>
+			<PromotionType>PROMOTION_COSTAL_MOVEMENT</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_KOREAN_TURTLE_SHIP</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KOREAN_TURTLE_SHIP</UnitType>
+			<ResourceType>RESOURCE_HARDWOOD</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_KOREA_TURTLESHIP_STRATEGY" />
+		<Row Tag="TXT_KEY_CIV5_KOREA_TURTLESHIP_STRATEGY">
+			<Text>The Turtle Ship is a Korean unique unit. This unit replaces the Caravel. The Turtle Ship has a more powerful attack than the Caravel, and is extremely difficult to destroy. It is however slower, especially in deep ocean.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_CIV5_KOREA_TURTLESHIP_HELP" />
+		<Row Tag="TXT_KEY_CIV5_KOREA_TURTLESHIP_HELP">
+			<Text>Heavily-armored naval unit of the Renaissance Era that is extremely difficult to kill. It is however slower, especially in deep ocean. Only Korea may build it. Replaces the Caravel.</Text>
+		</Row>
+	</Language_en_US>
+	
+  
+</GameData>

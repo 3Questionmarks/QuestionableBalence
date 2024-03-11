@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 5:29:05 PM -->
+<GameData>
+	<!-- Embassies allowed from game start. -->
+	<Technologies>
+		<Update>
+			<Set AllowEmbassyTradingAllowed="false" />
+			<Where Type="TECH_WRITING" />
+		</Update>
+		<Update>
+			<Set AllowEmbassyTradingAllowed="true" />
+			<Where Type="TECH_AGRICULTURE" />
+		</Update>
+	</Technologies>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_SUMMARY" />
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_SUMMARY">
+			<Text>Establishing an Embassy is one of the first diplomatic actions available after meeting another civilization. Embassies are necessary for trading Open Borders or making Defensive Pacts or Research Agreements, and once set up, will also show you the location of an opposing player's capital. If you have Writing and the other player does not, you can still establish an Embassy in their civilization without reciprocating, although they may ask for a small sum of gold as compensation. Going to war will immediately close down opposing embassies.</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Open Borders allowed from game start. -->
+	<Technologies>
+		<Update>
+			<Set OpenBordersTradingAllowed="false" />
+			<Where Type="TECH_CIVIL_SERVICE" />
+		</Update>
+		<Update>
+			<Set OpenBordersTradingAllowed="true" />
+			<Where Type="TECH_AGRICULTURE" />
+		</Update>
+	</Technologies>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_DIPLOMACY_OPENBORDERS_HEADING3_BODY" />
+		<Row Tag="TXT_KEY_DIPLOMACY_OPENBORDERS_HEADING3_BODY">
+			<Text>You can enter into an Open Borders agreement with any civ where you have established an Embassy. (City-States can't make Open Borders agreements.) While an Open Borders agreement is in effect, the other civ's units can enter your territory without automatically triggering war. If the agreement is mutual, either civ's units can enter the other's territory freely; however it doesn't have to be mutual: one civ can grant another Open Borders without automatically receiving it in return.[NEWLINE][NEWLINE]An Open Borders agreement lasts for 20 turns. When 20 turns have passed, the agreement must be renegotiated or it lapses.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

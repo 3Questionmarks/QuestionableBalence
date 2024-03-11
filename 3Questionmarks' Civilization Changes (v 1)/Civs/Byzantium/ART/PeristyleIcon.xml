@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>PERISTYLE_ICON</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ART/PeristyleIcon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>PERISTYLE_ICON</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ART/PeristyleIcon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>PERISTYLE_ICON</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ART/PeristyleIcon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>PERISTYLE_ICON</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ART/PeristyleIcon45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

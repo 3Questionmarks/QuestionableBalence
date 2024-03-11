@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<!-- Create a new, invisible feature that can accept all these building bonuses. Lua will apply it to all mountains. -->
+	<Features>
+		<Row>
+			<Type>FEATURE_MOUNTAIN_YIELD</Type>
+			<Description>Mountain</Description>
+			<Civilopedia>Mountains are yieldless tiles until improved by varius buildings and wonders.</Civilopedia>
+			<ArtDefineTag>NULL</ArtDefineTag>
+			<Movement>2</Movement>
+			<Impassable>false</Impassable>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>NW_ATLAS</IconAtlas>
+            <YieldNotAdditive>true</YieldNotAdditive>
+		</Row>
+	</Features>
+</GameData>

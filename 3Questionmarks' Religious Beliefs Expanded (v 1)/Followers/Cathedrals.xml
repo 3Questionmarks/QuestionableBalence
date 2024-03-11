@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- May use Faith to purchase Cathedrals (+1 Faith / +1 Culture, 1 Great Work of Art slot, +50% Tourism from Great Works) -->
+	<Buildings>
+		<Update>
+			<Set ConquestProb="66" FaithCost="225" Happiness="0" GreatWorksTourismModifier="50" Help="TXT_KEY_BUILDING_CATHDEDRAL_HELP" />
+			<Where Type="BUILDING_CATHEDRAL" />
+		</Update>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Update>
+			<Set Yield="2" />
+			<Where BuildingType="BUILDING_CATHEDRAL" YieldType="YIELD_CULTURE" />
+		</Update>
+		<Update>
+			<Set Yield="3" />
+			<Where BuildingType="BUILDING_CATHEDRAL" YieldType="YIELD_FAITH" />
+		</Update>
+	</Building_YieldChanges>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<!-- Cotton -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Furs -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Dyes -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Copper -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Marble -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Spices -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Ivory -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Incense -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Gold -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Pearls -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Sugar -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Silk -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Wine -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Silver -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Truffles -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Crab -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Salt -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Whales -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Citrus -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Cocoa -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Gems -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Coffee -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Tea -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_TEA</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Tobacco -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Amber -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- JADE -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Ollive -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_OLIVE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Perfume -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_PERFUME</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Coral -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_CORAL</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Lapis -->
+			<BuildingType>BUILDING_CATHEDRAL</BuildingType>
+			<ResourceType>RESOURCE_LAPIS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_CATHEDRALS" />
+		<Row Tag="TXT_KEY_BELIEF_CATHEDRALS">
+			<Text>Use [ICON_PEACE] Faith to purchase Cathedrals (+2 [ICON_CULTURE] Culture, +3 [ICON_PEACE] Faith, 1 Great Work of Art slot, +50% [ICON_TOURISM] Tourism from Great Works, and +1 [ICON_CULTURE] Culture from Luxuries).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CATHDEDRAL_HELP">
+			<Text>+50% [ICON_TOURISM] Tourism output from Great Works. +1 [ICON_CULTURE] Culture from Luxuries.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2024 1:37:11 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_FORBIDDEN_PALACE" />
+			<Set>
+				<PolicyBranchType>POLICY_BRANCH_EXPLORATION</PolicyBranchType>
+			</Set>
+		</Update>
+	</Buildings>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP" />
+		<Row Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP">
+			<Text>Grants 2 additional Delegates in the World Congress. -10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

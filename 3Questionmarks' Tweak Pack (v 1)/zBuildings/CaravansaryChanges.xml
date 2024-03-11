@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/11/2014 9:07:46 PM -->
+<GameData>
+	<BuildingClasses>
+		<Replace>
+			<Type>BUILDINGCLASS_CARAVANSARY</Type>
+			<DefaultBuilding>BUILDING_CARAVANSARY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CARAVANSARY</Description>
+		</Replace>
+	</BuildingClasses>
+	<Buildings>
+		<Replace>
+			<Type>BUILDING_CARAVANSARY</Type>
+			<BuildingClass>BUILDINGCLASS_CARAVANSARY</BuildingClass>
+			<Cost>150</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_CARAVANSARY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_CARAVANSARY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CARAVANSARY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_CARAVANSARY_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_CARAVANSARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<ArtInfoEraVariation>true</ArtInfoEraVariation>
+			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
+			<CityConnectionTradeRouteModifier>10</CityConnectionTradeRouteModifier>
+			<AllowsFoodTradeRoutes>TRUE</AllowsFoodTradeRoutes>
+			<AllowsProductionTradeRoutes>TRUE</AllowsProductionTradeRoutes>
+			<IconAtlas>EXPANSION2_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+		</Replace>
+		<Update>
+			<Where Type="BUILDING_GRANARY"/>
+			<Set AllowsFoodTradeRoutes="FALSE"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_WORKSHOP"/>
+			<Set AllowsProductionTradeRoutes="FALSE"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_JFD_POGOST"/>
+			<Set AllowsFoodTradeRoutes="TRUE"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_JFD_POGOST"/>
+			<Set AllowsProductionTradeRoutes="TRUE"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_JFD_CLOTH_HALLT"/>
+			<Set AllowsFoodTradeRoutes="TRUE"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_JFD_CLOTH_HALL"/>
+			<Set AllowsProductionTradeRoutes="TRUE"/>
+		</Update>
+        <Update>
+			<Where Type="BUILDING_JFD_STOREHOUSE"/>
+			<Set AllowsProductionTradeRoutes="TRUE"/>
+		</Update>
+	</Buildings>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_CARAVANSARY_HELP"/>
+			<Set>
+				<Text>+10% [ICON_GOLD] Gold from City Connections. +1 [ICON_GOLD] Gold from [ICON_RES_SALT] Salt.[NEWLINE][NEWLINE]Land trade routes originating from this city have a 50% increase in range.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food and [ICON_PRODUCTION] Production to be moved from this city along trade routes inside your civilization.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_CARAVANSARY_STRATEGY"/>
+			<Set>
+				<Text>The Caravansary is a Classical-era building. It improves the range of land trade routes and increases revenue from City Connections and Salt.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>	
+</GameData>

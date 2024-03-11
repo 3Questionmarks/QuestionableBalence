@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="86556be8-3557-4973-b2de-d7d8054ab211" version="1">
+  <Properties>
+    <Name>DMS' Civilizations - Ireland (Daniel O'Connell)</Name>
+    <Teaser>This adds [COLOR_POSITIVE_TEXT]The Republic of Ireland[ENDCOLOR] led by Daniel O'Connell to the game.</Teaser>
+    <Description>See more on civfanatics.com</Description>
+    <Authors>TranquilSilence, DMS, Urdnot, Darth</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A469927E0BE106B9740B8C8E726C5423" import="1">Art/Graphics/sv_u_devils_own.dds</File>
+    <File md5="EB84AC7BEDFA6E08C6EC50DBBDABD0D9" import="1">Art/IconAtlases/DMS_IrelandAlphaAtlas_128.dds</File>
+    <File md5="8D40F1C332BEA14E77E0116402CBFA79" import="1">Art/IconAtlases/DMS_IrelandAlphaAtlas_16.dds</File>
+    <File md5="4F53A07FB6750678DC2B8201447C9F25" import="1">Art/IconAtlases/DMS_IrelandAlphaAtlas_24.dds</File>
+    <File md5="6D5E14991A4131313A5C8EF78F372DDD" import="1">Art/IconAtlases/DMS_IrelandAlphaAtlas_32.dds</File>
+    <File md5="FD988BEEB50CE99BD959671DF83F8BD1" import="1">Art/IconAtlases/DMS_IrelandAlphaAtlas_45.dds</File>
+    <File md5="2EDE329E653D83517E64C7F29FD58AC5" import="1">Art/IconAtlases/DMS_IrelandAlphaAtlas_48.dds</File>
+    <File md5="7AD49F0A67F5F463A6234CE99BCD58DF" import="1">Art/IconAtlases/DMS_IrelandAlphaAtlas_64.dds</File>
+    <File md5="AD2860B6721E591A8C796787DC2A518D" import="1">Art/IconAtlases/DMS_IrelandAlphaAtlas_80.dds</File>
+    <File md5="AA3AF659C68C164876E4A2A32B7F4BCC" import="1">Art/IconAtlases/DMS_IrelandAtlas_128.dds</File>
+    <File md5="8DEFA931F931433D3FF935AF6E574433" import="1">Art/IconAtlases/DMS_IrelandAtlas_256.dds</File>
+    <File md5="900CFA2B2B0BBF93C01414CB51E74EE5" import="1">Art/IconAtlases/DMS_IrelandAtlas_32.dds</File>
+    <File md5="236DE92C58AAA96BF353C492D46EE5A3" import="1">Art/IconAtlases/DMS_IrelandAtlas_45.dds</File>
+    <File md5="449B2550C55D9B27AB0C3549244F3C39" import="1">Art/IconAtlases/DMS_IrelandAtlas_64.dds</File>
+    <File md5="5B5AF2E6FCAFDCFAA09764E8ADA3CF4C" import="1">Art/IconAtlases/DMS_IrelandAtlas_80.dds</File>
+    <File md5="5CB935D23C6425B3BE368109B6D8571A" import="1">Art/IconAtlases/UnitFlag_Devils_Own_32.dds</File>
+    <File md5="B52B613D9F119836C98A4856BBDE2716" import="1">Art/Leaderscene/DMS_DanielOConnell_Scene.dds</File>
+    <File md5="967329CD1E904B1662868A79A396065E" import="1">Art/Leaderscene/DMS_DanielOConnell_Scene.xml</File>
+    <File md5="1186C221FC4C6093729CD568E47AD695" import="1">Art/Map/IrelandOConnellMap512.dds</File>
+    <File md5="BA7F3368A0572A9F25EB3343F96509B6" import="1">Art/Map/DanielOConnell_DOM.dds</File>
+    <File md5="A4DBC1508BC2080AF699A885F14AAC1E" import="1">Audio/DanielOConnell_Peace.mp3</File>
+    <File md5="4854A425E6087003F46E5BA355EC2E62" import="1">Audio/DanielOConnell_War.mp3</File>
+    <File md5="8363D761E4D66972314A5726A08945AE" import="0">Core/DMS_Ireland_OConnell_ArtDefines.sql</File>
+    <File md5="9D24DE9B41A6DB77C6AF2CA003EFFD14" import="0">Core/DMS_Ireland_OConnell_GameDefines.sql</File>
+    <File md5="0667277A32D7A856904A5A5AB4C827C8" import="0">Core/DMS_Ireland_OConnell_GameDefines_Diplomacy.sql</File>
+    <File md5="9876BAF229610176CB70234BFB92D76F" import="0">Core/DMS_Ireland_OConnell_GameDefines_ModSupport.sql</File>
+    <File md5="395AF148B72AAE620A42D748F0BC6DAF" import="0">Core/DMS_Ireland_OConnell_GameText.xml</File>
+    <File md5="609C0DCFA7C966182F803F065240B75A" import="0">Core/DMS_Ireland_OConnell_GameText_Diplomacy.xml</File>
+    <File md5="09D0D827FEBA43AB4AE9F0AC0B6FD7D6" import="0">Core/DMS_Ireland_OConnell_GameText_ModSupport.xml</File>
+    <File md5="8B845507B5925AFAD3E822BD0B154E3D" import="0">DMS_Ireland_OConnell_credits.txt</File>
+    <File md5="60B267AD66F35B5260B0EAE3DB835AB0" import="0">DMS_Ireland_OConnell_ISF_UserSettings.sql</File>
+    <File md5="0C9A190704944B128EB9F08315544372" import="1">Lua/DMS_Ireland_OConnell_Decisions.lua</File>
+    <File md5="75C95F412E9C314A5C931700A541C95C" import="0">Lua/DMS_Ireland_OConnell_Functions.lua</File>
+    <File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/Utilities/PlotIterators.lua</File>
+    <File md5="86C1C3EDCE4699DE320A932C4E70E22C" import="0">Lua/Utilities/Sukritact's MCIS/CityInfoStack.lua</File>
+    <File md5="120EB71025973A8A48B38314241DD0B3" import="0">Lua/Utilities/Sukritact's MCIS/CityInfoStack.xml</File>
+    <File md5="511A618D09D125A91C5B39E0BFD37BBC" import="0">Lua/Utilities/Sukritact's MCIS/DMS_Ireland_OConnell_UA_CityInfo.lua</File>
+    <File md5="0E5EC42A8DDF05027627C3573348979E" import="0">Lua/Utilities/Sukritact's MCIS/DMS_Ireland_OConnell_UA_CityInfo.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/DMS_Ireland_OConnell_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Ireland_OConnell_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Ireland_OConnell_GameDefines_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Ireland_OConnell_GameDefines_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Ireland_OConnell_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Ireland_OConnell_GameText_Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>Core/DMS_Ireland_OConnell_GameText_ModSupport.xml</UpdateDatabase>
+      <UpdateDatabase>DMS_Ireland_OConnell_ISF_UserSettings.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/DMS_Ireland_OConnell_Functions.lua">
+      <Name>DMS_Ireland_OConnell_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Utilities/Sukritact's MCIS/CityInfoStack.lua">
+      <Name>CityInfoStack</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Utilities/Sukritact's MCIS/DMS_Ireland_OConnell_UA_CityInfo.lua">
+      <Name>DMS_Ireland_OConnell_UA_CityInfo</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

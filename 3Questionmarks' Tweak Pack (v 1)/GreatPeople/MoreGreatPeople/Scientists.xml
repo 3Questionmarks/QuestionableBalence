@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/28/2024 4:58:14 PM -->
+<GameData>
+	<!-- Fredrick Banting -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_FREDERICK_BANTING</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FREDERICK_BANTING">
+			<Text>Frederick Banting</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Stephen Hawking -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_STEPHEN_HAWKING</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_STEPHEN_HAWKING">
+			<Text>Stephen Hawking</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Pythagoras -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PYTHAGORAS</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PYTHAGORAS">
+			<Text>Pythagoras</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Alexander Fleming -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ALEXANDER_FLEMING</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALEXANDER_FLEMING">
+			<Text>Alexander Fleming</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Otto Hahn -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_OTTO_HAHN</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_OTTO_HAHN">
+			<Text>Otto Hahn</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Paul Dirac -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PAUL_DIRAC</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PAUL_DIRAC">
+			<Text>Paul Dirac</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Alfred Russel Wallace -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ALFRED_RUSSEL_WALLACE</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALFRED_RUSSEL_WALLACE">
+			<Text>Alfred Russel Wallace</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

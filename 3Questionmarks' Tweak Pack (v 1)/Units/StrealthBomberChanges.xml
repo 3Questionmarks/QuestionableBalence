@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:19:40 PM -->
+<GameData>
+	<!-- Stealth Bommbers dont get air recon and are alloud on carriers-->
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_STEALTH_BOMBER" />
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Units>
+		<Update>
+			<Set Cost="1000" Special="SPECIALUNIT_FIGHTER"/>
+			<Where Class="UNITCLASS_STEALTH_BOMBER"/>
+		</Update>
+	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_STEALTH_BOMBER_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_STEALTH_BOMBER_STRATEGY">
+			<Text>The Stealth Bomber is an upgraded bomber, possessing increased range, a greater Ranged Combat Strength, and an increased ability to avoid enemy anti-aircraft and fighters. See the rules on Aircraft for more information.</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

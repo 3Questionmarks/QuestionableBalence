@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 2:05:07 PM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set WonderProductionModifier="30" />
+			<Where Type="TRAIT_WONDER_BUILDER" />
+		</Update>
+		<Update>
+			<Set FreeUnit="UNITCLASS_ENGINEER"
+				 FreeUnitPrereqTech="TECH_CONSTRUCTION"/>
+			<Where Type="TRAIT_WONDER_BUILDER" />
+		</Update>
+	</Traits>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_WONDER_BUILDER</TraitType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WONDER_BUILDER</TraitType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_WONDER_BUILDER" />
+			<Set Text="+30% [ICON_PRODUCTION] Production towards Wonder construction. Free Great Engineer at Construction. +3 [ICON_CULTURE] Culture and [ICON_GOLD] Gold from Landmarks."/>
+		</Update>
+	</Language_en_US>
+</GameData>

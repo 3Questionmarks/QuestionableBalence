@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 3:57:19 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_KREMLIN" />
+			<Set Cost="1400" HappinessPerCity="3" GlobalGreatPeopleRateModifier="10" />
+		</Update>
+	</Buildings>
+	
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_KREMLIN_HELP" />
+			<Set Text="+50% [ICON_PRODUCTION] Production when building Armor Units.[NEWLINE]+3 [ICON_HAPPINESS_1] Happiness per City and [ICON_GREAT_PEOPLE] Great People are earned 10% faster in all cities. 1 Free Social Policy.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Order[END_COLOR]."/>
+		</Update>
+	</Language_en_US>
+</GameData>

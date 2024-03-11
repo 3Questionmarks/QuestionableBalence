@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/6/2021 4:31:15 AM -->
+<GameData>
+	<!-- Subs require oil -->
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SUBMARINE</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Units>
+		<Update>
+			<Set Cost="500" ObsoleteTech="NULL" />
+			<Where Class="UNITCLASS_SUBMARINE" />
+		</Update>
+	</Units>
+</GameData>

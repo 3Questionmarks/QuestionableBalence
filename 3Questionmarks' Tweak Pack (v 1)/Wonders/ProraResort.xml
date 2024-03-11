@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:00:29 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_PRORA_RESORT" />
+			<Set Cost="1400" Water="0" MilitaryProductionModifier="15" />
+		</Update>
+	</Buildings>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_PRORA_RESORT_HELP" />
+			<Set Text="+1 [ICON_HAPPINESS_1] Happiness for every 2 Policies you have adopted. +15% [ICON_PRODUCTION] Production when building Units. 1 Free Social Policy.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Autocracy[END_COLOR]."/>
+		</Update>
+	</Language_en_US>
+</GameData>

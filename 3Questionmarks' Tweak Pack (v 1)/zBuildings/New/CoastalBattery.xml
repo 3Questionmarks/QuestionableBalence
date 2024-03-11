@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2021 2:30:40 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_COASTAL_BATTERY</Type>
+			<DefaultBuilding>BUILDING_COASTAL_BATTERY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_COASTAL_BATTERY</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_COASTAL_BATTERY</Type>
+			<BuildingClass>BUILDINGCLASS_COASTAL_BATTERY</BuildingClass>
+			<Cost>400</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Water>TRUE</Water>
+			<PrereqTech>TECH_DYNAMITE</PrereqTech>
+			<Description>TXT_KEY_BUILDING_COASTAL_BATTERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_COASTAL_BATTERY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_COASTAL_BATTERY_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>800</Defense>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
+			<NeverCapture>TRUE</NeverCapture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>INDUSTRIAL_ICONATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_COASTAL_BATTERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_COASTAL_BATTERY</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COASTAL_BATTERY</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_COASTAL_BATTERY">
+			<Text>Coastal Battery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COASTAL_BATTERY_HELP">
+			<Text>City must have an Arsenal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COASTAL_BATTERY_PEDIA">
+			<Text>From the Middle Ages until World War II, coastal artillery and naval artillery in the form of cannon were highly important to military affairs and generally represented the areas of highest technology and capital cost among materiel. It was long held as a general rule of thumb that one shore-based gun equaled three naval guns of the same caliber, due to the steadiness of the coastal gun which allowed for significantly higher accuracy than their sea-mounted counterparts.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

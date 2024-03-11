@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 11:00:25 AM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_CHINESE_CHUKONU"/>
+			<Set RangedCombat="16"/>
+		</Update>
+	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_CHINESE_CHUKONU</UnitType>
+			<ResourceType>RESOURCE_HARDWOOD</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+</GameData>

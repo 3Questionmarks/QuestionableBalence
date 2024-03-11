@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/10/2020 3:51:19 AM -->
+<GameData>
+	
+	<Building_YieldChangesPerPop>
+		<Update>
+			<Set Yield="33" />
+			<Where BuildingType="BUILDING_LIBRARY" />
+		</Update>
+		<Update>
+			<Set Yield="33" />
+			<Where BuildingType="BUILDING_ROYAL_LIBRARY" />
+		</Update>
+	</Building_YieldChangesPerPop>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_LIBRARY_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_LIBRARY_HELP">
+			<Text>+1 [ICON_RESEARCH] Science for every 3 [ICON_CITIZEN] Citizens in this City.</Text>
+		</Row>
+    </Language_en_US>
+        
+    <Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_ROYAL_LIBRARY_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_ROYAL_LIBRARY_HELP">
+			<Text>Unique Assyrian Library replacement. +1 [ICON_RESEARCH] Science for every 3 [ICON_CITIZEN] Citizens in this City. Also has a slot for a Great Work of Writing which, when filled, gives extra XP to trained Units.</Text>
+		</Row>	
+	</Language_en_US>
+
+</GameData>

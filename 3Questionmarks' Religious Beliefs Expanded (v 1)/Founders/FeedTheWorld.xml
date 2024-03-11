@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+	<Beliefs>
+		<Update>
+			<Where Type="BELIEF_FEED_WORLD" />
+			<Set MinPopulation="0" Follower="false" Founder="true" />
+		</Update>
+	</Beliefs>
+	<Belief_BuildingClassYieldChanges>
+		<Delete BeliefType="BELIEF_FEED_WORLD" />
+	</Belief_BuildingClassYieldChanges>
+	<Belief_MaxYieldModifierPerFollower>
+		<Row>
+			<BeliefType>BELIEF_FEED_WORLD</BeliefType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Max>15</Max>
+		</Row>
+	</Belief_MaxYieldModifierPerFollower>
+	
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_FEED_WORLD" />
+			<Set Text="+1% [ICON_FOOD] Food for each follower (max +15%)." />
+		</Update>
+	</Language_en_US>
+
+</GameData>

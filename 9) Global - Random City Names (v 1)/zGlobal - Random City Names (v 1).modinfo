@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="25e8f58d-66f0-4923-9d6e-8ba4a27a6a35" version="1">
+  <Properties>
+    <Name>zGlobal - Random City Names</Name>
+    <Teaser>Randomises city names (doesn't affect the capital)</Teaser>
+    <Description>After the capital is founded, subsequent cities are named randomly from the list of available names.
+
+Will only work with custom civilizations if this mod loads AFTER the mod(s) adding those civilizations.</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="59B185F4F8EACE77E254F75285078C9A" import="0">SQL/GlobalRandomCityNames.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/GlobalRandomCityNames.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

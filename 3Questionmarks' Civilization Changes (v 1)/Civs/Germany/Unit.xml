@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2024 10:34:46 PM -->
+<GameData>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_GERMAN_PANZER</UnitType>
+			<PromotionType>PROMOTION_EXTRA_MOVES_I</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Units>
+		<Update>
+			<Where Type="UNIT_GERMAN_PANZER"/>
+			<Set Moves="5"/>
+		</Update>
+	</Units>
+</GameData>

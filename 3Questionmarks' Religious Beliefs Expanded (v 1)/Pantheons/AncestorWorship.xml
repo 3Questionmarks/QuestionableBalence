@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
+<GameData>
+
+	<!-- +2 Faith/Culture/Happiness from Shrines, Temples, Monuments and Amphitheaters -->
+
+	<Belief_BuildingClassYieldChanges>
+        <!-- Shrines -->
+        <Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+        <!-- Temples -->
+        <Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+        <!-- Monumnets -->
+        <Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+        <!-- Amphitheater -->
+        <Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+    <Belief_BuildingClassHappiness>
+        <!-- Shrines -->
+		<Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+        <!-- Temples -->
+		<Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+        <!-- Monumnets -->
+		<Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+        <!-- Amphitheater -->
+        <Row>
+			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+	</Belief_BuildingClassHappiness>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP" />
+		<Row Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP">
+			<Text>+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, and +2 [ICON_HAPPINESS_1] Happiness from Shrines, Temples, Monuments and Amphitheaters.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

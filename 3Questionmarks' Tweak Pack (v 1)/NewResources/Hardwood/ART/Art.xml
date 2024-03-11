@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2016 10:40:04 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>HardwoodMOD_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>HardwoodmodIconAtlas256.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>HardwoodMOD_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>HardwoodmodIconAtlas128.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>HardwoodMOD_ICON_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>HardwoodmodIconAtlas80.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>HardwoodMOD_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>HardwoodmodIconAtlas64.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>HardwoodMOD_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>HardwoodmodIconAtlas45.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<IconFontTextures>
+		<Row>
+			<IconFontTexture>ICON_FONT_TEXTURE_HARDWOOD</IconFontTexture>
+			<IconFontTextureFile>hardwood-fonticons</IconFontTextureFile>
+		</Row>
+	</IconFontTextures>
+
+	<IconFontMapping>
+		<Row>
+			<IconName>ICON_RES_HARDWOOD</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_HARDWOOD</IconFontTexture>
+			<IconMapping>1</IconMapping>
+		</Row>
+	</IconFontMapping>
+<!--
+	<ArtDefine_UnitInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_LUMBER_YARD_UNIT</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>NULL</Formation>
+		</Row>
+	</ArtDefine_UnitInfos>-->
+</GameData>

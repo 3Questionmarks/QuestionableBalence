@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_BENIN_DUMMY_BUILDING_DEFENSE</Type>
+			<DefaultBuilding>BUILDING_BENIN_DUMMY_BUILDING_DEFENSE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BENIN_DUMMY_BUILDING_BRONZES_DESC</Description>
+		</Row>
+	</BuildingClasses>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BENIN_DUMMY_BUILDING_DEFENSE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BENIN_DUMMY_BUILDING_DEFENSE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+</GameData>

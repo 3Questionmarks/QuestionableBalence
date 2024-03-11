@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:01:28 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_STATUE_OF_LIBERTY" />
+			<Set Cost="1400" />
+		</Update>
+	</Buildings>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP" />
+			<Set Text="+3 to the respective yeilds from specialists in every city. 1 Free Social Policy.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Freedom[END_COLOR]."/>
+		</Update>
+	</Language_en_US>
+	<Building_SpecialistYieldChanges>
+		<Delete BuildingType="BUILDING_STATUE_OF_LIBERTY" />
+		<Set>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Set>
+		<Set>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Set>
+		<Set>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Set>
+		<Set>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Set>
+		<Set>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Set>
+		<Set>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Set>
+	</Building_SpecialistYieldChanges>
+</GameData>

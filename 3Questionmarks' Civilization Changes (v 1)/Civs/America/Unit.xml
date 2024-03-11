@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/22/2017 9:40:14 PM -->
+<GameData>
+
+	<Civilization_UnitClassOverrides>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+			<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Units>
+		<Update>
+			<Where Type="UNIT_AMERICAN_MINUTEMAN"/>
+			<Set Combat="27" Cost="135"/>
+		</Update>
+	</Units>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_MINUTEMAN"></Where>
+			<Set Text="One of the first gunpowder units of the game. Only the Americans may build it. Replaces the Musketman. This Unit has increased strength, lower production cost, may move through rough ground as though it were flat, receives a bonus when fighting in rough terrain, and earns points toward a [ICON_GOLDEN_AGE] Golden Age when it defeats an enemy."/>
+		</Update>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/28/2014 6:02:58 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DJSH_GILDER</Type>
+			<DefaultBuilding>BUILDING_DJSH_GILDER</DefaultBuilding>
+			<Description>Gilder</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DJSH_GILDER</Type>
+			<BuildingClass>BUILDINGCLASS_DJSH_GILDER</BuildingClass>
+			<Cost>160</Cost>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Description>Gilder</Description>
+			<Civilopedia>The term gilding covers a number of decorative techniques for applying fine gold leaf or powder to solid surfaces such as wood, stone, or metal to give a thin coating of gold. A gilded object is described as "gilt". Where metal is gilded, it was traditionally silver in the West, to make silver-gilt objects, but gilt-bronze is commonly used in China, and also called ormolu if it is Western.</Civilopedia>
+			<Strategy>Requires a Mint in this City. Increases the City's [ICON_CULTURE] Cultural output and allows for faster Great Artist generation by filling the Artist Specialist slot!</Strategy>
+			<Help>Each source of [ICON_RES_GOLD] Gold worked by this city produces +1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have a Mint.</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>RES_BUILDING_DJSH_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DJSH_GILDER</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DJSH_GILDER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+    <Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DJSH_GILDER</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_DJSH_GILDER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+</GameData>

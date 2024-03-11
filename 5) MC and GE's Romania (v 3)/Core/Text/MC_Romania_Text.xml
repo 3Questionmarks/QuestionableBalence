@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Pouakai -->
+<GameData>
+	<Language_en_US>
+		<!--Unique Unit-->
+		<Row Tag="TXT_KEY_UNIT_MC_ROMANIAN_VINATOR">
+			<Text>Vanator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_ROMANIAN_VINATOR_HELP">
+			<Text>Unique Romanian Gatling Gun. Ignores terrain cost and has a [ICON_STRENGTH] Combat boost when next to a river.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_ROMANIAN_VINATOR_STRATEGY">
+			<Text>Perfect for late-game combat, the Vanator is good at keeping Romania defended from outside foes. A master of terrain, the unit is stronger around rivers, which is deadly coupled with no movement cost for rough terrain. This makes the Vanator much more deadly than the Gatling Gun, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MC_ROMANIAN_VINATOR_PEDIA">
+			<Text>During the Russo-Turkish War, Romania was caught in the middle of these two superpowers, desperate to declare its independence. An ally of Russia, Romania was able to supply troops to fight for their side, and played a significant role in getting the Ottomans out of the Balkans. In general, the Romanian divisions tended to fight around the Danube River, protecting the Romanian heartland. They would often fight with Russian or Bulgarian troops, and their victories are immortalised in art to this day, in places such as Grivita and Plevna.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_LUPATOR_DUNARII">
+			<Text>Lupator Dunarii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MC_LUPATOR_DUNARII_HELP">
+			<Text>Gains a [ICON_STRENGTH] Combat Bonus around rivers.</Text>
+		</Row>
+		<!--Unique Building-->
+		<Row Tag="TXT_KEY_BUILDING_MC_ROMANIAN_PAINTED_MONASTERY">
+			<Text>Painted Monastery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_ROMANIAN_PAINTED_MONASTERY_HELP">
+			<Text>Replaces Garden. Has a Great Work of Art slot, and generates [ICON_PEACE] Faith. May be built in cities next to either a source of fresh water or a mountain (or both), and only Romania may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_ROMANIAN_PAINTED_MONASTERY_STRATEGY">
+			<Text>The Painted Monastery is very useful for keeping artwork while there may be a lack of slots, making it very useful for Romania to get a head start in culture. Also, the Faith bonus not only helps with religion and faith purchasing, but it ties in with Romania's unique ability, indirectly making the building generate a small amount of Culture as well. Additionally, the Painted Monastery is less restricted than the Garden, as it may also be constructed in cities adjacent to mountains as well as those adjacent to a source of Fresh Water.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MC_ROMANIAN_PAINTED_MONASTERY_PEDIA">
+			<Text>Throughout Romania, centuries-old monasteries with intricate paintwork used as decoration are not uncommon. Designed as a blend of Romanian culture and Christianity, these churches are not only places of worship, but symbols of Romania and icons of its beauty. One of the most famous is Voronet Monastery, visited by tourists worldwide due to its bright, intense frescoes and gothic design.</Text>
+		</Row>
+		<!--Unique Ability-->
+		<Row Tag="TXT_KEY_TRAIT_MC_NIHIL_SINE_DEO_SHORT">
+			<Text>Nihil Sine Deo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_MC_NIHIL_SINE_DEO">
+			<Text>Gain +2 [ICON_CULTURE] Culture from buildings that generate [ICON_PEACE] Faith. [ICON_CULTURE] Culture is increased in cities by 10% for every Declaration of Friendship for you and your friend.</Text>
+		</Row>
+		<!--City State Changes-->
+		<Row Tag="TXT_KEY_CITYSTATE_MC_SUCEAVA">
+			<Text>Suceava</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MC_SUCEAVA_ADJ">
+			<Text>Suceava</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MC_SUCEAVA_PEDIA">
+			<Text>Though Suceava is just a regional city in north-eastern Romania in the present day, historically the city has reached great importance and was the capital of Moldavaia for almost two centuries. For nearly 200 years the city of Suceava was the capital of the Principality of Moldavia and the main residence of the Moldavian princes (between 1388 and 1565). The city was the capital of the lands of Stephen the Great, one of the pivotal figures in Romanian history, who died in Suceava in 1504. During the rule of Alexandru Lăpuşneanu, the seat was moved to Iaşi in 1565 and Suceava failed to become the capital again. Michael the Brave captured the city in 1600 during the Moldavian Magnate Wars as he became the ruler of Wallachia, Moldavia and Transylvania, but he was defeated the same year. Together with the rest of Bukovina, Suceava was under the rule of the Habsburg Monarchy (later Austria-Hungary) from 1775 to 1918; the border of Habsburg domains passed just south-east of the city. At the end of World War I, it became part of Greater Romania.</Text>
+		</Row>
+		<!--Denonyms-->
+		<Row Tag="TXT_KEY_MC_ROMANIA">
+			<Text>Romania</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MC_ROMANIA_DESC">
+			<Text>Romanian Empire</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_MC_ROMANIA_SHORT_DESC">
+			<Text>Romania</Text>
+		</Row>-->
+		<Row Tag="TXT_KEY_MC_ROMANIA_ADJECTIVE">
+			<Text>Romanian</Text>
+		</Row>
+		<!-- DOM Text-->
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_MC_ROMANIA_TEXT">
+			<Text>God stand by you, oh benevolent King Carol I, wise and pious leader of the proud Romanian people. During your rule, you were able to create alliances to ensure that the reborn kingdom would never fall to the foreign domination of the Ottomans again, who had brutally oppressed the Romanians for centuries. In want of a king, they turned to you, and you were able to keep Romania safe in the turbulent years that followed her independence, expanding your great kingdom in the process. Today, you are remembered as a great ruler, one who lead the small nation of Romania to glory on both the battlefield and the world stage.[NEWLINE][NEWLINE]Great Carol, the people of Romania cry out for you to use your steady hand to guide them once more. Will you ensure that your enemies fall, and your people prosper? Will you build alliances to strengthen your nation, beneficial to your people above all? Can you build a civilisation that will stand the test of time?</Text>
+		</Row>
+		<!--Diplo lines-->
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_FIRSTGREETING_1">
+			<Text>Welcome to my palace, friend. I am Karl Eitel Friedrich Zephyrinus Ludwig of the glorious house of Hohenzollern-Sigmaringen, though call me Carol. May God guide you through Romania.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_FIRSTGREETING_2">
+			<Text>Romania is pleased to see any newcomers to the world's stage. I am Carol I, ruler of these lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_DEFEATED_1">
+			<Text>Take my lands, my people, all of it. Just know that He damns you to hell.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_DEFEATED_2">
+			<Text>Romania shall rise from the ashes. We have done so before, we shall do so again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_DECLARE_WAR_1">
+			<Text>May your damned empire crumble in this war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_DECLARE_WAR_2">
+			<Text>On behalf of my people, I declare war against your nation. Romania shall triumph against evil, God save us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_ATTACKED_1">
+			<Text>This treachery wasn't unexpected. We shall emerge victorious!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_ATTACKED_2">
+			<Text>When Romanians go to war, they go to war. This is painfully one-sided.</Text>
+		</Row>
+		<!--Spy Names-->
+		<Row Tag="TXT_KEY_SPY_NAME_MC_ROMANIA_0">
+			<Text>Atanase</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_ROMANIA_1">
+			<Text>Cezar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_ROMANIA_2">
+			<Text>Ciprian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_ROMANIA_3">
+			<Text>Emilian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_ROMANIA_4">
+			<Text>Matei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_ROMANIA_5">
+			<Text>Camelia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_ROMANIA_6">
+			<Text>Brandusa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_ROMANIA_7">
+			<Text>Constanta</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_ROMANIA_8">
+			<Text>Doina</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MC_ROMANIA_9">
+			<Text>Ilinica</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!--Civilopedias-->
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_ROMANIA_TITLE">
+			<Text>Makuria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_ROMANIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_ROMANIA_TEXT_1">
+			<Text>The Kingdom of Romania was a state that existed in Eastern Europe after the decline of the Ottoman Empire in the region. Owing to the instability that was brought about by the falling empire, the Russians and the French helped establish the Romanian Old Kingdom, only around half the size of the state today. This successfully warded off the Ottomans for a couple of decades, until the Romanians struck back harder during the Balkans Wars to regain more ethnic Romanian territory. This expansion continued until the years prior to the First World War, when it would be altogether too dangerous to risk further expansion; Romania remained neutral for the first two years of the war, only joining the Entente Powers due to promises of gaining land from the Austro-Hungarian Empire, despite a treaty made with the Alliance powers prior to the war. Romania emerged victorious, and gained new land. However, with the coming of the Second World War, Romania fared badly. Due to German expansionism in Eastern Europe, Romania initially allied with them, only later to be conquered by the Soviet Union, and was made into a puppet state. Nicolae Ceausescu assumed power in Romania in 1965, one of the worst dictators the world had ever seen. With absolute control over the media, Ceausescu imposed his harsh regime for three decades, only ousted and killed when the Soviet Union collapsed. Romania then became a republic for the first time in its history, and joined the European Union in 2007.</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_CIVLOPEDIA_MC_ROMANIA_FACTOID_HEADING">
+			<Text>Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_MC_ROMANIA_FACTOID_TEXT ">
+			<Text></Text>
+		</Row>-->
+		<!--Leader Civilopedia-->
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_DESC">
+			<Text>Carol I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_LIVED">
+			<Text>1839 - 1914</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_NAME">
+			<Text>Carol I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_SUBTITLE">
+			<Text>Leader of Romania</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_TITLES_1">
+			<Text></Text>
+		</Row>-->
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_TEXT_1">
+			<Text>Though a German prince working as a military officer in Prussia, Karl managed to become King of Romania through complicated dynastic intervention. During his childhood, he went to a military school in Münster, and took part in conflicts such as the German claim of Schleswig-Holstein in the Second Schleswig War, helping to press Prussia’s claim. This experience would go on to be of great importance in later life.[NEWLINE][NEWLINE]In the 1860s, Romania was in political turmoil after the ousting of Alexandru Ioan Cuza, the former Domnitor of the country. As it was under the influence of the French at the time, the emperor, Napoleon III, recommended that the nation should have Karl as its king. The noblemen of Romania agreed, and Karl set off for the nation in 1866. However, due to the recent conflict between Prussia and Austria, Karl was forced to travel under secrecy to Romania, using the name Karl Hettingen. After a long journey across Central Europe, he arrived in Bucharest on 10th of May 1866. While he was getting crowned, Karl took an oath in French, as he was unable to speak Romanian - however, he opted to use the Romanian form of his name, Carol. Very quickly, a new constitution for Romania was created, regarded as one of the most liberal and advanced of its time, modeled after the Belgian constitution thirty years earlier. Enshrined in this document was the idea that the king reigned, and did not rule. This proved popular with Romanians, leading to the start of Carol’s reign that would last nearly half a century.[NEWLINE][NEWLINE]Despite being generally regarded as a benevolent king, Carol’s own wife regarded him as a cold person, and said that he wore his crown in his sleep. Carol also failed to address the vast poverty going on in many areas of Romania, given that most of the committees that he had for addressing the problem were made up of landlords who could care less about the problems of the poor. However, Carol was held high in regard by Romanians after gaining land in the Russo-Turkish War, in which Romania reestablished its sovereignty. Towards the end of his reign, Carol was forced to side with one of the two growing alliances in Europe, the Triple Entente or the Triple Alliance - he chose the latter, mostly due to his German routes and family ties with Kaiser Wilhelm. Carol had sided with the Triple Alliance in private, but the population’s overwhelming desire to side with the French lead to him keeping it secret. Shortly after the outbreak of World War One, Carol told his council about the treaty with the Triple Alliance, arguing that it would be right and honorable to side with Germany. The council, concerned about public opinion, instead opted for neutrality, blocking Carol’s demands. A few months later, Carol died, ending a 48-year-long reign. His successor, Ferdinand, lead Romania into the war instead, siding with the victorious Triple Entente due to influence from his British wife and willingness to listen to public opinion.</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_FACTOID_HEADING">
+			<Text>Carol I Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MC_CAROL_I_FACTOID_TEXT">
+			<Text></Text>
+		</Row>-->
+		<!--City List-->
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_BUCHAREST">
+			<Text>Bucharest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_CRAIOVA">
+			<Text>Craiova</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_IASI">
+			<Text>Iasi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_CONSTANTA">
+			<Text>Constanta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_BOTOSANI">
+			<Text>Botosani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_BRAILA">
+			<Text>Braila</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_PLOIESTI">
+			<Text>Ploiesti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_GALATI">
+			<Text>Galati</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_BACAU">
+			<Text>Bacau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_PITESTI">
+			<Text>Pitesti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_SUCEAVA">
+			<Text>Suceava</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_BUZAU">
+			<Text>Buzau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_PIATRA_NEAMT">
+			<Text>Piatra Neamt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_FOCSANI">
+			<Text>Focsani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_CALARASI">
+			<Text>Calarasi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_GIURGIU">
+			<Text>Giurgiu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_TARGOVISTE">
+			<Text>Targoviste</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_VASLUI">
+			<Text>Vaslui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_CAMPULUNG">
+			<Text>Campulung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_ROMAN">
+			<Text>Roman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_TULCEA">
+			<Text>Tulcea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_BARLAD">
+			<Text>Barlad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_SLATINA">
+			<Text>Slatina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_CURTEA_DE_ARGES">
+			<Text>Curtea de Arges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_ALEXANDRIA">
+			<Text>Alexandria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_HUSI">
+			<Text>Husi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_MEDGIDIA">
+			<Text>Medgidia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_TARGU_JIU">
+			<Text>Targu Jiu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_ONESTI">
+			<Text>Onesti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_FALTICENI">
+			<Text>Falticeni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_OLTENITA">
+			<Text>Oltenita</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_CARACAL">
+			<Text>Caracal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_SLOBOZIA">
+			<Text>Slobozia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_FETESTI">
+			<Text>Fetesti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_TECUCI">
+			<Text>Tecuci</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_RUSII_DE_VEDE">
+			<Text>Rusii de Vede</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_RAMNICU_SARAT">
+			<Text>Ramnicu Sarat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_CARACHIOI">
+			<Text>Carachioi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_TURNU_MAGURELE">
+			<Text>Turnu Magurele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MC_ROMANIA_CAMPINA">
+			<Text>Campina</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

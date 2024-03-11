@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bb25ddd3-c634-4861-a725-aa3e1f720d90" version="1">
+  <Properties>
+    <Name>3Questionmarks' Modded Civilization Changes</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>3Questionmarks' Modded Civilization Changes</Teaser>
+    <Description>3Questionmarks' Modded Civilization Changes</Description>
+    <Authors>???</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="530046707FB519AF33184EE9F531795E" import="0">Abbasids/Trait.xml</File>
+    <File md5="FE90421CE68F9BA639F358288BCB2872" import="0">Afghanistan/Trait.xml</File>
+    <File md5="4E63F05B9D29BA47489A31F345FE524A" import="0">Australia/Trait.xml</File>
+    <File md5="12966AF01F65CB8A016573CDA67E2C1C" import="1">Rashidun/ART/4UC_GAZ128.DDS</File>
+    <File md5="765D2E662BE0E4234D27DF4B37393F92" import="1">Rashidun/ART/4UC_GAZ256.DDS</File>
+    <File md5="0B999BB2547B6D03CA1879E89EF48234" import="1">Rashidun/ART/4UC_GAZ45.DDS</File>
+    <File md5="584E1D4763B1D2A31F475355D1790806" import="1">Rashidun/ART/4UC_GAZ64.DDS</File>
+    <File md5="48F1D5C59A25B2DDBB2365CC0EA0EB32" import="1">Rashidun/ART/4UC_GAZ80.DDS</File>
+    <File md5="85736DB4DBDB6E003EA8784E9D46DC64" import="1">Rashidun/ART/IconGhazi32.dds</File>
+    <File md5="F00910ACAD1CDFEE2E219C6B34371D07" import="1">Rashidun/ART/IconGhaziSV.dds</File>
+    <File md5="E8E6A3A7B1AEC5F3B09BF32305E9AD2B" import="1">Rashidun/ART/Swordsman_Arabia_v3.blend</File>
+    <File md5="F03A6F54D3C892CF1DA26C720244137E" import="1">Rashidun/ART/Swordsman_Arabia_v3.dds</File>
+    <File md5="00FC5C8F4099B163EE04FCD4F94A96B9" import="1">Rashidun/ART/Swordsman_Arabia_v3.fxsxml</File>
+    <File md5="DBF50466EF50E296EE27C4B87C309014" import="1">Rashidun/ART/Swordsman_Arabia_v3.gr2</File>
+    <File md5="05D2FD7780DB41FD0301732407A7D8AA" import="1">Rashidun/ART/Swordsman_Arabia_v3_gloss.dds</File>
+    <File md5="3869F20DEBF3BCE7238DC145C69576C5" import="0">Rashidun/Unit.sql</File>
+    <File md5="8F81C13CD6DE878AB502B1B94E57E4FB" import="0">Rashidun/Trait.xml</File>
+    <File md5="56656A1D828D69F9E1F0DEDE59B41587" import="0">Rashidun/Units.xml</File>
+    <File md5="7BBC60B5DFFACC845858640775E9287C" import="0">Umayyads/Trait.xml</File>
+    <File md5="F1F482FD46531E7A50208BAA6F800FBC" import="0">Umayyads/Units.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Abbasids/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Afghanistan/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Australia/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Rashidun/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Umayyads/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Umayyads/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Rashidun/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Rashidun/Unit.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

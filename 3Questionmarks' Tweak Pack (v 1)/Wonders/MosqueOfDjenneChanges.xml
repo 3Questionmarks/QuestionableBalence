@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/3/2024 12:50:19 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_MOSQUE_OF_DJENNE" />
+			<Set>
+				<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
+				<Help>TXT_KEY_BUILDING_DJENNE_HELP1</Help>
+				<Description>TXT_KEY_BUILDING_MOSQUE_OF_DJENNE</Description>
+				<Civilopedia>TXT_KEY_WONDER_MOSQUE_OF_DJENNE_DESC</Civilopedia>
+				<Quote>TXT_KEY_WONDER_MOSQUE_OF_DJENNE_QUOTE</Quote>
+				<ArtDefineTag>GREAT MOSQUE DEJENNE</ArtDefineTag>
+				<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+				<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+				<GreatPeopleRateChange>2</GreatPeopleRateChange>
+				<ExtraMissionarySpreads>1</ExtraMissionarySpreads>
+				<FreeBuildingThisCity>BUILDINGCLASS_TEMPLE</FreeBuildingThisCity>
+			</Set>
+		</Update>
+	</Buildings>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_BUILDING_DJENNE_HELP1</Tag>
+			<Text>All Missionaries born in this city can spread religion one more time. Provides a free Temple in the city in which it is built.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2024 11:54:26 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set Combat ="16"/>
+			<Where Type ="UNIT_SWORDSMAN" />
+		</Update>
+	</Units>
+  
+</GameData>

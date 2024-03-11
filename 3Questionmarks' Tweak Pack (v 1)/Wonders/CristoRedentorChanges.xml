@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:27:09 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_CRISTO_REDENTOR"/>
+			<Set Cost="1400" PolicyCostModifier="-20"/>
+		</Update>
+	</Buildings>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_CRISTO_REDENTOR_HELP"/>
+			<Set Text="[ICON_CULTURE] Culture cost of adopting new Policies reduced by 20%."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_CRISTO_REDENTOR_GAME_INFO"/>
+			<Set Text="[ICON_CULTURE] Culture cost of adopting new Policies reduced by 20%."/>
+		</Update>
+	</Language_en_US>
+</GameData>

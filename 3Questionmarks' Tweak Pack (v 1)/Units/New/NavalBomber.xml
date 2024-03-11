@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/9/2020 9:25:31 AM -->
+<GameData>
+	<!-- Naval Bomber -->
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_NAVAL_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_NAVAL_BOMBER</Description>
+			<DefaultUnit>UNIT_NAVAL_BOMBER</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Type>UNIT_NAVAL_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_NAVAL_BOMBER</Description>
+			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<Class>UNITCLASS_NAVAL_BOMBER</Class>
+			<Cost>520</Cost>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<RangedCombat>65</RangedCombat>
+			<Range>10</Range>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<Strategy>TXT_KEY_UNIT_NAVAL_BOMBER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_NAVAL_BOMBER</Help>
+			<Civilopedia>TXT_KEY_CIV5_NAVAL_BOMBER_TEXT</Civilopedia>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<Pillage>false</Pillage>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<Mechanized>true</Mechanized>
+			<RangedCombatLimit>500</RangedCombatLimit>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<AirUnitCap>1</AirUnitCap>
+			<MilitaryProduction>true</MilitaryProduction>
+			<MilitarySupport>true</MilitarySupport>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_STRATEGIC_BOMBER</UnitArtInfo>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>6</UnitFlagIconOffset>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_NAVAL_BOMBER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_NAVAL_BOMBER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NAVAL_BOMBER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NAVAL_BOMBER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>14</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_NAVAL_BOMBER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NAVAL_BOMBER</UnitType>
+			<PromotionType>PROMOTION_NAVAL_BOMBER_II</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_NAVAL_BOMBER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_NAVAL_BOMBER</UnitType>
+			<UnitClassType>UNITCLASS_NAVAL_STEALTH_BOMBER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_NAVAL_BOMBER">
+			<Text>Naval Bomber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_NAVAL_BOMBER">
+			<Text>Air Unit that rains death from above onto enemy ships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NAVAL_BOMBER_TEXT">
+			<Text>
+				A torpedo bomber is a military aircraft designed primarily to attack ships with aerial torpedoes. Torpedo bombers came into existence just before the First World War almost as soon as aircraft were built that were capable of carrying the weight of a torpedo, and remained an important aircraft type until they were rendered obsolete by anti-ship missiles. They were an important element in many famous Second World War battles, notably the British attack at Taranto, the sinking of the German battleship Bismarck, the sinking of the British battleship HMS Prince Of Wales and the British battlecruiser HMS Repulse and the Japanese attack on Pearl Harbor. --Wikipedia
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NAVAL_BOMBER_STRATEGY">
+			<Text>War Naval Bomber is a specilised vertion of the regular bomber. It is designed to sink naval units and convys from the skies, however it doesn't fair well in bombing cities and units, and it's quite vulnerable to enemy aircraft. The Naval Bomber can be based on a player-owned city or aboard a carrier. It can move from base to base and perform missions within its range of "10." Use it to sink enemy boats that stray too close to your shoars or to sink navies from afar. When possible, send in triplanes or fighters first to "use up" the enemy's anti-aircraft defenses for that turn. See the rules on Aircraft for more information.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

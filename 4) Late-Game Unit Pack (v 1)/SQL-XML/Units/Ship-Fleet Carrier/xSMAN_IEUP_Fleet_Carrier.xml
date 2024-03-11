@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 07/01/17 9:32:00 AM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_FLEET_CARRIER</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_FLEET_CARRIER</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_FLEET_CARRIER</DefaultUnit>
+		</Row>	
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_IEUP_FLEET_CARRIER</Class>
+			<Type>UNIT_SMAN_IEUP_FLEET_CARRIER</Type>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+			<Combat>60</Combat>
+			<Cost>425</Cost>
+			<Moves>7</Moves>
+			<AirInterceptRange>1</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_FLEET_CARRIER</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_FLEET_CARRIER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_FLEET_CARRIER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_FLEET_CARRIER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_FLEET_CARRIER</UnitArtInfo>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>42</UnitFlagIconOffset>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>42</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>		
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_FLEET_CARRIER</UnitType>
+			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_FLEET_CARRIER</UnitType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>		
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_FLEET_CARRIER</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_CARGO_III</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_FLEET_CARRIER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_FLEET_CARRIER</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_FLEET_CARRIER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>		
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_FLEET_CARRIER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_FLEET_CARRIER</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_FLEET_CARRIER</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_FLEET_CARRIER">
+			<Text>Fleet Carrier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_FLEET_CARRIER_STRATEGY">
+			<Text>The Fleet Carrier is a specialized vessel which carries fighter airplanes, bombers (but not stealth bombers), and atomic bombs. The Fleet Carrier itself is unable to attack, but the aircraft it carries make it the most powerful offensive weapon afloat of its era. Defensively, however, the Fleet Carrier is weak and should be escorted by Destroyers and Submarines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_FLEET_CARRIER_HELP">
+			<Text>Initially carries up to 3 Aircraft; capacity may be boosted through promotions. Improved air defenses. Requires [ICON_RES_OIL] Oil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_FLEET_CARRIER_PEDIA">
+			<Text>
+				The Fleet Carrier is an upgrade to the Carrier unit, and is available on the discovery of Nuclear Fission. It does not become obsolete. Normally carries 3 aircract, but may carry more with additional promotions. Requires [ICON_RES_OIL] Oil.[NEWLINE][NEWLINE]A Fleet Carrier is an aircraft carrier designed to operate with the main fleet of a nation's navy. The term was developed during World War II, to distinguish it from the escort carrier and other lesser types. Fleet carriers include supercarriers and light carriers (light fleet carriers), as well as standard fleet carriers.
+			</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

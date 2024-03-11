@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 3:51:44 PM -->
+<GameData>
+	<GameSpeeds>
+		<Update>
+			<Where Type="GAMESPEED_MARATHON"/>
+			<Set ResearchPercent="337.5" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_EPIC"/>
+			<Set ResearchPercent="225" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_STANDARD"/>
+			<Set ResearchPercent="150" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_QUICK"/>
+			<Set ResearchPercent="100" />
+		</Update>
+	</GameSpeeds>
+    <Technologies>
+		<Update>
+			<Where Type="TECH_EDUCATION" />
+			<Set ResearchAgreementTradingAllowed="false" />
+		</Update>
+		<Update>
+			<Where Type="TECH_ATOMIC_THEORY" />
+			<Set ResearchAgreementTradingAllowed="true" />
+		</Update>
+	</Technologies>
+	
+	<!-- Increase the discount that you recive for knowing a city that already has a tech (base value 30) -->
+	<Defines>
+		<Update>
+			<Where Name="TECH_COST_TOTAL_KNOWN_TEAM_MODIFIER" />
+			<Set Value="40" />
+		</Update>
+		
+	</Defines>
+</GameData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2021 4:23:17 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_WAT"/>
+			<Set CultureRateModifier="25"/>
+		</Update>
+	</Buildings>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_WAT_HELP"/>
+			<Set>
+				<Text>+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City. +25% Culture in this city.[NEWLINE][NEWLINE]City must have a Library.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+</GameData>

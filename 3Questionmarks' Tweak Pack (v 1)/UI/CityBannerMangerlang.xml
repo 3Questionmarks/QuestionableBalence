@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/13/2013 2:57:40 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_FOCUS_FOOD">
+			<Text>City is focusing on food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOCUS_PROD">
+			<Text>City is focusing on production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOCUS_GOLD">
+			<Text>City is focusing on gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOCUS_GP">
+			<Text>City is focusing on great people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOCUS_SCIENCE">
+			<Text>City is focusing on science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOCUS_CULTURE">
+			<Text>City is focusing on culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOCUS_FAITH">
+			<Text>City is focusing on faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOGROWTH">
+			<Text>City growth is prevented.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

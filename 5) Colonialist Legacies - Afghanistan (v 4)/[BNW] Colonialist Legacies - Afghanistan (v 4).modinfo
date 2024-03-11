@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="28f17a62-475f-41a6-9908-954c75e450a2" version="4">
+  <Properties>
+    <Name>[BNW] Colonialist Legacies - Afghanistan</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the tradeful [COLOR_POSITIVE_TEXT]Afghanistan[ENDCOLOR] to the game lead by Mirwais Khan Hotaki!</Teaser>
+    <Description>[COLOR_POSITIVE_TEXT]Afghanistan[ENDCOLOR]
+[NEWLINE]
+[NEWLINE]
+[NEWLINE][COLOR_GREEN]Leader: [ENDCOLOR] Mirwais Hotak
+[NEWLINE]
+[NEWLINE][COLOR_GREEN]UA: Graveyard of Empires[ENDCOLOR]
+[NEWLINE]
+[NEWLINE][COLOR_GREEN]UU: Zamburak [ENDCOLOR]
+[NEWLINE]
+[NEWLINE][COLOR_GREEN]UI: Kalle [ENDCOLOR]
+[NEWLINE]
+[NEWLINE][COLOR_YELLOW]Features  voice acting by Charlatan Alley![ENDCOLOR]</Description>
+    <Authors>Viergel, TPangolin, Neirai</Authors>
+    <SpecialThanks>Scapegrace, regalman, Superwaffle, CharlatanAlley, Chrisy15</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety &amp; Prestige     " />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events &amp; Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD and Pouakai's Mercenaries" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="3C306F1AB08B42B5C929D63ACF36FF63" import="1">Art/IconAtlas/Afganistan_Alpha_128.dds</File>
+    <File md5="F3D01B94EBE5F23B8B9E0FF5992E490E" import="1">Art/IconAtlas/Afganistan_Alpha_16.dds</File>
+    <File md5="70BA340C966DE822821FFE4D798AE0BC" import="1">Art/IconAtlas/Afganistan_Alpha_24.dds</File>
+    <File md5="D26406DFC294ACF1346049F2628689FA" import="1">Art/IconAtlas/Afganistan_Alpha_256.dds</File>
+    <File md5="BAD9C2E2CD8A7559182CA472BD4109D0" import="1">Art/IconAtlas/Afganistan_Alpha_32.dds</File>
+    <File md5="D9EF2CB283302D207F7B93C39C2BB54B" import="1">Art/IconAtlas/Afganistan_Alpha_45.dds</File>
+    <File md5="494A9594087F388E602489F0581659CF" import="1">Art/IconAtlas/Afganistan_Alpha_48.dds</File>
+    <File md5="0133535468E641976726F3F349E27A47" import="1">Art/IconAtlas/Afganistan_Alpha_64.dds</File>
+    <File md5="6A5A2464C09871BE6A6119099F7C11FD" import="1">Art/IconAtlas/Afganistan_Alpha_80.dds</File>
+    <File md5="8B1C3FF8E11E3AE32BA2E39C2D38CE69" import="1">Art/IconAtlas/CL_AfghanistanAtlas_128.dds</File>
+    <File md5="113FFA5B0431053F2830072D6AA09B6B" import="1">Art/IconAtlas/CL_AfghanistanAtlas_256.dds</File>
+    <File md5="471B0C8C4F365656DD9ED8384BAB8C05" import="1">Art/IconAtlas/CL_AfghanistanAtlas_32.dds</File>
+    <File md5="D1C71F78FC9FA3C2928FCAB32CD2DEFE" import="1">Art/IconAtlas/CL_AfghanistanAtlas_45.dds</File>
+    <File md5="66300C36505AE5F8568D7CD2972C456C" import="1">Art/IconAtlas/CL_AfghanistanAtlas_48.dds</File>
+    <File md5="EF6F71FF1D6AF4DCFAA299C93C533B55" import="1">Art/IconAtlas/CL_AfghanistanAtlas_64.dds</File>
+    <File md5="9A246CFDC92527B6838D3F6DE144A36D" import="1">Art/IconAtlas/CL_AfghanistanAtlas_80.dds</File>
+    <File md5="8ACCA00C1F5D1D5E1CFE4BF1B893BF03" import="1">Art/IconAtlas/CL_Kalle_45.dds</File>
+    <File md5="DEAC2973A039833563C06D9A80563E75" import="1">Art/IconAtlas/CL_Kalle_64.dds</File>
+    <File md5="2E11B01E46B135D4015072758203AD03" import="0">Art/IconAtlas/Icons.sql</File>
+    <File md5="12E1B473EAAAED6144774AEA98BAD920" import="1">Art/IconAtlas/sv_Zamburak.dds</File>
+    <File md5="DD1346BAF38CBD6DCB7D8100EC36D627" import="1">Art/IconAtlas/ZamburakFlag.dds</File>
+    <File md5="0790B16D6A89C9CD691E3951ECC491AE" import="1">Art/Leader/AfghanistanMap512.dds</File>
+    <File md5="0B3A42843C88084283128FDDA9C7370B" import="1">Art/Leader/MirwaisHotak.dds</File>
+    <File md5="D94A104700C0B83C927E15A3E8F8A991" import="1">Art/Leader/MirwaisHotak_DoM.dds</File>
+    <File md5="8797ECF0096F0AB1C3200EE82E495BEC" import="1">Art/Leader/MirwaisHotak_Scene.xml</File>
+    <File md5="3E492F38C61D7D18A090CB9B01306899" import="0">Art/Models/ArtDefines.sql</File>
+    <File md5="54DE65A103045A14414BC8B261B98764" import="1">Art/Models/crane.dds</File>
+    <File md5="11EC63D43C6795D2ABB99F73676EF18F" import="1">Art/Models/Kalle.fxsxml</File>
+    <File md5="03D31A19DDA61C8AE632849B1B34E407" import="1">Art/Models/Kalle.gr2</File>
+    <File md5="049204AC35A3D477830D7CE80842C48A" import="1">Art/Models/KalleIconBlue.png</File>
+    <File md5="559AEAAFF2BA7A06B731B0ABAB444DA9" import="1">Art/Models/KalleIconTransparent.png</File>
+    <File md5="4EBD313E694AF9C15C6D93EC0E71013D" import="1">Art/Models/Kalle_build.fxsxml</File>
+    <File md5="24B53369D9DB8A021656E7CAB9F2E78E" import="1">Art/Models/Kalle_build.gr2</File>
+    <File md5="72421E18B2CB1D3640383CB9BABC6E30" import="1">Art/Models/Kalle_build_1.dds</File>
+    <File md5="A50C87EED74FCC93D863822AB02CB59D" import="1">Art/Models/Kalle_build_2.dds</File>
+    <File md5="4156899FF3424F2B57EA090B7F040751" import="1">Art/Models/Kalle_diff.dds</File>
+    <File md5="E825B561DE1F2E0F062373CAD1FEA310" import="1">Art/Models/Kalle_PL.fxsxml</File>
+    <File md5="3F89FD7B0BA89767E95487E581E539D9" import="1">Art/Models/Kalle_stalls.dds</File>
+    <File md5="C3CD9A44E5C94CEB161EDC23BB5570E3" import="1">Art/Models/Kalle_tents.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Art/Models/no_gloss.dds</File>
+    <File md5="641A11366D0B9AA31E82B2468EE1FC2E" import="1">Art/Models/Thumbs.db</File>
+    <File md5="A70E59FDB0F2553A4314C08ACA18E2D6" import="1">Art/Models/u_afghanistan_camel_gunner.fxsxml</File>
+    <File md5="BBD74561C7F504EE32112BA3A91E9EBD" import="1">Art/Models/u_afghanistan_camel_gunner.gr2</File>
+    <File md5="0CA1D1A92C410CD78548686A1C8877AA" import="1">Art/Models/u_afghanistan_camel_gunner_camel_diff.dds</File>
+    <File md5="B97DC373708151C51669BAE8BF36A6F7" import="1">Art/Models/u_afghanistan_camel_gunner_diff.dds</File>
+    <File md5="15895CE2FEB3EBEEA0B528331D35CAB2" import="0">Core/AfghanistanFunctions.lua</File>
+    <File md5="FA1504ED75E82592EA69C9C0E8A73BDB" import="0">Core/Buildings.sql</File>
+    <File md5="1641EAE456F63D287AD8D26E42FDEC4C" import="0">Core/C15_Kalle_Mountain.lua</File>
+    <File md5="AA0FAE066421E00794FE6CD4B8DBE5EF" import="0">Core/Civilizations.sql</File>
+    <File md5="9F55B65EE3471EFB3D39FD54A3337A1A" import="0">Core/Diplomacy.sql</File>
+    <File md5="730A8FB726DB311D1085DA52F0F1D08D" import="0">Core/Fixaroo.sql</File>
+    <File md5="BBDD7C6D532334061A9AAFDAFADC7B56" import="0">Core/GameText.xml</File>
+    <File md5="121FBD5700D841C0C2A7371F725EA9F1" import="0">Core/Improvements.sql</File>
+    <File md5="4C1482B467A1292FFD172EAEDC61E760" import="0">Core/Leaderhead.sql</File>
+    <File md5="8B365BE0B19EB3D19E8BAB45B0CDECF0" import="0">Core/LeaderSpeech.xml</File>
+    <File md5="8A7660C984BF688CA2F18CABDBEB56B4" import="0">Core/MinorCivilizations.sql</File>
+    <File md5="7E8EAF1345CA4B8941EB8C67FCF100F9" import="0">Core/PlayerColours.sql</File>
+    <File md5="9CFA1192E46A592CB3B77DB8C199FE88" import="0">Core/Promotions.sql</File>
+    <File md5="CF2F750C2D13F9601009AECA956C4CE7" import="0">Core/Traits.sql</File>
+    <File md5="312C757E2B98CCC1A70948138002BC0D" import="0">Core/Units.sql</File>
+    <File md5="C913CC21C5F65E1260FCC8DD47DF1B16" import="1">Core/Whoward_PlotIterators.lua</File>
+    <File md5="2D0F16C1368F5F5086C153E33651C86D" import="1">Mod Support/CLAfghanDecisions.lua</File>
+    <File md5="2373758D96E7C206AA043A70F65CFBBE" import="0">Mod Support/CulDiv.sql</File>
+    <File md5="91C93328178760A20D3FBF1F689A5703" import="0">Mod Support/AfghanDecisions.sql</File>
+    <File md5="BA8EBEE8321C36411AB0C165593DA560" import="0">Mod Support/AfghanDecisionsText.xml</File>
+    <File md5="69CBD167E802BC763330DF4C68E83E53" import="0">Mod Support/ETC.sql</File>
+    <File md5="3858CAFCC8B314744070A1C75FD8F400" import="0">Mod Support/PietyandPrestige.sql</File>
+    <File md5="4176A102E3685DDF6C6ABC5467D9EEA9" import="0">Mod Support/UCI.xml</File>
+    <File md5="D2C105BFA0ACBF0E24895FE858E96807" import="0">Sounds/CLAfghanSound.sql</File>
+    <File md5="24D853D0FC89F92A66CCB1EF3B3115F3" import="1">Sounds/MirwaisHotak_War.mp3</File>
+    <File md5="433E8A555A20AB06567B324396ADBC32" import="1">Sounds/MirwaisHotak_Peace.mp3</File>
+    <File md5="73EEDFF43C0925E92379F429C6EC1BE2" import="1">Sounds/MirwaisHotak_DoM.mp3</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Models/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Art/IconAtlas/Icons.sql</UpdateDatabase>
+      <UpdateDatabase>Sounds/CLAfghanSound.sql</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/MinorCivilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Improvements.sql</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/LeaderSpeech.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Promotions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Mod Support/CulDiv.sql</UpdateDatabase>
+      <UpdateDatabase>Mod Support/AfghanDecisions.sql</UpdateDatabase>
+      <UpdateDatabase>Mod Support/AfghanDecisionsText.xml</UpdateDatabase>
+      <UpdateDatabase>Mod Support/PietyandPrestige.sql</UpdateDatabase>
+      <UpdateDatabase>Mod Support/UCI.xml</UpdateDatabase>
+      <UpdateDatabase>Mod Support/ETC.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Fixaroo.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Core/AfghanistanFunctions.lua">
+      <Name>CL_AfghanistanFunctions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Core/C15_Kalle_Mountain.lua">
+      <Name>Kalle/Mountain</Name>
+      <Description>Fixes stuff</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

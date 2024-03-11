@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Traits>
+		<Update>
+			<Set LuxuryHappinessRetention="100" />
+			<Where Type="TRAIT_LUXURY_RETENTION" />
+		</Update>
+	</Traits>
+
+	<!-- Dummy building for Netherlands to get culture and gold from luxeries. -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_NETHERLANDSDUMMYBUILDING</Type>
+			<Description>TXT_KEY_BUILDING_NETHERLANDSDUMMYBUILDING</Description>
+			<DefaultBuilding>BUILDING_NETHERLANDSDUMMYBUILDING</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_NETHERLANDSDUMMYBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_NETHERLANDSDUMMYBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_NETHERLANDSDUMMYBUILDING</Description>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<!-- Cotton -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Coffee -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Tea -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_TEA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Tobacco -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Amber -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- JADE -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Ollive -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_OLIVE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Perfume -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_PERFUME</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Coral -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_CORAL</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Lapis -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_LAPIS</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Furs -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Dyes -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Copper -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Marble -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Spices -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Ivory -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Incense -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Gold -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Pearls -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Sugar -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Silk -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Wine -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Silver -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Truffles -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Crab -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Salt -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Whales -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Citrus -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Cocoa -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Gems -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Cotton -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Furs -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Dyes -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Copper -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Marble -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Spices -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Ivory -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Incense -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Gold -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Pearls -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Sugar -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Silk -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Wine -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Silver -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Truffles -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Crab -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Salt -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Whales -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Citrus -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Cocoa -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Gems -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Coffee -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Tea -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_TEA</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Tobacco -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Amber -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- JADE -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Ollive -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_OLIVE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Perfume -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_PERFUME</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Coral -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_CORAL</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Lapis -->
+			<BuildingType>BUILDING_NETHERLANDSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_LAPIS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<!-- All Netherlands's cities get dummy building for free. -->
+	<Traits>
+		<Update>
+			<Set FreeBuilding="BUILDING_NETHERLANDSDUMMYBUILDING" FreeBuildingOnConquest="BUILDING_NETHERLANDSDUMMYBUILDING" />
+			<Where Type="TRAIT_LUXURY_RETENTION" />
+		</Update>
+	</Traits>
+
+	<!-- Dummy building -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_NETHERLANDSDUMMYBUILDING">
+			<Text>You should not see this in game?</Text>
+		</Row>
+	</Language_en_US>
+		
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_LUXURY_RETENTION" />
+		<Row Tag="TXT_KEY_TRAIT_LUXURY_RETENTION">
+			<Text>100% of [ICON_HAPPINESS_1] is retained after Trading away the last copy of a Luxury. +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture from Luxuries.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

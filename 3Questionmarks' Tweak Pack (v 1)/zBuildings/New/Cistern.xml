@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/21/2014 8:57:03 AM -->
+<!-- Cistern: +10% food stored, +5% food, +1 food and +1 production on lake tiles -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CISTERN</Type>
+			<DefaultBuilding>BUILDING_CISTERN</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CISTERN</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CISTERN</Type>
+			<BuildingClass>BUILDINGCLASS_CISTERN</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<FreshWater>true</FreshWater>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<Description>TXT_KEY_BUILDING_CISTERN</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CISTERN_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CISTERN_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_CISTERN_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<FoodKept>0</FoodKept>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>1MOD_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_CISTERN</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_LakePlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CISTERN</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_LakePlotYieldChanges>
+    <Building_FeatureYieldChanges>
+        <Row>
+			<BuildingType>BUILDING_CISTERN</BuildingType>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+    </Building_FeatureYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_CISTERN</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<!-- Description Tags-->
+		<Row Tag="TXT_KEY_BUILDING_CISTERN">
+			<Text>Cistern</Text>
+		</Row>
+		<!-- Help Tags-->
+		<Row Tag="TXT_KEY_BUILDING_CISTERN_HELP">
+			<Text>+10% [ICON_FOOD] Food. [NEWLINE]+1 [ICON_PRODUCTION] Production from Lake tiles.[NEWLINE][NEWLINE]Must be built adjacent to a Lake or River.</Text>
+		</Row>
+		<!-- Strategy Tags-->
+		<Row Tag="TXT_KEY_BUILDING_CISTERN_STRATEGY">
+			<Text>The Cistern is a Classical-era building which increases a city's Food and enhances Lake tiles.</Text>
+		</Row>
+		<!-- Pedia Tags-->
+		<Row Tag="TXT_KEY_BUILDING_CISTERN_PEDIA">
+			<Text>Waterproof lime plaster cisterns in the floors of houses are features of Neolithic village sites of the Levant at, for instance, Ramad and Lebwe, and by the late fourth millennium BC, as at Jawa in northeastern Lebanon, cisterns are essential elements of emerging water management techniques in dry-land farming communities. Cisterns are commonly used in areas where water is scarce, either because it is rare or because it has been depleted due to heavy use. Early on, the water was used for many purposes including cooking, irrigation, and washing. Present day cisterns are often only used for irrigation due to concerns over water quality.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

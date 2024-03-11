@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2024 1:17:46 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_TOURIST_CENTER" />
+			<Set Cost="800" />
+		</Update>
+		<Update>
+			<Where Type="BUILDING_TOURIST_CENTER" />
+			<Set GoldMaintenance="3" />
+		</Update>
+	</Buildings>
+  
+</GameData>

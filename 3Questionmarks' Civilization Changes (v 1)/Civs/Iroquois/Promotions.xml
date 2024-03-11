@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 2:41:33 PM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_WARPATH</Type>
+			<Description>Great Warpath</Description>
+			<Help>+25% Combat Strength in Forest and Jungle</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>Great Warpath</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_Features>
+		<Row>
+			<PromotionType>PROMOTION_WARPATH</PromotionType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<Defense>25</Defense>
+			<Attack>25</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_WARPATH</PromotionType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<Defense>25</Defense>
+			<Attack>25</Attack>
+		</Row>
+	</UnitPromotions_Features>
+		
+</GameData>

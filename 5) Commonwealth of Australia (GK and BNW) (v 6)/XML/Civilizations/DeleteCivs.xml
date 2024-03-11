@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/12/2013 10:12:32 PM -->
+<GameData>
+	<MinorCivilizations>
+		<Delete type="MINOR_CIV_SYDNEY"/>
+		<Delete type="MINOR_CIV_MELBOURNE"/>
+	</MinorCivilizations>
+</GameData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/22/2020 4:00:52 PM -->
+<GameData>
+	<!-- Peace Loving -->
+	<Beliefs>
+		<Update>
+			<Where Type="BELIEF_PEACE_LOVING" />
+			<Set HappinessPerXPeacefulForeignFollowers="0"
+                 SpreadDistanceModifier="25"
+                 SpreadStrengthModifier="25"
+                 CityGrowthModifier="10"
+                 RequiresPeace="True" />
+		</Update>
+	</Beliefs>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_PEACE_LOVING" />
+			<Set Text="While at peace, cities [ICON_FOOD] Grow 10% faster and spread [ICON_RELIGION] Religion 25% faster and 25% further away." />
+		</Update>
+	</Language_en_US>
+</GameData>

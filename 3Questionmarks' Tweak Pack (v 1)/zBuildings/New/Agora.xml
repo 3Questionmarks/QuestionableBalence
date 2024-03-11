@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/23/2014 12:23:21 PM -->
+<!-- Agora: +1 Culture, +1 Gold from Spices and Marble, 1 Artist slot-->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_AGORA</Type>
+			<DefaultBuilding>BUILDING_AGORA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_AGORA</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AGORA</Type>
+			<BuildingClass>BUILDINGCLASS_AGORA</BuildingClass>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_AGORA</Description>
+			<Civilopedia>TXT_KEY_BUILDING_AGORA_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AGORA_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_AGORA_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>MOD_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+		</Row>
+	</Buildings>
+    <Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_JAPANESE_DOJO</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>5</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JAPANESE_DOJO</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>5</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_JAPANESE_DOJO</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>5</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AGORA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AGORA</BuildingType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AGORA</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AGORA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AGORA</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<!-- Description Tags-->
+		<Row Tag="TXT_KEY_BUILDING_AGORA">
+			<Text>Agora</Text>
+		</Row>
+		<!-- Help Tags-->
+		<Row Tag="TXT_KEY_BUILDING_AGORA_HELP">
+			<Text>+1 [ICON_GOLD] Gold from [ICON_RES_MARBLE] Marble and [ICON_RES_SPICES] Spices. +5 [ICON_WAR] XP for all Units.</Text>
+		</Row>
+		<!-- Quote Tags, use for Wonders
+		<Row Tag="TXT_KEY_BUILDING_EXAMPLE_QUOTE">
+			<Text></Text>
+		</Row>
+		-->
+		<!-- Strategy Tags-->
+		<Row Tag="TXT_KEY_BUILDING_AGORA_STRATEGY">
+			<Text>The Agora is a balanced building which provides cultural and gold bonuses.</Text>
+		</Row>
+		<!-- Pedia Tags-->
+		<Row Tag="TXT_KEY_BUILDING_AGORA_PEDIA">
+			<Text>Early in Greek history (10th century–8th century BC), free-born male land-owners who were citizens would gather in the agora for military duty or to hear statements of the ruling king or council. Later, the agora also served as a marketplace where merchants kept stalls or shops to sell their goods amid colonnades.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

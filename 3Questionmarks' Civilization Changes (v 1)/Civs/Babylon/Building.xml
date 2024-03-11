@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 9:53:49 AM -->
+<GameData>
+	<!-- Walls of Babylon Changes and Code of Laws -->
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_WALLS_OF_BABYLON"/>
+			<Set>
+				<EnhancedYieldTech>TECH_FLIGHT</EnhancedYieldTech>
+				<TechEnhancedTourism>4</TechEnhancedTourism>
+			</Set>
+		</Update>
+		<Row>
+			<Type>BUILDING_BABBYCOURTHOUSE</Type>
+			<BuildingClass>BUILDINGCLASS_COURTHOUSE</BuildingClass>
+			<Cost>75</Cost>
+			<GoldMaintenance>4</GoldMaintenance>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_COURTHOUSE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_COURTHOUSE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_COURTHOUSE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_COURTHOUSE_STRATEGY</Strategy>
+			<ArtDefineTag>COURTHOUSE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<Happiness>2</Happiness>
+			<HurryCostModifier>50</HurryCostModifier>
+			<NoOccupiedUnhappiness>true</NoOccupiedUnhappiness>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>63</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_WALLS_OF_BABYLON</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_WALLS_OF_BABYLON</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BABBYCOURTHOUSE</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>150</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

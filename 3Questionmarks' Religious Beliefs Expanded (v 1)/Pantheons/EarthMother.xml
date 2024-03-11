@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
+<GameData>
+
+	<!-- +1 Faith and Production from Mines. -->
+	<Belief_ResourceYieldChanges>
+		<Delete BeliefType="BELIEF_EARTH_MOTHER" ResourceType="RESOURCE_COPPER"	YieldType="YIELD_FAITH" Yield="1" />
+		<Delete BeliefType="BELIEF_EARTH_MOTHER" ResourceType="RESOURCE_IRON"	YieldType="YIELD_FAITH" Yield="1" />
+		<Delete BeliefType="BELIEF_EARTH_MOTHER" ResourceType="RESOURCE_SALT"	YieldType="YIELD_FAITH" Yield="1" />
+	</Belief_ResourceYieldChanges>
+	<Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_EARTH_MOTHER</BeliefType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+	<Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_EARTH_MOTHER</BeliefType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+	
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_EARTH_MOTHER" />
+		<Row Tag="TXT_KEY_BELIEF_EARTH_MOTHER">
+			<Text>+1 [ICON_PEACE] Faith and [ICON_PRODUCTION] Production from Mines</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

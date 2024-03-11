@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:30:55 PM -->
+<GameData>
+	<!--Buildings>
+		<Update>
+			<Where Type="BUILDING_KREPOST" />
+			<Set PlotCultureCostModifier="-50" />
+		</Update>
+	</Buildings-->
+
+	<Building_TerrainYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+    
+	 <Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_KREPOST_HELP"/>
+			<Set>
+				<Text>+15 XP for all Units. +1 [ICON_CULTURE] Culture from tundra and snow tiles and [ICON_CULTURE] Culture cost of acquiring new tiles reduced by 25% in this city. </Text>
+			</Set>
+		</Update>
+		 <Update>
+			 <Where Tag="TXT_KEY_BUILDINGS_KREPOST_STRATEGY"/>
+			 <Set>
+				 <Text>The Krepost is the Russian unique building, replacing the barracks. The Krepost provides 15 experience points for all military units constructed in its city. In addition, the Krepost provides +1 [ICON_CULTURE] Culture from Tundra and Snow tiles, and increases the city's cultural border growth by 25%. It's quite worthwhile to construct these useful buildings in all Russian cities, but especially in cities on the civilization's frontiers.</Text>
+			 </Set>
+		 </Update>
+	</Language_en_US>
+</GameData>

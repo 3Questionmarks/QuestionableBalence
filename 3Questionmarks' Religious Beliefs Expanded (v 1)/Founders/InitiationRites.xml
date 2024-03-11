@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- +100 Gold (Quick Speed) per City the first time it converts. -->
+	<Beliefs>
+		<Update>
+			<Set GoldPerFirstCityConversion="300" />
+			<Where Type="BELIEF_INITIATION_RITES" />
+		</Update>
+	</Beliefs>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_INITIATION_RITES" />
+		<Row Tag="TXT_KEY_BELIEF_INITIATION_RITES">
+			<Text>+200 [ICON_GOLD] Gold (on Quick Speed) when a city first converts to this [ICON_RELIGION] Religion. Gain +1 [ICON_CITIZEN] Citizen when a city you own first converts to this [ICON_RELIGION] religion and gain +1 [ICON_CITIZEN] Citizen in your [ICON_CAPITAL] Capital when a foreign city first converts to this [ICON_RELIGION] religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGIOUS_CONVERTS_HEADER">
+			<Text>Religious Converts in {@1pop_city_name}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGIOUS_CONVERTS_BODY">
+			<Text>+1 [ICON_CITIZEN] Citizen in {@1pop_city_name}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGIOUS_CONVERTS_BODY_CAPITAL">
+			<Text>+1 [ICON_CITIZEN] Citizen in [ICON_CAPITAL] Capital because {@1convert_city_name} adopted your Religion!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e9d500ea-2bae-4c62-af49-197cb483fd92" version="1">
+  <Properties>
+    <Name>[BNW] Senshi's Uruguay (Jose Batlle)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Oriental Republic of the Uruguay into the game, under the benevolent José Batlle y Ordóñez!</Teaser>
+    <Description>Adds the Oriental Republic of the Uruguay into the game, under the benevolent José Batlle y Ordóñez!
+
+Credits:
+senshidenshi: Design, Code, Text
+Hoop_Thrower: Design
+Chrisy15: Code, Decisions
+JFD: Code, Decisions
+DarthKyofu: Art (Almost everything), Pedias
+Civilization Nights: Art (Saladero)
+bernie14: Blandengue Model</Description>
+    <Authors>senshidenshi, Hoop_Thrower</Authors>
+    <SpecialThanks>DarthKyofu, Chrisy15, JFD</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Rise to Power" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events and Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD’s Cities in Development" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Map Labels" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="DF6C36A25EF034389D937F9AEA5101D2" import="0">Art/Atlas/AtlasDefines.xml</File>
+    <File md5="12E7F0A78F379403E37905373E166160" import="1">Art/Atlas/BlandengueFlag32.dds</File>
+    <File md5="DF0417E6F8FF79195137B7EBE5DBE87C" import="1">Art/Atlas/SenshiUruguayAlpha128.dds</File>
+    <File md5="8251759D9C413820197348CC52C82D9E" import="1">Art/Atlas/SenshiUruguayAlpha16.dds</File>
+    <File md5="24DD90358D8FF818ED2AD9F1801F6123" import="1">Art/Atlas/SenshiUruguayAlpha24.dds</File>
+    <File md5="0E005C510F95EC477B0AE03ACA0996F6" import="1">Art/Atlas/SenshiUruguayAlpha256.dds</File>
+    <File md5="AB18B4AF402C2C0BFA6C42FC5BC7CA8F" import="1">Art/Atlas/SenshiUruguayAlpha32.dds</File>
+    <File md5="6542FF2F463C979390B1FD114A1A27DE" import="1">Art/Atlas/SenshiUruguayAlpha48.dds</File>
+    <File md5="6111A26AA0B0796F8EBD84B5A1E4ABF9" import="1">Art/Atlas/SenshiUruguayAlpha64.dds</File>
+    <File md5="5ED6C87781554F88410BE359413934FB" import="1">Art/Atlas/SenshiUruguayAlpha80.dds</File>
+    <File md5="CCB98D8171A4E82180F7748CED1CB2EF" import="1">Art/Atlas/SenshiUruguayAtlas128.dds</File>
+    <File md5="74147363119A96B1202EB59F12FD5470" import="1">Art/Atlas/SenshiUruguayAtlas256.dds</File>
+    <File md5="23324B3DBD63B6CAFC3D2307F1517528" import="1">Art/Atlas/SenshiUruguayAtlas32.dds</File>
+    <File md5="34ABF723C770C034438496BECF1BCA1B" import="1">Art/Atlas/SenshiUruguayAtlas45.dds</File>
+    <File md5="69737499A3DC05CCF430DE791EF5BDDD" import="1">Art/Atlas/SenshiUruguayAtlas48.dds</File>
+    <File md5="7229D4CCEF83BC5AAB0638728050E2E9" import="1">Art/Atlas/SenshiUruguayAtlas64.dds</File>
+    <File md5="21122C4C75579C09F6D4A92BA275E005" import="1">Art/Atlas/SenshiUruguayAtlas80.dds</File>
+    <File md5="CCD571356E8F3090FF55E5E68E245286" import="1">Art/BatlleDoM.dds</File>
+    <File md5="131997505CDC3CA37A3C932F5966BA56" import="1">Art/BatlleLS.dds</File>
+    <File md5="508121430A2B859120D35A5FC826367E" import="1">Art/BatlleMap.dds</File>
+    <File md5="62E8F10B551D41DDA7D1A69590E942AF" import="0">Art/Blandengue/BlandengueDefines.xml</File>
+    <File md5="D0C4BEB025D5A5ABB61E064DF03F9C0E" import="1">Art/Blandengue/gerlr1.blend</File>
+    <File md5="D18A1A9E96ECA33F5E4673654C775C6C" import="1">Art/Blandengue/gerlr1.dds</File>
+    <File md5="E293930068E4151E47DFEEC55606C2FA" import="1">Art/Blandengue/gerlr1.fbx</File>
+    <File md5="2501B7E45C14B210CCD1549FF819D2BF" import="1">Art/Blandengue/gerlr1.fxsxml</File>
+    <File md5="76F2BD42FCBC78E4ED51005C4EF88029" import="1">Art/Blandengue/gerlr1.gr2</File>
+    <File md5="10ADC0F87643EAD4CE615FC831715293" import="1">Art/Blandengue/gerlr1_sref.dds</File>
+    <File md5="1FA3B7A16207F320AD8A60B53FE5BA73" import="1">Art/Blandengue/sv_Blandengue.dds</File>
+    <File md5="506C15180C924F83E7ED4B606CF1EF41" import="1">Art/Resource/CharqueResource.dds</File>
+    <File md5="56282BFCF9E0439A6B80CB7DC80A4702" import="1">Art/Resource/CharqueResource.ggxml</File>
+    <File md5="188DA19541132B9A9BAE3211BFB2D494" import="1">Art/Resource/sv_Charque.dds</File>
+    <File md5="A6926B17696E6636BE497193E03C28D4" import="0">Core/Civilizations.sql</File>
+    <File md5="9A14D4805B517F8784EF6B8EB9B51855" import="0">Core/DiplomacyResponses.xml</File>
+    <File md5="5E38E916849C11694B6337C5705C76F0" import="0">Core/Buildings.sql</File>
+    <File md5="2BF433AD18BA9A22BFB675238844FB70" import="0">Core/GameText.xml</File>
+    <File md5="2C721343E45B63FA4FB003BF5A1C756F" import="0">Core/Leaderhead.sql</File>
+    <File md5="F717B48BADEDC9DB7B29C8B91199F8AC" import="0">Core/PlayerColours.sql</File>
+    <File md5="96C5BC25C652BD020043184F39F9BCEA" import="0">Core/Resources.sql</File>
+    <File md5="55BFF3D8AE2D6EBB4DAE90F161A3E83A" import="0">Core/SenshiUruguayUAUUUB.sql</File>
+    <File md5="3E690734626960EC1A740C7C244972ED" import="0">Core/SenshiUruguayUAUUUBLua.lua</File>
+    <File md5="15CB8431BFDF56566F84FD49EEF23018" import="1">Core/Senshi_Batlle_Scene.xml</File>
+    <File md5="A07D4114BA9FF8FEE0C6F638E5367F36" import="0">Core/Traits.sql</File>
+    <File md5="44D4C98EB698725C506F35D4791AE223" import="0">Core/Units.sql</File>
+    <File md5="A2E5559429A5EE7155F779D3C0714833" import="1">Support/Senshi_UruguayDecision.lua</File>
+    <File md5="B9F68B584BEFE5B67488881F0538FF4C" import="0">Support/Senshi_UruguayDecisions.xml</File>
+    <File md5="2B4E42563BC903F50B176C6F47CF317D" import="0">Support/UruguaySupport.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Atlas/AtlasDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Art/Blandengue/BlandengueDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Resources.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/DiplomacyResponses.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/SenshiUruguayUAUUUB.sql</UpdateDatabase>
+      <UpdateDatabase>Support/UruguaySupport.sql</UpdateDatabase>
+      <UpdateDatabase>Support/Senshi_UruguayDecisions.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Core/SenshiUruguayUAUUUBLua.lua">
+      <Name>SenshiUruguay</Name>
+      <Description>Functions even though the UA UU and UB is all of em</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

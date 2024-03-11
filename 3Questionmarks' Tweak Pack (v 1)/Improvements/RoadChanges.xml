@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 3:30:18 PM -->
+<GameData>
+	<Builds>
+		<Update>
+			<Set Time="200" />
+			<Where Type="BUILD_ROAD" />
+		</Update>
+	</Builds>
+</GameData>

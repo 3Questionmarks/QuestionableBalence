@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:09:54 PM -->
+<GameData>
+
+	<!-- Avante Garde: +2 Culture and +2 Tourism from each Great Work and World Wonder, and 50% more effective Theming Bonuses. -->
+	<Policies>
+		<Update>
+			<Set Level="2" GreatPeopleRateModifier="0" ThemingBonusMultiplier="100" CulturePerWonder="4" />
+			<Where Type="POLICY_OPEN_SOCIETY" />
+		</Update>
+	</Policies>
+	<Policy_GreatWorkYieldChanges>
+		<Row>
+			<PolicyType>POLICY_OPEN_SOCIETY</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Policy_GreatWorkYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_OPEN_SOCIETY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_OPEN_SOCIETY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Avant Garde[ENDCOLOR][NEWLINE]+4 [ICON_CULTURE] Culture from each Great Work and World Wonders provide +4 [ICON_CULTURE] Culture. Theming Bonuses are doubled.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

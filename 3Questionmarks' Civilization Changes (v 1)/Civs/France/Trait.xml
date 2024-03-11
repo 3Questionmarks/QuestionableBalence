@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/1/2015 9:25:16 PM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set CapitalThemingBonusModifier="100" />
+			<Where Type="TRAIT_ENHANCED_CULTURE" />
+		</Update>
+        <Update>
+			<Set CityCultureBonus="3" />
+			<Where Type="TRAIT_ENHANCED_CULTURE" />
+		</Update>
+	</Traits>
+	
+	<!-- Need to remove 3 culture from the palace so you dont start with +4 culture per turn -->
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<BuildingType>BUILDING_FRENCH_PALACE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_FRENCH_PALACE</Type>
+			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
+			<Cost>0</Cost>
+			<Help>TXT_KEY_BUILDING_PALACE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PALACE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PALACE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PALACE_STRATEGY</Strategy>
+			<ArtDefineTag>PALACE</ArtDefineTag>
+			<Capital>true</Capital>
+			<NukeImmune>true</NukeImmune>
+			<MinAreaSize>-1</MinAreaSize>
+			<Defense>250</Defense>
+			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
+			<DisplayPosition>32</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FRENCH_PALACE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FRENCH_PALACE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FRENCH_PALACE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FRENCH_PALACE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>-2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE" />
+		<Row Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE">
+			<Text>+3 [ICON_CULTURE] Culture from cities founded after the [ICON_CAPITAL] Capital and Theming Bonuses are Twice as effective in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/24/2021 3:54:52 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set Cost="600" Combat="75" />
+			<Where Type="UNIT_PARATROOPER" />
+		</Update>
+	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_PARATROOPER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_PARATROOPER</UnitType>
+			<UnitClassType>UNITCLASS_SPECIAL_FORCES</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+</GameData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:38:03 PM -->
+<GameData>
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_SIAMESE_WARELEPHANT" />
+		<Row>
+			<UnitType>UNIT_SIAMESE_WARELEPHANT</UnitType>
+			<PromotionType>PROMOTION_FEARED_ELEPHANT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SIAMESE_WARELEPHANT</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SIAMESE_WARELEPHANT</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+</GameData>

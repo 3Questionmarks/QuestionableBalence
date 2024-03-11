@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2016 3:52:06 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RESOURCE_HARDWOOD">
+			<Text>Hardwood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_HARDWOOD_HELP">
+			<Text>Used by powerful early-game Siege and Naval units and late-game buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_HARDWOOD_TEXT">
+			<Text>Hardwood is wood from dicot angiosperm trees. The term may also be used for the trees from which the wood is derived; these are usually broad-leaved temperate and tropical forests. In temperate and boreal latitudes they are mostly deciduous, but in tropics andsubtropics mostly evergreen. Hardwood contrasts with softwood (which is from gymnosperm trees).[NEWLINE][NEWLINE]Hardwood should not be confused with the term "heartwood", which can be from hardwood or softwood.[NEWLINE][NEWLINE]Hardwoods are produced by angiosperm trees that reproduce by flowers, and have broad leaves. Many species are deciduous. Those of temperate regions lose their leaves every autumn as temperatures fall and are dormant in the winter, but those of tropical regions may shed their leaves in response to seasonal or sporadic periods of drought. Hardwood from deciduous species, such as oak, normally shows annual growth rings, but these may be absent in some tropical hardwoods.[NEWLINE][NEWLINE]Hardwoods have a more complex structure than softwoods and are often much slower growing as a result. The dominant feature separating "hardwoods" from softwoods is the presence of pores, or vessels. The vessels may show considerable variation in size, shape of perforation plates, and structure of cell wall, such as spiral thickenings.[NEWLINE][NEWLINE]As the name suggests, the wood from these trees is generally harder than that of softwoods, but there are significant exceptions. In both groups there is an enormous variation in actual wood hardness, with the range in density in hardwoods completely including that of softwoods; some hardwoods (e.g., balsa) are softer than most softwoods, while yew is an example of a "hard" softwood.[NEWLINE][NEWLINE]Hardwoods are employed in a large range of applications, including fuel, tools, construction, boat building, furniture making, musical instruments, flooring, cooking, barrels, and manufacture of charcoal. Solid hardwood joinery tends to be expensive compared to softwood. In the past, tropical hardwoods were easily available, but the supply of some species, such as Burma teak and mahogany, is now becoming scarce due to over-exploitation. Cheaper "hardwood" doors, for instance, now consist of a thin veneer bonded to a core of softwood, plywood or medium-density fibreboard. Hardwoods may be used in a variety of objects, but are most frequently seen in furniture or musical instruments because of their density which adds to durability, appearance, and performance. Different species of hardwood lend themselves to different end uses or construction processes. This is due to the variety of characteristics apparent in different timbers, including density, grain, pore size, growth and fibre pattern, flexibility and ability to be steam bent. For example, the interlocked grain of elm wood makes it suitable for the making of chair seats where the driving in of legs and other components can cause splitting in other woods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD">
+			<Text>Lumber Yard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_STRATEGY">
+			<Text>Each Lumber Yard provides varying amounts of [ICON_RES_HARDWOOD] Hardwood and [ICON_PRODUCTION] Production based on number of Lumber Mills nearby, a very important strategic resource that early-game Siege and Naval Units require. They can only be built in a city with local Lumber Mills.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_TEXT">
+			<Text>A lumber yard is a location where lumber and wood-related products used in construction projects are processed or stored. Tree have been felled, stored, and processed for human use since the dawn of civilization, but it took time for the industry to formalize. In ancient times only cities needed areas dedicated to large scale lumber storage and processing, usually for large public projects, such as for building ships or the scaffolding of monuments.[NEWLINE][NEWLINE]Generally, timber yards are locations where raw logs and other wood or forest products are processed and stored. The terms "lumber yard" and "timber yard" are sometimes used interchangeably, and timber yards may include additional aspects that lumber yards encompass, and vice versa.[NEWLINE][NEWLINE]Lumber yards store, and may sell, products made at lumber mills. Additional activities include inspection for signs of rot or insect infestation, utilizing stacking techniques to prevent rot from forming, and the removal of bark.[NEWLINE][NEWLINE]Nowadays customers pick up products at the yard themselves or request that an order be built and delivered to them by the lumber yard. Lumber yards are the primary resources for contractors and homeowners when construction material is needed. Saws may also be available to cut boards to a desired length for customers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_DUMMY_HELP">
+			<Text>Must be built in a city with local Lumber Mills. Provides 1 [ICON_RES_HARDWOOD] Hardwood and 1 [ICON_PRODUCTION] Production for every Lumber Mill nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_FIRST_HELP">
+			<Text>Must be built in a city with local Lumber Mills. Provides 1 [ICON_RES_HARDWOOD] Hardwood and 1 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_SECOND_HELP">
+			<Text>Must be built in a city with local Lumber Mills. Provides 2 [ICON_RES_HARDWOOD] Hardwood and 2 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_THIRD_HELP">
+			<Text>Must be built in a city with local Lumber Mills. Provides 3 [ICON_RES_HARDWOOD] Hardwood and 3 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_FOURTH_HELP">
+			<Text>Must be built in a city with local Lumber Mills. Provides 4 [ICON_RES_HARDWOOD] Hardwood and 4 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_FIFTH_HELP">
+			<Text>Must be built in a city with local Lumber Mills. Provides 5 [ICON_RES_HARDWOOD] Hardwood and 5 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_SIXTH_HELP">
+			<Text>Must be built in a city with local Lumber Mills. Provides 6 [ICON_RES_HARDWOOD] Hardwood and 6 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LUMBER_YARD_UNIT">
+			<Text>Lumber Yard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FURNITURE_MAKER">
+			<Text>Furniture Maker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FURNITURE_MAKER_HELP">
+			<Text>+1 [ICON_GOLD] Gold from Forest and Jungle. Requires 3 [ICON_RES_HARDWOOD] Hardwood.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FURNITURE_MAKER_STRATEGY">
+			<Text>The Furniture Maker is an Industiral-Era building which increases the city's output of [ICON_GOLD] Gold. 3 [ICON_RES_HARDWOOD] Hardwood, which is otherwise no longer useful, is consumed when a Furniture Maker is created.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FURNITURE_MAKER_TEXT">
+			<Text>A Furniture Maker is dedicated to the production, and sometimes design, of furniture. Furniture is the mass noun for the movable objects intended to support various human activities such as seating (e.g., chairs, stools and sofas) and sleeping (e.g., beds). Furniture is also used to hold objects at a convenient height for work (as horizontal surfaces above the ground, such as tables and desks), or to store things (e.g., cupboards and shelves). Furniture can be a product of design and is considered a form of decorative art. In addition to furniture's functional role, it can serve a symbolic or religious purpose. It can be made from many materials, including metal, plastic, and wood. Furniture can be made using a variety of woodworking joints which often reflect the local culture.[NEWLINE][NEWLINE]Archeological research shows that Neolithic people used stone to build cupboards, dressers, beds, shelves and seats. Ancient furniture from the 8th-century BC includes tables and serving stands. The furniture of the Middle Ages was usually heavy, oak, and ornamented. Furniture design expanded during the Italian Renaissance of the fourteenth and fifteenth century. The seventeenth century, in both Southern and Northern Europe, was characterized by opulent, often gilded Baroque designs. The nineteenth century is usually defined by revival styles. The first three-quarters of the twentieth century are often seen as the march towards Modernism. One unique outgrowth of post-modern furniture design is a return to natural shapes and textures.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

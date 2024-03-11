@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 2:03:41 PM -->
+<GameData>
+	<Trait_YieldChangesPerTradePartner>
+		<Update>
+			<Set Yield="3" />
+			<Where TraitType="TRAIT_GATEWAY_AFRICA" />
+		</Update>
+		<Row>
+			<TraitType>TRAIT_GATEWAY_AFRICA</TraitType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_GATEWAY_AFRICA</TraitType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_GATEWAY_AFRICA</TraitType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Trait_YieldChangesPerTradePartner>
+	<Trait_YieldChangesIncomingTradeRoute>
+		<Update>
+			<Set Yield="3" />
+			<Where TraitType="TRAIT_GATEWAY_AFRICA" />
+		</Update>
+	</Trait_YieldChangesIncomingTradeRoute>
+	<Traits>
+		<Update>
+			<Set FreeBuilding="BUILDING_CARAVANSARY" />
+			<Where Type="TRAIT_GATEWAY_AFRICA" />
+		</Update>
+	</Traits>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_GATEWAY_AFRICA" />
+			<Set Text="+3 [ICON_FOOD], Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, [ICON_RESEARCH] Science, and [ICON_CULTURE] Culture for each [ICON_INTERNATIONAL_TRADE] Trade Route. The [ICON_INTERNATIONAL_TRADE] Trade Route owners receive +3 [ICON_GOLD] Gold for each [ICON_INTERNATIONAL_TRADE] Trade Route sent to Morocco. Free Caravansary in all cities."/>
+		</Update>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2021 3:11:40 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_TOWN_COUNCIL</Type>
+			<DefaultBuilding>BUILDING_TCS_TOWN_COUNCIL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_TOWN_COUNCIL</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TCS_TOWN_COUNCIL</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_TOWN_COUNCIL</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_TOWN_COUNCIL</Description>
+			<Help>TXT_KEY_BUILDING_TCS_TOWN_COUNCIL_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<PlotCultureCostModifier>-20</PlotCultureCostModifier>
+			<PlotBuyCostModifier>-20</PlotBuyCostModifier>
+			<Happiness>1</Happiness>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TCS_TOWN_COUNCIL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_TOWN_COUNCIL</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_TCS_TOWN_COUNCIL</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_TOWN_COUNCIL</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_TOWN_COUNCIL</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_TOWN_COUNCIL</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TCS_TOWN_COUNCIL">
+			<Text>Town Council</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TCS_TOWN_COUNCIL_HELP">
+			<Text>+2 [ICON_CULTURE] Culture and [ICON_PRODUCTION] Production. -20% [ICON_GOLD] Gold and [ICON_CULTURE] Culture cost of acquiring new tiles.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+</GameData>

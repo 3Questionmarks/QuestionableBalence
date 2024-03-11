@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:32:46 PM -->
+<GameData>
+	<Building_YieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_LONGHOUSE" />
+			<Set Yield="2" />
+		</Update>
+	</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP"/>
+			<Set Text="+1 [ICON_PRODUCTION] Production from each worked Forest and Jungle tile. +10% [ICON_PRODUCTION] Production."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_LONGHOUSE_STRATEGY"/>
+			<Set Text="The Longhouse is the Iroquois unique building, replacing the Workshop. It increases the city's [ICON_PRODUCTION] Production output for each forest and jungle within the city's radius."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GAME_INFO_LONGHOUSE"/>
+			<Set Text="+1 [ICON_PRODUCTION] Production from each worked Forest and Jungle tile. +10% [ICON_PRODUCTION] Production."/>
+		</Update>
+	</Language_en_US>
+</GameData>

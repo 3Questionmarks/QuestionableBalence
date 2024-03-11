@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/9/2020 9:41:46 AM -->
+<GameData>
+	<!-- Naval Stealth Bomber -->
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_NAVAL_STEALTH_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_NAVAL_STEALTH_BOMBER</Description>
+			<DefaultUnit>UNIT_NAVAL_STEALTH_BOMBER</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Type>UNIT_NAVAL_STEALTH_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_NAVAL_STEALTH_BOMBER</Description>
+			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<Class>UNITCLASS_NAVAL_STEALTH_BOMBER</Class>
+			<Cost>1000</Cost>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<RangedCombat>85</RangedCombat>
+			<Range>20</Range>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<Strategy>TXT_KEY_UNIT_NAVAL_STEALTH_BOMBER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_NAVAL_STEALTH_BOMBER</Help>
+			<Civilopedia>TXT_KEY_CIV5_NAVAL_BOMBER_TEXT</Civilopedia>
+			<PrereqTech>TECH_STEALTH</PrereqTech>
+			<Pillage>false</Pillage>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<Mechanized>true</Mechanized>
+			<RangedCombatLimit>500</RangedCombatLimit>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<AirUnitCap>1</AirUnitCap>
+			<MilitaryProduction>true</MilitaryProduction>
+			<MilitarySupport>true</MilitarySupport>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_SUBORBITAL_BOMBER</UnitArtInfo>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>8</UnitFlagIconOffset>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_NAVAL_STEALTH_BOMBER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_NAVAL_STEALTH_BOMBER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NAVAL_STEALTH_BOMBER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NAVAL_STEALTH_BOMBER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_NAVAL_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NAVAL_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_NAVAL_BOMBER_III</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NAVAL_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_EVASION_II</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_NAVAL_STEALTH_BOMBER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NAVAL_STEALTH_BOMBER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_NAVAL_STEALTH_BOMBER">
+			<Text>Naval Stealth Bomber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_NAVAL_STEALTH_BOMBER">
+			<Text>A long-range Air Unit that rains death from above onto enemy ships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NAVAL_STEALTH_BOMBER_STRATEGY">
+			<Text>The Naval Stealth Bomber is a modified Stealth Bomber, It posess the same strength and promotions as the regular Stealth bomber, but also possess the Naval Specilization III promotion; increasing its damage to naval units by 100% but decreasing the damage delt to cities and land units by 33%. use it to desimate enemy navies from afar. See the rules on Aircraft for more information.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

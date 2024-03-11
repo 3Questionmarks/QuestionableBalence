@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/23/2024 8:58:08 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_DIVINE_ESPIONAGE</Type>
+			<Description>TXT_KEY_BELIEF_DIVINE_ESPIONAGE</Description>
+			<ShortDescription>TXT_KEY_BELIEF_DIVINE_ESPIONAGE_SHORT</ShortDescription>
+			<Founder>true</Founder>
+			<SpyPressure>15</SpyPressure>
+		</Row>
+	</Beliefs>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DIVINE_ESPIONAGE</Type>
+			<DefaultBuilding>BUILDING_DIVINE_ESPIONAGE</DefaultBuilding>
+			<Description>TXT_KEY_BELIEF_DIVINE_ESPIONAGE_SHORT</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DIVINE_ESPIONAGE</Type>
+			<BuildingClass>BUILDINGCLASS_DIVINE_ESPIONAGE</BuildingClass>
+			<Cost>-1</Cost>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<Description>TXT_KEY_BELIEF_DIVINE_ESPIONAGE_SHORT</Description>
+			<Help>TXT_KEY_BUILDING_BUILDING_DIVINE_ESPIONAGE_HELP</Help>
+			<ExtraSpies>1</ExtraSpies>
+		</Row>
+	</Buildings>
+
+	<Belief_FounderFreeBuildingClassCapital>
+		<Row>
+			<BeliefType>BELIEF_DIVINE_ESPIONAGE</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_DIVINE_ESPIONAGE</BuildingClassType>
+		</Row>
+	</Belief_FounderFreeBuildingClassCapital>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_DIVINE_ESPIONAGE">
+			<Text>Immediately gain a [ICON_SPY] Spy and [ICON_SPY] Spies generate +15 Religious Pressure in cities with at least one follower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DIVINE_ESPIONAGE_SHORT">
+			<Text>Divine Espionage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BUILDING_DIVINE_ESPIONAGE_HELP">
+			<Text>+1 Spy</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

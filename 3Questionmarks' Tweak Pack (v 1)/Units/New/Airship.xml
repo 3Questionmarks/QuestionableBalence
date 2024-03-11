@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/9/2020 1:22:09 PM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_AIRSHIP</Type>
+			<Description>TXT_KEY_UNIT_AIRSHIP_CUS</Description>
+			<DefaultUnit>UNIT_AIRSHIP</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_AIRSHIP</Class>
+			<Type>UNIT_AIRSHIP</Type>
+			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+			<Combat>38</Combat>
+			<Cost>250</Cost>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AIRSHIP_CUS</Description>
+			<Civilopedia>TXT_KEY_UNIT_AIRSHIP_CUS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AIRSHIP_CUS_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_AIRSHIP_CUS</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<ObsoleteTech>TECH_COMBINED_ARMS</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_ANTI_TANK_GUN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMOKEY_STEAM_AIRSHIP_LEVEL_1</UnitArtInfo>
+			<UnitFlagIconOffset>7</UnitFlagIconOffset>
+			<UnitFlagAtlas>EXPANSION_SCEN_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<IconAtlas>EXPANSION_SCEN_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	
+ <!-- Upgrading Lancers into Airships (needs to be before the upgrade for the airship gets defined else it will upgrade into itself -->
+	<Units>
+		<Update>
+			<Where Class="UNITCLASS_LANCER"/>
+			<Set ObsoleteTech="TECH_STEAM_POWER"/>
+		</Update>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Update>
+			<Where UnitClassType="UNITCLASS_ANTI_TANK_GUN"/>
+			<Set UnitClassType="UNITCLASS_AIRSHIP"/>
+		</Update>
+	</Unit_ClassUpgrades>
+<!-- Upgrading Airships into anti tank guns -->
+	
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<UnitClassType>UNITCLASS_ANTI_TANK_GUN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+	</Unit_Flavors>
+	
+	<!-- Needed to remake the promotions to make sure that the promotions are lost with upgrade, wouldn't want a hovering anti-tank gun now would we.-->
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_FLAT_MOVEMENT_COST_A</Type>
+			<Description>TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST</Description>
+			<Help>TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<FlatMovementCost>true</FlatMovementCost>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_FLAT_MOVEMENT_COST</PediaEntry>
+		</Row>
+
+		<Row>
+			<Type>PROMOTION_HOVERING_UNIT_A</Type>
+			<Description>TXT_KEY_PROMOTION_HOVERING_UNIT</Description>
+			<Help>TXT_KEY_PROMOTION_HOVERING_UNIT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CanMoveImpassable>true</CanMoveImpassable>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<HoveringUnit>true</HoveringUnit>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_HOVERING_UNIT</PediaEntry>
+            <IgnoreZOC>true</IgnoreZOC>
+		</Row>
+	</UnitPromotions>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST_A</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT_A</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_AIRSHIP</UnitClassType>
+			<UnitType />
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<UnitGameplay2DScripts>
+		<Row UnitType="UNIT_AIRSHIP">
+			<SelectionSound>AS2D_SELECT_BOMBER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_BOMBER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_CUS">
+			<Text>Airship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_CUS_STRATEGY">
+			<Text>The airship is an hovering unit that is sligthly weaker than other industrial era units, but receives a hefty combat bonus when figthing Land ironclads or tanks. It can move over all terrain type without penalty but receives damage when ending its turn on a mountain and must embark to cross oceans. It requires and consumes 1 Coal when produced.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_CUS_PEDIA">
+			<Text>
+				An airship or dirigible balloon is a type of aerostat or lighter-than-air aircraft that can navigate through the air under its own power. Aerostats gain their lift from a lifting gas that is less dense than the surrounding air.[NEWLINE]In early dirigibles, the lifting gas used was hydrogen, due to its high lifting capacity and ready availability. Helium gas is not flammable, unlike hydrogen, but is rare and relatively expensive. Significant amounts were first discovered in the United States and for a while helium was only available for airships in that country. Most airships built since the 1960s have used helium, though some have used hot air.[NEWLINE]The envelope of an airship may form the gasbag, or it may contain a number of gas-filled cells. An airship also has engines, crew, and optionally also payload accommodation, typically housed in one or more gondolas suspended below the envelope.[NEWLINE]The main types of airship are non-rigid, semi-rigid, and rigid.[3] Non-rigid airships, often called "blimps", rely on internal pressure to maintain their shape. Semi-rigid airships maintain the envelope shape by internal pressure, but have some form of supporting structure, such as a fixed keel, attached to it. Rigid airships have an outer structural framework that maintains the shape and carries all structural loads, while the lifting gas is contained in one or more internal gasbags or cells.[4] Rigid airships were first flown by Count Ferdinand von Zeppelin and the vast majority of rigid airships built were manufactured by the firm he founded, Luftschiffbau Zeppelin. As a result, rigid airships are often called zeppelins.[NEWLINE]Airships were the first aircraft capable of controlled powered flight, and were most commonly used before the 1940s; their use decreased as their capabilities were surpassed by those of aeroplanes. Their decline was accelerated by a series of high-profile accidents, including the 1930 crash and burning of the British R101 in France, the 1933 and 1935 storm-related crashes of the twin airborne aircraft carrier U.S. Navy helium-filled rigids, the USS Akron and USS Macon respectively, and the 1937 burning of the German hydrogen-filled Hindenburg. From the 1960s, helium airships have been used where the ability to hover for a long time outweighs the need for speed and manoeuvrability, such as advertising, tourism, camera platforms, geological surveys and aerial observation. --Wikipedia
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AIRSHIP_CUS">
+			<Text>Industrial Era unit wich specialized in figthing Land ironclads and tanks and is unaffected by terrain movement restrictions or bonus defense.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

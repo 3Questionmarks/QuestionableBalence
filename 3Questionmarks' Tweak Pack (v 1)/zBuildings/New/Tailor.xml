@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/28/2014 6:13:34 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DJSH_TAILOR</Type>
+			<DefaultBuilding>BUILDING_DJSH_TAILOR</DefaultBuilding>
+			<Description>Tailor</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DJSH_TAILOR</Type>
+			<BuildingClass>BUILDINGCLASS_DJSH_TAILOR</BuildingClass>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<Description>Tailor</Description>
+			<Civilopedia> tailor is a person who makes, repairs, or alters clothing professionally, especially suits and men's clothing. Although the term dates to the thirteenth century, tailor took on its modern sense in the late eighteenth century, and now refers to makers of men's and women's suits, coats, trousers, and similar garments, usually of wool, linen, or silk.</Civilopedia>
+			<Strategy>Increases [ICON_GOLDEN_AGE] Golden Age Length by 15% and this City's [ICON_GOLD] Gold output. The Tailor requires a Weavery in the city.</Strategy>
+			<Help>Increases [ICON_GOLDEN_AGE] Golden Age Length by 15%. Requires a Weavery in this city.</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<GoldenAgeModifier>15</GoldenAgeModifier>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>RES_BUILDING_DJSH_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TAILOR</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TAILOR</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_DJSH_WEAVERY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TAILOR</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+</GameData>

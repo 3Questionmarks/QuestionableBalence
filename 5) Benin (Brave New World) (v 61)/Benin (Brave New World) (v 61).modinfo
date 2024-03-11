@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5ed9bb0a-a339-4841-91b4-7703beae59e4" version="61">
+  <Properties>
+    <Name>Benin (Brave New World)</Name>
+    <Teaser>Adds Benin to the base game. Requires the Brave New World expansion.</Teaser>
+    <Description>Adds Benin to the base game.
+[NEWLINE][NEWLINE]~~~
+[NEWLINE][NEWLINE]Note: 
+[NEWLINE]- Requires the Brave New World expansion.
+[NEWLINE]- Updates to the Mod will most likely break save games. Please do not update until you are ready to begin a new game.
+[NEWLINE][NEWLINE]~~~
+[NEWLINE][NEWLINE]Leader: Ewuare
+[NEWLINE][NEWLINE]UA: Shield of the Warrior King
+[NEWLINE]UU: Isienmwenro
+[NEWLINE]UI: Iya</Description>
+    <Authors>Tomatekh</Authors>
+    <SpecialThanks>Leugi, Janboruta, LastSword, Moriboe</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=472751</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>59</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Events and Decisions" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="Cultural Diversity" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Cultural Influence" />
+    <Mod id="43868e8d-de88-48a1-a8d9-ce144e07f5e0" minversion="0" maxversion="999" title="ExCE" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="C. Patch" />
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="0" maxversion="999" title="C. Balance Patch" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D." />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="Piety" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment" />
+    <Mod id="d99bf7aa-51ac-4bef-bd88-d765b28e260e" minversion="0" maxversion="999" title="Sovereignty" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="Mercenaries" />
+  </References>
+  <Blocks>
+    <Mod id="2626e6a3-a0fd-478d-a5ab-0d9dee67ed0a" minversion="0" maxversion="999" title="YnAEMP Patch" />
+  </Blocks>
+  <Files>
+    <File md5="5390C6AA7C0C6CEAC487BDA4CBF37E6B" import="1">Art/Benin UU/Isienmwenro/Isienmwenro.dds</File>
+    <File md5="3D3E76B632A8C0B15612ACB543BBFC45" import="1">Art/Benin UU/Isienmwenro/Isienmwenro.fbx</File>
+    <File md5="A5E0C59A24474E99FEEAC3E137BDA0DA" import="1">Art/Benin UU/Isienmwenro/Isienmwenro.fxsxml.xml</File>
+    <File md5="7E27E43EB2EF2878BFEA35BBC81BB4CC" import="1">Art/Benin UU/Isienmwenro/Isienmwenro.gr2</File>
+    <File md5="25B7A6E0FF9989B688C999080428D86C" import="1">Art/Benin UU/Isienmwenro/Isienmwenro.sql</File>
+    <File md5="C7EF0BA724CFC6604161DECE09F39D2B" import="1">Art/Benin UU/Isienmwenro/Isienmwenro_sref.dds</File>
+    <File md5="91D544736EB28518AD1C1BDF33974386" import="1">Art/Benin UU/Promotion/BeninPromotion256.dds</File>
+    <File md5="AEF1CCEAA8EEB371EF3C9DF08CB8F951" import="1">Art/Benin UU/Promotion/BeninPromotion32.dds</File>
+    <File md5="8D0B84EAD08423349DA7F140D4CA2754" import="1">Art/Benin UU/Promotion/BeninPromotion45.dds</File>
+    <File md5="4ABD95D7986D3E40AEDA2802C0B9C078" import="1">Art/Benin UU/Promotion/BeninPromotion64.dds</File>
+    <File md5="980EEC306E6E8C7336C8D0C91E967FC3" import="1">Art/BeninDoMMod.dds</File>
+    <File md5="D38BD13C6A84FEB801D9BB80D4E5AB29" import="1">Art/Benin Atlas Mod/BeninAlphaAtlas128.dds</File>
+    <File md5="7E6E6495D6E2B59585B4C36F374E7E55" import="1">Art/Benin Atlas Mod/BeninAlphaAtlas16.dds</File>
+    <File md5="4725B8F46A3BF2D983325345CC19FD5E" import="1">Art/Benin Atlas Mod/BeninAlphaAtlas24.dds</File>
+    <File md5="767E10D101138B5989463187127A5325" import="1">Art/Benin Atlas Mod/BeninAlphaAtlas32.dds</File>
+    <File md5="2D3C2FF02D71D29905699D9DBD389C7D" import="1">Art/Benin Atlas Mod/BeninAlphaAtlas48.dds</File>
+    <File md5="825F845C789D35C6A8FD3D8F63CEBF01" import="1">Art/Benin Atlas Mod/BeninAlphaAtlas64.dds</File>
+    <File md5="6E2EA117610DA19393769EDB4E6D6746" import="1">Art/Benin Atlas Mod/BeninAtlas128.dds</File>
+    <File md5="E9D6A73CA5757E7D6952F60803759682" import="1">Art/Benin Atlas Mod/BeninAtlas214.dds</File>
+    <File md5="052D92A0C14284FCC57C7D77AB750AED" import="1">Art/Benin Atlas Mod/BeninAtlas256.dds</File>
+    <File md5="A51D84398F1799AB437DFD128FD8CB87" import="1">Art/Benin Atlas Mod/BeninAtlas32.dds</File>
+    <File md5="6ACC211693F931647B04BCCD2CA7E43E" import="1">Art/Benin Atlas Mod/BeninAtlas45.dds</File>
+    <File md5="D00445CEC2A096EE7209D26674BCB2D1" import="1">Art/Benin Atlas Mod/BeninAtlas64.dds</File>
+    <File md5="ADDC90C9C6EBA27B23C93D2443B79CF8" import="1">Art/Benin Atlas Mod/BeninAtlas80.dds</File>
+    <File md5="4FCCD07D0328AC0A283E8614814B7FA7" import="1">Art/Benin Atlas Mod/BeninUnitAlphaAtlas.dds</File>
+    <File md5="C34CBE551568D2FCB9B0FBF15F36AC97" import="1">Art/Benin Atlas Mod/Benin_Build_45.dds</File>
+    <File md5="0788EB31D5928E60D955C2DC59233EF9" import="1">Art/Benin Atlas Mod/Benin_Build_64.dds</File>
+    <File md5="EB2365AB37E26FFC3604E15A02EA10D1" import="1">Art/Benin Atlas Mod/Benin_Gold_Build_45.dds</File>
+    <File md5="B201A6A25B641177597AC694407A18F9" import="1">Art/Benin Atlas Mod/Benin_Gold_Build_64.dds</File>
+    <File md5="56F0A6AAC74301E49C46242112523BF5" import="1">Art/Benin Atlas Mod/sv_Benin_Unit_Mod.dds</File>
+    <File md5="9FB14EE5C5332007FD5B44F3576D5038" import="1">Art/Benin Atlas Mod/sv_Iya.dds</File>
+    <File md5="90082AB827FB83B656AA6DA31DB637C8" import="1">Art/BeninDiploMod.dds</File>
+    <File md5="228EAB54DADCADF743B2907183E9C776" import="1">Art/BeninMapMod.dds</File>
+    <File md5="A3284910F4E7124174A4C2EE88305CD3" import="0">Art/Improvement/Benin Iya Mod.sql</File>
+    <File md5="A2904EA551762E5F7CC23F1D3157FC44" import="1">Art/Improvement/iya.fxsxml</File>
+    <File md5="DA7043A540E4B3319257BB0D98B16004" import="1">Art/Improvement/iya.gr2</File>
+    <File md5="BC4393D47E73582CC397805CDD6EF125" import="1">Art/Improvement/iya_diff.dds</File>
+    <File md5="73FD56FBA7581B9C0BCD8526EC5B2ED0" import="1">Art/Improvement/iya_hb.fxsxml</File>
+    <File md5="2F384401A70882279FD67C96F8B02C55" import="1">Art/Improvement/iya_hb.gr2</File>
+    <File md5="E61A40BF580F6143392B661A5A0D7339" import="1">Art/Improvement/iya_pl.fxsxml</File>
+    <File md5="9F8BCE8070DD658D61543E683EAF27B0" import="1">Art/Improvement/iya_pl.gr2</File>
+    <File md5="E3C50EC39217E17F2975E8AF1A033F1B" import="1">Art/Improvement/iya_pl_diff.dds</File>
+    <File md5="867E8601BB406D4AD5CB069B7A9A82E9" import="0">Decisions/Benin Decisions SQL.sql</File>
+    <File md5="1654D08F75447C5FF09FBFBCEE25C022" import="0">Decisions/Benin Decisions Support.xml</File>
+    <File md5="29E6AE77447CC7D97ACEFCA0B1357E09" import="1">Decisions/TomatekhBeninDecisions.lua</File>
+    <File md5="99B93E56197340C5E4749D33F649726E" import="0">Lua/Benin Check.lua</File>
+    <File md5="1FE57A8F78A2147105089A3265CCA762" import="1">Lua/Benin Improvements Mod.lua</File>
+    <File md5="E13ABE08A5F90409019B1991663FE879" import="1">Sounds/EwuarePeace.mp3</File>
+    <File md5="5B37255AC4C119C57958F4AEBB7BE2FD" import="1">Sounds/NzingaPeace1.mp3</File>
+    <File md5="3E3A3E3A7AB6FD462AC0E0B9F6FD133D" import="0">SQL/Benin Mod Support.sql</File>
+    <File md5="25B7A6E0FF9989B688C999080428D86C" import="1">SQL/Benin UU Mod.sql</File>
+    <File md5="CF045D95215018C460492DBEEFDC912D" import="0">XML/Art/Benin Atlas Mod.xml</File>
+    <File md5="3325F6BFC1E33970B09094BC873E8097" import="0">XML/Art/Benin Strategic View Mod..xml</File>
+    <File md5="F414EFA3D44337F04673A93642F619D8" import="1">XML/Art/Benin_Leader_Scene_Mod.xml</File>
+    <File md5="389461BF8F5352AC046D0E0B0F491DC2" import="1">XML/Art/Civ5ArtDefines_UnitMembers.xml</File>
+    <File md5="5D52FD1AB2BB4FC9F938C0AC9B839FE1" import="1">XML/Art/Civ5ArtDefines_Units.xml</File>
+    <File md5="364A72DA75C50D0BB74DBA9BF7822931" import="0">XML/Buildings/Benin Building Class Mod.xml</File>
+    <File md5="9AB3E1D118E3DB74D14E4A7E3AD38F92" import="0">XML/Buildings/Benin Buildings Mod.xml</File>
+    <File md5="5F62E53A53655CF9DA93E3140EA5574D" import="0">XML/Civilization/Benin Civilizations Mod.xml</File>
+    <File md5="3B56E94171D458C05A9A4EB840DE37DB" import="0">XML/Civilization/Benin Leader Mod.xml</File>
+    <File md5="529BC5C1CAFD471F5E40F1D9BD85CCF2" import="0">XML/Civilization/Benin Trait Mod.xml</File>
+    <File md5="C189B5A2B83798B43C40AFC0E2CDF64A" import="0">XML/Diplomacy/Benin Diplomacy Mod.xml</File>
+    <File md5="74C8675252160EC60834133EEB5F8004" import="0">XML/Game Info/Benin Policy Mod.xml</File>
+    <File md5="BA0116514889E845E1D19D81E19CF860" import="0">XML/Sounds/Benin Sound Mod.xml</File>
+    <File md5="02D7192EE9C4BD1C03D7A3CF8A7A1FB3" import="0">XML/Terrain/Benin Improvements Mod.xml</File>
+    <File md5="A0DF9148B3430757696142D8FC08457C" import="0">XML/Text/Benin Game Text Mod.xml</File>
+    <File md5="3884B7B34F8544E2FA1A05DA048326FC" import="0">XML/Text/Non English XML Tags/Benin Game Text DE_DE.xml</File>
+    <File md5="60D171AF9F58DBF08B18ABC023CA9FCF" import="0">XML/Text/Non English XML Tags/Benin Game Text ES_ES.xml</File>
+    <File md5="D4C19DCE355CF18B404739BC1B73D47A" import="0">XML/Text/Non English XML Tags/Benin Game Text FR_FR.xml</File>
+    <File md5="CE0A1DC74A68D1BE91BB43676EC11EF5" import="0">XML/Text/Non English XML Tags/Benin Game Text IT_IT.xml</File>
+    <File md5="5D9893ED445D88B71EE4D20411364363" import="0">XML/Text/Non English XML Tags/Benin Game Text JA_JP.xml</File>
+    <File md5="B7A243DED3676460E27B7E8B352883BC" import="0">XML/Text/Non English XML Tags/Benin Game Text KO_KR.xml</File>
+    <File md5="FBD754C2F1B6C972F019DC5FE3F90CBB" import="0">XML/Text/Non English XML Tags/Benin Game Text PL_PL.xml</File>
+    <File md5="F721096F038A81FDBACF0F8831DED6F5" import="0">XML/Text/Non English XML Tags/Benin Game Text RU_RU.xml</File>
+    <File md5="711F258938342E2DF94C62004B38E09B" import="0">XML/Unit/Benin Promotions Mod.xml</File>
+    <File md5="36C76D9D3517FC51CCDBA24670B76D53" import="0">XML/Unit/Benin Units Mod.xml</File>
+    <File md5="F82E1017CD5DA2C94D41BD542B6031B5" import="0">YnAEMP/Benin YnAEMP Compatability.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/Benin UU Mod.sql</UpdateDatabase>
+      <UpdateDatabase>Art/Improvement/Benin Iya Mod.sql</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Benin Building Class Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Benin Buildings Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art/Benin Atlas Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Art/Benin Strategic View Mod..xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization/Benin Civilizations Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization/Benin Leader Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization/Benin Trait Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy/Benin Diplomacy Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Sounds/Benin Sound Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Benin Game Text Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Benin Game Text DE_DE.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Benin Game Text ES_ES.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Benin Game Text FR_FR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Benin Game Text IT_IT.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Benin Game Text JA_JP.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Benin Game Text KO_KR.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Benin Game Text PL_PL.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Non English XML Tags/Benin Game Text RU_RU.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/Benin Improvements Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Game Info/Benin Policy Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/Benin Promotions Mod.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Unit/Benin Units Mod.xml</UpdateDatabase>
+      <UpdateDatabase>YnAEMP/Benin YnAEMP Compatability.sql</UpdateDatabase>
+      <UpdateDatabase>Decisions/Benin Decisions SQL.sql</UpdateDatabase>
+      <UpdateDatabase>Decisions/Benin Decisions Support.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/Benin Mod Support.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Benin Check.lua">
+      <Name>Benin</Name>
+      <Description>Benin</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

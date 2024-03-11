@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
+<GameData>
+
+	<!-- +5 Food, +5 Production, +5 Gold, +5 Culture, +5 Science, +5 Faith, and +5 Happiness in the Capital. -->
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_GOD_KING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+        <Row>
+            <BeliefType>BELIEF_GOD_KING</BeliefType>
+            <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+            <YieldType>YIELD_PRODUCTION</YieldType>
+            <YieldChange>5</YieldChange>
+        </Row>
+        <Row>
+            <BeliefType>BELIEF_GOD_KING</BeliefType>
+            <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+            <YieldType>YIELD_GOLD</YieldType>
+            <YieldChange>5</YieldChange>
+        </Row>
+        <Row>
+            <BeliefType>BELIEF_GOD_KING</BeliefType>
+            <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+            <YieldType>YIELD_CULTURE</YieldType>
+            <YieldChange>5</YieldChange>
+        </Row>
+        <Row>
+            <BeliefType>BELIEF_GOD_KING</BeliefType>
+            <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+            <YieldType>YIELD_SCIENCE</YieldType>
+            <YieldChange>5</YieldChange>
+        </Row>
+        <Row>
+            <BeliefType>BELIEF_GOD_KING</BeliefType>
+            <BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+            <YieldType>YIELD_FAITH</YieldType>
+            <YieldChange>5</YieldChange>
+        </Row>
+	</Belief_BuildingClassYieldChanges>
+    
+	<Belief_BuildingClassHappiness>
+		<Row>
+			<BeliefType>BELIEF_GOD_KING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<Happiness>5</Happiness>
+		</Row>
+	</Belief_BuildingClassHappiness>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_GOD_KING" />
+		<Row Tag="TXT_KEY_BELIEF_GOD_KING">
+			<Text>+5 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, [ICON_CULTURE] Culture, [ICON_RESEARCH] Science, [ICON_PEACE] Faith, and [ICON_HAPPINESS_1] Happiness in the [ICON_CAPITAL] Capital City.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

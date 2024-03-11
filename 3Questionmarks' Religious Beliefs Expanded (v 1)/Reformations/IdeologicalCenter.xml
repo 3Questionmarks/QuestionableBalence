@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-26 23:38:28 -->
+<GameData>
+
+	<!-- May purchase a ideological palace with faith gives you a golden age and an ideology. IDEOLOGICAL_PALACE -->
+	
+	<!-- Building -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_IDEOLOGICAL_PALACE</Type>
+			<DefaultBuilding>BUILDING_IDEOLOGICAL_PALACE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_IDEOLOGICAL_PALACE</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_IDEOLOGICAL_PALACE</Type>
+			<BuildingClass>BUILDINGCLASS_IDEOLOGICAL_PALACE</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>1000</FaithCost>
+			<UnlockedByBelief>true</UnlockedByBelief>
+			<Description>TXT_KEY_BUILDING_IDEOLOGICAL_PALACE</Description>
+			<Help>TXT_KEY_BUILDING_IDEOLOGICAL_PALACE_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_COLLEGE</ArtDefineTag>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<XBuiltTriggersIdeologyChoice>1</XBuiltTriggersIdeologyChoice>
+			<GoldenAge>1</GoldenAge>
+			<GoldenAgeModifier>50</GoldenAgeModifier>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_IDEOLOGICAL_PALACE</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IDEOLOGICAL_PALACE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IDEOLOGICAL_PALACE</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IDEOLOGICAL_PALACE</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IDEOLOGICAL_PALACE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IDEOLOGICAL_PALACE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Belief_BuildingClassFaithPurchase>
+		<Row>
+			<BeliefType>BELIEF_JESUIT_EDUCATION</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_IDEOLOGICAL_PALACE</BuildingClassType>
+		</Row>
+	</Belief_BuildingClassFaithPurchase>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION" />
+		<Row Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION">
+			<Text>You can use a large amount of [ICON_PEACE] Faith to purchase the Ideological Palace, which increases the length of [ICON_GOLDEN_AGE] Golden Ages by 50%, and when constructed starts a [ICON_GOLDEN_AGE] Golden Age and allows you to choose an Ideology.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_JESUIT_EDUCATION_SHORT">
+			<Text>Ideological Center</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_IDEOLOGICAL_PALACE">
+			<Text>Ideological Palace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_IDEOLOGICAL_PALACE_HELP">
+			<Text>[ICON_GOLDEN_AGE] Golden Ages last 50% longer. Starts a [ICON_GOLDEN_AGE] Golden Age and unlocks an Ideology for your civilization.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

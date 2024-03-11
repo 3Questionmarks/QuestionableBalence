@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 3:37:45 PM -->
+<GameData>
+	<!-- Pathfinder has been made cheaper. Starts with scouting 1 and survivalism 1 -->
+	<Units>
+		<Update>
+			<Set Cost="25"/>
+			<Where Type="UNIT_SHOSHONE_PATHFINDER" />
+		</Update>
+	</Units>
+	<Unit_FreePromotions>
+		<!-- Unit doesnt need Goody Hut promotion cuz that is part of the ability now - give free scouting and survivalism to compensate -->
+		<Delete UnitType="UNIT_SHOSHONE_PATHFINDER" />
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+</GameData>

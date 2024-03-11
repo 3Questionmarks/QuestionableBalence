@@ -1,0 +1,1718 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/28/2024 12:38:38 PM -->
+<GameData>
+	<!-- Bob Ross -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_BOB_ROSS</UniqueName>
+			<GreatWorkType>GREAT_WORK_EVENING_SPLENDOR</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_EVENING_SPLENDOR</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_EVENING_SPLENDOR</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>EveningSplendor.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BOB_ROSS">
+			<Text>Bob Ross</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_EVENING_SPLENDOR">
+			<Text>Evening Splendor</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- John Carmack -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JOHN_CARMACK</UniqueName>
+			<GreatWorkType>GREAT_WORK_QUAKE</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_QUAKE</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_QUAKE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>Quake.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHN_CARMACK">
+			<Text>John Carmack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUAKE">
+			<Text>Quake</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- John Romero -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JOHN_ROMERO</UniqueName>
+			<GreatWorkType>GREAT_WORK_DOOM</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_DOOM</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>GREAT_WORK_DOOM</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>Doom.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHN_ROMERO">
+			<Text>John Romero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_DOOM">
+			<Text>DOOM</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Satoshi Tajiri -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_SATOSHI_TAJIRI</UniqueName>
+			<GreatWorkType>GREAT_WORK_POKEMON</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_POKEMON</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_POKEMON</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>Pokemon.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SATOSHI_TAJIRI">
+			<Text>Satoshi Tajiri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_POKEMON">
+			<Text>Pokemon</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Shigeru Miyamoto -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_SHIGERU_MIYAMOTO</UniqueName>
+			<GreatWorkType>GREAT_WORK_MARIO</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_MARIO</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_MARIO</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>Mario.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SHIGERU_MIYAMOTO">
+			<Text>Shigeru Miyamoto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MARIO">
+			<Text>Mario</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- VincentVanGogh -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_VINCENT_VAN_GOGH</UniqueName>
+			<GreatWorkType>GREAT_WORK_STARRY_NIGHT</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_STARRY_NIGHT</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_STARRY_NIGHT</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>StarryNight.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VINCENT_VAN_GOGH">
+			<Text>Vincent van Gogh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_STARRY_NIGHT">
+			<Text>Starry Night</Text>
+		</Row>
+	</Language_en_US>
+
+	<Unit_UniqueNames>
+		<!-- Great Artists -->
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AFFANDI</UniqueName>
+			<GreatWorkType>GREAT_WORK_GREAT_WALL_OF_CHINA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_MARCEL_DUCHAMP</UniqueName>
+			<GreatWorkType>GREAT_WORK_NUDE_DESCENDING_A_STAIRCASE_NO_2</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_MAX_ERNST</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_TRIUMPH_OF_SURREALISM</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JASPER_JOHNS</UniqueName>
+			<GreatWorkType>GREAT_WORK_ZERO_THROUGH_NINE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_M_C_ESCHER</UniqueName>
+			<GreatWorkType>GREAT_WORK_ASCENDING_AND_DESCENDING</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_EDVARD_MUNCH</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_SCREAM</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JACKSON_POLLOCK</UniqueName>
+			<GreatWorkType>GREAT_WORK_NO_1</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_SALVADOR_DALI</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_PERSISTENCE_OF_MEMORY</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_FRANCIS_BACON</UniqueName>
+			<GreatWorkType>GREAT_WORK_STUDY_AFTER_VELAZQUEZS_PORTRAIT_OF_POPE_INNOCENT_X</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_WASSILY_KANDINSKY</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_BLUE_RIDER</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_CHARLES_DEMUTH</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_FIGURE_5_IN_GOLD</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+	
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_WASSILY_KANDINSKY</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_BLUE_RIDER</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_CHARLES_DEMUTH</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_FIGURE_5_IN_GOLD</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_THEOPHANES</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_DORMITION</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_GEORGES_BRAQUE</UniqueName>
+			<GreatWorkType>GREAT_WORK_CLARINET_AND_BOTTLE_OF_RUM_ON_A_MANTLEPIECE</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_FRANZ_MARC</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_FOX</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_GEORGES_ROUAULT</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_OLD_KING</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_UMBERTO_BOCCIONI</UniqueName>
+			<GreatWorkType>GREAT_WORK_STATES_OF_MIND_I_THE_FAREWELLS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PARMIGIANINO</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_CONVERSION_OF_ST_PAUL</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ROSSO_FIORENTINO</UniqueName>
+			<GreatWorkType>GREAT_WORK_PLAYING_PUTTO_MUSICIAN_ANGEL</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JEAN_AUGUSTE_DOMINIQUE_INGRES</UniqueName>
+			<GreatWorkType>GREAT_WORK_LA_GRANDE_ODALISQUE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PAUL_SIGNAC</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_PAPAL_PALACE_AVIGNON</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ANDY_WARHOL</UniqueName>
+			<GreatWorkType>GREAT_WORK_CHE_GUEVERA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ROY_LICHTENSTEIN</UniqueName>
+			<GreatWorkType>GREAT_WORK_CRYING_GIRL</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ROBERT_RAUSCHENBERG</UniqueName>
+			<GreatWorkType>GREAT_WORK_BED</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_HENRI_MATISSE</UniqueName>
+			<GreatWorkType>GREAT_WORK_DANCE_II</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_MARC_CHAGALL</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_BIRTHDAY</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JOAN_MIRO</UniqueName>
+			<GreatWorkType>GREAT_WORK_HARLEQUINS_CARNIVAL</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ALBRECHT_DURER</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_KNIGHT_DEATH_AND_THE_DEVIL</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_HIERONYMUS_BOSCH</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_GARDEN_OF_EARTHLY_DELIGHTS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_NORMAN_ROCKWELL</UniqueName>
+			<GreatWorkType>GREAT_WORK_BOY_AND_GIRL_GAZING_AT_THE_MOON</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_WILLIAM_TURNER</UniqueName>
+			<GreatWorkType>GREAT_WORK_RAIN_STEAM_AND_SPEED_THE_GREAT_WESTERN_RAILWAY</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_MARK_ROTHKO</UniqueName>
+			<GreatWorkType>GREAT_WORK_ORANGE_AND_YELLOW</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PIET_MONDRIAN</UniqueName>
+			<GreatWorkType>GREAT_WORK_BROADWAY_BOOGIE_WOOGIE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_GUSTAVE_DORE</UniqueName>
+			<GreatWorkType>GREAT_WORK_PAOLO_AND_FRANCESCA_II</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_MASACCIO</UniqueName>
+			<GreatWorkType>GREAT_WORK_BAPTISM_OF_THE_NEOPHYTES</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_GUSTAVE_COURBET</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_MAN_MADE_MAD_BY_FEAR</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_NICOLAS_POUSSIN</UniqueName>
+			<GreatWorkType>GREAT_WORK_SPRING_THE_EARTHLY_PARADISE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_WILLEM_DE_KOONING</UniqueName>
+			<GreatWorkType>GREAT_WORK_WOMAN</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PAUL_KLEE</UniqueName>
+			<GreatWorkType>GREAT_WORK_AD_PARNASSUM</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_KAZIMIR_MALEVICH</UniqueName>
+			<GreatWorkType>GREAT_WORK_BLACK_SQUARE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_EDWARD_HOPPER</UniqueName>
+			<GreatWorkType>GREAT_WORK_NIGHTHAWKS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JEAN_LOUIS_THEODORE_GERICAULT</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_RAFT_OF_THE_MEDUSA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_CIMABUE</UniqueName>
+			<GreatWorkType>GREAT_WORK_KRISTI_GRIPANDE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JAMES_ENSOR</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_OYSTER_EATER</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_EL_LISSITZKY</UniqueName>
+			<GreatWorkType>GREAT_WORK_BEAT_THE_WHITES_WITH_THE_RED_WEDGE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_EGON_SCHIELE</UniqueName>
+			<GreatWorkType>GREAT_WORK_FIGHTER</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_RENE_MAGRITTE</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_SON_OF_MAN</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_GERHARD_RICHTER</UniqueName>
+			<GreatWorkType>GREAT_WORK_ABSTRACT_PAINTING_780_1</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_FERNAND_LEGER</UniqueName>
+			<GreatWorkType>GREAT_WORK_SOLDIER_WITH_A_PIPE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_SAM_WEBER</UniqueName>
+			<GreatWorkType>GREAT_WORK_FORESTER</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_QUINTEN_MATSYS</UniqueName>
+			<GreatWorkType>GREAT_WORK_A_GROTESQUE_OLD_WOMAN</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_BENITO_QUINQUELA_MARTIN</UniqueName>
+			<GreatWorkType>GREAT_WORK_SHIP_UNDER_REPAIR</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_GEBROEDERS_VAN_LIMBURG</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_ANATOMY_OF_MAN</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_TOM_THOMSON</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_JACK_PINE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JOHN_SINGER_SARGENT</UniqueName>
+			<GreatWorkType>GREAT_WORK_HEAD_OF_A_CAPRI_GIRL</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AN_GYEON</UniqueName>
+			<GreatWorkType>GREAT_WORK_DREAM_JOURNEY_TO_THE_PEACH_BLOSSOM_LAND</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PIERO_DI_COSIMO</UniqueName>
+			<GreatWorkType>GREAT_WORK_LIBERAZIONE_DI_ANDROMEDA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_BENOZZO_GOZZOLI</UniqueName>
+			<GreatWorkType>GREAT_WORK_PALAEOLOGUS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ROGIER_VAN_DER_WEYDEN</UniqueName>
+			<GreatWorkType>GREAT_WORK_SAINT_GEORGE_AND_THE_DRAGON</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ALBRECHT_ALTDORFER</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_BATTLE_OF_ALEXANDER_AT_ISSUS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JAN_ASSELIJN</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_THREATENED_SWAN</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JAN_STEEN</UniqueName>
+			<GreatWorkType>GREAT_WORK_AS_THE_OLD_SING_SO_TWITTER_THE_YOUNG</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_THERESE_SCHWARTZE</UniqueName>
+			<GreatWorkType>GREAT_WORK_PORTRET_VAN_LIZZIE_ANSINGH</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_CAREL_FABRITIUS</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_GOLDFINCH</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_FRANZ_HALS</UniqueName>
+			<GreatWorkType>GREAT_WORK_BOY_PLAYING_A_VIOLIN</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ANDERS_ZORN</UniqueName>
+			<GreatWorkType>GREAT_WORK_OMNIBUS_PARIS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ANGELICA_KAUFFMAN</UniqueName>
+			<GreatWorkType>GREAT_WORK_PENELOPE_IS_WOKEN_BY_EURYCLEA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_HELEN_FRANKENTHALER</UniqueName>
+			<GreatWorkType>GREAT_WORK_MOUNTAINS_AND_SEA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ARTEMISIA_GENTILESCHI</UniqueName>
+			<GreatWorkType>GREAT_WORK_JUDITH_BEHEADING_HOLOFERNES</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_DUCCIO</UniqueName>
+			<GreatWorkType>GREAT_WORK_MADONNA_AND_CHILD</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ROBERT_SELDON_DUNCANSON</UniqueName>
+			<GreatWorkType>GREAT_WORK_STILL_LIFE_WITH_FRUIT_AND_NUTS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ROSA_BONHEUR</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_HORSE_FAIR</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_RICHARD_DIEBENKORN</UniqueName>
+			<GreatWorkType>GREAT_WORK_OCEAN_PARK_NO_27</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_BERTHE_MORISOT</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_OLD_TRACK_TO_AUVERS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_CHAIM_SOUTINE</UniqueName>
+			<GreatWorkType>GREAT_WORK_CARCASS_OF_BEEF</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ARSHILE_GORKY</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_LIVER_IS_THE_COCKS_COMB</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_GEORGIA_OKEEFFE</UniqueName>
+			<GreatWorkType>GREAT_WORK_FROM_THE_LAKE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PIERRE_BONNARD</UniqueName>
+			<GreatWorkType>GREAT_WORK_FISHING_PORT</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_HANS_BELLMER</UniqueName>
+			<GreatWorkType>GREAT_WORK_PEG_TOP</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_USTAD_MANSUR</UniqueName>
+			<GreatWorkType>GREAT_WORK_TWO_CRANES</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_UTAGAWA_KUNIYOSHI</UniqueName>
+			<GreatWorkType>GREAT_WORK_HATSUHANA_DOING_PENANCE_UNDER_THE_TONOSAWA_WATERFALL</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_ARTIST</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_SUSSHU_TOYO</UniqueName>
+			<GreatWorkType>GREAT_WORK_HABOKU_SANSUI</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+	<GreatWorks>
+		<!-- GREAT WORKS ART -->
+		<Row>
+			<Type>GREAT_WORK_GREAT_WALL_OF_CHINA</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_GREAT_WALL_OF_CHINA</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Affandi---Great-Wall-of-China.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_NUDE_DESCENDING_A_STAIRCASE_NO_2</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_NUDE_DESCENDING_A_STAIRCASE_NO_2</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Marcel-Duchamp---Nude-Descending-a-Staircase-No-2.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_TRIUMPH_OF_SURREALISM</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_TRIUMPH_OF_SURREALISM</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Max-Ernst---The-Triumph-of-Surrealism.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_ZERO_THROUGH_NINE</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_ZERO_THROUGH_NINE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Jasper-Johns---Zero-Through-Nine.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_ASCENDING_AND_DESCENDING</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_ASCENDING_AND_DESCENDING</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_M-C-Escher---Ascending-and-Descending.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_SCREAM</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_SCREAM</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Edvard-Munch---The-Scream.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_NO_1</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_NO_1</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Jackson-Pollock---No-1.dds</Image>
+		</Row>
+	</GreatWorks>
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_THE_PERSISTENCE_OF_MEMORY</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_PERSISTENCE_OF_MEMORY</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Salvador-Dali---The-Persistence-of-Memory.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_STUDY_AFTER_VELAZQUEZS_PORTRAIT_OF_POPE_INNOCENT_X</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_STUDY_AFTER_VELAZQUEZS_PORTRAIT_OF_POPE_INNOCENT_X</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Francis-Bacon---Study-after-Velazquezs-Portrait-of-Pope-Innocent-X.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_BLUE_RIDER</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_BLUE_RIDER</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Wassily-Kandinsky---The-Blue-Rider.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_FIGURE_5_IN_GOLD</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_FIGURE_5_IN_GOLD</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Charles-Demuth---The-Figure-5-in-Gold.dds</Image>
+		</Row>
+	</GreatWorks>
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_THE_BLUE_RIDER</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_BLUE_RIDER</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Wassily-Kandinsky---The-Blue-Rider.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_FIGURE_5_IN_GOLD</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_FIGURE_5_IN_GOLD</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Charles-Demuth---The-Figure-5-in-Gold.dds</Image>
+		</Row>
+	</GreatWorks>
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_THE_DORMITION</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_DORMITION</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Theophanes---The-Dormition.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_CLARINET_AND_BOTTLE_OF_RUM_ON_A_MANTLEPIECE</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_CLARINET_AND_BOTTLE_OF_RUM_ON_A_MANTLEPIECE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Georges-Braque---Clarinet-and-Bottle-of-Rum-on-a-Mantelpiece.dds</Image>
+		</Row>
+	</GreatWorks>
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_THE_FOX</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_FOX</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Franz-Marc---The-Fox.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_OLD_KING</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_OLD_KING</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Georges-Rouault---The-Old-King.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_STATES_OF_MIND_I_THE_FAREWELLS</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_STATES_OF_MIND_I_THE_FAREWELLS</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Umberto-Boccioni---States-of-Mind-I-The-Farewells.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_CONVERSION_OF_ST_PAUL</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_CONVERSION_OF_ST_PAUL</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Parmigianino---The-Conversion-of-St-Paul.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_PLAYING_PUTTO_MUSICIAN_ANGEL</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_PLAYING_PUTTO_MUSICIAN_ANGEL</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Rosso-Fiorentino---Playing-Putto-Musician-Angel.dds</Image>
+		</Row>
+	</GreatWorks>
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_LA_GRANDE_ODALISQUE</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_LA_GRANDE_ODALISQUE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Jean-Auguste-Dominique-Ingres---La-Grande-Odalisque.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_PAPAL_PALACE_AVIGNON</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_PAPAL_PALACE_AVIGNON</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Paul-Signac---The-Papal-Palace-Avignon.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_CHE_GUEVERA</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_CHE_GUEVERA</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Andy-Warhol---Che-Guevera.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_CRYING_GIRL</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_CRYING_GIRL</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Roy-Lichtenstein---Crying-Girl.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_BED</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_BED</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Robert-Rauschenberg---Bed.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_DANCE_II</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_DANCE_II</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Henri-Matisse---Dance-II.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_BIRTHDAY</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_BIRTHDAY</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Marc-Chagall---The-Birthday.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_HARLEQUINS_CARNIVAL</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_HARLEQUINS_CARNIVAL</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Joan-Miro---Harlequins-Carnival.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_KNIGHT_DEATH_AND_THE_DEVIL</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_KNIGHT_DEATH_AND_THE_DEVIL</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Albrecht-Durer---The-Knight-Death-and-the-Devil.dds</Image>
+		</Row>
+	</GreatWorks>
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_THE_GARDEN_OF_EARTHLY_DELIGHTS</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_GARDEN_OF_EARTHLY_DELIGHTS</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Hieronymus-Bosch---The-Garden-of-Earthly-Delights.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_BOY_AND_GIRL_GAZING_AT_THE_MOON</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_BOY_AND_GIRL_GAZING_AT_THE_MOON</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Norman-Rockwell---Boy-and-Girl-Gazing-at-the-Moon.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_RAIN_STEAM_AND_SPEED_THE_GREAT_WESTERN_RAILWAY</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_RAIN_STEAM_AND_SPEED_THE_GREAT_WESTERN_RAILWAY</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_William-Turner---Rain-Steam-and-Speed-The-Great-Western-Railway.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_ORANGE_AND_YELLOW</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_ORANGE_AND_YELLOW</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Mark-Rothko---Orange-and-Yellow.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_BROADWAY_BOOGIE_WOOGIE</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_BROADWAY_BOOGIE_WOOGIE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Piet-Mondrian---Broadway-Boogie-Woogie.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_PAOLO_AND_FRANCESCA_II</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_PAOLO_AND_FRANCESCA_II</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Gustave-Dore---Paolo-and-Francesca-II.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_BAPTISM_OF_THE_NEOPHYTES</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_BAPTISM_OF_THE_NEOPHYTES</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Masaccio---Baptism-of-the-Neophytes.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_MAN_MADE_MAD_BY_FEAR</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_MAN_MADE_MAD_BY_FEAR</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Gustave-Courbet---The-Man-Made-Mad-by-Fear.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_SPRING_THE_EARTHLY_PARADISE</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_SPRING_THE_EARTHLY_PARADISE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Nicolas-Poussin---Spring-The-Earthly-Paradise.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_WOMAN</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_WOMAN</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Willem-de-Kooning---Woman.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_AD_PARNASSUM</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_AD_PARNASSUM</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Paul-Klee---Ad-Parnassum.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_BLACK_SQUARE</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_BLACK_SQUARE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Kazimir-Malevich---Black-Square.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_NIGHTHAWKS</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_NIGHTHAWKS</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Edward-Hopper---Nighthawks.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_RAFT_OF_THE_MEDUSA</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_RAFT_OF_THE_MEDUSA</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Jean-Louis-Theodore-Gericault---The-Raft-of-the-Medusa.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_KRISTI_GRIPANDE</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_KRISTI_GRIPANDE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Cimabue---Kristi-Gripande.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_OYSTER_EATER</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_OYSTER_EATER</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_James-Ensor---The-Oyster-Eater.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_BEAT_THE_WHITES_WITH_THE_RED_WEDGE</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_BEAT_THE_WHITES_WITH_THE_RED_WEDGE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_El-Lissitzky---Beat-the-Whites-with-the-Red-Wedge.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_FIGHTER</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_FIGHTER</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Egon-Schiele---Fighter.dds</Image>
+		</Row>
+	</GreatWorks>
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_THE_SON_OF_MAN</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_SON_OF_MAN</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Rene-Magritte---The-Son-of-Man.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_ABSTRACT_PAINTING_780_1</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_ABSTRACT_PAINTING_780_1</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Gerhard-Richter---Abstract-Painting-780-1.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_SOLDIER_WITH_A_PIPE</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_SOLDIER_WITH_A_PIPE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Fernand-Leger---Soldier-with-a-Pipe.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_FORESTER</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_FORESTER</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Sam-Weber---Forester.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_A_GROTESQUE_OLD_WOMAN</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_A_GROTESQUE_OLD_WOMAN</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Quinten-Matsys---A-Grotesque-Old-Woman.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_SHIP_UNDER_REPAIR</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_SHIP_UNDER_REPAIR</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Benito-Quinquela-Martin---Ship-Under-Repair.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_ANATOMY_OF_MAN</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_ANATOMY_OF_MAN</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Gebroeders-van-Limburg---The-Anatomy-of-Man.dds</Image>
+		</Row>
+	</GreatWorks>
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_THE_JACK_PINE</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_JACK_PINE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Tom-Thomson---The-Jack-Pine.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_HEAD_OF_A_CAPRI_GIRL</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_HEAD_OF_A_CAPRI_GIRL</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_John-Singer-Sargent---Head-of-a-Capri-Girl.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_DREAM_JOURNEY_TO_THE_PEACH_BLOSSOM_LAND</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_DREAM_JOURNEY_TO_THE_PEACH_BLOSSOM_LAND</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_An-Gyeon---Dream-Journey-to-the-Peach-Blossom-Land.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_LIBERAZIONE_DI_ANDROMEDA</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_LIBERAZIONE_DI_ANDROMEDA</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Piero-di-Cosimo---Liberazione-di-Andromeda.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_PALAEOLOGUS</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_PALAEOLOGUS</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Benozzo-Gozzoli---Palaeologus.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_SAINT_GEORGE_AND_THE_DRAGON</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_SAINT_GEORGE_AND_THE_DRAGON</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Rogier-van-der-Weyden---Saint-George-and-the-Dragon.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_BATTLE_OF_ALEXANDER_AT_ISSUS</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_BATTLE_OF_ALEXANDER_AT_ISSUS</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Albrecht-Altdorfer---The-Battle-of-Alexander-at-Issus.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_THREATENED_SWAN</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_THREATENED_SWAN</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Jan-Asselijn---The-Threatened-Swan.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_AS_THE_OLD_SING_SO_TWITTER_THE_YOUNG</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_AS_THE_OLD_SING_SO_TWITTER_THE_YOUNG</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Jan-Steen---As-The-Old-Sing-So-Twitter-the-Young.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_PORTRET_VAN_LIZZIE_ANSINGH</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_PORTRET_VAN_LIZZIE_ANSINGH</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Therese-Schwartze---Portret-van-Lizzie-Ansingh.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_GOLDFINCH</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_GOLDFINCH</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Carel-Fabritius---The-Goldfinch.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_BOY_PLAYING_A_VIOLIN</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_BOY_PLAYING_A_VIOLIN</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Franz-Hals---Boy-Playing-a-Violin.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_OMNIBUS_PARIS</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_OMNIBUS_PARIS</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Anders-Zorn---Omnibus-Paris.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_PENELOPE_IS_WOKEN_BY_EURYCLEA</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_PENELOPE_IS_WOKEN_BY_EURYCLEA</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Angelica-Kauffman---Penelope-is-Woken-by-Euryclea.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_MOUNTAINS_AND_SEA</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_MOUNTAINS_AND_SEA</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Helen-Frankenthaler---Mountains-and-Sea.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_JUDITH_BEHEADING_HOLOFERNES</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_JUDITH_BEHEADING_HOLOFERNES</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Artemisia-Gentileschi---Judith-Beheading-Holofernes.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_MADONNA_AND_CHILD</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_MADONNA_AND_CHILD</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Duccio---Madonna-and-Child.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_STILL_LIFE_WITH_FRUIT_AND_NUTS</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_STILL_LIFE_WITH_FRUIT_AND_NUTS</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Robert-Seldon-Duncanson---Still-Life-with-Fruit-and-Nuts.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_HORSE_FAIR</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_HORSE_FAIR</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Rosa-Bonheur---The-Horse-Fair.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_OCEAN_PARK_NO_27</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_OCEAN_PARK_NO_27</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Richard-Diebenkorn---Ocean-Park-No-27.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_OLD_TRACK_TO_AUVERS</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_OLD_TRACK_TO_AUVERS</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Berthe-Morisot---The-Old-Track-to-Auvers.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_CARCASS_OF_BEEF</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_CARCASS_OF_BEEF</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Chaim-Soutine---Carcass-of-Beef.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_THE_LIVER_IS_THE_COCKS_COMB</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_THE_LIVER_IS_THE_COCKS_COMB</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Arshile-Gorky---The-Liver-is-the-Cocks-Comb.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_FROM_THE_LAKE</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_FROM_THE_LAKE</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Georgia-OKeeffe---From-the-Lake.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_FISHING_PORT</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_FISHING_PORT</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Pierre-Bonnard---Fishing-Port.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_PEG_TOP</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_PEG_TOP</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Hans-Bellmer---Peg-Top.dds</Image>
+		</Row>
+		<Row>
+			<Type>GREAT_WORK_TWO_CRANES</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_TWO_CRANES</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Ustad-Mansur---Two-Cranes.dds</Image>
+		</Row>
+	</GreatWorks>
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_HATSUHANA_DOING_PENANCE_UNDER_THE_TONOSAWA_WATERFALL</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_HATSUHANA_DOING_PENANCE_UNDER_THE_TONOSAWA_WATERFALL</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Utagawa-Kuniyoshi---Hatsuhana-Doing-Penance-Under-the-Tonosawa-Waterfall.dds</Image>
+		</Row>
+	</GreatWorks>
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_HABOKU_SANSUI</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_HABOKU_SANSUI</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GW_Susshu-Toyo---Haboku-Sansui.dds</Image>
+		</Row>
+	</GreatWorks>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_WORK_GREAT_WALL_OF_CHINA">
+			<Text>Great Wall of China</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_NUDE_DESCENDING_A_STAIRCASE_NO_2">
+			<Text>Nude Descending a Staircase, No. 2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_TRIUMPH_OF_SURREALISM">
+			<Text>The Triumph of Surrealism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_ZERO_THROUGH_NINE">
+			<Text>0 Through 9</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_ASCENDING_AND_DESCENDING">
+			<Text>Ascending and Descending</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_SCREAM">
+			<Text>The Scream</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_NO_1">
+			<Text>No. 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_PERSISTENCE_OF_MEMORY">
+			<Text>The Persistence of Memory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_STUDY_AFTER_VELAZQUEZS_PORTRAIT_OF_POPE_INNOCENT_X">
+			<Text>Study after Velázquez's Portrait of Pope Innocent X</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_BLUE_RIDER">
+			<Text>The Blue Rider</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_FIGURE_5_IN_GOLD">
+			<Text>The Figure 5 in Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_DORMITION">
+			<Text>The Dormition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_CLARINET_AND_BOTTLE_OF_RUM_ON_A_MANTLEPIECE">
+			<Text>Clarinet and Bottle of Rum on a Mantelpiece</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_FOX">
+			<Text>The Fox</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_OLD_KING">
+			<Text>The Old King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_STATES_OF_MIND_I_THE_FAREWELLS">
+			<Text>States of Mind I: The Farewells</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_CONVERSION_OF_ST_PAUL">
+			<Text>The Conversion of St Paul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PLAYING_PUTTO_MUSICIAN_ANGEL">
+			<Text>Playing Putto (Musician Angel)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_LA_GRANDE_ODALISQUE">
+			<Text>La Grande Odalisque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_PAPAL_PALACE_AVIGNON">
+			<Text>The Papal Palace, Avignon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_CHE_GUEVERA">
+			<Text>Che Guevera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_CRYING_GIRL">
+			<Text>Crying Girl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_BED">
+			<Text>Bed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_DANCE_II">
+			<Text>Dance (II)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_BIRTHDAY">
+			<Text>The Birthday</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_HARLEQUINS_CARNIVAL">
+			<Text>Harlequin's Carnival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_KNIGHT_DEATH_AND_THE_DEVIL">
+			<Text> The Knight, Death and the Devil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_GARDEN_OF_EARTHLY_DELIGHTS">
+			<Text>The Garden of Earthly Delights</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_BOY_AND_GIRL_GAZING_AT_THE_MOON">
+			<Text>Boy and Girl Gazing at the Moon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_RAIN_STEAM_AND_SPEED_THE_GREAT_WESTERN_RAILWAY">
+			<Text>Rain Steam and Speed, The Great Western Railway</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_ORANGE_AND_YELLOW">
+			<Text>Orange and Yellow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_BROADWAY_BOOGIE_WOOGIE">
+			<Text>Broadway Boogie Woogie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PAOLO_AND_FRANCESCA_II">
+			<Text>Paolo and Francesca II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_BAPTISM_OF_THE_NEOPHYTES">
+			<Text>Baptism of the Neophytes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_MAN_MADE_MAD_BY_FEAR">
+			<Text>The Man Made Mad by Fear</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SPRING_THE_EARTHLY_PARADISE">
+			<Text>Spring (The Earthly Paradise)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_WOMAN">
+			<Text>Woman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AD_PARNASSUM">
+			<Text>Ad Parnassum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_BLACK_SQUARE">
+			<Text>Black Square</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_NIGHTHAWKS">
+			<Text>Nighthawks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_RAFT_OF_THE_MEDUSA">
+			<Text>The Raft of the Medusa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_KRISTI_GRIPANDE">
+			<Text>Kristi Gripande</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_OYSTER_EATER">
+			<Text>The Oyster Eater</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_BEAT_THE_WHITES_WITH_THE_RED_WEDGE">
+			<Text>Beat the Whites with the Red Wedge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_FIGHTER">
+			<Text>Fighter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_SON_OF_MAN">
+			<Text>The Son of Man</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_ABSTRACT_PAINTING_780_1">
+			<Text>Abstract Painting 780-1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SOLDIER_WITH_A_PIPE">
+			<Text>Soldier with a Pipe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_FORESTER">
+			<Text>Forester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_A_GROTESQUE_OLD_WOMAN">
+			<Text>A Grotesque Old Woman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SHIP_UNDER_REPAIR">
+			<Text>Ship Under Repair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_ANATOMY_OF_MAN">
+			<Text>The Anatomy of Man</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_JACK_PINE">
+			<Text>The Jack Pine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_HEAD_OF_A_CAPRI_GIRL">
+			<Text>Head of a Capri Girl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_DREAM_JOURNEY_TO_THE_PEACH_BLOSSOM_LAND">
+			<Text>Dream Journey to the Peach Blossom Land</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_LIBERAZIONE_DI_ANDROMEDA">
+			<Text>Liberazione di Andromeda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PALAEOLOGUS">
+			<Text>Palaeologus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SAINT_GEORGE_AND_THE_DRAGON">
+			<Text>Saint George and the Dragon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_BATTLE_OF_ALEXANDER_AT_ISSUS">
+			<Text>The Battle of Alexander at Issus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_THREATENED_SWAN">
+			<Text>The Threatened Swan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_AS_THE_OLD_SING_SO_TWITTER_THE_YOUNG">
+			<Text>As The Old Sing, So Twitter the Young</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PORTRET_VAN_LIZZIE_ANSINGH">
+			<Text>Portret van Lizzie Ansingh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_GOLDFINCH">
+			<Text>The Goldfinch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_BOY_PLAYING_A_VIOLIN">
+			<Text>Boy Playing a Violin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_OMNIBUS_PARIS">
+			<Text>Omnibus, Paris</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PENELOPE_IS_WOKEN_BY_EURYCLEA">
+			<Text>Penelope is Woken by Euryclea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MOUNTAINS_AND_SEA">
+			<Text>Mountains and Sea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_JUDITH_BEHEADING_HOLOFERNES">
+			<Text>Judith Beheading Holofernes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MADONNA_AND_CHILD">
+			<Text>Madonna and Child</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_STILL_LIFE_WITH_FRUIT_AND_NUTS">
+			<Text>Still Life with Fruit and Nuts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_HORSE_FAIR">
+			<Text>The Horse Fair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_OCEAN_PARK_NO_27">
+			<Text>Ocean Park No. 27</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_OLD_TRACK_TO_AUVERS">
+			<Text>The Old Track to Auvers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_CARCASS_OF_BEEF">
+			<Text>Carcass of Beef</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_LIVER_IS_THE_COCKS_COMB">
+			<Text>The Liver is the Cock's Comb</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_FROM_THE_LAKE">
+			<Text>From the Lake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_FISHING_PORT">
+			<Text>Fishing Port</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_PEG_TOP">
+			<Text>Peg-Top</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_TWO_CRANES">
+			<Text>Two Cranes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_HATSUHANA_DOING_PENANCE_UNDER_THE_TONOSAWA_WATERFALL">
+			<Text>Hatsuhana Doing Penance Under the Tonosawa Waterfall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_HABOKU_SANSUI">
+			<Text>Haboku Sansui</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AFFANDI">
+			<Text>Affandi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MARCEL_DUCHAMP">
+			<Text>Marcel Duchamp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MAX_ERNST">
+			<Text>Max Ernst</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JASPER_JOHNS">
+			<Text>Jasper Johns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_M_C_ESCHER">
+			<Text>M. C. Escher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_EDVARD_MUNCH">
+			<Text>Edvard Munch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JACKSON_POLLOCK">
+			<Text>Jackson Pollock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SALVADOR_DALI">
+			<Text>Salvador Dali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRANCIS_BACON">
+			<Text>Francis Bacon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WASSILY_KANDINSKY">
+			<Text>Wassily Kandinsky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHARLES_DEMUTH">
+			<Text>Charles Demuth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WASSILY_KANDINSKY">
+			<Text>Wassily Kandinsky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHARLES_DEMUTH">
+			<Text>Charles Demuth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_THEOPHANES">
+			<Text>Theophanes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GEORGES_BRAQUE">
+			<Text>Georges Braque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRANZ_MARC">
+			<Text>Franz Marc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GEORGES_ROUAULT">
+			<Text>Georges Rouault</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_UMBERTO_BOCCIONI">
+			<Text>Umberto Boccioni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PARMIGIANINO">
+			<Text>Parmigianino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROSSO_FIORENTINO">
+			<Text>Rosso Fiorentino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JEAN_AUGUSTE_DOMINIQUE_INGRES">
+			<Text>Jean Auguste Dominique Ingres</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PAUL_SIGNAC">
+			<Text>Paul Signac</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANDY_WARHOL">
+			<Text>Andy Warhol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROY_LICHTENSTEIN">
+			<Text>Roy Lichtenstein</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROBERT_RAUSCHENBERG">
+			<Text>Robert Rauschenberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HENRI_MATISSE">
+			<Text>Henri Matisse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MARC_CHAGALL">
+			<Text>Marc Chagall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOAN_MIRO">
+			<Text>Joan Miro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALBRECHT_DURER">
+			<Text>Albrecht Durer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HIERONYMUS_BOSCH">
+			<Text>Hieronymus Bosch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NORMAN_ROCKWELL">
+			<Text>Norman Rockwell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_TURNER">
+			<Text>William Turner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MARK_ROTHKO">
+			<Text>Mark Rothko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PIET_MONDRIAN">
+			<Text>Piet Mondrian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GUSTAVE_DORE">
+			<Text>Gustave Dore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MASACCIO">
+			<Text>Masaccio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GUSTAVE_COURBET">
+			<Text>Gustave Courbet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NICOLAS_POUSSIN">
+			<Text>Nicolas Poussin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WILLEM_DE_KOONING">
+			<Text>Willem de Kooning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PAUL_KLEE">
+			<Text>Paul Klee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KAZIMIR_MALEVICH">
+			<Text>Kazimir Malevich</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_EDWARD_HOPPER">
+			<Text>Edward Hopper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JEAN_LOUIS_THEODORE_GERICAULT">
+			<Text>Jean Louis Théodore Géricault</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CIMABUE">
+			<Text>Cimabue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JAMES_ENSOR">
+			<Text>James Ensor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_EL_LISSITZKY">
+			<Text>El Lissitzky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_EGON_SCHIELE">
+			<Text>Egon Schiele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_RENE_MAGRITTE">
+			<Text>Rene Magritte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GERHARD_RICHTER">
+			<Text>Gerhard Richter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FERNAND_LEGER">
+			<Text>Fernand Leger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SAM_WEBER">
+			<Text>Sam Weber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_QUINTEN_MATSYS">
+			<Text>Quinten Matsys</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BENITO_QUINQUELA_MARTIN">
+			<Text>Benito Quinquela Martin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GEBROEDERS_VAN_LIMBURG">
+			<Text>Gebroeders van Limburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TOM_THOMSON">
+			<Text>Tom Thomson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHN_SINGER_SARGENT">
+			<Text>John Singer Sargent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AN_GYEON">
+			<Text>An Gyeon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PIERO_DI_COSIMO">
+			<Text>Piero di Cosimo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BENOZZO_GOZZOLI">
+			<Text>Benozzo Gozzoli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROGIER_VAN_DER_WEYDEN">
+			<Text>Rogier van der Weyden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALBRECHT_ALTDORFER">
+			<Text>Albrecht Altdorfer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JAN_ASSELIJN">
+			<Text>Jan Asselijn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JAN_STEEN">
+			<Text>Jan Steen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_THERESE_SCHWARTZE">
+			<Text>Therese Schwartze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CAREL_FABRITIUS">
+			<Text>Carel Fabritius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRANZ_HALS">
+			<Text>Franz Hals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANDERS_ZORN">
+			<Text>Anders Zorn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANGELICA_KAUFFMAN">
+			<Text>Angelica Kauffman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HELEN_FRANKENTHALER">
+			<Text>Helen Frankenthaler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ARTEMISIA_GENTILESCHI">
+			<Text>Artemisia Gentileschi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DUCCIO">
+			<Text>Duccio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROBERT_SELDON_DUNCANSON">
+			<Text>Robert Seldon Duncanson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROSA_BONHEUR">
+			<Text>Rosa Bonheur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_RICHARD_DIEBENKORN">
+			<Text>Richard Diebenkorn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BERTHE_MORISOT">
+			<Text>Berthe Morisot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHAIM_SOUTINE">
+			<Text>Chaim Soutine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ARSHILE_GORKY">
+			<Text>Arshile Gorky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GEORGIA_OKEEFFE">
+			<Text>Georgia O'Keeffe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PIERRE_BONNARD">
+			<Text>Pierre Bonnard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HANS_BELLMER">
+			<Text>Hans Bellmer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_USTAD_MANSUR">
+			<Text>Ustad Mansur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_UTAGAWA_KUNIYOSHI">
+			<Text>Utagawa Kuniyoshi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SUSSHU_TOYO">
+			<Text>Susshu Toyo</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

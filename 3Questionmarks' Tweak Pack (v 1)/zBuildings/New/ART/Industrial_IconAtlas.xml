@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/24/2014 9:01:31 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>INDUSTRIAL_ICONATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>INDUSTRIAL_ICONATLAS256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>INDUSTRIAL_ICONATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>INDUSTRIAL_ICONATLAS128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>INDUSTRIAL_ICONATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>INDUSTRIAL_ICONATLAS80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>INDUSTRIAL_ICONATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>INDUSTRIAL_ICONATLAS64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>INDUSTRIAL_ICONATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>INDUSTRIAL_ICONATLAS45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

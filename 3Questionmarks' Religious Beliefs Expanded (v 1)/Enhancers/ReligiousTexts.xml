@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/3/2020 4:47:07 PM -->
+<GameData>
+	<Beliefs>
+		<Update>
+			<Set SpreadStrengthModifier="50" SpreadModifierDoublingTech=""/>
+			<Where Type="BELIEF_RELIGIOUS_TEXTS" />
+		</Update>
+	</Beliefs>
+    
+    <Belief_YieldChangePerForeignCity>
+		<Update>
+            <Set>
+                <BeliefType>BELIEF_RELIGIOUS_TEXTS</BeliefType>
+                <YieldType>YIELD_FAITH</YieldType>
+                <Yield>3</Yield>
+            </Set>
+        </Update>
+	</Belief_YieldChangePerForeignCity>
+
+	<Language_en_US>
+        <Update>
+			<Where Tag="TXT_KEY_BELIEF_RELIGIOUS_TEXTS" />
+			<Set Text="+3 [ICON_PEACE] Faith for every foreign City following this [ICON_RELGION] Religion and [ICON_RELGION] Religion spreads 50% faster." />
+		</Update>
+	</Language_en_US>
+	
+</GameData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/6/2021 5:20:28 AM -->
+<GameData>
+	<Defines>
+		<Update>
+			<Set Value="75" />
+			<Where Name="CITY_CAPTURE_POPULATION_PERCENT" />
+		</Update>
+	</Defines>
+</GameData>

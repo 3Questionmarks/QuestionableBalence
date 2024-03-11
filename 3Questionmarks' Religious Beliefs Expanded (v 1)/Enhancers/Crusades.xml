@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/3/2020 4:53:23 PM -->
+<GameData>
+	<Beliefs>
+		<Update>
+			<Set Description="TXT_KEY_BELIEF_CRUSADES" ShortDescription="TXT_KEY_BELIEF_CRUSADES_SHORT" />
+			<Where Type="BELIEF_JUST_WAR" />
+		</Update>
+    </Beliefs>
+   
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_CRUSADES_SHORT">
+			<Text>Crusades</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CRUSADES">
+			<Text>+20% [ICON_STRENGTH] Combat Strength near enemy cities that follow this [ICON_RELIGION] Religion. When you capture a city with a different majority [ICON_RELIGION] Religion gain a large amount of [ICON_PEACE] Faith and convert 75% of the followers of the city's majority [ICON_RELIGION] Religion to this [ICON_RELIGION] Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CRUSADE_NOTIFICATION_HEADING">
+			<Text>Successful Crusade!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CRUSADE_NOTIFICATION_BODY">
+			<Text>+{@1_num} [ICON_PEACE] from converting {@2_name}</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

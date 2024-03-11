@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/20/2018 8:19:04 AM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_TRANSCENDENCE</Type>
+			<Description>TXT_KEY_BELIEF_TRANSCENDENCE</Description>
+			<ShortDescription>TXT_KEY_BELIEF_TRANSCENDENCE_SHORT</ShortDescription>
+			<Founder>true</Founder>
+		</Row>
+	</Beliefs>
+	
+	<Belief_ImprovementYieldChanges>
+        <Row>
+			<BeliefType>BELIEF_TRANSCENDENCE</BeliefType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+    </Belief_ImprovementYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_TRANSCENDENCE">
+			<Text>Holy Sites yield +3 [ICON_RESEARCH] Science.</Text>
+		</Row>
+	</Language_en_US>
+    
+    <Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_TRANSCENDENCE_SHORT">
+			<Text>Transcendence</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

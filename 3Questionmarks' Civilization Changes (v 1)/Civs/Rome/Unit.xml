@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2021 5:38:56 AM -->
+<GameData>
+	<!-- Legion -->
+	<Units>
+		<Set Combat="20" />
+		<Where Type="UNIT_ROMAN_LEGION" />
+	</Units>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+			<PromotionType>PROMOTION_ADJ_BONUS</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_ROMAN_BALLISTA_STRATEGY"/>
+			<Set Text="The Legion is the Roman unique unit, replacing the Swordsman. The Legion is more powerful than the Swordsman, esspesually when fighting next to other units, making it the most powerful melee unit of the Classical Era. The Legion can also construct roads and forts and is the only non-Worker unit able to do so."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_ROMAN_LEGION"/>
+			<Set Text="Strong, front-line land Unit of the Classical Era. Only the Romans may build it. This Unit has a promotion that boosts [ICON_STRENGTH] Combat Strength when adjecent to friendly units and has a higher [ICON_STRENGTH] Combat Strength than the Swordsman, which it replaces."/>
+		</Update>
+	</Language_en_US>
+	
+	<!-- Balista -->
+	<!-- Balista was removed ->
+	<Unit_FreePromotions>
+		<Delete>
+			<UnitType>UNIT_ROMAN_BALLISTA</UnitType>
+			<PromotionType>PROMOTION_MUST_SET_UP</PromotionType>
+		</Delete>
+	</Unit_FreePromotions>
+	
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_ROMAN_BALLISTA_STRATEGY"/>
+			<Set Text="Roman unique unit, more powerful than the Catapult it replaces. The Ballista is an excellent siege weapon. It is extremely useful against cities, but it is quite vulnerable to attack. Be sure to protect the Ballista with other military units. It doesn't need to setup before attacking."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_BALLISTA"/>
+			<Set Text="Siege Unit that does major damage from a distance. Only the Romans may build it. This Unit has a higher [ICON_RANGE_STRENGTH] Ranged Combat Strength and doesn't need to setup like the Catapult, which it replaces."/>
+		</Update>
+	</Language_en_US-->
+</GameData>
+

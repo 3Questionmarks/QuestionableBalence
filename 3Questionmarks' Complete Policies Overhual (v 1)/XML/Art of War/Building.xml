@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2021 3:16:46 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_STRONGHOLD</Type>
+			<DefaultBuilding>BUILDING_TCS_STRONGHOLD</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_STRONGHOLD</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TCS_STRONGHOLD</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_STRONGHOLD</BuildingClass>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_STRONGHOLD</Description>
+			<Help>TXT_KEY_BUILDING_TCS_STRONGHOLD_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<Defense>500</Defense>
+			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<Happiness>2</Happiness>
+		</Row>
+	</Buildings>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+	</Building_DomainFreeExperiences>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_STRONGHOLD</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TCS_STRONGHOLD">
+			<Text>Stronghold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TCS_STRONGHOLD_HELP">
+			<Text>+15 [ICON_WAR] XP for Land Units. +1 [ICON_PRODUCTION] Production from [ICON_RES_IRON] Iron.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Art of War[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+</GameData>

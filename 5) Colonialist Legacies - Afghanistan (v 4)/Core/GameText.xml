@@ -1,0 +1,319 @@
+﻿<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_01">
+			<Text>Kabul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_02">
+			<Text>Kandahar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_03">
+			<Text>Herat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_04">
+			<Text>Isfahhan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_05">
+			<Text>Peshawar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_06">
+			<Text>Balkh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_07">
+			<Text>Jalalabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_08">
+			<Text>Samarkand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_09">
+			<Text>Mazar-i-Sharif</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_10">
+			<Text>Lashkar Gar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_11">
+			<Text>Taloquan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_12">
+			<Text>Khost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_13">
+			<Text>Sheberghan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_14">
+			<Text>Ghazni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_15">
+			<Text>Mundigak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_16">
+			<Text>Kunduz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_17">
+			<Text>Sar-e Pol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_18">
+			<Text>Chaghcharan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_19">
+			<Text>Farah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_20">
+			<Text>Mihtarlam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_21">
+			<Text>Pul-i-Alam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_22">
+			<Text>Samangan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_23">
+			<Text>Fayzabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_24">
+			<Text>Zaranj</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_25">
+			<Text>Asadabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_26">
+			<Text>Maymana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_27">
+			<Text>Puli Khumri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_28">
+			<Text>Maidan Shar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CL_AFGHANISTAN_29">
+			<Text>Gardez</Text>
+		</Row>
+
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_CL_AFGHANISTAN_0">
+			<Text>Masjidi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_AFGHANISTAN_1">
+			<Text>Laila</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_AFGHANISTAN_2">
+			<Text>Aroon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_AFGHANISTAN_3">
+			<Text>Samira</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_AFGHANISTAN_4">
+			<Text>Behrooz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_AFGHANISTAN_5">
+			<Text>Zabiullah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_AFGHANISTAN_6">
+			<Text>Ramez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_AFGHANISTAN_7">
+			<Text>Pooya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_AFGHANISTAN_8">
+			<Text>Awrang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CL_AFGHANISTAN_9">
+			<Text>Lashkar</Text>
+		</Row>
+
+		<!--Demonyms-->
+		<Row Tag="TXT_KEY_CIV_CL_AFGHANISTAN_ADJECTIVE">
+			<Text>Afghan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CL_AFGHANISTAN_DESC">
+			<Text>Afghan Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_CL_AFGHANISTAN_SHORT_DESC">
+			<Text>Afghanistan</Text>
+		</Row>
+
+		<!--DoM-->
+		<Row Tag="TXT_KEY_CIV5_DOM_CL_MIRWAIS_HOTAK_TEXT">
+			<Text>May the blessings of Allah flow freely upon you, Mirwais Khan Hotaki, Prince of Kandahar and grandfather of Afghanistan. The history of your people is one of bloodshed and oppression; the Pashtun have cried out for a saviour ever since the Greeks swarmed their borders, and thereafter major empires squabbled like children over the Silk Road routes that passed through lands that were rightfully your own. No Afghans ruled their lands after the demise of the Kushan Empire, but all this changed with your birth. It was you that undertook the pilgrimage to Mecca, you who declared holy war on your Safavid masters, and you that led the Pashtun to freedom. Though the empire you forged would be short-lived, it gave your people the national identity they needed to cast out foreign invaders ever after.[NEWLINE][NEWLINE]Oh great Khan, Kandahar needs its Prince once more. Will you strike down the interlopers and trample their bones into Afghan soil? Will your lands become once again the graveyards of empires? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_TEXT_1">
+			<Text>The Central Asian region now known as Afghanistan has served as a focal point of trans-Eurasian trade for millennia Unfortunately, it has also been the site of conflict for as long of a time. Known as “The Graveyard of Empires,” Afghanistan's critical location has made it a sought-after territory, but one that	has been successfully resistant to some imperial ventures. Ethnically and linguistically diverse. Afghanistan is a melting pot of cultures, resulting in a strong national literary tradition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_TEXT_2">
+			<Text>Afghanistan is a landlocked region located at the crossroads of continental trade. Geographically diverse, Afghanistan contains plains in the north and southwest and highlands and the Hindu, Kush and Pamir mountains in the central and southeastern areas. Afghanistan is generally quite dry, but is devoid of desert. The mountainous regions contain a number key mountain passes leading to South Asia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_HEADING_3">
+			<Text>Early History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_TEXT_3">
+			<Text>Evidence of human settlement exists as early as 3000 BCE. In 2000 BCE, Central Asian peoples, including Indo-Iranians, migrated into the region. These societies were characterized by the Zoroastrian faith. In fact, the prophet Zoroaster is believed to have been born in the Afghan city of Balkh. These peoples were likely connected with other, more developed early civilizations such as the Harappans of the Indus River Valley. [NEWLINE][NEWLINE]Much of Afghanistan's early history is characterized by being a part of a series of larger, more prominent empires. The Achaemenid Empire conquered Afghanistan under the emperor Darius I, at which point the land was divided into satraps, or local units of government. This came to an end with the destruction of Achaemenid Persia at the hands of Alexander the Great.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_HEADING_4">
+			<Text>Alexander's Empire and Successors</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_TEXT_4">
+			<Text>After Alexander the Great of Macedonia arrived in Afghanistan in 330 BCE, Afghanistan was incorporated into the short-lived Macedonian Empire. More significantly, one of the succesor empires to Alexander’s Macdeon, the Seleucid Empire, then gained control of the region. Only decades later, Afghanistan was ceded to the Mauryan Empire on the Indian subcontinent as part of an alliance. The Mauryans introduced Buddhism to the region. This was manifest in the Buddhas of Bamiyan, the largest statues of Buddha before they were destroyed by the Taliban in 2001.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_HEADING_5">
+			<Text>The Kushan Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_TEXT_5">
+			<Text>The final state to occupy Afghanistan prior to Islamisation was the Parthian Empire, during the first century BCE. Soon after, in the first century CE, the Kushan Empire emerged, centered in Afghanistan. This great Buddhist empire had contact with all corners of Eurasia, including China and Rome. It took influence from Hellenistic culture, the product of Alexander’s influence. The Silk Road - the crosscontinental trade from China to Europe - was made possible by the peace created by the Kushans. It was also expanded further - the empire connected the Silk Road commerce to the Indian Ocean trade.[NEWLINE][NEWLINE]The Kushan Empire lasted three centuries. The kingdom split and collapsed through the third and fourth centuries, succumbing to a number of successor dynasties.[NEWLINE][NEWLINE]Islam comes to Afghanistan Islam was brought into Afghanistan through Herat and Zaranj by 642 AD. Islam’s reception was mixed. The noteworthy religious diversity of the region - with Hinduism, Buddhism, Zoroastrianism, and other faiths - was not easily supplanted. Nonetheless, Islam became a strong force in Afghanistan, and has been ever since.[NEWLINE][NEWLINE]Afghanistan fell under a series of Islamic empires, where it flourished. The Ghazanavid Empire, centered in Afghanistan at Ghazana, completed the Islamization of Afghanistan by the 10th century. During this time, Kabul thrived as an anchor of the Muslim world. This dynasty also helped to introduce Islam to India. The Ghazanvids gave way to further Persian and Turkic dynasties.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_HEADING_6">
+			<Text>Mongol Invasion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_TEXT_6">
+			<Text>In the 13th century, the Mongol Genghis Khan invaded Afghanistan. The cities that flourished under the Islamic dynasties were destroyed, and the country depopulated. Afghanistan was subjected to Mongol rule until another steppe power, the Timurids, forced the Mongols out a century later. Babur, who would go on to found the Mughal Empire in India, also conquered his way through Kabul. Eventually, the Afghan region was divided between the Mughal Empire and the Safavid Persians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_HEADING_7">
+			<Text>The Hotak Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_TEXT_7">
+			<Text>Mirwais Hotak rebelled against the Safavids in 1709. This moment is regarded as the founding moment of Afganistan as its own polity, and Hotak is regarded as its grandfather. While Hotak himself did not live long, his family carried on his dynasty and the struggle against the Persians. Hotak’s son Mahmud led his armies to the Safavid capital at Isfahan, where he sacked the city and declared himself King of Persia. However, a resurgent Persian force ousted the Hotakis by 1729.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_HEADING_8">
+			<Text>The Durrani Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_TEXT_8">
+			<Text>In 1738, the Persians made their way to Afghanistan itself, freeing Ahmed Shah Durrani in Kandahar. Durrani was appointed the commander of the local forces under the Persians. After the Persian dynasty collapsed, Durrani was chosen to rule Afghanistan. Durrani and his army conquered Afghanistan, Pakistan, parts of Iran and as far as Delhi in India. [NEWLINE][NEWLINE]Durrani is regarded as the father of the Afghan nation. Durrani went on to defeat the Maratha Empire in India. Ahmad Shah Durrani died naturally in 1772, and his descendants continued his legacy for decades. In the 19th century, the Afghan empire was under threat from both Persians and a Sikh empire backed by the British. The Durrani declined, and the arrival of European colonialism signaled the end of the Durrani empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_HEADING_9">
+			<Text>The Great Game</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_TEXT_9">
+			<Text>The Great Game refers to the geopolitical struggle between Russia and Britain over the Central Asian countries, including Afghanistan. Much as the dynasties of old desired Afghanistan for its crossroads location, the Brits and Russians sought to control this valuable link between Europe and Asia, as well as British India and Russian lands.[NEWLINE][NEWLINE]The First Anglo-Afghan war began with the British ostensibly supporting Shah Shujah’s attempt to reclaim what was his. The British installed Shujah and occupied the country despite their claim that they were not invading. Afghans began insurrectionary actions in 1841, eventually forcing the British out of the country.[NEWLINE][NEWLINE]The Second Anglo-Afghan war occurred amidst continuing Anglo-Russian tension. It began after a British diplomatic mission (sent in response to a Russian one) to Kabul was turned away. The British began to invade, and the Afghan ruler, Mohammad Yaqub Khan, ceded control of Afghanistan’s foreign affairs to the British in exchange for protection. As had happened before, uprisings in major Afghan cities caused renewed conflict. The conflict ended with the continuance of British influence over Afghanistan’s foreign affairs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_HEADING_10">
+			<Text>The Nation of Afghanistan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_TEXT_10">
+			<Text>Afghanistan finally declared its status as an independent nation-state , triggering the Third Anglo-Afghan War, in 1918. The limited war ended with the ceasing of hostilities between Afghanistan and British India. King Amanullah Khan instituted reforms in the new nation, upsetting religious leaders and tribesmen. This forced his abdication in 1929. Rebels took Kabul, but then Amunallah’s cousin Nadir Shah defeated them.[NEWLINE][NEWLINE]Nadir Shah’s son Mohammed Zahir Shah took power after his father’s assassination in 1933. The monarchy continued through the 1970s. Afghanistan was not ideologically involved in the World Wars, nor the Cold War, until this time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_HEADING_11">
+			<Text>Soviets, Taliban and Americans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_TEXT_11">
+			<Text>The Marxist People’s Democratic Party of Afghanistan successfully led a revolution in 1978. Civil war started almost immediately. The Soviet Union invaded Afghanistan in 1979, and they stayed there until 1989. The war was deadly for both sides. The United States covertly armed Mujahideen rebels. These rebels included Saudi radical Osama bin Laden.[NEWLINE][NEWLINE]Civil war continued, even after the Soviets left in 1989. Out of this chaos emerged the Taliban, an Islamic fundamentalist movement that took power in 1996. The Islamic Emirate of Afghanistan was notably repressive toward women, advocating a strict interpretation of Sharia law.The Taliban never controlled all of Afghanistan’s territory, as insurgent groups never dissipated.[NEWLINE][NEWLINE]After the September 11 terrorist attacks, the United States invaded Afghanistan in 2001 because Osama bin Laden was believed to be hiding there. While bin Laden was not found until 2010 in Pakistan, the Americans did depose the Taliban. The Taliban was one of many insurgent groups that persisted in occupied Afghanistan.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_HEADING_12">
+			<Text>Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CL_AFGHANISTAN_TEXT_12">
+			<Text>Sir Arthur Conan Doyle’s character Dr. Watson, companion to Sherlock Holmes, is a veteran of conflict in Afghanistan in both Conan’s original version and the 2010 BBC modernization of the character. [NEWLINE][NEWLINE]The Afghan currency is the Afghani.[NEWLINE][NEWLINE]There is no majority ethnicity in Afghanistan, nor is there an Afghan ethnicity. Pashtuns comprise 42% of the population according to the CIA, with Tajiks comprising 27% and Hazara and Uzbeks comprising 8% each.[NEWLINE][NEWLINE]Despite a low literacy rate, Pashtun poetry and proverb play an important role in Afghan culture.[NEWLINE][NEWLINE]Afghanistan is part of the Golden Crescent, which produces more opium than any other part of the world. The Taliban declaration of poppy cultivation as un-Islamic resulted in one of the most successful anti-drug campaigns the world has ever seen, according to the International Journal of Drug Policy.</Text>
+		</Row>
+
+		<!--Leader-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_TEXT_1">
+			<Text>Mirwais Khan Hotak established the Hotaki Dynasty in Kandahar. While he was only in power for six years, his ability to form an Afghan dynasty that lasted for decades out of chaotic, divided Afghanistan was the first step in demonstrating that a nation of Afghanistan was a possibility. For the first time, Afghans ruled Afghanistan, rather an it simply being a province of a larger empire. If anything, Hotak should probably be best remembered for creating a nation out of a perpeutal power vacum, despite the nation it has evolved into today.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_HEADING_2">
+			<Text>Linage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_TEXT_2">
+			<Text>Hotak was born to a wealthy and well-known family close to Kandahar. His family name comes from the fact that it headed the Hottaki branch of the Ghilzai tribe a major Pashtun tribe – today, it is the second largest tribal confederacy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_HEADING_3">
+			<Text>Founding a Dynasty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_TEXT_3">
+			<Text>Hotak, whose status made him influential with local Pashtuns, was held in captivity for political reasons in 1707. His captor, Gurgin Khan, ruled Georgia until its domination by the Safavid Persians. As the Persian governor of Kandahar, he sent Hotak to Isfahan, the Persian capital. Eventually he was freed, and undertook the pilgrimage to Mecca. While there, he obtained a fatwa –a legal judgment – against the persecuting Safavids. [NEWLINE][NEWLINE] Upon his return to Kandahar in 1709, he began organizing an uprising among fellow Pashtun. While much of the Persian garrison was away, Hotak intiated his revolt, killing most of the remaining Safavids, including Gurgin Khan. Hotak eventually also defeated a larger Persian force sent to retake Kandahar.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_HEADING_4">
+			<Text>Immediate Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_TEXT_4">
+			<Text>Hotak passed away in 1715. The Hotaki Dynasty was continued by his brother Abdul Aziz. Mahmud, Hotak's son, killed Abdul Aziz and took power. Allegedly, Aziz was planning to relinquish Kandahar back to Perisa.[NEWLINE][NEWLINE]Mahmud was a significant ruler in his own right. He saw an opening and took advantage of the collapsing Safavid empire to take their capital at Isfahan. [NEWLINE][NEWLINE]In modern-day Afghanistan, Mirwais Hotak is considereda hero in modern Afghanistan, and is widely admired as one of the founders of the nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_HEADING_5">
+			<Text>Judgement of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_TEXT_5">
+			<Text>Mirwais Hotak, like many leaders outside of the West and outside of the great empires, is not well known in the West. However, Hotak is one of the most prominent national heroes of Afghanistan. He is well respected by many Afghans, being referred to as “Mirwais Neeka”, or Mirwais the Grandfather. His rule was very short, and so was that of the ensuing Hotaki Dynasty. However, the Hotaki Dynasty gave way to the Durrani Empire, Afghanistan's greatest empire. He has been referred to as the George Washington of Afghanistan; his efforts in ensuring Afghan control of the region overshadow the details of his brief reign.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_LIVED">
+			<Text>1673 - 1715 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_NAME">
+			<Text>Mirwais Hotak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_SUBTITLE">
+			<Text>Khan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_CL_MIRWAIS_HOTAK">
+			<Text>Mirwais Hotak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_MIRWAIS_HOTAK_TITLES_1">
+			<Text>Shah</Text>
+		</Row>
+
+		<!--Unique Ability-->
+		<Row Tag="TXT_KEY_TRAIT_CL_AFGHANISTAN_SHORT">
+			<Text>Graveyard of Empires</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CL_AFGHANISTAN">
+			<Text>Caravans give [ICON_GREAT_PEOPLE] Great Writer points to the [ICON_CAPITAL] Capital and if from a City next to a Mountain, gain more range and [ICON_GOLD] Gold. +25% [ICON_STRENGTH] Combat Strength to Units next to Mountains. Mountains Yield +2 [ICON_FOOD], [ICON_RESEARCH], and [ICON_CULTURE].</Text>
+		</Row>
+
+		<!--Unique Unit-->
+		<Row Tag="TXT_KEY_UNIT_CL_AFGHANISTAN_ZAMBURAK">
+			<Text>Zamburak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CL_AFGHANISTAN_ZAMBURAK_STRATEGY">
+			<Text>Slightly more expensive than the Gatling Gun it replaces, the Zamburak has +3 Movement and can move after attacking. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CL_AFGHANISTAN_ZAMBURAK_HELP">
+			<Text>Slightly more expensive than the Gatling Gun it replaces, the Zamburak has +3 Movement and can move after attacking. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CIV5_CL_AFGHANISTAN_ZAMBURAK_CIVILOPEDIA">
+			<Text>Zamburaks combined camel cavalry with heavy weaponry. Used throughout the Muslim world, including Afghanistan, zamburaks were essentially camels with swivel guns or other large guns mounted on the rear. The camel would have to crouch down onto its knees in order for the gun to be used. Zamburaks only used lighter cannons, so their effectiveness against well-constructed defenses was less significant. Nonetheless, the combination of firepower and mobility created an intimidating and useful combination.</Text>
+		</Row>
+
+		<!--Unique Improvement-->
+		<Row Tag="TXT_KEY_IMPROVEMENT_CL_KALLE">
+			<Text>Kalle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CL_KALLE_HELP">
+			<Text>Can be built on any land tile and provides +1 [ICON_GOLD] Gold and +1 [ICON_FOOD] Food, with their tile yields doubled if built adjacent to a mountain. Trade Routes that pass over a tile with a Kalle generate points towards Great Writers in the  Capital. Units stationed on a Kalle receive also receive a 15% bonus defensive combat bonus. Unlocked at Mathematics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CL_KALLE_PEDIA">
+			<Text>“Kalle” is simply the Pashto word for village, used here to represent the communities and settlements that directly benefited from the cultural and economic exchange known as the Silk Road. It was a trans-continental system of trade that connected the Chinese Han Dynasty to the Roman Empire, facilitating the exchange of goods and ideas across Eurasia. This trade network persisted through the Mongol era. After the Mongol conquests disintegrated, the Silk Road declined as an institution in favor of European mercantilism and colonialism. Can be built on any land tile and provides +1 [ICON_GOLD] Gold and +1 [ICON_FOOD] Food, with their tile yields doubled if built adjacent to a mountain. Trade Routes that pass over a tile with a Kalle generate points towards Great Writers in the Capital. Units stationed on a Kalle receive also receive a 15% bonus defensive combat bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CL_KALLE">
+			<Text>Build a [LINK=IMPROVEMENT_CL_KALLE]Kalle[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CL_KALLE_HELP">
+			<Text>Only Afghanistan may build a Kalle. This improvement provides +15% Defence for any unit stationed inside, as well as +1 Gold and +1 Food. These yields double when a Kalle is built next to a Mountain. Trade Routes that pass over these contribute extra Great Writer points in the capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CL_KALLE_REC">
+			<Text>Building a Kalle will give you +1 [ICON_GOLD] Gold and +1 [ICON_FOOD] Food when first built, and this doubles if the Kalle is next to a mountain. Trade Routes that pass over the Kalle contribute Great Writer points. +15% Strength for any unit stationd in this tile.</Text>
+		</Row>
+
+		<!--Other Stuff-->
+		<Row Tag="TXT_KEY_PROMOTION_AFGHANMOUNTINEERS">
+			<Text>Combat Bonus from Mountains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AFGHANMOUNTINEERS_HELP">
+			<Text>Combat Bonus from Mountains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CL_AFGHANISTAN_MOUNTAIN_TRADE">
+			<Text>Afghan Trade Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CL_AFGHANISTAN_MOUNTAIN_TRADE_HELP">
+			<Text>Afghan Trade Dummy</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

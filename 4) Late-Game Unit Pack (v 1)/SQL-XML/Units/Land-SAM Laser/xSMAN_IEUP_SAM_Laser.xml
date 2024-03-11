@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_SAM_LASER</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_SAM_LASER</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_SAM_LASER</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_IEUP_SAM_LASER</Class>
+			<Type>UNIT_SMAN_IEUP_SAM_LASER</Type>
+			<Combat>85</Combat>
+			<Cost>500</Cost>
+			<FaithCost>1000</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			
+			<Moves>3</Moves>
+			<Range>2</Range>
+			<AirInterceptRange>2</AirInterceptRange>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+			<ObsoleteTech></ObsoleteTech>
+			
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_SAM_LASER</Description>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_SAM_LASER_HELP</Help>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_SAM_LASER_STRATEGY</Strategy>			
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_SAM_LASER_PEDIA</Civilopedia>
+			
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>			
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass></GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<MoveRate>WHEELED</MoveRate>
+			
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_SAM_LASER</UnitArtInfo>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>16</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>16</UnitFlagIconOffset>
+			
+		</Row>
+	</Units>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_LASER</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_LASER</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	
+	<!--
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_LASER</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	-->
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_LASER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_LASER</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_LASER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_LASER</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_LASER</UnitType>
+			<UnitAIType>UNITAI_CITY_SPECIAL</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_LASER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_LASER</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_LASER</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_LASER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_LASER</UnitType>
+			<SelectionSound>AS2D_SELECT_MOBILE_SAM</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MOBILE_SAM</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SAM_LASER">
+			<Text>Laser SAM</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SAM_LASER_HELP">
+			<Text>Use Laser SAM units to intercept enemy aircraft which are trying to attack nearby Units. Requires [ICON_RES_OIL] Oil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SAM_LASER_STRATEGY">
+			<Text>The Laser SAM unit is an upgrade to the Mobile SAM units, and provides an advancing army with anti-air defense. These units can intercept and shoot at enemy aircraft bombing targets within 2 tiles (but only one unit per turn). These units are fairly vulnerable to non-air attack and should be accompanied by infantry or armor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SAM_LASER_PEDIA">
+			<Text>
+				The Laser SAM is a specialized anti-air unit, with enhanced capabilities to defend against enemy air attacks up to 2 tiles away. It is available on the discovery of Lasers, and does not become obsolete. Requires [ICON_RES_OIL] Oil.
+			</Text>
+		</Row>
+	</Language_en_US>	
+	
+</GameData>

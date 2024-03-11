@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 2:18:54 PM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set ExtraFoundedCityTerritoryClaimRange="9" />
+			<Where Type="TRAIT_GREAT_EXPANSE" />
+		</Update>
+	</Traits>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_GREAT_EXPANSE" />
+			<Set Text="Founded cities start with additional territory. Units receive a combat bonus when fighting within their own territory. Units can choose the bonuses you recive from ancient ruins."/>
+		</Update>
+	</Language_en_US>
+</GameData>

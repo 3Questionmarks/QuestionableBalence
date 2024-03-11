@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 11:36:18 AM -->
+<GameData>
+	<!-- Kris swordsman now replaced longswordsmen, has increased combat strength over the longsword and upgrades into riflemen. added some new promotions and removed the bad ones -->
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_KRIS_SWORDSMAN" />
+		<Row>
+			<CivilizationType>CIVILIZATION_INDONESIA</CivilizationType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+			<UnitType>UNIT_KRIS_SWORDSMAN</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<!-- Adjust the other stuff accordingly. Also available at Metal Casting  -->
+	<Units>
+		<Update>
+			<Set Combat="22" Cost="120" FaithCost="240" Class="UNITCLASS_LONGSWORDSMAN" PrereqTech="TECH_METAL_CASTING" GoodyHutUpgradeUnitClass="UNITCLASS_RIFLEMAN" AdvancedStartCost="20" ObsoleteTech="" />
+			<Where Type="UNIT_KRIS_SWORDSMAN" />
+		</Update>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Update>
+			<Set UnitClassType="UNITCLASS_RIFLEMAN" />
+			<Where UnitType="UNIT_KRIS_SWORDSMAN" />
+		</Update>
+	</Unit_ClassUpgrades>
+
+	<UnitPromotions_PostCombatRandomPromotion>
+		<Delete PromotionType="PROMOTION_MYSTIC_BLADE" NewPromotion="PROMOTION_ENEMY_BLADE" />
+		<Delete PromotionType="PROMOTION_MYSTIC_BLADE" NewPromotion="PROMOTION_EVIL_SPIRITS" />
+		<Delete PromotionType="PROMOTION_MYSTIC_BLADE" NewPromotion="PROMOTION_SNEAK_ATTACK" />
+	</UnitPromotions_PostCombatRandomPromotion>
+</GameData>

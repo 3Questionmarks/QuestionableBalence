@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2021 3:27:10 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_CHANCERY</Type>
+			<DefaultBuilding>BUILDING_TCS_CHANCERY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_CHANCERY</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TCS_CHANCERY</Type>
+			<BuildingClass>BUILDINGCLASS_TCS_CHANCERY</BuildingClass>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_PATRONAGE</PolicyBranchType>
+			<Description>TXT_KEY_BUILDING_TCS_CHANCERY</Description>
+			<Help>TXT_KEY_BUILDING_TCS_CHANCERY_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<CityStateTradeRouteProductionModifier>5</CityStateTradeRouteProductionModifier>
+			<TradeRouteRecipientBonus>1</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>POLICY_ICONATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_TCS_CHANCERY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TCS_CHANCERY</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TCS_CHANCERY">
+			<Text>Chancery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TCS_CHANCERY_HELP">
+			<Text>+5% [ICON_PRODUCTION] Production from each City-State trade route. +1 [ICON_GOLD] Gold for each Trade Route target and recipient.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

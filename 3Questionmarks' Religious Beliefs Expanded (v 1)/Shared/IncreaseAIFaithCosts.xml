@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/25/2024 12:11:50 PM -->
+<GameData>
+	<!-- Create a Dummy Policy that increases the cost of Faith Purchaces for the AI - On Immortal The AI Only needs 75% of the Production/Gold/Faith to train a unit and it has a 65% increase to the speed of making these. This totals in earing prophets 140% faster than human players witch means, unless you get very good coditions, it can be hard to get a religion. I Might Increase this value more if they AI still is spamming religios units too much-->
+	<Policies>
+		<Row>
+			<Type>POLICY_DUMMY_AI_FAITHCOSTS</Type>
+			<Description>TXT_KEY_POLICY_DUMMY_AI_FAITHCOSTS</Description>
+			<PortraitIndex>44</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			<FaithCostModifier>50</FaithCostModifier>
+		</Row>
+	</Policies>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_DUMMY_AI_FAITHCOSTS" >
+			<Text>AI Faithcosts</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

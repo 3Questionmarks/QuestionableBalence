@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_SAM_RAILGUN</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_SAM_RAILGUN</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_SAM_RAILGUN</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_IEUP_SAM_RAILGUN</Class>
+			<Type>UNIT_SMAN_IEUP_SAM_RAILGUN</Type>
+			<Combat>105</Combat>
+			<Cost>600</Cost>
+			<FaithCost>1200</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			
+			<Moves>3</Moves>
+			<Range>2</Range>
+			<AirInterceptRange>3</AirInterceptRange>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<ObsoleteTech></ObsoleteTech>
+			
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_SAM_RAILGUN</Description>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_SAM_RAILGUN_HELP</Help>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_SAM_RAILGUN_STRATEGY</Strategy>			
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_SAM_RAILGUN_PEDIA</Civilopedia>
+			
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>			
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass></GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<MoveRate>WHEELED</MoveRate>
+			
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_SAM_RAILGUN</UnitArtInfo>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>17</UnitFlagIconOffset>
+			
+		</Row>
+	</Units>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_RAILGUN</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_RAILGUN</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	
+	<!--
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_RAILGUN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	-->
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_RAILGUN</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_RAILGUN</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_RAILGUN</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_RAILGUN</UnitType>
+			<UnitAIType>UNITAI_COUNTER</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_RAILGUN</UnitType>
+			<UnitAIType>UNITAI_CITY_SPECIAL</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_RAILGUN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_RAILGUN</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_RAILGUN</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_RAILGUN</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_RAILGUN</UnitType>
+			<SelectionSound>AS2D_SELECT_MOBILE_SAM</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MOBILE_SAM</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SAM_RAILGUN">
+			<Text>Railgun SAM</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SAM_RAILGUN_HELP">
+			<Text>Use Railgun SAM units to intercept enemy aircraft which are trying to attack nearby Units. Requires [ICON_RES_URANIUM] Uranium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SAM_RAILGUN_STRATEGY">
+			<Text>The Railgun SAM unit is an upgrade to the Laser SAM unit, and provides an advancing army with anti-air defense. These units can intercept and shoot at enemy aircraft bombing targets within 3 tiles (but only one unit per turn). These units are fairly vulnerable to non-air attack and should be accompanied by infantry or armor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SAM_RAILGUN_PEDIA">
+			<Text>
+				The Railgun SAM is a specialized anti-air unit, with enhanced capabilities to defend against enemy air attacks up to 3 tiles away. It is available on the discovery of Nuclear Fusion, and does not become obsolete. Requires [ICON_RES_URANIUM] Uranium.
+			</Text>
+		</Row>
+	</Language_en_US>	
+	
+</GameData>

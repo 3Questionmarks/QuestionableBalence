@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+
+<GameData>
+	<Language_en_US>
+		<!--General phrases -->
+		<!--Greeting (first time meeting) -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_FIRSTGREETING_1">
+			<Text>Welcome to Australia! I am Sir Robert Menzies, Prime Minister of our fine country.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_FIRSTGREETING_2">
+			<Text>You have stumbled upon the finest country in the Commonwealth! Welcome to Australia, my friend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_FIRSTGREETING_3">
+			<Text>The wonderful country of Australia welcomes you, as do I. </Text>
+		</Row>
+		<!--Reacts to his bluff being called -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_WARBLUFF_1">
+			<Text>I am one of the few men honest enough to tell you; That was a bad choice.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_WARBLUFF_2">
+			<Text>Not today, Mate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_WARBLUFF_3">
+			<Text>Watch what you say, sir.</Text>
+		</Row>
+		<!--Gloats after winning a war -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_WINWAR_1">
+			<Text>This is what happens when you trifle with the Australian spirit!.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_WINWAR_2">
+			<Text>You chose the wrong side, mate.</Text>
+		</Row>
+		<!--Submissive after losing a war -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_LOSEWAR_1">
+			<Text>We will remember this defeat, and grow stronger from it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_LOSEWAR_2">
+			<Text>For now, we must bow out of this conflict. But not forever.</Text>
+		</Row>
+		<!--Defeated and removed from game -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DEFEATED_1">
+			<Text>A fair dinkum victory, I admit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DEFEATED_2">
+			<Text>Our great nation rose from nothing once, and will do so again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DEFEATED_3">
+			<Text>For now, we must bow out of this conflict. But not forever.</Text>
+		</Row>
+
+		<!--Neutral -->
+		<!--Greetings (subsequent meetings) -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_GREETING_1">
+			<Text>Welcome.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_GREETING_2">
+			<Text>Hail!</Text>
+		</Row>
+		<!--Goodbye -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_GOODBYE_1">
+			<Text>Off you go then.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_GOODBYE_2">
+			<Text>That's all.</Text>
+		</Row>
+		<!--Trade offer from player - yes -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_YES_NEUTRAL">
+			<Text>Australia welcomes a fair trade.</Text>
+		</Row>
+		<!--Trade offer from player - sweeten the deal -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NEEDMORE_NEUTRAL_1">
+			<Text>Not quite what we're lookin' for.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NEEDMORE_NEUTRAL_2">
+			<Text>Can you do a little better?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NEEDMORE_NEUTRAL_3">
+			<Text>Almost...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NEEDMORE_NEUTRAL_4">
+			<Text>That’s not quite good enough. </Text>
+		</Row>
+		<!--Trade offer from player - no -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NO_NEUTRAL">
+			<Text>I don't think so, mate.</Text>
+		</Row>
+		<!--Demand for tribute from player - yes -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRIBUTE_YES_NEUTRAL">
+			<Text>Hardly a good deal, but I don't have much of a choice.</Text>
+		</Row>
+		<!--Demand for tribute from player - no -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRIBUTE_NO_NEUTRAL">
+			<Text>That's a rip off, and you know it.</Text>
+		</Row>
+		<!--Requests a trade -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADEREQUEST_NEUTRAL">
+			<Text>What do ya reckon'?</Text>
+		</Row>
+		<!--Demands tribute -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DEMANDTRIBUTE_NEUTRAL">
+			<Text>I know it's a big ask, but we're good for it.</Text>
+		</Row>
+		<!--Agrees -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_AGREE_SHORT_1">
+			<Text>Yep.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_AGREE_SHORT_2">
+			<Text>Alright.</Text>
+		</Row>
+		<!--Disagrees -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DISAGREE_SHORT_1">
+			<Text>Not today, mate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DISAGREE_SHORT_2">
+			<Text>No, don't think so.</Text>
+		</Row>
+		<!--Let's hear it -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_LETSHEARIT_1">
+			<Text>Let's hear it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_LETSHEARIT_2">
+			<Text>Go ahead.</Text>
+		</Row>
+
+		<!--Happy -->
+		<!--Greetings (subsequent meetings) -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_GREETING_3">
+			<Text>G'day!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_GREETING_4">
+			<Text>Good to see you, my friend.</Text>
+		</Row>
+		<!--Goodbye -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_GOODBYE_3">
+			<Text>Our business here is done.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_GOODBYE_4">
+			<Text>Goodbye.</Text>
+		</Row>
+		<!--Trade offer from player - yes -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_YES_HAPPY">
+			<Text>Works for me, mate.</Text>
+		</Row>
+		<!--Trade offer from player - sweeten the deal -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NEEDMORE_HAPPY_1">
+			<Text>You're gonna have to try harder than that, mate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NEEDMORE_HAPPY_2">
+			<Text>Is that the best you can do?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NEEDMORE_HAPPY_3">
+			<Text>You're almost there...</Text>
+		</Row>
+		<!--Trade offer from player - no -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NO_HAPPY">
+			<Text>You wouldn't make such a poor offer to a friend, would you?</Text>
+		</Row>
+		<!--Demand for tribute from player - yes -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRIBUTE_YES_HAPPY">
+			<Text>Australia is always happy to share with a friend.</Text>
+		</Row>
+		<!--Demand for tribute from player - no -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRIBUTE_NO_HAPPY">
+			<Text>I'd like to help you, but the Commonwealth just can't afford it.</Text>
+		</Row>
+		<!--Requests a trade -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADEREQUEST_HAPPY">
+			<Text>Greetings friend! Australia offers this to you in trade.</Text>
+		</Row>
+		<!--Demands tribute -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DEMANDTRIBUTE_HAPPY">
+			<Text>You've been a friend to us in the past, would you consider providing this for my people?</Text>
+		</Row>
+		<!--Agrees -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_AGREE_SHORT_3">
+			<Text>Certainly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_AGREE_SHORT_4">
+			<Text>It is agreed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_AGREE_SHORT_5">
+			<Text>Excellent.</Text>
+		</Row>
+		<!--Disagrees -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DISAGREE_SHORT_3">
+			<Text>Certainly not.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DISAGREE_SHORT_4">
+			<Text>Couldn't do that, mate.</Text>
+		</Row>
+		<!--Let's hear it -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_LETSHEARIT_3">
+			<Text>I'm listening.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_LETSHEARIT_4">
+			<Text>Yes?</Text>
+		</Row>
+
+		<!--Angry -->
+		<!--Greetings (subsequent meetings) -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_GREETING_5">
+			<Text>Don't really have time for this, but go on...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_GREETING_6">
+			<Text>What do you want?</Text>
+		</Row>
+		<!--Goodbye -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_GOODBYE_5">
+			<Text>That is all.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_GOODBYE_6">
+			<Text>We're done here.</Text>
+		</Row>
+		<!--Trade offer from player - yes -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_YES_ANGRY">
+			<Text>Fine.</Text>
+		</Row>
+		<!--Trade offer from player - sweeten the deal -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NEEDMORE_ANGRY_1">
+			<Text>Surely you can't be serious.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NEEDMORE_ANGRY_2">
+			<Text>That will not be enough.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NEEDMORE_ANGRY_3">
+			<Text>You must do better than that.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NEEDMORE_ANGRY_4">
+			<Text>Bloody oath mate, that's a bad deal.</Text>
+		</Row>
+		<!--Trade offer from player - no -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADE_NO_ANGRY">
+			<Text>We're not fools, mate. No.</Text>
+		</Row>
+		<!--Demand for tribute from player - yes -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRIBUTE_YES_ANGRY">
+			<Text>It seems I have little choice but to agree…this time.</Text>
+		</Row>
+		<!--Demand for tribute from player - no -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRIBUTE_NO_ANGRY">
+			<Text>Your joke is in poor taste...we would never agree to such an outrageous demand!</Text>
+		</Row>
+		<!--Requests a trade -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_TRADEREQUEST_ANGRY">
+			<Text>I offer you this in trade, what do you reckon'?</Text>
+		</Row>
+		<!--Demands tribute -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DEMANDTRIBUTE_ANGRY">
+			<Text>You should really help us out with this, frankly.!</Text>
+		</Row>
+		<!--Disagrees -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DISAGREE_SHORT_5">
+			<Text>I beg your pardon?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DISAGREE_SHORT_6">
+			<Text>That's unacceptable.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DISAGREE_SHORT_7">
+			<Text>You can't be serious!</Text>
+		</Row>
+		<!--Let's hear it -->
+		<Row Tag="TXT_KEY_LEADER_MENZIES_LETSHEARIT_5">
+			<Text>You were saying?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DECLAREWAR_1">
+			<Text>It's not my preference, but we'll have to go to war.!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DECLAREWAR_2">
+			<Text>Unfourtunately, your empire just isn't in the best interests of the Commonwealth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_DECLAREWAR_3">
+			<Text>I believe it is in the best interests of my people that you no longer roam these lands unchecked...</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_MENZIES_ATTACKED_1">
+			<Text>My armies will erase the very memory of your existence!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_ATTACKED_2">
+			<Text>Treachery, eh? How uncivilized.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MENZIES_ATTACKED_3">
+			<Text>I see you lack the finer points of diplomacy! Perhaps you will learn humility in defeat!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

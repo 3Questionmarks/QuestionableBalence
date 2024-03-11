@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Traits>
+		<Update>
+			<Where Type="TRAIT_LONG_COUNT" />
+			<Set PrereqTech="TECH_PHILOSOPHY" />
+		</Update>
+        <Update>
+			<Where Type="TRAIT_LONG_COUNT" />
+            <Set GreatPeopleRateModifier="50" />
+		</Update>
+	</Traits>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_LONG_COUNT" />
+			<Set Text="After researching Philosophy, gain +50% [ICON_GREAT_PEOPLE] great person generation in all cities and receive a bonus [ICON_GREAT_PEOPLE] Great Person at the end of every Maya Long Count calendar cycle (every 394 years). " />
+		</Update>
+	</Language_en_US>
+</GameData>

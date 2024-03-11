@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/26/2020 12:47:17 PM -->
+<GameData>
+    <Buildings>
+		<Update>
+			<Where Type="BUILDING_AQUEDUCT"/>
+			<Set>
+				<FoodKept>25</FoodKept>
+			</Set>
+		</Update>
+	</Buildings>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<FeatureType>FEATURE_FUJI</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<FeatureType>FEATURE_MT_KAILASH</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<FeatureType>FEATURE_KILIMANJARO</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<FeatureType>FEATURE_MT_SINAI</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AQUEDUCT</BuildingType>
+			<FeatureType>FEATURE_SRI_PADA</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_AQUEDUCT_HELP" />
+			<Set Text="25% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born. All Mountains worked by this city produce +1 [ICON_FOOD] Food." />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_AQUEDUCT_STRATEGY" />
+			<Set Text="The Aqueduct decreases the amount of [ICON_FOOD] Food a city needs to increase in size by 25%. It also can bring water down from Mountains, increasing the [ICON_FOOD] Food yield of those tiles when worked." />
+		</Update>
+	</Language_en_US>
+</GameData>

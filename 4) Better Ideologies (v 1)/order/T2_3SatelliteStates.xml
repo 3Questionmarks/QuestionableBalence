@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 16:01:48 -->
+<GameData>
+	
+	<!-- Satellite States (replaces Skyscrapers): +3% Food, Production, and Gold in all Cities for each Courthouse in the Empire. -->
+	<Policies>
+		<Update>
+			<Set Level="2" BuildingPurchaseCostModifier="0" />
+			<Where Type="POLICY_SKYSCRAPERS" />
+		</Update>
+	</Policies>
+	<Policy_Flavors>
+		<Update>
+			<Set FlavorType="FLAVOR_OFFENSE" Flavor="25" />
+			<Where PolicyType="POLICY_SKYSCRAPERS" FlavorType="FLAVOR_GOLD" />
+		</Update>
+	</Policy_Flavors>
+	
+	<Policy_BuildingClassYieldModifiers>
+        <Row>
+			<PolicyType>POLICY_SKYSCRAPERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldMod>8</YieldMod>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_SKYSCRAPERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>8</YieldMod>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_SKYSCRAPERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldMod>8</YieldMod>
+		</Row>
+    </Policy_BuildingClassYieldModifiers>
+	
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_SKYSCRAPERS" />
+		<Row Tag="TXT_KEY_POLICY_SKYSCRAPERS">
+			<Text>Satellite States</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_SKYSCRAPERS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_SKYSCRAPERS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Satellite States[ENDCOLOR][NEWLINE]+8% [ICON_FOOD] Food, +8% [ICON_PRODUCTION] Production, and +8% [ICON_GOLD] Gold form Courthouses.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_SKYSCRAPERS_TEXT" />
+		<Row Tag="TXT_KEY_POLICY_SKYSCRAPERS_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Satellite_state)[ENDCOLOR][NEWLINE][NEWLINE]The term satellite state designates a country that is formally independent in the world, but under heavy political, economic and military influence or control from another country. The term was coined by analogy to planetary objects orbiting a larger object, such as smaller moons revolving around larger planets, and is used mainly to refer to Central and Eastern European countries of the Warsaw Pact during the Cold War or to Mongolia between 1924 and 1990, for example. As used for Central and Eastern European countries it implies that the countries in question were "satellites" under the hegemony of the Soviet Union. In some contexts it also refers to other countries in the Soviet sphere of influence during the Cold War—such as North Korea (especially in the years surrounding the Korean War of 1950–1953) and Cuba (particularly after it joined the Comecon in 1972). In Western usage, the term has seldom been applied to states other than those in the Soviet orbit. In Soviet usage, the term applied to the states in the orbit of Nazi Germany and Fascist Italy.[NEWLINE][NEWLINE]In times of war or political tension, satellite states sometimes serve as buffers between an enemy country and the nation exerting control over the satellites. "Satellite state" is one of several contentious terms used to describe the (alleged) subordination of one state to another. Other such terms include puppet state and neo-colony. In general, the term "satellite state" implies deep ideological and military allegiance to the hegemonic power, whereas "puppet state" implies political and military dependence, and "neo-colony" implies (often abject) economic dependence. Depending on which aspect of dependence is being emphasised, a state may fall into more than one category.</Text>
+		</Row>
+	</Language_en_US>
+	
+
+</GameData>

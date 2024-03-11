@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:47:55 PM -->
+<GameData>
+	<Trait_SpecialistYieldChanges>
+		<Row>
+			<TraitType>TRAIT_TAR_ABBASID_HARUN_AL_RASHID</TraitType>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Trait_SpecialistYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_TAR_ABBASID_HARUN_AL_RASHID"/>
+			<Set Text="Gain [ICON_RESEARCH] Science with theming bonuses. Produces an extra copy of a [ICON_GREAT_WORK] Great Work of Writing for each one created. +3 [ICON_RESEARCH] Science from Writer Specialists."/>
+		</Update>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/5/2024 8:21:42 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Key
+		[COLOR_BUILDING_TEXT] === Buildings
+		[COLOR_CITY_GREEN] === National Wonder
+		[COLOR_YIELD_GOLD] === Tile Improvement
+		[COLOR_XP_BLUE] === Unit
+		[COLOR_WHITE] === Worker Action/Resource
+		[COLOR_CULTURE_STORED] === Unlocked Ability/Bonus such as trade routes or an improvement yield
+		-->
+		<!-- ============= -->
+		<!-- ===Ancient=== -->
+		<!-- ============= -->
+		
+		<!-- Agriculture -->
+		<Delete Tag="TXT_KEY_TECH_AGRICULTURE_HELP" />
+		<Row Tag="TXT_KEY_TECH_AGRICULTURE_HELP">
+			<Text>Allows Workers to construct [COLOR_YIELD_GOLD]Farms[ENDCOLOR], vital for increasing the [ICON_FOOD] Food output of map tiles.</Text>
+		</Row>
+		
+		<!-- New Tech "Fishing" -->
+		<Row Tag="TXT_KEY_TECH_FISHING_TITLE">
+			<Text>Fishing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FISHING_DESC">
+			<Text>Fishing is an ancient practice that dates back to at least the beginning of the Paleolithic period about 40,000 years ago.  Isotopic analysis of the skeletal remains of Tianyuan man, a 40,000 year old modern human from eastern Asia, has shown that he regularly consumed freshwater fish.  Archaeology features such as shell middens, discarded fish bones and cave paintings show that sea foods were important for survival and consumed in significant quantities. During this period, most people lived a hunter-gatherer lifestyle and were, of necessity, constantly on the move. However, where there are early examples of permanent settlements, they are almost always associated with fishing as a major source of food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FISHING_HELP">
+			<Text>Allows you to build [COLOR_XP_BLUE]Work Boats[ENDCOLOR], useful for improving water tiles and harvesting like [ICON_RES_FISH] [COLOR_WHITE]Fish[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FISHING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Give a man a fish, and you feed him for a day.[NEWLINE][TAB][TAB] Teach a man to fish, and you feed him for a lifetime."[NEWLINE][TAB][TAB]   - Lao Tzu[NEWLINE][TAB]</Text>
+		</Row>
+
+		<!-- Pottery -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_POTTERY_HELP"/>
+			<Set Text="Allows your cities to build the [COLOR_BUILDING_TEXT]Granary[ENDCOLOR], which provides [ICON_FOOD] Food, helping your cities grow larger; the [COLOR_BUILDING_TEXT]Shrine[ENDCOLOR], the first [ICON_PEACE] Faith producing building in the game; and the [COLOR_BUILDING_TEXT]Potter[ENDCOLOR], an early [ICON_CULTURE] Culture and [ICON_PRODUCTION] Production building."/>
+		</Update>
+		<!-- Animal Husbandry -->
+		<Delete Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_HELP" />
+		<Row Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_HELP">
+			<Text>
+				Allows Workers to construct [COLOR_YIELD_GOLD]Pastures[ENDCOLOR] to improve resources such as [ICON_RES_COW] [COLOR_WHITE]Cows[ENDCOLOR], and reveals [ICON_RES_HORSE] [COLOR_WHITE]Horses[ENDCOLOR], which are used to build powerful mounted units. Also allows you to build the [COLOR_XP_BLUE]Caravan[ENDCOLOR], used to establish lucrative [ICON_INTERNATIONAL_TRADE] [COLOR_CULTURE_STORED]Trade Routes[ENDCOLOR], and allows for the establishment of such a [ICON_INTERNATIONAL_TRADE] [COLOR_CULTURE_STORED]Trade Route[ENDCOLOR].</Text>
+		</Row>
+		<!-- Archery -->
+		<Delete Tag="TXT_KEY_TECH_ARCHERY_HELP" />
+		<Row Tag="TXT_KEY_TECH_ARCHERY_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Archer[ENDCOLOR], the first ranged unit in the game. Also allows you to construct the [COLOR_BUILDING_TEXT]Hunting Lodge[ENDCOLOR], improving the [ICON_FOOD] Food output from resources such as [ICON_RES_DEER] [COLOR_WHITE]Deer[ENDCOLOR].</Text>
+		</Row>
+		<!-- Mining -->
+		<Delete Tag="TXT_KEY_TECH_MINING_HELP" />
+		<Row Tag="TXT_KEY_TECH_MINING_HELP">
+			<Text>Allows Workers to construct [COLOR_YIELD_GOLD]Mines[ENDCOLOR] to increase the [ICON_PRODUCTION] Production of map tiles. Also reveals [COLOR_WHITE]Iron[ENDCOLOR] on the map, a vital resource for powerful military units.</Text>
+		</Row>
+		<!-- Sailing -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_SAILING_HELP"/>
+			<Set Text="Allows you to build the [COLOR_XP_BLUE]Trireme[ENDCOLOR], the first military ship, useful for exploration and attacking other enemy ships and coastal cities; and the [COLOR_XP_BLUE]Cargo Ship[ENDCOLOR], used to establish lucrative sea-based [ICON_INTERNATIONAL_TRADE] Trade Routes. Also allows for founding of a [ICON_INNTERNATIONAL_TRADE] [COLOR_CULTURE_STORED]Trade Route[ENDCOLOR]."/>
+		</Update>
+		<!-- Calendar -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_CALENDAR_HELP"/>
+			<Set Text="Allows Workers to construct [COLOR_YIELD_GOLD]Plantations[ENDCOLOR] on many Luxury Resources, which are extremely important for [ICON_FOOD] Growth and [ICON_HAPPINESS_1] Happiness. Also allows you to construct the [COLOR_BUILDING_TEXT]Ritual Site[ENDCOLOR], a building that improves the [ICON_CULTURE] Culture and [ICON_PEACE] Faith yield of [ICON_RES_INCENSE] [COLOR_WHITE]Incense[ENDCOLOR], [ICON_RES_SPICES] [COLOR_WHITE]Spices[ENDCOLOR], and [ICON_RES_TOBACCO] [COLOR_WHITE]Tobacco[ENDCOLOR]."/>
+		</Update>
+		<!-- Writing -->
+		<Delete Tag="TXT_KEY_TECH_WRITING_HELP" />
+		<Row Tag="TXT_KEY_TECH_WRITING_HELP">
+			<Text>Allows you to build the first [ICON_RESEARCH] Science building, the [COLOR_BUILDING_TEXT]Library[ENDCOLOR], helping your empire research new technologies more quickly.</Text>
+		</Row>
+		<!-- Trapping -->
+		<Delete Tag="TXT_KEY_TECH_TRAPPING_HELP" />
+		<Row Tag="TXT_KEY_TECH_TRAPPING_HELP">
+			<Text>Allows Workers to build [COLOR_YIELD_GOLD]Villages[ENDCOLOR], which increase the [ICON_GOLD] Gold output of map tiles, and may grow into Towns once Guilds is researched. Also Allows your Workers to construct [COLOR_YIELD_GOLD]Camps[ENDCOLOR] used to improve resources such as [ICON_RES_DEER] [COLOR_WHITE]Deer[ENDCOLOR]. Additionally, allows you to construct the [COLOR_BUILDING_TEXT]Smokehouse[ENDCOLOR] and [COLOR_BUILDING_TEXT]Tannery[ENDCOLOR] which are buildings that increase the yields of several resources, as well as the [COLOR_BUILDING_TEXT]Circus[ENDCOLOR] which increases the [ICON_HAPPINESS_1] Happiness of your cities.</Text>
+		</Row>
+		<!-- The Wheel -->
+		<Delete Tag="TXT_KEY_TECH_THE_WHEEL_HELP" />
+		<Row Tag="TXT_KEY_TECH_THE_WHEEL_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Chariot Archer[ENDCOLOR], a fast and powerful ranged unit which requires [ICON_RES_HORSE] [COLOR_WHITE]Horses[ENDCOLOR]. Also allows Workers to construct [COLOR_YIELD_GOLD]Roads[ENDCOLOR], which allow units to move across the map faster and provide extra [ICON_GOLD] Gold when [ICON_CONNECTED] Connecting cities to your [ICON_CAPITAL] Capital. Additionally allows you to construct the [COLOR_BUILDING_TEXT]Water Mill[ENDCOLOR] and [COLOR_BUILDING_TEXT]Bakery[ENDCOLOR] buildings, both of which increase the [ICON_FOOD] Food output of your cities, allowing them to grow faster.</Text>
+		</Row>
+		
+		<!-- New Tech "Logging" -->
+		<Row Tag="TXT_KEY_TECH_LOGGING_TITLE">
+			<Text>Logging</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_LOGGING_DESC">
+			<Text>Logging is the process of cutting, processing, and moving trees to a location for transport. It may include skidding, on-site processing, and loading of trees or logs onto carts and later trucks or skeleton cars. In forestry, the term logging is sometimes used narrowly to describe the logistics of moving wood from the stump to somewhere outside the forest, usually a sawmill or a lumber yard. In common usage, however, the term may cover a range of forestry or silviculture activities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_LOGGING_HELP">
+			<Text>Allows Workers to construct [COLOR_YIELD_GOLD]Lumbermills[ENDCOLOR] on forested map tiles, increasing their [ICON_PRODUCTION] Production; and to [COLOR_WHITE]Chop Forests[ENDCOLOR]/[COLOR_WHITE]Jungle[ENDCOLOR], allowing the construction of other improvements; and to [COLOR_WHITE]Plant a Forest[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_LOGGING_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"The death of the forest is the end of our life."[NEWLINE][TAB][TAB]   - Dorothy Stang[NEWLINE][TAB]
+			</Text>
+		</Row>
+		
+		<!-- Masonry -->
+		<Delete Tag="TXT_KEY_TECH_MASONRY_HELP" />
+		<Row Tag="TXT_KEY_TECH_MASONRY_HELP">
+			<Text>Allows you to construct [COLOR_BUILDING_TEXT]Walls[ENDCOLOR] which greatly improve the defense of cities from attack, and [COLOR_BUILDING_TEXT]Stone Works[ENDCOLOR] which increase the cities [ICON_PRODUCTION] Production. Also allows Workers to construct [COLOR_YIELD_GOLD]Quarries[ENDCOLOR] on [ICON_RES_STONE] [COLOR_WHITE]Stone[ENDCOLOR] and [ICON_RES_MARBLE] [COLOR_WHITE]Marble[ENDCOLOR] and to [COLOR_WHITE]Clear Marshes[ENDCOLOR], allowing other improvements to be constructed.</Text>
+		</Row>
+		<!-- Bronce Working -->
+		<Delete Tag="TXT_KEY_TECH_BRONZE_WORKING_HELP" />
+		<Row Tag="TXT_KEY_TECH_BRONZE_WORKING_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Spearman[ENDCOLOR], a military unit strong against mounted enemies. Also allows for the construction of the [COLOR_BUILDING_TEXT]Barracks[ENDCOLOR], a building that increases the starting [ICON_WAR] XP for new units; and the [COLOR_BUILDING_TEXT]Smelter[ENDCOLOR], a building that provides the empire with more [ICON_RES_IRON] [COLOR_WHITE]Iron[ENDCOLOR].</Text>
+		</Row>
+
+		
+		
+		<!-- =============== -->
+		<!-- ===Classical=== -->
+		<!-- =============== -->
+		
+		<!-- Optics -->
+		<Delete Tag="TXT_KEY_TECH_OPTICS_HELP" />
+		<Row Tag="TXT_KEY_TECH_OPTICS_HELP">
+			<Text>Allows land units to [COLOR_CULTURE_STORED]Embark[ENDCOLOR] onto water tiles and travel the ocean. Also allows you to construct the [COLOR_BUILDING_TEXT]Lighthouse[ENDCOLOR] in coastal cities, improving [ICON_FOOD] Food output from water tiles, speeding their growth. Additionally, [COLOR_YIELD_GOLD]Custom Houses[ENDCOLOR] will yield an additional 2 [ICON_GOLD] Gold.</Text>
+		</Row>
+
+		<!-- Horseback Riding -->
+		<Delete Tag="TXT_KEY_TECH_HORSEBACK_RIDING_HELP" />
+		<Row Tag="TXT_KEY_TECH_HORSEBACK_RIDING_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Horseman[ENDCOLOR], a fast and powerful mounted unit. Also allows you to construct the [COLOR_BUILDING_TEXT]Stable[ENDCOLOR], which increases the [ICON_PRODUCTION] Production speed of mounted units; the [COLOR_BUILDING_TEXT]Inn[ENDCOLOR] and [COLOR_BUILDING_TEXT]Caravansary[ENDCOLOR], buildings which increase the [ICON_GOLD] Gold yield from [ICON_INTERNATIONAL_TRADE] Trade Routes; the [COLOR_BUILDING_TEXT]Leatherworker[ENDCOLOR], which grants units extra [ICON_STRENGTH] Defence; and the [COLOR_CITY_GREEN]Circus Maximus[ENDCOLOR] national wonder, which increases [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+
+		<!-- Mathematics -->
+		<Delete Tag="TXT_KEY_TECH_MATHEMATICS_HELP" />
+		<Row Tag="TXT_KEY_TECH_MATHEMATICS_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Catapult[ENDCOLOR], a powerful siege weapon. Also allows you to construct the [COLOR_BUILDING_TEXT]Courthouse[ENDCOLOR], a building which reduces the [ICON_HAPPINESS_4] Unhappiness from [ICON_OCCUPIED] Occupied Cities; the [COLOR_BUILDING_TEXT]Agora[ENDCOLOR], a building that increases the [ICON_CULTURE] Culture output of a city; and the [COLOR_BUILDING_TEXT]Weavery[ENDCOLOR], a building that increases the [ICON_GOLD] Gold and [ICON_PRODUCTION] Production output of textile resources such as [ICON_RES_COTTON] [COLOR_WHITE]Cotton[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Construction -->
+		<Delete Tag="TXT_KEY_TECH_CONSTRUCTION_HELP" />
+		<Row Tag="TXT_KEY_TECH_CONSTRUCTION_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Composite Bowman[ENDCOLOR], a powerful ranged infantry unit. Also allows you to construct the [COLOR_BUILDING_TEXT]Colosseum[ENDCOLOR], which improves [ICON_HAPPINESS_1] Happiness in the empire, which in turn helps your city growth and makes [ICON_GOLDEN_AGE] Golden Ages more likely; the [COLOR_BUILDING_TEXT]Cistern[ENDCOLOR], which increases the [ICON_FOOD] Food output of a city; and the [COLOR_BUILDING_TEXT]Sculptor's Workshop[ENDCOLOR], which increases the speed at which [ICON_GREAT_PEOPLE] Great People are generated. Additionally, [COLOR_CULTURE_STORED][ICON_WORKER] Workers improve tiles 25% quicker[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Philosophy -->
+		<Delete Tag="TXT_KEY_TECH_PHILOSOPHY_HELP" />
+		<Row Tag="TXT_KEY_TECH_PHILOSOPHY_HELP">
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Temple[ENDCOLOR], which increases the [ICON_PEACE] Faith and [ICON_CULTURE] Culture output of a city. Also allows for construction of the [COLOR_BUILDING_TEXT]Herbalist[ENDCOLOR], a building that increases the [ICON_REASEARCH] Science output of a city.</Text>
+		</Row>
+
+		<!-- Drama and Poetry -->
+		<Delete Tag="TXT_KEY_TECH_DRAMA_HELP" />
+		<Row Tag="TXT_KEY_TECH_DRAMA_HELP">
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Amphitheater[ENDCOLOR], which provides a boost to [ICON_CULTURE] Culture. Also allows for construction the [COLOR_CITY_GREEN]Writers' Guild[ENDCOLOR] and [COLOR_CITY_GREEN]National Epic[ENDCOLOR], both national wonders that allow your city to generate [ICON_GREAT_PEOPLE] Great People faster.</Text>
+		</Row>
+
+		<!-- Currency -->
+		<Delete Tag="TXT_KEY_TECH_CURRENCY_HELP" />
+		<Row Tag="TXT_KEY_TECH_CURRENCY_HELP">
+			<Text>Allows you to build various [ICON_GOLD] Gold-boosting buildings like the [COLOR_BUILDING_TEXT]Mint[ENDCOLOR], [COLOR_BUILDING_TEXT]Market[ENDCOLOR], [COLOR_BUILDING_TEXT]Gem Merchant[ENDCOLOR], [COLOR_BUILDING_TEXT]Thermopolium[ENDCOLOR], and the [COLOR_CITY_GREEN]Silk Road[ENDCOLOR] national wonder.</Text>
+		</Row>
+
+		<!-- Engineering -->
+		<Delete Tag="TXT_KEY_TECH_ENGINEERING_HELP" />
+		<Row Tag="TXT_KEY_TECH_ENGINEERING_HELP">
+			<Text>Allows your cities to build [COLOR_BUILDING_TEXT]Aqueducts[ENDCOLOR], increasing the [ICON_FOOD] Food that is carries over as your city grows. Also allows Workers to construct [COLOR_YIELD_GOLD]Forts[ENDCOLOR] on map tiles, increasing the defense of units stationed there; and the [COLOR_YIELD_GOLD]Pontoon Bridge[ENDCOLOR] on water tiles next to 3 land tiles, allowing for land units to cross water without enbarking. Additionally, [COLOR_CULTURE_STORED]Bridges are automatically added to roads which cross rivers[ENDCOLOR], allowing units to pass over them without slowing down.</Text>
+		</Row>
+
+		<!-- Iron Working -->
+		<Delete Tag="TXT_KEY_TECH_IRON_WORKING_HELP" />
+		<Row Tag="TXT_KEY_TECH_IRON_WORKING_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Swordsman[ENDCOLOR], an extremely powerful melee unit which [ICON_RES_IRON] [COLOR_WHITE]Iron[ENDCOLOR]. Also allows for the construction of the [COLOR_CITY_GREEN]Heroic Epic[ENDCOLOR] national wonder, increasing the [ICON_STRENGTH] Combat Strength of newly trained units in the city.</Text>
+		</Row>
+		
+		
+		
+
+		<!-- ============== -->
+		<!-- ===Medieval=== -->
+		<!-- ============== -->
+		
+		<!-- Theology -->
+		<!-- Doesn't need changing -->
+		
+		<!-- Civil Service -->
+		<Delete Tag="TXT_KEY_TECH_CIVIL_SERVICE_HELP" />
+		<Row Tag="TXT_KEY_TECH_CIVIL_SERVICE_HELP">
+			<Text>[COLOR_YIELD_GOLD]Farms[ENDCOLOR] next to rivers and lakes produce +1 [ICON_FOOD] Food, an extremely useful bonus. Also allows you to build the [COLOR_XP_BLUE]Pikeman[ENDCOLOR], a unit deadly against mounted enemies like the Horseman and Knight. Additionally allows you to construct the [COLOR_BUILDING_TEXT]Tea House[ENDCOLOR] and [COLOR_BUILDING_TEXT]Wine Cellar[ENDCOLOR], both buildings that increase the [ICON_FOOD] Food and [ICON_CULTURE] Culture of the respective resources. Furthermore, [COLOR_CULTURE_STORED][ICON_WORKER] Workers can [ICON_MOVES] move 1 additional tile per turn.[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Guilds -->
+		<Delete Tag="TXT_KEY_TECH_GUILDS_HELP" />
+		<Row Tag="TXT_KEY_TECH_GUILDS_HELP">
+			<Text>Allows Villages worked by this city to begin growing into [COLOR_YIELD_GOLD]Towns[ENDCOLOR], providing more [ICON_GOLD] Gold and [ICON_PRODUCTION] Production. Also allows your cities to convert [ICON_PRODUCTION] Production into [ICON_GOLD] Gold instead of working on units or buildings. Additionally allows you to construct the [COLOR_BUILDING_TEXT]Tailor[ENDCOLOR], which increases the length of [ICON_GOLDEN_AGE] Ages; and the [COLOR_CITY_GREEN]Artists' Guild[ENDCOLOR] national wonder, which allows you to create [ICON_GREAT_ARTIST] Artists quicker; and the [COLOR_CITY_GREEN]East India Company[ENDCOLOR] national wonder, which increases the [ICON_GOLD] Gold gained with [ICON_INTERNATIONAL_TRADE] Trade Routes. </Text>
+		</Row>
+
+		<!-- Metal Casting -->
+		<Delete Tag="TXT_KEY_TECH_METAL_CASTING_HELP" />
+		<Row Tag="TXT_KEY_TECH_METAL_CASTING_HELP">
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Workshop[ENDCOLOR], which speeds up the production of buildings;, the [COLOR_BUILDING_TEXT]Forge[ENDCOLOR], which speeds the production of units; and the [COLOR_BUILDING_TEXT]Apothecary[ENDCOLOR], which increases the [ICON_FOOD] Food output of the city. .</Text>
+		</Row>
+
+		<!-- Compass -->
+		<Delete Tag="TXT_KEY_TECH_COMPASS_HELP" />
+		<Row Tag="TXT_KEY_TECH_COMPASS_HELP">
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Harbor[ENDCOLOR], which increases the [ICON_GOLD] Gold output of citites, and creates [ICON_CONECTED] City Connections from cities to the capital over the water, producing [ICON_GOLD] Gold. Also allows you to build the [COLOR_XP_BLUE]Galleass[ENDCOLOR], a ranged naval unit; and the [COLOR_XP_BLUE]Pioneer[ENDCOLOR], a mid-game settler unit that founds cities with additonal infrastructure and population. Finally, [COLOR_YIELD_GOLD]Fishing Boats[ENDCOLOR] will [COLOR_CULTURE_STORED]yield an additional +1 [ICON_GOLD] Gold[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Education -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_EDUCATION_HELP" />
+			<Set Text="Allows you to build the [COLOR_BUILDING_TEXT]University[ENDCOLOR], which boosts [ICON_RESEARCH] Science of a city; and the [COLOR_CITY_GREEN]Oxford University[ENDCOLOR] national wonder, which grants a free Technology once constructed. Also allows a city to focus on [ICON_RESEARCH] Research, turning its [ICON_PRODUCTION] Production into [ICON_RESEARCH] Science. " />
+		</Update>
+
+		<!-- Chivalry -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_CHIVALRY_HELP" />
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Knight[ENDCOLOR], a fast and powerful mounted unit. Also allows you to build the [COLOR_BUILDING_TEXT]Castle[ENDCOLOR] to improve the [ICON_STRENGTH] Defense of your cities; and the [COLOR_BUILDING_TEXT]Gilder[ENDCOLOR] to increase the [ICON_CULTURE] Culture of your cities. " />
+		</Update>
+
+		<!-- Machinery -->
+		<Delete Tag="TXT_KEY_TECH_MACHINERY_HELP" />
+		<Row Tag="TXT_KEY_TECH_MACHINERY_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Crossbowman[ENDCOLOR], a strong medieval ranged unit. Also allows you to construct the [COLOR_CITY_GREEN]Ironworks[ENDCOLOR] national wonder, which vastly increases the [ICON_PRODUCTION] Production of the city it is built in. Additionally, [COLOR_CULTURE_STORED]increases the [ICON_MOVES] Movement rate of units traveling along[ENDCOLOR] [COLOR_YIELD_GOLD]Roads[ENDCOLOR].</Text>
+		</Row>
+		
+		<!-- Physics -->
+		<Delete Tag="TXT_KEY_TECH_PHYSICS_HELP" />
+		<Row Tag="TXT_KEY_TECH_PHYSICS_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Trebuchet[ENDCOLOR], a very useful siege unit specialized in weakening enemy cities. Also allows you to construct the [COLOR_BUILDING_TEXT]Alchemist[ENDCOLOR], which increases the [ICON_RESEARCH] Science from cirtain mineable luxuries such as [ICON_RES_GOLD] Gold.</Text>
+		</Row>
+
+		<!-- Steel -->
+		<Delete Tag="TXT_KEY_TECH_STEEL_HELP" />
+		<Row Tag="TXT_KEY_TECH_STEEL_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Longswordsman[ENDCOLOR], a deadly medieval melee unit. Also allows you to construct the [COLOR_BUILDING_TEXT]Armory[ENDCOLOR], which increases the starting [ICON_WAR] XP for newly trained units; and the [COLOR_BUILDING_TEXT]Blacksmith[ENDCOLOR], which increases the [ICON_PRODUCTION] Production of a city and toward land units.</Text>
+		</Row>
+		
+		
+
+		<!-- ================ -->
+		<!-- ===Renassance=== -->
+		<!-- ================ -->
+
+		<!-- Astronomy -->
+		<Delete Tag="TXT_KEY_TECH_ASTRONOMY_HELP"/>
+		<Row Tag="TXT_KEY_TECH_ASTRONOMY_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Caravel[ENDCOLOR], the first Naval Unit capable of exploring the world's oceans. Also allows you to construct the [COLOR_BUILDING_TEXT]Observatory[ENDCOLOR], which increases a cities [ICON_RESEARCH] Science output from Tundra and Mountain tiles. Additionally [COLOR_CULTURE_STORED]increases the [ICON_MOVES] Movement speed of enbarked units[ENDCOLOR], and [COLOR_CULTURE_STORED]allows embarked land units to cross ocean tiles[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Acoustics -->
+		<Delete Tag="TXT_KEY_TECH_ACOUSTICS_HELP"/>
+		<Row Tag="TXT_KEY_TECH_ACOUSTICS_HELP">
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Opera House[ENDCOLOR], which provides a large boost to [ICON_CULTURE] Culture; and the [COLOR_CITY_GREEN]Musicians' Guild[ENDCOLOR], which allows you to assign specalists to speed the growth of [ICON_GREAT_MUSICIAN] Great Musicians.</Text>
+		</Row>
+
+		<!-- Banking -->
+		<Delete Tag="TXT_KEY_TECH_BANKING_HELP"/>
+		<Row Tag="TXT_KEY_TECH_BANKING_HELP">
+			<Text>Allows Towns in great locations to begin growing into [COLOR_YIELD_GOLD]Large Towns[ENDCOLOR], providing even more [ICON_GOLD] Gold and [ICON_PRODUCTION] Production. Also allows you to build the [COLOR_BUILDING_TEXT]Bank[ENDCOLOR], a building which increases the [ICON_GOLD] Gold produced by a city, as well as the [COLOR_BUILDING_TEXT]Constabulary[ENDCOLOR], which hinders a [ICON_SPY] Spies' ability to conduct espionage. Additionally, allows the [COLOR_CULTURE_STORED]formation of an additional [ICON_INTERNATIONAL_TRADE] Trade Route[ENDCOLOR], and [COLOR_CULTURE_STORED]increases the [ICON_GOLD] Gold produced by Custom Houses by 2[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Priniting Press -->
+		<Delete Tag="TXT_KEY_TECH_PRINTING_PRESS_HELP"/>
+		<Row Tag="TXT_KEY_TECH_PRINTING_PRESS_HELP">
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Zoo[ENDCOLOR], a building which increases [ICON_HAPPINESS_1] Happiness in the empire, as well as the [COLOR_BUILDING_TEXT]Printer[ENDCOLOR], which increases the [ICON_CULTURE] Culture and [ICON_RESEARCH] Science of a city. Also enables foudning of the [COLOR_CULTURE_STORED]World Congress[ENDCOLOR] once every other Civilzation has been met.</Text>
+		</Row>
+
+		<!-- Gunpowder -->
+		<Delete Tag="TXT_KEY_TECH_GUNPOWDER_HELP"/>
+		<Row Tag="TXT_KEY_TECH_GUNPOWDER_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Musketman[ENDCOLOR], the first unit in the game which wields firearms. Also allows for constructing the [COLOR_CITY_GREEN]National Military Academy[ENDCOLOR], which boosts the [ICON_WAR] XP and [ICON_PRODUCTION] Production towards land units.</Text>
+		</Row>
+
+		<!-- Navigation -->
+		<Delete Tag="TXT_KEY_TECH_NAVIGATION_HELP"/>
+		<Row Tag="TXT_KEY_TECH_NAVIGATION_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Frigate[ENDCOLOR], a powerful Renaissance-era warship, and the [COLOR_XP_BLUE]Privateer[ENDCOLOR], a unique Naval Unit that can earn [ICON_GOLD] Gold from attacking coastal cities as well as capture enemy ships. Also allows coastal cities to build the [COLOR_BUILDING_TEXT]Seaport[ENDCOLOR], which provides [ICON_PRODUCTION] Production from sea resources. Also allows for constructing the [COLOR_CITY_GREEN]National Naval Academy[ENDCOLOR], which boosts the [ICON_WAR] XP and [ICON_PRODUCTION] Production towards naval units.</Text>
+		</Row>
+
+		<!-- Architecture -->
+		<Delete Tag="TXT_KEY_TECH_ARCHITECTURE_HELP"/>
+		<Row Tag="TXT_KEY_TECH_ARCHITECTURE_HELP">
+			<Text>Allows you to construct multiple Wonders that can boost [ICON_CULTURE] Culture, [ICON_RESEARCH] Science and [ICON_HAPPINESS_1] Happiness, as well as a [COLOR_BUILDING_TEXT]Sewer System[ENDCOLOR], which increases the ammount of [ICON_FOOD] Food carried over after a [ICON_CITIZEN] Citizen is born.</Text>
+		</Row>
+
+		<!-- Economics -->
+		<Delete Tag="TXT_KEY_TECH_ECONOMICS_HELP"/>
+		<Row Tag="TXT_KEY_TECH_ECONOMICS_HELP">
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Public School[ENDCOLOR], [COLOR_BUILDING_TEXT]Windmill[ENDCOLOR], and [COLOR_BUILDING_TEXT]Restaurant[ENDCOLOR]; buildings that help increase the yields of your cities.</Text>
+		</Row>
+
+		<!-- Metallurgy -->
+		<Delete Tag="TXT_KEY_TECH_METALLURGY_HELP"/>
+		<Row Tag="TXT_KEY_TECH_METALLURGY_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Lancer[ENDCOLOR], a mounted unit designed to hunt down other mounted units, and the [COLOR_BUILDING_TEXT]Arsenal[ENDCOLOR], which boosts City defense.</Text>
+		</Row>
+
+		<!-- Chemistry -->
+		<Delete Tag="TXT_KEY_TECH_CHEMISTRY_HELP"/>
+		<Row Tag="TXT_KEY_TECH_CHEMISTRY_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Cannon[ENDCOLOR], a Renaissance-era siege unit. Also allows you to construct the [COLOR_BUILDING_TEXT]Chocolatier[ENDCOLOR], [COLOR_BUILDING_TEXT]Distillery[ENDCOLOR], and [COLOR_BUILDING_TEXT]Perfumery[ENDCOLOR]; all buildings that improve the yields your cities recives from certain luxury resources. Additionally [COLOR_CULTURE_STORED]increases the [ICON_PRODUCTION] Production yields of[ENDCOLOR] [COLOR_YIELD_GOLD]Mines[ENDCOLOR][COLOR_CULTURE_STORED],[END_COLOR] [COLOR_YIELD_GOLD]Quarries[ENDCOLOR][COLOR_CULTURE_STORED], and[ENDCOLOR] [COLOR_YIELD_GOLD]Manufactories[ENDCOLOR][COLOR_CULTURE_STORED] by 1[ENDCOLOR].</Text>
+		</Row>
+		
+		
+
+		<!-- ================ -->
+		<!-- ===Industrial=== -->
+		<!-- ================ -->
+
+		<!-- Archaeology -->
+		<Delete Tag="TXT_KEY_TECH_ARCHAEOLOGY_HELP"/>
+		<Row Tag="TXT_KEY_TECH_ARCHAEOLOGY_HELP">
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Museum[ENDCOLOR], which provides a large boost to [ICON_CULTURE] Culture when built in a city. Also allows reveals [COLOR_CULTURE_STORED]Antiquity Sites[ENDCOLOR] on the map, and allows you to build [COLOR_XP_BLUE]Archaeologists[ENDCOLOR] to collect Artifacts from them.</Text>
+		</Row>
+		
+		<!-- Scientific Theory -->
+		<Delete Tag="TXT_KEY_TECH_SCIENTIFIC_THEORY_HELP"/>
+		<Row Tag="TXT_KEY_TECH_SCIENTIFIC_THEORY_HELP">
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Chemist[ENDCOLOR], a vital building that increases [ICON_RESEARCH] Science in Cities. Also allows for building the [COLOR_CITY_GREEN]Central Bank[ENDCOLOR] national wonder, a building that provides additional [ICON_GOLD] Gold for each [ICON_SWAP] Open Borders agreement. Also [COLOR_CULTURE_STORED]increases the [ICON_PRODUCTION] Production of[ENDCOLOR] [COLOR_YIELD_GOLD]Lumber Mills[ENDCOLOR][COLOR_CULTURE_STORED] by 1[ENDCOLOR], and [COLOR_CULTURE_STORED]increases the [ICON_RESEARCH] Science yield of [ENDCOLOR][COLOR_YIELD_GOLD]Academies[ENDCOLOR][COLOR_CULTURE_STORED] by 2.[ENDCOLOR] </Text>
+		</Row>
+
+		<!-- Industrialization -->
+		<Delete Tag="TXT_KEY_TECH_INDUSTRIALIZATION_HELP"/>
+		<Row Tag="TXT_KEY_TECH_INDUSTRIALIZATION_HELP">
+			<Text>Reveals [ICON_RES_COAL] [COLOR_WHITE]Coal[ENDCOLOR] and allows you to build the [COLOR_BUILDING_TEXT]Factory[ENDCOLOR], and [COLOR_BUILDING_TEXT]Textile Mill[ENDCOLOR], buildings which greatly improve the [ICON_PRODUCTION] Production of a city. Also allows you to build the [COLOR_XP_BLUE]Gatling Gun[ENDCOLOR], a powerful Industrial Era ranged unit. Furthermore, [COLOR_CULTURE_STORED][ICON_WORKER] Workers improve tiles 25% quicker[ENDCOLOR]. Additionally, allows you to contruct the [COLOR_CITY_GREEN]Centre of Progress[ENDCOLOR], which allows you to found an [COLOR_CULTURE_STORED]Ideology[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Rifling -->
+		<Delete Tag="TXT_KEY_TECH_RIFLING_HELP"/>
+		<Row Tag="TXT_KEY_TECH_RIFLING_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Rifleman[ENDCOLOR], a front-line infantry unit of the mid-game eras; and also the [COLOR_XP_BLUE]Explorer[ENDCOLOR], a fast recon unit that replaces the scout.</Text>
+		</Row>
+
+		<!-- Militarty Science -->
+		<Delete Tag="TXT_KEY_TECH_MILITARY_SCIENCE_HELP"/>
+		<Row Tag="TXT_KEY_TECH_MILITARY_SCIENCE_HELP">
+			<Text>Allows you to build [COLOR_XP_BLUE]Cavalry[ENDCOLOR], a mounted unit which can hold its own against strong infantry units, and the [COLOR_BUILDING_TEXT]Military Academy[ENDCOLOR], which gives all your Units an [ICON_WAR] XP boost. Also allows you to construct the [COLOR_CITY_GREEN]Fort Knox[ENDCOLOR] national wonder, which increases the [ICON_STRENGTH] Defence of all your cities. </Text>
+		</Row>
+
+		<!-- Fertilizer -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_FERTILIZER_HELP"/>
+			<Set Text="Increases the [ICON_FOOD] Food from Farmed tiles, providing a massive boost to growth. Also allows Workers to [COLOR_WHITE]Plant a Jungle[ENDCOLOR]."/>
+		</Update>
+		
+		<!-- Biology -->
+		<Delete Tag="TXT_KEY_TECH_BIOLOGY_HELP"/>
+		<Row Tag="TXT_KEY_TECH_BIOLOGY_HELP">
+			<Text>Reveals [ICON_RES_OIL] [COLOR_WHITE]Oil[ENDCOLOR], a vital late-game resource. Also allows you to build the [COLOR_BUILDING_TEXT]Hospital[ENDCOLOR] and [COLOR_BUILDING_TEXT]Grocer[ENDCOLOR], buildings which increases the [ICON_FOOD] Growth rate of Cities; the [COLOR_BUILDING_TEXT]Marina[ENDCOLOR], which increases the [ICON_HAPPINESS_1] Happiness of cities; and the [COLOR_BUILDING_TEXT]Synthetic Oil Refinery[ENDCOLOR], a building that provovides artifical [ICON_RES_OIL] [COLOR_WHITE]Oil[ENDCOLOR] to your empire. Also allows you to build [COLOR_XP_BLUE]Colonist[ENDCOLOR], the final settler unit of the game, which can settle cities with advanced infrastructure and additional [ICON_CITIZEN] Population.</Text>
+		</Row>
+
+		<!-- Electricity -->
+		<Delete Tag="TXT_KEY_TECH_ELECTRICITY_HELP"/>
+		<Row Tag="TXT_KEY_TECH_ELECTRICITY_HELP">
+			<Text>Reveals [ICON_RES_ALUMINUM] [COLOR_WHITE]Aluminum[ENDCOLOR], a resource used for many late-game units. Also allows Cities to build the [COLOR_BUILDING_TEXT]Stock Exchange[ENDCOLOR], a building which boosts [ICON_GOLD] Gold. Also allows you to build the [COLOR_BUILDING_TEXT]Hydro Plant[ENDCOLOR], which increases [ICON_PRODUCTION] Production from tiles next to a River, and the [COLOR_BUILDING_TEXT]Police Station[ENDCOLOR], which hinders a [ICON_SPY] Spies' ability to conduct espionage. Additionally, [COLOR_CULTURE_STORED][ICON_WORKER] Workers can [ICON_MOVES] move 1 additional tile per turn.[ENDCOLOR].</Text>
+		</Row>
+		
+		<!-- Steam Power -->
+		<Update>
+			<Set Text="Allows you to build the [COLOR_XP_BLUE]Ironclad[ENDCOLOR], a powerful warship especially suited to combat in costal waters; the [COLOR_XP_BLUE]Land Ironclad[ENDCOLOR], a powerful mobile unit that is suited to attacking other land units; and the [COLOR_XP_BLUE]Airship[ENDCOLOR], a hovering unit designed to counter armoured units, preventing them from wrecking havok on your infantry lines. Also allows you to construct the [COLOR_BUILDING_TEXT]Ranch[ENDCOLOR], a building that increases a cities [ICON_FOOD] Food; and the [COLOR_BUILDING_TEXT]Steel Mill[Endcolor], a building that increases a cities [ICON_PRODUCTION] Production. Additionally, [COLOR_CULTURE_STORED]increases the embarked [ICON_MOVES] Movement of units[ENDCOLOR]."/>
+			<Where Tag="TXT_KEY_TECH_STEAM_POWER_HELP"/>
+		</Update>
+
+		<!-- Dynamite -->
+		<Delete Tag="TXT_KEY_TECH_DYNAMITE_HELP"/>
+		<Row Tag="TXT_KEY_TECH_DYNAMITE_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Artillery[ENDCOLOR], a deadly siege unit capable of shooting further than any previous ranged unit. Also allow you to construct the [COLOR_BUILDING_TEXT]Costal Battery[ENDCOLOR], increasing a cities [ICON_STRENGTH] Defence; and the [COLOR_BUILDING_TEXT]Industrial Mine[ENDCOLOR], which provides the empire with [ICON_RES_COAL][COLOR_WHITE] Coal[ENDCOLOR].</Text>
+		</Row>
+		
+		
+
+		<!-- ============ -->
+		<!-- ===Modern=== -->
+		<!-- ============ -->
+		
+		<!-- Refrigeration -->
+		<Delete Tag="TXT_KEY_TECH_REFRIGERATION_HELP"/>
+		<Row Tag="TXT_KEY_TECH_REFRIGERATION_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Submarine[ENDCOLOR], a ship invisible to all units except Destroyers and other Submarines. Also allows you to construct [COLOR_BUILDING_TEXT]Stadiums[ENDCOLOR], which increases [ICON_HAPPINESS_1] Happiness within the City; and [COLOR_BUILDING_TEXT]Hotels[ENDCOLOR], which increases the [ICON_CULTURE] Culture output of a city. Additonally allows Work Boats to construct an [COLOR_YIELD_GOLD]Offshore Platform[ENDCOLOR], and [COLOR_CULTURE_STORED]extends the range on sea [ICON_INTERNATIONAL_TRADE] Trade Routes[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Radio -->
+		<Delete Tag="TXT_KEY_TECH_RADIO_HELP"/>
+		<Row Tag="TXT_KEY_TECH_RADIO_HELP">
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Broadcast Tower[ENDCOLOR], a building which greatly increases the [ICON_CULTURE] Cultural output of a city. Also allows you to construct the [COLOR_CITY_GREEN]National Intelligence Agency[ENDCOLOR], which increases the effectiveness of your [ICON_SPY] Spies, while reducing the effectivess of foreign ones.</Text>
+		</Row>
+
+		<!-- Replaceable Parts -->
+		<Delete Tag="TXT_KEY_TECH_REPLACEABLE_PARTS_HELP"/>
+		<Row Tag="TXT_KEY_TECH_REPLACEABLE_PARTS_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Great War Infantry[ENDCOLOR], a basic land unit, and the [COLOR_BUILDING_TEXT]Military Base[ENDCOLOR], which boosts City defense.</Text>
+		</Row>
+
+		<!-- Flight -->
+		<Update>
+			<Set Text="Allows you to build the [COLOR_XP_BLUE]Triplane[ENDCOLOR], an Air Unit Designed to gain control of the skies; the [COLOR_XP_BLUE]Great War Bomber[ENDCOLOR], which can devastate Land Units and Cites; and the [COLOR_XP_BLUE]Great War Naval Bomber[ENDCOLOR], which can devaste naval units from above. Also allows you to construct the [COLOR_CITY_GREEN]National Air Force Academy[ENDCOLOR], which boosts the [ICON_WAR] XP and [ICON_PRODUCTION] Production towards air units. Additionally allows Workers to construct an [COLOR_YIELD_GOLD]Airbase[ENDCOLOR], which allows air units to be stationed on a land tile outside a city."/>
+			<Where Tag="TXT_KEY_TECH_FLIGHT_HELP"/>
+		</Update>
+
+		<!-- Railroad -->
+		<Delete Tag="TXT_KEY_TECH_RAILROAD_HELP"/>
+		<Row Tag="TXT_KEY_TECH_RAILROAD_HELP">
+			<Text>Allows Workers to build [COLOR_YIELD_GOLD]Railroads[ENDCOLOR] on map tiles. [ICON_CONNECTED] Connecting cities with them will increase [ICON_PRODUCTION] Production, and units traveling along them will move more quickly. Also allows you to construct the [COLOR_CITY_GREEN]Central Terminal[ENDCOLOR] national wonder, which automatically upgrades all roads in the empire to railroads</Text>
+		</Row>
+		
+		<!-- Plastics -->
+		<Delete Tag="TXT_KEY_TECH_PLASTICS_HELP"/>
+		<Row Tag="TXT_KEY_TECH_PLASTICS_HELP">
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Research Lab[ENDCOLOR], a building which improves [ICON_RESEARCH] Science in a City.</Text>
+		</Row>
+
+		<!-- Electronics -->
+		<Delete Tag="TXT_KEY_TECH_ELECTRONICS_HELP"/>
+		<Row Tag="TXT_KEY_TECH_ELECTRONICS_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Carrier[ENDCOLOR], a ship capable of carrying aircraft, and the [COLOR_XP_BLUE]Battleship[ENDCOLOR], a powerful late-game ranged Naval Unit. Also allows you to construct the [COLOR_CITY_GREEN]Hydroelctric Power Company[ENDCOLOR] national wonder, which grants all citie on the continet increased [ICON_HAPPINESS_1] Happiness, [ICON_RESEARCH] Science, [ICON_GOLD] Gold and [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		
+		<!-- Ballistics -->
+		<Delete Tag="TXT_KEY_TECH_BALLISTICS_HELP"/>
+		<Row Tag="TXT_KEY_TECH_BALLISTICS_HELP">
+			<Text>Allows you to build [COLOR_XP_BLUE]Anti-Aircraft Guns[ENDCOLOR], useful for thwarting enemy aircraft, and the [COLOR_XP_BLUE]Machine Gun[ENDCOLOR], a powerful ranged Unit.</Text>
+		</Row>
+
+		<!-- Combustion -->
+		<Delete Tag="TXT_KEY_TECH_COMBUSTION_HELP"/>
+		<Row Tag="TXT_KEY_TECH_COMBUSTION_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Landship[ENDCOLOR], an incredibly powerful armored Unit that can move after attacking; and the [COLOR_XP_BLUE]Destroyer[ENDCOLOR], a fast ship capable of hunting down Submarines. Also allows you to construct Racing Courses, a [ICON_HAPPINESS_1] Happiness building which uses the otherwise obsolete [ICON_RES_HORCE] [COLOR_WHITE]Horse[ENDCOLOR] resource. Additionally, [COLOR_CULTURE_STORED][ICON_WORKER] Workers improve tiles 25% quicker[ENDCOLOR].</Text>
+		</Row>
+
+		
+		
+		<!-- ============ -->
+		<!-- ===Atomic=== -->
+		<!-- ============ -->
+		
+		<!-- Penicilin -->
+		<Delete Tag="TXT_KEY_TECH_PENICILIN_HELP"/>
+		<Row Tag="TXT_KEY_TECH_PENICILIN_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Infantry[ENDCOLOR], a basic late-game Land Unit as well as the [COLOR_POSITIVE_TEXT]Marine[ENDCOLOR], a specilised version of the Infantry that excells in amphibious assaults. Also allows you to build the [COLOR_BUILDING_TEXT]Medical Lab[ENDCOLOR], a building which speeds the [ICON_FOOD] growth of your Cities. Also allows for the [COLOR_CULTURE_STORED]establisment of an additional [ICON_INTERNATIONAL_TRADE] Trade Route[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Atomic Theory -->
+		<Delete Tag="TXT_KEY_TECH_ATOMIC_THEORY_HELP"/>
+		<Row Tag="TXT_KEY_TECH_ATOMIC_THEORY_HELP">
+			<Text>Reveals [ICON_RES_URANIUM] [COLOR_WHITE]Uranium[ENDCOLOR] and allows you to start working on the [COLOR_CITY_GREEN]Manhattan Project[ENDCOLOR], setting the stage for the production of nuclear weapons. Also allows you to construct the [COLOR_BUILDING_TEXT]Nuclear Test Facility[ENDCOLOR], which provides additional [ICON_RESEARCH] Science, and allows for [COLOR_CULTURE_STORED]Research Agreement[ENDCOLOR] to be made between players, which is a special deal that boosts each Civilizations [ICON_RESEARCH] Science after completion.</Text>
+		</Row>
+
+		<!-- Radar -->
+
+		<!-- Tech Update -->
+		<Update>
+			<Set Text="Allows you to build the [COLOR_XP_BLUE]Bomber[ENDCOLOR], a deadly air unit capable of delivering death from afar; the [COLOR_XP_BLUE]Fighter[ENDCOLOR], an air unit designed to wrest control of the skies from enemy aircraft; the [COLOR_XP_BLUE]Naval Bomber[ENDCOLOR], an air unit designed to wrest control of the seas from enemy ships; and the [COLOR_POSITIVE_TEXT]Paratrooper[ENDCOLOR], a late-game infantry capable of paradropping behind enemy lines. Also allows you to construct [COLOR_BUILDING_TEXT]Airports[ENDCOLOR], which increases the [ICON_PRODUCTION] Production towards air units and increases the [ICON_TOURISM] Tourism output of a City."/>
+			<Where Tag="TXT_KEY_TECH_RADAR_HELP"/>
+		</Update>
+	
+		<!-- Combined Arms -->
+		<Delete Tag="TXT_KEY_TECH_COMBINED_ARMS_HELP"/>
+		<Row Tag="TXT_KEY_TECH_COMBINED_ARMS_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Tank[ENDCOLOR], a fast and deadly armor Unit, and the [COLOR_XP_BLUE]Anti-Tank Gun[ENDCOLOR], a weapon specialized in defeating enemy Tanks.</Text>
+		</Row>
+
+		<!-- Ecology -->
+		<Delete Tag="TXT_KEY_TECH_ECOLOGY_HELP"/>
+		<Row Tag="TXT_KEY_TECH_ECOLOGY_HELP">
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Solar Plant[ENDCOLOR], a building which may only be built in Cities on or next to Desert, and increases [ICON_PRODUCTION] Production; the [COLOR_BUILDING_TEXT]Recycling Center[ENDCOLOR], which provides bonus [ICON_RES_ALUMINUM] [COLOR_WHITE]Aluminum[ENDCOLOR]; and the [COLOR_BUILDING_TEXT]Aquarium[ENDCOLOR], which increases the [ICON_HAPPINESS_1] Happiness and [ICON_RESEARCH] Science of cities. Also allows for the constructiong of the [COLOR_CITY_GREEN]Center for Disease Control[ENDCOLOR], and [COLOR_CITY_GREEN]School of Equestrian Art[ENDCOLOR] national wonders.</Text>
+		</Row>
+
+		<!-- Neclear Fission -->
+		<Delete Tag="TXT_KEY_TECH_NUCLEAR_FISSION_HELP"/>
+		<Row Tag="TXT_KEY_TECH_NUCLEAR_FISSION_HELP">
+			<Text>Allows you to build [COLOR_XP_BLUE]Atomic Bombs[ENDCOLOR], the first nuclear weapon in the game; and [COLOR_XP_BLUE]Bazookas[ENDCOLOR], The ultimate ranged infantry unit. Also allows you to build the [COLOR_BUILDING_TEXT]Nuclear Plant[ENDCOLOR], a building which requires [ICON_RES_URANIUM] [COLOR_WHITE]Uranium[ENDCOLOR] and increases the [ICON_PRODUCTION] Production of a City; and the [COLOR_BUILDING_TEXT]Uranium Enrichment Facility[ENDCOLOR], which provides the empire with additional [ICON_RES_URANIUM] [COLOR_WHITE]Uranium[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Rocketry -->
+		<Delete Tag="TXT_KEY_TECH_ROCKETRY_HELP"/>
+		<Row Tag="TXT_KEY_TECH_ROCKETRY_HELP">
+			<Text>An important technology, Rocketry allows you to build the [COLOR_CITY_GREEN]Apollo Program[ENDCOLOR], a project necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]. Also allows you to build the [COLOR_XP_BLUE]Rocket Artillery[ENDCOLOR] military unit, and the [COLOR_XP_BLUE]Mobile SAM[ENDCOLOR], a fast unit specialized in thwarting enemy aircraft.</Text>
+		</Row>
+
+		<!-- Computers -->
+		<Delete Tag="TXT_KEY_TECH_COMPUTERS_HELP"/>
+		<Row Tag="TXT_KEY_TECH_COMPUTERS_HELP">
+			<Text>Allows you to build the [COLOR_CITY_GREEN]National Institute of Research[ENDCOLOR], a national wonder which provides a large [ICON_RESEARCH] Science boost to help you research those expensive late game techs.</Text>
+		</Row>
+		
+
+
+		<!-- ================= -->
+		<!-- ===Information=== -->
+		<!-- ================= -->
+
+		<!-- Telecommuniations -->
+		<Delete Tag="TXT_KEY_TECH_TELECOM_HELP"/>
+		<Row Tag="TXT_KEY_TECH_TELECOM_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]Nuclear Submarine[ENDCOLOR], a Naval Unit invisible to most other Units and capable of carrying 2 Missiles. Also allows the construction of the [COLOR_BUILDING_TEXT]Bomb Shelter[ENDCOLOR], which significantly reduces population loss from a nuclear attack; and the [COLOR_CITY_GREEN]National Visitor Center[ENDCOLOR], which greatly boosts the [ICON_TOURISM] Tourism output of the city.</Text>
+		</Row>
+		
+		<!-- Mobile Tactics -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_MOBILE_TACTICS_HELP"/>
+			<Set Text="Allows you to build the [COLOR_XP_BLUE]Mechanized Infantry[ENDCOLOR] and the [COLOR_XP_BLUE]Modern Armour[ENDCOLOR], two fast and powerful end game units; and the [COLOR_XP_BLUE]Special Forces[ENDCOLOR], a specilized inflitration and anphibious attack unit."/>
+		</Update>
+
+		<!-- Advanced Ballistics -->
+		<Update>
+			<Set Text="Allows you to build the [COLOR_XP_BLUE]Guided Missile[ENDCOLOR], and [COLOR_XP_BLUE]Tactical Nuclear Missile[ENDCOLOR]; reletivly inexpensive single-use units that can do damage to enemy units and cities. Also allows for building the [COLOR_XP_BLUE]Mobile Missile Launcher[ENDCOLOR], a unit that is dedicated to moving missiles on land."/>
+			<Where Tag="TXT_KEY_TECH_ADVANCED_BALLISTICS_HELP"/>
+		</Update>
+
+		<!-- Satellites -->
+		<Update>
+			<Set Text="[COLOR_CULTURE_STORED]Reveals the entire map[ENDCOLOR]."/>
+			<Where Tag="TXT_KEY_TECH_SATELLITES_HELP"/>
+		</Update>
+
+		<!-- Robotcis -->
+		<Delete Tag="TXT_KEY_TECH_ROBOTICS_HELP"/>
+		<Row Tag="TXT_KEY_TECH_ROBOTICS_HELP">
+			<Text>An important technology for the Space Race, allows you to build the [COLOR_BUILDING_TEXT]Spaceship Factory[ENDCOLOR], a building which speeds the construction of Spaceship parts. It also allows you to build the [COLOR_XP_BLUE]Missile Cruiser[ENDCOLOR], a Naval Unit capable of carrying 3 Missiles; and the [COLOR_CITY_GREEN]Hadron Collider[ENDCOLOR] national wonder, which greatly increases the [ICON_RESEARCH] Science output of the city it is built in. Additionally, [COLOR_CULTURE_STORED][ICON_WORKER] Workers improve tiles 25% quicker[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Lasers -->
+		<Update>
+			<Set Text="Allows you to build the [COLOR_XP_BLUE]Jet fighter[ENDCOLOR] and the [COLOR_XP_BLUE]Nuclear Destroyer[ENDCOLOR]; the most powerful fighter and naval melee units in the game respectively. Also allows you to build the [COLOR_XP_BLUE]Helicopter Gunship[ENDCOLOR], a vital unit that keeps Modern Armor in check."/>
+			<Where Tag="TXT_KEY_TECH_LASERS_HELP"/>
+		</Update>
+
+		<!-- The Internet -->
+		<!-- Unchanged -->
+
+		<!-- Globalization -->
+		<Update>
+			<Set Text="With Globalization, each [ICON_SPY] Spy you send to another Civilization as a [ICON_DIPLOMAT] Diplomat will increase the number of Delegates you control in the World Congress, bringing you closer to [COLOR_POSITIVE_TEXT]Diplomatic Victory[ENDCOLOR]. Allows you to build the [COLOR_XP_BLUE]SS Cockpit[ENDCOLOR], one of the Spaceship parts necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]."/>
+			<Where Tag="TXT_KEY_TECH_GLOBALIZATION_HELP"/>
+		</Update>
+
+		<!-- Particale Physics -->
+		<Delete Tag="TXT_KEY_TECH_PARTICLE_PHYSICS_HELP"/>
+		<Row Tag="TXT_KEY_TECH_PARTICLE_PHYSICS_HELP">
+			<Text>Allows you to build the [COLOR_XP_BLUE]SS Engine[ENDCOLOR], one of the Spaceship parts necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR].</Text>
+		</Row>
+
+		<!-- Neclear Fusion -->
+		<Update>
+			<Set Text="Allows you to build the [COLOR_XP_BLUE]SS Booster[ENDCOLOR], one of the Spaceship parts necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]. Also allows for consturcting  [COLOR_XP_BLUE]Nuclear Missles[ENDCOLOR], the ulitimate descructive weapon!"/>
+			<Where Tag="TXT_KEY_TECH_NUCLEAR_FUSION_HELP"/>
+		</Update>
+
+		<!-- Nanotechnology -->
+		<Update>
+			<Set Text="Allows you to build the [COLOR_XP_BLUE]Super Carrier[ENDCOLOR], A excellent naval unit that allows for the transportation of aircraft accross the seas. Also allows you to build the [COLOR_XP_BLUE]SS Stasis Chamber[ENDCOLOR], one of the spaceship parts necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]."/>
+			<Where Tag="TXT_KEY_TECH_NANOTECHNOLOGY_HELP"/>
+		</Update>
+
+		<!-- Stealth -->
+		<Update>
+			<Set Text="Allows you to build the [COLOR_XP_BLUE]Stealth Bomber[ENDCOLOR], the most powerful air unit in the game against land units and cities; and the [COLOR_XP_BLUE]Naval Stealth Bomber[ENDCOLOR], the most powerful air unit in the game against naval units."/>
+			<Where Tag="TXT_KEY_TECH_STEALTH_HELP"/>
+		</Update>
+		
+	</Language_en_US>
+	
+	
+</GameData>

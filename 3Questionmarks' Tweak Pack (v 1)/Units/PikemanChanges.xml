@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/5/2024 6:50:55 PM -->
+<GameData>
+	<!-- Slight Buff to unit to make it more capable as a frontline unit -->
+	<Units>
+		<Update>
+			<Set Combat ="17"/>
+			<Where Type ="UNIT_PIKEMAN" />
+		</Update>
+		<Update>
+			<Set Combat ="17"/>
+			<Where Type ="UNIT_ZULU_IMPI" />
+		</Update>
+	</Units>
+	<!-- Now Requires Iron (Impi does not) -->
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_PIKEMAN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_ZULU_IMPI_STRATEGY"/>
+		<Row Tag="TXT_KEY_UNIT_ZULU_IMPI_STRATEGY">
+			<Text>Before engaging in melee, the Impi performs a spear throw attack that can damage or kill the enemy unit before making contact. Only the Zulu may build it. Does not require [ICON_RES_IRON] Iron.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_UNIT_HELP_ZULU_IMPI"/>
+		<Row Tag="TXT_KEY_UNIT_HELP_ZULU_IMPI">
+			<Text>Specialized in defeating Knights and other mounted units. Only the Zulu may build it. Also performs a first-strike ranged attack before combat. Does not require Iron.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

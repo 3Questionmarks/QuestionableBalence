@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
+<GameData>
+
+	<!-- +1 Faith from Deserts, +1 Culture from Floodplain. +3 Faith and Culture from Oasis -->
+    <Belief_FeatureYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_DESERT_FOLKLORE</BeliefType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <!-- Removing the Faith gain from flood plains if too OP ->
+        <Row>
+			<BeliefType>BELIEF_DESERT_FOLKLORE</BeliefType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>-1</Yield>
+		</Row-->
+		<Row>
+			<BeliefType>BELIEF_DESERT_FOLKLORE</BeliefType>
+			<FeatureType>FEATURE_OASIS</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_DESERT_FOLKLORE</BeliefType>
+			<FeatureType>FEATURE_OASIS</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_DESERT_FOLKLORE</BeliefType>
+			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_DESERT_FOLKLORE</BeliefType>
+			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Belief_FeatureYieldChanges>
+
+	<Language_en_US>
+        <Delete Tag="TXT_KEY_BELIEF_DESERT_FOLKLORE" />
+		<Row Tag="TXT_KEY_BELIEF_DESERT_FOLKLORE">
+			<Text>+1 [ICON_PEACE] Faith from Desert, +1 [ICON_CULTURE] Culture from Flood Plains, and +3 [ICON_PEACE] Faith and [ICON_CULTURE] Culture from Oasis (including Wonders).</Text>
+		</Row>
+    </Language_en_US>
+
+</GameData>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 9:07:53 PM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set CultureFromKills="200" FaithFromKills="50" />
+			<Where Type="TRAIT_CULTURE_FROM_KILLS" />
+		</Update>
+	</Traits>
+	
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_CULTURE_FROM_KILLS</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_CULTURAL_SACRIFICES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CULTURE_FROM_KILLS</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_CULTURAL_SACRIFICES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CULTURE_FROM_KILLS</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_CULTURAL_SACRIFICES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CULTURE_FROM_KILLS</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_CULTURAL_SACRIFICES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CULTURE_FROM_KILLS</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_CULTURAL_SACRIFICES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CULTURE_FROM_KILLS</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_CULTURAL_SACRIFICES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CULTURE_FROM_KILLS</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_CULTURAL_SACRIFICES</PromotionType>
+		</Row>
+        <Row>
+			<TraitType>TRAIT_CULTURE_FROM_KILLS</TraitType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<PromotionType>PROMOTION_CULTURAL_SACRIFICES</PromotionType>
+		</Row>
+        <Row>
+			<TraitType>TRAIT_CULTURE_FROM_KILLS</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<PromotionType>PROMOTION_CULTURAL_SACRIFICES</PromotionType>
+		</Row>
+        <Row>
+			<TraitType>TRAIT_CULTURE_FROM_KILLS</TraitType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+			<PromotionType>PROMOTION_CULTURAL_SACRIFICES</PromotionType>
+		</Row>
+        <Row>
+			<TraitType>TRAIT_CULTURE_FROM_KILLS</TraitType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<PromotionType>PROMOTION_CULTURAL_SACRIFICES</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS" />
+		<Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
+			<Text>Gain [ICON_CULTURE] Culture, [ICON_PEACE] Faith, and [ICON_GOLDEN_AGE] Golden Age Points whenever an enemy unit is killed. Military units gain +25% [ICON_STRENGTH] Strength vs wounded units.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

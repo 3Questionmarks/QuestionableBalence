@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--MOD-->
+		<Row Tag="TXT_KEY_MOD_JFD_BELGIUM_LEOPOLD_II_DESCRIPTION">
+			<Text>BELGIUM (LEOPOLD II)[NEWLINE][NEWLINE]UNIQUE TRAIT: CONGO FREE STATE[NEWLINE][ICON_BULLET]Plantation Resources within two tiles are improved when a city is founded.[NEWLINE][ICON_BULLET][ICON_GOLD] Gold from Plantations worked outside the Capital is added to the Palace.[NEWLINE][ICON_BULLET]Spending [ICON_GOLD] Gold on Buildings generates [ICON_GOLDEN_AGE] GA Points.[NEWLINE][NEWLINE]UNIQUE BUILDING: CHOCOLATERIE[NEWLINE][ICON_BULLET]Replaces Zoo.[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture.[NEWLINE][ICON_BULLET]Does not yield [ICON_HAPPINESS_1] Local Happiness.[NEWLINE][ICON_BULLET]Does not require a Colosseum.[NEWLINE][ICON_BULLET]Requires at least one available source of any Plantation-based resource per Chocolaterie.[NEWLINE][ICON_BULLET]Provides 1 copy of the unique Praline luxury resource.[NEWLINE][NEWLINE]UNIQUE UNIT: FORCE PUBLIQUE[NEWLINE][ICON_BULLET]Replaces Foreign Legion.[NEWLINE][ICON_BULLET]Can be purchased with [ICON_GOLD] Gold after Steam Power.[NEWLINE][ICON_BULLET]+20% Combat within Friendly Borders.[NEWLINE][ICON_BULLET]Ignores terrain penalties when moving.</Text>
+		</Row>
+		<!--BELGIUM-->
+		<Replace Tag="TXT_KEY_CIV_JFD_BELGIUM_DESC">
+			<Text>Belgium</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_CIV_JFD_BELGIUM_LEOPOLD_II_ADJECTIVE">
+			<Text>Belgian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_BELGIUM_LEOPOLD_II_DESC">
+			<Text>Belgian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_BELGIUM_LEOPOLD_II_SHORT_DESC">
+			<Text>Belgium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_BELGIUM_LEOPOLD_II_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_BELGIUM_LEOPOLD_II_TEXT_1">
+			<Text>Belgium is named after the Belgae, a Celtic people whose territory was conquered in 57 bc by Julius Caesar and was organized by him as Gallia Belgica. In 15 bc, Augustus made Gallia Belgica (which at that time included much of present-day France) a province of the Roman Empire. In the 5th century ad, it was overrun by the Franks, and in the 8th century, it became part of the empire of Charlemagne. But this empire soon fell apart, and in the 10th century there emerged several feudal units that later would become provinces of Belgium. These included the counties of Flanders, Hainaut, and Namur, the duchy of Brabant, and the prince-bishopric of Liège. During the three following centuries, trade flourished in the towns of the county of Flanders. Antwerp, Bruges, Ypres (Ieper), and Ghent in particular became very prosperous. In the 15th century, most of the territory that currently forms Belgium, the Netherlands, and Luxembourg—formerly called the Low Countries and now called the Benelux countries—came under the rule of the dukes of Burgundy as the result of a shrewd policy of intermarriage. Through the marriage of Mary of Burgundy with Archduke Maximilian of Austria, those same provinces, then collectively known as the Netherlands, became part of the Habsburg Empire in the early 1500s. When Maximilian's grandson Emperor Charles V divided his empire, the Netherlands was united with Spain (1555) under Philip II, who dedicated himself to the repression of Protestantism. His policies resulted in a revolt led by the Protestants.[NEWLINE][NEWLINE]Thus began a long war, which, after a 12-year truce (1609–21), became intermingled with the Thirty Years' War. Under the Treaty of Westphalia (1648), which ended the Thirty Years' War, independence was granted to the northern Protestant provinces. The southern half remained Roman Catholic and under Spanish rule. By this time, the southern Low Countries (the territory now known as Belgium) had become embroiled in Franco-Spanish power politics. Belgium was invaded on several occasions, and part of its territory was lost to France.[NEWLINE][NEWLINE]Under the Peace of Utrecht (1713), which concluded the War of the Spanish Succession, Belgium became part of the Austrian Empire. The country was occupied by the French during the War of the Austrian Succession (1744) but was restored to Austria by the Treaty of Aixla-Chapelle (1748). Belgium entered a period of recovery and material progress under Maria Theresa and her son Joseph II. The latter's administrative reforms created widespread discontent, however, which culminated in the Révolution Brabançonne of 1789. Leopold II, successor to Joseph II, defeated the Belgians and reoccupied the country, but his regime won little popular support. In 1792, the French army invaded the Belgian provinces, which were formally ceded to France by the Treaty of Campo Formio (1797). This French regime was defeated by the anti-Napoleonic coalition at Waterloo in 1815.[NEWLINE][NEWLINE]Belgium was united with the Netherlands by the Congress of Vienna in 1815. This action caused widespread discontent, culminating in a series of uprisings. The Dutch were compelled to retreat, and on 4 October 1830, Belgium was declared independent by a provisional government. The powers of the Congress of Vienna met again at London in June 1831 and accepted the separation of Belgium and the Netherlands. However, William I, king of the United Netherlands, refused to recognize the validity of this action. On 2 August 1831, he invaded Belgium, but the Dutch force was repulsed by a French army. In 1839, he was forced to accept the Treaty of the XXIV Articles, by which Belgian independence was formally recognized. The European powers guaranteed Belgium's status as "an independent and perpetually neutral state."[NEWLINE][NEWLINE]In 1831, the Belgian Parliament had chosen Prince Leopold of Saxe-Coburg-Gotha as ruler of the new kingdom, which was already in the process of industrialization. In 1865, Leopold I was succeeded by Leopold II (r.1865–1909), who financed exploration and settlement in the Congo River Basin of Africa, thereby laying the foundations of Belgium's colonial empire. Leopold's nephew, Albert I, came to the throne in 1909. At the outbreak of World War I, German troops invaded Belgium (4 August 1914). The Belgian army offered fierce resistance, but by the end of November 1914, the only Belgian towns not occupied by the Germans were Nieuport (Nieuwpoort), Furnes (Veurne), and Ypres. Belgium, on the side of the Allies, continued to struggle to liberate the kingdom. Ypres, in particular, was the scene of fierce fighting: nearly 100,000 men lost their lives at a battle near there in April and May 1915 (during which the Germans used chlorine gas), and at least 300,000 Allied troops lost their lives in this region during an offensive that lasted from late July to mid-November 1917.[NEWLINE][NEWLINE]Under the Treaty of Versailles (1919), Germany ceded to Belgium the German-speaking districts of Eupen, Malmédy, St. Vith, and Moresnet. The country made a remarkable recovery from the war, and by 1923, manufacturing industries were nearly back to normal. After a heated controversy with Germany over reparations payments, Belgium joined France in the occupation of the Ruhr in 1923. In 1934, Leopold III succeeded Albert.[NEWLINE][NEWLINE]Belgium was again attacked on 10 May 1940, when, without warning, the German air force bombed Belgian airports, railroad stations, and communications centers, and Belgian soil was invaded. Antwerp fell on 18 May and Namur on 23 May. By the end of the month, British, French, and Belgian forces were trapped in northwestern Belgium. King Leopold III surrendered unconditionally on 28 May and was taken prisoner of war. The Belgian government-in-exile, in London, continued the war on the side of the Allies. With the country's liberation from the Germans by the Allies and the well-organized Belgian underground, the Belgian government returned to Brussels in September 1944. During the Allied landings in Normandy, King Leopold III had been deported to Germany. In his absence, his brother Prince Charles was designated by parliament as regent of the kingdom.[NEWLINE][NEWLINE]The country was economically better off after World War II than after World War I. However, a tense political situation resulted from the split that had developed during the war years between Leopold III and the exiled government in London, which had repudiated the king's surrender. After his liberation by the US 7th Army, the king chose to reside in Switzerland. On 12 March 1950, 57.7% of the Belgian electorate declared itself in favor of allowing Leopold III to return as sovereign. The general elections of 4 June 1950 gave an absolute majority to the Christian Social Party, which favored his return, and on 22 July 1950, Leopold came back from exile. But the Socialists and Liberals continued to oppose his resumption of royal prerogatives, and strikes, riots, and demonstrations ensued. On 1 August 1950, Leopold agreed to abdicate, and on 17 July 1951, one day after Leopold actually gave up his throne, his son Baudouin I was formally proclaimed king.[NEWLINE][NEWLINE]In 1960, the Belgian Congo (now the Democratic Republic of the Congo), a major vestige of Belgium's colonial empire, became independent. The event was followed by two years of brutal civil war, involving mercenaries from Belgium and other countries. Another Belgian territory in Africa, Ruanda-Urundi, became independent as the two states of Rwanda and Burundi in 1962.[NEWLINE][NEWLINE]Belgium was transferred into a federal state in July 1993. The country is divided into three regions (Flanders, Wallonia, and Brussels) and three linguistic communities (Flemish, French, and German). Voters directly elect members to the regional parliaments. The French-speaking branch of the Socialist party dominates Wallonia while the Dutch-speaking faction of the Christian Democratic Party governs Flanders. As a participant in the Marshall Plan, a member of NATO, and a leader in the movement for European integration, Belgium shared fully in the European prosperity of the first three postwar decades. Domestic political conflict during this period centered on the unequal distribution of wealth and power between Flemings and Walloons. The Flemings generally contended that they were not given equal opportunity with the Walloons in government and business and that the Dutch language was regarded as inferior to French. The Walloons, in turn, complained of their minority status and the economic neglect of their region and feared being outnumbered by the rapidly growing Flemish population. In response to these conflicts, and after a series of cabinet crises, a revised constitution adopted in 1970 created the framework for complete regional autonomy in economic and cultural spheres. In July 1974, legislation provided for the granting of autonomy to Flanders, Wallonia, and Brussels upon a two-thirds vote in parliament. However, the necessary consensus could not be realized. In 1977, a Christian Social–Socialist coalition proposed to establish a federal administration representing the three regions, but could not obtain parliamentary approval for the proposal. In 1980, however, following several acts of violence as a result of the dispute, parliament allowed the establishment in stages of regional executive and legislative bodies for Flanders and Wallonia, with administrative control over cultural affairs, public health, roads, and urban projects.[NEWLINE][NEWLINE]Labor unrest and political violence has erupted in the past. In 1982, as a result of an industrial recession, worsened by rising petroleum prices and debt servicing costs, the government imposed an austerity program; an intensification of the austerity program, announced in May 1986, aimed to cut public sector spending, restrain wages, and simplify the taxation system. Vigorous tradeunion protests have taken place to protest the freezing of wages and cuts in social security payments. Belgium has one of the largest national debts in Western Europe. Since 1995, however, unions have gone along with pay freezes to restore profitability and improve labor market performance.[NEWLINE][NEWLINE]A riot in May 1985, at a soccer match between English and Italian clubs, caused the death of 39 spectators and precipitated a political crisis. The government coalition collapsed over charges of inefficient policing, and a general election returned the Christian Social–Liberal alliance to power in November 1985. This in turn accelerated terrorist attacks on public places as well as NATO facilities, responsibility for which was claimed by an extreme left-wing group, Cellules Combattantes Communistes (CCC). Security was tightened in 1986. Linguistic disputes between the French- and Dutch-speaking sections have continued to break out. Extremist parties have sought to capitalize on anti-immigrant feeling among the general population. The Flemish Blok (now Flemish Interest) has been the third-largest party in Flanders and openly advocates an independent Flanders in order to get rid of French-speakers and foreigners.[NEWLINE][NEWLINE]Economic performance was buoyant from 1996, with growth rates averaging close to 3%; however, with the global economic downturn of the beginning of the 21st century, Belgium's growth rates have lowered. Belgium joined the European economic and monetary union in January 1999 with no problems. Actual unemployment was around 12% as of 2004 but was closer to 20% if elderly unemployed people and people in special government-sponsored programs were included.[NEWLINE][NEWLINE]Parliamentary elections were held on 18 May 2003, and the Flemish Liberals and Democrats (VLD) finished first in the Flemish elections, defeating the Socialists and Christian Democrats, and the far-right Vlaams Blok. In Wallonia, the Socialists came in first. In both elections, the Greens suffered. Prime Minister Guy Verhofstadt, in office since 1999, formed a center-left coalition of Liberals and Socialists after the May elections. Under Verhofstadt's leadership, Belgium legalized euthanasia and the use of marijuana, and approved gay marriages.[NEWLINE][NEWLINE]Under Belgium's "universal jurisdiction" law, enacted in 1993, Belgian courts can hear cases involving war crimes and crimes against humanity even if the crimes were not committed in Belgium and did not involve Belgian citizens. Amendments to the law in April 2003 made it harder to bring a case where neither victim, plaintiff, nor accused were Belgian. Israeli Prime Minister Ariel Sharon and former US president George H. W. Bush were charged with war crimes under the law, relating to the 1982 Sabra and Shatila massacres in Lebanon, and the bombing of a civilian shelter in the 1991 Gulf War, respectively. Due to pressure from the United States, Belgian courts now may try only cases which involve charges against Belgian citizens or people resident in Belgium.[NEWLINE][NEWLINE]The European Union was divided over the use of military force by the United States and UK in the months leading up to the war in Iraq that began on 19 March 2003. Belgium stood with France and Germany in opposing a military response to the crisis.[NEWLINE][NEWLINE]In 2004, the far-right Vlaams Blok increased its share of the vote in regional and European elections. However, the Belgian High Court ruled that the party was racist and stripped it of the right to state funding and access to television. The party was subsequently reorganized under a new name, the Vlaams Belang, or Flemish Interest.[NEWLINE][NEWLINE]In May 2005, the government survived a confidence vote, enabling it to put to rest a dispute over the voting rights of French speakers in Dutch-speaking areas around Brussels. This came after months of negotiations over the issue, which sparked demonstrations and riots and brought the government to the brink of collapse.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_01">
+			<Text>Brussels</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_02">
+			<Text>Antwerp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_03">
+			<Text>Ghent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_04">
+			<Text>Charleroi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_05">
+			<Text>Liege</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_06">
+			<Text>Bruges</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_07">
+			<Text>Namur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_08">
+			<Text>Leuven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_09">
+			<Text>Mons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_10">
+			<Text>Aalst</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_11">
+			<Text>Mechelen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_12">
+			<Text>La Louviere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_13">
+			<Text>Kortrije</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_14">
+			<Text>Hasselt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_15">
+			<Text>Ostend</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_16">
+			<Text>Ixelles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_17">
+			<Text>Leopoldville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_18">
+			<Text>Baudoinville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_19">
+			<Text>Stanleyville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_20">
+			<Text>Albertville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_21">
+			<Text>Paulis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_22">
+			<Text>Costermansville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_23">
+			<Text>Brabanta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_24">
+			<Text>Thysville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_BELGIUM_LEOPOLD_II_25">
+			<Text>Mérode</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_BELGIUM_LEOPOLD_II_0">
+			<Text>Théophile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_BELGIUM_LEOPOLD_II_1">
+			<Text>Félix</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_BELGIUM_LEOPOLD_II_2">
+			<Text>Eugène</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_BELGIUM_LEOPOLD_II_3">
+			<Text>Maurice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_BELGIUM_LEOPOLD_II_4">
+			<Text>Martin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_BELGIUM_LEOPOLD_II_5">
+			<Text>Auguste</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_BELGIUM_LEOPOLD_II_6">
+			<Text>Pierre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_BELGIUM_LEOPOLD_II_7">
+			<Text>Léo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_BELGIUM_LEOPOLD_II_8">
+			<Text>Hendrik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_BELGIUM_LEOPOLD_II_9">
+			<Text>Gaston</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_BELGIUM_LEOPOLD_II_10">
+			<Text>Achille</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_BELGIUM_LEOPOLD_II_11">
+			<Text>Paul-Henri</Text>
+		</Row>
+		<!--Colonies-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_01">
+			<Text>Leopoldville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_02">
+			<Text>Banningville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_03">
+			<Text>Bomba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_04">
+			<Text>Elizabethville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_05">
+			<Text>Stanleyville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_06">
+			<Text>Coquilhatville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_07">
+			<Text>Albertville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_08">
+			<Text>Luluabourg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_09">
+			<Text>Thysville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_10">
+			<Text>Jadotville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_11">
+			<Text>Tshikapa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_12">
+			<Text>Costermansville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_13">
+			<Text>Bakwanga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_14">
+			<Text>Kindu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_BELGIUM_LEOPOLD_II_15">
+			<Text>Banana</Text>
+		</Row>
+		<!--LEOPOLD II-->
+		<Row Tag="TXT_KEY_LEADER_JFD_BELGIUM_LEOPOLD_II">
+			<Text>Leopold II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_BELGIUM_LEOPOLD_II_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_BELGIUM_LEOPOLD_II_TEXT_1">
+			<Text>Leopold II reigned as the second King of the Belgians from 1865 to 1909. He became known for the founding and exploitation of the Congo Free State as a private venture. Born in Brussels as the second (but eldest surviving) son of Leopold I and Louise of Orléans, he succeeded his father to the Belgian throne in 1865 and reigned for 44 years until his death - the longest reign of any Belgian monarch. He died without surviving male issue; the current Belgian king descends from his nephew and successor, Albert I.[NEWLINE][NEWLINE]Leopold became the founder and sole owner of the Congo Free State, a private project undertaken on his own behalf. He used explorer Henry Morton Stanley to help him lay claim to the Congo, the present-day Democratic Republic of the Congo. At the Berlin Conference of 1884–1885 the colonial nations of Europe authorized his claim by committing the Congo Free State to improving the lives of the native inhabitants. From the beginning, however, Leopold essentially ignored these conditions. He ran the Congo using the mercenary Force Publique for his personal enrichment. He used great sums of the money from this exploitation for public and private construction projects in Belgium during this period. He donated the private buildings to the state before his death, to preserve them for Belgium.[NEWLINE][NEWLINE]Leopold extracted a fortune from the Congo, initially by the collection of ivory, and - after a rise in the price of rubber in the 1890s - by forced labour from the natives to harvest and process rubber. Under his régime millions of the Congolese people died; modern estimates range from 1 to 15 million, with a consensus growing around 10 million. Human-rights abuses under his régime contributed significantly to these deaths. Reports of deaths and abuse led to a major international scandal in the early 20th century, and the Belgian government ultimately forced Leopold to relinquish control of the colony to Belgian civil administration in 1908.[NEWLINE][NEWLINE]After the king's death and transfer of his private colony to Belgium, there occurred a "Great Forgetting". Many Belgians in the 20th and 21st centuries remember Leopold II as the "Builder King" for his extensive public works projects, and many remain unaware of his role in the atrocities in the Congo. In the 1990s, the colonial Royal Museum for Central Africa made no mention of the atrocities committed in the Congo Free State, despite the museum's large collection of colonial objects. On the boardwalk of Blankenberge, a popular coastal resort, a monument shows a pair of colonists as heroes protecting a desperate Congolese woman and child with "civilization". In Ostend, the beach promenade has a 1931 sculptural monument to Leopold II, showing Leopold and grateful Ostend fishermen and Congolese. The inscription accompanying the Congolese group notes: "De dank der Congolezen aan Leopold II om hen te hebben bevrijd van de slavernij onder de Arabieren" ("The gratitude of the Congolese to Leopold II for having liberated them from slavery under the Arabs"). In 2004, an activist group cut off the hand of the leftmost Congolese bronze figure, in protest against the atrocities committed in the Congo. The city council decided to keep the statue in its new form, without the hand.[NEWLINE][NEWLINE]Leopold II remains a controversial figure in the Democratic Republic of Congo. His statue in the capital Kinshasa was removed after independence. Congolese culture minister Christophe Muzungu decided to reinstate the statue in 2005. He noted that the beginning of the Free State had been a time of some economic and social progress. He argued that people should recognize some positive aspects of the king as well as the negative; but hours after the six-metre (20 ft) statue was installed near Kinshasa's central station, it was officially removed. The same workers took it down.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_BELGIUM_LEOPOLD_II_NAME">
+			<Text>Leopold II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_BELGIUM_LEOPOLD_II_SUBTITLE">
+			<Text>Leader of Belgium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_BELGIUM_LEOPOLD_II_TITLES_1">
+			<Text>King of the Belgians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_BELGIUM_LEOPOLD_II_LIVED">
+			<Text>1835 - 1909</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_JFD_BELGIUM_LEOPOLD_II_TEXT">
+			<Text>Fledgling Belgium looks to you, Leopold II, King of the Belgians. In your forty-four years of rule, you strove to bring Belgium to the forefront of European progress - to make her a model for industry and her wealth the envy of lesser nations. With the help of the explorer Henry Morton Stanley, you privately laid claim to the Congo, whose immense natural wealth would be put to the advancement of your kingdom. Though your reputation abroad would ultimately succumb to controversy, your public works would nonetheless put the Belgian people on the path to progress.[NEWLINE][NEWLINE]King Leopold, once more Belgium must make haste if it is to maintain its stride with the march of progress. Can you take up the charge and bring wealth and ingenuity to your kingdom? Can you leave your people with great public works and develop Belgium into a modern nation? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+		<!--Responses-->
+		<Row Tag="TXT_KEY_LEADER_JFD_BELGIUM_LEOPOLD_II_FIRSTGREETING_1">
+			<Text>Welcome. I am Leopold II, King of the Belgians. You'll notice that, though small, my country has a great entrepreneurial spirit. I hope you'll do business with us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_BELGIUM_LEOPOLD_II_DEFEATED_1">
+			<Text>Will you treat my savages kindly, as I have done?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_BELGIUM_LEOPOLD_II_ATTACKED_HOSTILE_1">
+			<Text>So here we are then. We march to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_BELGIUM_LEOPOLD_II_DEC_FRIENDSHIP_1">
+			<Text>There are some difficulties, no doubt, in establishing ourselves as a world power. So, I move to ask for your help, to call yourself our friend. Will you accept?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_BELGIUM_LEOPOLD_II_DENOUNCE_1">
+			<Text>My government has begged that I speak out against you. And so I shall.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_BELGIUM_LEOPOLD_II_DENOUNCE_FRIEND_1">
+			<Text>You have committed unspeakable acts in the name of our friendship. I want nothing more to do with you.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_BELGIUM_LEOPOLD_II_DOW_GENERIC_1">
+			<Text>May your defeat be swift and uncomplicated.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_BELGIUM_LEOPOLD_II_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>Absurd. I've never been so insulted.</Text>
+		</Row>
+		<!--CONGO FREE STATE-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_BELGIUM_LEOPOLD_II_SHORT">
+			<Text>Congo Free State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_BELGIUM_LEOPOLD_II">
+			<Text>Plantation Resources within two tiles are improved when a city is founded and [ICON_GOLD] Gold from Plantations worked outside the Capital is added to the Palace. Spending [ICON_GOLD] Gold on Buildings generates [ICON_GOLDEN_AGE] GA Points.</Text>
+		</Row>
+		<!--JFD: Belgium (Leopold II) Gold-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_BELGIUM_LEOPOLD_II_GOLD">
+			<Text>JFD: Belgium (Leopold II) Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_BELGIUM_LEOPOLD_II_GOLD_HELP">
+			<Text></Text>
+		</Row>
+		<!--CHOCOLATERIE-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHOCOLATERIE">
+			<Text>Chocolaterie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHOCOLATERIE_HELP">
+			<Text>Grants a copy of the [ICON_RES_JFD_PRALINE] Praline luxury resource.[NEWLINE][NEWLINE]Must have at least one available source of any Plantation-based resource per Chocolaterie.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHOCOLATERIE_HELP_EE">
+			<Text>Grants a copy of the [ICON_RES_JFD_PRALINE] Praline luxury resource.[NEWLINE][NEWLINE]Must have at least one available source of any Plantation-based resource per Chocolaterie.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHOCOLATERIE_STRATEGY">
+			<Text>The Chocolaterie is the unique Belgian replacement for the Zoo. Unlike the Zoo, the Chocolaterie does not produce any [ICON_HAPPINESS_1] Happiness by itself. Instead, it provides a copy of the unique [ICON_RES_JFD_PRALINE] Praline resource, which yields [ICON_HAPPINESS_1] Happiness like other luxury resources and may be traded to other civilizations. The Chocolaterie also increases the city's [ICON_CULTURE] Culture by a small amount. Finally, the Chocolaterie does not require a Colosseum in order to be constructed. Instead, you must have at least one Plantation-based resource per Chocolaterie that you seek to construct, although this can be imported and is not consumed. This also does not need to be sourced from the city in which you seek to construct a Chocolaterie.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_CHOCOLATERIE_STRATEGY_EE">
+			<Text>The Chocolaterie is the unique Belgian replacement for the Menagerie. Unlike the Menagerie, the Chocolaterie does not produce any [ICON_HAPPINESS_1] Happiness by itself. Instead, it provides a copy of the unique [ICON_RES_JFD_PRALINE] Praline resource, which yields [ICON_HAPPINESS_1] Happiness like other luxury resources and may be traded to other civilizations. The Chocolaterie also increases the city's [ICON_CULTURE] Culture by a small amount. Finally, the Chocolaterie does not require a Tavern in order to be constructed. Instead, you must have at least one Plantation-based resource per Chocolaterie that you seek to construct, although this can be imported and is not consumed. This also does not need to be sourced from the city in which you seek to construct a Chocolaterie.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_CHOCOLATERIE_TEXT">
+			<Text>A chocolaterie is a business which both manufactures chocolate confections and sells them, at the same location. It is usually a small family business, often operating at only one location. The word is of French origin, and shops named as such are common in France and Belgium. The term is also used to designate larger chocolate production companies, such as Chocolaterie Guylian, many of which started as smaller shops. This type of store operates in other countries, such as the US, Canada, the UK and Germany, sometimes using the French term. Stores which sell candies and chocolate but do not produce their own brand are called Confectionery stores, or other names depending on the region. The related occupational term is chocolatier, though this term is also used sometimes to describe chocolateries, such as Godiva Chocolatier.</Text>
+		</Row>
+		<!--Praline-->
+		<Row Tag="TXT_KEY_RESOURCE_JFD_PRALINE">
+			<Text>Praline</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_PRALINE_TEXT">
+			<Text>Praline can refer to confections made from nuts and sugar syrup, whether in whole pieces or a ground powder, or to any chocolate cookie containing the ground powder or nuts. Belgian pralines (often called Belgian chocolate) are different; they consist of a hard chocolate shell with a softer, sometimes liquid, filling. French pralines are a combination of almonds and caramelized sugar. American pralines also contain milk or cream and are therefore softer and creamier, resembling fudge.</Text>
+		</Row>
+		<!--FORCE PUBLIQUE-->
+		<Row Tag="TXT_KEY_UNIT_JFD_FORCE_PUBLIQUE">
+			<Text>Force Publique</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_FORCE_PUBLIQUE_HELP">
+			<Text>Industrial Era Foreign Legion replacement unique to Belgium. Can be purchased with [ICON_GOLD] Gold. This unit is not slowed by rough terrain and fights better in friendly territory. Can be upgraded into the Great War Infantry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_FORCE_PUBLIQUE_STRATEGY">
+			<Text>The Force Publique is Belgium's unique replacement for the Foreign Legion, however, it bares none of the attributes of the Foreign Legion besides that it cannot be trained. Instead, it can only be purchased with [ICON_GOLD] Gold or earned through the Volunteer Army tenet of the Freedom Ideology. The Force Publique is an Industrial Era Gun Unit that fights best in friendly territory (+20% stronger). It also ignores rough terrain penalties when moving. Keeping a band of Force Publique around will ensure the security of your overseas possessions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_FORCE_PUBLIQUE_TEXT">
+			<Text>The Force Publique served as a gendarmerie and military force in the Belgian Congo from 1908 through 1960, when it became the core of the Congolese Army upon independence. Made up of ethnically mixed Africans drawn mainly from the Haut-Congo, Zanzibar and other Belgian colonies, the Force Publique was officered by whites, either Belgian Army veterans or European mercenaries. Scattered across the region in small detachments, the force operated against poachers, Arab slave-traders, and rebellious tribes, as well as serving in the East African campaigns in both world wars.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_FORCE_PUBLIQUE">
+			<Text>Belgian Congo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_FORCE_PUBLIQUE_HELP">
+			<Text>+20% Combat bonus in Friendly Territory</Text>
+		</Row>
+		<!--ANODRRA-->
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_ANDORRA_LA_VELLA_DESC">
+			<Text>Andorra la Vella</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_ANDORRA_LA_VELLA_SHORT_DESC">
+			<Text>Andorra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_ANDORRA_LA_VELLA_ADJECTIVE">
+			<Text>Andorran</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_ANDORRA_LA_VELLA_TEXT_1">
+			<Text>Andorra la Vella is the capital of the Principality of Andorra, and is located high in the east Pyrenees between France and Spain. It is also the name of the parish that surrounds the capital. The site of Andorra la Vella (literally, "Andorra the City", not "Andorra the Old" as is often misunderstood) has been settled since prior to the Christian era—notably by the Andosin tribe from the late Neolithic. The state is one of the Marca Hispanica created and protected by Charlemagne in the eighth century as a buffer from the Moorish settlers in the Iberian Peninsula.</Text>
+		</Row>
+		<!--VADUZ-->
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_VADUZ_DESC">
+			<Text>Vaduz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_VADUZ_ADJECTIVE">
+			<Text>Vaduz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_JFD_VADUZ_SHORT_DESC">
+			<Text>Vaduz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_VADUZ_TEXT_1">
+			<Text>Vaduz is the capital of the principality of Liechtenstein and the seat of the national parliament. The town, located along the Rhine, has about 5,100 inhabitants (as of 2009), most of whom are Roman Catholic. Its cathedral is the seat of the Roman Catholic Archbishop of Vaduz. Vaduz is said to be mentioned in historic 12th-century manuscripts as Farduzes. It is, however, commonly believed to have been founded circa 1322 by the Counts of Werdenberg. In 1322 a mention of the castle is made, which was sacked by the Swiss in 1499 during the Swabian War. The entire town was also destroyed.[NEWLINE][NEWLINE]In the 17th century the Liechtenstein family was seeking a seat in the Imperial diet, the Reichstag. However, since they did not hold any territory that was directly under the Imperial throne, they were unable to meet the primary requirement to qualify.[NEWLINE][NEWLINE]The family yearned for the added power a seat in the Imperial government would bring, and therefore sought to acquire lands that would be Reichsunmittelbar, or held without any feudal personage other than the Holy Roman Emperor himself having rights on the land. After some time, the family was able to arrange the purchase of the minuscule Herrschaft ("Lordship") of Schellenberg and countship of Vaduz (in 1699 and 1712 respectively) from the Hohenems. Tiny Schellenberg and Vaduz possessed exactly the political status required: no feudal lord other than their comital sovereign and the suzerain Emperor.[NEWLINE][NEWLINE]Thereby, on January 23, 1719, after purchase had been duly made, Charles VI, Holy Roman Emperor, decreed Vaduz and Schellenberg were united, and raised to the dignity of Fürstentum (principality) with the name "Liechtenstein" in honour of "[his] true servant, Anton Florian of Liechtenstein". It is on this date that Liechtenstein became a sovereign member state of the Holy Roman Empire. As a testament to the pure political expediency of the purchases, the Princes of Liechtenstein did not set foot in their new principality for over 120 years.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

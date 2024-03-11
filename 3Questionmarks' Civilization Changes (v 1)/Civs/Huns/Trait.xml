@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 3:15:06 PM -->
+<GameData>
+	<Defines>
+		<Update>
+			<Where Name="GOLD_FROM_BARBARIAN_CONVERSION"/>
+			<Set Value="50"/>
+		</Update>
+	</Defines>
+	<Traits>
+		<Update>
+			<Where Type="TRAIT_RAZE_AND_HORSES"/>
+			<Set LandBarbarianConversionPercent="100"/>
+		</Update>
+	</Traits>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_RAZE_AND_HORSES</TraitType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_RAZE_AND_HORSES</TraitType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+	<Trait_FreeResourceFirstXCities>
+		<Row>
+			<TraitType>TRAIT_RAZE_AND_HORSES</TraitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<ResourceQuantity>2</ResourceQuantity>
+			<NumCities>1</NumCities>
+		</Row>
+	</Trait_FreeResourceFirstXCities>
+	<Trait_ResourceQuantityModifiers>
+		<Row>
+			<TraitType>TRAIT_RAZE_AND_HORSES</TraitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+	</Trait_ResourceQuantityModifiers>
+	<!--Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_HUNS</CivilizationType>
+			<UnitClassType>UNITCLASS_CATAPULT</UnitClassType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_HUNS</CivilizationType>
+			<UnitClassType>UNITCLASS_CHARIOT_ARCHER</UnitClassType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits-->
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_RAZE_AND_HORSES"/>
+			<Set Text="Start with Animal Husbandry, 2 [ICON_RES_HORSE] Horses and [ICON_RES_HORSE] Horses yield x2 quantity. Gain +1 [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture from Pastures. Defeating a Barbarian in a Camp with grant [ICON_GOLD] Gold and it will join you. "/>
+		</Update>
+	</Language_en_US>
+</GameData>

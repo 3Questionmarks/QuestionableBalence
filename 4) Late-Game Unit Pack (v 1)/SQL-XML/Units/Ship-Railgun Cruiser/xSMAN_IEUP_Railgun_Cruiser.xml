@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 07/01/17 9:32:00 AM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_RAILGUN_CRUISER</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_CRUISER</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_RAILGUN_CRUISER</DefaultUnit>
+		</Row>	
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_IEUP_RAILGUN_CRUISER</Class>
+			<Type>UNIT_SMAN_IEUP_RAILGUN_CRUISER</Type>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<Combat>120</Combat>
+			<RangedCombat>150</RangedCombat>
+			<Cost>753</Cost>
+			<Moves>8</Moves>
+			<Range>3</Range>
+			<AirInterceptRange>3</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_CRUISER</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_CRUISER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_CRUISER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_CRUISER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitArtInfo>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>44</UnitFlagIconOffset>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>44</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>		
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>23</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>		
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitType>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitType>
+			<PromotionType>PROMOTION_ANTI_SUBMARINE_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_CARGO_IV</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_III</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_CRUISER</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_RAILGUN_CRUISER</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_RAILGUN_CRUISER</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_CRUISER">
+			<Text>Railgun Cruiser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_CRUISER_STRATEGY">
+			<Text>Fast and tough, the Railgun Cruiser is a futuristic warship which carries a mean Ranged Combat punch. It is quite good at intercepting enemy aircraft and hunting submarines, though not as good as the specialized Railgun Destroyer. Most importantly, the Railgun Cruiser can carry Missiles, allowing you to carry these deadly weapons right up to the enemy shore. Railgun Cruisers combined with Supercarriers Ballistic Missile Submarines, and Plasma Missiles make a fiendishly powerful armada.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_CRUISER_HELP">
+			<Text>More powerful than the Missile Cruiser, able to effectively ward off enemy aircraft and hunt down submarines. Can hold 4 missiles. Requires [ICON_RES_URANIUM] Uranium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_CRUISER_PEDIA">
+			<Text>
+				The Railgun Cruiser is an upgrade to the Missile Cruiser, and becomes available on the discovery of Nuclear Fusion. It does not become obsolete. Can carry up to 4 missiles. Requires [ICON_RES_URANIUM] Uranium.[NEWLINE][NEWLINE]The Railgun Cruiser is the sucessor of the Missile Cruiser of the late 20th and early 21st centuries, and has a low radar profile relative to its size; an integrated power system, which can send electricity to the electric drive motors or weapons, the Total Ship Computing Environment Infrastructure, automated fire-fighting systems, automated piping rupture isolation, and includes its namesake railguns and free-electron lasers to defend against aircraft. The Railgun Cruiser is designed to require a smaller crew and be less expensive to operate than comparable warships. It has a wave-piercing tumblehome hull form whose sides slope inward above the waterline. This will reduce the radar cross-section, returning much less energy than a conventional flare hull form.[NEWLINE][NEWLINE]A railgun is an electromagnetic projectile launcher based on similar principles to the homopolar motor. A railgun uses a pair of parallel conductors, or rails, along which a sliding armature is accelerated by the electromagnetic effects of a current that flows down one rail, into the armature and then back along the other rail.[NEWLINE][NEWLINE]Railguns are being researched as a weapon that would use neither explosives nor propellant, but rather rely on electromagnetic forces to achieve a very high kinetic energy of a projectile. While explosive-powered military guns cannot readily achieve amuzzle velocity of more than about 2 km/s, railguns can readily exceed 3 km/s, and thus far exceed conventionally delivered munitions in range and destructive force. The absence of explosive propellants or warheads to store and handle, as well as the low cost of projectiles compared to conventional weaponry come as additional advantages.
+			</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

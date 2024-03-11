@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 04/01/18 10:25:15 AM -->
+<GameData>
+
+	<UnitPromotions>
+		<!-- ==========================    Special Unit Promotions	   ====================================================================== -->
+		
+		<!-- ==========================		Apocalypse Class Promotion 		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_APOCALYPSE_CLASS</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_APOCALYPSE_CLASS</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_APOCALYPSE_CLASS_HELP</Help>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_APOCALYPSE_CLASS_PEDIA</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+
+			<!--<NoDefensiveBonus>1</NoDefensiveBonus>-->
+			<CargoChange>2</CargoChange>			
+			<EnemyHealChange>10</EnemyHealChange>
+			<NeutralHealChange>10</NeutralHealChange>
+			<FriendlyHealChange>10</FriendlyHealChange>
+			<ExperiencePercent>100</ExperiencePercent>			
+		</Row>
+
+		<!-- ==========================		Cargo 1 Promotion 		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_CARGO_I</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_I</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_I_HELP</Help>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_I_PEDIA</PediaEntry>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>1</CannotBeChosen>
+			<LostWithUpgrade>1</LostWithUpgrade>
+			<CargoChange>1</CargoChange>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+		</Row>
+
+		<!-- ==========================		Cargo 2 Promotion 		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_CARGO_II</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_II</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_II_HELP</Help>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_II_PEDIA</PediaEntry>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>1</CannotBeChosen>
+			<LostWithUpgrade>1</LostWithUpgrade>
+			<CargoChange>2</CargoChange>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+		</Row>
+		<!-- ==========================		Cargo 3 Promotion 		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_CARGO_III</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_III</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_III_HELP</Help>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_III_PEDIA</PediaEntry>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>1</CannotBeChosen>
+			<LostWithUpgrade>1</LostWithUpgrade>
+			<CargoChange>3</CargoChange>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+		</Row>
+		
+		<!-- ==========================		Cargo 4 Promotion 		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_CARGO_IV</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_IV</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_IV_HELP</Help>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_IV_PEDIA</PediaEntry>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>1</CannotBeChosen>
+			<LostWithUpgrade>1</LostWithUpgrade>
+			<CargoChange>4</CargoChange>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+		</Row>
+
+		<!-- ==========================		Cargo 6 Promotion 		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_CARGO_VI</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_VI</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_VI_HELP</Help>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_VI_PEDIA</PediaEntry>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>1</CannotBeChosen>
+			<LostWithUpgrade>1</LostWithUpgrade>
+			<CargoChange>6</CargoChange>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+		</Row>
+		
+		<!-- ==========================		Cargo 8 Promotion 		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_CARGO_VIII</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_VIII</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_VIII_HELP</Help>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_VIII_PEDIA</PediaEntry>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>1</CannotBeChosen>
+			<LostWithUpgrade>1</LostWithUpgrade>
+			<CargoChange>8</CargoChange>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+		</Row>
+
+		<!-- ==========================		Cargo 15 Promotion 		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_CARGO_XV</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_XV</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_XV_HELP</Help>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_XV_PEDIA</PediaEntry>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>1</CannotBeChosen>
+			<LostWithUpgrade>1</LostWithUpgrade>
+			<CargoChange>15</CargoChange>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+		</Row>
+
+		<!-- ==========================		F-35 Fighter Promotion 		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_F35_PROMOTION_1</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_F35_PROMOTION_1</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_F35_PROMOTION_1_HELP</Help>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_F35_PROMOTION_1_PEDIA</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+
+			<AirSweepCapable>true</AirSweepCapable>
+			<AirSweepCombatModifier>50</AirSweepCombatModifier>
+			<InterceptChanceChange>100</InterceptChanceChange>
+			<Recon>true</Recon>
+			<InterceptionDefenseDamageModifier>-75</InterceptionDefenseDamageModifier>
+			<EvasionChange>100</EvasionChange>
+			<RangedDefenseMod>125</RangedDefenseMod>
+			<VisibilityChange>5</VisibilityChange>
+			<CanMoveAfterAttacking>1</CanMoveAfterAttacking>
+			<ExtraAttacks>1</ExtraAttacks>
+		</Row>
+
+		<!-- ==========================		F-117 Fighter Promotion 		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_F117_PROMOTION_1</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_F117_PROMOTION_1</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_F117_PROMOTION_1_HELP</Help>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_F117_PROMOTION_1_PEDIA</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+
+			<AirSweepCapable>true</AirSweepCapable>
+			<AirSweepCombatModifier>25</AirSweepCombatModifier>
+			<InterceptChanceChange>75</InterceptChanceChange>
+			<Recon>true</Recon>
+			<InterceptionDefenseDamageModifier>-75</InterceptionDefenseDamageModifier>
+			<EvasionChange>100</EvasionChange>
+			<RangedDefenseMod>150</RangedDefenseMod>
+			<VisibilityChange>4</VisibilityChange>			
+		</Row>
+
+		<!-- ==========================		Mercenary Promotion		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_MERCENARY</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_MERCENARY</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_MERCENARY_HELP</Help>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_MERCENARY_PEDIA</PediaEntry>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			
+			<HealOnPillage>TRUE</HealOnPillage>
+			<FreePillageMoves>TRUE</FreePillageMoves>
+			<CityAttackPlunderModifier>25</CityAttackPlunderModifier>
+			<IgnoreGreatGeneralBenefit>TRUE</IgnoreGreatGeneralBenefit>					
+		</Row>		
+		
+		<!-- ==========================		MOAB Promotion - Mother of All Bombs	========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_MOAB</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_MOAB</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_MOAB_HELP</Help>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_MOAB_PEDIA</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+
+			<EvasionChange>50</EvasionChange>			
+		</Row>
+
+		<!-- ==========================		Plasma Fighter Promotion 		========================================================= -->		
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1_HELP</Help>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1_PEDIA</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+
+			<AirSweepCapable>true</AirSweepCapable>
+			<AirSweepCombatModifier>100</AirSweepCombatModifier>
+			<InterceptChanceChange>100</InterceptChanceChange>
+			<Recon>true</Recon>
+			<InterceptionDefenseDamageModifier>-75</InterceptionDefenseDamageModifier>
+			<EvasionChange>100</EvasionChange>
+			<RangedDefenseMod>150</RangedDefenseMod>
+			<VisibilityChange>10</VisibilityChange>
+			<CanMoveAfterAttacking>1</CanMoveAfterAttacking>
+			<ExtraAttacks>1</ExtraAttacks>
+		</Row>
+
+
+		<!-- ==========================		Suborbital Bomber Promotion 		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_SUBORBITAL_EVASION</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_SUBORBITAL_EVASION</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_SUBORBITAL_EVASION_HELP</Help>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_SUBORBITAL_EVASION_PEDIA</PediaEntry>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<CannotBeChosen>true</CannotBeChosen>
+			
+			<EvasionChange>85</EvasionChange>
+			<Recon>1</Recon>
+			<CityAttack>33</CityAttack>
+			<VisibilityChange>6</VisibilityChange>
+			
+		</Row>
+		
+
+		<!-- ==========================		UAV Promotion 		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_UAV_1</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_UAV_1</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_UAV_1_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_UAV_1_PEDIA</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+
+			<NoCapture>1</NoCapture>														<!-- Specific UAV Abilities-->
+			<CanMoveAfterAttacking>1</CanMoveAfterAttacking>
+			<Recon>1</Recon>
+			<CanMoveAllTerrain>true</CanMoveAllTerrain>
+			<OnlyDefensive>1</OnlyDefensive>
+			<FlatMovementCost>true</FlatMovementCost>
+			<HoveringUnit>true</HoveringUnit>
+			<NoDefensiveBonus>true</NoDefensiveBonus>
+		</Row>
+
+		<!-- ==========================		Wild Weasel Fighter Promotion 		========================================================= -->
+		<Row>
+			<Type>PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1</Type>
+			<Description>TXT_KEY_PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1</Description>
+			<Help>TXT_KEY_PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1_HELP</Help>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1_PEDIA</PediaEntry>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PortraitIndex>59</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+
+			<AirSweepCapable>true</AirSweepCapable>
+			<InterceptChanceChange>100</InterceptChanceChange>
+			<Recon>true</Recon>
+			<InterceptionDefenseDamageModifier>-75</InterceptionDefenseDamageModifier>
+			<EvasionChange>100</EvasionChange>
+			<RangedDefenseMod>150</RangedDefenseMod>
+		</Row>		
+
+	</UnitPromotions>
+
+
+	<UnitPromotions_Domains>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_MOAB</PromotionType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>33</Modifier>
+		</Row>
+	</UnitPromotions_Domains>
+	
+	
+	<UnitPromotions_UnitClasses>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_F35_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_ANTI_AIRCRAFT_GUN</UnitClassType>
+			<Attack>200</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_F35_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_MOBILE_SAM</UnitClassType>
+			<Attack>500</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_F35_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_LASER</UnitClassType>
+			<Attack>200</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_F35_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_RAILGUN</UnitClassType>
+			<Attack>200</Attack>
+		</Row>
+
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_F117_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_ANTI_AIRCRAFT_GUN</UnitClassType>
+			<Attack>100</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_F117_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_MOBILE_SAM</UnitClassType>
+			<Attack>250</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_F117_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_LASER</UnitClassType>
+			<Attack>100</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_F117_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_RAILGUN</UnitClassType>
+			<Attack>100</Attack>
+		</Row>
+		
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_ANTI_AIRCRAFT_GUN</UnitClassType>
+			<Attack>300</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_MOBILE_SAM</UnitClassType>
+			<Attack>400</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_LASER</UnitClassType>
+			<Attack>250</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_RAILGUN</UnitClassType>
+			<Attack>250</Attack>
+		</Row>
+
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_ANTI_AIRCRAFT_GUN</UnitClassType>
+			<Attack>600</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_MOBILE_SAM</UnitClassType>
+			<Attack>800</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_LASER</UnitClassType>
+			<Attack>500</Attack>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1</PromotionType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_RAILGUN</UnitClassType>
+			<Attack>500</Attack>
+		</Row>
+		
+	</UnitPromotions_UnitClasses>
+	
+	
+	<UnitPromotions_UnitCombatMods>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_F35_PROMOTION_1</PromotionType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<Modifier>150</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_F35_PROMOTION_1</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<Modifier>150</Modifier>
+		</Row>
+
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_F117_PROMOTION_1</PromotionType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<Modifier>150</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_F117_PROMOTION_1</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<Modifier>150</Modifier>
+		</Row>
+		
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_MOAB</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<Modifier>33</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_MOAB</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<Modifier>33</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_MOAB</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<Modifier>33</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_MOAB</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<Modifier>33</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_MOAB</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<Modifier>33</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_MOAB</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<Modifier>33</Modifier>
+		</Row>
+		
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1</PromotionType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<Modifier>150</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<Modifier>150</Modifier>
+		</Row>
+
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1</PromotionType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<Modifier>150</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<Modifier>150</Modifier>
+		</Row>
+	</UnitPromotions_UnitCombatMods>
+
+
+	<Language_en_US>
+		<!--     Apocalypse Class Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_APOCALYPSE_CLASS">
+			<Text>Apocalypse Class Promotion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_APOCALYPSE_CLASS_HELP">
+			<Text>Damages adjacent enemies, while increasing healing rates of friendly units. Experience gain +100%. Can carry two missiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_APOCALYPSE_CLASS_PEDIA">
+			<Text>Apocalypse Class Promotion</Text>
+		</Row>
+
+		<!--     Cargo 1 Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_I">
+			<Text>Can Carry 1 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_I_HELP">
+			<Text>Can Carry 1 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_I_PEDIA">
+			<Text>Can Carry 1 Cargo</Text>
+		</Row>
+
+		<!--     Cargo 2 Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_II">
+			<Text>Can Carry 2 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_II_HELP">
+			<Text>Can Carry 2 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_II_PEDIA">
+			<Text>Can Carry 2 Cargo</Text>
+		</Row>
+		
+		<!--     Cargo 3 Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_III">
+			<Text>Can Carry 3 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_III_HELP">
+			<Text>Can Carry 3 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_III_PEDIA">
+			<Text>Can Carry 3 Cargo</Text>
+		</Row>
+		
+		<!--     Cargo 4 Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_IV">
+			<Text>Can Carry 4 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_IV_HELP">
+			<Text>Can Carry 4 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_IV_PEDIA">
+			<Text>Can Carry 4 Cargo</Text>
+		</Row>
+
+		<!--     Cargo 6 Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_VI">
+			<Text>Can Carry 6 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_VI_HELP">
+			<Text>Can Carry 6 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_VI_PEDIA">
+			<Text>Can Carry 6 Cargo</Text>
+		</Row>
+		
+		<!--     Cargo 8 Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_VIII">
+			<Text>Can Carry 8 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_VIII_HELP">
+			<Text>Can Carry 8 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_VIII_PEDIA">
+			<Text>Can Carry 8 Cargo</Text>
+		</Row>
+
+		<!--     Cargo 15 Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_XV">
+			<Text>Can Carry 15 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_XV_HELP">
+			<Text>Can Carry 15 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_CARGO_XV_PEDIA">
+			<Text>Can Carry 15 Cargo</Text>
+		</Row>
+				
+		<!--     F-35 Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_F35_PROMOTION_1">
+			<Text>5th Generation Fighter Promotion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_F35_PROMOTION_1_HELP">
+			<Text>Extra visibility and two attacks per turn. Significantly reduced damage from ground and air attacks. Extra damage against anti-air units: +200% vs. AA Gun and advanced SAMs, +500% vs. Mobile SAM units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_F35_PROMOTION_1_PEDIA">
+			<Text>5th Generation Fighter Promotion</Text>
+		</Row>
+
+		<!--     F-117 Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_F117_PROMOTION_1">
+			<Text>Stealth Fighter Promotion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_F117_PROMOTION_1_HELP">
+			<Text>Extra visibility and significantly reduced damage from ground and air attacks. Extra damage against anti-air units: +100% vs. AA Gun and advanced SAMs, +250% vs. Mobile SAM units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_F117_PROMOTION_1_PEDIA">
+			<Text>Stealth Fighter Promotion</Text>
+		</Row>
+
+		<!--     Mercenary Promotion    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_MERCENARY">
+			<Text>Mercenary Promotion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_MERCENARY_HELP">
+			<Text>Pillaging does not take movement points and Heals when Pillaging. Steal gold equal to 25% of the damage inflicted on a city.[NEWLINE][NEWLINE]Does not benefit from Great General bonuses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_MERCENARY_PEDIA">
+			<Text>Mercenary Promotion</Text>
+		</Row>
+		
+		<!--     MOAB Promotion - Mother of All Bombs	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_MOAB">
+			<Text>MOAB Promotion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_MOAB_HELP">
+			<Text>+66% Combat Strength against non-Armor Land Units, +33% vs Armor Units, and +33% VS Cities. Reduced damage taken from interception by 50%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_MOAB_PEDIA">
+			<Text>MOAB Promotion</Text>
+		</Row>
+				
+		<!--     Plasma Fighter Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1">
+			<Text>Plasma Fighter I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1_HELP">
+			<Text>Extra visibility, two attacks per turn, and greatly reduced damage from ground and air attacks. Provides extra damage against anti-air units: +300% vs. AA Gun, +400% vs. Mobile SAM, and +250% vs. advanced SAM units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_PLASMA_FIGHTER_PROMOTION_1_PEDIA">
+			<Text>Plasma Fighter I</Text>
+		</Row>
+
+		<!--     Suborbital Bomber Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_SUBORBITAL_EVASION">
+			<Text>Suborbital Bomber I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_SUBORBITAL_EVASION_HELP">
+			<Text>+85% chance of evading interception. +33% bonus attacking cities. +6 sight range. 6 tiles in every direction always visible.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_SUBORBITAL_EVASION_PEDIA">
+			<Text>Suborbital Bomber I</Text>
+		</Row>
+				
+		<!--     UAV Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_UAV_1">
+			<Text>UAV Promotion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_UAV_1_HELP">
+			<Text>UAVs may move after attacking, see 6 tiles in all directions, move over all terrain, and all tiles cost 1 move. It receives no defensive terrain bonuses and is unable to capture cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_UAV_1_PEDIA">
+			<Text>UAV Promotion</Text>
+		</Row>
+		
+		
+		<!--     Wild Weasel Promotion	    -->
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1">
+			<Text>Wild Weasel I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1_HELP">
+			<Text>Provides extra damage against anti-air units: +600% vs. AA Gun, +800% vs. Mobile SAM, and +500% vs. advanced SAM units. Greatly reduced damage from ground and air attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1_PEDIA">
+			<Text>Wild Weasel I</Text>
+		</Row>
+
+		
+	</Language_en_US>
+	
+</GameData>

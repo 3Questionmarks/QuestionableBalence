@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 11:37:24 AM -->
+<GameData>
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_INFILTRATOR</Tag>
+			<Text>Infiltrator</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_INFILTRATOR_HELP</Tag>
+			<Text>+2 Moves and Ignore Zone of Control. May enter Rival Territory.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_LUNGE</Tag>
+			<Text>Lunge</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_LUNGE_HELP</Tag>
+			<Text>+77% combat strength vs wounded units.</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_FLANKER</Tag>
+			<Text>Flanker</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_FLANKER_HELP</Tag>
+			<Text>May Parradrop 3 tiles. Flank bonus is increased by 100%.</Text>
+		</Row>
+	</Language_en_US>
+
+	<UnitPromotions_PostCombatRandomPromotion>
+		<Row>
+			<PromotionType>PROMOTION_MYSTIC_BLADE</PromotionType>
+			<NewPromotion>PROMOTION_INFILTRATOR</NewPromotion>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MYSTIC_BLADE</PromotionType>
+			<NewPromotion>PROMOTION_LUNGE</NewPromotion>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MYSTIC_BLADE</PromotionType>
+			<NewPromotion>PROMOTION_FLANKER</NewPromotion>
+		</Row>
+	</UnitPromotions_PostCombatRandomPromotion>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_INFILTRATOR</Type>
+			<Description>TXT_KEY_PROMOTION_INFILTRATOR</Description>
+			<Help>TXT_KEY_PROMOTION_INFILTRATOR_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>KRIS_SWORDSMAN_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_INFILTRATOR</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<MovesChange>2</MovesChange>
+			<IgnoreZOC>true</IgnoreZOC>
+			<RivalTerritory>true</RivalTerritory>
+		</Row>
+		<Row>
+			<Type>PROMOTION_LUNGE</Type>
+			<Description>TXT_KEY_PROMOTION_LUNGE</Description>
+			<Help>TXT_KEY_PROMOTION_LUNGE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>KRIS_SWORDSMAN_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_LUNGE</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<AttackWoundedMod>77</AttackWoundedMod>
+		</Row>
+		<Row>
+			<Type>PROMOTION_FLANKER</Type>
+			<Description>TXT_KEY_PROMOTION_FLANKER</Description>
+			<Help>TXT_KEY_PROMOTION_FLANKER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>KRIS_SWORDSMAN_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_FLANKER</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<FlankAttackModifier>100</FlankAttackModifier>
+			<DropRange>3</DropRange>
+		</Row>
+	</UnitPromotions>
+</GameData>

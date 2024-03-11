@@ -1,0 +1,897 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/17/2017 1:19:24 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV_TAR_RASHIDUN_DESC">
+			<Text>Rashidun Caliphate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TAR_RASHIDUN_SHORT_DESC">
+			<Text>The Rashidun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TAR_RASHIDUN_ADJECTIVE">
+			<Text>Rashidun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TAR_UMAYYAD_DESC">
+			<Text>Umayyad Caliphate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TAR_UMAYYAD_SHORT_DESC">
+			<Text>The Umayyads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TAR_UMAYYAD_ADJECTIVE">
+			<Text>Umayyad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TAR_ABBASID_DESC">
+			<Text>Abbasid Caliphate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TAR_ABBASID_SHORT_DESC">
+			<Text>The Abbasids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TAR_ABBASID_ADJECTIVE">
+			<Text>Abbasid</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CIV5_DOM_TAR_RASHIDUN_TEXT">
+			<Text>May the blessings of God be upon you, oh righteous Caliph Umar! Revered by the Sunni faithful as a paragon of islamic virtues, under your wise leadership the Arabian Caliphate expanded at an unprecedented rate, completely conquering Sassanid Persia in less than two years and submitting two thirds of the Byzantine Empire to islamic rule, including the rich provinces of Egypt and Syria, as well as the holy city of Jerusalem. A gifted orator and administrator, you are hailed as the architect of the Islamic Empire, a brilliant reformist and a humble man of the people, establishing the first Welfare State of the world and also saving Arabia from famine.[NEWLINE][NEWLINE]Rigtheous Umar, who distinguishes between right and wrong, the mantle of the Caliphate has once again fallen upon your shoulders. Can you lead your people back into the righteous path you follow? Can you build an empire that will stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_TAR_UMAYYAD_TEXT">
+			<Text>All from Al-Andalus to Samarkand await your guidance, great ruler Abd al-Malik of the Umayyad Dynasty. Driven by the religious duty of Jihad, the Umayyads ruled the largest state the world had yet seen, stretching from the Atlantic coast of Spain and North Africa to the borders of India. An able administrator compared to the great Rashidun Caliph Umar, under your reign Arabic finally became the official language of the government, new coins were issued, the postal service was expanded and served as an intelligence network and the Dome of the Rock was built in the holy city of Jerusalem.[NEWLINE][NEWLINE]Mighty deputy of God, this colossal Caliphate would eventually come to fragment into several petty and warring states and forever break the unity of the Dar al-Islam; but your people proudly remember the days in which all of the faithful, from Spain to Persia, were united under the banner of the Umayyads. Can you reclaim these lands in the name of your dynasty, and then lead your armies into many more? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_RASHIDUN_TITLE">
+			<Text>The Rashidun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_RASHIDUN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_RASHIDUN_TEXT_1">
+			<Text>The Muslim Empire of the Caliphate - also known as the Islamic Empire or the Arab kingdom - came into existence after the Prophet Mohammed's death in 632 AD, created by Mohammed's disciples as a continuation of the political authority he established. During its long existence the Caliphate would grow to enormous size and power, dominating Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia, ruling an empire that at least rivaled that of the Romans at the height of their power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_RASHIDUN_HEADING_2">
+			<Text>Climate and Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_RASHIDUN_TEXT_2">
+			<Text>The Arab Empire began in Medina, on the Arabian Peninsula, in what is now known as Saudi Arabia. The interior is generally inhospitable desert - barren, sandy and hot with summer temperatures reaching as high as 130 degrees F. Medina and Mecca occupy the more fertile coastal regions along the Red Sea.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_RASHIDUN_HEADING_3">
+			<Text>Early History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_RASHIDUN_TEXT_3">
+			<Text>The first "caliph" (head of state) of this empire after Mohammed's death was Abu Bakr, who in turn was followed by three other "Rightly Guided Caliphs" in succession. After the death of the fourth, Ali ibn Abi Talib, in 661, a power struggle ensued between factions backing rival claimants, with the Umayyad family eventually emerging victorious. Argument about who was the legitimate caliph would rage for millennia and have had a significant effect upon Islamic and world history that continues to this day.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_RASHIDUN_HEADING_4">
+			<Text>Arabian Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_RASHIDUN_TEXT_4">
+			<Text>During the rule of the Caliph in the 7th century AD, the earliest known examples of pension and welfare were adopted. The elderly and disabled, as well as widows and orphans were all eligible to receive assistance and income from the government treasury.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_TAR_UMAYYAD_TITLE">
+			<Text>The Umayyads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_UMAYYAD_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_UMAYYAD_TEXT_1">
+			<Text>The Muslim Empire of the Caliphate - also known as the Islamic Empire or the Arab kingdom - came into existence after the Prophet Mohammed's death in 632 AD, created by Mohammed's disciples as a continuation of the political authority he established. During its long existence the Caliphate would grow to enormous size and power, dominating Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia, ruling an empire that at least rivaled that of the Romans at the height of their power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_UMAYYAD_HEADING_2">
+			<Text>Climate and Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_UMAYYAD_TEXT_2">
+			<Text>The Arab Empire began in Medina, on the Arabian Peninsula, in what is now known as Saudi Arabia. The interior is generally inhospitable desert - barren, sandy and hot with summer temperatures reaching as high as 130 degrees F. Medina and Mecca occupy the more fertile coastal regions along the Red Sea.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_UMAYYAD_HEADING_3">
+			<Text>Early History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_UMAYYAD_TEXT_3">
+			<Text>The first "caliph" (head of state) of this empire after Mohammed's death was Abu Bakr, who in turn was followed by three other "Rightly Guided Caliphs" in succession. After the death of the fourth, Ali ibn Abi Talib, in 661, a power struggle ensued between factions backing rival claimants, with the Umayyad family eventually emerging victorious. Argument about who was the legitimate caliph would rage for millennia and have had a significant effect upon Islamic and world history that continues to this day.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_UMAYYAD_HEADING_4">
+			<Text>The Umayyads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_UMAYYAD_TEXT_4">
+			<Text>
+				The Umayyads were a merchant family based in Mecca. They had converted to Islam in 627, becoming prominent supporters of Mohammed and his successors. The early Umayyad caliphs were based in Damascus, Syria, and the Syrian army formed the backbone of the Arab military forces. The Umayyads expanded Arabian power east, building outposts and sending expeditions into Central Asia and northwestern India. In addition the Umayyads launched the invasion of North Africa. In the 7th century they constructed a Mediterranean fleet with which they launched a series of unsuccessful raids against Christian Constantinople.[NEWLINE][NEWLINE]The Umayyad Caliphate reached its zenith under the reign of Abd al-Malik (reigned 685-705). In the west, Abd's armies overran much of Spain, while in the east the Caliphate invaded Sind in India and conquered Bukhara, Samarkand, Khwarezm, and many more places too hard to spell. al-Malik also oversaw a reorganization of the Caliphate's bureaucracy, economy, and the institution of a post service. During his reign the arts flourished, particularly architecture.[NEWLINE][NEWLINE]The empire suffered a decline after Abd al-Malik's death. A series of mediocre caliphs combined with economic troubles and military reverses in the east and west fueled tribal rivalries within the Caliphate, and in 750 the Umayyads were defeated and overthrown at the Battle of the Great Zab River.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_UMAYYAD_HEADING_5">
+			<Text>Arabian Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_UMAYYAD_TEXT_5">
+			<Text>During the rule of the Caliph in the 7th century AD, the earliest known examples of pension and welfare were adopted. The elderly and disabled, as well as widows and orphans were all eligible to receive assistance and income from the government treasury.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_TITLE">
+			<Text>The Abbasids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_TEXT_1">
+			<Text>The Muslim Empire of the Caliphate - also known as the Islamic Empire or the Arab kingdom - came into existence after the Prophet Mohammed's death in 632 AD, created by Mohammed's disciples as a continuation of the political authority he established. During its long existence the Caliphate would grow to enormous size and power, dominating Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia, ruling an empire that at least rivaled that of the Romans at the height of their power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_HEADING_2">
+			<Text>Climate and Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_TEXT_2">
+			<Text>The Arab Empire began in Medina, on the Arabian Peninsula, in what is now known as Saudi Arabia. The interior is generally inhospitable desert - barren, sandy and hot with summer temperatures reaching as high as 130 degrees F. Medina and Mecca occupy the more fertile coastal regions along the Red Sea.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_HEADING_3">
+			<Text>Early History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_TEXT_3">
+			<Text>The first "caliph" (head of state) of this empire after Mohammed's death was Abu Bakr, who in turn was followed by three other "Rightly Guided Caliphs" in succession. After the death of the fourth, Ali ibn Abi Talib, in 661, a power struggle ensued between factions backing rival claimants, with the Umayyad family eventually emerging victorious. Argument about who was the legitimate caliph would rage for millennia and have had a significant effect upon Islamic and world history that continues to this day.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_HEADING_4">
+			<Text>The Abbasids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_TEXT_4">
+			<Text>The Umayyads were defeated by the Abbasids, another powerful family. The first Abbasid Caliph, Abu al-Abbas, was a ruthless leader who upon achieving power immediately set about exterminating anyone else who might have a legitimate claim upon the throne. He was successful, as the Abbasids would remain in power for another three centuries. Not without a certain grim panache, he gave himself the name as-Saffah, which translates as "the bloodletter."[NEWLINE][NEWLINE]The Abbasids shifted the capital of the Caliphate to Baghdad. This reflected its concentration on events in the east - Persia, India, Central Asia - and subsequent de-emphasis on North Africa and the Mediterranean. The Abbasids were more overtly religious than the Umayyads, and under them the Caliphate more closely followed Islamic law.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_HEADING_5">
+			<Text>Harun al-Rashid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_TEXT_5">
+			<Text>Harun al-Rashid (reigned 786-809) was the fifth Abbasid caliph. He ruled Arabia at the height of its wealth and power. In his early years Harun led military expeditions against the Byzantine Empire; his successes earned him the nickname al-Rashid, "the one following the correct path." While Rashid did have to put down a number of internal revolts, the empire was mostly at peace during his reign, and the Caliphate grew monumentally, spectacularly wealthy. For more details on Harun al-Rashid, see his Civilopedia entry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_HEADING_6">
+			<Text>The Middle Ages</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_TEXT_6">
+			<Text>The Arab empire of the medieval period was far more advanced than contemporary Europeans; Harun al-Rashid's Baghdad may have held a million people at the same time that Charlemagne's Aachen was a "capital" of ten thousand. Centers of learning attracted scholars from across the Muslim world to great cities such as Baghdad, Damascus, and Cordoba. The Arabs of this period made many advances in medicine, astronomy, mathematics, and other areas, as well as translating many of the classics of the Ancient Greeks into Arabic, thereby saving them from destruction.[NEWLINE][NEWLINE]During the period of the Crusades, Christian Europe began a sustained assault against the Arabic world. The greatest of Muslim generals from this period was Salah al-Din, better known as Saladin, who successfully defeated the Third Crusade and recaptured Jerusalem for the Arabs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_HEADING_7">
+			<Text>Decline and Fragmentation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_TEXT_7">
+			<Text>As the Middle Ages ended, however, the Empire began to fragment under increasing pressure from both external and internal forces. The sheer size of the Empire made centralized government nearly impossible, and the caliphs were forced to put down numerous insurrections by rebellious local leaders. The debate over the rightful heirs to Mohammed's leadership continued to fester. In the west the Europeans wrested control of Spain from the caliphate, while in the east the Seljuks began their inexorable expansion into the heart of the Arabian Empire.[NEWLINE][NEWLINE]In 1258 a Mongol army under Hulagu Khan captured Baghdad and executed Caliph al-Musta'sim, bringing the Arabian Empire to an abrupt end.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_HEADING_8">
+			<Text>Arabian Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_ABBASID_TEXT_8">
+			<Text>During the rule of the Caliph in the 7th century AD, the earliest known examples of pension and welfare were adopted. The elderly and disabled, as well as widows and orphans were all eligible to receive assistance and income from the government treasury.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_01">
+			<Text>Medina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_02">
+			<Text>Mecca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_03">
+			<Text>Ta'if</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_04">
+			<Text>Ha'il</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_05">
+			<Text>Sana'a</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_06">
+			<Text>Muscat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_07">
+			<Text>Badr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_08">
+			<Text>Kufa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_09">
+			<Text>Basra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_10">
+			<Text>Al-Yamama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_11">
+			<Text>Hofuf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_12">
+			<Text>Buraidah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_13">
+			<Text>Shibam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_14">
+			<Text>Zabid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_15">
+			<Text>Suhar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_16">
+			<Text>Jabiyah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_17">
+			<Text>Jedda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_18">
+			<Text>Tabuk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_19">
+			<Text>Al-Hirah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_20">
+			<Text>Hajr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_21">
+			<Text>Sakakah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_22">
+			<Text>Al-Ula</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_23">
+			<Text>Rabigh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_24">
+			<Text>Jubail</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_25">
+			<Text>Khatt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_26">
+			<Text>Bareq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_27">
+			<Text>Tayma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_28">
+			<Text>Turaif</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_29">
+			<Text>Amman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_RASHIDUN_30">
+			<Text>Ayla</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_01">
+			<Text>Damascus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_02">
+			<Text>Harran</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_03">
+			<Text>Al-Quds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_04">
+			<Text>Fustat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_05">
+			<Text>Kairouan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_06">
+			<Text>Walili‎‎</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_07">
+			<Text>Qurtubah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_08">
+			<Text>Arbuna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_09">
+			<Text>Wasit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_10">
+			<Text>Aleppo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_11">
+			<Text>Homs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_12">
+			<Text>Isfahan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_13">
+			<Text>Resafa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_14">
+			<Text>Mosul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_15">
+			<Text>Ghazna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_16">
+			<Text>Hama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_17">
+			<Text>Azraq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_18">
+			<Text>Qasr Al-Hallabat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_19">
+			<Text>Marw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_20">
+			<Text>Tunis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_21">
+			<Text>Al Qastal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_22">
+			<Text>Ariha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_23">
+			<Text>Sinnabra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_24">
+			<Text>Balkh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_25">
+			<Text>Latakiyah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_26">
+			<Text>Tartus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_27">
+			<Text>Iskandariyyah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_28">
+			<Text>Tanjah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_29">
+			<Text>Saraqusta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_UMAYYAD_30">
+			<Text>Batalyaws</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_01">
+			<Text>Baghdad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_02">
+			<Text>Raqqah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_03">
+			<Text>Samarra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_04">
+			<Text>Kufa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_05">
+			<Text>Marw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_06">
+			<Text>Basra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_07">
+			<Text>Shiraz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_08">
+			<Text>Kairouan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_09">
+			<Text>Al-Askar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_10">
+			<Text>Mansura</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_11">
+			<Text>Ray</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_12">
+			<Text>Karbala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_13">
+			<Text>Balkh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_14">
+			<Text>Mosul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_15">
+			<Text>Bukhara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_16">
+			<Text>Ezerum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_17">
+			<Text>Kerman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_18">
+			<Text>Jurjan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_19">
+			<Text>Kirkuk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_20">
+			<Text>Herat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_21">
+			<Text>Najaf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_22">
+			<Text>Zakho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_23">
+			<Text>Tikrit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_24">
+			<Text>Arbil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_25">
+			<Text>Baqubah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_26">
+			<Text>Tabriz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_27">
+			<Text>Bastak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_28">
+			<Text>Balarm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_29">
+			<Text>Chandax</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TAR_ABBASID_30">
+			<Text>Cairo</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_RASHIDUN_0">
+			<Text>Al-Muqawqis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_RASHIDUN_1">
+			<Text>Abdullah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_RASHIDUN_2">
+			<Text>Muawiyah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_RASHIDUN_3">
+			<Text>Salman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_RASHIDUN_4">
+			<Text>Hujr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_RASHIDUN_5">
+			<Text>Aisha</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_RASHIDUN_6">
+			<Text>Sawda</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_RASHIDUN_7">
+			<Text>Fatima</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_RASHIDUN_8">
+			<Text>Hind</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_RASHIDUN_9">
+			<Text>Ramla</Text>
+			<Gender>feminine</Gender>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_UMMAYAD_0">
+			<Text>Count Julian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_UMMAYAD_1">
+			<Text>Hisham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_UMMAYAD_2">
+			<Text>Abdallah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_UMMAYAD_3">
+			<Text>Sulayman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_UMMAYAD_4">
+			<Text>Maslama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_UMMAYAD_5">
+			<Text>Atikah</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_UMMAYAD_6">
+			<Text>Walida</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_UMMAYAD_7">
+			<Text>Fatima</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_UMMAYAD_8">
+			<Text>Fakhita</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_UMMAYAD_9">
+			<Text>Hulal</Text>
+			<Gender>feminine</Gender>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_ABBASID_0">
+			<Text>Ali Baba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_ABBASID_1">
+			<Text>Aladdin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_ABBASID_2">
+			<Text>Jafar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_ABBASID_3">
+			<Text>Ahmed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_ABBASID_4">
+			<Text>The Genie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_ABBASID_5">
+			<Text>Scheherazade</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_ABBASID_6">
+			<Text>Dunyazad</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_ABBASID_7">
+			<Text>Peri Banu</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_ABBASID_8">
+			<Text>Badroulbadour</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TAR_ABBASID_9">
+			<Text>Shirin</Text>
+			<Gender>feminine</Gender>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_TAR_UMAR_PEDIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_UMAR_PEDIA_TEXT_1">
+			<Text>Umar was one of the most powerful and influential Muslim caliphs in history. He was a senior Sahabi of the Islamic prophet Muhammad, succeededing Abu Bakr as the second caliph of the Rashidun Caliphate on 23 August 634. He was an expert Islamic jurist known for his pious and just nature, which earned him the epithet Al-Farooq ("the one who distinguishes (between right and wrong)"). Under Umar, the caliphate expanded at an unprecedented rate, ruling the Sassanid Empire and more than two-thirds of the Byzantine Empire. His attacks against the Sassanid Empire resulted in the conquest of Persia in less than two years (642–644). Umar is revered in the Sunni tradition as a great ruler and paragon of Islamic virtues, and some hadiths identify him as the second greatest of the Sahaba after Abu Bakr.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_UMAR_PEDIA_LIVED">
+			<Text>583 - 644 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_UMAR_PEDIA_NAME">
+			<Text>Umar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_UMAR_PEDIA_SUBTITLE">
+			<Text>Leader of the Rashidun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_UMAR_PEDIA_TITLES_1">
+			<Text>Caliph</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_LEADER_TAR_ABD_AL_MALIK_PEDIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_ABD_AL_MALIK_PEDIA_TEXT_1">
+			<Text>Abd al-Malik ibn Marwan was the 5th Umayyad caliph, and was a well-educated man and capable ruler who was able to solve many political problems that impeded his rule. The 14th-century Muslim historian Ibn Khaldun stated that "`Abd al-Malik ibn Marwan is one of the greatest Arab and Muslim Caliphs. He followed in the footsteps of `Umar ibn al-Khattab, the Commander of the Believers, in regulating state affairs". During his reign, all important records were translated into Arabic, and for the first time, a special currency for the Muslim world was minted, which led to war with the Byzantine Empire under Justinian II. The Byzantines were led by Leontios at the Battle of Sebastopolis in 692 in Asia Minor and were decisively defeated by al-Malik after the defection of a large contingent of Slavs. The Islamic currency was then made the only currency of exchange in the Muslim world. Also, many reforms happened in his time relating to agriculture and commerce. Al-Malik extended and consolidated Muslim rule, made Arabic the state language and organised a regular postal service. Abd al-Malik is known as the "Father of Kings": his four sons succeeded him as the caliph one after another.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_ABD_AL_MALIK_PEDIA_LIVED">
+			<Text>646 - 705 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_ABD_AL_MALIK_PEDIA_NAME">
+			<Text>Abd al-Malik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_ABD_AL_MALIK_PEDIA_SUBTITLE">
+			<Text>Leader of the Umayyads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_ABD_AL_MALIK_PEDIA_TITLES_1">
+			<Text>Caliph</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_TAR_UMAR">
+			<Text>Umar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TAR_RASHIDUN_UMAR_SHORT">
+			<Text>Righteously Guided</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TAR_RASHIDUN_UMAR">
+			<Text>Your [ICON_PEACE] Faith output is the starting [ICON_PRODUCTION] Production threshold towards all land units. +5 [ICON_PEACE] Faith and [ICON_CULTURE] Culture per Holy City. +5 [ICON_PEACE] Faith and [ICON_CULTURE] Culture from Holy Sites.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_TAR_ABD_AL_MALIK">
+			<Text>Abd al-Malik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TAR_UMAYYAD_ABD_AL_MALIK_SHORT">
+			<Text>Deputy of God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TAR_UMAYYAD_ABD_AL_MALIK">
+			<Text>Gain 5 [ICON_PRODUCTION] Production per city equally divided amongst cities that follow your [ICON_RELIGION] Religion. [ICON_CONNECTED] City Connections yield 5 [ICON_GOLD] Gold. Gain +5 [ICON_PEACE] Faith per [ICON_INTERNATIONAL_TRADE] Trade Route and [ICON_INTERNATIONAL_TRADE] Trade Routes spread [ICON_RELIGION] religion twice as fast.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TRAIT_TAR_ABBASID_HARUN_AL_RASHID_SHORT">
+			<Text>House of Wisdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TAR_ABBASID_HARUN_AL_RASHID">
+			<Text>Gain [ICON_RESEARCH] Science with theming bonuses. Produces an extra copy of a [ICON_GREAT_WORK] Great Work of Writing for each one created. +3 [ICON_RESEARCH] Science from Writer Specialists.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GENERIC_TAR_RASHIDUN_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now clamoring for your welfare state and memorising the Quran. I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_TAR_UMAYYAD_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now buying your keffiyeh and painting arabesques. I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_TAR_ABBASID_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now buying your glassware and reading the Arabian Nights. I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_TAR_UMAR_FIRSTGREETING_1">
+			<Text>I am Umar ibn Al-Khattab, commander of the faithful and successor of the messenger of God. Do not tremble; I am merely a man.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_UMAR_DEFEATED_1">
+			<Text>A wicked defiler such as yourself will never be worthy of the Caliphate. You are worthy solely of the punishment you will receive in life or after.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_TAR_ABD_AL_MALIK_FIRSTGREETING_1">
+			<Text>Very well, I will grant you audience for the moment. You must surely be humbled by my presence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TAR_ABD_AL_MALIK_DEFEATED_1">
+			<Text>You lowlife scoundrel think that you are apt to supplant my magnificent dynsty? You are not fit to lead even the most barbarous tribe of berbers.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TAR_BAZAAR_HELP">
+			<Text>Provides 1 extra copy of each improved luxury resource near this City. +2 [ICON_MOVES] Movement Points to units that cross this city. Trade routes other players make to a city with a Bazaar will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TAR_BAZAAR_STRATEGY">
+			<Text>Specially useful to sprawling empires that cover most of the map, the Bazaar not only grants you an extra copy of each type of resource produced in the city that houses it (which enables you to settle even more cities with the extra [ICON_HAPPINESS_1] Happiness or [ICON_GOLD] Gold that you would gain by trading it), it also grants extra [ICON_MOVES] Movement Points to units that pass by the city, allowing them to reach the farthest portions of your empire faster.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TAR_BIMARISTAN">
+			<Text>Bimaristan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TAR_BIMARISTAN_HELP">
+			<Text>Contains 2 slots for Great Works of Writing. +2 [ICON_RESEARCH] Science from Jungle and Desert tiles worked by this City. Allows Archaeologists to be built in this city.[NEWLINE][NEWLINE]City must have a Library.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TAR_BIMARISTAN_STRATEGY">
+			<Text>The Bimaristan allows you to make use of the extra [ICON_GREAT_WORK] Great Work of Writing granted by the Abbasid trait, and with its theming bonus allow you to generate extra [ICON_RESEARCH] Science from it. Just remember to have a Bimaristan ready to receive the extra [ICON_GREAT_WORK] Great Work, otherwise it will be lost!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TAR_BIMARISTAN_TEXT">
+			<Text>The word "Bimaristan" was used to indicate a hospital where the ill were welcomed and cared for by qualified staff. Licensure became mandatory after Caliph Al-Muqtadir learned of the death of one of his subjects as a result of a physician's error, ordering his muhtasib Sinan ibn Thabit to examine and prevent doctors from practicing until they passed an examination. From this time on, licensing exams were required and only qualified physicians were allowed to practice medicine. They served all people regardless of their race, religion, citizenship, or gender.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_HELP_TAR_CAMEL_ARCHER">
+			<Text>Fast Medieval ranged Unit, weak to Pikemen. Only the Rashidun may build it. It is a ranged unit, unlike the Knight which it replaces, but is weaker than it. It also is stronger and faster on desert tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TAR_CAMEL_ARCHER_STRATEGY">
+			<Text>The Camel Archer is the Rashidun unique unit, replacing the Knight. The Camel Archer is a powerful ranged attack unit, allowing it to do damage to enemies 2 hexes away. It can move after combat. The Camel Archer is less powerful than the Knight in combat, though it also is faster and stronger on desert tiles. As a mounted unit, the Camel Archer is vulnerable to Pikemen attack.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_TAR_ANSAR">
+			<Text>Ansar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TAR_ANSAR">
+			<Text>Has 2 charges to replenish nearby units of [ICON_MOVES] Movement and Health Points when near cities. Cannot spread religion. May only be obtained by purchasing with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TAR_ANSAR_STRATEGY">
+			<Text>Purchase Ansars after you found a religion to quickly conquer other civilizations with the extra [ICON_MOVES] Movement Points (which can stack!) and replenished health awarded by the Ansars. They cannot, however, spread religions; you'll require Great Prophets or religious pressure to do that.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_TAR_ANSAR_TEXT">
+			<Text>Ansar is an Islamic term for the local inhabitants of Medina who took the Islamic Prophet Muhammad and his followers (the Muhajirun) into their homes when they escaped from Mecca (hijra). After the consolidation of Islam, the Ansar mainly became important military elements in many conquests and also held major positions in the administration of the Caliphate.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_TAR_YAMANI">
+			<Text>Yamani</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TAR_YAMANI">
+			<Text>Very Powerful land unit that grows in [ICON_STRENGTH] Combat Strength for each other of its kind that is garrisoned. Costs 1 additional [ICON_GOLD] Gold maintenance. Only the Umayyads may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TAR_YAMANI_STRATEGY">
+			<Text>Use Yamani as the garrison of your cities to empower Yamani fighting wars in faraway territories, but remember that their maintenance cost is steep.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_TAR_YAMANI_TEXT">
+			<Text>Yamani tribes were well-established in central and southern Syria in pre-Islamic times. Caliph Mu'awiyah I were tied to the Kalb, the leading tribe of Yaman, through marriage and military dependence. When the last Sufyanid caliph died in 684, the Yaman resolved to ensure continued Umayyad rule so as to maintain their stately privileges. During the Umayyad era, the Arab tribes began organizing themselves along northern (Qaysi) and southern (Yamani) lines so as to constitute something like a political party.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_TAR_PHYSICIAN">
+			<Text>Physician</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TAR_PHYSICIAN">
+			<Text>Discover Technology reveals a Technology known by the original owner of a Great Work stored in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TAR_PHYSICIAN_STRATEGY">
+			<Text>Generate Physicians to unravel the mysteries of foreign [ICON_GREAT_WORK] Great Works that may be easily acquired by trading your extra copies of [ICON_GREAT_WORK] Great Work of Writings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_TAR_PHYSICIAN_TEXT">
+			<Text>Medicine in medieval Islam was an area of science that advanced particularly during the Abbasids' reign. During the 9th century, Baghdad contained over 800 doctors, and great discoveries in the understanding of anatomy and diseases were made. The clinical distinction between measles and smallpox was described during this time. Famous Persian scientist Ibn Sina produced treatises and works that summarized the vast amount of knowledge that scientists had accumulated, and was very influential through his encyclopedias. The work of him and many others directly influenced the research of European scientists during the Renaissance.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TAR_BIMARISTAN_CID_HELP">
+			<Text>Available much earlier than the Hospital, at Education. Contains 2 slots for Great Works of Writing.[NEWLINE][NEWLINE]City must have an Apothecary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TAR_PHYSICIAN_CID">
+			<Text>Reveals a Technology known by the original owner of a Great Work stored in the city upon being expended.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_1">
+			<Text>Hunayn ibn Ishaq</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_2">
+			<Text>Jabir ibn Hayyan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_3">
+			<Text>Muhammad ibn Zakariya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_4">
+			<Text>Jabril ibn Bukhtishu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_5">
+			<Text>Jibrail III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_6">
+			<Text>Abu-Ali al-Husayn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_7">
+			<Text>Haly Abbas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_8">
+			<Text>Ali ibn Mousa al-Ridha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_9">
+			<Text>Ali ibn Sahl Rabban</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_10">
+			<Text>Al-Tamimi</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_TAR_REPLENISH">
+			<Text>Replenish Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TAR_REPLENISH_HELP">
+			<Text>Order the Ansar to replenish units with HP and [ICON_MOVES] Movement Points (which stack).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TAR_SAVE">
+			<Text>Skip</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TAR_SAVE_HELP">
+			<Text>Order the Ansar to not replenish units for this turn.</Text>
+		</Row>
+
+		
+		<!-- Arabia -->
+		<Row Tag="TXT_KEY_DECISIONS_TAR_RASHIDUN_MOSQUE">
+			<Text>Build the Jama Masjids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_RASHIDUN_MOSQUE_DESC">
+			<Text>
+				The mosques were not mere places for offering prayers; these were community centers as well where the faithful gathered to discuss problems of social and cultural importance. During the caliphate of Umar as many as four thousand mosques were constructed extending from Persia in the east to Egypt in the west.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Rashidun
+				[NEWLINE][ICON_BULLET]May only be enacted once
+				[NEWLINE][ICON_BULLET]Must have founded a religion
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Faith} [ICON_PEACE] Faith
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Constructing Shrine and Temples convert religious followers to your religion
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_RASHIDUN_MOSQUE_ENACTED_DESC">
+			<Text>
+				The mosques were not mere places for offering prayers; these were community centers as well where the faithful gathered to discuss problems of social and cultural importance. During the caliphate of Umar as many as four thousand mosques were constructed extending from Persia in the east to Egypt in the west.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Constructing Shrine and Temples convert religious followers to your religion
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DECISIONS_TAR_RASHIDUN_HOUSE_OF_WEALTH">
+			<Text>Establish the House of Wealth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_RASHIDUN_HOUSE_OF_WEALTH_DESC">
+			<Text>
+				The Bayt al-mal was a financial institution responsible for the administration of taxes in the early Islamic Caliphates, serving as royal treasury for the caliphs and managing personal finances and government expenditures. Further, it administered distributions of zakat (Charity) revenues for public works.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Rashidun
+				[NEWLINE][ICON_BULLET]May only be enacted once
+				[NEWLINE][ICON_BULLET]Must be enacted before the beginning of the Renaissance Era
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Gold} [ICON_GOLD] Gold
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Purchasing in cities is 33% cheaper
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_RASHIDUN_HOUSE_OF_WEALTH_ENACTED_DESC">
+			<Text>
+				The Bayt al-mal was a financial institution responsible for the administration of taxes in the early Islamic Caliphates, serving as royal treasury for the caliphs and managing personal finances and government expenditures. Further, it administered distributions of zakat (Charity) revenues for public works.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Purchasing in cities is 33% cheaper
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DECISIONS_TAR_UMAYYAD_COINS">
+			<Text>Implement Aniconic Coins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_UMAYYAD_COINS_DESC">
+			<Text>
+				We should undermine the influence of foreign powers in our realm by issuing our own currency that exalts our own faith, customs and state.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Umayyads
+				[NEWLINE][ICON_BULLET]May only be enacted once
+				[NEWLINE][ICON_BULLET]Must have founded a religion
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Value} [ICON_GOLD] Gold
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]{1_Value} [ICON_PEACE] Faith
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_UMAYYAD_COINS_ENACTED_DESC">
+			<Text>
+				We should undermine the influence of foreign powers in our realm by issuing our own currency that exalts our own faith, customs and state.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DECISIONS_TAR_UMAYYAD_QAYS">
+			<Text>Empower the Qays</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_UMAYYAD_QAYS_DESC">
+			<Text>
+				The political landscape of the caliphate has changed; we must rely on the Qays and forsake the Yamans if our dynasty is to remain in power.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Umayyads
+				[NEWLINE][ICON_BULLET]May only be enacted once
+				[NEWLINE][ICON_BULLET]Must have researched Civil Service
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Culture} [ICON_CULTURE] Culture
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Yamanis are disabled
+				[NEWLINE][ICON_BULLET]All Yamani are converted to Longswordsman or Crossbowman units.
+				[NEWLINE][ICON_BULLET]{2_Gold} [ICON_GOLD] Gold
+				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Note: The amount you receive increases with the number of Yamanis[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_UMAYYAD_QAYS_ENACTED_DESC">
+			<Text>
+				The political landscape of the caliphate has changed; we must rely on the Qays and forsake the Yamans if our dynasty is to remain in power.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Yamanis are disabled
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DECISIONS_TAR_ARABIAHOUSEOFWISDOM">
+			<Text>Found the House of Wisdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_ARABIAHOUSEOFWISDOM_DESC">
+			<Text>
+				Our nation prospers through trade. Merchants from across the world flock to Arabia bringing with them innovative ideas and priceless tomes. We shall build a library wherein these tomes and ideas may be translated, stored, collected and refined, transforming our capital into a great centre of learning![NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Abbasids
+				[NEWLINE][ICON_BULLET]Must have researched Guilds
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Gold} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]{2_Reward} [ICON_RESEARCH] Science
+				[NEWLINE][ICON_BULLET]+20% [ICON_RESEARCH] Science from Caravansaries[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Note: the amount received will increase with the number of Trade Units[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_ARABIAHOUSEOFWISDOM_ENACTED_DESC">
+			<Text>
+				Our nation prospers through trade. Merchants from across the world flock to Arabia bringing with them innovative ideas and priceless tomes. We shall build a library wherein these tomes and ideas may be translated, stored, collected and refined, transforming our capital into a great centre of learning![NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Lump sum of [ICON_RESEARCH] Science
+				[NEWLINE][ICON_BULLET]+10% [ICON_RESEARCH] Science from Caravansaries
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_ARABIASALADIN">
+			<Text>Anoint Amir al-Mu'minin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_ARABIASALADIN_DESC">
+			<Text>
+				Arabia shines as a beacon for the faithful! And so it is our sacred duty to protect this Holy Land. Let us be anointed as "Amir al-Mu'minin", Commander of the Faithful, that we might inspire our troops to battle against the heathens and heretics around us.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be the Abbasids
+				[NEWLINE][ICON_BULLET]Player must be at War
+				[NEWLINE][ICON_BULLET]Player must have a majority religion
+				[NEWLINE][ICON_BULLET]Player must have at least 75% religious unity
+				[NEWLINE][ICON_BULLET]May only be enacted in the Medieval era[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]1 Great General appears in the Capital[NEWLINE][ICON_BULLET]Existing Combat Units recieve {1_XP} XP[NEWLINE][ICON_BULLET]Newly trained Combat Units start with an additional {2_XP} XP
+				{3_UnityText}
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_ARABIASALADIN_ENACTED_DESC">
+			<Text>
+				Arabia shines as a beacon for the faithful! And so it is our sacred duty to protect this Holy Land. Let us be anointed as "Amir al-Mu'minin", Commander of the Faithful, that we might inspire our troops to battle against the heathens and heretics around us.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]1 Great General appears in the Capital[NEWLINE][ICON_BULLET]Existing Combat Units recieve {1_XP} XP[NEWLINE][ICON_BULLET]Newly trained Combat Units start with an additional {2_XP} XP
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TAR_ARABIASALADIN_NOTE">
+			<Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Note: The XP your units receive increase with religious unity within the empire; currently your religious unity is at {1_Percent}%. This amount is fixed when the decision is enacted.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

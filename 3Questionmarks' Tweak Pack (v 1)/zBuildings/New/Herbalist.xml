@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/23/2014 12:23:41 PM -->
+<!-- Herbalist: +1 Science, +1 Food, +5% Science-->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_HERBALIST</Type>
+			<DefaultBuilding>BUILDING_HERBALIST</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HERBALIST</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_HERBALIST</Type>
+			<BuildingClass>BUILDINGCLASS_HERBALIST</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HERBALIST</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HERBALIST_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HERBALIST_STRATEGY</Strategy>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+            <SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>MOD_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_HERBALIST</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERBALIST</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_HERBALIST</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_HERBALIST</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERBALIST</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<!-- Description Tags-->
+		<Row Tag="TXT_KEY_BUILDING_HERBALIST">
+			<Text>Herbalist</Text>
+		</Row>
+		<!-- Help Tags->
+		<Row Tag="TXT_KEY_BUILDING_HERBALIST_HELP">
+			<Text></Text>
+		</Row>
+		<!-- Quote Tags, use for Wonders
+		<Row Tag="TXT_KEY_BUILDING_EXAMPLE_QUOTE">
+			<Text></Text>
+		</Row>
+		-->
+		<!-- Strategy Tags-->
+		<Row Tag="TXT_KEY_BUILDING_HERBALIST_STRATEGY">
+			<Text>The Herbalist is an early Science building good for increasing research speed quickly.</Text>
+		</Row>
+		<!-- Pedia Tags-->
+		<Row Tag="TXT_KEY_BUILDING_HERBALIST_PEDIA">
+			<Text>Archaeological evidence indicates that the use of medicinal plants dates at least to the Paleolithic, approximately 60,000 years ago. Written evidence of herbal remedies dates back over 5,000 years, to the Sumerians, who created lists of plants. A number of ancient cultures wrote on plants and their medical uses. In ancient Egypt, herbs are mentioned in Egyptian medical papyri, depicted in tomb illustrations, or on rare occasions found in medical jars containing trace amounts of herbs. The earliest known Greek herbals were those of Diocles of Carystus, written during the 3rd century B.C, and one by Krateuas from the 1st century B.C. Only a few fragments of these works have survived intact, but from what remains scholars have noted that there is a large amount of overlap with the Egyptian herbals.[NEWLINE][NEWLINE]Seeds likely used for herbalism have been found in the archaeological sites of Bronze Age China dating from the Shang Dynasty. Over a hundred of the 224 drugs mentioned in the Huangdi Neijing, an early Chinese medical text, are herbs. Herbs were also common in the medicine of ancient India, where the principal treatment for diseases was diet. De Materia Medica by Pedanius Dioscorides, a Roman physician, is a particularly important example of such writings. The documentation of herbs and their uses was a central part of both Western and Eastern medical scholarship through to the 1600s, and these works played an important role in the development of the science of botany.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

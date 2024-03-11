@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 3:22:49 PM -->
+<GameData>
+	<!-- Remove Insta Heal -->
+	<UnitPromotions_UnitCombats>
+		<Delete PromotionType="PROMOTION_INSTA_HEAL"/>
+	</UnitPromotions_UnitCombats>
+
+	<!-- Increased Anti Tank Multiplier -->
+	<UnitPromotions_UnitCombatMods>
+		<Update>
+			<Set Modifier="200" />
+			<Where PromotionType="PROMOTION_ANTI_TANK" UnitCombatType="UNITCOMBAT_ARMOR" />
+		</Update>
+	</UnitPromotions_UnitCombatMods>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_ANTI_TANK" />
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_TANK">
+			<Text>Bonus vs Tanks (200)</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_PEDIA_PROMOTION_ANTI_TANK" />
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_ANTI_TANK">
+			<Text>Bonus vs Tanks (200)</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Hovering units now ignore ZOC -->
+	<UnitPromotions>
+		<Update>
+			<Set IgnoreZOC="true" />
+			<Where PromotionType="PROMOTION_HOVERING_UNIT" />
+		</Update>
+	</UnitPromotions>
+	
+	<!-- Bonus vs Mounted units is no longer lost on upgrade -->
+	<UnitPromotions>
+		<Update>
+			<Set LostWithUpgrade="false" />
+			<Where PromotionType="PROMOTION_ANTI_MOUNTED_I" />
+		</Update>
+		<Update>
+			<Set LostWithUpgrade="false" />
+			<Where PromotionType="PROMOTION_ANTI_MOUNTED_II" />
+		</Update>
+	</UnitPromotions>
+	
+	<!-- Air Targeting I no longer requires any prerequisite promo -->
+	<UnitPromotions>
+		<Update>
+			<Set PromotionPrereq="NULL" PromotionPrereqOr1="NULL" PromotionPrereqOr2="NULL" PromotionPrereqOr3="NULL" PromotionPrereqOr4="NULL" />
+			<Where Type="PROMOTION_AIR_TARGETING_1" />
+		</Update>
+	</UnitPromotions>
+
+	<!-- Can get the unlockable promotions for air units (Logistics, Repair, Range and Evasion) from the air targeting promotions -->
+	<UnitPromotions>
+		<Update>
+			<Set PromotionPrereqOr5="PROMOTION_PROMOTION_AIR_TARGETING_2" />
+			<Where Type="PROMOTION_AIR_REPAIR" />
+		</Update>
+		<Update>
+			<Set PromotionPrereqOr5="PROMOTION_AIR_AMBUSH_1" />
+			<Where Type="PROMOTION_AIR_LOGISTICS" />
+		</Update>
+		<Update>
+			<Set PromotionPrereqOr5="PROMOTION_AIR_TARGETING_1" />
+			<Where Type="PROMOTION_AIR_RANGE" />
+		</Update>
+		<Update>
+			<Set PromotionPrereqOr5="PROMOTION_AIR_AMBUSH_1" />
+			<Where Type="PROMOTION_EVASION" />
+		</Update>
+	</UnitPromotions>
+
+	<!-- Remove Ambush promo from Bombers and Fighters. -->
+	<UnitPromotions>
+		<Delete Type="PROMOTION_AIR_AMBUSH_2" />
+	</UnitPromotions>
+	<UnitPromotions_UnitCombatMods>
+		<Delete PromotionType="PROMOTION_AIR_AMBUSH_1" />
+		<Delete PromotionType="PROMOTION_AIR_AMBUSH_2" />
+	</UnitPromotions_UnitCombatMods>
+	<UnitPromotions_UnitCombats>
+		<Delete PromotionType="PROMOTION_AIR_AMBUSH_2" />
+	</UnitPromotions_UnitCombats>
+
+	<!-- Argh there is a typo in the game, Air Targeting I and II are written "Air Targetting", I have to fix these too... -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1" />
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1">
+			<Text>Air Targeting I</Text>
+		</Row>
+	</Language_en_US>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2" />
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2">
+			<Text>Air Targeting II</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Fighters can now also get Bombardment and logistics promo. -->
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_BOMBARDMENT_2</PromotionType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_BOMBARDMENT_3</PromotionType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_AIR_LOGISTICS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+	
+	<!-- Faster Promotions -->
+	<Defines>
+		<Update>
+			<Set Value="7" />
+			<Where Name="EXPERIENCE_PER_LEVEL" />
+		</Update>
+	</Defines>
+	<!-- More XP from battles -->
+	<Defines>
+		<Update>
+			<Set Value="100" />
+			<Where Name="MAX_EXPERIENCE_PER_COMBAT" />
+		</Update>
+	</Defines>
+</GameData>

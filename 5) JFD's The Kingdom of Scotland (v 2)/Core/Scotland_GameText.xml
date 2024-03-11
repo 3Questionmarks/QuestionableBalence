@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/20/2013 3:43:32 AM -->
+<GameData>
+	<Language_en_US>
+		<!-- SCOTLAND -->
+		<Row Tag="TXT_KEY_CIV_JFD_SCOTLAND_ADJECTIVE">
+			<Text>Scottish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_SCOTLAND_DESC">
+			<Text>Scottish Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_SCOTLAND_SHORT_DESC">
+			<Text>Scotland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_TEXT_1">
+			<Text>With a history dating back to the Roman occupation of Britain, Scotland has long been renowned as a cultural stronghold in the north of Europe. Early in its history, the Pictish Confederation spanned almost the entire region, with the Gaels of Ireland coming later to inhabit the west coast. After years of war, the nation was consolidated into the Kingdom of Alba, overwhelmingly the among the most powerful kingdoms in the British Isles. Facing invasion from England, the Scottish Wars of Independence were triggered, and continue to live on in the memory of many romanticists in modern-day Scotland. In later years, the crowns of the often-feuding nations of Scotland and England were made into one, forming the United Kingdom.[NEWLINE][NEWLINE]In the 19th and 20th centuries, Scotland became known for its industry and technological growth, attracting immigrants from all over the world to come and work in places such as the shipbuilding region of the Clyde. During both world wars, Scotland participated fully, and though it took many losses, it came through as a major fighting force, renowned to this day. During later political regimes of the 20th century, movements such as Thatcherism were unpopular among many Scots, sparking Scotland’s independence movement. With the coming of the SNP to power in 2007, a referendum on Scottish independence was scheduled for the 18th of September 2014.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_HEADING_2">
+			<Text>Geography</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_TEXT_2">
+			<Text>Often known for its wet, rainy climate, much of Scotland is almost constantly battered by rain. This is particularly bad on the West Coast, where close to no protection is offered from Atlantic storms, thus making rain far more likely here than the East Coast. The Hebrides, Orkney and Shetland also have little protection from such rain storms. In terms of the makeup of the land, Scotland is situated on a line known as the Great Highland Fault, and because of this fault line, the Highlands are a dominant part of Scotland’s geographic makeup. These mountains are a major tourist attraction in Scotland, with mountaineers from all over the world coming to climb them. Scotland also boasts the tallest mountain in the UK, Ben Nevis. Another of Scotland’s more famous features are the lakes, or “lochs”. Lochs in Scotland are typically formed in valleys between the hills. Glens also feature in the Highlands, and are often used in romanticist depictions. In the lowlands of Scotland, it tends to be a lot flatter, though it still retains a lot of mountains near the borders. At no point is Scotland really free of any incline, making it a vibrant and interesting landscape.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_HEADING_3">
+			<Text>Early History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_TEXT_3">
+			<Text>Scotland’s history is dominated by legendary figures such as William Wallace and Rob Roy - though one of the first to be mentioned was mostly, if not entirely fabricated. Calgacus, meaning “Swordsman” in Latin, was recorded as the first Scot in history. Presumably a Pictish general of sorts, he allegedly made a speech to the invading Roman soldiers. Calgacus may have done so, but what he would have said is entirely unknown, given very few elements of the Pictish language he would have spoken are known. In the battle that followed, the Romans are speculated to have won, but they were never able to dominate the whole of Scotland, only a couple of border regions. Around 410 AD, crisis in Rome triggered the retreat of effectively all Roman positions around Scotland. This lead to almost complete Pictish domination in the north, and new land ready to take in the south. In the west, however, a power vacuum lead to the settlement of the Gaels. These Gaels founded the Kingdom of Dal Riata, which spanned most of Scotland that was not owned by the Picts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_HEADING_4">
+			<Text>Kingdom of Alba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_TEXT_4">
+			<Text>After many wars between the rival Picts and Gaels, the two were finally united into the Kingdom of Alba around 900 AD. This came about after a long merger between the two peoples took place, with the Pictish conversion to Christianity and the subsequent struggles in which the ruling dynasties were united. Initially, the kingdom had its seat of power at Scone, and though the monarch often changed courts, Scone was always the ritual capital of the kingdom. During this period, the Scots were frequently at war with the English, which had been recently conceived as a nation as well. In 1066, the Normans attacked England, bringing about colossal social change not only south of the border, but in Scotland as well. Many monarchs of Scotland aimed to emulate the grandeur the Normans brought about, with many members of royal households marrying into Norman families as a sign of prestige. Later kings followed suit, and eventually, many of Scotland’s nobles would have spoken French as their primary language.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_HEADING_5">
+			<Text>The Wars of Independence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_TEXT_5">
+			<Text>After the Battle of Largs, King Alexander III of Scotland was able to make the kingdom more prosperous than ever. During his reign, Scotland experienced a golden age, with a lot more people able to make a decent living. However, this came to an abrupt end in 1286, with the sudden death of King Alexander. While riding home during a storm, his horse had fallen off a cliff, killing him instantly. His successor, Margaret, was a six-year-old Norweigan princess that had never been to Scotland before. On her journey to Scotland, she died in Orkney, leaving the Scottish throne in crisis. To resolve the issue of the new monarch, Scottish nobles called on Edward I of England, noted for his wisdom and diplomatic skills. Out of several candidates for the new Scottish king, he recognized John Balliol as the strongest of them, making him the new monarch. However, in 1294, Balliol refused one of Edward’s demands. Furious, Edward deposed Balliol and invaded Scotland. Before long, the kingdom was effectively a puppet on England. With Wales seized only years before, Edward dominated Great Britain, albeit unstably. Before long, resistance to Edward’s rule became apparent, with one of the most famous characters in Scottish history appearing - William Wallace.[NEWLINE][NEWLINE]A middle-class outlaw from Perth, Wallace was the unlikely champion of the Scottish cause. He had fiercely opposed the English since a dispute with his sheriff, which resulted in his death and the creation of Wallace’s criminal record. As an excellent general and warrior, Wallace was able to recruit men for his cause easily in a guerilla warfare style, especially due to the mass anti-English sentiment. Before long, Wallace had been appointed Guardian of Scotland, having won the Battle of Stirling Bridge, which resulted in total slaughter of the English army. However, it didn’t take long before Wallace himself was defeated by Edward’s superior skill, having brought a battle-hardened army from France to crush the rebels. At the Battle of Falkirk, Wallace was forced to flee, with the independence cause almost completely abandoned. When he attempted to reignite the war seven years later, he was captured by the English and forced to stand trial in London, where he was hung, drawn and quartered. While this was meant to be a lesson to anyone who wanted independence, it only encouraged more people to take up arms against Edward.[NEWLINE][NEWLINE]Robert the Bruce, an ambitious young man born into a wealthy Anglo-Norman family, was next to take up the cause. Though Bruce was a fervent supporter of independence, all he really wanted was kingship. At times, he had backed Edward to fuel this ambition, but with Wallace gone, he knew he could pick up where he left off and recreate Scotland. Bruce met up with John Comyn in a church to discuss the terms of an independent Scotland. Previously, Bruce had allowed Comyn to keep the land while Bruce had the crown - though Comyn had told Edward that Bruce was pretending to be King of Scotland, giving him limited time to act. Bruce’s meeting with Comyn proved eventful, as after Comyn only laughed at Bruce’s demands, he stabbed him to death. A story tells that Bruce came out of the church, with his knife blood-stained, and exclaimed to his friend Fitzpatrick “I’m afraid I’ve stabbed Comyn!”. Fitzpatrick then went into the church, and finished off Comyn for him. The motto of the Fitzpatrick family to this day is allegedly his response to Bruce, “I make sure”. Bruce then went on to start another campaign of guerrilla war. With the death of Edward I, the tide changed for the better. Edward II was a completely incapable commander, and at the Battle of Bannockburn, Bruce overwhelmed the English forces, ending their domination in Scotland for good.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_HEADING_6">
+			<Text>Arbroath and Aftermath</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_TEXT_6">
+			<Text>The conclusion to the Wars of Independence was in 1320, when Robert the Bruce signed the Declaration of Arbroath, legally restricting the powers of the king. While the peace treaty with England had been signed, it was not until this document had been created that Scotland could truly function as a kingdom again. Roughly equivalent to the powers of the Magna Carta, the Declaration was later used as a model for the American Declaration of Independence. [NEWLINE][NEWLINE]Following this, Scotland began a period of regrowth and rebirth. Soon after Bruce’s family line had lost claim on the throne, the notoriously corrupt Stuart line came to power. James I was noted for his immense patronage of the arts; however, he was later assassinated in his home, having not been able to escape. James II was a better administrator; however, his fiery passion for war lead to his death at the Siege of Roxburgh Castle, one of the final English strongholds in Scotland, when his cannon exploded and killed him. Often considered Scotland’s first Renaissance king, James III obtained the Orkney and Shetland Islands from Norway due to marriage; however, he was, in most other aspects, an infective king. With little luck in battle, James III was thrown off his horse and killed at the Battle of Sauchie Burn. James IV followed suit in the family tradition of bad battles; at the Battle of Flodden Field, the Scots army was crushed, and James IV was killed, making him the last British monarch to be killed in battle. However, his reign was noted as prosperous in many other aspects, given he was a capable administrator and governor. After defeat at the Battle of Solway Moss, James V returned home in shame and died just hours later. This left his one-week-old daughter, Mary, in control of Scotland.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_HEADING_7">
+			<Text>Act of Union and Catholicism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_TEXT_7">
+			<Text>Mary, Queen of Scots, had one of the most eventful and sad reigns in Scottish history. Due to their Catholic ties, Mary was sent to mary Francis, Dauphin of France, at a very young age. She stayed with the French royalty for a long part of her reign, and thus not able to conform to the massive social changes that were happening in a Scotland deemed unsafe for her at the time. After her husband died, Mary returned to her homeland. However, she was unpopular among the Protestants in Scotland, who now formed a majority - and women in power were also frowned upon at the time. To ease this slightly, Mary married Lord Darnley, a young noble who was a likely candidate for a good monarch. However, a few years into their marriage, Darnley was murdered, presumably on Mary’s orders. John Hepburn was originally thought to have been the murderer, but was cleared of all charges. This became more suspicious still when he married Mary a month later. Not yet popular among the many Protestants in Scotland, Mary was chucked out of the throne, and the crown was given to her son, James. Mary fled to England after a failed uprising known as the “Rising of the North”, an attempt to boost Catholic influence - she had assumed her cousin, Elisabeth, would help her. However, Elisabeth instead imprisoned her, and had Mary executed 18 years later.[NEWLINE][NEWLINE]Though Mary’s rule was turbulent and wild, James had a far more peaceful and prosperous reign. At an early age, he was perceived as a wise King of Scots - though the most important event in his reign came when Elizabeth died without a heir. The best the English nobility could do to find a successor was to ask James, who accepted - this meant that for the first time in history, Scotland and England were in a peaceful union. James, unlike his mother, had been raised as a Protestant king - previously unheard of in Scotland. With England also a Protestant country, this made James popular in both nations, though not to all. Guy Fawkes, an English Catholic, wanted rid of James on both the counts that he was Protestant and Scottish. Fawkes was an explosives expert as he had been fighting for the Spanish in the Netherlands prior to the plot to kill James - he used this to his advantage. Though Fawkes was not the leader of the group of Catholics against James, he is the most famous today as he was the first caught conspirator of the plot, now popularly known as the “Gunpowder Plot” - every year in Britain, the failure of the plot is commemorated with Guy Fawkes Night on the 5th of November.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_HEADING_8">
+			<Text>The Commonwealth and the Glorious Revolution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_TEXT_8">
+			<Text>After James’ passing, his son, Charles I, took over. A big believer in the divine right of kings, Charles was a holy man - but a useless monarch. Charles dismissed his parliament initially so that he could rule with supreme authority, but he called them back as soon as he ran into trouble. This displeased the parliamentary nobles, so among them they decided to rid themselves of Charles, which soon sparked the War of Three Kingdoms. Though most of the nation was held by Charles or the now-proclaimed Commonwealth of England, there were two other major factions - the Confederates in Ireland, and the Covenanters in Scotland. A Presbyterian movement in Scotland, the Covenanters fought against both the Irish Confederates and the English Crown, triumphing over both. However, only a few years later, they were crushed by Oliver Cromwell’s New Model Army. For ten years, all three of these kingdoms were ruled by the Lord Protector Cromwell - the first time in British history that the islands had no king to be seen. However, Cromwell felt like a king to many, his reign portrayed as a harsh, hard time for the isles. With Cromwell’s death, the monarchy was brought back by Charles II, a time often seen as a reawakening of Britain’s crushed spirits. Charles was never particularly religious, but rather strangely, he converted to Catholicism upon his death; he had not dared do so beforehand for fear of another revolt.  [NEWLINE][NEWLINE]However, Charles’ brother, James VII of Scotland and II of England, made no secret of being a Catholic. With his rule in turmoil within a couple of months, James was challenged as king by the upstart ruler William of Orange, a Dutch prince and diehard Protestant. William began the so-called Glorious Revolution by gathering his men to fight against the crown and install him in James’ place; this went incredibly well. James was forced into full retreat after the Battle of the Boyne, and William became king once more. Anne, William’s successor, was not particularly notable as a monarch - though she does have ties to Scotland. In 1707, the Act of Union was created, a document that unified the crowns of Scotland and England into one. This came after the disastrous Darrian Project, which involved Scotland colonising Panama. However, they failed miserably to do so, and with investments wasted, Scotland was bankrupted. The Act of Union lead to an uneasy merger of the countries, and was widely opposed in Scotland at the time, though it probably saved the economy in its entirety.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_HEADING_9">
+			<Text>Jacob Bites Back</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_TEXT_9">
+			<Text>In the newly-formed United Kingdom, the ruling dynasty had now been changed to the German Hanoverians - mostly on account of them being the closest Protestant relatives to the late Queen Anne. King George I was unpopular in the UK, as he rarely visited, spending most his time in Hanover, and never bothered to learn English - this led to him creating the post of Prime Minister to fulfil his day-to-day needs in the UK. This led to people wanting to do something about it. James II’s son, James Francis Stuart, was brought up in France by the exiled James in the hope he would one day return a Catholic to the throne. James inspired the Jacobite movement, which means “Followers of Jacob” in Latin. Finding help from the movement in Scotland, James decided to attack - however, he turned out to be a bad leader and strategist, and subsequently this first Jacobite rising, in 1715, ended in failure. However, James’ son - Charles Edward Stuart - knew better how to start a rising. Charles went to Scotland in 1745, and after proclaiming his father King James VIII of Scotland, he began his campaign by rallying armed clansmen to fight for his cause. This rising was initially a great success, but before they could think about marching on London, they were thwarted by the betrayal of Dudley Bradstreet, and English spy who had told the Jacobites that their army would be destroyed if they stayed in England, thus forcing them to return to the north. However, the Jacobite cause was quickly defeated at the Battle of Culloden; this ended the Jacobites for once and for all. Charles was forced to escape to the isle of Skye and then France, an event immortalised in Scottish folklore. Charles was helped to disguise himself as a woman by Flora Macdonald so that he could escape, through one account describes Charles as “the ugliest woman I’ve ever seen”. Regardless, Charles was able to escape to safety like his father, though his rising had been far more successful.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_HEADING_10">
+			<Text>Empire and Industry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_TEXT_10">
+			<Text>Following the risings, Scotland became a true Enlightenment era state, with many people from there stepping forth to leave their mark on the world. One of the many contributors to this was the Glaswegian merchant Adam Smith, who is credited with describing modern capitalism in his book, The Wealth of Nations. One of Scotland’s most famous pioneers was James Watt, a  scientist and inventor who helped make steam power one of the most mainstream energy sources in the world - Watt is also credited with popularising railways as a method of transport, thus paving the way for the Industrial world. However, in the wake of the Jacobite cause, a lot of Scotland’s dying romanticism was put to good use. Robert Burns, one of Scotland’s most famous poets, wrote verses in a fluidly Scottish manner. Internationally, the song and poem “Auld Lang Syne” is likely the most famous of Burns’ works, as it it used all over the world to celebrate New Years’ Day, or “Hogmanay” in Scotland. [NEWLINE][NEWLINE]During this time, cities such as Glasgow became massive immigration and industry centres. When the Potato Famine struck Ireland in 1847, tens of thousands of immigrants made the journey to places such as Scotland, where large Irish communities were formed and still exist today. Shipbuilding was a major industry in the Clyde area in general, and as a result, it created thousands of new jobs. The burst of industry into Scotland also created substantial amounts of work for Scots and immigrants alike, creating a massive boost in productivity. Scotland became an integral part of the British Empire during this time, with Glasgow even being called the UK’s second city at times. Glasgow’s prominence declined towards the end of the 19th century, but Scotland was still an integral part of the Empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_HEADING_11">
+			<Text>The War Years</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_TEXT_11">
+			<Text>When Scotland, as part of the British Empire, entered the First World War in 1914, men rushed to recruitment as part of so-called “Pals Regiments” - like so many other soldiers in the Great War, they tended to sign up with their friends. The Scots saw a lot of action in the Somme, and also in Ypres - they tended to serve alongside the rest of the British regiments for the most part. By the end of the war, Scotland had changed socially to become a poorer, though still highly industrialised nation - this set the scene for a lot of Scottish history since the war. After a period of recovery, Scotland was doing well once more, and was able to function well as part of the British Empire. However, come the Second World War, and Scotland was back in turmoil. The Clydebank area of Glasgow was blitzed due to its vast shipbuilding importance, but Glasgow was still well able to supply the British army with enough ships to continue its campaign. In 1942, the Commando regiment began training in Scotland as a concept of elite soldiers - Scotland’s rugged Highland terrain was perfect for military operations to be practiced. Dundee’s comics of The Beano and The Dandy were immensely popular during the Second World War, as they put in satires of Hitler, Goring and Mussolini in particular, and encouraged children to help the war effort. How much a children's comic could do for a war is debatable, but the writers were put on the kill list of the Nazi party. [NEWLINE][NEWLINE]Out on the other side of the Second World War, and Scotland was again poorer. This time, England seemed to be getting more benefit than Scotland - and while that is unlikely to be true, given the example of post-war London - it certainly stirred an anti-English sentiment among many Scots. The Clyde was still a shipbuilding centre, but with less demand for ships came less demand for jobs. The economy of Scotland gradually stabilized, with progressive Labour governments aiming to help the poor affected by the war across the country, but this didn’t last as long as some hoped. By 1980, the more left-wing Scots had a Tory government in power - this didn’t sit well with the vast majority of Scots.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_HEADING_12">
+			<Text>Thatcherism, Devolution, and the Referendum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_TEXT_12">
+			<Text>Margaret Thatcher, the UK’s first female Prime Minister, remains a controversial figure even after her passing. In general, she is admired by most right-wingers in the UK, but is a detested figure in most of Scotland. During her time in power, the Poll Tax was introduced - albeit only in Scotland. Though it was seen by a lot of Tories as a good move to ensure it worked on one region before checking the rest, it was incredibly unpopular in Scotland and simply made her approval hit near rock bottom. Furthermore, the Trident nuclear missile program was announced - and it was to take up residence in Scotland. Thatcher’s free-market capitalist and conservative views made her clash with Scotland’s majority left-wing and socialist population, many of which wanted rid of her. Eventually, the Scots got to say goodbye to Thatcher, and under Tony Blair’s Labour government, Scotland got its own devolved parliament in 1999. Scotland’s first First Minister, Donald Dewar, was an advocate of devolution above independence as a means of retaining a strong Labour government in Westminster. The Scottish Parliament was meant to represent Scotland within the United Kingdom - this meant that Scotland was able to take what it valued into its own hands. Matters such as education, healthcare and transport were given over to the Scottish Parliament, which proved to be a huge success. In 2007, the Scottish Nationalist Party were elected to the Scottish Parliament, and promised to hold a referendum on Scottish independence on September 18th, 2014. This treachery failed, and Scotland remained united beneath the crown of the United Kingdom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_FACTOID_HEADING">
+			<Text>Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_FACTOID_TEXT">
+			<Text>Contrary to popular belief, the Haggis is not a wild animal that runs around in the Scottish Highlands.[NEWLINE][NEWLINE]Italian immigration to Scotland was not only popular, but encouraged among Irish Catholic priests. Given the Italians would often set up ice cream stalls, the priests would advise people to buy ice cream from them instead of going to pubs. [NEWLINE][NEWLINE]Burma was occasionally referred to as “the Scottish Colony” due to the large amounts of Scots who went there and colonised it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SCOTLAND_FACTOID_TEXT_TRUTH">
+			<Text>Contrary to popular belief, the Haggis actually is a wild animal that runs around in the Scottish Highlands.[NEWLINE][NEWLINE]Italian immigration to Scotland was not only popular, but encouraged among Irish Catholic priests. Given the Italians would often set up ice cream stalls, the priests would advise people to buy ice cream from them instead of going to pubs. [NEWLINE][NEWLINE]Burma was occasionally referred to as “the Scottish Colony” due to the large amounts of Scots who went there and colonised it.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_01">
+			<Text>Edinburgh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_02">
+			<Text>Glasgow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_03">
+			<Text>Stirling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_04">
+			<Text>Aberdeen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_05">
+			<Text>Dundee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_06">
+			<Text>Inverness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_07">
+			<Text>Perth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_08">
+			<Text>Dunfermline</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_09">
+			<Text>Kilmarnock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_10">
+			<Text>Dumfries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_11">
+			<Text>Lanark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_12">
+			<Text>Dumbarton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_13">
+			<Text>Falkirk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_14">
+			<Text>Arbroath</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_15">
+			<Text>Linlithgow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_16">
+			<Text>Kirkcaldy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_17">
+			<Text>Forfar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_18">
+			<Text>Saint Andrews</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_19">
+			<Text>Tain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_20">
+			<Text>Linwood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_21">
+			<Text>Ayr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_22">
+			<Text>Wick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_23">
+			<Text>Thurso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_24">
+			<Text>Stranraer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_25">
+			<Text>Portree</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_26">
+			<Text>Melrose</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_27">
+			<Text>Berwick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_28">
+			<Text>Oban</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_29">
+			<Text>Ullapool</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_30">
+			<Text>Aviemore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_31">
+			<Text>Malaig</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_32">
+			<Text>Dornoch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_SCOTLAND_33">
+			<Text>Lerwick</Text>
+		</Row>
+		<!--Celtic Cities-->
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_EDINBURGH"/>
+			<Set Text="Ynys Wydryn"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_ABERDEEN"/>
+			<Set Text="Iska"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_GLASGOW"/>
+			<Set Text="Eborakon"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_STIRLING"/>
+			<Set Text="Moridunon"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_DUNDEE"/>
+			<Set Text="Sorviodunum"/>
+		</Update>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SCOTLAND_9">
+			<Text>Sean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SCOTLAND_8">
+			<Text>James</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SCOTLAND_7">
+			<Text>Robert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SCOTLAND_6">
+			<Text>Charlie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SCOTLAND_5">
+			<Text>Alex</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SCOTLAND_4">
+			<Text>Nicola</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SCOTLAND_3">
+			<Text>Mary</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SCOTLAND_2">
+			<Text>Flora</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SCOTLAND_1">
+			<Text>Kate</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SCOTLAND_0">
+			<Text>Liz</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!-- JAMES VI -->
+		<Row Tag="TXT_KEY_LEADER_JFD_JAMES">
+			<Text>James VI</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_TEXT_1">
+			<Text>Though he was once hailed by scholars as the “wisest fool in Christendom”, James was far from stupid. His reputation today is stained by acts perceived as lazy or unregal, but in truth, he was a scholar king, hence his ability to govern the crowns of England and Scotland at the same time, with massive prosperity within the colonies. His pursuits in American colonisation - the city Jamestown, named after him - gives James even more of a good legacy. James’ reign started in the latter stages of the Medieval era, more or less all the stereotypes associated with it appearing then. However, by James’ death, there would be few willing to argue that the world, or at least James’ union of Scotland and England, was a Renaissance nation, with new technology paving the way to conquest. The advent of gunpowder into Europe lead to James leading the way for the Union’s American expeditions - heroes such as Sir Francis Drake and Walter Raleigh certainly helped to boost James’ figure, though the traditional courtroom family quickly fell out of use over the course of James’ rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_HEADING_2">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_TEXT_2">
+			<Text>James would have known very little about life without being king, given he was practically born into it - not only was he brought up as the names successor to the Scottish throne, but at the age of 13 months, he inherited it from Mary, his mother, who was unpopular among many Scots. James, on the other hand, was to be raised as a God-fearing Protestant. During his reign as King of Scots, James visited Denmark - and subsequently adopted Witch Hunting, like our friend Christian IV. James was also noted for displaying little interest in women, and praised for adopting more kingly standards instead. He ended up marrying Princess Anne of Denmark, though the marriage was not romantic by any stretch.[NEWLINE][NEWLINE]During his time as King of Scots, James wrote three books - these were Daemonologie, The True Law of Free Monarchies, and Basilikon Doron. All of these books show that James was certainly an intellectual - most prior monarchs couldn’t even write, never mind create a book. Daemonologie praises and advocates witch hunting, and while that may seem somewhat strange today, it was fairly reasonable back in the day. The True Law of Free Monarchies has something we can probably relate to better - sovereignty. James argues for a benevolent monarchy, one that takes genuine care of the people, and with God always ruling. According to the British monarchical doctrine - which is still in force today - the monarch has power delegated to them by God. Basilikon Doron was intended as another treatise to his successor, which proved to be a fantastic guide to almost everything under the sun - even if the person who succeeded him, Charles I, was useless at managing power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_HEADING_3">
+			<Text>Union of the Crowns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_TEXT_3">
+			<Text>In 1603, Queen Elizabeth of England died, with no direct successor. James, as a relative to the late Queen and a supporter of her, was soon named as the new King of England, resulting in likely the biggest ever inheritance for a Scottish king. Quickly, James moved to England, and took up court in London. On the way there, he was pickpocketed by a man who had not realised he was the new king - he was swiftly executed. It was during James’ reign in London that the Gunpowder Plot occurred, a conspiracy to do away with the Scottish Protestants on the English throne. Luckily for James, the plot failed, and he was able to reinstate his kingship well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_HEADING_4">
+			<Text>Endeavours into America</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_TEXT_4">
+			<Text>The village of Jamestown, Virginia, bears the said monarch’s name as he was one of the first to have serious colonial ambitions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_HEADING_5">
+			<Text>The New Britain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_TEXT_5">
+			<Text>Two of the biggest events in James’ reign caused a lot of issues that still divide the UK today. As a Protestant, James was desperate to ensure that the country remained that way. With James’ version of the Bible, now commonly known as the King James Version, he was able to promote his case far more easily that what most other Protestants would have to do. As king, he was able to put it in place from above rather than from below, making England’s conversion to Protestantism far easier. Killing a lot of Catholics also helped advance James’ case. This leads on to the second major event at home - the Ulster Plantation. The vast majority of people who moved to work on this plantation were English Protestants, creating divides with both religion and allegiance that still trouble the island of Ireland today. On that note, the conversion of most of the irish to Catholicism was less successful, because for a start, it was harder. Most of the Irish were already diehard Catholics, so converting them with little Protestant base would have been almost impossible. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_HEADING_6">
+			<Text>Later Reign</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_TEXT_6">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_HEADING_7">
+			<Text>Judgement of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_TEXT_7">
+			<Text>Overall, James is remembered as a learned man, one who helped both the kingdoms of Scotland and England prosper. He was a major advocate of a single parliament for England and Scotland - something not achieved in his reign - as he believed that a united Britain could do so much more. James was able to prove this with the colonisation of the Americas, something he undertook very seriously. He also went around ensuring that the monarchy was beneficial to the people - though it may not have looked it at times, James was absorbed by the doctrine of the Divine Right of Kings, which he presumably thoroughly believed in, thus used God as a way to ensure he reigned well. With many literary works to his name, vast intellectual capabilities, and a good idea of how one should rule James was one of the best monarchs in British, and possibly world history</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_LIVED">
+			<Text>1566-1625</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_NAME">
+			<Text>James VI and I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_JAMES_SUBTITLE">
+			<Text>King of Scotland, England and Ireland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_JFD_JAMES_TEXT">
+			<Text>God hath christened this day, O' wise and devoted King James of Scotland and England and Ireland. Barely a child at the age of your ascension, you would come to inherit the thrones of the three ancient and noble Kingdoms of the British Isles, and with it you would spark an age of great innovation and the beginnings of a colonial empire. A patron of the arts and sciences, and a devoted servant to God and country, your reign would author the greatest testimony to the strength of the kinship of all Britons, and stands as a legacy of a realm united in the quest for glory and harmony.[NEWLINE][NEWLINE]By God's will, your throne stands like a colossus, King James of Scotland and England and Ireland, and once more your shadow blankets the British Kingdoms in unity. Can you behold the pursuit of knowledge and keep in your heart devotion to God and people? Can you build a civilization that can stand the test of time?</Text>
+		</Row>
+		<!--REULIS AND CAUTELIS-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_SCOTLAND_SHORT">
+			<Text>Reulis and Cautelis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_SCOTLAND">
+			<Text>Earn [ICON_GOLDEN_AGE] Golden Age points whenever a [ICON_GREAT_PEOPLE] Great Person is born. Each type of Engineer, Merchant, and Scientist specialist generates points toward Great Writers during a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_SCOTLAND_MSG">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SCOTTISH_WRITERS">
+			<Text>JFD: Scottish Writers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SCOTTISH_WRITERS_HELP">
+			<Text>+3 [ICON_GREAT_PEOPLE] Great Writer points</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SCOTTISH_GP">
+			<Text>Reulis and Cautelis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SCOTTISH_GP_HELP">
+			<Text>The birth of this Great Person generated [ICON_GOLDEN_AGE] Golden Age points.</Text>
+		</Row>
+		<!--COLLEGE-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_COLLEGE">
+			<Text>College</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COLLEGE_HELP">
+			<Text>When this Great Work of Writing slot is filled, increases the length of [ICON_GOLDEN_AGE] Golden Ages by 10% (up to 40%). +2 [ICON_RESEARCH] Science from Jungle tiles worked by this City. Allows Archaeologists to be built in this city.[NEWLINE][NEWLINE]City must have a Library.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COLLEGE_STRATEGY">
+			<Text>The College is a Medieval-era building, which replaces the University for Scotland. Unlike the University, the College contains a Great Work of Writing slot and, when this slot is filled, increases the length of your [ICON_GOLDEN_AGE] Golden Ages by 10% (up to 40%). Patronising many Colleges will ensure the renaissance of your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_COLLEGE_TEXT">
+			<Text>It has been said many times that the Scottish education system is one of the best in the world - the author having experienced a fair bit of it - and regardless of whether this is true or not, it has certainly played a vital role in Scottish history. Burke and Hare, the infamous body snatchers of Edinburgh, sold the bodies on to a local medical school. Today, education is a devolved power in Scotland, meaning that the Scottish government exercises total authority over the curriculum. Given that people in the EU (though not in the UK, for some strange reason) do not pay tuition fees for attending universities and colleges in Scotland, a lot of people have decided to come to Scotland to study. The Royal Society of Edinburgh is among one of the most prominent places for the learned, given its history of success - it has been noted for its advancement in philosophy, medicines, sciences, and the arts, making it, among other places like it within Scotland, part of the country’s intellectual greatness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SCOTTISH_COLLEGE">
+			<Text>JFD: College GA</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_SCOTTISH_COLLEGE_HELP">
+			<Text>+10% [ICON_GOLDEN_AGE] Golden Age length.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_COLLEGE_CITY_VIEW_HELP">
+			<Text>+{1_Num}% [ICON_GOLDEN_AGE] Golden Age length from each [ICON_GREAT_WORK] Great Work filled in Colleges.</Text>
+		</Row>
+		<!--HIGHLANDER-->
+		<Row Tag="TXT_KEY_UNIT_JFD_HIGHLANDER">
+			<Text>Highlander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_HIGHLANDER">
+			<Text>Scottish unique Rifleman. Gains double [ICON_MOVES] Movement in Hills and begins with additional experience for every Great Work of Writing in the city in which it was born.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_HIGHLANDER_STRATEGY">
+			<Text>The Highlander is the unique Scottish replacement for the Rifleman, which benefits most from being trained cities which contain a Great Work of Writing; earning 7 additional experience for each work of Writing in the city (up to 30XP). Additionally, the Highlander [ICON_MOVES] moves through Hills twice as fast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_HIGHLANDER_TEXT">
+			<Text>Though initially a word simply used to describe someone from the Highlands of Scotland, the term “Highlander” has went on to be used in a military sense. Highlanders started off by forming clans in their native lands, creating a unique identity for them and their kinsmen. Over the years, this evolved into the Scottish surnames - the prefix “mac”, which is all too often used in a faux-Scottish sense, indicated that the person is a “son of” the name that follows. As weaponry evolved, Highlanders became increasingly trained in gunpowder technology, which was put to great - and devastating - use during the turmoil of the Stuart era. Scotland’s military regiments, though the Highlanders in particular, would often have marching bands that still exist to this day. Performances from these marching bands often feature the Bagpipes, a distinctive Scottish sound that is commonly associated with the Highlanders. Though the Highlands is probably one of the most distinctive areas of Scottish culture, the consensus is that they will mostly vote No in the referendum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_HIGHLANDER">
+			<Text>Highlands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_HIGHLANDER_HELP">
+			<Text>Double [ICON_MOVES] Movement in Hills.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

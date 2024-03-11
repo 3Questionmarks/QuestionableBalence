@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/20/2018 10:32:54 AM -->
+<GameData>
+
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_OCEANS_BOUNTY</Type>
+			<Description>TXT_KEY_BELIEF_OCEANS_BOUNTY</Description>
+			<ShortDescription>TXT_KEY_BELIEF_OCEANS_BOUNTY_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+	</Beliefs>
+
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_OCEANS_BOUNTY</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_OCEANS_BOUNTY</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+    
+    <Belief_TerrainYieldChanges>
+        <Row>
+			<BeliefType>BELIEF_OCEANS_BOUNTY</BeliefType>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_OCEANS_BOUNTY</BeliefType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_TerrainYieldChanges>
+    
+    <Belief_ImprovementYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_OCEANS_BOUNTY</BeliefType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_OCEANS_BOUNTY_SHORT">
+			<Text>Ocean's Bounty</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BELIEF_OCEANS_BOUNTY_SHORT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Ocean's Bounty</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BELIEF_OCEANS_BOUNTY_SHORT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Ocean's Bounty</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BELIEF_OCEANS_BOUNTY_SHORT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Ocean's Bounty</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_OCEANS_BOUNTY">
+			<Text>+3 [ICON_PEACE] Faith and +3 [ICON_PRODUCTION] Production from Lighthouses. +1 [ICON_PRODUCTION] Production from Fishing Boats. +1 [ICON_PEACE] Faith from Coast and Ocean tiles.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 04/07/18 10:23:57 AM -->
+<GameData>
+	<Units>
+
+		<Update>
+			<Where Type="UNIT_NUCLEAR_SUBMARINE"/>
+			<Set Moves="7"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MISSILE_CRUISER"/>
+			<Set AirInterceptRange="2"/>
+		</Update>
+
+		<!--	Allow a battleship to carry 1 missile - wont help them until they discover Ballistic Missiles much later on		-->
+		<Update>
+			<Set SpecialCargo="SPECIALUNIT_MISSILE" DomainCargo="DOMAIN_AIR"/>
+			<Where Type="UNIT_BATTLESHIP" />
+		</Update>
+
+		<!--	Allow a normal sub to carry 1 missile - wont help them until they discover Ballistic Missiles much later on		-->
+		<Update>
+			<Set SpecialCargo="SPECIALUNIT_MISSILE" DomainCargo="DOMAIN_AIR"/>
+			<Where Type="UNIT_SUBMARINE" />
+		</Update>
+		
+			
+		
+	</Units>
+
+
+	<Unit_ClassUpgrades>
+		<!-- ============================	Destroyer Upgrade Path		====================================== -->
+		<Row>
+			<UnitType>UNIT_DESTROYER</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_DESTROYER_MISSILE</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_DESTROYER_RAILGUN</UnitClassType>
+		</Row>
+
+		<!-- ============================	Battleship Upgrade Path		====================================== -->
+		<Row>
+			<UnitType>UNIT_BATTLESHIP</UnitType>
+			<UnitClassType>UNITCLASS_MISSILE_CRUISER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_RAILGUN_CRUISER</UnitClassType>
+		</Row>
+
+		<!-- ============================	Carrier Upgrade Path		====================================== -->
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ESCORT_CARRIER</UnitType>
+			<UnitClassType>UNITCLASS_CARRIER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_FLEET_CARRIER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_FLEET_CARRIER</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SUPERCARRIER</UnitClassType>
+		</Row>
+
+		<!-- ============================	Submarine Upgrade Path		====================================== -->
+		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitClassType>
+		</Row>
+
+		<!-- ============================	Bomber Upgrade Path		====================================== -->
+		<Update>
+			<Where UnitType="UNIT_BOMBER"/>
+			<Set UnitClassType="UNITCLASS_SMAN_IEUP_STRATEGIC_BOMBER"/>
+		</Update>
+		<Update>			
+			<Where UnitType="UNIT_AMERICAN_B17" />
+			<Set UnitClassType="UNITCLASS_SMAN_IEUP_STRATEGIC_BOMBER" />
+		</Update>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_STRATEGIC_BOMBER</UnitType>
+			<UnitClassType>UNITCLASS_STEALTH_BOMBER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SUBORBITAL_BOMBER</UnitClassType>
+		</Row>
+
+		<!-- ============================	Fighter Upgrade Paths		====================================== -->
+		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_F35</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_F35</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_PLASMA_FIGHTER</UnitClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_CAS_FIGHTER</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_F117</UnitClassType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_WILD_WEASEL</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_F117</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_F117</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_PLASMA_FIGHTER</UnitClassType>
+		</Row>
+
+		<!-- ============================	Recon Plane Upgrade Path		====================================== -->
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RECON_PLANE</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_RECON_JET</UnitClassType>
+		</Row>
+		
+		<!-- ============================	UAV Upgrade Path		====================================== -->
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_PREDATOR_DRONE</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_REAPER_DRONE</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_REAPER_DRONE</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_NIGHTSTALKER_DRONE</UnitClassType>
+		</Row>
+		
+		<!-- ============================	SAM Upgrade Path		====================================== -->
+		<Row>
+			<UnitType>UNIT_MOBILE_SAM</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_LASER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SAM_LASER</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SAM_RAILGUN</UnitClassType>
+		</Row>
+				
+		<!-- ============================	Artillery Upgrade Path		====================================== -->
+		<Row>
+			<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_ARTY_LASER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_LASER</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_ARTY_RAILGUN</UnitClassType>
+		</Row>		
+				
+		<!-- ============================	Tank Upgrade Path		====================================== -->
+		<Update>
+			<Where UnitType="UNIT_MODERN_ARMOR"/>
+			<Set UnitClassType="UNITCLASS_SMAN_IEUP_RAILGUN_TANK"/>
+		</Update>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_TANK</UnitType>
+			<UnitClassType>UNITCLASS_MECH</UnitClassType>
+		</Row>
+
+		<!-- ============================	Missile Upgrade Path		====================================== -->		
+		<Row>
+			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_PLASMA_MISSILE</UnitClassType>
+		</Row>
+
+	</Unit_ClassUpgrades>
+
+
+	<!--	Make all air defense units defense only...  Allow battleships and nomal subs to carry 1 missile		-->
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_ANTI_AIRCRAFT_GUN</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MOBILE_SAM</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+
+		<!--	New, updated carrying capability for existing units		-->
+		<Row>
+			<UnitType>UNIT_BATTLESHIP</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_CARGO_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_CARGO_I</PromotionType>
+		</Row>
+
+		<!--	Replace normal cargo promos to sman cargo promos: prevents additional cargo when upgrading from lower class unit	-->
+		<Update>
+			<Where UnitType="UNIT_CARRIER" PromotionType="PROMOTION_CARGO_II" />
+			<Set PromotionType="PROMOTION_SMAN_IEUP_CARGO_II" />			
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CARRIER" PromotionType="PROMOTION_CARGO_II" />
+			<Set PromotionType="PROMOTION_SMAN_IEUP_CARGO_III" />			
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_NUCLEAR_SUBMARINE" PromotionType="PROMOTION_CARGO_II" />
+			<Set PromotionType="PROMOTION_SMAN_IEUP_CARGO_II" />			
+		</Update>
+
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_CARRIER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>			
+			<UnitType>UNIT_DESTROYER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>		
+		<Row>
+			<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MOBILE_SAM</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+
+		<Update>
+			<Where UnitType="UNIT_HELICOPTER_GUNSHIP" ResourceType="RESOURCE_ALUMINUM" />
+			<Set ResourceType="RESOURCE_OIL" />			
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_ARMOR" ResourceType="RESOURCE_ALUMINUM" />
+			<Set ResourceType="RESOURCE_OIL" />
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ROCKET_ARTILLERY" ResourceType="RESOURCE_ALUMINUM" />
+			<Set ResourceType="RESOURCE_OIL" />
+		</Update>
+
+	</Unit_ResourceQuantityRequirements>
+	
+</GameData>

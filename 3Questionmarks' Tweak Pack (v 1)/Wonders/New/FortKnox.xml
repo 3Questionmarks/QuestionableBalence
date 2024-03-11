@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/26/2024 7:38:32 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_RA_FORT_KNOX</Type>
+			<DefaultBuilding>BUILDING_RA_FORT_KNOX</DefaultBuilding>
+			<Description>TXT_KEY_RA_FORT_KNOX</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_RA_FORT_KNOX</Type>
+			<BuildingClass>BUILDINGCLASS_RA_FORT_KNOX</BuildingClass>
+			<Cost>125</Cost>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<Description>TXT_KEY_BUILDING_RA_FORT_KNOX</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDING_RA_FORT_KNOX_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_RA_FORT_KNOX_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_RA_FORT_KNOX_HELP</Help>
+			<Defense>800</Defense>
+			<ExtraCityHitPoints>50</ExtraCityHitPoints>
+			<GlobalDefenseMod>15</GlobalDefenseMod>
+			<CapturePlunderModifier>100</CapturePlunderModifier>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_RA_FORT_KNOX</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_RA_FORT_KNOX</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_RA_FORT_KNOX</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_FORT_KNOX</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_RA_FORT_KNOX">
+			<Text>Fort Knox</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_RA_FORT_KNOX_TEXT">
+			<Text>Fort Knox is a United States Army base in Kentucky and served prominently as a school for training tank crews. It was built upon fortifications used during the Civil War in 1861 and named in honor of Henry Knox, Chief of Artillery in the American Revolutionary War and first United States Secretary of War. However, it is best known as the site of the United States Bullion Depository, which houses a large portion of the country's gold reserves. As such, it is one of the most secure locations in the world and the term "Fort Knox" has become synonymous with any high security area.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RA_FORT_KNOX_HELP">
+			<Text>Defensive Buildings in all Cities are 15% more effective. Must have built an Arsenal in all Cities.[NEWLINE][NEWLINE]Should this city be captured, the amount of [ICON_GOLD] Gold plundered by the enemy is doubled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RA_FORT_KNOX_STRATEGY">
+			<Text>Fort Knox increases the City's Defense Strength by 8 and Hit Points by 50 as well as increases the effectiveness of Defensive Buildings in all Cities by 15%, making them harder to capture. However, if the city is captured, the capturing civilization will gain twice as much [ICON_GOLD] Gold as would be the case in a city without Fort Knox. Fort Knox can only be constructed when a civilization has a Arsenal in all of its Cities.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/18/2015 2:08:03 PM -->
+<GameData>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_CONTEXTUAL_SETTINGS_TITLE">
+			<Text>Contextual Unit Names - Settings</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONTEXTUAL_SETTINGS_CLOSE_TOOLTIP">
+			<Text>Click here to close. Settings will not be saved.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONTEXTUAL_SETTINGS_CLOSE">
+			<Text>Close</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONTEXTUAL_SETTINGS_APPLY_TOOLTIP">
+			<Text>Click here to apply your changes. Only newly created units will be named according to your settings.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONTEXTUAL_SETTINGS_APPLY">
+			<Text>Apply</Text>
+		</Row>
+
+		<!-- Custom Preset Hidden Buttons -->
+			<Row Tag="TXT_KEY_CONTEXTUAL_SETTINGS_CANCEL_TOOLTIP">
+				<Text>Cancel the changes you made, for this Custom Preset</Text>
+			</Row>
+
+			<Row Tag="TXT_KEY_CONTEXTUAL_SETTINGS_CANCEL">
+				<Text>Cancel</Text>
+			</Row>
+
+			<Row Tag="TXT_KEY_CONTEXTUAL_SETTINGS_SAVE_TOOLTIP">
+				<Text>Save the changes you made to this Custom Preset</Text>
+			</Row>
+
+			<Row Tag="TXT_KEY_CONTEXTUAL_SETTINGS_SAVE">
+				<Text>Save</Text>
+			</Row>
+
+		<Row Tag="TXT_KEY_CONTEXTUAL_SETTINGS">
+			<Text>Contextual Name Settings</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONTEXTUAL_PRESET_TITLE">
+			<Text>Overall Preset</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONTEXTUAL_CUSTOM_PRESET_TITLE">
+			<Text>Custom Name Preset</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONTEXTUAL_UNIT_NAME_DEFAULT">
+			<Text>No Name Found</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NAME_ARRANGEMENT_ERROR">
+			<Text>Arrangement Invalid</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONTEXTUAL_ORDER_ONE">
+			<Text>I</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONTEXTUAL_ORDER_SECOND">
+			<Text>II</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONTEXTUAL_ORDER_THIRD">
+			<Text>III</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CONTEXTUAL_ENABLE_BUTTON">
+			<Text>Enable</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_LIST_SHOW_FUTURE_UNITS">
+			<Text>Show Future Units</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_LIST_SHOW_UNTRAINABLE_UNITS">
+			<Text>Show Untrainable Units</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_LIST_CHOOSE">
+			<Text>Choose a unit</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NAME_UNIT_NUMBER_CHOOSE">
+			<Text>Choose a Unit Number</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NAME_COMBATCLASS_CHOOSE">
+			<Text>Choose a Combat Class</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_NAME_CONTEXT_CHOOSE">
+			<Text>Choose a Context</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_ADVANCED_SETTING_PANEL">
+			<Text>Advanced Settings</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_ADVANCED_SETTING_PANEL_TOOLTIP">
+			<Text>Go here to change more advanced settings like range for city check, etc.</Text>
+		</Row>
+
+		<!--MAIN PANEL TOOLTIPS -->
+			
+			<!-- Unit Name -->
+				<Row Tag="TXT_KEY_UNIT_NAME_WARNING">
+					<Text>[COLOR_WARNING_TEXT]NOTE:[ENDCOLOR] The name of the unit here is just for presentation purposes. The actual name of the unit will depend on player's current era, settings, and where it was born.</Text>
+				</Row>
+
+				<Row Tag="TXT_KEY_UNIT_NAME_NO_CITY_WARNING">
+					<Text>[COLOR_WARNING_TEXT]NOTE:[ENDCOLOR] The name of the unit here is just for presentation purposes. The actual name of the unit will depend on player's current era, and settings.</Text>
+				</Row>
+
+				<Row Tag="TXT_KEY_UNIT_NAME_ARRANGEMENT_WARNING">
+					<Text>[COLOR_WARNING_TEXT]Your arrangement is incorrect. Reposition different parts of the name, so that different part of the name don't overlap each other.[ENDCOLOR]</Text>
+				</Row>
+
+				<Row Tag="TXT_KEY_UNIT_NAME_NO_NAME_FOUND">
+					<Text>[COLOR_WARNING_TEXT]Your current settings could not find a name for the unit.[ENDCOLOR][NEWLINE]This mainly occurs whent the player has no city.</Text>
+				</Row>
+
+			<!-- Unit Number -->
+				<Row Tag="TXT_KEY_UNIT_NUMBER_NONE">
+					<Text>No Unit Number will be set</Text>
+				</Row>
+
+				<Row Tag="TXT_KEY_UNIT_NUMBER_DYNAMIC">
+					<Text>Unit Number will be tied to what you set as Combat Class, and Context. (Recommended)</Text>
+				</Row>
+
+				<Row Tag="TXT_KEY_UNIT_NUMBER_DYNAMIC_BARE">
+					<Text>Exactly like Dynamic, but without any suffix</Text>
+				</Row>
+
+				<Row Tag="TXT_KEY_UNIT_NUMBER_ROMAN_NUMERAL">
+					<Text>Exactly like Dynamic, except written in Roman Numeral Form.</Text>
+				</Row>
+
+				<Row Tag="TXT_KEY_UNIT_NUMBER_GLOBAL">
+					<Text>This basically counts how many units were created and its not tied to anything.</Text>
+				</Row>
+
+			<!-- Combat Class -->
+				<Row Tag="TXT_KEY_UNIT_COMBAT_CLASS_NONE">
+					<Text>No Combat Class part of this name will be set</Text>
+				</Row>
+				<Row Tag="TXT_KEY_UNIT_COMBAT_CLASS_UNIT_TYPE">
+					<Text>This part of the name is exactly the Unit Type</Text>
+				</Row>
+				<Row Tag="TXT_KEY_UNIT_COMBAT_CLASS_COMBATCLASS">
+					<Text>
+						This part of the name is tied to the Combat Class of the unit.[NEWLINE]
+						Recon: [COLOR_UNIT_TEXT]{1_string}[ENDCOLOR] [NEWLINE]
+						Archer: [COLOR_UNIT_TEXT]{2_string}[ENDCOLOR] [NEWLINE]
+						Siege: [COLOR_UNIT_TEXT]{3_string}[ENDCOLOR] [NEWLINE]
+						Mounted: [COLOR_UNIT_TEXT]{4_string}[ENDCOLOR] [NEWLINE]
+						Melee: [COLOR_UNIT_TEXT]{5_string}[ENDCOLOR] [NEWLINE]
+						Gun: [COLOR_UNIT_TEXT]{6_string}[ENDCOLOR] [NEWLINE]
+						Armor: [COLOR_UNIT_TEXT]{7_string}[ENDCOLOR] [NEWLINE]
+						Naval Melee: [COLOR_UNIT_TEXT]{8_string}[ENDCOLOR] [NEWLINE]
+						Naval Ranged: [COLOR_UNIT_TEXT]{9_string}[ENDCOLOR] [NEWLINE]
+						Submarine: [COLOR_UNIT_TEXT]{10_string}[ENDCOLOR] [NEWLINE]
+						Carrier: [COLOR_UNIT_TEXT]{11_string}[ENDCOLOR] [NEWLINE]
+						Fighter: [COLOR_UNIT_TEXT]{12_string}[ENDCOLOR] [NEWLINE]
+						Bomber: [COLOR_UNIT_TEXT]{13_string}[ENDCOLOR] [NEWLINE]
+						Naval: [COLOR_UNIT_TEXT]{14_string}[ENDCOLOR] [NEWLINE]
+						Helicopter: [COLOR_UNIT_TEXT]{15_string}[ENDCOLOR] [NEWLINE]
+
+					</Text>
+				</Row>
+
+			<!-- Context -->
+				<Row Tag="TXT_KEY_UNIT_CONTEXT_NONE">
+					<Text>No Context Part of this name will be set</Text>
+				</Row>
+				<Row Tag="TXT_KEY_UNIT_CONTEXT_CITY">
+					<Text>The Context Part of the name is tied to the city it was born in</Text>
+				</Row>
+				<Row Tag="TXT_KEY_UNIT_CONTEXT_LEADER">
+					<Text>The Context Part of the name is tied to the name of the Leader</Text>
+				</Row>
+				<Row Tag="TXT_KEY_UNIT_CONTEXT_CIVILIZATION">
+					<Text>The Context Part of the name is tied to the name of the Civilization</Text>
+				</Row>
+				<Row Tag="TXT_KEY_UNIT_CONTEXT_CIVILIZATION_ADJECTIVE">
+					<Text>The Context Part of the name is tied to the Adjective of Civilization. Example: Moroccan, Indian, American</Text>
+				</Row>
+				<Row Tag="TXT_KEY_UNIT_CONTEXT_FIXED_REGIMENT">
+					<Text>The Context Part of the name is always: "Regiment"</Text>
+				</Row>
+				<Row Tag="TEXT_KEY_UNIT_CONTEXT_FIXED_DIVISION">
+					<Text>The Context Part of the name is always: "Division"</Text>
+				</Row>
+				<Row Tag="TXT_KEY_UNIT_CONTEXT_ROMAN_LEGION">
+					<Text>A Legion Title is assigned based on the city it was born in.</Text>
+				</Row>
+		<!-- End of Main Panel Tooltips -->
+
+		<!-- Advanced Settings Panel -->
+			<!-- Presets -->
+				<Row Tag="TXT_KEY_PRESET_COMMAN_TOOLTIP">
+					<Text>Number: [COLOR_POSITIVE_TEXT]{1_description}[ENDCOLOR][NEWLINE]Combat Class: [COLOR_POSITIVE_TEXT]{2_description}[ENDCOLOR][NEWLINE]Context: [COLOR_POSITIVE_TEXT]{3_description}[ENDCOLOR][NEWLINE]First Connector: [COLOR_POSITIVE_TEXT]{4_description}[ENDCOLOR][NEWLINE]Second Connector: [COLOR_POSITIVE_TEXT]{5_description}[ENDCOLOR]</Text>
+				</Row>
+
+				<Row Tag="TXT_KEY_ERA_PRESET_AUTOCHANGE">
+					<Text>Show Era Preset Auto-Change Settings?</Text>
+				</Row>
+
+				<Row Tag="TXT_KEY_ERA_PRESET_AUTOCHANGE_TOOLTIP">
+					<Text>This setting allows the preset to change depending upon the era.[NEWLINE][COLOR_WARNING_TEXT]WARNING:[ENDCOLOR] This will only effect newly created units.</Text>
+				</Row>
+
+				<!-- Top Era Presets Labe-->
+					<Row Tag="TXT_KEY_ANCIENT_ERA_PRESET">
+						<Text>Ancient</Text>
+					</Row>
+
+					<Row Tag="TXT_KEY_CLASSICAL_ERA_PRESET">
+						<Text>Classical</Text>
+					</Row>
+
+					<Row Tag="TXT_KEY_MEDIEVAL_ERA_PRESET">
+						<Text>Medieval</Text>
+					</Row>
+
+					<Row Tag="TXT_KEY_RENAISSANCE_ERA_PRESET">
+						<Text>Renaissance</Text>
+					</Row>
+
+				<!-- Top Era Tooltips -->
+					<Row Tag="TXT_KEY_ANCIENT_ERA_PRESET_TOOLTIP">
+						<Text>This preset is auto-applied when the player enters [COLOR_RESEARCH_STORED]Ancient Era[ENDCOLOR]</Text>
+					</Row>
+
+					<Row Tag="TXT_KEY_CLASSICAL_ERA_PRESET_TOOLTIP">
+						<Text>This preset is auto-applied when the player enters [COLOR_RESEARCH_STORED]Classical Era[ENDCOLOR]</Text>
+					</Row>
+
+					<Row Tag="TXT_KEY_MEDIEVAL_ERA_PRESET_TOOLTIP">
+						<Text>This preset is auto-applied when the player enters [COLOR_RESEARCH_STORED]Medieval Era[ENDCOLOR]</Text>
+					</Row>
+
+					<Row Tag="TXT_KEY_RENAISSANCE_ERA_PRESET_TOOLTIP">
+						<Text>This preset is auto-applied when the player enters [COLOR_RESEARCH_STORED]Renaissance Era[ENDCOLOR]</Text>
+					</Row>
+
+				<!-- Bottom Era Presets Labe-->
+					<Row Tag="TXT_KEY_INDUSTRIAL_ERA_PRESET">
+						<Text>Industrial</Text>
+					</Row>
+
+					<Row Tag="TXT_KEY_MODERN_ERA_PRESET">
+						<Text>Modern</Text>
+					</Row>
+
+					<Row Tag="TXT_KEY_ATOMIC_ERA_PRESET">
+						<Text>Atomic</Text>
+					</Row>
+
+					<Row Tag="TXT_KEY_INFORMATION_ERA_PRESET">
+						<Text>Information</Text>
+					</Row>
+
+				<!-- Bottom Era Tooltips -->
+					<Row Tag="TXT_KEY_INDUSTRIAL_ERA_PRESET_TOOLTIP">
+						<Text>This preset is auto-applied when the player enters [COLOR_RESEARCH_STORED]Industrial Era[ENDCOLOR]</Text>
+					</Row>
+
+					<Row Tag="TXT_KEY_MODERN_ERA_PRESET_TOOLTIP">
+						<Text>This preset is auto-applied when the player enters [COLOR_RESEARCH_STORED]Modern Era[ENDCOLOR]</Text>
+					</Row>
+
+					<Row Tag="TXT_KEY_ATOMIC_ERA_PRESET_TOOLTIP">
+						<Text>This preset is auto-applied when the player enters [COLOR_RESEARCH_STORED]Atomic Era[ENDCOLOR]</Text>
+					</Row>
+
+					<Row Tag="TXT_KEY_INFORMATION_ERA_PRESET_TOOLTIP">
+						<Text>This preset is auto-applied when the player enters [COLOR_RESEARCH_STORED]Information Era[ENDCOLOR]</Text>
+					</Row>
+
+			<!-- Compatibility Preset Setting -->
+				<Row Tag="TXT_KEY_COMPATIBILITY_ERA_SETTING">
+					<Text>Compatibility Mode?</Text>
+				</Row>
+
+				<Row Tag="TXT_KEY_COMPATAIBILITY_ERA_SETTING_TOOLTIP">
+					<Text>This is forces only one preset to be always active, and turns-off the auto-change preset feature. [NEWLINE]Enable this if you are using a [COLOR_WARNING_TEXT]Total Conversion[ENDCOLOR] mod, or any mod that changes the [COLOR_YELLOW]Eras.xml[ENDCOLOR]</Text>
+				</Row>
+
+			<!-- City Check Range -->
+				<Row Tag="TXT_KEY_CITY_CHECKRANGE_SLIDER">
+					<Text>City Check Range</Text>
+				</Row>
+
+				<Row Tag="TXT_KEY_CITY_CHECKRANGE_SLIDER_TOOLTIP">
+					<Text>This value sets how far a unit checks for a city.</Text>
+				</Row>
+
+			<!-- Naming NonHuman Units -->
+				<Row Tag="TXT_KEY_NONHUMAN_NAMING_SETTING">
+					<Text>Name units not belonging to you?</Text>
+				</Row>
+
+				<Row Tag="TXT_KEY_NAME_NONHUMAN_UNITS_WARNING">
+					<Text>Units not belonging to you will also be named.[NEWLINE][COLOR_WARNING_TEXT]WARNING:[ENDCOLOR] Only enable this if you are also using my Add-On.[NEWLINE][COLOR_WARNING_TEXT]WARNING:[ENDCOLOR] These units will be named according to [COLOR_YELLOW]YOUR[ENDCOLOR] relevant settings.</Text>
+				</Row>		
+
+	</Language_en_US>
+  
+</GameData>

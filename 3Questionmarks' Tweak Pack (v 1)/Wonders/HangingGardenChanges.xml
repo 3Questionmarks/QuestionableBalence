@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2024 1:38:28 AM -->
+<GameData>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_HANGING_GARDEN_HELP" />
+		<Row Tag="TXT_KEY_WONDER_HANGING_GARDEN_HELP">
+			<Text>Provides a free Garden in the city in which it is built.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Monarchy[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

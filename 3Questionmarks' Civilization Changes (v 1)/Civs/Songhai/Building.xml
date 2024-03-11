@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/3/2024 12:33:26 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_MUD_PYRAMID_MOSQUE" />
+			<Set CultureRateModifier="10" />
+		</Update>
+	</Buildings>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_HELP"/>
+		<Row Tag="TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_HELP">
+			<Text>+10% [ICON_CULTURE] Culture. Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

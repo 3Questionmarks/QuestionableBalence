@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/9/2024 1:42:33 AM -->
+<GameData>
+	<!-- -1 food from Ocean Tiles -->
+	<Terrain_Yields>
+		<Delete TerrainType="TERRAIN_OCEAN" YieldType="YIELD_FOOD"/>
+	</Terrain_Yields>
+
+	<!-- Offshore Platforms no longer yield Food-->
+	<Improvement_ResourceType_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-2</Yield>
+		</Row>
+	</Improvement_ResourceType_Yields>
+	<!-- +2 gold to Offshore Platforms with Robotics -->
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<TechType>TECH_ROBOTICS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+  
+</GameData>

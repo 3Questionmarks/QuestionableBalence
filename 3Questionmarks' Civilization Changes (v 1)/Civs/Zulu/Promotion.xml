@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 1:12:52 PM -->
+<GameData>
+	<UnitPromotions_UnitCombatMods>
+		<Update>
+			<Where PromotionType="PROMOTION_ANTI_GUNPOWDER"/>
+			<Set Modifier="50"/>
+		</Update>
+	</UnitPromotions_UnitCombatMods>
+	<UnitPromotions>
+		<Update>
+			<Set PromotionPrereqOr5="PROMOTION_BUFFALO_LOINS"/>
+			<Where Type="PROMOTION_MARCH"/>
+		</Update>
+		<Update>
+			<Set PromotionPrereqOr3="PROMOTION_BUFFALO_LOINS"/>
+			<Where Type="PROMOTION_BLITZ"/>
+		</Update>
+		<Update>
+			<Set PromotionPrereqOr5="PROMOTION_BUFFALO_CHEST"/>
+			<Where Type="PROMOTION_SIEGE"/>
+		</Update>
+		<Update>
+			<Set PromotionPrereqOr5="PROMOTION_BUFFALO_HORNS"/>
+			<Where Type="PROMOTION_COVER_1"/>
+		</Update>
+		<Update>
+			<Set PromotionPrereqOr5="PROMOTION_BUFFALO_HORNS"/>
+			<Where Type="PROMOTION_MEDIC"/>
+		</Update>
+	</UnitPromotions>
+</GameData>

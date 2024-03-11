@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+	<Beliefs>
+		<Update>
+			<Set GoldPerFollowingCity="3" />
+			<Where Type="BELIEF_CHURCH_PROPERTY" />
+		</Update>
+	</Beliefs>
+
+	<!--Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_CHURCH_PROPERTY</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>8</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges-->
+    
+    <Belief_MaxYieldModifierPerFollower>
+		<Row>
+			<BeliefType>BELIEF_CHURCH_PROPERTY</BeliefType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Max>20</Max>
+		</Row>
+	</Belief_MaxYieldModifierPerFollower>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY" />
+		<Row Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY">
+			<Text>+1% [ICON_GOLD] Gold for each follower (max +20%). +3 Gold Per City Following this Religion.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

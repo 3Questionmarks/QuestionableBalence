@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--ITALY-->
+		<Row Tag="TXT_KEY_CIV_JFD_ITALY_V_E_III_DESC">
+			<Text>Italian Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_ITALY_V_E_III_SHORT_DESC">
+			<Text>Italy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_ITALY_V_E_III_ADJECTIVE">
+			<Text>Italian</Text>
+		</Row>
+		<Replace Tag="TXT_KEY_JFD_TAL_ITALIAN_STATES">
+			<Text>Italy</Text>
+		</Replace>
+		<Row Tag="TXT_KEY_CIV5_JFD_ITALY_V_E_III_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_ITALY_V_E_III_TEXT_1">
+			<Text>The Kingdom of Italy was a state founded in 1861 when King Victor Emmanuel II of Sardinia was proclaimed King of Italy. The state was founded as a result of the unification of Italy under the influence of the Kingdom of Sardinia, which was its legal predecessor state. It existed until 1946 when the Italians opted for a republican constitution.[NEWLINE][NEWLINE]Italy declared war on Austria in alliance with Prussia in 1866: despite an unsuccessful campaign, it received the region of Veneto following Bismarck's victory. Italian troops entered Rome in 1870, ending more than one thousand years of Papal temporal power. Italy accepted Bismarck's proposal to enter in a Triple Alliance with Germany and Austria-Hungary in 1882, following strong disagreements with France about the respective colonial expansions. However, even if relations with Berlin became very friendly, the alliance with Vienna remained purely formal, as the Italian lands of Trentino and Trieste were still under Austro-Hungarian rule. So, in 1915, Italy accepted the British invitation to join the Allies in World War I because the western allies promised territorial compensation (at the expense of Austria-Hungary) for participation that were more generous than Vienna's offer in exchange for Italian neutrality. Victory in the war gave Italy a permanent seat in the Council of the League of Nations.[NEWLINE][NEWLINE]"Fascist Italy" is the era of National Fascist Party rule from 1922 to 1943 with Benito Mussolini as totalitarian leader. The fascists imposed totalitarian rule and crushed the political and intellectual opposition, while promoting economic modernization, traditional social values, and a rapprochement with the Catholic Church. "The Fascist regime passed through several relatively distinct phases," says Payne (1996). The first phase 1923–25 was nominally a continuation of the parliamentary system, albeit with a "legally organized executive dictatorship." Then came the second phase, "the construction of the Fascist dictatorship proper from 1925 to 1929." The third phase, with less activism, was 1929–34. The fourth phase, 1935–40, was characterized by an aggressive foreign policy, warfare in Ethiopia, which was launched from Italian Somaliland and Eritrea, confrontations with the League of Nations sanctions, growing economic autarchy, and semi-Nazification. The war itself (1940–43) was the fifth phase with its disasters and defeats, while the rump Salo regime under German control was the final stage (1943–45).[NEWLINE][NEWLINE]Italy was allied with Nazi Germany in World War II until 1943. It switched sides to the Allies after ousting Mussolini and shutting down the Fascist party in areas (south of Rome) controlled by the Allied invaders. The remnant fascist state in northern Italy that continued fighting against the Allies was a puppet state of Nazi Germany, the "Italian Social Republic", still led by Mussolini and his loyalist Fascists. Shortly after the war, civil discontent led to the Italian constitutional referendum, 1946 on whether Italy would remain a monarchy or become a republic. Italians decided to abandon the monarchy and form the Italian Republic, which is the present form of Italy today.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_1">
+			<Text>Rome</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_2">
+			<Text>Naples</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_3">
+			<Text>Milan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_4">
+			<Text>Turin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_5">
+			<Text>Palermo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_6">
+			<Text>Modena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_7">
+			<Text>Venice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_8">
+			<Text>Brescia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_9">
+			<Text>Genoa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_10">
+			<Text>Vicenza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_11">
+			<Text>Florence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_12">
+			<Text>Prato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_13">
+			<Text>Bologna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_14">
+			<Text>Bari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_15">
+			<Text>Catania</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_16">
+			<Text>Verona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_17">
+			<Text>Parma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_18">
+			<Text>Livorno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_19">
+			<Text>Cagliari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_20">
+			<Text>Foggia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_21">
+			<Text>Salerno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_22">
+			<Text>Forli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_23">
+			<Text>Pisa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_24">
+			<Text>Asti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_25">
+			<Text>Messina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_26">
+			<Text>Trieste</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_27">
+			<Text>Padua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_28">
+			<Text>Siracusa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_29">
+			<Text>Ferrara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_30">
+			<Text>Novara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_31">
+			<Text>Rimini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_32">
+			<Text>Taranto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_33">
+			<Text>Perugia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_34">
+			<Text>Latina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_35">
+			<Text>Bergamo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_36">
+			<Text>Pescara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_37">
+			<Text>Monza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_38">
+			<Text>Sassari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_39">
+			<Text>Terni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_ITALY_V_E_III_40">
+			<Text>Vittoria</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_ITALY_V_E_III_9">
+			<Text>Segretissimo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_ITALY_V_E_III_8">
+			<Text>Duccio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_ITALY_V_E_III_7">
+			<Text>Dominecco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_ITALY_V_E_III_6">
+			<Text>Bruno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_ITALY_V_E_III_5">
+			<Text>Arnoldo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_ITALY_V_E_III_4">
+			<Text>Jimmy the Snitch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_ITALY_V_E_III_3">
+			<Text>Cesare Beccaria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_ITALY_V_E_III_2">
+			<Text>Vernay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_ITALY_V_E_III_1">
+			<Text>Amleto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_ITALY_V_E_III_0">
+			<Text>Vittorio</Text>
+		</Row>
+		<!--VICTOR EMMANUEL III-->
+		<Row Tag="TXT_KEY_LEADER_JFD_V_E_III">
+			<Text>Victor Emmanuel III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_V_E_III_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_V_E_III_TEXT_1">
+			<Text>Victor Emmanuel III (Italian: Vittorio Emanuele III, Albanian: Viktor Emanueli III; 11 November 1869 – 28 December 1947) was the King of Italy from 29 July 1900 until his abdication on 9 May 1946. In addition, he claimed the thrones of Ethiopia and Albania as Emperor of Ethiopia (1936–41) and King of the Albanians (1939–43), which were not recognised by all great powers. During his long reign (45 years), which began after the assassination of his father Umberto I, the Kingdom of Italy became involved in two World Wars. His reign also encompassed the birth, rise, and fall of Italian Fascism.[NEWLINE][NEWLINE]Victor Emmanuel abdicated his throne in 1946 to his son Umberto II, hoping to strengthen the support for the monarchy against an ultimately successful referendum to abolish it. He then went in exile to Alexandria, Egypt, where he died and was buried the following year.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_V_E_III_HEADING_2">
+			<Text>World War One</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_V_E_III_TEXT_2">
+			<Text>When World War I began, Italy remained neutral at first, despite being part of the Triple Alliance (albeit it was signed on defensive terms and Italy objected that the Sarajevo assassination did not qualify as aggression). However, in 1915, Italy signed several secret treaties committing to enter the war on the side of the Triple Entente. Most of the politicians opposed war, however, and the Italian Chamber of Deputies forced Prime Minister Antonio Salandra to resign. Victor Emmanuel, however, declined Salandra's resignation and personally made the decision for Italy to enter the war. He was well within his rights to do so under the Statuto. Popular demonstrations in favor of the war were staged in Rome, with 200,000 gathered on 16 May 1915, in the Piazza del Popolo. However, the corrupt and disorganised war effort, the stunning loss of life suffered by the Italian army, especially at the great defeat of Caporetto, and the Post–World War I recession that followed the war turned the King against what he perceived as an inefficient political bourgeoisie. Nevertheless, the King visited the various areas of northern Italy suffering repeated strikes and mortar hits from elements of the fighting there, where he demonstrated considerable courage and care in personally visiting many people, with his wife the queen taking turns with nurses in caring for Italy's wounded. It was at this time, the period of World War I, that the King enjoyed genuine affection from the majority of his people. During the war he received about 400 threatening letters from people of every social background, mostly working class.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_V_E_III_HEADING_3">
+			<Text>Rise of Mussolini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_V_E_III_TEXT_3">
+			<Text>The economic depression which followed World War I gave rise to much extremism among the sorely tired working classes of Italy. This caused the country as a whole to become politically unstable. Benito Mussolini, soon to be Italy's Fascist dictator, took advantage of this instability for his rise to power.[NEWLINE][NEWLINE]In 1922, Mussolini led a force of his Fascist supporters on a March on Rome. Prime Minister Luigi Facta and his cabinet drafted a decree of martial law. After some hesitation the King refused to sign it, citing doubts about the ability of the Regio Esercito (the Royal Army) to contain the uprising.[NEWLINE][NEWLINE]Fascist violence had been growing in intensity throughout the summer and autumn of 1922, climaxing with the rumours of a possible coup. General Pietro Badoglio told the King that the military would be able to rout the rebels, who numbered no more than 10,000 men, without any difficulty.[NEWLINE][NEWLINE]The troops were loyal to the King. Even Cesare Maria De Vecchi, commander of the Blackshirts, and one of the organisers of the March on Rome, told Mussolini that he would not act against the wishes of the monarch. It was at this point that the Fascist leader considered leaving Italy altogether. But then, in the minute before midnight, he received a telegram from the King inviting him to Rome. By midday on 30 October, he had been appointed President of the Council of Ministers (Prime Minister), at the age of 39, with no previous experience of office, and with only 35 Fascist deputies in the Chamber.[NEWLINE][NEWLINE]The King failed to move against the Mussolini regime's abuses of power (including, as early as 1924, the assassination of Giacomo Matteotti and other opposition MPs) and remained silent during the winter of 1925–26 when Mussolini dropped all pretense of democracy. Later that year, Mussolini passed a law declaring that he was responsible to the King, not Parliament. Although under the Statuto Albertino Italian governments were responsible only to the monarch, it had been a strong constitutional convention since at least the 1860s that they were actually responsible to Parliament. By 1928, practically the only check on Mussolini's power was the King's right to dismiss him from office—though that right could only be exercised on the advice of the Fascist Grand Council, a body that could only be convened by Mussolini.[NEWLINE][NEWLINE]Though the King claimed in his memoirs that it was the fear of a civil war that motivated his actions, it would seem that he received some 'alternative' advice, possibly from the archconservative Antonio Salandra as well as General Armando Diaz, that it would be better to do a deal with Mussolini.[NEWLINE][NEWLINE]Whatever the circumstances, Victor Emmanuel showed weakness in a position of strength, with dire future consequences for Italy and for the monarchy itself. Fascism offered opposition to left-wing radicalism. This appealed to many people in Italy at the time, and certainly to the King. In many ways, the events from 1922 to 1943 demonstrated that the monarchy and the moneyed class, for different reasons, felt Mussolini and his regime offered an option that, after years of political chaos, was more appealing than what they perceived as the alternative: socialism and anarchism. Both the spectre of the Russian Revolution and the tragedies of World War I played large roles in these political decisions. At the same time, though, the Crown became so closely identified with Fascism that by the time Victor Emmanuel was able to shake himself loose from it, it was too late to save the monarchy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_V_E_III_HEADING_4">
+			<Text>Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_V_E_III_TEXT_4">
+			<Text>At worst, his abdication prior to the referendum reminded undecided voters of the role the monarchy and the King's own actions (or inactions) had played during the Fascist period, at precisely the moment when monarchists were hoping that voters would focus on the positive impression created by Umberto and his wife, Princess Maria José over the past two years. The 'May' King and Queen, Umberto and Maria José, in Umberto's brief, month-long reign, were unable to shift the burden of recent history and opinion.[NEWLINE][NEWLINE]Victor Emmanuel was one of the most prolific coin collectors of all time, having amassed approximately 100,000 specimens dating from the fall of the Roman Empire up to the Italian Unification. His collection was donated to the Italian people on his abdication, except for the coins of the House of Savoy which he took with him to Egypt. On the death of Umberto II in 1983, the Savoy coins joined the rest of the collection in the National Museum of Rome. Between 1910 and 1943 Victor Emmanuel wrote the 20-volume Corpus Nummorum Italicorum, which catalogued each specimen in his collection.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_V_E_III_NAME">
+			<Text>Victor Emmanuel III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_V_E_III_SUBTITLE">
+			<Text>Leader of Italy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_V_E_III_TITLES_1">
+			<Text>King of Italy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_V_E_III_LIVED">
+			<Text>1869 - 1947 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_ITALY_V_E_III_TEXT">
+			<Text>Grim days await you, Victor Emmanuel III, King of Italy. Coming to the throne upon the assassination of your father, Italy would soon be plunged into the calamity of the First World War. Heeding to the popular will, you rallied the Italian forces against the forward march of Vienna, taking to the front with your queen to dispense both moral and medical support. But though victorious, Italy's losses would be too great, and the road would for paved for the country's next great threat: Benito Mussolini and his fascism.[NEWLINE][NEWLINE]Tireless monarch, the frontlines of Italy once more lay bare and unprotected. Can you rally both soldier and ship to the defense of her borders? Can you, by both land and sea, ensure that Italy remains unassailable? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--MARCH OF ORDINANCE-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_ITALY_V_E_III_SHORT">
+			<Text>March of Ordinance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_ITALY_V_E_III">
+			<Text>All units heal 10 HP and produce [ICON_CULTURE] Culture when an enemy unit is defeated within your borders. Coastal Cities have +100% [ICON_PRODUCTION] Military Unit Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ITALY_V_E_III">
+			<Text>JFD: Italy (VE III)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_ITALY_V_E_III_HELP">
+			<Text>+20% [ICON_PRODUCTION] Military Unit Production.</Text>
+		</Row>
+		<!--ALPINI-->
+		<Row Tag="TXT_KEY_UNIT_JFD_ALPINI">
+			<Text>Alpini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_ALPINI_HELP">
+			<Text>Unique Great War Infantry that can move quickly across rough terrain. Only Italy may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_ALPINI_HELP_CP">
+			<Text>Unique Great War Infantry that can move quickly across rough terrain and even across Mountains. Only Italy may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_ALPINI_STRATEGY">
+			<Text>This Great War Infantry replacement ignores terrain costs when moving. Use it to quickly reach a rugged frontline. It is available only to Victor Emmanuel III's Italy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_ALPINI_STRATEGY_CP">
+			<Text>This Great War Infantry replacement ignores terrain costs when moving and is even capable of crossing Mountains. Use it to quickly reach a rugged frontline. It is available only to Victor Emmanuel III's Italy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_ALPINI_TEXT">
+			<Text>The Alpini are an elite mountain warfare military corps of the Italian Army. Established in 1872, the Alpini are the oldest active mountain infantry in the world. Their original mission was to protect Italy's northern mountain border with France and Austria. In 1888 the Alpini deployed on their first mission abroad, in Africa, a continent where they returned on several occasions and during various wars of the Kingdom of Italy. They emerged during World War I as they fought a three-year campaign on the Alps against Austro-Hungarian Kaiserjäger and the German Alpenkorps in what has since become known as the "War in snow and ice". During World War II, the Alpini fought alongside the Axis forces, mainly across the Eastern Front and in the Balkans Campaigns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ALPINI">
+			<Text>Mountain Corps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ALPINI_HELP">
+			<Text>Ignores Terrain Cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ALPINI_HELP_CP">
+			<Text>Ignores Terrain Cost and Can Cross Mountains.</Text>
+		</Row>
+		<!--ANDREA DORIA-->
+		<Row Tag="TXT_KEY_UNIT_JFD_ANDREA_DORIA">
+			<Text>Andrea Doria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_ANDREA_DORIA_HELP">
+			<Text>Powerful ranged Naval Unit that fights better when within Friendly Territory. Enemy Naval Units beginning their turn within two tiles of this unit must expend 2 extra [ICON_MOVES] Moves per turn. Only Italy may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_ANDREA_DORIA_STRATEGY">
+			<Text>The Andrea Doria is the unique Battleship replacement for Victor Emmanuel III's Italy. It gains a +15% Combat Bonus when fighting within your own borders. It also causes all enemy Naval Units beginning within two tiles to expand two additional movement points each turn. Use this unit to prevent invasions by the sea.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_ANDREA_DORIA_TEXT">
+			<Text>The Andrea Doria Class was a pair of dreadnought battleships built for the Royal Italian Navy during the early 1910s. The two ships—Andrea Doria and Caio Duilio—were completed during World War I. The two ships spent World War I based in southern Italy to keep the Austro-Hungarian Navy bottled up in the Adriatic, but neither vessel saw any combat. After the war, they cruised the Mediterranean and were involved in several international incidents, including the Corfu Incident in 1923. Both ships were placed in reserve a decade later and began a lengthy reconstruction in 1937. The modifications included removing their center main battery turret and boring out the rest of the guns to 320 mm (12.6 in), strengthening their armor protection, installing new boilers and steam turbines, and lengthening their hulls. The reconstruction work lasted until 1940, by which time Italy was already engaged in World War II.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ANDREA_DORIA">
+			<Text>Regia Marina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ANDREA_DORIA_HELP">
+			<Text>Enemy Naval Units beginning their turn within 2 tiles of a unit with this promotion must expend 2 extra [ICON_MOVES] Moves per turn.</Text>
+		</Row
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ANDREA_DORIA_INFO">
+			<Text>Regia Marina</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ANDREA_DORIA_INFO_HELP">
+			<Text>Naval Units beginning their turn within 2 tiles of an enemy [COLOR_WARNING_TEXT]Andrea Doria Unit[ENDCOLOR] must expend 2 extra [ICON_MOVES] Moves per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ANDREA_DORIA_FRIENDLY_LANDS">
+			<Text>Bonus in Friendly Territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_ANDREA_DORIA_FRIENDLY_LANDS_HELP">
+			<Text>Combat Bonus inside Friendly Territory (15).</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

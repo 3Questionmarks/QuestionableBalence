@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/22/2014 5:21:31 PM -->
+<GameData>
+	<!-- Building Classes -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_ALCHEMIST</Type>
+			<DefaultBuilding>BUILDING_ALCHEMIST</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ALCHEMIST</Description>
+		</Row>
+	</BuildingClasses>
+	<!-- Buildings -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_ALCHEMIST</Type>
+			<BuildingClass>BUILDINGCLASS_ALCHEMIST</BuildingClass>
+			<Cost>160</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_PHYSICS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_ALCHEMIST</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ALCHEMIST_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_ALCHEMIST_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>MED-REN_ICONATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+            <SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+		</Row>
+	</Buildings>
+	<!-- You can specify that a building require EITHER resource 1 OR resource 2 (for instance, either Sheep or Cow) -->
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_ALCHEMIST</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALCHEMIST</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALCHEMIST</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<!-- Resource Yield Changes -->
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_ALCHEMIST</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALCHEMIST</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALCHEMIST</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_ALCHEMIST</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALCHEMIST</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<!-- Description Tags-->
+		<Row Tag="TXT_KEY_BUILDING_ALCHEMIST">
+			<Text>Alchemist</Text>
+		</Row>
+		<!-- Help Tags-->
+		<Row Tag="TXT_KEY_BUILDING_ALCHEMIST_HELP">
+			<Text>+2 [ICON_RESEARCH] Science from [ICON_RES_GOLD] Gold, [ICON_RES_SILVER] Silver, and [ICON_RES_GEMS] Gems.[NEWLINE][NEWLINE]Requires a source of one of those resources.</Text>
+		</Row>
+		<!-- Pedia Tags-->
+		<Row Tag="TXT_KEY_BUILDING_ALCHEMIST_PEDIA">
+			<Text>Alchemy is an influential philosophical tradition whose practitioners have, from antiquity, claimed it to be the precursor to profound powers. The defining objectives of alchemy are varied, but historically have typically included one or more of the following goals: the creation of the fabled philosopher's stone; the ability to transform base metals into the noble metals (gold or silver); and development of an elixir of life, which would confer youth and longevity.[NEWLINE][NEWLINE]Alchemy differs significantly from modern science in its inclusion of Hermetic principles and practices related to mythology, magic, religion, and spirituality. It is recognized as a protoscience that contributed to the development of modern chemistry and medicine. Alchemists developed a structure of basic laboratory techniques, theory, terminology, and experimental method, some of which are still in use today.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

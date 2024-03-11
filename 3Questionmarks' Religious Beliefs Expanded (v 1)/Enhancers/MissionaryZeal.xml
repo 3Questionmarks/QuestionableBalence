@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/3/2020 4:49:33 PM -->
+<GameData>
+	<Beliefs>
+		<Update>
+			<Set MissionaryStrengthModifier="25" MissionaryCostModifier="-25" ProphetStrengthModifier="25" ProphetCostModifier="-25"  />
+			<Where Type="BELIEF_MISSIONARY_ZEAL" />
+		</Update>
+	</Beliefs>
+
+	<Language_en_US>
+        <Update>
+			<Where Tag="TXT_KEY_BELIEF_MISSIONARY_ZEAL" />
+			<Set Text="[ICON_MISSIONARY] Missonaries and [ICON_PROPHET] Prophets cost 25% less [ICON_PEACE] Faith and have +25% Strength." />
+		</Update>
+	</Language_en_US>
+</GameData>

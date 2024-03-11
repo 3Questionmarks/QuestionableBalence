@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2024 10:18:35 PM -->
+<GameData>
+	<!-- Yields from moutains dummy building -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_INCAMOUNTAIN</Type>
+			<DefaultBuilding>BUILDING_INCAMOUNTAIN</DefaultBuilding>
+			<Description>Inca Production, Culture and Food From Mountains</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_INCAMOUNTAIN</Type>
+			<BuildingClass>BUILDINGCLASS_INCAMOUNTAIN</BuildingClass>
+			<Cost>-1</Cost>
+			<PrereqTech>null</PrereqTech>
+			<Help>+2 [ICON_PRODUCTION] Production, [ICON_CULTURE] Culture and [ICON_FOOD] Food from Mountains</Help>
+			<Description>Inca Production, Culture and Food From Mountains</Description>
+			<Civilopedia>Inca Production, Culture and Food From Mountains</Civilopedia>
+			<Strategy>Inca Production, Culture and Food From Mountains</Strategy>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>1</NeverCapture>
+			<IconAtlas>CIV_COLOR_ATLAS_BHUTAN</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_INCAMOUNTAIN</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INCAMOUNTAIN</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INCAMOUNTAIN</BuildingType>
+			<FeatureType>FEATURE_MOUNTAIN_YIELD</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+
+	<Traits>
+		<Update>
+			<Set FreeBuilding="BUILDING_INCAMOUNTAIN" FreeBuildingOnConquest="BUILDING_INCAMOUNTAIN" />
+			<Where Type="TRAIT_GREAT_ANDEAN_ROAD" />
+		</Update>
+	</Traits>
+	
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_GREAT_ANDEAN_ROAD"/>
+			<Set Text="Units ignore terrain cost when moving into any Hills tile. No [ICON_GOLD] maintenance cost for improvements in Hills; half cost elsewhere. +2 [ICON_PRODUCTION] Production, [ICON_CULTURE] Culture, and [ICON_FOOD] Food from mountains, and all units may cross Mountain tiles."/>
+		</Update>
+	</Language_en_US>
+
+  
+</GameData>

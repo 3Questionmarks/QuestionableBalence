@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- Great Prophets and Missionaries earned with 25% less Faith. -->
+	<Beliefs>
+		<Update>
+			<Set ProphetStrengthModifier="0" MissionaryCostModifier="0" ProphetCostModifier="-33" Enhancer="false" Founder="true" />
+			<Where Type="BELIEF_MESSIAH" />
+		</Update>
+	</Beliefs>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_MESSIAH" />
+		<Row Tag="TXT_KEY_BELIEF_MESSIAH">
+			<Text>[ICON_PROPHET] Great Prophets are earned with 33% less [ICON_PEACE] Faith.</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

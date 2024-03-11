@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2024 12:28:51 AM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set Cost="800" />
+			<Where Class ="UNITCLASS_ROCKET_ARTILLERY" />
+		</Update>
+	</Units>
+  
+</GameData>

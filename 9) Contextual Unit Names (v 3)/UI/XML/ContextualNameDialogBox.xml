@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/17/2015 8:24:50 PM -->
+
+<Context>
+	<Box Style="BGBlock_ClearTopBar"/>
+
+	<Grid Size="800,600" Anchor="C,C" Style="Grid9DetailFive140" ConsumeMouse="1">
+
+		<!-- LEADER POTRAIT -->
+		<Image Anchor="C,T" AnchorSide="I,O" Offset="0,-91" Size="256,128" Texture="DecTop256x64.dds">
+			<Image Anchor="C,T" Offset="0,-60" Size="128,128" Texture="Assets/UI/Art/Icons/LeaderPortraits1024Frame.dds">
+				<Image ID="ContextualLeaderPortrait" Anchor="C,C" Offset="0,0" Size="128,128" Texture="Assets/UI/Art/Icons/LeaderPortraits1024.dds"/>
+			</Image>
+		</Image>
+
+		<!-- Decorations -->
+		<Image Anchor="L,C" AnchorSide="O,I" Offset="-17,0" Size="32,64" Texture="Dec32x64Left.dds" />
+		<Image Anchor="R,C" AnchorSide="O,I" Offset="-17,0" Size="32,64" Texture="Dec32x64Right.dds" />
+
+		<!-- TITLE -->
+		<Label Anchor="C,T" Offset="0,15" Font="TwCenMT24" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_CONTEXTUAL_SETTINGS_TITLE"/>
+
+		<!-- Normal Panel -->
+		<Stack ID="CotextualNormalSettingsPanel" Anchor="C,T" Offset="0,30" StackGrowth="Bottom" Padding="10">
+
+			<!-- TOP PANEL -->
+			<Container ID="ContextualTopPanel" Offset="0,0" Size="795,260" Anchor="C,T">
+				
+				<!-- TOP LEFT STACK -->
+				<Stack Anchor="L,T" Offset="70, 40" StackGrowth="Bottom" Padding="20">
+
+					<!-- ENABLE / DISABLE BUTTON -->
+					<CheckBox ID="EnableButton" Offset="80,0" Style="SquareCheck" IsChecked="1" String="TXT_KEY_CONTEXTUAL_ENABLE_BUTTON" />
+
+					<!-- Presets -->
+					<Label ID="OverallPresetListLabel" Anchor="C,C" Font="TwCenMT24" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_CONTEXTUAL_PRESET_TITLE"/>
+
+					<PullDown ID="OverallPresetList" Anchor="C,C" Style="GenericPullDown" ScrollThreshold="170" Size="190,30" SpaceForScroll="1"/>
+
+					<Label ID="CustomPresetListLabel" Anchor="C,C" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_CONTEXTUAL_CUSTOM_PRESET_TITLE"/>
+
+					<!-- Presets -->
+					<PullDown ID="CustomPresetList" Anchor="C,C" Style="GenericPullDown" ScrollThreshold="170" Size="190,30" SpaceForScroll="1"/>
+
+				</Stack>	
+
+				<!-- POTRAIT -->
+				<Image ID="PortraitFrame" Anchor="C,T" Offset="0,20" Size="256,256" TextureOffset="0,0" Texture="256x256Frame.dds" >
+					<Image ID="Portrait" Anchor="C,C" Offset="0,0" Size="256,256" TextureOffset="0,0" />
+				</Image>
+
+				<!-- UNIT LIST OPTION -->
+				<Stack Anchor="R,T" Offset="70, 110" StackGrowth="Bottom" Padding="10">
+
+					<!-- UNIT LIST -->
+					<PullDown ID="UnitList" Style="GenericPullDown" ScrollThreshold="170" Size="190,30" SpaceForScroll="1"/>
+
+					<CheckBox ID="UnitListShowFutureUnits" Anchor="R,B" Offset="0,0" Style="SquareCheck" IsChecked="0" String="TXT_KEY_UNIT_LIST_SHOW_FUTURE_UNITS" />
+
+					<!-- <CheckBox ID="UnitListShowUniqueUnits" Style="SquareCheck" IsChecked="0" String="TXT_KEY_UNIT_LIST_SHOW_UNIQUE_UNITS" /> -->
+
+					<CheckBox ID="UnitListShowUntrainableUnits" Anchor="R,B" Offset="0,0" Style="SquareCheck" IsChecked="0" String="TXT_KEY_UNIT_LIST_SHOW_UNTRAINABLE_UNITS" />
+
+				</Stack>
+
+			</Container>
+
+			<!-- UNIT NAME -->
+			<Label ID="UnitNamePreview" Anchor="C,C" String="TXT_KEY_CONTEXTUAL_UNIT_NAME_DEFAULT" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" />
+
+			<!-- MAIN PANEL -->
+			<Container ID="ContextualMainPanel" Offset="0,10" Size="795,235" Anchor="C,C">
+				
+				<!-- ACTUAL SETTINGS -->
+				<Stack Anchor="C,B" Offset="75,75" StackGrowth="Bottom" Padding="10">
+
+					<!-- NAME UNIT NUMBER SETTING -->
+					<Container ID="UnitNumberSetting" Size="790,50" Anchor="C,T">
+
+						<PullDown ID="UnitNumberSettingPullDown" Anchor="L,C" Offset="0,0" Style="GenericPullDown" ScrollThreshold="170" Size="190,30" SpaceForScroll="1"/>
+						
+						<!-- ORDER SELECTING RADIO BUTTON -->
+						<Stack Anchor="C,C" StackGrowth="Right" Offset="-75,0" Padding="50">
+
+							<!-- FIRST -->
+							<RadioButton ID="FirstUnitNumber" RadioGroup="UnitNumber" IsChecked="0" Size="120,24" TextAnchor="R,C" String="TXT_KEY_CONTEXTUAL_ORDER_ONE" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+
+							<!-- SECOND -->
+							<RadioButton ID="SecondUnitNumber" RadioGroup="UnitNumber" IsChecked="0" Size="120,24" TextAnchor="R,C" String="TXT_KEY_CONTEXTUAL_ORDER_SECOND" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+
+							<!-- THIRD -->
+							<RadioButton ID="ThirdUnitNumber" RadioGroup="UnitNumber" IsChecked="0" Size="120,24" TextAnchor="R,C" String="TXT_KEY_CONTEXTUAL_ORDER_THIRD" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+
+						</Stack>
+
+					</Container>
+
+					<!-- NAME COMBAT CLASS SETTING -->
+					<Container ID="NameUnitCombatClassSetting" Size="790,50" Anchor="C,C">
+
+						<PullDown ID="UnitCombatClassSettingPullDown" Anchor="L,C" Offset="0,0" Style="GenericPullDown" ScrollThreshold="170" Size="190,30" SpaceForScroll="1"/>
+						
+						<!-- ORDER SELECTING RADIO BUTTON -->
+						<Stack Anchor="C,C" StackGrowth="Right" Offset="-75,0" Padding="50">
+
+							<!-- FIRST -->
+							<RadioButton ID="FirstUnitCombatClass" RadioGroup="UnitCombatClass" IsChecked="0" Size="120,24" TextAnchor="R,C" String="TXT_KEY_CONTEXTUAL_ORDER_ONE" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+
+							<!-- SECOND -->
+							<RadioButton ID="SecondUnitCombatClass" RadioGroup="UnitCombatClass" IsChecked="0" Size="120,24" TextAnchor="R,C" String="TXT_KEY_CONTEXTUAL_ORDER_SECOND" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+
+							<!-- THIRD -->
+							<RadioButton ID="ThirdUnitCombatClass" RadioGroup="UnitCombatClass" IsChecked="0" Size="120,24" TextAnchor="R,C" String="TXT_KEY_CONTEXTUAL_ORDER_THIRD" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+
+						</Stack>
+
+						<!-- First Connector -->
+						<PullDown ID="FirstConnectorPullDown" Anchor="R,C" Offset="150,-25" Style="GenericPullDown" ScrollThreshold="170" Size="175,30" SpaceForScroll="1"/>
+
+					</Container>
+
+					<!-- NAME CONTEXT SETTING -->
+					<Container ID="NameUnitContextSetting" Size="790,50" Anchor="C,B">
+
+						<PullDown ID="UnitContextSettingPullDown" Anchor="L,C" Offset="0,0" Style="GenericPullDown" ScrollThreshold="170" Size="190,30" SpaceForScroll="1"/>
+						
+						<!-- ORDER SELECTING RADIO BUTTON -->
+						<Stack Anchor="C,C" StackGrowth="Right" Offset="-75,0" Padding="50">
+
+							<!-- FIRST -->
+							<RadioButton ID="FirstUnitContext" RadioGroup="UnitContext" IsChecked="0" Size="120,24" TextAnchor="R,C" String="TXT_KEY_CONTEXTUAL_ORDER_ONE" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+
+							<!-- SECOND -->
+							<RadioButton ID="SecondUnitContext" RadioGroup="UnitContext" IsChecked="0" Size="120,24" TextAnchor="R,C" String="TXT_KEY_CONTEXTUAL_ORDER_SECOND" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+
+							<!-- THIRD -->
+							<RadioButton ID="ThirdUnitContext" RadioGroup="UnitContext" IsChecked="0" Size="120,24" TextAnchor="R,C" String="TXT_KEY_CONTEXTUAL_ORDER_THIRD" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+
+						</Stack>
+
+						<!-- Second Connector -->
+						<PullDown ID="SecondConnectorPullDown" Anchor="R,C" Offset="150,-25" Style="GenericPullDown" ScrollThreshold="170" Size="175,30" SpaceForScroll="1"/>
+
+
+					</Container>
+
+				</Stack>
+
+			</Container>
+
+			<!-- EXIT PANEL -->
+			<Container ID="ContextualExitPanel" Offset="0,-30" Size="795,90" Anchor="C,B">
+				
+				<!-- APPLY AND CLOSE BUTTON -->
+				<Stack ID="MainPanelButtons" Anchor="C,B" Offset="0, 90" StackGrowth="Right" Padding="100">
+					<GridButton ID="CloseButton" Size="140,30" Style="BaseButton" ToolTip="TXT_KEY_CONTEXTUAL_SETTINGS_CLOSE_TOOLTIP">
+						
+						<!-- LABEL -->
+						<Label Anchor="C,C" Offset="0,-2" String="TXT_KEY_CONTEXTUAL_SETTINGS_CLOSE" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha"/>
+
+						<!-- ANIMATIONS -->
+						<ShowOnMouseOver>
+							<AlphaAnim Anchor="L,C" AnchorSide="O,O" Size="16,32" TextureOffset="0,0" Texture="buttonsidesglow.dds" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+							<Image Anchor="L,C" AnchorSide="O,O" Size="8,16" TextureOffset="0,0" Texture="buttonsides.dds" />
+							<AlphaAnim Anchor="R,C" AnchorSide="O,O" Size="16,32" TextureOffset="16,0" Texture="buttonsidesglow.dds" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+							<Image Anchor="R,C" AnchorSide="O,O" Size="8,16" TextureOffset="8,0" Texture="buttonsides.dds" />
+						</ShowOnMouseOver>
+
+					</GridButton>
+
+					<GridButton ID="ApplyButton" Size="140,30" Style="BaseButton" ToolTip="TXT_KEY_CONTEXTUAL_SETTINGS_APPLY_TOOLTIP">
+
+						<!-- LABEL -->
+						<Label Anchor="C,C" Offset="0,-2" String="TXT_KEY_CONTEXTUAL_SETTINGS_APPLY" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha"/>
+
+						<!-- ANIMATIONS -->
+						<ShowOnMouseOver>
+							<AlphaAnim Anchor="L,C" AnchorSide="O,O" Size="16,32" TextureOffset="0,0" Texture="buttonsidesglow.dds" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+							<Image Anchor="L,C" AnchorSide="O,O" Size="8,16" TextureOffset="0,0" Texture="buttonsides.dds" />
+							<AlphaAnim Anchor="R,C" AnchorSide="O,O" Size="16,32" TextureOffset="16,0" Texture="buttonsidesglow.dds" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+							<Image Anchor="R,C" AnchorSide="O,O" Size="8,16" TextureOffset="8,0" Texture="buttonsides.dds" />
+						</ShowOnMouseOver>
+
+					</GridButton>					
+				</Stack>
+
+				<!-- Save and Cancel Button (Used when editing Custom Presets) -->
+				<Stack ID="CustomPresetButtons" Anchor="C,B" Offset="0, 90" StackGrowth="Right" Padding="100">
+					<GridButton ID="CancelButton" Size="140,30" Style="BaseButton" ToolTip="TXT_KEY_CONTEXTUAL_SETTINGS_CANCEL_TOOLTIP">
+						
+						<!-- LABEL -->
+						<Label Anchor="C,C" Offset="0,-2" String="TXT_KEY_CONTEXTUAL_SETTINGS_CANCEL" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha"/>
+
+						<!-- ANIMATIONS -->
+						<ShowOnMouseOver>
+							<AlphaAnim Anchor="L,C" AnchorSide="O,O" Size="16,32" TextureOffset="0,0" Texture="buttonsidesglow.dds" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+							<Image Anchor="L,C" AnchorSide="O,O" Size="8,16" TextureOffset="0,0" Texture="buttonsides.dds" />
+							<AlphaAnim Anchor="R,C" AnchorSide="O,O" Size="16,32" TextureOffset="16,0" Texture="buttonsidesglow.dds" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+							<Image Anchor="R,C" AnchorSide="O,O" Size="8,16" TextureOffset="8,0" Texture="buttonsides.dds" />
+						</ShowOnMouseOver>
+
+					</GridButton>
+
+					<GridButton ID="SaveButton" Size="140,30" Style="BaseButton" ToolTip="TXT_KEY_CONTEXTUAL_SETTINGS_SAVE_TOOLTIP">
+
+						<!-- LABEL -->
+						<Label Anchor="C,C" Offset="0,-2" String="TXT_KEY_CONTEXTUAL_SETTINGS_SAVE" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha"/>
+
+						<!-- ANIMATIONS -->
+						<ShowOnMouseOver>
+							<AlphaAnim Anchor="L,C" AnchorSide="O,O" Size="16,32" TextureOffset="0,0" Texture="buttonsidesglow.dds" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+							<Image Anchor="L,C" AnchorSide="O,O" Size="8,16" TextureOffset="0,0" Texture="buttonsides.dds" />
+							<AlphaAnim Anchor="R,C" AnchorSide="O,O" Size="16,32" TextureOffset="16,0" Texture="buttonsidesglow.dds" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+							<Image Anchor="R,C" AnchorSide="O,O" Size="8,16" TextureOffset="8,0" Texture="buttonsides.dds" />
+						</ShowOnMouseOver>
+
+					</GridButton>					
+				</Stack>
+
+				<TextButton ID="AdvancedSettingsButton" Size="120,30" Anchor="R,B" String="TXT_KEY_ADVANCED_SETTING_PANEL" Font="TwCenMT16" Offset="28,92" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" MouseOverStyle="SoftShadow" ToolTip="TXT_KEY_ADVANCED_SETTING_PANEL_TOOLTIP"/>
+
+			</Container>
+		</Stack>
+
+		<!-- Advanced Settings Panel -->
+		<Container ID="ContextualAdvancedSettingsPanel" Size="740,500" Anchor="C,T" Offset="0,30" >
+			<!-- Settings -->
+			<Stack Anchor="C,T" Offset="0,20" StackGrowth="Bottom" Padding="20">
+				<Container ID="CityCheckRangeSetting" Size="750,40" Offset="0,0">
+					<Label Anchor="L,C" Offset="20,0" Font="TwCenMT20" FontStyle="Shadow" String="TXT_KEY_CITY_CHECKRANGE_SLIDER" ToolTip="TXT_KEY_CITY_CHECKRANGE_SLIDER_TOOLTIP"/>
+					
+					<Slider ID="CityCheckRangeSlider" Style="Slider" Length="350" Anchor="C,C" Offset="0,0" />
+					
+					<Box Anchor="R,C" Offset="20,0" Size="40,22" Color="White,255">
+						<Box Anchor="C,C" Size="38,20" Color="Black,255" >
+							<EditBox ID="CityCheckRangeValue" EditMode="1" CallOnChar="1" Size="34,18" Anchor="C,C" Font="TwCenMT18" NumberInput="1" MaxLength="3" />
+						</Box>
+					</Box>
+				</Container>
+
+				<Container Anchor="C,C" ID="EraPresetSettings" Size="740, 80" Offset="10,0">
+					<Stack Padding="10" StackGrowth="Bottom">						
+						<!-- Top one -->
+						<Stack Anchor="C,T" Offset="0,0" StackGrowth="Right" Padding="10">
+							<!-- Ancient -->
+								<Stack StackGrowth="Bottom" Padding="10">
+									<Label Anchor="C,B" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" String="TXT_KEY_ANCIENT_ERA_PRESET" ToolTip="TXT_KEY_ANCIENT_ERA_PRESET_TOOLTIP"/>
+									<PullDown Anchor="C,T" ID="AncientEraPresetPulldown" Offset="0,0" Style="GenericPullDown" ScrollThreshold="170" Size="175,30" SpaceForScroll="1"/>
+								</Stack>
+
+							<!-- Classical -->
+								<Stack StackGrowth="Bottom" Padding="10">
+									<Label Anchor="C,B" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" String="TXT_KEY_CLASSICAL_ERA_PRESET" ToolTip="TXT_KEY_CLASSICAL_ERA_PRESET_TOOLTIP"/>
+									<PullDown Anchor="C,T" ID="ClassicalEraPresetPulldown" Offset="0,0" Style="GenericPullDown" ScrollThreshold="170" Size="175,30" SpaceForScroll="1"/>
+								</Stack>
+
+							<!-- Medieval -->
+								<Stack StackGrowth="Bottom" Padding="10">
+									<Label Anchor="C,B" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" String="TXT_KEY_MEDIEVAL_ERA_PRESET" ToolTip="TXT_KEY_MEDIEVAL_ERA_PRESET_TOOLTIP"/>
+									<PullDown Anchor="C,T" ID="MedievalEraPresetPulldown" Offset="0,0" Style="GenericPullDown" ScrollThreshold="170" Size="175,30" SpaceForScroll="1"/>
+								</Stack>
+
+							<!-- Renaissance -->
+								<Stack StackGrowth="Bottom" Padding="10">
+									<Label Anchor="C,B" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" String="TXT_KEY_RENAISSANCE_ERA_PRESET" ToolTip="TXT_KEY_RENAISSANCE_ERA_PRESET_TOOLTIP"/>
+									<PullDown Anchor="C,T" ID="RenaissanceEraPresetPulldown" Offset="0,0" Style="GenericPullDown" ScrollThreshold="170" Size="175,30" SpaceForScroll="1"/>
+								</Stack>
+						</Stack>
+
+						<!-- Bottom one -->
+						<Stack Anchor="C,C" Offset="0,0" StackGrowth="Right" Padding="10">
+							<!-- Industrial -->
+								<Stack StackGrowth="Bottom" Padding="10">
+									<Label Anchor="C,B" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" String="TXT_KEY_INDUSTRIAL_ERA_PRESET" ToolTip="TXT_KEY_INDUSTRIAL_ERA_PRESET_TOOLTIP"/>
+									<PullDown Anchor="C,T" ID="IndustrialEraPresetPulldown" Offset="0,0" Style="GenericPullDown" ScrollThreshold="170" Size="175,30" SpaceForScroll="1"/>
+								</Stack>
+
+							<!-- Modern -->
+								<Stack StackGrowth="Bottom" Padding="10">
+									<Label Anchor="C,B" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" String="TXT_KEY_MODERN_ERA_PRESET" ToolTip="TXT_KEY_MODERN_ERA_PRESET_TOOLTIP"/>
+									<PullDown Anchor="C,T" ID="ModernEraPresetPulldown" Offset="0,0" Style="GenericPullDown" ScrollThreshold="170" Size="175,30" SpaceForScroll="1"/>
+								</Stack>
+
+							<!-- Atomic -->
+								<Stack StackGrowth="Bottom" Padding="10">
+									<Label Anchor="C,B" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" String="TXT_KEY_ATOMIC_ERA_PRESET" ToolTip="TXT_KEY_ATOMIC_ERA_PRESET_TOOLTIP"/>
+									<PullDown Anchor="C,T" ID="AtomicEraPresetPulldown" Offset="0,0" Style="GenericPullDown" ScrollThreshold="170" Size="175,30" SpaceForScroll="1"/>
+								</Stack>
+
+							<!-- Information -->
+								<Stack StackGrowth="Bottom" Padding="10">
+									<Label Anchor="C,B" Offset="0,0" Font="TwCenMT18" FontStyle="Shadow" String="TXT_KEY_INFORMATION_ERA_PRESET" ToolTip="TXT_KEY_INFORMATION_ERA_PRESET_TOOLTIP"/>
+									<PullDown Anchor="C,T" ID="InformationEraPresetPulldown" Offset="0,0" Style="GenericPullDown" ScrollThreshold="170" Size="175,30" SpaceForScroll="1"/>
+								</Stack>
+						</Stack>
+					</Stack>
+				</Container>
+
+				<!-- Compatability / Non-human Settings Options -->
+					<Stack Anchor="L,C" Offset="150,30" StackGrowth="Right" Padding="10">
+						<CheckBox ID="CompatibilityPresetSetting" Anchor="C,C" Offset="0,0" Style="SquareCheck" IsChecked="0" String="TXT_KEY_COMPATIBILITY_ERA_SETTING" ToolTip="TXT_KEY_COMPATAIBILITY_ERA_SETTING_TOOLTIP"/>
+
+						<PullDown ID="CompatibilityPresetPulldown" Anchor="C,C" Offset="0,0" Style="GenericPullDown" ScrollThreshold="170" Size="175,30" SpaceForScroll="1"/>
+
+						<CheckBox ID="NonhumanNamingSetting" Anchor="C,C" Offset="200,0" Style="SquareCheck" IsChecked="0" String="TXT_KEY_NONHUMAN_NAMING_SETTING" ToolTip="TXT_KEY_NAME_NONHUMAN_UNITS_WARNING"/>
+					</Stack>
+			</Stack>
+
+			<!-- Exit -->
+			<!-- APPLY AND CLOSE BUTTON -->
+			<Stack Anchor="C,B" Offset="0, 0" StackGrowth="Right" Padding="100">
+				<GridButton ID="AdvancedCloseButton" Size="140,30" Style="BaseButton">
+					
+					<!-- LABEL -->
+					<Label Anchor="C,C" Offset="0,-2" String="TXT_KEY_CONTEXTUAL_SETTINGS_CLOSE" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha"/>
+
+					<!-- ANIMATIONS -->
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="L,C" AnchorSide="O,O" Size="16,32" TextureOffset="0,0" Texture="buttonsidesglow.dds" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+						<Image Anchor="L,C" AnchorSide="O,O" Size="8,16" TextureOffset="0,0" Texture="buttonsides.dds" />
+						<AlphaAnim Anchor="R,C" AnchorSide="O,O" Size="16,32" TextureOffset="16,0" Texture="buttonsidesglow.dds" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+						<Image Anchor="R,C" AnchorSide="O,O" Size="8,16" TextureOffset="8,0" Texture="buttonsides.dds" />
+					</ShowOnMouseOver>
+				</GridButton>
+
+				<!-- <GridButton ID="AdvancedApplyButton" Size="140,30" Style="BaseButton" ToolTip="TXT_KEY_CONTEXTUAL_SETTINGS_APPLY_TOOLTIP">
+
+					
+					<Label Anchor="C,C" Offset="0,-2" String="TXT_KEY_CONTEXTUAL_SETTINGS_APPLY" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black_Alpha"/>
+
+					
+					<ShowOnMouseOver>
+						<AlphaAnim Anchor="L,C" AnchorSide="O,O" Size="16,32" TextureOffset="0,0" Texture="buttonsidesglow.dds" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+						<Image Anchor="L,C" AnchorSide="O,O" Size="8,16" TextureOffset="0,0" Texture="buttonsides.dds" />
+						<AlphaAnim Anchor="R,C" AnchorSide="O,O" Size="16,32" TextureOffset="16,0" Texture="buttonsidesglow.dds" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25"/>
+						<Image Anchor="R,C" AnchorSide="O,O" Size="8,16" TextureOffset="8,0" Texture="buttonsides.dds" />
+					</ShowOnMouseOver>
+				</GridButton> -->
+			</Stack>
+		</Container>
+	</Grid>
+</Context>

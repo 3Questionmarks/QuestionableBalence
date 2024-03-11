@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+	
+	<!-- +1 Happiness per 2 Cities following this Religion, +1 Happiness from the Palace. -->
+
+	<Belief_BuildingClassHappiness>
+		<Row>
+			<BeliefType>BELIEF_CEREMONIAL_BURIAL</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<Happiness>12</Happiness>
+		</Row>
+	</Belief_BuildingClassHappiness>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_CEREMONIAL_BURIAL" />
+		<Row Tag="TXT_KEY_BELIEF_CEREMONIAL_BURIAL">
+			<Text>+1 [ICON_HAPPINESS_1] Global Happiness for every two cities following this [ICON_RELIGION] Religion, and +12 [ICON_HAPPINESS_1] Happiness in the [ICON_CAPITAL] Capital City.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/11/2017 12:15:28 AM -->
+<GameData>
+	
+	<!-- University  now provides +25% Science (down from +33%). Some Unique Uni's provide +30% -->
+	<Building_YieldModifiers>
+		<Update>
+			<Set Yield="25" />
+			<Where BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" />
+		</Update>
+        <Update>
+			<Set Yield="30" />
+			<Where BuildingType="BUILDING_TAR_BIMARISTAN" YieldType="YIELD_SCIENCE" />
+		</Update>
+        <Update>
+			<Set Yield="25" />
+			<Where BuildingType="BUILDING_JFD_COLLEGE" YieldType="YIELD_SCIENCE" />
+		</Update>
+        <Update>
+			<Set Yield="25" />
+			<Where BuildingType="BUILDING_MC_LITE_ALCAZAR" YieldType="YIELD_SCIENCE" />
+		</Update>
+        <Update>
+			<Set Yield="30" />
+			<Where BuildingType="BUILDING_3SKOLA" YieldType="YIELD_SCIENCE" />
+		</Update>
+        <Update>
+			<Set Yield="30" />
+			<Where BuildingType="BUILDING_3UC_SEOWON" YieldType="YIELD_SCIENCE" />
+		</Update>
+	</Building_YieldModifiers>    
+</GameData>

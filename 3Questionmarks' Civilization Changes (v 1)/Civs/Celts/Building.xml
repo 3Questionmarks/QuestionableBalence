@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 2:02:33 PM -->
+<GameData>
+	<Building_YieldChanges>
+		<Update>
+			<Set Yield="2" />
+			<Where BuildingType="BUILDING_CEILIDH_HALL" />
+		</Update>
+	</Building_YieldChanges>
+	<Buildings>
+		<Update>
+			<Set SpecialistCount="1" SpecialistType="SPECIALIST_MUSICIAN" />
+			<Where BuildingType="BUILDING_CEILIDH_HALL" />
+		</Update>
+	</Buildings>
+    <Building_FeatureYieldChanges>
+        <Row>
+			<BuildingType>BUILDING_CEILIDH_HALL</BuildingType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CEILIDH_HALL</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+    
+    <Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_CEILIDH_HALL_HELP"/>
+			<Set>
+				<Text>+1 [ICON_CULTURE] Culture from each worked Forest or Jungle tile.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+</GameData>

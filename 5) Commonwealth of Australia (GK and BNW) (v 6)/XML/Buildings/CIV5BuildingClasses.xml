@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/13/2013 7:55:38 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_WHARFDISTRICT</Type>
+			<DefaultBuilding>BUILDING_AUSTRALIA_WHARFDISTRICT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_WHARFDISTRICT</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_OUTPOST</Type>
+			<DefaultBuilding>BUILDING_AUSTRALIA_OUTPOST</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_OUTPOST</Description>
+		</Row>
+	</BuildingClasses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_WHARFDISTRICT">
+			<Text>Wharf District</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OUTPOST">
+			<Text>Desert Outpost</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

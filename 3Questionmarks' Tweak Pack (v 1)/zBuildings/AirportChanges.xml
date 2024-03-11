@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/1/2018 1:26:20 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_AIRPORT" />
+			<Set Cost="420" />
+		</Update>
+		<Update>
+			<Where Type="BUILDING_AIRPORT" />
+			<Set GoldMaintenance="5" />
+		</Update>
+	</Buildings>
+  <!-- Now also gives +15% Production towards Air Units. -->
+	
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AIRPORT</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_AIRPORT</BuildingType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AIRPORT</BuildingType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AIRPORT</BuildingType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_AIRPORT_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_AIRPORT_HELP">
+			<Text>Allows airlifts to or from this city. +15% [ICON_PRODUCTION] Production when building Air Units. 50% of the [ICON_CULTURE] Culture from World Wonders, Natural Wonders, and Improvements (Landmarks, Moai, Chateau) is added to the [ICON_TOURISM] Tourism output of the city. [ICON_TOURISM] Tourism output from Great Works +50%.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

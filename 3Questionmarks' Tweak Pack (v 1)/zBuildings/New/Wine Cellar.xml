@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/28/2014 5:00:22 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DJSH_WINE_CELLAR</Type>
+			<DefaultBuilding>BUILDING_DJSH_WINE_CELLAR</DefaultBuilding>
+			<Description>Wine Cellar</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DJSH_WINE_CELLAR</Type>
+			<BuildingClass>BUILDINGCLASS_DJSH_WINE_CELLAR</BuildingClass>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<Description>Wine Cellar</Description>
+			<Civilopedia>A wine cellar is a storage room for wine in bottles or barrels. An aboveground wine cellar is often called a wine room, while a small wine cellar (fewer than 500 bottles) is sometimes termed a wine closet. The household department responsible for the storage, care and service of wine in a great mediaeval house was termed the buttery. Large wine cellars date back over 3700 years.</Civilopedia>
+			<Strategy>The Wine Cellar can only be constructed in a city with an improved wine resource nearby. The Wine Cellar increases the [ICON_FOOD] Food and [ICON_CULTURE] Culture output of each such resource the city has access to.</Strategy>
+			<Help>Each source of [ICON_RES_WINE] Wine worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]City must have at least one [ICON_RES_WINE] Wine resource worked nearby.</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>RES_BUILDING_DJSH_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DJSH_WINE_CELLAR</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_WINE_CELLAR</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_DJSH_WINE_CELLAR</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DJSH_WINE_CELLAR</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_WINE_CELLAR</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+</GameData>

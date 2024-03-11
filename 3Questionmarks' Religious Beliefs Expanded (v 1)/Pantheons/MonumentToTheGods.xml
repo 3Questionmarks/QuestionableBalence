@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-24 14:15:24 -->
+<GameData>
+
+	<!-- +20% Production towards Wonders. -->
+	<Beliefs>
+		<Update>
+			<Set WonderProductionModifier="20" ObsoleteEra="ERA_POSTMODERN" />
+			<Where Type="BELIEF_MONUMENT_GODS" />
+		</Update>
+	</Beliefs>
+    
+    <Belief_BuildingClassYieldChanges>
+        <!-- Faith -->
+		<!-- Circus Maximus -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS_MAXIMUS</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- East India Company -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Grand Temple -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Hermitage -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_HERMITAGE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Heroic Epic -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Ironworks -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_IRONWORKS</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- National College -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_COLLEGE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- National Epic -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- National Intelligence Agency -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- National Visitor Center -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TOURIST_CENTER</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Oxford University -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_OXFORD_UNIVERSITY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- Silk Road -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_RA_SILK_ROAD</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- Fort Knox -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_RA_FORT_KNOX</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- Centre of Dissease control -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_RA_CDC</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- National Air Academy -->
+        <Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_FA_AIR_ACADEMY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- Central Bank -->
+        <Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_FA_CENTRAL_BANK</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- Central Station -->
+        <Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_FA_CENTRAL_STATION</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- Electric Company -->
+        <Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_FA_ELECTRIC_CO</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- National Military Academy -->
+        <Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_FA_WAR_ACADEMY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- National Naval Academy -->
+        <Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_FA_SEA_ACADEMY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- Culture -->
+		<!-- Circus Maximus -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS_MAXIMUS</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- East India Company -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Grand Temple -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Hermitage -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_HERMITAGE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Heroic Epic -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Ironworks -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_IRONWORKS</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- National College -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_COLLEGE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- National Epic -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- National Intelligence Agency -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- National Visitor Center -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TOURIST_CENTER</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<!-- Oxford University -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_OXFORD_UNIVERSITY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- Silk Road -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_RA_SILK_ROAD</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- Fort Knox -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_RA_FORT_KNOX</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- Centre of Dissease control -->
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_RA_CDC</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- National Air Academy -->
+        <Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_FA_AIR_ACADEMY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- Central Bank -->
+        <Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_FA_CENTRAL_BANK</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- Central Station -->
+        <Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_FA_CENTRAL_STATION</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- Electric Company -->
+        <Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_FA_ELECTRIC_CO</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- National Military Academy -->
+        <Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_FA_WAR_ACADEMY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <!-- National Naval Academy -->
+        <Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_FA_SEA_ACADEMY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+    
+    <Belief_YieldChangeWorldWonder>
+		<Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_MONUMENT_GODS</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Belief_YieldChangeWorldWonder>
+	
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_MONUMENT_GODS" />
+		<Row Tag="TXT_KEY_BELIEF_MONUMENT_GODS">
+			<Text>+20% [ICON_PRODUCTION] Production towards Wonders and +3 [ICON_CULTURE] Culture and +3 [ICON_PEACE] Faith from Wonders.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

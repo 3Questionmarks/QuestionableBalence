@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/29/2024 11:48:15 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_ASKIA_CAPITAL_FAITH_SCIENCE">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from [ICON_PEACE] Faith in the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_FA_ASKIA">
+			<Text>Landlocked cities receive a free Caravansary. Upon discovering Education, [ICON_PEACE] Faith produced in the [ICON_CAPITAL] Capital contributes to [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ASKIA_SCIENCE">
+			<Text>[COLOR_POSITIVE_TEXT]Education Report[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_FA_ASKIA_SHORT">
+			<Text>Tarik al-Sudan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ASKIA_SCIENCE_TEXT">
+			<Text>We are earning {1_Science} [ICON_RESEARCH] Science per turn from [ICON_PEACE] Faith in the Capital.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

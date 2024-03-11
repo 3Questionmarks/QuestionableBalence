@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/28/2024 4:55:19 PM -->
+<GameData>
+	<!-- Gabe Newell -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_GABE_NEWELL</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GABE_NEWELL">
+			<Text>Gabe Newell</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Phineas Barnum -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PHINEAS_BARNUM</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PHINEAS_BARNUM">
+			<Text>P. T. Barnum</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Bill Gates -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_MERCHANT</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_BILL_GATES</UniqueName>
+		</Row>
+	</Unit_UniqueNames>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BILL_GATES">
+			<Text>Bill Gates</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/11/2019 19:47:56 AM -->
+<GameData>
+
+	<!-- Workboat production cost reduced by 40% to 20 (from 33 on quick speed) and move to a new tech, fishing -->
+	<Units>
+		<Update>
+			<Set Cost="30" PrereqTech="TECH_FISHING" />
+			<Where Class="UNITCLASS_WORKBOAT" />
+		</Update>
+	</Units>
+	<Builds>
+		<Update>
+			<Where Type="BUILD_FISHING_BOATS"/>
+			<Set PrereqTech="TECH_FISHING"/>
+		</Update>
+	</Builds>
+	
+	<Language_en_US>
+		<!-- Work Boat-->
+		<Update>
+			<Where tag="TXT_KEY_WORKERS_WORKBOATS_HEADING2_BODY"/>
+			<Set Text="Work Boats are special worker units built in coastal cities. They can create fishing boat, offshore platform, and mining platform improvements in water. Unlike land workers, Work Boats are consumed when they create an improvement."/>
+		</Update>
+	</Language_en_US>
+	
+	
+</GameData>

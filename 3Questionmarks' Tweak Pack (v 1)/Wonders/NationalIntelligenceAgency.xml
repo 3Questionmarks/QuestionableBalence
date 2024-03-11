@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Fenris on 10/29/2016 10:30:38 PM -->
+<GameData>
+	<Buildings>
+        <Update>
+			<Set Happiness="4" />
+			<Where Type="BUILDING_INTELLIGENCE_AGENCY" />
+		</Update>
+	</Buildings>
+    <Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_INTELLIGENCE_AGENCY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+</GameData>

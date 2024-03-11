@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<CustomModOptions>
+		<Update>
+			<Where Name="RELIGION_NO_PREFERRENCES"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where Name="RELIGION_RANDOMISE"/>
+			<Set Value="1"/>
+		</Update>
+	</CustomModOptions>
+</GameData>

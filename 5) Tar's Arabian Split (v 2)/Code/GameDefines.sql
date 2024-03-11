@@ -1,0 +1,522 @@
+--____________________________________________________________________________________________________________________________________
+--Civilization Defines
+INSERT INTO Civilizations 	
+			(Type, 							DerivativeCiv,			 			Description, 						ShortDescription, 					 	 Adjective, 								Civilopedia, 							CivilopediaTag, 				DefaultPlayerColor,		  		IconAtlas,				AlphaIconAtlas, 				PortraitIndex,	SoundtrackTag, 	MapImage, 					DawnOfManQuote, 						DawnOfManImage,				ArtDefineTag, ArtStyleType, ArtStyleSuffix, ArtStylePrefix)
+SELECT		('CIVILIZATION_TAR_RASHIDUN'), 	('TXT_KEY_CIV_ARABIA_SHORT_DESC'), 	('TXT_KEY_CIV_TAR_RASHIDUN_DESC'), 	('TXT_KEY_CIV_TAR_RASHIDUN_SHORT_DESC'), ('TXT_KEY_CIV_TAR_RASHIDUN_ADJECTIVE'), 	('TXT_KEY_CIV5_TAR_RASHIDUN_TEXT_1'),	('TXT_KEY_CIV5_TAR_RASHIDUN'), 	('PLAYERCOLOR_TAR_RASHIDUN'), 	('TAR_ARABIA_ATLAS'), 	('TAR_ARABIA_ALPHA_ATLAS'), 	0, 				('ARABIA'),	 	('Tar_Rashidun_Map.dds'), 	('TXT_KEY_CIV5_DOM_TAR_RASHIDUN_TEXT'), ('Tar_Rashidun_DOM.dds'), 	ArtDefineTag, ArtStyleType, ArtStyleSuffix, ArtStylePrefix
+FROM Civilizations WHERE Type = 'CIVILIZATION_ARABIA';
+
+INSERT INTO Civilizations 	
+			(Type, 							DerivativeCiv,			 			Description, 						ShortDescription, 						Adjective, 								Civilopedia, 							CivilopediaTag, 				DefaultPlayerColor,		  		IconAtlas,				AlphaIconAtlas, 				PortraitIndex,	SoundtrackTag, 	MapImage, 					DawnOfManQuote, 						DawnOfManImage,				ArtDefineTag, ArtStyleType, ArtStyleSuffix, ArtStylePrefix)
+SELECT		('CIVILIZATION_TAR_UMAYYAD'), 	('TXT_KEY_CIV_ARABIA_SHORT_DESC'), 	('TXT_KEY_CIV_TAR_UMAYYAD_DESC'), 	('TXT_KEY_CIV_TAR_UMAYYAD_SHORT_DESC'), ('TXT_KEY_CIV_TAR_UMAYYAD_ADJECTIVE'), 	('TXT_KEY_CIV5_TAR_UMAYYAD_TEXT_1'),	('TXT_KEY_CIV5_TAR_UMAYYAD'), 	('PLAYERCOLOR_TAR_UMAYYAD'), 	('TAR_ARABIA_ATLAS'), 	('TAR_ARABIA_ALPHA_ATLAS'), 	1, 				('ARABIA'),	 	('Tar_Umayyad_Map.dds'), 	('TXT_KEY_CIV5_DOM_TAR_UMAYYAD_TEXT'), ('Tar_Umayyad_DOM.dds'), 	ArtDefineTag, ArtStyleType, ArtStyleSuffix, ArtStylePrefix
+FROM Civilizations WHERE Type = 'CIVILIZATION_ARABIA';
+
+INSERT INTO Civilizations 	
+			(Type, 							DerivativeCiv,			 			Description, 						ShortDescription, 					 	Adjective, 								Civilopedia, 							CivilopediaTag, 				DefaultPlayerColor,		  	 IconAtlas,				AlphaIconAtlas, 				PortraitIndex,	SoundtrackTag, 	MapImage, 					DawnOfManQuote,	DawnOfManAudio, DawnOfManImage,				ArtDefineTag, ArtStyleType, ArtStyleSuffix, ArtStylePrefix)
+SELECT		('CIVILIZATION_TAR_ABBASID'), 	('TXT_KEY_CIV_ARABIA_SHORT_DESC'), 	('TXT_KEY_CIV_TAR_ABBASID_DESC'), 	('TXT_KEY_CIV_TAR_ABBASID_SHORT_DESC'), ('TXT_KEY_CIV_TAR_ABBASID_ADJECTIVE'), 	('TXT_KEY_CIV5_TAR_ABBASID_TEXT_1'),	('TXT_KEY_CIV5_TAR_ABBASID'), 	('PLAYERCOLOR_TAR_ABBASID'), ('TAR_ARABIA_ATLAS'), 	('TAR_ARABIA_ALPHA_ATLAS'), 	2, 				('ARABIA'),	 	('Tar_Abbasid_Map.dds'), 	DawnOfManQuote,	DawnOfManAudio, ('Tar_Abbasid_DOM.dds'), 	ArtDefineTag, ArtStyleType, ArtStyleSuffix, ArtStylePrefix
+FROM Civilizations WHERE Type = 'CIVILIZATION_ARABIA';
+
+UPDATE Civilizations
+SET Playable = 'false', AIPlayable = 'false', CivilopediaTag = 'TXT_KEY_CIV5_TAR_ABBASID', Civilopedia = 'TXT_KEY_CIV5_TAR_ABBASID_TEXT_1'
+WHERE Type = 'CIVILIZATION_ARABIA';
+
+INSERT INTO Civilization_CityNames 
+			(CivilizationType, 					CityName)
+VALUES		('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_01'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_02'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_03'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_04'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_05'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_06'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_07'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_08'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_09'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_10'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_11'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_12'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_13'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_14'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_15'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_16'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_17'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_18'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_19'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_20'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_21'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_22'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_23'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_24'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_25'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_26'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_27'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_28'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_29'),
+			('CIVILIZATION_TAR_RASHIDUN', 		'TXT_KEY_CITY_NAME_TAR_RASHIDUN_30'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_01'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_02'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_03'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_04'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_05'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_06'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_07'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_08'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_09'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_10'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_11'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_12'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_13'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_14'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_15'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_16'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_17'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_18'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_19'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_20'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_21'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_22'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_23'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_24'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_25'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_26'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_27'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_28'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_29'),
+			('CIVILIZATION_TAR_UMAYYAD', 		'TXT_KEY_CITY_NAME_TAR_UMAYYAD_30'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_01'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_02'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_03'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_04'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_05'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_06'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_07'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_08'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_09'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_10'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_11'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_12'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_13'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_14'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_15'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_16'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_17'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_18'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_19'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_20'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_21'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_22'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_23'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_24'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_25'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_26'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_27'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_28'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_29'),
+			('CIVILIZATION_TAR_ABBASID', 		'TXT_KEY_CITY_NAME_TAR_ABBASID_30');
+
+INSERT INTO Civilization_FreeBuildingClasses 
+			(CivilizationType, 				BuildingClassType)
+VALUES		('CIVILIZATION_TAR_RASHIDUN', 	'BUILDINGCLASS_PALACE'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'BUILDINGCLASS_PALACE'),
+			('CIVILIZATION_TAR_ABBASID', 	'BUILDINGCLASS_PALACE');
+INSERT INTO Civilization_FreeTechs 
+			(CivilizationType, 			TechType)
+SELECT		('CIVILIZATION_TAR_RASHIDUN'), 	TechType
+FROM Civilization_FreeTechs WHERE CivilizationType = 'CIVILIZATION_ARABIA';
+INSERT INTO Civilization_FreeTechs 
+			(CivilizationType, 			TechType)
+SELECT		('CIVILIZATION_TAR_UMAYYAD'), 	TechType
+FROM Civilization_FreeTechs WHERE CivilizationType = 'CIVILIZATION_ARABIA';
+INSERT INTO Civilization_FreeTechs 
+			(CivilizationType, 			TechType)
+SELECT		('CIVILIZATION_TAR_ABBASID'), 	TechType
+FROM Civilization_FreeTechs WHERE CivilizationType = 'CIVILIZATION_ARABIA';
+INSERT INTO Civilization_FreeUnits 
+			(CivilizationType, 			UnitClassType, Count, UnitAIType)
+SELECT		('CIVILIZATION_TAR_RASHIDUN'), 	UnitClassType, Count, UnitAIType
+FROM Civilization_FreeUnits WHERE CivilizationType = 'CIVILIZATION_ARABIA';
+INSERT INTO Civilization_FreeUnits 
+			(CivilizationType, 			UnitClassType, Count, UnitAIType)
+SELECT		('CIVILIZATION_TAR_UMAYYAD'), 	UnitClassType, Count, UnitAIType
+FROM Civilization_FreeUnits WHERE CivilizationType = 'CIVILIZATION_ARABIA';
+INSERT INTO Civilization_FreeUnits 
+			(CivilizationType, 			UnitClassType, Count, UnitAIType)
+SELECT		('CIVILIZATION_TAR_ABBASID'), 	UnitClassType, Count, UnitAIType
+FROM Civilization_FreeUnits WHERE CivilizationType = 'CIVILIZATION_ARABIA';
+
+DELETE FROM Civilization_Leaders 				WHERE CivilizationType = 'CIVILIZATION_ARABIA';
+DELETE FROM Civilization_UnitClassOverrides 	WHERE CivilizationType = 'CIVILIZATION_ARABIA';
+DELETE FROM Civilization_BuildingClassOverrides WHERE CivilizationType = 'CIVILIZATION_ARABIA';
+
+INSERT INTO Civilization_Leaders 
+			(CivilizationType, 				LeaderheadType)
+VALUES		('CIVILIZATION_TAR_RASHIDUN', 	'LEADER_TAR_UMAR'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'LEADER_TAR_ABD_AL_MALIK'),
+			('CIVILIZATION_TAR_ABBASID', 	'LEADER_HARUN_AL_RASHID');
+
+INSERT INTO Civilization_UnitClassOverrides 
+			(CivilizationType, 				UnitClassType, 			UnitType)
+VALUES		('CIVILIZATION_TAR_RASHIDUN', 	'UNITCLASS_KNIGHT', 	'UNIT_ARABIAN_CAMELARCHER'),
+			('CIVILIZATION_TAR_RASHIDUN', 	'UNITCLASS_MISSIONARY', 'UNIT_TAR_ANSAR'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'UNITCLASS_PIKEMAN', 	'UNIT_TAR_YAMANI'),
+			('CIVILIZATION_TAR_ABBASID', 	'UNITCLASS_SCIENTIST', 	'UNIT_TAR_PHYSICIAN');
+
+INSERT INTO Civilization_BuildingClassOverrides 
+			(CivilizationType, 				BuildingClassType, 			BuildingType)
+VALUES		('CIVILIZATION_TAR_UMAYYAD', 	'BUILDINGCLASS_MARKET', 	'BUILDING_BAZAAR'),
+			('CIVILIZATION_TAR_ABBASID', 	'BUILDINGCLASS_UNIVERSITY',	'BUILDING_TAR_BIMARISTAN');
+
+INSERT INTO Civilization_Religions 
+			(CivilizationType, 				ReligionType)
+VALUES		('CIVILIZATION_TAR_RASHIDUN', 	'RELIGION_ISLAM'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'RELIGION_ISLAM'),
+			('CIVILIZATION_TAR_ABBASID', 	'RELIGION_ISLAM');
+
+INSERT INTO Civilization_SpyNames 
+			(CivilizationType, 				SpyName)
+VALUES		('CIVILIZATION_TAR_RASHIDUN', 	'TXT_KEY_SPY_NAME_TAR_RASHIDUN_0'),	
+			('CIVILIZATION_TAR_RASHIDUN', 	'TXT_KEY_SPY_NAME_TAR_RASHIDUN_1'),
+			('CIVILIZATION_TAR_RASHIDUN', 	'TXT_KEY_SPY_NAME_TAR_RASHIDUN_2'),
+			('CIVILIZATION_TAR_RASHIDUN', 	'TXT_KEY_SPY_NAME_TAR_RASHIDUN_3'),
+			('CIVILIZATION_TAR_RASHIDUN', 	'TXT_KEY_SPY_NAME_TAR_RASHIDUN_4'),
+			('CIVILIZATION_TAR_RASHIDUN', 	'TXT_KEY_SPY_NAME_TAR_RASHIDUN_5'),
+			('CIVILIZATION_TAR_RASHIDUN', 	'TXT_KEY_SPY_NAME_TAR_RASHIDUN_6'),
+			('CIVILIZATION_TAR_RASHIDUN', 	'TXT_KEY_SPY_NAME_TAR_RASHIDUN_7'),
+			('CIVILIZATION_TAR_RASHIDUN', 	'TXT_KEY_SPY_NAME_TAR_RASHIDUN_8'),
+			('CIVILIZATION_TAR_RASHIDUN', 	'TXT_KEY_SPY_NAME_TAR_RASHIDUN_9'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'TXT_KEY_SPY_NAME_TAR_UMAYYAD_0'),	
+			('CIVILIZATION_TAR_UMAYYAD', 	'TXT_KEY_SPY_NAME_TAR_UMAYYAD_1'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'TXT_KEY_SPY_NAME_TAR_UMAYYAD_2'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'TXT_KEY_SPY_NAME_TAR_UMAYYAD_3'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'TXT_KEY_SPY_NAME_TAR_UMAYYAD_4'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'TXT_KEY_SPY_NAME_TAR_UMAYYAD_5'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'TXT_KEY_SPY_NAME_TAR_UMAYYAD_6'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'TXT_KEY_SPY_NAME_TAR_UMAYYAD_7'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'TXT_KEY_SPY_NAME_TAR_UMAYYAD_8'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'TXT_KEY_SPY_NAME_TAR_UMAYYAD_9'),
+			('CIVILIZATION_TAR_ABBASID', 	'TXT_KEY_SPY_NAME_TAR_ABBASID_0'),	
+			('CIVILIZATION_TAR_ABBASID', 	'TXT_KEY_SPY_NAME_TAR_ABBASID_1'),
+			('CIVILIZATION_TAR_ABBASID', 	'TXT_KEY_SPY_NAME_TAR_ABBASID_2'),
+			('CIVILIZATION_TAR_ABBASID', 	'TXT_KEY_SPY_NAME_TAR_ABBASID_3'),
+			('CIVILIZATION_TAR_ABBASID', 	'TXT_KEY_SPY_NAME_TAR_ABBASID_4'),
+			('CIVILIZATION_TAR_ABBASID', 	'TXT_KEY_SPY_NAME_TAR_ABBASID_5'),
+			('CIVILIZATION_TAR_ABBASID', 	'TXT_KEY_SPY_NAME_TAR_ABBASID_6'),
+			('CIVILIZATION_TAR_ABBASID', 	'TXT_KEY_SPY_NAME_TAR_ABBASID_7'),
+			('CIVILIZATION_TAR_ABBASID', 	'TXT_KEY_SPY_NAME_TAR_ABBASID_8'),
+			('CIVILIZATION_TAR_ABBASID', 	'TXT_KEY_SPY_NAME_TAR_ABBASID_9');
+
+INSERT INTO Civilization_Start_Region_Priority 
+			(CivilizationType, 				RegionType)
+VALUES		('CIVILIZATION_TAR_RASHIDUN', 	'REGION_DESERT'),
+			('CIVILIZATION_TAR_UMAYYAD', 	'REGION_DESERT'),
+			('CIVILIZATION_TAR_ABBASID', 	'REGION_DESERT');
+
+INSERT INTO Colors 
+			(Type, 										Red, 	Green, 	Blue, 	Alpha)
+VALUES		('COLOR_PLAYER_TAR_RASHIDUN_ICON',			0.773,	0.824,	0.196,	1),
+			('COLOR_PLAYER_TAR_RASHIDUN_BACKGROUND',	0.204,	0.361,	0.212,	1),
+			('COLOR_PLAYER_TAR_UMAYYAD_ICON',			0.455,	0.412,	0.067,	1),
+			('COLOR_PLAYER_TAR_UMAYYAD_BACKGROUND',		0.831,	0.788,	0.69,	1),
+			('COLOR_PLAYER_TAR_ABBASID_ICON',			0.792,	0.671,	0.467,	1),
+			('COLOR_PLAYER_TAR_ABBASID_BACKGROUND',		0.012,	0.2,	0.153,	1); 
+				
+INSERT INTO PlayerColors 
+			(Type, 							PrimaryColor, 						SecondaryColor, 						TextColor)
+VALUES		('PLAYERCOLOR_TAR_RASHIDUN',	'COLOR_PLAYER_TAR_RASHIDUN_ICON',	'COLOR_PLAYER_TAR_RASHIDUN_BACKGROUND',	'COLOR_PLAYER_WHITE_TEXT'),
+			('PLAYERCOLOR_TAR_UMAYYAD',		'COLOR_PLAYER_TAR_UMAYYAD_ICON',	'COLOR_PLAYER_TAR_UMAYYAD_BACKGROUND', 	'COLOR_PLAYER_WHITE_TEXT'),
+			('PLAYERCOLOR_TAR_ABBASID',		'COLOR_PLAYER_TAR_ABBASID_ICON',	'COLOR_PLAYER_TAR_ABBASID_BACKGROUND', 	'COLOR_PLAYER_WHITE_TEXT');
+
+--____________________________________________________________________________________________________________________________________
+--Leader Defines
+
+INSERT INTO Leaders 
+			(Type, 							Description, 						Civilopedia, 								 CivilopediaTag, 						 	ArtDefineTag, 						IconAtlas, 				PortraitIndex, 	VictoryCompetitiveness, WonderCompetitiveness, 	MinorCivCompetitiveness, 	Boldness, 	DiploBalance, 	WarmongerHate, 	DenounceWillingness, DoFWillingness, Loyalty, 	Neediness, 	Forgiveness, 	Chattiness, Meanness)
+VALUES		('LEADER_TAR_UMAR', 			'TXT_KEY_LEADER_TAR_UMAR', 			'TXT_KEY_LEADER_TAR_UMAR_PEDIA_TEXT',		 'TXT_KEY_LEADER_TAR_UMAR_PEDIA', 			'Tar_Umar_Leaderscreen.xml',		'TAR_ARABIA_ATLAS', 	3,				6, 						5, 						2, 							10, 		5, 				6, 				7, 					 4, 			 8, 		0, 			7,				10, 		3),
+			('LEADER_TAR_ABD_AL_MALIK', 	'TXT_KEY_LEADER_TAR_ABD_AL_MALIK', 	'TXT_KEY_LEADER_TAR_ABD_AL_MALIK_PEDIA_TEXT', 'TXT_KEY_LEADER_TAR_ABD_AL_MALIK_PEDIA', 	'Tar_AbdAlMalik_Leaderscreen.xml',	'TAR_ARABIA_ATLAS', 	4,				9, 						7, 						7, 							10, 		5, 				3, 				6, 					 3, 			 2, 		8, 			3,				5, 		 	7);
+
+INSERT INTO Leader_MajorCivApproachBiases 
+			(LeaderType, 					MajorCivApproachType, 				Bias)
+VALUES		('LEADER_TAR_UMAR', 			'MAJOR_CIV_APPROACH_WAR', 			10),
+			('LEADER_TAR_UMAR', 			'MAJOR_CIV_APPROACH_HOSTILE', 		7),
+			('LEADER_TAR_UMAR', 			'MAJOR_CIV_APPROACH_DECEPTIVE', 	0),
+			('LEADER_TAR_UMAR', 			'MAJOR_CIV_APPROACH_GUARDED', 		0),
+			('LEADER_TAR_UMAR', 			'MAJOR_CIV_APPROACH_AFRAID', 		0),
+			('LEADER_TAR_UMAR', 			'MAJOR_CIV_APPROACH_FRIENDLY', 		5),
+			('LEADER_TAR_UMAR', 			'MAJOR_CIV_APPROACH_NEUTRAL', 		7),
+			('LEADER_TAR_ABD_AL_MALIK', 	'MAJOR_CIV_APPROACH_WAR', 			7),
+			('LEADER_TAR_ABD_AL_MALIK', 	'MAJOR_CIV_APPROACH_HOSTILE', 		3),
+			('LEADER_TAR_ABD_AL_MALIK', 	'MAJOR_CIV_APPROACH_DECEPTIVE', 	9),
+			('LEADER_TAR_ABD_AL_MALIK', 	'MAJOR_CIV_APPROACH_GUARDED', 		2),
+			('LEADER_TAR_ABD_AL_MALIK', 	'MAJOR_CIV_APPROACH_AFRAID', 		3),
+			('LEADER_TAR_ABD_AL_MALIK', 	'MAJOR_CIV_APPROACH_FRIENDLY', 		4),
+			('LEADER_TAR_ABD_AL_MALIK', 	'MAJOR_CIV_APPROACH_NEUTRAL', 		3);
+					
+INSERT INTO Leader_MinorCivApproachBiases 
+			(LeaderType, 					MinorCivApproachType, 				Bias)
+VALUES		('LEADER_TAR_UMAR', 			'MINOR_CIV_APPROACH_IGNORE', 		4),
+			('LEADER_TAR_UMAR', 			'MINOR_CIV_APPROACH_FRIENDLY', 		3),
+			('LEADER_TAR_UMAR', 			'MINOR_CIV_APPROACH_PROTECTIVE', 	1),
+			('LEADER_TAR_UMAR', 			'MINOR_CIV_APPROACH_CONQUEST', 		9),
+			('LEADER_TAR_UMAR', 			'MINOR_CIV_APPROACH_BULLY', 		1),
+			('LEADER_TAR_ABD_AL_MALIK', 	'MINOR_CIV_APPROACH_IGNORE', 		3),
+			('LEADER_TAR_ABD_AL_MALIK', 	'MINOR_CIV_APPROACH_FRIENDLY', 		3),
+			('LEADER_TAR_ABD_AL_MALIK', 	'MINOR_CIV_APPROACH_PROTECTIVE', 	2),
+			('LEADER_TAR_ABD_AL_MALIK', 	'MINOR_CIV_APPROACH_CONQUEST', 		6),
+			('LEADER_TAR_ABD_AL_MALIK', 	'MINOR_CIV_APPROACH_BULLY', 		8);
+
+INSERT INTO Leader_Flavors 
+			(LeaderType, 					FlavorType, 						Flavor)
+VALUES		('LEADER_TAR_UMAR', 			'FLAVOR_OFFENSE', 					10),
+			('LEADER_TAR_UMAR', 			'FLAVOR_DEFENSE', 					4),
+			('LEADER_TAR_UMAR', 			'FLAVOR_CITY_DEFENSE', 				2),
+			('LEADER_TAR_UMAR', 			'FLAVOR_MILITARY_TRAINING', 		7),
+			('LEADER_TAR_UMAR', 			'FLAVOR_RECON', 					7),
+			('LEADER_TAR_UMAR', 			'FLAVOR_RANGED', 					7),
+			('LEADER_TAR_UMAR', 			'FLAVOR_MOBILE', 					8),
+			('LEADER_TAR_UMAR', 			'FLAVOR_NAVAL', 					4),
+			('LEADER_TAR_UMAR', 			'FLAVOR_NAVAL_RECON', 				5),
+			('LEADER_TAR_UMAR', 			'FLAVOR_NAVAL_GROWTH', 				5),
+			('LEADER_TAR_UMAR', 			'FLAVOR_NAVAL_TILE_IMPROVEMENT', 	5),
+			('LEADER_TAR_UMAR', 			'FLAVOR_AIR', 						5),
+			('LEADER_TAR_UMAR', 			'FLAVOR_EXPANSION', 				7),
+			('LEADER_TAR_UMAR', 			'FLAVOR_GROWTH', 					4),
+			('LEADER_TAR_UMAR', 			'FLAVOR_TILE_IMPROVEMENT', 			8),
+			('LEADER_TAR_UMAR', 			'FLAVOR_INFRASTRUCTURE', 			8),
+			('LEADER_TAR_UMAR', 			'FLAVOR_PRODUCTION', 				7),
+			('LEADER_TAR_UMAR', 			'FLAVOR_GOLD', 						7),
+			('LEADER_TAR_UMAR', 			'FLAVOR_SCIENCE', 					4),
+			('LEADER_TAR_UMAR', 			'FLAVOR_CULTURE', 					4),
+			('LEADER_TAR_UMAR', 			'FLAVOR_HAPPINESS', 				10),
+			('LEADER_TAR_UMAR', 			'FLAVOR_GREAT_PEOPLE', 				5),
+			('LEADER_TAR_UMAR', 			'FLAVOR_WONDER', 					3),
+			('LEADER_TAR_UMAR', 			'FLAVOR_RELIGION', 					10),
+			('LEADER_TAR_UMAR', 			'FLAVOR_DIPLOMACY', 				1),
+			('LEADER_TAR_UMAR', 			'FLAVOR_SPACESHIP', 				3),
+			('LEADER_TAR_UMAR', 			'FLAVOR_WATER_CONNECTION', 			5),
+			('LEADER_TAR_UMAR', 			'FLAVOR_NUKE', 						7),
+			('LEADER_TAR_UMAR', 			'FLAVOR_USE_NUKE', 					2),
+			('LEADER_TAR_UMAR', 			'FLAVOR_ESPIONAGE', 				10),
+			('LEADER_TAR_UMAR', 			'FLAVOR_AIRLIFT', 					5),
+			('LEADER_TAR_UMAR', 			'FLAVOR_I_TRADE_DESTINATION', 		5),
+			('LEADER_TAR_UMAR', 			'FLAVOR_I_TRADE_ORIGIN', 			5),
+			('LEADER_TAR_UMAR', 			'FLAVOR_I_SEA_TRADE_ROUTE', 		5),
+			('LEADER_TAR_UMAR', 			'FLAVOR_I_LAND_TRADE_ROUTE', 		5),
+			('LEADER_TAR_UMAR', 			'FLAVOR_ARCHAEOLOGY', 				5),
+			('LEADER_TAR_UMAR', 			'FLAVOR_AIR_CARRIER', 				5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_OFFENSE', 					7),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_DEFENSE', 					5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_CITY_DEFENSE', 				5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_MILITARY_TRAINING', 		3),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_RECON', 					5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_RANGED', 					4),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_MOBILE', 					5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_NAVAL', 					7),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_NAVAL_RECON', 				5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_NAVAL_GROWTH', 				5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_NAVAL_TILE_IMPROVEMENT', 	5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_AIR', 						5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_EXPANSION', 				10),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_GROWTH', 					2),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_TILE_IMPROVEMENT', 			9),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_INFRASTRUCTURE', 			5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_PRODUCTION', 				6),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_GOLD', 						10),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_SCIENCE', 					4),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_CULTURE', 					5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_HAPPINESS', 				8),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_GREAT_PEOPLE', 				5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_WONDER', 					7),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_RELIGION', 					5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_DIPLOMACY', 				3),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_SPACESHIP', 				4),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_WATER_CONNECTION', 			5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_NUKE', 						10),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_USE_NUKE', 					7),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_ESPIONAGE', 				9),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_AIRLIFT', 					5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_I_TRADE_DESTINATION', 		5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_I_TRADE_ORIGIN', 			5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_I_SEA_TRADE_ROUTE', 		5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_I_LAND_TRADE_ROUTE', 		5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_ARCHAEOLOGY', 				5),
+			('LEADER_TAR_ABD_AL_MALIK', 	'FLAVOR_AIR_CARRIER', 				5);
+
+DELETE FROM Leader_Traits 	WHERE LeaderType = 'LEADER_HARUN_AL_RASHID';
+
+INSERT INTO Leader_Traits 
+			(LeaderType, 				TraitType)
+VALUES		('LEADER_TAR_UMAR', 		'TRAIT_TAR_RASHIDUN_UMAR'),
+			('LEADER_TAR_ABD_AL_MALIK', 'TRAIT_TAR_UMAYYAD_ABD_AL_MALIK'),
+			('LEADER_HARUN_AL_RASHID', 	'TRAIT_TAR_ABBASID_HARUN_AL_RASHID');
+
+INSERT INTO Traits 
+			(Type, 									Description, 									ShortDescription,									CityConnectionTradeRouteChange)
+VALUES		('TRAIT_TAR_RASHIDUN_UMAR', 			'TXT_KEY_TRAIT_TAR_RASHIDUN_UMAR', 				'TXT_KEY_TRAIT_TAR_RASHIDUN_UMAR_SHORT',			0),
+			('TRAIT_TAR_UMAYYAD_ABD_AL_MALIK', 		'TXT_KEY_TRAIT_TAR_UMAYYAD_ABD_AL_MALIK', 		'TXT_KEY_TRAIT_TAR_UMAYYAD_ABD_AL_MALIK_SHORT',		3),
+			('TRAIT_TAR_ABBASID_HARUN_AL_RASHID', 	'TXT_KEY_TRAIT_TAR_ABBASID_HARUN_AL_RASHID', 	'TXT_KEY_TRAIT_TAR_ABBASID_HARUN_AL_RASHID_SHORT',	0);
+
+INSERT INTO Audio_Sounds 
+			(SoundID, 									Filename, 				LoadType)
+VALUES		('SND_LEADER_MUSIC_TAR_UMAR_PEACE', 		'Tar_Rashidun_Peace', 	'DynamicResident'),
+			('SND_LEADER_MUSIC_TAR_UMAR_WAR',			'Tar_Rashidun_War', 	'DynamicResident'),
+			('SND_LEADER_MUSIC_TAR_ABD_AL_MALIK_PEACE', 'Tar_Umayyad_Peace', 	'DynamicResident'),
+			('SND_LEADER_MUSIC_TAR_ABD_AL_MALIK_WAR',	'Tar_Umayyad_War', 		'DynamicResident'),
+			('SND_SOUND_TAR_ANSAR_HEAL', 				'Tar_Ansar_Heal',		'DynamicResident');		
+
+INSERT INTO Audio_2DSounds 
+			(ScriptID, 										SoundID, 									SoundType, 		MinVolume, 	MaxVolume,	IsMusic,	Looping)
+VALUES		('AS2D_LEADER_MUSIC_TAR_UMAR_PEACE', 			'SND_LEADER_MUSIC_TAR_UMAR_PEACE', 			'GAME_MUSIC', 	80, 		80, 		1, 			0),
+			('AS2D_LEADER_MUSIC_TAR_UMAR_WAR', 				'SND_LEADER_MUSIC_TAR_UMAR_WAR', 			'GAME_MUSIC', 	80, 		80, 		1,			0),
+			('AS2D_LEADER_MUSIC_TAR_ABD_AL_MALIK_PEACE', 	'SND_LEADER_MUSIC_TAR_ABD_AL_MALIK_PEACE', 	'GAME_MUSIC', 	80, 		80, 		1, 			0),
+			('AS2D_LEADER_MUSIC_TAR_ABD_AL_MALIK_WAR', 		'SND_LEADER_MUSIC_TAR_ABD_AL_MALIK_WAR', 	'GAME_MUSIC', 	80, 		80, 		1,			0),
+			('AS2D_SOUND_TAR_ANSAR_HEAL', 					'SND_SOUND_TAR_ANSAR_HEAL', 				'GAME_SFX', 	90, 		90, 		0, 			0);
+
+INSERT INTO Diplomacy_Responses (LeaderType, ResponseType, Response, Bias) VALUES ('LEADER_TAR_UMAR',		 'RESPONSE_FIRST_GREETING',	'TXT_KEY_LEADER_TAR_UMAR_FIRSTGREETING%','1');
+INSERT INTO Diplomacy_Responses (LeaderType, ResponseType, Response, Bias) VALUES ('LEADER_TAR_UMAR',		 'RESPONSE_DEFEATED',		'TXT_KEY_LEADER_TAR_UMAR_DEFEATED%','1');
+INSERT INTO Diplomacy_Responses (LeaderType, ResponseType, Response, Bias) VALUES ('LEADER_TAR_ABD_AL_MALIK','RESPONSE_FIRST_GREETING',	'TXT_KEY_LEADER_TAR_ABD_AL_MALIK_FIRSTGREETING%','1');
+INSERT INTO Diplomacy_Responses (LeaderType, ResponseType, Response, Bias) VALUES ('LEADER_TAR_ABD_AL_MALIK','RESPONSE_DEFEATED',		'TXT_KEY_LEADER_TAR_ABD_AL_MALIK_DEFEATED%','1');
+--____________________________________________________________________________________________________________________________________
+INSERT INTO UnitCombatInfos 
+			(Type, 						Description)
+VALUES		('UNITCOMBAT_TAR_ANSAR', 	'TXT_KEY_UNIT_TAR_ANSAR');
+
+UPDATE Units
+SET Help = 'TXT_KEY_UNIT_HELP_TAR_CAMEL_ARCHER', Strategy = 'TXT_KEY_UNIT_TAR_CAMEL_ARCHER_STRATEGY', RangedCombat = 18, Combat = 17
+WHERE Type = 'UNIT_ARABIAN_CAMELARCHER';
+
+INSERT INTO Units 	
+			(Class, 	Type, 					PrereqTech, Cost, ObsoleteTech, FaithCost, 	Moves, CombatClass,				 Domain, Capture, CivilianAttackPriority, DefaultUnitAI, 	Description, 					Civilopedia, 									Strategy, 							 Help, 								MilitarySupport, MilitaryProduction, IgnoreBuildingDefense, AdvancedStartCost, Mechanized, CombatLimit, MinAreaSize, Pillage, XPValueAttack, XPValueDefense, Conscription, UnitArtInfo, 				UnitFlagIconOffset,	UnitFlagAtlas,					PortraitIndex, IconAtlas,				MoveRate)
+SELECT		Class,		('UNIT_TAR_ANSAR'),  	PrereqTech, -1,   ObsoleteTech, -1, 		5,     ('UNITCOMBAT_TAR_ANSAR'), Domain, Capture, CivilianAttackPriority, ('UNITAI_GENERAL'), ('TXT_KEY_UNIT_TAR_ANSAR'), 	('TXT_KEY_CIVILOPEDIA_UNITS_TAR_ANSAR_TEXT'), 	('TXT_KEY_UNIT_TAR_ANSAR_STRATEGY'), ('TXT_KEY_UNIT_HELP_TAR_ANSAR'), 	MilitarySupport, MilitaryProduction, IgnoreBuildingDefense, AdvancedStartCost, Mechanized, CombatLimit, MinAreaSize, Pillage, XPValueAttack, XPValueDefense, Conscription, ('ART_DEF_UNIT_TAR_ANSAR'),	0,					('TAR_UNIT_FLAG_ANSAR_ATLAS'),	5, 			 	('TAR_ARABIA_ATLAS'),  	MoveRate
+FROM Units WHERE (Type = 'UNIT_MISSIONARY');
+
+INSERT INTO Units 	
+			(Class, 	Type, 					ExtraMaintenanceCost, 	PrereqTech, Combat,	RangedCombat, Cost, Range, ObsoleteTech, FaithCost, RequiresFaithPurchaseEnabled, Moves, CombatClass, Domain, DefaultUnitAI, Description, 					Civilopedia, 									Strategy, 								Help, 								UnitArtInfo, 				UnitFlagIconOffset,	UnitFlagAtlas,					PortraitIndex, 	IconAtlas,			 	MilitarySupport, MilitaryProduction, IgnoreBuildingDefense, AdvancedStartCost, Mechanized, CombatLimit, MinAreaSize, Pillage, XPValueAttack, XPValueDefense, Conscription,  MoveRate)
+SELECT		Class,		('UNIT_TAR_YAMANI'),	1,						PrereqTech, Combat,	RangedCombat, Cost, Range, ObsoleteTech, FaithCost, RequiresFaithPurchaseEnabled, Moves, CombatClass, Domain, DefaultUnitAI, ('TXT_KEY_UNIT_TAR_YAMANI'),  ('TXT_KEY_CIVILOPEDIA_UNITS_TAR_YAMANI_TEXT'), ('TXT_KEY_UNIT_TAR_YAMANI_STRATEGY'), 	('TXT_KEY_UNIT_HELP_TAR_YAMANI'),  ('ART_DEF_UNIT_TAR_YAMANI'),	0,					('TAR_UNIT_FLAG_YAMANI_ATLAS'), 6, 				('TAR_ARABIA_ATLAS'),  	MilitarySupport, MilitaryProduction, IgnoreBuildingDefense, AdvancedStartCost, Mechanized, CombatLimit, MinAreaSize, Pillage, XPValueAttack, XPValueDefense, Conscription,  MoveRate
+FROM Units WHERE (Type = 'UNIT_PIKEMAN');
+
+INSERT INTO Units 	
+			(Class, 	Type, 					PrereqTech, WorkRate,	BaseBeakersTurnsToCount, Cost, Special, ObsoleteTech, FaithCost, CivilianAttackPriority, Moves, CombatClass, Domain, DefaultUnitAI, Description, 						Civilopedia, 										Strategy, 									Help, 									UnitArtInfo, 					UnitFlagIconOffset,	UnitFlagAtlas,						PortraitIndex, 	IconAtlas,			 	MilitarySupport, MilitaryProduction, IgnoreBuildingDefense, AdvancedStartCost, Mechanized, CombatLimit, MinAreaSize, Pillage, XPValueAttack, XPValueDefense, Conscription,  MoveRate)
+SELECT		Class,		('UNIT_TAR_PHYSICIAN'),	PrereqTech, WorkRate,	BaseBeakersTurnsToCount, Cost, Special, ObsoleteTech, FaithCost, CivilianAttackPriority, Moves, CombatClass, Domain, DefaultUnitAI, ('TXT_KEY_UNIT_TAR_PHYSICIAN'),  	('TXT_KEY_CIVILOPEDIA_UNITS_TAR_PHYSICIAN_TEXT'), 	('TXT_KEY_UNIT_TAR_PHYSICIAN_STRATEGY'), 	('TXT_KEY_UNIT_HELP_TAR_PHYSICIAN'),	('ART_DEF_UNIT_TAR_PHYSICIAN'),	0,					('TAR_UNIT_FLAG_PHYSICIAN_ATLAS'), 	7, 				('TAR_ARABIA_ATLAS'),  	MilitarySupport, MilitaryProduction, IgnoreBuildingDefense, AdvancedStartCost, Mechanized, CombatLimit, MinAreaSize, Pillage, XPValueAttack, XPValueDefense, Conscription,  MoveRate
+FROM Units WHERE (Type = 'UNIT_SCIENTIST');
+
+INSERT INTO UnitGameplay2DScripts 	
+			(UnitType, 				SelectionSound, FirstSelectionSound)
+SELECT		('UNIT_TAR_ANSAR'), 	SelectionSound, FirstSelectionSound
+FROM UnitGameplay2DScripts WHERE (UnitType = 'UNIT_MISSIONARY');		
+
+INSERT INTO UnitGameplay2DScripts 	
+			(UnitType, 				SelectionSound, FirstSelectionSound)
+SELECT		('UNIT_TAR_YAMANI'), 	SelectionSound, FirstSelectionSound
+FROM UnitGameplay2DScripts WHERE (UnitType = 'UNIT_PIKEMAN');
+
+INSERT INTO UnitGameplay2DScripts 	
+			(UnitType, 				SelectionSound, FirstSelectionSound)
+SELECT		('UNIT_TAR_PHYSICIAN'), 	SelectionSound, FirstSelectionSound
+FROM UnitGameplay2DScripts WHERE (UnitType = 'UNIT_SCIENTIST');
+
+INSERT INTO Unit_AITypes 
+			(UnitType, 			UnitAIType)
+VALUES		('UNIT_TAR_ANSAR', 	'UNITAI_GENERAL');
+
+INSERT INTO Unit_AITypes 	
+			(UnitType, 			UnitAIType)
+SELECT		('UNIT_TAR_YAMANI'), 	UnitAIType
+FROM Unit_AITypes WHERE (UnitType = 'UNIT_PIKEMAN');	
+
+INSERT INTO Unit_AITypes 	
+			(UnitType, 					UnitAIType)
+SELECT		('UNIT_TAR_PHYSICIAN'), 	UnitAIType
+FROM Unit_AITypes WHERE (UnitType = 'UNIT_SCIENTIST');
+
+INSERT INTO Unit_Builds 	
+			(UnitType, 				BuildType)
+VALUES		('UNIT_TAR_PHYSICIAN', 	'BUILD_ACADEMY');
+
+INSERT INTO Unit_ClassUpgrades 	
+			(UnitType, 				UnitClassType)
+VALUES		('UNIT_TAR_YAMANI', 	'UNITCLASS_LANCER');
+
+INSERT INTO Unit_Flavors 	
+			(UnitType, 				FlavorType,				Flavor)
+VALUES		('UNIT_TAR_YAMANI', 	'FLAVOR_OFFENSE',		10),
+			('UNIT_TAR_YAMANI', 	'FLAVOR_DEFENSE',		10),
+			('UNIT_TAR_PHYSICIAN', 	'FLAVOR_SCIENCE',		1);
+
+INSERT INTO Unit_FreePromotions 	
+			(UnitType, 				PromotionType)
+VALUES		('UNIT_TAR_YAMANI', 	'PROMOTION_ANTI_MOUNTED_I');
+
+INSERT INTO Unit_UniqueNames 	
+			(UnitType, 				UniqueName)
+VALUES		('UNIT_TAR_PHYSICIAN', 	'TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_1'),
+			('UNIT_TAR_PHYSICIAN', 	'TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_2'),
+			('UNIT_TAR_PHYSICIAN', 	'TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_3'),
+			('UNIT_TAR_PHYSICIAN', 	'TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_4'),
+			('UNIT_TAR_PHYSICIAN', 	'TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_5'),
+			('UNIT_TAR_PHYSICIAN', 	'TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_6'),
+			('UNIT_TAR_PHYSICIAN', 	'TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_7'),
+			('UNIT_TAR_PHYSICIAN', 	'TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_8'),
+			('UNIT_TAR_PHYSICIAN', 	'TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_9'),
+			('UNIT_TAR_PHYSICIAN', 	'TXT_KEY_GREAT_PERSON_TAR_PHYSICIAN_10');
+
+INSERT INTO UnitPromotions 
+			(Type, 						Description, 						Help, 										Sound, 				OrderPriority,	PortraitIndex, 	IconAtlas,						PediaType, 			PediaEntry)
+VALUES		('PROMOTION_TAR_REPLENISH',	'TXT_KEY_PROMOTION_TAR_REPLENISH',  'TXT_KEY_PROMOTION_TAR_REPLENISH_HELP',		'AS2D_IF_LEVELUP',	0, 			 	33, 			'PROMOTION_ATLAS', 				'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_TAR_REPLENISH'),
+			('PROMOTION_TAR_SAVE',		'TXT_KEY_PROMOTION_TAR_SAVE',		'TXT_KEY_PROMOTION_TAR_SAVE_HELP',			'AS2D_IF_LEVELUP',	0, 			 	12, 			'EXPANSION2_PROMOTION_ATLAS', 	'PEDIA_ATTRIBUTES', 'TXT_KEY_PROMOTION_TAR_SAVE');
+
+INSERT INTO UnitPromotions_UnitCombats 
+			(PromotionType, 		  	UnitCombatType)
+VALUES		('PROMOTION_TAR_REPLENISH', 'UNITCOMBAT_TAR_ANSAR'),
+			('PROMOTION_TAR_SAVE', 		'UNITCOMBAT_TAR_ANSAR');
+--____________________________________________________________________________________________________________________________________
+UPDATE Buildings
+SET Help = 'TXT_KEY_BUILDING_TAR_BAZAAR_HELP', Strategy = 'TXT_KEY_BUILDING_TAR_BAZAAR_STRATEGY'
+WHERE Type = 'BUILDING_BAZAAR';
+
+DELETE FROM Building_ResourceYieldChanges WHERE BuildingType = 'BUILDING_BAZAAR';
+DELETE FROM Building_FeatureYieldChanges WHERE BuildingType = 'BUILDING_BAZAAR';
+
+INSERT INTO Buildings
+			(Type, 							SpecialistType, SpecialistCount, BuildingClass, Cost, GoldMaintenance, PrereqTech, FaithCost, UnlockedByBelief, HurryCostModifier, ConquestProb, ThemingBonusHelp,								GreatWorkSlotType, 				GreatWorkCount, Description,							Help,										Civilopedia,							Strategy,										ArtDefineTag, MinAreaSize, 	HurryCostModifier, IconAtlas,				PortraitIndex)
+SELECT		('BUILDING_TAR_BIMARISTAN'),	SpecialistType, SpecialistCount, BuildingClass, Cost, GoldMaintenance, PrereqTech, FaithCost, UnlockedByBelief, HurryCostModifier, ConquestProb, ('TXT_KEY_GREAT_LIBRARY_THEMING_BONUS_HELP'),	('GREAT_WORK_SLOT_LITERATURE'),	2,				('TXT_KEY_BUILDING_TAR_BIMARISTAN'),	('TXT_KEY_BUILDING_TAR_BIMARISTAN_HELP'),	('TXT_KEY_CIV5_TAR_BIMARISTAN_TEXT'),	('TXT_KEY_BUILDING_TAR_BIMARISTAN_STRATEGY'),	ArtDefineTag, MinAreaSize, 	HurryCostModifier, ('TAR_ARABIA_ATLAS'), 	8
+FROM Buildings WHERE Type = 'BUILDING_UNIVERSITY';		
+
+INSERT INTO Building_ClassesNeededInCity 
+			(BuildingType, 					BuildingClassType)
+VALUES		('BUILDING_TAR_BIMARISTAN', 	'BUILDINGCLASS_LIBRARY');
+			
+INSERT INTO Building_YieldModifiers 
+			(BuildingType, 					YieldType,		Yield)
+VALUES		('BUILDING_TAR_BIMARISTAN', 	'YIELD_SCIENCE', 30);
+
+INSERT INTO Building_FeatureYieldChanges 
+			(BuildingType, 					FeatureType,		YieldType,			Yield)
+VALUES		('BUILDING_TAR_BIMARISTAN', 	'FEATURE_JUNGLE', 	'YIELD_SCIENCE', 	2);
+
+INSERT INTO Building_TerrainYieldChanges 
+			(BuildingType, 					TerrainType,		YieldType,			Yield)
+VALUES		('BUILDING_TAR_BIMARISTAN', 	'TERRAIN_DESERT', 	'YIELD_SCIENCE', 	2);
+
+INSERT INTO Building_Flavors 
+			(BuildingType, 					FlavorType,					Flavor)
+VALUES		('BUILDING_TAR_BIMARISTAN', 	'FLAVOR_SCIENCE',			60),
+			('BUILDING_TAR_BIMARISTAN', 	'FLAVOR_GREAT_PEOPLE',		30);
+
+INSERT INTO Building_ThemingBonuses 
+			(BuildingType, 					Description,							Bonus,	UniqueEras, RequiresUniquePlayers,	AIPriority)
+VALUES		('BUILDING_TAR_BIMARISTAN', 	'TXT_KEY_THEMING_BONUS_GREAT_LIBRARY', 	2, 		1,			1,						2);
+
+INSERT INTO BuildingClasses 	
+			(Type, 						 			DefaultBuilding, 				Description)
+VALUES		('BUILDINGCLASS_TAR_ARABIAN_DUMMY', 	'BUILDING_TAR_RASHIDUN_DUMMY', 	'TXT_KEY_CIV_TAR_RASHIDUN_DESC');
+
+INSERT INTO Buildings 
+			(Type, 									BuildingClass, 						GreatWorkCount, Cost, FaithCost, NukeImmune, ConquestProb,  PrereqTech,	Description, 						Help,								ArtDefineTag,	PortraitIndex, 	IconAtlas)
+VALUES		('BUILDING_TAR_RASHIDUN_DUMMY',			'BUILDINGCLASS_TAR_ARABIAN_DUMMY', 	-1, 			-1,   -1, 		 1,		 	 0,				NULL, 		'TXT_KEY_CIV_TAR_RASHIDUN_DESC', 	'TXT_KEY_CIV_TAR_RASHIDUN_DESC',	-1,				0, 				'TAR_ARABIA_ATLAS'),
+			('BUILDING_TAR_UMAYYAD_DUMMY',			'BUILDINGCLASS_TAR_ARABIAN_DUMMY', 	-1, 			-1,   -1, 		 1,		 	 0,				NULL, 		'TXT_KEY_CIV_TAR_UMAYYAD_DESC', 	'TXT_KEY_CIV_TAR_UMAYYAD_DESC',		-1,				0, 				'TAR_ARABIA_ATLAS'),
+			('BUILDING_TAR_ABBASID_DUMMY',			'BUILDINGCLASS_TAR_ARABIAN_DUMMY', 	-1, 			-1,   -1, 		 1,		 	 0,				NULL, 		'TXT_KEY_CIV_TAR_ABBASID_DESC', 	'TXT_KEY_CIV_TAR_ABBASID_DESC',		-1,				0, 				'TAR_ARABIA_ATLAS');
+
+INSERT INTO Building_YieldChanges 	
+			(BuildingType, 					YieldType, 				Yield)
+VALUES		('BUILDING_TAR_RASHIDUN_DUMMY', 'YIELD_FAITH', 			5),
+            ('BUILDING_TAR_RASHIDUN_DUMMY', 'YIELD_CULTURE', 		5),
+			('BUILDING_TAR_UMAYYAD_DUMMY',  'YIELD_PRODUCTION', 	5),
+			('BUILDING_TAR_ABBASID_DUMMY',  'YIELD_SCIENCE', 		1);

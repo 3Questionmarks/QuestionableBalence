@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/14/2016 8:23:55 PM -->
+<GameData>
+	
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HUNTING_LODGE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WATER_MILL</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
+    <Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+    <Policies>
+		<Update>
+			<Set BuildingProductionModifier="25" />
+			<Where Type="POLICY_URBANIZATION" />
+		</Update>
+	</Policies>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_URBANIZATION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_URBANIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Urbanization[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_1] Local Happiness and [ICON_PRODUCTION] Production from every Granary, Hunting Lodge, Water Mill, Hospital, and Medical Lab. +25% [ICON_PRODUCTION] towards Buildings. +1 Food [ICON_FOOD] from farms and Terrace Farms.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

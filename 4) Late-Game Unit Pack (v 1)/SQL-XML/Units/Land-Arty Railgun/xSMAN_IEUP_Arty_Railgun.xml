@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_ARTY_RAILGUN</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_ARTY_RAILGUN</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_ARTY_RAILGUN</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_IEUP_ARTY_RAILGUN</Class>
+			<Type>UNIT_SMAN_IEUP_ARTY_RAILGUN</Type>
+			<Combat>65</Combat>
+			<RangedCombat>90</RangedCombat>
+			<Moves>2</Moves>
+			<Range>4</Range>
+			<Cost>600</Cost>
+			<FaithCost>1200</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<ObsoleteTech></ObsoleteTech>
+						
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_ARTY_RAILGUN</Description>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_ARTY_RAILGUN_HELP</Help>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_ARTY_RAILGUN_STRATEGY</Strategy>			
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_ARTY_RAILGUN_PEDIA</Civilopedia>
+
+			<DefaultUnitAI>UNITAI_CITY_BOMBARD</DefaultUnitAI>
+			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>			
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass></GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>1</Conscription>
+			<MoveRate>WHEELED</MoveRate>
+			
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitArtInfo>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>19</UnitFlagIconOffset>
+			
+		</Row>
+	</Units>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_ARTY_RAILGUN</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_ARTY_RAILGUN</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	
+	<!--
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	-->
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<PromotionType>PROMOTION_SIGHT_PENALTY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<UnitAIType>UNITAI_CITY_BOMBARD</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<UnitAIType>UNITAI_RANGED</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ARTY_RAILGUN</UnitType>
+			<SelectionSound>AS2D_SELECT_ROCKET_ARTILLERY</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_ROCKET_ARTILLERY</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_ARTY_RAILGUN">
+			<Text>Railgun Artillery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_ARTY_RAILGUN_HELP">
+			<Text>Use Railgun Artillery to destroy enemy cities and units. Requires [ICON_RES_URANIUM] Uranium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_ARTY_RAILGUN_STRATEGY">
+			<Text>Railgun Artillery is an upgrade to the Laser Artillery unit. Employing a radically different launch system, this unit can streams of plasma energy, almost without any need of preparation; thus it does not need to set up before firing. It also has much greater ranged strength, making it very dangerous for modern infantry and other land or naval units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_ARTY_RAILGUN_PEDIA">
+			<Text>
+				Railgun Artillery is a specialized siege unit, with enhanced capabilities to engage enemy targets up to 4 tiles away. It is available on the discovery of Nuclear Fusion, and does not become obsolete. Requires [ICON_RES_URANIUM] Uranium.
+			</Text>
+		</Row>
+	</Language_en_US>	
+	
+</GameData>

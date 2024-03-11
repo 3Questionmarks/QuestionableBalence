@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/13/2016 12:23:34 AM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PANAMA</Type>
+			<BuildingClass>BUILDINGCLASS_PANAMA</BuildingClass>
+			<Description>TXT_KEY_BUILDING_PANAMA1</Description>
+			<Help>TXT_KEY_WONDER_PANAMA_HELP1</Help>
+			<Civilopedia>TXT_KEY_WONDER_PANAMA_PEDIA1</Civilopedia>
+			<Quote>TXT_KEY_WONDER_PANAMA_QUOTE1</Quote>
+			<Cost>1000</Cost>
+			<PrereqTech>TECH_RAILROAD</PrereqTech>
+			<MaxStartEra>ERA_ATOMIC</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<Water>true</Water>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<CityConnectionTradeRouteModifier>25</CityConnectionTradeRouteModifier>
+			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_HARBOR</FreeBuildingThisCity>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>25</PortraitIndex>
+			<WonderSplashImage>wonderconceptpanamacanal.dds</WonderSplashImage>
+			<WonderSplashAnchor>C,B</WonderSplashAnchor>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PANAMA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PANAMA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_PANAMA</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PANAMA</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_PANAMA</Type>
+			<DefaultBuilding>BUILDING_PANAMA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_PANAMA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PANAMA</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PANAMA</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Building_FreeUnits>
+		<Row>
+			<BuildingType>BUILDING_PANAMA</BuildingType>
+			<UnitType>UNIT_CARGO_SHIP</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_PANAMA1">
+			<Text>Panama Canal</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_PANAMA_HELP1">
+			<Text>Gains an additional trade route slot and a Cargo Ship appears in the city. +25% [ICON_GOLD] Gold from trade routes. +1 [ICON_GOLD] Gold from Harbors, provides a free harbor in the city in which it it built. City must be built on a coastal tile. </Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_PANAMA_QUOTE1">
+			<Text>
+				[NEWLINE]"A stream cannot rise larger than its source"[NEWLINE] - Theodore Roosevelt[NEWLINE]
+			</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_PANAMA_PEDIA1">
+			<Text>The Panama Canal is a manmade shipping lane located on the Panama Isthmus seperating the Pacific Ocean and Carribean Sea. The idea of a canal in the location was first proposed int he sixteenth century by Charles V, Holy Roman Emperor, who asked for a link to shorten the journey between Spain and their colony of Peru. In 1698 the Kingdom of Scotland launched a project to create an overland trade route in the area, which was abandoned due to inhospitiable conditions a year later. It was not until 1855 that a link was first established, the Panama Canal Railway, as a result of the 1849 discovery of Gold in the American state of California. This railway was used extensively in the American construction of the canal from 1904 to 1914. As opposed to the French plan of constructing a flat water canal, much like that of the Suez Canal, the American design featured a series of ship locks to rise the ships over a range that caused problems for the French design. The American design proved sucessful, and was opened on August 15, 1914. Railway cars had been used to transport approximately 152,910,972 cubic metres of excevations through the construction, while it had cost 27,500 lives across the whole project.  </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

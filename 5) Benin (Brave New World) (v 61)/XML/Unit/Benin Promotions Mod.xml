@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_BENIN_IFI_MOD</Type>
+			<Description>TXT_KEY_PROMOTION_BENIN_IFI_MOD</Description>
+			<Help>TXT_KEY_PROMOTION_BENIN_IFI_MOD_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<IgnoreZOC>true</IgnoreZOC>
+			<FlankAttackModifier>25</FlankAttackModifier>
+			<!--
+			<FlankAttackModifier>15</FlankAttackModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>BENIN_PROMOTION_ATLAS</IconAtlas>
+			-->
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>				
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_BENIN_IFI_MOD</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_BENIN_MOVE_MOD</Type>
+			<Description>TXT_KEY_PROMOTION_BENIN_MOVE_MOD</Description>
+			<Help>TXT_KEY_PROMOTION_BENIN_MOVE_MOD_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>			
+			<PediaEntry>TXT_KEY_PROMOTION_BENIN_MOVE_MOD</PediaEntry>
+		</Row>
+	</UnitPromotions>
+</GameData>

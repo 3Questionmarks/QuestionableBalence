@@ -1,0 +1,25 @@
+<!-- Created by ModBuddy on 9/20/2020 2:55:42 PM -->
+<GameData>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+    <Trait_UnimprovedFeatureYieldChanges>
+		<Row>
+			<TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_UnimprovedFeatureYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED" />
+			<Set Text="Units fight as though they were at full strength even when damaged. +1 [ICON_CULTURE] Culture and [ICON_PRODUCTION] Production from each Fishing Boat, and +2 [ICON_CULTURE] Culture and [ICON_PRODUCTION] Production from each Atoll."/>
+		</Update>
+	</Language_en_US>
+</GameData>

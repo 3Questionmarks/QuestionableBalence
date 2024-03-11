@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f61102c3-f8bc-4d09-91ae-20d1e0fdeffc" version="3">
+  <Properties>
+    <Name>Sukritact's Calusa Civilization</Name>
+    <Teaser>The Calusa: Masters of the Everglades</Teaser>
+    <Description>The Calusa were a Native American people of Florida's southwest coast. They are notable for having developed a complex culture based on estuarine fisheries rather than agriculture. Calusa territory reached from Charlotte Harbor to Cape Sable, all of present-day Charlotte and Lee counties, and may have included the Florida Keys at times.</Description>
+    <Authors>Sukritact, Reedstilt</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions" />
+    <Mod id="be2d13ee-d18d-410e-8f04-7cd19cd99a98" minversion="0" maxversion="999" title="More Luxuries" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety " />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD’s Claims, Colonies, and Crimes" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD’s and Pouakai’s Mercenaries	" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="A36AE0BDC89016834E27893E18176DCC" import="1">Art/Atlas/MC_CalusaAlpha_128.dds</File>
+    <File md5="E6778A595FB6FD1366CA899A35DFD588" import="1">Art/Atlas/MC_CalusaAlpha_16.dds</File>
+    <File md5="166313F7F1159AD5B10B5E4A80F756A0" import="1">Art/Atlas/MC_CalusaAlpha_24.dds</File>
+    <File md5="B44C06C6AE2EB8A0C66F4535937EFD87" import="1">Art/Atlas/MC_CalusaAlpha_256.dds</File>
+    <File md5="182229718B500F5791F7F2C399B03E6C" import="1">Art/Atlas/MC_CalusaAlpha_32.dds</File>
+    <File md5="B2D6AEC424560A65317427B50057F427" import="1">Art/Atlas/MC_CalusaAlpha_45.dds</File>
+    <File md5="78D639A35EF3592334FAB29F0971C344" import="1">Art/Atlas/MC_CalusaAlpha_48.dds</File>
+    <File md5="1E4E5ED05A8A2BAF04E975FEF6D998C9" import="1">Art/Atlas/MC_CalusaAlpha_64.dds</File>
+    <File md5="EA4C5CFDEE6C7ABF7F2E23FD4BBCD0E1" import="1">Art/Atlas/MC_CalusaAlpha_80.dds</File>
+    <File md5="090291461F6A8AEF951297F8BC603954" import="1">Art/Atlas/MC_CalusaAtlas_128.dds</File>
+    <File md5="37FFA05FBED2E9D7E4BA88E9E7BCE367" import="1">Art/Atlas/MC_CalusaAtlas_256.dds</File>
+    <File md5="22AAF80FBD47679000874416292C691E" import="1">Art/Atlas/MC_CalusaAtlas_32.dds</File>
+    <File md5="AA1790507AA463CE5A07E79BCE88FED0" import="1">Art/Atlas/MC_CalusaAtlas_45.dds</File>
+    <File md5="1C9D1855FA91FA32D757118ACEC54048" import="1">Art/Atlas/MC_CalusaAtlas_64.dds</File>
+    <File md5="483A5CF46AC91E5EE39DAE44F24E50AE" import="1">Art/Atlas/MC_CalusaAtlas_80.dds</File>
+    <File md5="26CE5CDD887A6A6A469F99ABFC1FA158" import="1">Art/Audio/Calusa_Peace.mp3</File>
+    <File md5="FA8E5A3D26E15B5FAD288A1EFD08601D" import="1">Art/Audio/Calusa_War.mp3</File>
+    <File md5="2E3A6AF2D314DE6F32EB83304BAB5C80" import="0">Art/MC_Calusa_ArtDefines.sql</File>
+    <File md5="8D0AFD61B7F3B40CFC4FD92B225FF63E" import="0">Art/MC_Calusa_Audio.sql</File>
+    <File md5="B00E18169B8B27D39BA5D1F041569556" import="1">Art/Scenes/MC_CalusaLeaderhead.xml</File>
+    <File md5="83F73F5DE90AB9B97F77729EB1C89681" import="1">Art/Scenes/MC_CalusaDoM.dds</File>
+    <File md5="F136C1663BCE8BC15F74DDE2058010AC" import="1">Art/Scenes/MC_CalusaLeaderhead.dds</File>
+    <File md5="A668852D700A921ECDE7CCA5D23233DA" import="1">Art/Scenes/MC_CalusaMap512.dds</File>
+    <File md5="128098D8F8C692CF14B9238C6997317F" import="1">Art/Unit/Flags_MC_Noka_Canoe.dds</File>
+    <File md5="DF9335C5F579BA6E7A10D188D295C2C0" import="1">Art/Unit/MC_Noka_Canoe.fxsxml</File>
+    <File md5="445E3494704332723949EB9D4E00FCC4" import="1">Art/Unit/MC_Noka_Canoe.gr2</File>
+    <File md5="A3EF598E3DE8537B6AB0406A9AF5A1C7" import="1">Art/Unit/MC_Noka_Canoe_diff.dds</File>
+    <File md5="CE7FE5F6F35C5F89CE41B2FC61EEA66D" import="1">Art/Unit/MC_Noka_Canoe_sref.dds</File>
+    <File md5="059D0841DE37B4292F874EDE4F9AF65E" import="1">Art/Unit/sv_MC_Noka_Canoe.dds</File>
+    <File md5="F5FAC6E9398B738F2A20797AD79B17E7" import="0">Core/MC_Calusa_Civilization.sql</File>
+    <File md5="170D515B283EB6B702BED6FFFFA59562" import="0">Core/MC_Calusa_Buildings.sql</File>
+    <File md5="D0D49076AEB355F9D5E9C18CE0174D0C" import="0">Core/MC_Calusa_Units.sql</File>
+    <File md5="07BFB1830CF091753F532793BA1576E7" import="0">Core/MC_Calua_Leaderhead.sql</File>
+    <File md5="E3856658AF73B1FB9CE22964D7F2EC10" import="0">Core/MC_Calusa_GameText.sql</File>
+    <File md5="F7B4F3211550C6D43F5911C86492E884" import="0">Core/MC_Calusa_PlayerColours.sql</File>
+    <File md5="96E524484EC951D09875FC5964F53F96" import="0">Core/MC_Calusa_Traits.sql</File>
+    <File md5="3420DE553498DBE88BF950FD53FE302B" import="0">Core/Mod Support/Decisions Support/MC_Calusa_DecisionFunctions.lua</File>
+    <File md5="A28EB20EFE74E7E6A309A22A2F3510D8" import="1">Core/Mod Support/Decisions Support/MC_Calusa_Decisions.lua</File>
+    <File md5="3FD5195BF7FE237A7CE9F9C07C6849D7" import="0">Core/Mod Support/Decisions Support/MC_Calusa_Decisions.sql</File>
+    <File md5="2E2C743593754B94B8F82F4A083373DC" import="0">Core/Mod Support/MC_Calusa_ModSupport.sql</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+    <File md5="04EA5E01FBDE3D8FDBEB7354FD9EA24A" import="0">Lua/MC_Calusa_CoreFunctions.lua</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Lua/Sukritact_SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/MC_Calusa_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Calua_Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Calusa_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Calusa_Civilization.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Calusa_GameText.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Calusa_PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/MC_Calusa_Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Art/MC_Calusa_Audio.sql</UpdateDatabase>
+      <UpdateDatabase>Art/MC_Calusa_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Mod Support/Decisions Support/MC_Calusa_Decisions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Mod Support/MC_Calusa_ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/MC_Calusa_CoreFunctions.lua">
+      <Name>MC_Calusa_CoreFunctions.lua</Name>
+      <Description>MC_Calusa_CoreFunctions.lua</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Core/Mod Support/Decisions Support/MC_Calusa_DecisionFunctions.lua">
+      <Name>MC_Calusa_DecisionFunctions.lua</Name>
+      <Description>MC_Calusa_DecisionFunctions.lua</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

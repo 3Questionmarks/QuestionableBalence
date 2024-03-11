@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:25:28 PM -->
+<GameData>
+	<!-- Increase Cost to 3000 -->
+	<Units>
+		<Update>
+			<Where Class="UNITCLASS_SS_STASIS_CHAMBER" />
+			<Set Cost="3000" />
+		</Update>
+		<Update>
+			<Where Class="UNITCLASS_SS_ENGINE" />
+			<Set Cost="3000" />
+		</Update>
+		<Update>
+			<Where Class="UNITCLASS_SS_COCKPIT" />
+			<Set Cost="3000" />
+		</Update>
+		<Update>
+			<Where Class="UNITCLASS_SS_BOOSTER" />
+			<Set Cost="3000" />
+		</Update>
+	</Units>
+	
+	<!-- SS boster now at Nucular Fussion -->
+	<Units>
+		<Update>
+			<Set PrereqTech="TECH_NUCLEAR_FUSION" />
+			<Where Class="UNITCLASS_SS_BOOSTER" />
+		</Update>
+	</Units>
+	<!-- SS cockpit now at gloablization -->
+	<Units>
+		<Update>
+			<Set PrereqTech="TECH_GLOBALIZATION" />
+			<Where Class="UNITCLASS_SS_COCKPIT" />
+		</Update>
+	</Units>
+</GameData>

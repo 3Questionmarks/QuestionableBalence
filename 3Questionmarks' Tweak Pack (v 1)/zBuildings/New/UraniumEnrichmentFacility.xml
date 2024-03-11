@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/13/2016 11:12:36 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_UEF</Type>
+			<DefaultBuilding>BUILDING_FACILITY</DefaultBuilding>
+			<Description>Uranium Enrichment Facility</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_FACILITY</Type>
+			<BuildingClass>BUILDINGCLASS_UEF</BuildingClass>
+			<Cost>1000</Cost>
+			<GoldMaintenance>5</GoldMaintenance>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+			<Help>Requires 1 [ICON_RES_URANIUM] Uranium to build, but provides 2 [ICON_RES_URANIUM] Uranium after construction. Each source of [ICON_RES_URANIUM] Uranium worked by this city produces +2 [ICON_PRODUCTION] Production.</Help>
+			<Description>Uranium Enrichment Facility</Description>
+			<Civilopedia>Enriched uranium is a type of uranium in which the percent composition of uranium-235 has been increased through the process of isotope separation. Natural uranium is 99.284% U-238 isotope, with U-235 only constituting about 0.711% of its weight. U-235 is the only nuclide existing in nature (in any appreciable amount) that is fissile with thermal neutrons.[NEWLINE][NEWLINE]Enriched uranium is a critical component for both civil nuclear power generation and military nuclear weapons. The International Atomic Energy Agency attempts to monitor and control enriched uranium supplies and processes in its efforts to ensure nuclear power generation safety and curb nuclear weapons proliferation.[NEWLINE][NEWLINE]During the Manhattan Project enriched uranium was given the codename oralloy, a shortened version of Oak Ridge alloy, after the location of the plants where the uranium was enriched. The term oralloy is still occasionally used to refer to enriched uranium.</Civilopedia>
+			<ArtDefineTag>ART_DEF_BUILDING_NUCLEAR_PLANT</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>UEF</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_FACILITY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FACILITY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FACILITY</BuildingType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FACILITY</BuildingType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_UEF</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	
+	<!-- Uncomment the following block if you wish for the Uranium Enrichment Facility to require a Nuclear Plant to be present in the city to be built -->
+	<!--
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_FACILITY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	-->
+	
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_FACILITY</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+
+	<Building_ResourceQuantityRequirements>
+		<Row>
+			<BuildingType>BUILDING_FACILITY</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
+	
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FACILITY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FACILITY</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+</GameData>

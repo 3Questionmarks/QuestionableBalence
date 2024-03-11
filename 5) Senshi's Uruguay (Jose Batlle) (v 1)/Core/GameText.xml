@@ -1,0 +1,301 @@
+﻿<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_01">
+			<Text>Montevideo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_02">
+			<Text>Salto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_03">
+			<Text>Paysandu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_04">
+			<Text>Colonia del Sacramento</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_05">
+			<Text>Ciudad de la Costa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_06">
+			<Text>Las Piedras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_07">
+			<Text>Rivera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_08">
+			<Text>Maldonaldo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_09">
+			<Text>Tacuarembo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_10">
+			<Text>Melo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_11">
+			<Text>Mercedes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_12">
+			<Text>Artigas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_13">
+			<Text>Minas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_14">
+			<Text>San Jose de Mayo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_15">
+			<Text>Durazno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_16">
+			<Text>Florida</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_17">
+			<Text>Barros Blancos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_18">
+			<Text>Ciudad del Plata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_19">
+			<Text>San Carlos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_20">
+			<Text>Pando</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_21">
+			<Text>Trienta y Tres</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_22">
+			<Text>Rocha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_23">
+			<Text>Fray Bentos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_24">
+			<Text>Trinidad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_25">
+			<Text>La Paz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_26">
+			<Text>Canelones</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_27">
+			<Text>Carmelo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_28">
+			<Text>Dolores</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_29">
+			<Text>Young</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_30">
+			<Text>Santa Lucia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_31">
+			<Text>Progreso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_32">
+			<Text>Paso de Carrasco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_33">
+			<Text>Rio Branco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_34">
+			<Text>Paso de los Toros</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENSHI_URUGUAY_35">
+			<Text>Dr. Francisco Soca</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_URUGUAY_0">
+			<Text>Gervasio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_URUGUAY_1">
+			<Text>Juan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_URUGUAY_2">
+			<Text>Manuel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_URUGUAY_3">
+			<Text>Juan Manuel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_URUGUAY_4">
+			<Text>Matilde</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_URUGUAY_5">
+			<Text>Ana</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_URUGUAY_6">
+			<Text>Amalia</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_URUGUAY_7">
+			<Text>Santiago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_URUGUAY_8">
+			<Text>Fructuoso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_SENSHI_URUGUAY_9">
+			<Text>Dorado</Text>
+		</Row>
+
+		<!--Demonyms-->
+		<Row Tag="TXT_KEY_CIV_SENSHI_URUGUAY_ADJECTIVE">
+			<Text>Uruguayan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_URUGUAY_DESC">
+			<Text>Oriental Republic of Uruguay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_SENSHI_URUGUAY_SHORT_DESC">
+			<Text>Uruguay</Text>
+		</Row>
+
+		<!--DoM-->
+		<Row Tag="TXT_KEY_CIV5_DOM_SENSHI_BATLLE_TEXT">
+			<Text>Long life to you, magnanimous José Batlle y Ordóñez, Father of Modern Uruguay! While small, Uruguay is a grand and prosperous land, at a level of social advancement envied by all its neighbours, and much of the world! Under your fair governance, the decades-long Uruguayan Civil War was finally brought to a definitive close, and a grand series of social reforms were undertaken to transform the country; secularization, universal suffrage, and widespread education were all brought to the country under your leadership. Truly, it was your policies that formed the Oriental Republic into the beautiful nation it is today![NEWLINE][NEWLINE]Humble president, your people once more request your fair guidance. Will you stay true to your magnanimous ideal, and forge Uruguay into the utopia you have foreseen? Will you build a civilization to stand the test of time?</Text>
+		</Row>
+
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_CIV5_SENSHI_URUGUAY_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_URUGUAY_TEXT_1">
+			<Text>Uruguay, officially the Oriental Republic of the Uruguay, is a country in the southeastern region of South America. It borders Argentina to its west and Brazil to its north and east, with the Río de la Plata to the south and the Atlantic Ocean to the southeast. Uruguay is home to an estimated 3.44 million people, of whom 1.8 million live in the metropolitan area of its capital and largest city, Montevideo.[NEWLINE]Uruguay was inhabited by the Charrúa people for approximately 4,000 years before the Portuguese established Colonia del Sacramento in 1680; Uruguay was colonized by Europeans relatively late compared with neighboring countries. Montevideo was founded as a military stronghold by the Spanish in the early 18th century, signifying the competing claims over the region. Uruguay won its independence between 1811 and 1828, following a four-way struggle between Spain, Portugal, and later Argentina and Brazil. It remained subject to foreign influence and intervention throughout the 19th century, with the military playing a recurring role in domestic politics.[NEWLINE]A series of economic crises put an end to a democratic period that had begun in the early 20th century, culminating in a 1973 coup, which established a civic-military dictatorship. The military government persecuted leftists, socialists, and political opponents, resulting in several deaths and numerous instances of torture by the military; the military relinquished power to a civilian government in 1985. Uruguay is today a democratic constitutional republic, with a president who serves as both head of state and head of government.[NEWLINE]Uruguay is regarded as one of the most socially advanced, outstanding regionally, and ranking highly on global measures of personal rights, tolerance, and inclusion issues. It is ranked first in Latin America in democracy, peace, low perception of corruption, and is first in South America when it comes to press freedom, size of the middle class and prosperity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_URUGUAY_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_URUGUAY_TEXT_2">
+			<Text>With 176,214 km2 of continental land and 142,199 km2 of jurisdictional water and small river islands, Uruguay is the second smallest sovereign nation in South America (after Suriname) and the third smallest territory (French Guiana is the smallest). The landscape features mostly rolling plains and low hill ranges (cuchillas) with a fertile coastal lowland. Uruguay has 660 km of coastline.[NEWLINE]A dense fluvial network covers the country, consisting of four river basins, or deltas: the Río de la Plata Basin, the Uruguay River, the Laguna Merín and the Río Negro. The major internal river is the Río Negro. Several lagoons are found along the Atlantic coast.[NEWLINE]Located entirely within a temperate zone, Uruguay has a climate that is relatively mild and fairly uniform nationwide. Seasonal variations are pronounced, but extremes in temperature are rare. As would be expected with its abundance of water, high humidity and fog are common. The absence of mountains, which act as weather barriers, makes all locations vulnerable to high winds and rapid changes in weather as fronts or storms sweep across the country. Both summer and winter weather may vary from day to day with the passing of storm fronts, where a hot northerly wind may occasionally be followed by a cold wind (pampero) from the Argentine Pampas.[NEWLINE]Uruguay has a largely uniform temperature throughout the year, with summers being tempered by winds off the Atlantic; severe cold in winter is unknown. The heaviest precipitation occurs during the autumn months, although more frequent rainy spells occur in winter. The mean annual precipitation is generally greater than 1,000 mm, decreasing with distance from the sea coast, and is relatively evenly distributed throughout the year.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_URUGUAY_HEADING_3">
+			<Text>Early Colonization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_URUGUAY_TEXT_3">
+			<Text>The Portuguese were the first Europeans to enter the region of present-day Uruguay in 1512. The Spanish arrived in present-day Uruguay in 1516. The indigenous peoples' fierce resistance to conquest, combined with the absence of gold and silver, limited their settlement in the region during the 16th and 17th centuries. Uruguay then became a zone of contention between the Spanish and Portuguese empires. In 1603, the Spanish began to introduce cattle, which became a source of wealth in the region. The first permanent Spanish settlement was founded in 1624 at Soriano on the Río Negro. In 1669–71, the Portuguese built a fort at Colonia del Sacramento.[NEWLINE]Montevideo was founded by the Spanish in the early 18th century as a military stronghold in the country. Its natural harbor soon developed into a commercial area competing with Río de la Plata's capital, Buenos Aires. Uruguay's early 19th century history was shaped by ongoing fights for dominance in the Platine region, between British, Spanish, Portuguese and other colonial forces. In 1806 and 1807, the British army attempted to seize Buenos Aires and Montevideo as part of the Napoleonic Wars. Montevideo was occupied by a British force from February to September 1807.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_URUGUAY_HEADING_4">
+			<Text>Independence Struggle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_URUGUAY_TEXT_4">
+			<Text>In 1811, José Gervasio Artigas, who became Uruguay's national hero, launched a successful revolt against the Spanish authorities, defeating them on 18 May at the Battle of Las Piedras.[NEWLINE]In 1813, the new government in Buenos Aires convened a constituent assembly where Artigas emerged as a champion of federalism, demanding political and economic autonomy for each area, and for the Banda Oriental in particular. The assembly refused to seat the delegates from the Banda Oriental, however, and Buenos Aires pursued a system based on unitary centralism.[NEWLINE]As a result, Artigas broke with Buenos Aires and besieged Montevideo, taking the city in early 1815. Once the troops from Buenos Aires had withdrawn, the Banda Oriental appointed its first autonomous government. Artigas organized the Federal League under his protection, consisting of six provinces, four of which later became part of Argentina.[NEWLINE]In 1816, a force of 10,000 Portuguese troops invaded the Banda Oriental from Brazil; they took Montevideo in January 1817. After nearly four more years of struggle, the Portuguese Kingdom of Brazil annexed the Banda Oriental as a province under the name of "Cisplatina". The Brazilian Empire became independent of Portugal in 1822. In response to the annexation, the Thirty-Three Orientals, led by Juan Antonio Lavalleja, declared independence on 25 August 1825 supported by the United Provinces of the Río de la Plata (present-day Argentina). This led to the 500-day-long Cisplatine War. Neither side gained the upper hand and in 1828 the Treaty of Montevideo, fostered by the United Kingdom through the diplomatic efforts of Viscount John Ponsonby, gave birth to Uruguay as an independent state. 25 August is celebrated as Independence Day, a national holiday. The nation's first constitution was adopted on 18 July 1830.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_URUGUAY_HEADING_5">
+			<Text>20th Century</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_URUGUAY_TEXT_5">
+			<Text>The Colorado leader José Batlle y Ordóñez was elected president in 1903. The following year, the Blancos led a rural revolt and eight bloody months of fighting ensued before their leader, Aparicio Saravia, was killed in battle. Government forces emerged victorious, leading to the end of the co-participation politics that had begun in 1872.  Batlle had two terms (1903–07 and 1911–15) during which, taking advantage of the nation's stability and growing economic prosperity, he instituted major reforms, such as a welfare program, government participation in many facets of the economy, and a plural executive.[NEWLINE]Gabriel Terra became president in March 1931. His inauguration coincided with the effects of the Great Depression, and the social climate became tense as a result of the lack of jobs. There were confrontations in which police and leftists died. In 1933, Terra organized a coup d'état, dissolving the General Assembly and governing by decree. A new constitution was promulgated in 1934, transferring powers to the president. In general, the Terra government weakened or neutralized economic nationalism and social reform.[NEWLINE]In 1938, general elections were held and Terra's brother-in-law, General Alfredo Baldomir, was elected president. Under pressure from organized labor and the National Party, Baldomir advocated free elections, freedom of the press, and a new constitution. Although Baldomir declared Uruguay neutral in 1939, British warships and the German ship Admiral Graf Spee fought a battle not far off Uruguay's coast. The Admiral Graf Spee took refuge in Montevideo, claiming sanctuary in a neutral port, but was later ordered out.[NEWLINE]In the late 1950s, partly because of a worldwide decrease in demand for Uruguyan agricultural products, Uruguayans suffered from a steep drop in their standard of living, which led to student militancy and labor unrest. An armed group, known as the Tupamaros emerged in the 1960s, engaging in activities such as bank robbery, kidnapping and assassination, in addition to attempting an overthrow of the government.[NEWLINE]President Jorge Pacheco declared a state of emergency in 1968, followed by a further suspension of civil liberties in 1972. In 1973, amid increasing economic and political turmoil, the armed forces, asked by the President Juan María Bordaberry, closed the Congress and established a civilian-military regime. Uruguay actively participated in Operation Condor. Around 200 Uruguayans are known to have been killed and disappeared, with hundreds more illegally detained and tortured during the 12-year civil-military rule of 1973 to 1985. Most were killed in Argentina and other neighboring countries, with 36 of them having been killed in Uruguay.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_URUGUAY_HEADING_6">
+			<Text>Return to democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SENSHI_URUGUAY_TEXT_6">
+			<Text>A new constitution, drafted by the military, was rejected in a November 1980 referendum. Following the referendum, the armed forces announced a plan for the return to civilian rule, and national elections were held in 1984. Colorado Party leader Julio María Sanguinetti won the presidency and served from 1985 to 1990. The first Sanguinetti administration implemented economic reforms and consolidated democracy following the country's years under military rule.[NEWLINE]The National Party's Luis Alberto Lacalle won the 1989 presidential election and amnesty for human rights abusers was endorsed by referendum. Sanguinetti was then re-elected in 1994. Both presidents continued the economic structural reforms initiated after the reinstatement of democracy and other important reforms were aimed at improving the electoral system, social security, education, and public safety.[NEWLINE]The 1999 national elections were held under a new electoral system established by a 1996 constitutional amendment. Colorado Party candidate Jorge Batlle, aided by the support of the National Party, defeated Broad Front candidate Tabaré Vázquez. The formal coalition ended in November 2002, when the Blancos withdrew their ministers from the cabinet, although the Blancos continued to support the Colorados on most issues. Low commodity prices and economic difficulties in Uruguay's main export markets (starting in Brazil with the devaluation of the real, then in Argentina in 2002), caused a severe recession; the economy contracted by 11%, unemployment climbed to 21%, and the percentage of Uruguayans in poverty rose to over 30%.[NEWLINE] In 2004, Uruguayans elected Tabaré Vázquez as president, while giving the Broad Front a majority in both houses of Parliament. Vázquez stuck to economic orthodoxy. As commodity prices soared and the economy recovered from the recession, he tripled foreign investment, cut poverty and unemployment, cut public debt from 79% of GDP to 60%, and kept inflation steady.[NEWLINE]In 2009, José Mujica, a former left-wing militant who spent almost 15 years in prison during the country's military rule, emerged as the new President as the Broad Front won the election for a second time. Abortion was legalized in 2012, followed by same-sex marriage and cannabis in the following year.[NEWLINE]In 2014, Tabaré Vázquez was elected to a non-consecutive second presidential term, which began on 1 March 2015.</Text>
+		</Row>
+		
+		<!--Leader-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_LIVED">
+			<Text>1856 - 1929</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_NAME">
+			<Text>José Batlle y Ordóñez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_SUBTITLE">
+			<Text>Father of Modern Uruguay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SENSHI_BATLLE">
+			<Text>José Batlle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_TITLES_1">
+			<Text>President of Uruguay, Prime Minister of Uruguay</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_TEXT_1">
+			<Text>José Batlle y Ordóñez was an Uruguayan politician who created the modern Uruguayan welfare state by his reforms.[NEWLINE]In 1898, for a few weeks he served as interim president and later was elected to the presidency for two terms, from 1904 until 1907 and from 1911 to 1915.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_HEADING_2">
+			<Text>Background</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_TEXT_2">
+			<Text>Batlle family are some of the most prominent members of the Colorado Party. He was the son of former President Lorenzo Batlle y Grau. His children César, Rafael and Lorenzo were actively engaged in politics. He was the uncle of another Uruguayan President, Luis Batlle Berres and the great-uncle of President Jorge Batlle.[NEWLINE]He was a prominent journalist, who founded El Día newspaper in 1886. Batlle used his newspaper as a political platform for criticizing his opponents and promoting his reformist agenda.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_HEADING_3">
+			<Text>First Term</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_TEXT_3">
+			<Text>In 1904 Batlle's government forces successfully ended the intermittent Uruguayan Civil War which had persisted for many years, when the opposing National Party leader Aparicio Saravia was killed at the battle of Masoller. Without their leader, Saravia's followers abandoned their fight, starting a period of relative peace.[NEWLINE]During Batlle y Ordóñez's term in office, secularization became a major political issue. Uruguay banned crucifixes in hospitals by 1906, and eliminated references to God and the Gospel in public oaths. Divorce laws were also established during this time. He led Uruguay's delegation to the Second Hague Conference and was noted for his peace proposals there. Much of the time between his two terms Batlle spent travelling in Europe and picking up ideas for new political and social reforms, which he introduced during his second term.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_HEADING_4">
+			<Text>Second Term</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_TEXT_4">
+			<Text>In 1913, Batlle proposed a reorganization of the government which would replace the presidency by a nine-member National Council of Administration, similar to the Swiss Federal Council. Batlle’s proposal for a collective leadership body was defeated in 1916 referendum, but he managed to establish a model in which executive powers were split between the Presidency and the National Council of Administration when a variant of his proposal was implemented with the Constitution of 1918.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_HEADING_5">
+			<Text>Economy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_TEXT_5">
+			<Text>During Batlle's second term, he began a new movement and referred to as Batllismo: concerted state action against foreign economic imperialism. During this time he fought for such things as unemployment compensation (1914), eight-hour workdays (1915), and universal suffrage. As President, Battle introduced a wide range of reforms in areas such as social security and working conditions.[NEWLINE]All of this brought a great government involvement into the economy. Private monopolies were turned into government monopolies and tariffs were imposed on foreign products, including machinery and raw material imports. The growth of the meat processing industry stimulated the livestock industry, Uruguay's main source of wealth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_HEADING_6">
+			<Text>Education</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_TEXT_6">
+			<Text>Education started a process of great expansion since the mid-to-late 19th century. It became the key to success for the middle class community. The state approved free high school education and created more high schools through the country. The university was also opened to women, and the enrollment increased throughout the country.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_HEADING_7">
+			<Text>Later Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SENSHI_BATLLE_TEXT_7">
+			<Text>In 1920 Batlle killed Washington Beltrán Barbat, a National Party deputy, in a formal duel that stemmed from vitriolic editorials published in Batlle's 'El Día' newspaper and Beltrán's 'El País'. His son Washington Beltrán would become President of Uruguay. He also served twice as Chairman of the National Council of Administration (1921-1923, 1927-1928).</Text>
+		</Row>
+
+		<!--Unique Ability-->
+		<Row Tag="TXT_KEY_TRAIT_SENSHI_URUGUAY_SHORT">
+			<Text>Defence of Joy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_SENSHI_URUGUAY">
+			<Text>Half of your excess [ICON_HAPPINESS_1] Happiness is provided as [ICON_PRODUCTION] Production, divided equally between your cities. Specialists provide an additional +1 of their primary yield while the empire is [ICON_HAPPINESS_1] Happy.</Text>
+		</Row>
+
+		<!--Unique Units-->
+		<Row Tag="TXT_KEY_UNIT_SENSHI_BLANDENGUE">
+			<Text>Blandengue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_BLANDENGUE_STRATEGY">
+			<Text>Unique Uruguayan replacement for the Lancer. In addition to the normal effects of the Lancer, which it replaces, the Blandengue begins with the Amphibious promotion and may construct Forts and Pastures at the same speed as a Worker. While at war, the Blandengue additionally receives +5% Combat Strength for every city the enemy owns in excess of its owner.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SENSHI_BLANDENGUE_HELP">
+			<Text>Unique Uruguayan replacement for the Lancer. In addition to the normal effects of the Lancer, which it replaces, the Blandengue begins with the Amphibious promotion and may construct Forts and Pastures at the same speed as a Worker. While at war, the Blandengue additionally receives +5% Combat Strength for every city the enemy owns in excess of its owner.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNIT_SENSHI_BLANDENGUE_TEXT">
+			<Text>Blandengues were small milities created during the colonial region in South America’s pampas region. For the most part, they were men with no military background, doing frontier police work while receiving monthly payment from their bosses. They were formed by criollos, gauchos, mestizos and blacks. They fought against the natives from the Pampa and the Chaco, was well as Portuguese and later Brazilian incursions against the Banda Oriental.</Text>
+		</Row>
+
+		<!--Unique Buildings-->
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_SALADERO">
+			<Text>Saladero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_SALADERO_STRATEGY">
+			<Text>Unique Uruguayan replacement for the Workshop. Upon being constructed, the Saladero converts a random Pasture resource (prioritizing Bonus resources) into a copy of the unique Charque Luxury Resource. In addition, Trade Routes to and from a city with a Saladero provide +1 Happiness to both the origin and destination cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SENSHI_SALADERO_HELP">
+			<Text>Unique Uruguayan replacement for the Workshop. Upon being constructed, the Saladero converts a random Pasture resource (prioritizing Bonus resources) into a copy of the unique Charque Luxury Resource. In addition, Trade Routes to and from a city with a Saladero provide +1 Happiness to both the origin and destination cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_SENSHI_SALADERO_TEXT">
+			<Text>Saladero is a basic industry that produces salted meat such as charqui. It was one of the earliest industries of Argentina and Uruguay after the Argentine War of Independence, benefiting from the availability of cattle in the Humid Pampas and the low technology and manpower requirements. Most of the production was sold to Cuba and Brazil to feed slaves. In time, it expanded into other areas, such as extracting the leather, horns and fat from cows (fat was useful for public lighting, soaps and candles). Saladero declined at the end of the 19th century, with the lowering numbers of foreign slaves (and thus the smaller demand for food for them) and the expansion of refrigeration techniques.</Text>
+		</Row>
+
+		<!--Unique Resources-->
+		<Row Tag="TXT_KEY_RESOURCE_SENSHI_CHARQUE">
+			<Text>Charque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_SENSHI_CHARQUE_TEXT">
+			<Text>Charque (from ch'arki, Quechua for dried, salted meat) is dried and salted meat common in South America, originally llama, nowadays mostly horse and beef. This was a very popular way to preserve meat in Argentina, Bolivia, Chile, Ecuador, Peru, Uruguay and Brazil. It was industrialized in charqueadas, also named saladeros (in Argentina and Uruguay). In the United States ch'arki was Anglicised as jerky.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

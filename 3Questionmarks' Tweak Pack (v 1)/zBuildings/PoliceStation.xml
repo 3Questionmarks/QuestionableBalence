@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/26/2024 7:00:43 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set Happiness="2" />
+			<Where Type="BUILDING_POLICE_STATION" />
+		</Update>
+	</Buildings>
+</GameData>

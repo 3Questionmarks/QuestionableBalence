@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2021 2:03:55 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_PRINTER</Type>
+			<DefaultBuilding>BUILDING_PRINTER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_PRINTER</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PRINTER</Type>
+			<BuildingClass>BUILDINGCLASS_PRINTER</BuildingClass>
+			<Cost>200</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_PRINTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_PRINTER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_PRINTER_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<IconAtlas>MED-REN_ICONATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_PRINTER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_PRINTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PRINTER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_PRINTER</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PRINTER</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PRINTER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PRINTER">
+			<Text>Printer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PRINTER_HELP">
+			<Text>+10% [ICON_CULTURE] Culture in this city.[NEWLINE][NEWLINE]City must have an University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PRINTER_PEDIA">
+			<Text>The profession of printer became established after the invention of the moveable type printing press by Johannes Gutenberg around 1450, and proliferated throughout Europe. Such early printers often were recognizable by individual characteristics in the works they produced, such as type or typography, and since early printed books were made in relatively small quantities they are rare and collectible.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

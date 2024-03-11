@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/30/2016 1:20:10 PM -->
+<GameData>
+
+	<!--Russian Peace Music-->
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_CATHERINE_PEACE</SoundID>
+			<Filename>Russia Peace</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_CATHERINE_PEACE</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_CATHERINE_PEACE</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>100</MinVolume>
+			<MaxVolume>100</MaxVolume>
+			<IsMusic>True</IsMusic>
+		</Row>
+	</Audio_2DSounds>
+
+</GameData>

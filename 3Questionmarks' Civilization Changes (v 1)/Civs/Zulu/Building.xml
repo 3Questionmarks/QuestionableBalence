@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 1:09:53 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_IKANDA"/>
+			<Set Cost="50"/>
+		</Update>
+	</Buildings>
+</GameData>

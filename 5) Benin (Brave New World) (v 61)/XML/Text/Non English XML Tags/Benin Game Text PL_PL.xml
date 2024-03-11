@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh-->
+<GameData>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BENIN_MOD_IYA">
+			<Text>Iya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_BENIN_MOD_IYA_HELP">
+			<Text>The Iya is primarily a defensive improvement that provides +25% [ICON_STRENGTH] Tile Defense and, as part of Benin's unique ability, has the ability to heal adjacent land units in friendly territory +8 HP every turn regardless of previous action. If built adjacent to a City, the Iya will also provide +1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production. After Industrialization is researched, all Iya generate an additional +1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production. The Iya may only be built on Flatland Tiles and cannot be built on top of Resources. Similar to the Fort, the Iya is destroyed rather than damaged when pillaged.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_IYA_TEXT">
+			<Text>The Iya is primarily a defensive improvement that provides +25% [ICON_STRENGTH] Tile Defense and, as part of Benin's unique ability, has the ability to heal adjacent land units in friendly territory +8 HP every turn regardless of previous action. If built adjacent to a City, the Iya will also provide +1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production. After Industrialization is researched, all Iya generate an additional +1 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production. The Iya may only be built on Flatland Tiles and cannot be built on top of Resources. Similar to the Fort, the Iya is destroyed rather than damaged when pillaged.[NEWLINE][NEWLINE]The walls of Benin were a combination of ramparts and moats, called Iya in the local language, used as a defense of the historical Benin City and its surrounding territories. It was hailed as the largest earthwork in the world consisting of about 37 million metric tons of earth (requiring more earth to be moved than even the Great Pyramid of Giza). The walls enclosed 6,500 km² of community lands, with a length of over 10,000 km earth boundaries. It was estimated that earliest construction began in AD 800 and continued into the mid 1400s. Benin City was split up into the Oba's Palace and 40 wards. The network of walls stretched from the city and enclosed the surrounding villages in a radius of over 100 km. There could have perhaps been over 5,000 km of wall in the capital alone. The city moats probably took close to 150 million man-hours to dig.[NEWLINE][NEWLINE]Unfortunately, modernity has not been kind to the fabled walls of the Benin Empire. The walls of Benin were ravaged by the British in 1897 in a punitive expedition. Today, with the expansion of modern Benin City thanks to an oil boom, much of the walls continue to be removed for building materials to fill modern structures or to make room for new buildings. In the last 30 years, the earthwork has suffered tremendously. More than 60% of the walls in Benin City have been damaged. The moat is being destroyed at such a rate that it may disappear in our lifetime.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_BENIN_MOD_IYA">
+			<Text>Construct an [LINK=IMPROVEMENT_BENIN_MOD_IYA]Iya[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_BENIN_MOD_IYA_HELP">
+			<Text>The Iya heals adjacent units and provides extra tile defense. If built adjacent to a City, the Iya also generates [ICON_GOLD] Gold and [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_BENIN_MOD_IYA_REC">
+			<Text>The Iya heals adjacent units and provides extra tile defense. If built adjacent to a City, the Iya also generates [ICON_GOLD] Gold and [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BENIN_QUEEN_MOD">
+			<Text>Isienmwenro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNIT_BENIN_QUEEN_MOD_TEXT">
+			<Text>The Benin state had no standing army except that organized and controlled by the Oba. This royal regiment was divided into two units: the Ekaiwe, generalized troops, and the Isienmwenro; specialized royal guards. A detachment of the Isienmwenro existed in most towns of the empire, and each was responsible to an Ekegbian in Benin City. The Isienmwenro adopted the appellation of Asaka no s'Oghionba ("soldier ants that sting the Oba's enemies") and would tattoo their bodies with a spear-point in order to demonstrate their fighting spirit.[NEWLINE][NEWLINE]Benin's tactics were well organized, with preliminary plans weighed by the Oba and his sub-commanders. Logistics were organized to support missions from the usual porter forces, water transport via canoe, and requisitioning from localities the army passed through. Tactics in the field seem to have evolved over time. While the head-on clash was well known, documentation from the 18th century shows greater emphasis on avoiding continuous battle lines and more effort to encircle an enemy ("ifianyako").</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BENIN_QUEEN_MOD_STRATEGY">
+			<Text>The Isienmwenro is the Benin unique unit, replacing the Pikeman. It is especially adept at flanking and outmaneuvering enemy units, with the ability to ignore enemy Zones of Control and gaining +1 Movement if it begins its turn adjacent to an enemy unit. Additionally, the Isienmwenro receives a minor bonus to Flank Attacks, allowing it to better leverage its unique movement options.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BENIN_QUEEN_MOD_HELP">
+			<Text>Loyal medieval infantry that excels at defeating Mounted Units and out-maneuvering the enemy. Only Benin may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BENIN_IFI_MOD">
+			<Text>Ifianyako</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BENIN_IFI_MOD_HELP">
+			<Text>Ignore enemy Zones of Control. Flank Attack bonus increased by 25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BENIN_MOVE_MOD">
+			<Text>Maneuver</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BENIN_MOVE_MOD_HELP">
+			<Text>+1 Movement if this Unit begins its turn adjacent to an enemy Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_BENIN_MOD_TRAIT_SHORT">
+			<Text>Shield of the Warrior King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_BENIN_MOD_TRAIT">
+			<Text>The [ICON_STRENGTH] Defensive Strength of your Cities is increased by 15% and your [ICON_CAPITAL] Capital starts with Walls already constructed. Land units adjacent to an Iya heal +8 HP every turn regardless of previous action.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_BENIN_MOD_TEXT">
+			<Text>Mighty Ewuare, unrivalled Warrior King of the Edo, your people have never ceased to sing your legend. You lead the indomitable Benin civilization; one of the oldest and most developed states of pre-colonial West Africa. Known for their mighty fortifications and skill in casting bronze, they were nevertheless divided until you, great leader, set about uniting the warring Edo peoples. Your reign laid the foundation of a mighty kingdom which, over the next two centuries, would transform the Niger River Delta into an empire that gave pause to even the British crown. Yet, Benin's reach was not limitless. To the east, the warring Igbo prevented entry past the mighty Niger, and to the north; the Islamic faith united the scattered tribes into a force few could hope to match. Finally, the walls of Benin fell to the advance of imperialism as Britain and Portugal divided the continent.[NEWLINE][NEWLINE]Unmatched Oba, war has once again ravaged the Edo as foreign crowns have left your land divided and destitute. It is time to reunite your people and lead them into a new era of peace and prosperity. Can you restore the lost glory of your divine kingship? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_DESC">
+			<Text>Benin Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_SHORT_DESC">
+			<Text>Benin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_ADJECTIVE">
+			<Text>Benin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD">
+			<Text>Benin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_UBINI">
+			<Text>Ubini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_UDO">
+			<Text>Udo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_UMOGHUMWUN">
+			<Text>Umoghumwun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_IFE">
+			<Text>Ilé-Ifè</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_LAGOS">
+			<Text>Lagos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_UROMI">
+			<Text>Uromi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_IBADAN">
+			<Text>Ibadan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_ADO_EKITI">
+			<Text>Ekiti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_AKURE">
+			<Text>Akure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_USE">
+			<Text>Use</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_IGBINI">
+			<Text>Igbini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_UGHOTON">
+			<Text>Ughoton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_URHONIGBE">
+			<Text>Urhonigbe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_SAPELE">
+			<Text>Sapele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_OWO">
+			<Text>Owo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_ONDO">
+			<Text>Ondo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_ILESHA">
+			<Text>Ilesha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_IJEBU_ODE">
+			<Text>Ijebu-Ode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_OTUN">
+			<Text>Otun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_IDAH">
+			<Text>Idah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_IGBO_UKWU">
+			<Text>Ukwu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_OSHOGBO">
+			<Text>Oshogbo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_WARI">
+			<Text>Wari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_OKHA">
+			<Text>Okha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_OPOJI">
+			<Text>Opoji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_IKATE">
+			<Text>Ikate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_AJIRAN">
+			<Text>Ajiran</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_AJA">
+			<Text>Aja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_EVBOHUAN">
+			<Text>Evbohuan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_EHOR">
+			<Text>Ehor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_UZEBU">
+			<Text>Uzebu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_UGBOKO_NOSOTE">
+			<Text>Ugboko-Nosoté</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_EKHUELE">
+			<Text>Ekhuele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_OBADAN">
+			<Text>Obadan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_EGORO">
+			<Text>Egoro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_ILORIN">
+			<Text>Ilorin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_LOKOJA">
+			<Text>Lokoja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_EKPOMA">
+			<Text>Ekpoma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BENIN_MOD_UROHI">
+			<Text>Urohi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_BENIN_MOD_0">
+			<Text>Okpame</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_BENIN_MOD_1">
+			<Text>Arualan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_BENIN_MOD_2">
+			<Text>Edoni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_BENIN_MOD_3">
+			<Text>Akenzua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_BENIN_MOD_4">
+			<Text>Eresoyen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_BENIN_MOD_5">
+			<Text>Idia</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_BENIN_MOD_6">
+			<Text>Erewinde</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_BENIN_MOD_7">
+			<Text>Erediauwa</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_BENIN_MOD_8">
+			<Text>Ifueko</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_BENIN_MOD_9">
+			<Text>Iziegbe</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_TITLE">
+			<Text>Benin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_TEXT_1">
+			<Text>The Benin or Edo Empire (AD 1040 - 1897) was a large pre-colonial African state in what is now modern Nigeria, Benin, and Togo, centered on the Niger River Delta. While it existed, the Benin Empire was an economic and political power that unified a large number of West African ethnic groups. Today, its cultural legacy survives through the world famous Benin Bronzes, the remnants of the traditional city walls of Benin City, as well as in the Oba of Benin who serves as the symbolic leader of the Edo people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_HEADING_2">
+			<Text>Climate and Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_TEXT_2">
+			<Text>The Benin Empire was centred on the Niger River Delta, defined with both salt and fresh water swampland. Warfare via canoe proved essential to navigate the various lagoons, creeks, and rivers of the delta. Its far south consisted of tropical rainforest as well as coastal plains. The area southwest of the Niger consists of rugged highlands. Both copper and ivory were plentiful and provided the most valuable resources of the empire especially in its waning years as exports to Europe.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_HEADING_3">
+			<Text>Mythic Origins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_TEXT_3">
+			<Text>According to Benin mythology, their land is the cradle of the world which was founded by the first king who was the youngest son of Osanobua (also called Osanoghodua) the Supreme God, the Almighty. At the time the Supreme God sent his children to the world, the earth was all water and void, and He gave them the option to choose their heart desires. One of his children chose wealth, the other chose knowledge, and another chose medicine or mystical knowledge. The youngest child had nothing apparently to choose and looking around, he saw a snail shell which was found to contain sand. When they got to the world, they found it covered with water. On the instructions of a divine bird, the youngest son upturned the snail shell in an area which is now Edo (Benin) and the place became land. Thus, the youngest son became the owner of the land, which made him powerful and wealthy, and on the request of his elder brothers, he had to share portions of it with them for their settlement. This is why the Benin man says "Oba yanto ya se evbo-ebo" meaning, "Oba of Benin owns the land up to European countries."[NEWLINE][NEWLINE]The Benin kingship, likewise, is steeped in myth. The mythic origins of Benin state that the city was originally under the rule of Ogisos, meaning "Kings of the Sky." When the last Ogiso died, the nobles and chiefs disagreed over who would be the next Ogiso, so the Benin people sent a message to Oduduwa, the mythic ancient first king of Ife. The Benin pleaded with him to send them a king; eventually Oduduwa sent to them his grandson, prince Oranmiyan. When Oranmiyan came to Benin, he struggled with the culture and customs of the Benin people. Because of his own difficulties acclimating to his new kingdom, Oba Oranmiyan changed the name of the city to Ile-Ibinu which in the Yoruba language means the "Land of Vexation," and decided to leave the city. However, before leaving Benin, Oranmiyan had a son, Eweka, by princess Erewinde.[NEWLINE][NEWLINE]When Oranmiyan heard of this, he sent to him seven marbles for the child to play with. One day, as the prince was playing, one of the marbles broke. He immediately said "Owomika!", meaning "I succeeded!" He would become the first true Oba of Benin, Oba Eweka I. Oba Eweka was the first to reject the title of the native Ogiso and took the title Oba, meaning "King" in the Yoruba language. Allegedly Oba Eweka later changed the name of the city of Ile-Ibinu, the capital of the Benin kingdom, to Ubini. This name would be reinterpreted by the Portuguese as Benin in their own language. Around 1470, Oba Ewuare would again chang the name of the state to Edo.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_HEADING_4">
+			<Text>Golden Age</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_TEXT_4">
+			<Text>Benin's status as a regional powerhouse coalesced in the 15th century under the leadership of Oba Ewuare (enthroned ca. 1440). Ewuare is credited with many innovations that defined and gave structure to Benin kingship, including improvements to the royal capital, Benin City, the establishment of the three associations of palace chiefs, and the creation of an annual cycle of royal rituals to protect and renew the kingdom.[NEWLINE][NEWLINE]Oba Ewuare cemented his status as a mighty warrior when he and his army marched on and subdued some 201 villages in Southern Nigeria during his reign. In a relatively short time hehad turned Benin from a tribal and confused state, characterized by power struggles between Oba and chiefs, into a recognizable military force and a prosperous Empire. As Ewuare planned, this venture was continued by his son, aptly named Ozula the Conqueror, who carried on striving for the realization of his father's vision, until Benin ruled all of the region now known as Southern Nigeria.[NEWLINE][NEWLINE]The Benin Empire, as with the Oyo Empire which eventually gained political ascendancy over even Ile-Ife, gained political strength and ascendancy over much of what is now Mid-Western and Western Nigeria, with the Oyo Empire bordering it on the west, the Niger River on the east, and the northerly lands succumbing to Fulani Muslim invasion in the North. Interestingly, much of what is now known as Western Iboland and even Yorubaland was conquered by the Benin Kingdom in the late 19th century.[NEWLINE][NEWLINE]Benin soon increased in both income and repute, as the city was transformed into something much more closely resembling a military fortress. To enclose his palace, Oba Ewuare commanded the building of Benin's inner wall, a seven mile (11 km) long earthen rampart girded by a moat 50 feet (15 m) deep. This was excavated in the early 1960s. It is estimated that its construction, if spread out over five dry seasons, would have required a workforce of 1,000 laborers working ten hours a day seven days a week. Ewuare also added great thoroughfares and erected nine fortified gateways. Excavations also uncovered a rural network of earthen walls 4 to 8 thousand miles long that would have taken an estimated 150 million man hours to build and must have taken hundreds of years to build. These were apparently raised to mark out territories for towns and cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_HEADING_5">
+			<Text>Military</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_TEXT_5">
+			<Text>The kingdom of Benin offers a snapshot of a relatively well-organized and sophisticated African polity in operation before the major European colonial interlude. Military operations relied on a well-trained disciplined force. At the head of the host stood the Oba of Benin. The monarch of the realm served as supreme military commander. Beneath him were subordinate generalissimos, the Ezomo, the Iyase, and others who supervised a Metropolitan Regiment based in the capital, and a Royal Regiment made up of hand-picked warriors that also served as bodyguards. Benin's Queen Mother also retained her own regiment, the "Queen's Own."[NEWLINE][NEWLINE]Until the introduction of guns in the 15th century, traditional weapons like the spear and bow held sway. Efforts were made to reorganize a local guild of blacksmiths in the 18th century to manufacture light firearms, but dependence on imports was still heavy.[NEWLINE][NEWLINE]Benin's tactics were well organized, with preliminary plans weighed by the Oba and his sub-commanders. While the head-on clash was well known, documentation from the 18th century shows greater emphasis on avoiding continuous battle lines, and more effort to encircle an enemy (Ifianyako).[NEWLINE][NEWLINE]Fortifications were important in the region and numerous military campaigns fought by Benin's soldiers revolved around sieges. Benin's military earthworks were the largest of such structures in the world, and Benin's rivals also built extensively. Barring a successful assault, most sieges were resolved by a strategy of attrition, slowly cutting off and starving out the enemy fortification until it capitulated. On occasion however, European mercenaries were called on to aid with these sieges. In 1603 for example, European cannon helped batter and destroy the gates of a town near present-day Lagos, allowing 10,000 warriors of Benin to enter and conquer it. In payment the Europeans received one woman captive each and bundles of pepper. The example of Benin shows the genius of indigenous military systems, but also the role outside influences and new technologies brought to bear.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_HEADING_6">
+			<Text>The Crocodile Men of Europe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_TEXT_6">
+			<Text>The first European travelers to reach Benin were Portuguese explorers in about 1485. A strong mercantile relationship developed, with the Portuguese trading tropical products, and increasingly slaves, for European goods and guns. In the early 16th century the Oba sent an ambassador to Lisbon, and the king of Portugal sent Christian missionaries to Benin. Some residents of Benin could still speak a pidgin Portuguese by the late 19th century. The first English expedition to Benin was in 1553, and a significant trade soon grew up between England and Benin based on the export of ivory, palm oil and pepper. Trade consisted of: 20% ivory, 30% slaves, and 50% other goods. Visitors in the 16th and 17th centuries brought back to Europe tales of "The Great Benin", a fabulous city of noble buildings, ruled over by a powerful king.[NEWLINE][NEWLINE]The city and empire of Benin declined after 1700. However, it was revived in the 19th century with the development of the trade in palm oil, enslaved captives, and textiles. To preserve Benin's independence, bit by bit the Oba banned the export of goods from Benin, until the trade was exclusively in palm oil. Benin resisted signing a protectorate treaty with Great Britain, who increasingly encroached on Benin territory in pursuit of resources, through most of the 1880s and 1890s. However, after the slaying of eight British representatives in Benin territory, a 'Punitive Expedition' was launched on 17 February 1897, in which a British force, under the command of Admiral Sir Harry Rawson, conquered and burned the city, destroying much of the country's treasured art and dispersing nearly all that remained. The portrait figures, busts, and groups created in iron, carved ivory, and especially in brass (conventionally called the "Benin Bronzes") are now displayed in museums around the world.[NEWLINE][NEWLINE]The defeat, capture, and subjugation of Benin paved the way for British military occupation and the later conquest of adjacent areas with Benin, under British administration, being merged into the Niger Coast Protectorate, then into the protectorate of Southern Nigeria, and finally into the colony and protectorate of Nigeria.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_STATBOX">
+			<Text>[NEWLINE]        Leader: Ewuare[NEWLINE]        Unique Unit: Isienmwenro[NEWLINE]        Unique Improvement: Iya[NEWLINE][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_FACTOID_HEADING">
+			<Text>Benin Factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_MOD_FACTOID_TEXT">
+			<Text>Before their destruction, the Walls of Benin were the largest earthwork in the world.[NEWLINE][NEWLINE]The line of Benin kings, known as Oba, still survives till this day. The most recent, Oba Erediauwa, was crowned on 23 March 1979. However, with the fall of the Benin Kingdom they retain no true political power and merely preside as the symbolic leader of the Edo people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_DESC">
+			<Text>Ewuare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_LIVED">
+			<Text>ca. AD 1410 - 1473</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_NAME">
+			<Text>Ewuare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_SUBTITLE">
+			<Text>Leader of Benin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_TITLES_1">
+			<Text>Oba of Benin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_TITLES_2">
+			<Text>Ewuare the Great</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_TEXT_1">
+			<Text>Benin's status as a regional powerhouse coalesced in the 15th century under the leadership of Oba Ewuare (enthroned ca. 1440). Ewuare is credited with many innovations that defined and gave structure to Benin kingship, including improvements to the royal capital, Benin City, the establishment of the three associations of palace chiefs, and the creation of an annual cycle of royal rituals to protect and renew the kingdom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_HEADING_2">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_TEXT_2">
+			<Text>Known as Prince Ogun before his ascension to the Benin throne, Ewuare quickly gained a reputation as a renowned warrior and statesman, acting as an envoy to the various tribes of the Edo people. Legends say he spent many years travelling the forests of Western Africa, observing the warring Edo factions, and this experience is credited for being a driving force throughout his reign. Ascension to the throne did not come easily for Ewuare, however. It was only upon the assassination of his brother, Oba Uwaifiokun, who tradition claims initially usurped the throne from Ewuare himself, that his reign was cemented.[NEWLINE][NEWLINE]Having initially been denied his right to rule in Benin, Oba Ewuare appears to have been determined to make a lasting impression when he took the throne in 1440. The duration of this Oba's reign in unclear, with sources stating either 1473 or 1486 as the final year of Ewuare's reign. What is certain, however, is that in this 30 - 50 year period, the City of Benin became a Kingdom, and a period of 'Warrior Kings' was ushered in, which lasted well into the 16th century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_HEADING_3">
+			<Text>Government and Reform</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_TEXT_3">
+			<Text>Power in Benin had traditionally been wielded by a council of chiefs, known as the Uzama, with the Oba at it's head. In a similar fashion to that of Monarchs ruling only with the backing of parliament after the 17th century English Reformation, this type of Government tended to limit the power of the Oba, even to the extent that the Uzama, not the Oba, would decide upon the Oba's apparent heir to the throne.[NEWLINE][NEWLINE]By the late 13th century, ultimate power in Benin was beginning to shift in favour of the Oba himself. When Ewuare came to the throne in 1440, he was determined to cement this development for good. As such, Ewuare introduced various changes which were all calculated to strengthen the position of the Oba, the most important of which being his introduction into Benin of the Law of Primogeniture; the idea of hereditary kingship. In this way could the Oba ensure that only his sons would follow after him and so provide the most favourable conditons for the continuation of the expansion of the Benin Empire.[NEWLINE][NEWLINE]In addition to this, Ewuare also took care to strengthen and re-enforce the image and ideal of monarchy within Benin. He was the first Oba to wear the coral beads and red flannel cloth which are now strongly associated with Benin royalty, and often used by historians to distinguish royal individuals from brass Benin sculptures and other surviving works. Although, in reality, the acquisition of these items by the Oba were a direct result of trade with the Portuguese, the Oba circulated many daring myths to explain the appearance and significance of these royal adornments to his people, thus further strengthening the status of the Oba as a great warrior, worthy of holding such power.[NEWLINE][NEWLINE]Once these 'basics' of Government were established, the Oba then moved on to formalise the political structure of the City of Benin. He began by creating new categories of chiefs, who, in turn, were accountable to the Oba and also expected to raise taxes which added to the Royal Treasury. As no form of expansion can be possible without such funds, this was an essential step which, along with the profits gained from trade with the Portuguese who appeared in Benin late in Ewuare's reign, allowed the Oba not only to fortify the city itself, but to spread out, conquering vast areas of territory.[NEWLINE][NEWLINE]Benin soon increased in both income and repute, as the city was transformed into something much more closely resembling a military fortress.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_HEADING_4">
+			<Text>The Portuguese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_TEXT_4">
+			<Text>The Portuguese arrived late in Ewuare's reign, and he is the first Oba to be linked with wealth and power derived from coastal trade. In Edo oral history, Ewuare is credited with obtaining the royal garments of coral (ivie ebo) and red flannel cloth (ododo) that were among the new luxury goods imported to Benin. According to legend, Ewuare traveled to the palace of Olokun, the god of the waters and prosperity, and stole the deity's spiritually charged coral garments.[NEWLINE][NEWLINE]The Portuguese also added crossbows and firearms to Benin's arsenal; however, the use of these weapons was limited to the oba and his commanders. In Benin's visual arts, the Portuguese are strongly associated with Olokun and frequently appear alongside mudfish, crocodiles, snakes, and other beings that traverse between water and land, a trait shared by Portuguese seafaring merchants.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_HEADING_5">
+			<Text>Warrior King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_TEXT_5">
+			<Text>Now occupying a very advantageous and strong position, Oba Ewuare cemented his status as a mighty warrior, when he and his army marched on and subdued some 201 villages in Southern Nigeria during his reign. In around 1470, Oba Ewuare the Great named the new state Edo.[NEWLINE][NEWLINE]In a relatively short time, this legendary ruler had turned Benin from a tribal and confused state, characterised by power struggles between Oba and chiefs, into a recognisable military force and a prosperous Empire. As Ewuare planned, this venture was continued by his son, aptly named Ozula the Conqueror, who carried on striving for the realisation of his father's vision, until Benin ruled all of the region now known as Southern Nigeria.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_HEADING_6">
+			<Text>Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_TEXT_6">
+			<Text>Today, Oba Ewuare is still remembered as an important figure in the history of Benin and Nigeria as a whole. Most notably, the ruler's name is associated with the titles of many schools and colleges.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_HEADING_7">
+			<Text>Factoid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BENIN_MOD_EWUARE_TEXT_7">
+			<Text>Ewuare's name translates roughly as, "The trouble has ceased and thus the war is over." The title symbolizes an epoch of reconciliation, reconstruction, and the return of peace among the warring factions in Benin between AD 1435 - 1440.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_EWUARE_MOD_FIRST_GREETING_1">
+			<Text>This is the land promised by the gods that no empire can conquer. Come, stand in awe at the gates of Edo!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_EWUARE_MOD_FIRST_GREETING_2">
+			<Text>When the world was new the soil that first formed was that of Benin. What business do the crocodile men have here?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_EWUARE_MOD_DEFEATED_1">
+			<Text>You have toppled walls that have stood for a thousand years and sold the children of Edo into slavery. Pray that you never know such defeat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_EWUARE_MOD_DEFEATED_2">
+			<Text>You kneeled before us only to plot and steal our ivory. You promised peace only to lie and plan our demise. You were never anything but a curse to this sacred land.</Text>
+		</Row>
+		<!-- Dummy Building Text -->
+		<Row Tag="TXT_KEY_BUILDING_BENIN_DUMMY_BUILDING_DEFENSE_DESC">
+			<Text>Attrition Warfare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BENIN_DUMMY_BUILDING_DEFENSE_HELP">
+			<Text>-5% [ICON_FOOD] Food</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BENIN_DUMMY_BUILDING_DEFENSE_STRATEGY">
+			<Text>This building cannot be constructed but rather facilitates Benin's unique ability.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_DUMMY_BUILDING_DEFENSE_TEXT">
+			<Text>The walls of Benin were a combination of ramparts and moats, called Iya in the local language, used as a defense of the historical Benin City and its surrounding territories. It was hailed as the largest earthwork in the world consisting of about 37 million metric tons of earth (requiring more earth to be moved than even the Great Pyramid of Giza). The walls enclosed 6,500 km² of community lands, with a length of over 16,000 km earth boundaries. It was estimated that earliest construction began in AD 800 and continued into the mid 1400's. Benin City was split up into the Oba's Palace and 40 wards. The network of walls stretched from the city and enclosed the surrounding villages in a radius of over 100 km. There could have perhaps been over 5,000 km of wall in the capital alone. The city moats probably took close to 150 million man-hours to dig.[NEWLINE][NEWLINE]Unfortunately, modernity has not been kind to the fabled walls of the Benin Empire. The walls of Benin were ravaged by the British in 1897 in a punitive expedition. Today, with the expansion of modern Benin City thanks to an oil boom, much of the walls continue to be removed for building materials to fill modern structures or to make room for new buildings. In the last 30 years, the earthwork has suffered tremendously. More than 60% of the walls in Benin City have been damaged. The moat is being destroyed at such a rate that it may disappear in our lifetime.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BENIN_DUMMY_BUILDING_BRONZES_DESC">
+			<Text>Benin Decision Dummy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BENIN_DUMMY_BUILDING_BRONZES_HELP">
+			<Text>[ICON_RES_COPPER] Copper and [ICON_RES_IRON] Iron Resources provide +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BENIN_DUMMY_BUILDING_BRONZES_STRATEGY">
+			<Text>This building cannot be constructed but rather facilitates Benin's unique ability.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_BENIN_DUMMY_BUILDING_BRONZES_TEXT">
+			<Text>The Benin Bronzes are a collection of more than a thousand commemorative pieces that originated in the royal palace of the Benin Empire. They were created by the Edo people starting in the thirteenth century. The Benin Bronzes led to a greater appreciation in Europe of African culture and tribal art.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_WALLS_OF_BENIN">
+			<Text>Walls of Benin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_WALLS_OF_BENIN_TEXT">
+			<Text>Walls of Benin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_WALLS_OF_BENIN_HELP">
+			<Text>[ICON_STRENGTH] Combat Strength of Cities increased by 15%.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_GENERIC_BENIN_MOD_INFLUENTIAL_ON_AI_1">
+			<Text>My people have taken to digging moats around their houses and casting bronze busts of every member of their family. I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_PMMM_LEADER_MG_NAME_EWUARE_MOD">
+			<Text>Idia</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_JFD_PARTY_BENIN_CLERGY">
+			<Text>Babalawo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_BENIN_NOBILITY">
+			<Text>Ogboni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_BENIN_PRINCE">
+			<Text>Omoba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_BENIN_KING">
+			<Text>Oba</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_BENIN_EMPEROR">
+			<Text>Alaafin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MISC_EARLY">
+			<Text>Oloye</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOVERNMENT_JFD_MISC_LATE">
+			<Text>Baale</Text>
+		</Row>
+		<!-- -->
+		<Row Tag="TXT_KEY_EVENT_CULDEV_TOMATEKH_BENIN_01">
+			<Text>An opele, a divination chain used to communicate with the spirits, has been invented in {1_City}.</Text>
+		</Row>
+		<!-- -->
+	</Language_PL_PL>
+</GameData>

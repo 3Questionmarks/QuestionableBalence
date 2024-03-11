@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/5/2024 10:11:17 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set RangedCombat="50" Range="6" />
+			<Where Class="UNITCLASS_TRIPLANE" />
+		</Update>
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_TRIPLANE_STRATEGY"/>
+		<Row Tag="TXT_KEY_UNIT_TRIPLANE_STRATEGY">
+			<Text>The Triplane is an early air unit. It can be based in any city you own or aboard an aircraft carrier. It can move from city to city (or carrier) and can perform "missions" within its range of 6 tiles. Use triplanes to attack enemy aircraft and ground units, to scout enemy positions, and to defend against enemy air attacks. See the rules on Aircraft for more information.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

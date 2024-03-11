@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Civilization_Start_Region_Priority>
+		<!--Clear Austria's old start position priority-->
+		<Delete CivilizationType="CIVILIZATION_AUSTRIA"/>
+	</Civilization_Start_Region_Priority>
+
+	<Leader_Flavors>
+		<Update>
+			<!--Change cultural tendency for Maria Theresa-->
+			<Where LeaderType="LEADER_MARIA" FlavorType="FLAVOR_CULTURE"/>
+			<Set>
+				<Flavor>8</Flavor>
+			</Set>
+		</Update>
+	</Leader_Flavors>
+	
+	<Leader_Traits>
+		<Update>
+			<!--Change trait for Maria Theresa-->
+			<Where LeaderType="LEADER_MARIA"/>
+			<Set TraitType="TRAIT_HABSBURG_DOMINANCE"/>
+		</Update>
+	</Leader_Traits>
+
+	<Language_en_US>
+		<!--City State name change-->
+		<Update>
+			<Where Tag="TXT_KEY_CITYSTATE_BRATISLAVA"/>
+			<Set Text="Tirana"/>			
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITYSTATE_BRATISLAVA_ADJ"/>
+			<Set Text="Tiranian"/>
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITYSTATE_BUDAPEST"/>
+			<Set Text="Skopje"/>	
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITYSTATE_BUDAPEST_ADJ"/>
+			<Set Text="Skopjan"/>			
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITYSTATE_PRAGUE"/>
+			<Set Text="Minsk"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITYSTATE_PRAGUE_ADJ"/>
+			<Set Text="Minsk"/>			
+		</Update>
+		
+		<!--Austrian cities name change-->
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_VIENNA"/>
+			<Set Text="Wien"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_SALZBURG"/>
+			<Set Text="Prag"/>			
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_GRAZ"/>
+			<Set Text="Ofenpesth"/>			
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_LINZ"/>
+			<Set Text="Pressburg"/>			
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_KLAGENFURT"/>
+			<Set Text="Graz"/>
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_BREGENZ"/>
+			<Set Text="Triest"/>
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_INNSBRUCK"/>
+			<Set Text="Bruenn"/>
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_KITZBUHEL"/>
+			<Set Text="Oedenburg"/>
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_STPOLTEN"/>
+			<Set Text="Pilsen"/>
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_EISENSTADT"/>
+			<Set Text="Laibach"/>
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_VILLACH"/>
+			<Set Text="Linz"/>
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_ZWETTL"/>
+			<Set Text="Fuenfkirchen"/>		
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_TRAUN"/>
+			<Set Text="Salzburg"/>			
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_WELS"/>
+			<Set Text="Agram"/>		
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_DORNBIRN"/>
+			<Set Text="Kaschau"/>		
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_FELDKIRCH"/>
+			<Set Text="Innsbruck"/>
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_AMSTETTEN"/>
+			<Set Text="Debrezin"/>			
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_BADISCHL"/>
+			<Set Text="Klagenfurt"/>			
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_WOLFSBERG"/>
+			<Set Text="Lemberg"/>			
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_KUFSTEIN"/>
+			<Set Text="Szegedin"/>			
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_LEOBEN"/>
+			<Set Text="Marburg an der Drau"/>			
+		</Update>
+		<Update>	
+			<Where Tag="TXT_KEY_CITY_NAME_KLOSTERNEUBURG"/>
+			<Set Text="Temeschburg"/>			
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_LEONDING"/>
+			<Set Text="Sankt Poelten"/>			
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_KAPFENBERG"/>
+			<Set Text="Villach"/>			
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_HALLEIN"/>
+			<Set Text="Tarnopol"/>			
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_BISCHOFSHOFEN"/>
+			<Set Text="Koeniggraetz"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_WAIDHOFEN"/>
+			<Set Text="Kitzbuehel"/>			
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_SAALBACH"/>
+			<Set Text="Teschen"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_LIENZ"/>
+			<Set Text="Kremnitz"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITY_NAME_STEYR"/>
+			<Set Text="Neusohl"/>
+		</Update>
+	</Language_en_US>
+	
+</GameData>

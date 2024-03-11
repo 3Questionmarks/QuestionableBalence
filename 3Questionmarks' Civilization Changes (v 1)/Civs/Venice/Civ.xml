@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 1:01:09 PM -->
+<GameData>
+	<Leaders>
+		<Update>
+			<Where Type="LEADER_ENRICO_DANDOLO"/>
+			<Set MinorCivCompetitiveness="12"/>
+		</Update>
+	</Leaders>
+	<Leader_MajorCivApproachBiases>
+		<Update>
+			<Where LeaderType="LEADER_ENRICO_DANDOLO" MajorCivApproachType="MAJOR_CIV_APPROACH_DECEPTIVE"/>
+			<Set Bias="10"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ENRICO_DANDOLO" MajorCivApproachType="MAJOR_CIV_APPROACH_WAR"/>
+			<Set Bias="9"/>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ENRICO_DANDOLO" MajorCivApproachType="MAJOR_CIV_APPROACH_FRIENDLY"/>
+			<Set Bias="8"/>
+		</Update>
+	</Leader_MajorCivApproachBiases>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>Padua</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<CityName>Verona</CityName>
+		</Row>
+	</Civilization_CityNames>
+</GameData>

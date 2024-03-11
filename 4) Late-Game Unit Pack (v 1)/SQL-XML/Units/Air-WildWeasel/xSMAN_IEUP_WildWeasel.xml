@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/09/17 2:15:31 PM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_WILD_WEASEL</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_WILD_WEASEL</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_WILD_WEASEL</DefaultUnit>
+			<MaxPlayerInstances>8</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Type>UNIT_SMAN_IEUP_WILD_WEASEL</Type>
+			<Class>UNITCLASS_SMAN_IEUP_WILD_WEASEL</Class>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+			<ObsoleteTech></ObsoleteTech>
+			<RangedCombat>45</RangedCombat>
+			<Range>10</Range>
+			<Moves>2</Moves>
+			<Cost>425</Cost>			
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<Immobile>true</Immobile>
+			<AirInterceptRange>10</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_WILD_WEASEL</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_WILD_WEASEL_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_WILD_WEASEL_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_WILD_WEASEL_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>		
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<HurryCostModifier>10</HurryCostModifier>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_WILD_WEASEL</UnitArtInfo>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>9</UnitFlagIconOffset>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_WILD_WEASEL</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_WILD_WEASEL</UnitType>
+			<UnitAIType>UNITAI_CARRIER_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_WILD_WEASEL</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_WILD_WEASEL</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_WILD_WEASEL</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_WILD_WEASEL</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_WILD_WEASEL</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_WILD_WEASEL_PROMOTION_1</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_WILD_WEASEL</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+		
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_WILD_WEASEL</UnitType>
+			<SelectionSound>AS2D_SELECT_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FIGHTER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_WILD_WEASEL">
+			<Text>Wild Weasel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_WILD_WEASEL_HELP">
+			<Text>Jet Fighter unit that specialises in destroying anti-air units. Requires [ICON_RES_ALUMINUM] Aluminum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_WILD_WEASEL_STRATEGY">
+			<Text>Use Wild Weasels at the beginning of an attack to neutralize enemy air defenses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_WILD_WEASEL_PEDIA">
+			<Text>
+				The Wild Weasel is a specialized Fighter unit, with enhanced capabilities to defeat enemy air-defenses. It is available on the discovery of Lasers, and does not become obsolete. Requires [ICON_RES_ALUMINUM] Aluminum. A player may build 8 of these units.[NEWLINE][NEWLINE]"Wild Weasel" is a code name given by the United States Armed Forces, specifically the US Air Force, to an aircraft, of any type, equipped with radar-seeking missiles and tasked with destroying the radars and SAM installations of enemy air defense systems. "The first Wild Weasel success came soon after the first Wild Weasel mission 20 December 1965 when Captains Al Lamb and Jack Donovan took out a site during a Rolling Thunder strike on the railyard at Yen Bai, some 75 miles northwest of Hanoi."[NEWLINE][NEWLINE]The Wild Weasel concept was developed by the United States Air Force in 1965, after the introduction of Soviet SAM missiles and their downing of U.S. strike aircraft over the skies of North Vietnam. The program was headed by General Kenneth Dempster.[NEWLINE][NEWLINE]Wild Weasel tactics and techniques began their development in 1965 following the commencement of Operation Rolling Thunder during the Vietnam War, and were later adapted by other nations during following conflicts, as well as being integrated into the Suppression of Enemy Air Defenses, or SEAD, a plan used by U.S. air forces to establish immediate air supremacy prior to possible full-scale conflict. Initially known by the operational code "Iron Hand" when first authorized on 12 August 1965, the term "Wild Weasel" derives from Project Wild Weasel, the USAF development program for a dedicated SAM-detection and suppression aircraft.  The technique was also called an "Iron Hand" mission, though technically the Iron Hand part refers only to a suppression attack that paves the way for the main strike. Originally named "Project Ferret", denoting a predatory animal that goes into its prey's den to kill it, and hence: "to ferret out", the name was changed to differentiate it from the code-name "Ferret" that had been used during World War II for radar counter-measures bombers.[NEWLINE][NEWLINE]In brief, the task of a Wild Weasel aircraft is to bait enemy anti-aircraft defenses into targeting it with their radars, whereupon the radar waves are traced back to their source, allowing the Weasel or its teammates to precisely target it for destruction. A simple analogy is playing the game of "flashlight tag" in the dark; a flashlight is usually the only reliable means of identifying someone in order to "tag" (destroy) them, but the light immediately renders the bearer able to be identified and attacked as well. The result is a hectic game of cat-and-mouse in which the radar "flashlights" are rapidly cycled on and off in an attempt to identify and kill the target before the target is able to home in on the emitted radar "light" and destroy the site.[NEWLINE][NEWLINE]The modern term used in the U.S. Armed Forces for this mission profile is "Suppression of Enemy Air Defenses", or SEAD.
+			</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

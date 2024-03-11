@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/18/2014 1:47:46 PM -->
+<GameData>
+    <UnitClasses>
+		<Row>
+			<Type>UNITCLASS_COLONIST</Type>
+			<Description>TXT_KEY_UNIT_COLONIST</Description>
+			<DefaultUnit>UNIT_COLONIST</DefaultUnit>
+		</Row> 
+	</UnitClasses>
+	<Units>	
+		<Row>
+			<Class>UNITCLASS_COLONIST</Class>
+			<Cost>560</Cost>
+			<Type>UNIT_COLONIST</Type>
+			<Moves>4</Moves>
+			<Capture>UNITCLASS_COLONIST</Capture>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH_EARLY_GAME_ONLY</CivilianAttackPriority>
+			<HurryCostModifier>20</HurryCostModifier>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_SETTLE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_COLONIST</Description>
+			<Civilopedia>TXT_KEY_CIV5_COLONIST_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_COLONIST_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_COLONIST</Help>
+			<Food>true</Food>
+			<Found>true</Found>
+			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<CombatLimit>0</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT__SETTLER</UnitArtInfo>
+			<UnitArtInfoCulturalVariation>true</UnitArtInfoCulturalVariation>
+			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_COLONIST</UnitType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row> 
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_COLONIST</UnitType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row> 
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_COLONIST</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_COLONIST</UnitType>
+			<PromotionType>PROMOTION_DEFENSIVE_EMBARKATION</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_COLONIST</UnitType>
+			<PromotionType>PROMOTION_OCEAN_MOVEMENT</PromotionType>
+		</Row> 
+	</Unit_FreePromotions>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_PIONEER</UnitType>
+			<UnitClassType>UNITCLASS_COLONIST</UnitClassType>
+		</Row> 
+	</Unit_ClassUpgrades>
+	<Trait_NoTrain>
+		<Row>
+			<TraitType>TRAIT_SUPER_CITY_STATE</TraitType>
+			<UnitClassType>UNITCLASS_COLONIST</UnitClassType>
+		</Row> 
+	</Trait_NoTrain>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_COLONIST">
+			<Text>Colonist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COLONIST_STRATEGY">
+			<Text>
+				Use this unit to construct new cities lategame. Cities built by Pioneers earn more free buildings then cities built by Pioneers and start with 6 [ICON_CITIZEN] Citizens. Colonists turn into a Worker unit after founding a city. It cannot defend itself, so accompany it with a combat unit.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_COLONIST_TEXT">
+			<Text>
+				Colonists drive civilization. While most are satisfied with the status quo, happy just to survive, in every culture there are a few hardy individuals willing to strike out on their own, to risk everything in the hope of finding a better life for themselves and their children. In the past, brave colonists have led humanity out of Africa (and back into it!) and into Europe, Asia, the Pacific, and the Americas. In the future they may lead the way to the moon, Mars, and even beyond.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COLONIST">
+			<Text>
+				Founds new Cities with very advanced infrastructure and additional population and territory. [NEWLINE]Turns into a worker after founding a city.[NEWLINE][NEWLINE][ICON_FOOD] Growth of the City is stopped while this Unit is being built.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

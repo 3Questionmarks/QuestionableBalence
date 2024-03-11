@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/09/17 2:15:31 PM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_NIGHTSTALKER_DRONE</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</DefaultUnit>			
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Type>UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</Type>
+			<Class>UNITCLASS_SMAN_IEUP_NIGHTSTALKER_DRONE</Class>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<!--<ObsoleteTech>TECH_LASERS</ObsoleteTech>-->
+			<Combat>20</Combat>
+			<RangedCombat>70</RangedCombat>
+			<Range>4</Range>
+			<Moves>5</Moves>
+			<Cost>700</Cost>			
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE_HELP</Help>		
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<CombatLimit>0</CombatLimit>
+			
+			<AdvancedStartCost>90</AdvancedStartCost>
+			<HurryCostModifier>90</HurryCostModifier>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</UnitArtInfo>
+			<MoveRate>WHEELED</MoveRate>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</UnitType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_UAV_1</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+		
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE</UnitType>
+			<SelectionSound>AS2D_SELECT_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FIGHTER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE">
+			<Text>Nightstalker Drone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE_HELP">
+			<Text>Information Era recon and ranged unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE_STRATEGY">
+			<Text>The Nightstalker Drone is a late game hovering unit. It can move around the map like helicopters. It can perform ranged attacks within its range of 4 tiles. The Nightstalker Drone provides great flexibility to military operations, quickly responding to crises around the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_NIGHTSTALKER_DRONE_PEDIA">
+			<Text>
+				The Nightstalker Drone Swarm is an enhanced recon unit, operating similarly to a Helicopter Gunship. It deals heavy damage up to 4 tiles away. It is available on the discovery of Nuclear Fusion, and does not become obsolete. Requires [ICON_RES_URANIUM] Uranium.[NEWLINE][NEWLINE]
+			</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

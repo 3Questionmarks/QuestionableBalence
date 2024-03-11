@@ -1,0 +1,26 @@
+-- DMS_Ragusa_Credits
+-- Author: DMS
+--==========================================================================================================================
+TranquilSilence:
+	- design
+	- DOM text
+	- pedia entries
+DMS:
+	- unique building (Fraternal Lodge) icon
+	- code
+urdnot_scott:
+	- leaderscene
+	- leader icon
+	- uu (Devil's Own) icon
+	- map (in collaboration with darth)
+darth:
+	- map (in collaboration with urdnot_scott)
+	- city list
+	- spy list
+
+War theme:
+	-
+Peace theme:
+	-
+--==========================================================================================================================
+--==========================================================================================================================

@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/9/2020 4:55:12 PM -->
+<GameData>
+	<PolicyBranchTypes>
+		<Update>
+			<Where Type="POLICY_BRANCH_PIETY" />
+			<Set>
+				<EraPrereq>ERA_CLASSICAL</EraPrereq>
+			</Set>
+		</Update>
+	</PolicyBranchTypes>
+	
+	<!-- Opener -->
+    <Policy_TourismOnUnitCreation>
+		<Row>
+			<PolicyType>POLICY_PIETY</PolicyType>
+			<UnitClassType>UNITCLASS_PROPHET</UnitClassType>
+			<Tourism>75</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PIETY</PolicyType>
+			<UnitClassType>UNITCLASS_MISSIONARY</UnitClassType>
+			<Tourism>10</Tourism>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PIETY</PolicyType>
+			<UnitClassType>UNITCLASS_INQUISITOR</UnitClassType>
+			<Tourism>10</Tourism>
+		</Row>
+	</Policy_TourismOnUnitCreation>
+	
+	<!-- Finisher -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_PIETY_FINISHER" />
+			<Set>
+				<NumFreePolicies>0</NumFreePolicies>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_BuildingClassCultureChanges>
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<CultureChange>2</CultureChange>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<CultureChange>3</CultureChange>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<CultureChange>5</CultureChange>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BOROBUDUR</BuildingClassType>
+			<CultureChange>10</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STONEHENGE</BuildingClassType>
+			<CultureChange>10</CultureChange>
+		</Row>
+	</Policy_BuildingClassCultureChanges>
+    <Policy_ImprovementYieldChanges>
+		<Update>
+			<Where>
+				<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+				<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			</Where>
+			<Set>
+				<Yield>5</Yield>
+			</Set>
+		</Update>
+	</Policy_ImprovementYieldChanges>
+    <Policy_FreeUnitClasses>
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<UnitClassType>UNITCLASS_PROPHET</UnitClassType>
+			<Count>2</Count>
+		</Row>
+	</Policy_FreeUnitClasses>
+	
+	<!-- Opener and Finisher Text-->
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_PIETY_CAP" />
+			<Set Text="Feudalism" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_PIETY" />
+			<Set Text="Feudalism" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_PIETY_TEXT" />
+			<Set Text="Feudalism is a policy branch that focuses on expanding ones [ICON_RELIGION] Religion and on growing the [ICON_CAPITAL] Capital." />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_PIETY_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR] focuses on expanding ones [ICON_RELIGION] Religion and on growing the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR] provides +50% [ICON_PRODUCTION] Production when constructing a Shrine or Temple. Additionally you gain 75 [ICON_TOURISM] Tourism with all known civiliations when a [ICON_PROPHET] Great Prophet is born and 10 [ICON_TOURISM] Tourism when a [ICON_MISSIONARY] Missionary or a [ICON_INQUISITOR] Inquisitor is born. Also unlocks building [COLOR_BUILDING_TEXT]Parochial Schools[ENDCOLOR] and the [COLOR_CITY_GREEN]Great Mosque of Djenne[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies of Feudalism causes two free [ICON_PROPHET] Great Prophets to appear and [COLOR_YIELD_GOLD]Holy Sites[ENDCOLOR] to yield +5 [ICON_CULTURE] Culture. Additionally Shrines will yield +2 [ICON_CULTURE] Culture, Temples will yield +3 [ICON_CULTURE] Culture, the Grand Temple will yield +5 [ICON_CULTURE] Culture, and the wonders Borobudur and Stonehenge will yield +10 [ICON_CULTURE] Culture." />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR] focuses on expanding ones [ICON_RELIGION] Religion and on growing the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR] provides +50% [ICON_PRODUCTION] Production when constructing a Shrine or Temple. Additionally you gain 75 [ICON_TOURISM] Tourism with all known civiliations when a [ICON_PROPHET] Great Prophet is born and 10 [ICON_TOURISM] Tourism when a [ICON_MISSIONARY] Missionary or a [ICON_INQUISITOR] Inquisitor is born. Also unlocks building [COLOR_BUILDING_TEXT]Parochial Schools[ENDCOLOR] and the [COLOR_CITY_GREEN]Great Mosque of Djenne[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies of Feudalism causes two free [ICON_PROPHET] Great Prophets to appear and [COLOR_YIELD_GOLD]Holy Sites[ENDCOLOR] to yield +5 [ICON_CULTURE] Culture. Additionally Shrines will yield +2 [ICON_CULTURE] Culture, Temples will yield +3 [ICON_CULTURE] Culture, the Grand Temple will yield +5 [ICON_CULTURE] Culture, and the wonders Borobudur and Stonehenge will yield +10 [ICON_CULTURE] Culture." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Organized Religion -->
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Update>
+			<Where>
+				<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+				<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			</Where>
+			<Set>
+				<YieldChange>3</YieldChange>
+			</Set>
+		</Update>
+		<Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+    <Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldMod>25</YieldMod>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldMod>25</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	<Policy_BuildingClassTourismModifiers>
+		<Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<TourismModifier>25</TourismModifier>
+		</Row>
+	</Policy_BuildingClassTourismModifiers>
+    <Policy_ImprovementYieldChanges>
+        <Row>
+			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
+			<ImprovementType>IMPROVEMENT_MC_LITE_NUBIAN_ROYAL_PYRAMID</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+    </Policy_ImprovementYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION" />
+			<Set Text="Organized religion" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Organized religion[ENDCOLOR][NEWLINE]+2 [ICON_PEACE] Faith from shrines, +3 [ICON_PEACE] Faith from temples, and +5 [ICON_PEACE] Faith from the Grand Temple.[NEWLINE]+25% [ICON_PEACE] Faith and [ICON_TOURISM] Tourism from the Grand Temple.[NEWLINE]+1 [ICON_PEACE] Faith from [COLOR_YIELD_GOLD]Royal Pyramids[ENDCOLOR]." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Mandate of Heaven -->
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<ImprovementType>IMPROVEMENT_KASBAH</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<ImprovementType>IMPROVEMENT_BENIN_MOD_IYA</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<ImprovementType>IMPROVEMENT_DZONG</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<ImprovementType>IMPROVEMENT_DZONG2</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<ImprovementType>IMPROVEMENT_CL_KALLE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<ImprovementType>IMPROVEMENT_C15_KALLE_MOUNTAIN</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<ImprovementType>IMPROVEMENT_SIOUX_TIPI_MOD</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<ImprovementType>IMPROVEMENT_DMS_IPOGEO</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<ImprovementType>IMPROVEMENT_MC_MAORI_PA</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>IMPROVEMENT_LARGE_TOWN</PolicyType>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Mandate of Heaven[ENDCOLOR][NEWLINE]20% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith.[NEWLINE]+1 [ICON_PEACE] Faith from [COLOR_YIELD_GOLD]Villages[ENDCOLOR], +2 from [COLOR_YIELD_GOLD]Towns[ENDCOLOR], and +3 from [COLOR_YIELD_GOLD]Large Towns[ENDCOLOR].[NEWLINE]+1 [ICON_PEACE] Faith from [COLOR_YIELD_GOLD]Moai[ENDCOLOR], [COLOR_YIELD_GOLD]Kasbahs[ENDCOLOR], [COLOR_YIELD_GOLD]Iyas[ENDCOLOR], [COLOR_YIELD_GOLD]Dzongs[ENDCOLOR], [COLOR_YIELD_GOLD]Kalle[ENDCOLOR], [COLOR_YIELD_GOLD]Ipogeos[ENDCOLOR], [COLOR_YIELD_GOLD]Tipi[ENDCOLOR], and [COLOR_YIELD_GOLD]Pas[ENDCOLOR]." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Theogracy -->
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldMod>30</YieldMod>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>30</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_NOTRE_DAME</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>10</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	<Policy_ImprovementYieldChanges>
+        <Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+    <Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_THEOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_THEOCRACY" />
+			<Set Text="Theocracy" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_THEOCRACY_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Theocracy[ENDCOLOR][NEWLINE]+2 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production from Shrines, +3 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production from Temples, and +5 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production from the Grand Temple.[NEWLINE]+25% [ICON_GOLD] Gold and [ICON_PRODUCTION] Production from the Grand Temple.[NEWLINE]+3 [ICON_GOLD] Gold and +1 [ICON_PRODUCTION] Production from [COLOR_YIELD_GOLD]Holy Sites[ENDCOLOR].[NEWLINE]+10 [ICON_PEACE] Faith from Notre Dame.[NEWLINE]This policy unlocks the [COLOR_XP_BLUE]Papal Militia[ENDCOLOR] unit." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Reformation -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_REFORMATION" />
+			<Set>
+				<GridX>3</GridX>
+				<GridY>2</GridY>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_PrereqPolicies>
+		<Update>
+			<Where PolicyType="POLICY_REFORMATION" />
+			<Set>
+				<PrereqPolicy>POLICY_ORGANIZED_RELIGION</PrereqPolicy>
+			</Set>
+		</Update>
+	</Policy_PrereqPolicies>
+	
+	<!-- Religious Tollerance -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_FREE_RELIGION" />
+			<Set>
+				<GridX>5</GridX>
+				<GridY>2</GridY>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_PrereqPolicies>
+		<Update>
+			<Where PolicyType="POLICY_FREE_RELIGION" />
+			<Set>
+				<PrereqPolicy>POLICY_MANDATE_OF_HEAVEN</PrereqPolicy>
+			</Set>
+		</Update>
+	</Policy_PrereqPolicies>
+	
+	<!-- Holy City -->
+	<Policies>
+		<Row>
+			<Type>POLICY_HOLYCITY</Type>
+			<Description>TXT_KEY_POLICY_HOLYCITY</Description>
+			<Civilopedia>TXT_KEY_POLICY_HOLYCITY_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_HOLYCITY_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>2</GridX>
+			<GridY>3</GridY>
+			<PortraitIndex>41</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	<Policy_CapitalYieldPerPopChanges>
+		<Row>
+			<PolicyType>POLICY_HOLYCITY</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>50</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HOLYCITY</PolicyType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>50</Yield>
+		</Row>
+	</Policy_CapitalYieldPerPopChanges>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_HOLYCITY</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_HOLYCITY</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HOLYCITY</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Policy_PrereqPolicies>
+		<Row>
+			<PolicyType>POLICY_HOLYCITY</PolicyType>
+			<PrereqPolicy>POLICY_THEOCRACY</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
+	<Policy_CapitalYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_HOLYCITY</PolicyType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Policy_CapitalYieldModifiers>
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_POLICY_HOLYCITY</Tag>
+			<Text>Holy city</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_POLICY_HOLYCITY_TEXT</Tag>
+			<Text>Holy city</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_POLICY_HOLYCITY_HELP</Tag>
+			<Text>[COLOR_POSITIVE_TEXT]Holy city[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold and +1 [ICON_PEACE] Faith for every 2 [ICON_CITIZEN] Citizens of the [ICON_CAPITAL] Capital City.[NEWLINE]+10% [ICON_FOOD] Growth in the [ICON_CAPITAL] Capital.[NEWLINE]+3 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold, and +1 [ICON_FOOD] Food from [COLOR_YIELD_GOLD]Holy Sites[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Holy War -->
+	<Policies>
+		<Row>
+			<Type>POLICY_HOLYWAR</Type>
+			<Description>TXT_KEY_POLICY_HOLYWAR</Description>
+			<Civilopedia>TXT_KEY_POLICY_HOLYWAR_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_HOLYWAR_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>4</GridX>
+			<GridY>3</GridY>
+			<AttackBonusTurns>30</AttackBonusTurns>
+			<OneShot>true</OneShot>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			<FaithCostModifier>-30</FaithCostModifier>
+		</Row>
+	</Policies>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_HOLYWAR</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HOLYWAR</PolicyType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>6</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Policy_PrereqPolicies>
+		<Row>
+			<PolicyType>POLICY_HOLYWAR</PolicyType>
+			<PrereqPolicy>POLICY_REFORMATION</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HOLYWAR</PolicyType>
+			<PrereqPolicy>POLICY_FREE_RELIGION</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_POLICY_HOLYWAR</Tag>
+			<Text>Holy war</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_POLICY_HOLYWAR_TEXT</Tag>
+			<Text>Holy war</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_POLICY_HOLYWAR_HELP</Tag>
+			<Text>[COLOR_POSITIVE_TEXT]Holy war[ENDCOLOR][NEWLINE]During the following thirty turns you have a combat bonus for all combat unit.[NEWLINE]30% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith.[NEWLINE]+2 [ICON_PRODUCTION] Production and +6 [ICON_PEACE] Faith from [COLOR_YIELD_GOLD]Holy Sites[ENDCOLOR].[NEWLINE]This policy unlocks the [COLOR_XP_BLUE]Crusader[ENDCOLOR] unit.</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Flavours -->
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_HOLYWAR</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HOLYWAR</PolicyType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Delete>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Delete>
+		<Row>
+			<PolicyType>POLICY_PIETY_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HOLYCITY</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HOLYCITY</PolicyType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HOLYCITY</PolicyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Policy_Flavors>
+</GameData>

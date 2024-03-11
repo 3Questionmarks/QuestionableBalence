@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/28/2014 4:11:31 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DJSH_SCULPTORS_WORKSHOP</Type>
+			<DefaultBuilding>BUILDING_DJSH_SCULPTORS_WORKSHOP</DefaultBuilding>
+			<Description>Sculptor's Workshop</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DJSH_SCULPTORS_WORKSHOP</Type>
+			<BuildingClass>BUILDINGCLASS_DJSH_SCULPTORS_WORKSHOP</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<Description>Sculptor's Workshop</Description>
+			<Civilopedia>A sculptor is an artist who specializes in sculpture. Durable sculptural processes originally used carving (the removal of material) and modelling (the addition of material, as clay), in stone, metal, ceramics, wood and other materials but, since modernism, shifts in sculptural process led to an almost complete freedom of materials and process. The Western tradition of sculpture began in Ancient Greece, and Greece is widely seen as producing great masterpieces in the classical period. During the Middle Ages, Gothic sculpture represented the agonies and passions of the Christian faith. The revival of classical models in the Renaissance produced famous sculptures such as Michelangelo's David.</Civilopedia>
+			<Strategy>The Sculptor's Workshop can only be constructed in a city with improved marble or ivory resources nearby. The Sculptor's Workshop increases the [ICON_CULTURE] Culture and [ICON_GOLD] Gold output of each such resource the city has access to. +15% [ICON_GREAT_PEOPLE] Great People Generation in this City.</Strategy>
+			<Help>Each source of [ICON_RES_MARBLE] Marble and [ICON_RES_IVORY] Ivory worked by this City produces +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold. +15% [ICON_GREAT_PEOPLE] Great People Generation in this City.[NEWLINE][NEWLINE]City must have at least one of these resources worked nearby.</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+			<GreatPeopleRateModifier>15</GreatPeopleRateModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>RES_BUILDING_DJSH_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DJSH_SCULPTORS_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_SCULPTORS_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_SCULPTORS_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_DJSH_SCULPTORS_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_SCULPTORS_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DJSH_SCULPTORS_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_SCULPTORS_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_SCULPTORS_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_SCULPTORS_WORKSHOP</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+</GameData>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- SUKRITACT's DECISIONS -->
+		<!-- Catholic Emancipation -->
+		<Row Tag="TXT_KEY_DECISIONS_DMS_CATHOLIC_EMANCIPATION">
+			<Text>Catholic Emancipation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_DMS_CATHOLIC_EMANCIPATION_DESC">
+			<Text>
+				For too long, Catholics have been barred from entering Parliament by unjust and unrighteous law. But now, popular opinion is in favor of ending this discrimination! Let the presses hear of the support of the masses.!
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Must be Ireland.
+				[NEWLINE][ICON_BULLET]Must have a State Religion.
+				[NEWLINE][ICON_BULLET]Must have at least one City following a Religion other than your State Religion.
+				[NEWLINE][ICON_BULLET]May be enacted once per game.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTATES] Magistrate.
+				[NEWLINE][ICON_BULLET]{1_iFaith} [ICON_PEACE] Faith.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Cities following your State Religion generate additional Great Writer points.
+				[NEWLINE][ICON_BULLET]A free Social Policy.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_DMS_CATHOLIC_EMANCIPATION_ENACTED_DESC">
+			<Text>
+				For too long, Catholics have been barred from entering Parliament by unjust and unrighteous law. But now, popular opinion is in favor of ending this discrimination! Let the presses hear of the support of the masses.!
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Cities following your State Religion generate additional Great Writer points.
+				[NEWLINE][ICON_BULLET]A free Social Policy.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENTS_DMS_CATHOLIC_EMANCIPATION">
+			<Text>!</Text>
+		</Row>
+		<!-- Gaelic Revival -->
+		<Row Tag="TXT_KEY_DECISIONS_DMS_GAELIC_REVIVAL">
+			<Text>Gaelic Revival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_DMS_GAELIC_REVIVAL_DESC">
+			<Text>
+				The Gaelic language has almost completely diminished as the spoken tongue in Ireland and traditional Irish culture has been suppressed into obscurity. Let us counter this anglicisation by encouraging a national revival of interests in the Gaelic language, folklore, arts, music and sports!
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Requirements:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]Must be Ireland.
+				[NEWLINE][ICON_BULLET]Must have reached the Industrial Era.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Costs:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]{1_iCulture} [ICON_CULTURE] Culture.
+				[NEWLINE][ICON_BULLET]{2_iGold} [ICON_GOLD] Gold.
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]A free [ICON_GREAT_WRITER] Great Writer.
+				[NEWLINE][ICON_BULLET]A free Ceilidh Hall in the Capital.
+				[NEWLINE][ICON_BULLET][ICON_GREAT_WORK] Great Works yield +1 [ICON_CULURE] Culture.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_DMS_GAELIC_REVIVAL_ENACTED_DESC">
+			<Text>
+				The Gaelic language has almost completely diminished as the spoken tongue in Ireland and traditional Irish culture has been suppressed into obscurity. Let us counter this anglicisation by encouraging a national revival of interests in the Gaelic language, folklore, arts, music and sports!
+				[NEWLINE]-------------------------
+				[NEWLINE][COLOR_POSITIVE_TEXT]Rewards:[ENDCOLOR]
+				[NEWLINE]-------------------------
+				[NEWLINE][ICON_BULLET]A free [ICON_GREAT_WRITER] Great Writer.
+				[NEWLINE][ICON_BULLET]A free Ceilidh Hall in the Capital.
+				[NEWLINE][ICON_BULLET][ICON_GREAT_WORK] Great Works yield +1 [ICON_CULURE] Culture.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_DMS_GAELIC_REVIVAL">
+			<Text>DMS Policy: Gaelic Revival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_EVENTS_DMS_GAELIC_REVIVAL">
+			<Text>In Ireland, interest in Gaelic culture has sparked anew!</Text>
+		</Row>
+		<!-- JFD's TRUE ALTERNATE LEADERS -->
+		<Row Tag="TXT_KEY_DMS_IRELADS">
+			<Text>Ireland</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/23/2013 1:27:25 PM -->
+<GameData>
+	<Language_en_US>
+		<!--JFD COLONIES-->
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ITALY_V_E_III_1">
+			<Text>Asmara</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ITALY_V_E_III_2">
+			<Text>Jimma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ITALY_V_E_III_3">
+			<Text>Harar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ITALY_V_E_III_4">
+			<Text>Scioa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ITALY_V_E_III_5">
+			<Text>Triana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ITALY_V_E_III_6">
+			<Text>Rodi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_JFD_ITALY_V_E_III_7">
+			<Text>Palma</Text>
+		</Row>
+		<!--JFD SOVEREIGNTY-->
+		<!--Government-->
+		<Row Tag="TXT_KEY_JFD_LEGISLATURE_NAME_CIVILIZATION_ITALY_V_E_III">
+			<Text>Legislative Council</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_ITALY_V_E_III">
+			<Text>Prime Minister</Text>
+		</Row>
+		<!--Heads of Govt.-->
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_1">
+			<Text>Alessandro Fortis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_2">
+			<Text>Tommaso Tittoni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_3">
+			<Text>Giovanni Giolitti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_4">
+			<Text>Giuseppe Zanardelli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_5">
+			<Text>Giuseppe Saracco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_6">
+			<Text>General Luigi Pelloux</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_7">
+			<Text>Antonio Starabba, Marchese di Rudinì</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_8">
+			<Text>Giovanni Giolitti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_9">
+			<Text>Benito Mussolini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_10">
+			<Text>Francesco Crispi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_11">
+			<Text>Benedetto Cairoli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_12">
+			<Text>Agostino Depretis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_13">
+			<Text>Marco Minghetti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_14">
+			<Text>Giovanni Lanza</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_15">
+			<Text>Luigi Federico, conte Menabrea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_16">
+			<Text>Urbano Rattazzi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_17">
+			<Text>Bettino Ricasoli</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_18">
+			<Text>Alfonso Ferrero la Marmora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_19">
+			<Text>Marco Minghetti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_20">
+			<Text>Luigi Carlo Farini</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_21">
+			<Text>Urbano Rattazzi II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_22">
+			<Text>Bettino Ricasoli II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_23">
+			<Text>Camillo Benso, Conte di Cavour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_24">
+			<Text>Antonio Spinelli di Scalea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_HEAD_OF_GOVERNMENT_TITLE_CIVILIZATION_JFD_ITALY_V_E_III_25">
+			<Text>Tommaso di Somma</Text>
+		</Row>
+		<!--Political Parties-->
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_LIBERTARIAN_ITALY_V_E_III">
+			<Text>Radical Party</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_NOBILITY_ITALY_V_E_III">
+			<Text>Patricians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_JFD_PARTY_JFD_REVOLUTIONARY_ITALY_V_E_III">
+			<Text>Carbonari</Text>
+		</Row>
+		<!--SUKRITACT DECISIONS-->
+		<!--Extend Constitutional Freedoms-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_ITALY_V_E_III_FREEDOMS">
+			<Text>Extend Constitutional Freedoms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_ITALY_V_E_III_FREEDOMS_DESC">
+			<Text>
+				Pluralism is at the heart of the modern constitutional government. Let us therefore extend the constitutional laws concerning the extent to which the people may participate in their government.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Italy.
+				[NEWLINE][ICON_BULLET]May only be enacted from the beginning of the Renaissance Era.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+20% [ICON_CULTURE] Border expansion.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_ITALY_V_E_III_FREEDOMS_ENACTED_DESC">
+			<Text>
+				Pluralism is at the heart of the modern constitutional government. Let us therefore extend the constitutional laws concerning the extent to which the people may participate in their government.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+20% [ICON_CULTURE] Border expansion.
+			</Text>
+		</Row>
+		<!--Reform the Italian Front-->
+		<Row Tag="TXT_KEY_DECISIONS_JFD_ITALY_V_E_III_FRONTLINE">
+			<Text>Reform the Italian Front</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_ITALY_V_E_III_FRONTLINE_DESC">
+			<Text>
+				Past wars have proven to us that our military frontline has become obsolete. We must reform the battalions and commanders at our borders if we are to effectively defend them in the event of invasion.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Italy.
+				[NEWLINE][ICON_BULLET]Must have researched Ballistics.
+				[NEWLINE][ICON_BULLET]May only be enacted once per game.
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Num} [ICON_GOLD] Gold.
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates.
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Units fighting within your borders generate [ICON_GREAT_PEOPLE] Great Generals 20% faster.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_JFD_ITALY_V_E_III_FRONTLINE_ENACTED_DESC">
+			<Text>
+				Past wars have proven to us that our military frontline is out of touch with the times. We must reform the battalions at our borders if we are to effectively defend them in the event of invasion.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Units fighting within your borders generate [ICON_GREAT_PEOPLE] Great Generals 20% faster.
+			</Text>
+		</Row>
+		<!--SUKRITACT EVENTS-->
+		<!--VICEVIRTUOSO WISH FOR THE WORLD-->
+		<Row Tag="TXT_KEY_PMMM_LEADER_MG_NAME_JFD_ITALY_V_E_III">
+			<Text>Minervina</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

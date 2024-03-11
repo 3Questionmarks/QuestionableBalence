@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/9/2024 1:48:24 AM -->
+<GameData>
+	<!-- Improvements -->
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_MINING_PLATFORM</Type>
+			<Description>TXT_KEY_IMPROVEMENT_MINING_PLATFORM</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_MINING_PLATFORM_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_OFFSHORE_PLATFORM</ArtDefineTag>
+			<Water>true</Water>
+			<PillageGold>20</PillageGold>
+			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>
+			<PortraitIndex>27</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINING_PLATFORM</ImprovementType>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINING_PLATFORM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINING_PLATFORM</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Improvement_Yields>
+
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINING_PLATFORM</ImprovementType>
+			<TechType>TECH_ROBOTICS</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<TechType>TECH_ROBOTICS</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+	<!-- Build & Unit -->
+	<Builds>
+		<Row>
+			<Type>BUILD_MINING_PLATFORM</Type>
+			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
+			<ImprovementType>IMPROVEMENT_MINING_PLATFORM</ImprovementType>
+			<Description>TXT_KEY_BUILD_MINING_PLATFORM</Description>
+			<Help>TXT_KEY_BUILD_CONSUMED_HELP</Help>
+			<Kill>true</Kill>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_O</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<IconIndex>34</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKBOAT</UnitType>
+			<BuildType>BUILD_MINING_PLATFORM</BuildType>
+		</Row>
+	</Unit_Builds>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MINING_PLATFORM">
+			<Text>Deep Sea Mining Platform</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_MINING_PLATFORM_TEXT">
+			<Text>The Deep Sea mining platform is an important improvement as it provides access to the vast mineral wealth of the ocean depths. It is a control station and cargo transfer point for an underwater mine deep beneath it. The actual mining is done by robots. The area becomes unsuitable for fishing. Work boats are consumed when they construct a mining platform.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MINING_PLATFORM">
+			<Text>Create Deep Sea Mining Platform</Text>
+		</Row>
+	</Language_en_US>
+
+
+</GameData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/25/2021 10:53:20 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set ObsoleteTech="TECH_PENICILIN" />
+			<Where Type="UNIT_GREAT_WAR_INFANTRY" />
+		</Update>
+	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_GREAT_WAR_INFANTRY</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+</GameData>

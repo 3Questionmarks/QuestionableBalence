@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/27/2024 7:35:00 PM -->
+<GameData>
+	<SpecialUnits>
+		<Row>
+			<Type>SPECIALUNIT_TACTICALNUCLEARMISSILE</Type>
+			<Description>TXT_KEY_SPECIALUNIT_TACTICALNUCLEARMISSILE</Description>
+			<Valid>true</Valid>
+			<CityLoad>true</CityLoad>
+		</Row>
+	</SpecialUnits>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_TACTICAL_NUCLEAR_MISSILE</Type>
+			<Description>TXT_KEY_UNIT_TACTICAL_NUCLEAR_MISSILE</Description>
+			<DefaultUnit>UNIT_TACTICAL_NUCLEAR_MISSILE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_TACTICAL_NUCLEAR_MISSILE</Class>
+			<Type>UNIT_TACTICAL_NUCLEAR_MISSILE</Type>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+			<RangedCombat>300</RangedCombat>
+			<Cost>800</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<NoMaintenance>true</NoMaintenance>
+			<Range>5</Range>
+			<Special>SPECIALUNIT_MISSILE</Special>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ICBM</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_TACTICAL_NUCLEAR_MISSILE</Description>
+			<Civilopedia>TXT_KEY_CIV5_TACTICAL_NUCLEAR_MISSILE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_TACTICAL_NUCLEAR_MISSILE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_TACTICAL_NUCLEAR_MISSILE</Help>
+			<ProjectPrereq>PROJECT_MANHATTAN_PROJECT</ProjectPrereq>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<RangedCombatLimit>1000</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_NUCLEAR_MISSILE</UnitArtInfo>
+			<UnitFlagIconOffset>82</UnitFlagIconOffset>
+			<IconAtlas>UNIT_COLOR_ATLAS_TACTICAL_NUCLEAR_MISSILE</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<UnitAIType>UNITAI_ICBM</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>21</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>21</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>21</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>21</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<PromotionType>PROMOTION_VOLLEY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TACTICAL_NUCLEAR_MISSILE</UnitType>
+			<PromotionType>PROMOTION_SIEGE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_TACTICAL_NUCLEAR_MISSILE</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_TACTICAL_NUCLEAR_MISSILE</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_TACTICAL_NUCLEAR_MISSILE">
+			<Text>Tactical Nuclear Missile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALUNIT_TACTICAL_NUCLEAR_MISSILE">
+			<Text>Tactical Nuclear Missile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TACTICAL_NUCLEAR_MISSILE_TEXT">
+			<Text>A Tactical Nuclear Weapon (or TNW) refers to a nuclear weapon which is designed to be used on a battlefield in military situations. This is as opposed to strategic nuclear weapons which are designed to menace large populations, to damage the enemy's ability to wage war, or for general deterrence. Tactical nuclear weapons were a large part of the peak nuclear weapons stockpile levels during the Cold War.[NEWLINE][NEWLINE]There is no precise definition of the "tactical" category, neither considering range nor yield of the nuclear weapon. The yield of tactical nuclear weapons is generally lower than that of strategic nuclear weapons, but they are still very powerful, and some variable-yield warheads serve in both roles. Modern tactical nuclear warheads have yields up to the tens of kilotons, or potentially hundreds, several times that of the weapons used in the atomic bombings of Hiroshima and Nagasaki.[NEWLINE][NEWLINE]Use of tactical nuclear weapons against similarly-armed opponents carries a significant danger of quickly escalating the conflict beyond anticipated boundaries, from the tactical to the strategic. Ironically, the smallest tactical nuclear warheads with the lowest-yields are the most dangerous in this respect because they greatly reduce the threshold for starting nuclear warfare; i.e. there is, naturally, much less reluctance to use a nuclear weapon with a destructive yield of 10 tons of TNT (e.g. the W54 warhead design) at times of crisis than there is for a warhead with a yield of 100 kilotons.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TACTICAL_NUCLEAR_MISSILE_STRATEGY">
+			<Text>Use Tactical Nuclear Missiles in situations where you need to take care of powerful units or cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TACTICAL_NUCLEAR_MISSILE">
+			<Text>Unleash a controled nuclear detonation upon your foes. Does extreme damage to a unit or city in a single tile and Causes no fallout.[NEWLINE]Requires Manhattan Project and a Uranium resource.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="878f63ba-6904-4a93-a9d3-4d7f90c575b5" version="3">
+  <Properties>
+    <Name>MC and GE's Romania</Name>
+    <Teaser>Adds [COLOR_POSITIVE_TEXT]Romania[ENDCOLOR] to the game as a playable civilisation.</Teaser>
+    <Description>Adds [COLOR_POSITIVE_TEXT]Romania[ENDCOLOR] to the game as a playable civilisation.</Description>
+    <Authors>More Civs and Greater Europe</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="Cultural Diversity" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="Rise to Power" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Events &amp; Decisions" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="RED" />
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Traits" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="ExCE" />
+    <Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="Mercenaries" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="Cities in Development" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="9F8952BD2BE519BF89ED292A83CEBE3C" import="1">Art/Atlases/MC_RomaniaAlphaAtlas_128.dds</File>
+    <File md5="FA90B740F9614DFB32B9AFAE25FDE395" import="1">Art/Atlases/MC_RomaniaAlphaAtlas_16.dds</File>
+    <File md5="5D6B4533AE98C0E34F287C13047E1323" import="1">Art/Atlases/MC_RomaniaAlphaAtlas_22.dds</File>
+    <File md5="484AF500B31602381B3A1E2071336A37" import="1">Art/Atlases/MC_RomaniaAlphaAtlas_24.dds</File>
+    <File md5="8FCC7F3C07EB766B7A005DA813B240C0" import="1">Art/Atlases/MC_RomaniaAlphaAtlas_256.dds</File>
+    <File md5="CCD85E578DA4D8E267DF6FAC2AF2EC9B" import="1">Art/Atlases/MC_RomaniaAlphaAtlas_32.dds</File>
+    <File md5="833EAAD913B5103A6DD0EED8C25A3366" import="1">Art/Atlases/MC_RomaniaAlphaAtlas_45.dds</File>
+    <File md5="1DA206A412BA164C1EDEB7829BFE67B1" import="1">Art/Atlases/MC_RomaniaAlphaAtlas_48.dds</File>
+    <File md5="BD55E3640BBA755B9D699029714A721C" import="1">Art/Atlases/MC_RomaniaAlphaAtlas_64.dds</File>
+    <File md5="E2EAD028190CF55195E2C9002760B5AE" import="1">Art/Atlases/MC_RomaniaAlphaAtlas_80.dds</File>
+    <File md5="23B12AF782962F8D12EEC72CEBFFD435" import="1">Art/Atlases/MC_RomaniaAtlas_128.dds</File>
+    <File md5="25F7A7281B16F3F8278621CCE348DA66" import="1">Art/Atlases/MC_RomaniaAtlas_256.dds</File>
+    <File md5="95F48FABC0389FCE73A9E965D0901D45" import="1">Art/Atlases/MC_RomaniaAtlas_32.dds</File>
+    <File md5="CDB200129793FB4B46D1BD50BA3F49E6" import="1">Art/Atlases/MC_RomaniaAtlas_45.dds</File>
+    <File md5="928FC28169EDDBFAC288DDFDEEF696DE" import="1">Art/Atlases/MC_RomaniaAtlas_64.dds</File>
+    <File md5="88CDB921B223F772281499989D0FF6A2" import="1">Art/Atlases/MC_RomaniaAtlas_80.dds</File>
+    <File md5="69CA67B2BE79B9DDDD465AF2AA5209DF" import="1">Art/Models/MC_VinatorUnitFlag_32.dds</File>
+    <File md5="28134ECC7BD9EC6B069A502F135FA778" import="1">Art/Models/sv_Vinator.dds</File>
+    <File md5="98748A28AC44D3D7EFF6C3FD2A4FDF84" import="1">Art/Models/Vinator/hunrm1.blend</File>
+    <File md5="F4736ECA96D6027B92534D113C43C66C" import="1">Art/Models/Vinator/hunrm1.dds</File>
+    <File md5="E8CCDCAD51EED31A9A75805FD1C59575" import="1">Art/Models/Vinator/hunrm1.fxsxml</File>
+    <File md5="730292F1F582B98E1F5C043C8221541D" import="1">Art/Models/Vinator/hunrm1.gr2</File>
+    <File md5="56549D5213D8C04680019CFE69B2F87E" import="1">Art/Models/Vinator/hunrm1_sref.dds</File>
+    <File md5="78CFE72A44DEBF10135023B701F51005" import="1">Art/Scenes/MC_Romania_Leaderhead.dds</File>
+    <File md5="DEDED13CF946AE89C051DBA051372A29" import="1">Art/Scenes/MC_Romania_DOM.dds</File>
+    <File md5="01D23A410827882DE6688578B579F95C" import="1">Art/Scenes/MC_Romania_Map.dds</File>
+    <File md5="D4564FF7EEB42AAEE403CF9303A24BEB" import="1">Core/Art/MC_VinatorArtDef.sql</File>
+    <File md5="0910294CC475620515B352B9C1AF5137" import="1">Core/Art/MC_Romania_Leaderhead.xml</File>
+    <File md5="3613864F5070A72F4D8D6358FFA3C77B" import="0">Core/Buildings/MC_Romania_Buildings.xml</File>
+    <File md5="FB47977548A89E87B4E1C67F6EA890BB" import="0">Core/Civilizations/MC_Romania_Civilizations.xml</File>
+    <File md5="368F9E5CACAD994D449B37931A6717DA" import="0">Core/GameInfo/MC_Romania_IconTextureAtlases.xml</File>
+    <File md5="7A983E45661FF080E67D720C251AD14C" import="0">Core/GameInfo/MC_Romania_Sounds.xml</File>
+    <File md5="E723EF8D73651711CF6B9EA2615A3447" import="0">Core/GameInfo/MC_Romania_Traits.xml</File>
+    <File md5="59B55FF863722128FF110E700C13E3B1" import="0">Core/Leaders/MC_Romania_Leader.xml</File>
+    <File md5="D315E5A7CACBAE50D753C16DFA142C95" import="0">Core/Leaders/MC_Romania_LeaderFlavors.sql</File>
+    <File md5="1A549CC7BF013B7AF4F5859B0BFDFF66" import="0">Core/Text/MC_Romania_Text.xml</File>
+    <File md5="DB3CE569CCE795DB775C4BF7C2B9ACC1" import="0">Core/Units/MC_Romania_UnitPromotions.xml</File>
+    <File md5="5B8B2B999BB67E081B98D8FB3EAAA9ED" import="0">Core/Units/MC_Romania_Units.xml</File>
+    <File md5="4486E05E92C6A1829D1BD4FC8EAB80DE" import="1">Lua/CultureOverview Fix/CultureOverview.lua</File>
+    <File md5="BF85D174CA9D4F2EC2AD7E3FBB6C0D6D" import="1">Lua/CultureOverview Fix/CultureOverview.xml</File>
+    <File md5="42B48F1B7FAA9B8DB25384DDC78DAC5C" import="0">Lua/MC_RomaniaFunctions.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">Lua/SaveUtils.lua</File>
+    <File md5="AC99E132EFDB48B3FC585AEEFF323978" import="1">Mod Support/MC_Romania_Decisions.lua</File>
+    <File md5="D5C2196C0ED28BDF57334295B5C87DD5" import="0">Mod Support/MC_Romania_ModSupport.xml</File>
+    <File md5="FF244E4CB54512AD1E02C53E6C5228C4" import="0">Mod Support/MC_Romania_ModSupport.sql</File>
+    <File md5="6A04267AB177EFA83AB68A86CBF1B6ED" import="1">Sounds/MC_Romania_Peace.mp3</File>
+    <File md5="3B1565A1672C2A2828AF6465EF935731" import="1">Sounds/MC_Romania_War.mp3</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Art/MC_VinatorArtDef.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Buildings/MC_Romania_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Civilizations/MC_Romania_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_Romania_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_Romania_Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>Core/GameInfo/MC_Romania_Traits.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaders/MC_Romania_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Leaders/MC_Romania_LeaderFlavors.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Text/MC_Romania_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_Romania_UnitPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Units/MC_Romania_Units.xml</UpdateDatabase>
+      <UpdateDatabase>Mod Support/MC_Romania_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Mod Support/MC_Romania_ModSupport.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/MC_RomaniaFunctions.lua">
+      <Name>Romania Functions</Name>
+      <Description>What it says on the tin</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2024 1:31:50 AM -->
+<GameData>
+	<!-- Increased Information Era Tech cost-->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_TELECOM" />
+			<Set Cost="8000" />
+		</Update>
+		<Update>
+			<Where Type="TECH_MOBILE_TACTICS" />
+			<Set Cost="8000" />
+		</Update>
+		<Update>
+			<Where Type="TECH_ADVANCED_BALLISTICS" />
+			<Set Cost="8000" />
+		</Update>
+		<Update>
+			<Where Type="TECH_SATELLITES" />
+			<Set Cost="8000" />
+		</Update>
+		<Update>
+			<Where Type="TECH_ROBOTICS" />
+			<Set Cost="8000" />
+		</Update>
+		<Update>
+			<Where Type="TECH_LASERS" />
+			<Set Cost="8000" />
+		</Update>
+		<Update>
+			<Where Type="TECH_INTERNET" />
+			<Set Cost="9500" />
+		</Update>
+		<Update>
+			<Where Type="TECH_GLOBALIZATION" />
+			<Set Cost="9500" />
+		</Update>
+		<Update>
+			<Where Type="TECH_PARTICLE_PHYSICS" />
+			<Set Cost="9500" />
+		</Update>
+		<Update>
+			<Where Type="TECH_NUCLEAR_FUSION" />
+			<Set Cost="9500" />
+		</Update>
+		<Update>
+			<Where Type="TECH_NANOTECHNOLOGY" />
+			<Set Cost="9500" />
+		</Update>
+		<Update>
+			<Where Type="TECH_STEALTH" />
+			<Set Cost="9500" />
+		</Update>
+		<Update>
+			<Where Type="TECH_FUTURE_TECH" />
+			<Set Cost="10000" />
+		</Update>
+	</Technologies>
+  
+</GameData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/5/2024 11:58:45 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set Cost="600" />
+			<Where Type="UNIT_TANK" />
+		</Update>
+		<Update>
+			<Set Cost="550" />
+			<Where Type="UNIT_GERMAN_PANZER" />
+		</Update>
+	</Units>
+  
+</GameData>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/8/2021 12:06:33 PM -->
+<GameData>
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_ADJ_BONUS</Tag>
+			<Text>Friendly Adjacency Bonus</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_PROMOTION_ADJ_BONUS_HELP</Tag>
+			<Text>+20% Combat Strength when adjacent to another friendly unit.</Text>
+		</Row>
+	</Language_en_US>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_ADJ_BONUS</Type>
+			<Description>TXT_KEY_PROMOTION_ADJ_BONUS</Description>
+			<Help>TXT_KEY_PROMOTION_ADJ_BONUS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<AdjacentMod>20</AdjacentMod>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_ADJ_BONUS</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_ADJ_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ADJ_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ADJ_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ADJ_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ADJ_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ADJ_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ADJ_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ADJ_BONUS</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+</GameData>

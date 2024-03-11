@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2016 10:23:50 AM -->
+<GameData>
+
+	<!-- Spice Islanders no longer requires cities founded on other continents (Capital still won't count(Hopefully)). -20% unhappiness from pop -->
+	<Traits>
+		<Update>
+			<Set UniqueLuxuryRequiresNewArea="0" />
+			<Where Type="TRAIT_SPICE" />
+		</Update>
+		<Update>
+			<Set PopulationUnhappinessModifier="20" />
+            <Where Type="TRAIT_SPICE" />
+		</Update>
+	</Traits>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_SPICE" />
+		<Row Tag="TXT_KEY_TRAIT_SPICE">
+			<Text>The first 3 cities founded each provide 2 unique Luxury Resources (and can never be razed). -20% Unhappiness [ICON_HAPPINESS_4] from [ICON_CITIZEN] Population.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

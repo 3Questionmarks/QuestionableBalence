@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/22/2012 1:59:31 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>SENGOKU_TECH_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Tech_Atlas_256.dds</Filename>
+			<IconsPerRow>6</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SENGOKU_TECH_ATLAS</Atlas>
+			<IconSize>214</IconSize>
+			<Filename>Tech_Atlas_214.dds</Filename>
+			<IconsPerRow>6</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SENGOKU_TECH_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Tech_Atlas_128.dds</Filename>
+			<IconsPerRow>6</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SENGOKU_TECH_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Tech_Atlas_80.dds</Filename>
+			<IconsPerRow>6</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SENGOKU_TECH_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Tech_Atlas_64.dds</Filename>
+			<IconsPerRow>6</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SENGOKU_TECH_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Tech_Atlas_45.dds</Filename>
+			<IconsPerRow>6</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

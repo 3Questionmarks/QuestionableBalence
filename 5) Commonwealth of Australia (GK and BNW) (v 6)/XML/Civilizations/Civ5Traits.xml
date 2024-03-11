@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_BOUNDLESS_PLAINS</Type>
+			<Description>TXT_KEY_TRAIT_BOUNDLESS_PLAINS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_BOUNDLESS_PLAINS_SHORT</ShortDescription>
+			<FreeBuilding>BUILDING_AUSTRALIA_OUTPOST</FreeBuilding>
+			<GoldenAgeDurationModifier>25</GoldenAgeDurationModifier>
+		</Row>
+	</Traits>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_BOUNDLESS_PLAINS">
+			<Text>Cities recieve +1 [ICON_HAPPINESS_1] Happiness. Desert tiles yield +1 [ICON_GOLD] Gold and [ICON_GOLDEN_AGE] Golden Ages last 25% longer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_BOUNDLESS_PLAINS_SHORT">
+			<Text>Boundless Plains to Share</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

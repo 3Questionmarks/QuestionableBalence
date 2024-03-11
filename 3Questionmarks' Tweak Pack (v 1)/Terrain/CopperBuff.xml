@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:07:43 PM -->
+<GameData>
+	<Building_LocalResourceAnds>
+		<Delete BuildingType="BUILDING_FORGE" />
+	</Building_LocalResourceAnds>
+
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORGE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges >
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_MINT_HELP"/>
+			<Set>
+				<Text>Each source of [ICON_RES_GOLD] Gold, [ICON_RES_SILVER] Silver, and [ICON_RES_COPPER] Copper worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources mined nearby.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_MINT_STRATEGY"/>
+			<Set>
+				<Text>The Mint can only be constructed in a city with improved [ICON_RES_GOLD] Gold, [ICON_RES_SILVER] Silver, or [ICON_RES_COPPER] Copper resources nearby. The Mint increases the [ICON_GOLD] Gold output of each such resource the city has access to.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_FORGE_HELP"/>
+			<Set>
+				<Text>+15% [ICON_PRODUCTION] Production when building Land Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_IRON] Iron and [ICON_RES_COPPER] Copper worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a mined source of one of these resources nearby.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_FORGE_STRATEGY"/>
+			<Set>
+				<Text>The Forge can only be constructed in a city with an improved source of [ICON_RES_IRON] Iron or [ICON_RES_COPPER] Copper nearby. It increases the speed at which the city produces land units.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+
+</GameData>

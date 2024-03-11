@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/7/2024 1:39:07 AM -->
+<GameData>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_UFFIZI_HELP" />
+		<Row Tag="TXT_KEY_WONDER_UFFIZI_HELP">
+			<Text>1 free Great Artist appears near the City where the Wonder was built. Contains 3 slots for Great Works of Art.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

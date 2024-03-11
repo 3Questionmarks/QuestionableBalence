@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/26/2024 7:26:40 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_RA_SILK_ROAD</Type>
+			<DefaultBuilding>BUILDING_RA_SILK_ROAD</DefaultBuilding>
+			<Description>TXT_KEY_RA_SILK_ROAD</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_RA_SILK_ROAD</Type>
+			<BuildingClass>BUILDINGCLASS_RA_SILK_ROAD</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_RA_SILK_ROAD</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDING_RA_SILK_ROAD_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_RA_SILK_ROAD_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_RA_SILK_ROAD_HELP</Help>
+			<ExtraLuxuries>true</ExtraLuxuries>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>RESOURCE_ATLAS</IconAtlas>
+			<PortraitIndex>18</PortraitIndex>
+			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+		</Row>
+	</Buildings>
+	<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_RA_SILK_ROAD</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_RA_SILK_ROAD</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_RA_SILK_ROAD</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_SILK_ROAD</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_SILK_ROAD</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_SILK_ROAD</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_RA_SILK_ROAD</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_SILK_ROAD</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_SILK_ROAD</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_SILK_ROAD</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_SILK_ROAD</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RA_SILK_ROAD</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_FreeUnits>
+		<Row>
+			<BuildingType>BUILDING_RA_SILK_ROAD</BuildingType>
+			<UnitType>UNIT_CARAVAN</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_RA_SILK_ROAD">
+			<Text>Silk Road</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_RA_SILK_ROAD_TEXT">
+			<Text>The Silk Road was an ancient network of caravansaries and trade routes that connected the East and West, stretching from the Korean peninsula and Japan to the Mediterranean Sea and played a significant role in the development of Asian and Middle Eastern civilisations. Its name derives from the lucrative trade of silk beginning during the Han dynasty (207 BCE - 220 CE) but many other goods were traded as well as cultural exchanges of art, technology and religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RA_SILK_ROAD_HELP">
+			<Text>Gain an additional trade route slot and a Caravan appears in the city. Provides 1 extra copy of each improved luxury resource near this City. Must have built a Caravansary in all Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RA_SILK_ROAD_STRATEGY">
+			<Text>The civilization gains one additional trade route slot and a Caravan appears in the city, and also gains an additional copy of each luxury resource provided by a City possessing the Silk Road and provides a small amount of [ICON_GOLD] Gold, [ICON_CULTURE] Culture, [ICON_RESEARCH] Science and [ICON_PEACE] Faith. The Silk Road can only be constructed when a civilization has a Caravansary in all of its Cities.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

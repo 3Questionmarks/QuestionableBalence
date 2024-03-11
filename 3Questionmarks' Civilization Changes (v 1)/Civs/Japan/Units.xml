@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 10:59:12 AM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_JAPANESE_SAMURAI"/>
+			<Set Cost="136"/>
+		</Update>
+	</Units>
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_JAPANESE_SAMURAI" PromotionType="PROMOTION_SHOCK_1"/>
+		<Row>
+			<UnitType>UNIT_JAPANESE_SAMURAI</UnitType>
+			<PromotionType>PROMOTION_BLITZ</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_JAPANESE_SAMURAI"/>
+			<Set Text="Powerful Medieval infantry Unit. Only the Japanese may build it. This Unit can attack two times per turn and generates Great Generals two times faster than the Longswordsman, which it replaces."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GAME_INFO_JAPANESE_SAMURAI"/>
+			<Set Text="Powerful Medieval infantry Unit. Only the Japanese may build it. This Unit can attack two times per turn and generates Great Generals two times faster than the Longswordsman, which it replaces."/>
+		</Update>
+	</Language_en_US>
+</GameData>

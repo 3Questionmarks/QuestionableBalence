@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d134c0e4-9a30-4e6f-b1d8-4657b01351de" version="1">
+  <Properties>
+    <Name>3Questionmarks' Religious Beliefs Expanded</Name>
+    <Teaser>Overhauls the religious beleifs in civ 5</Teaser>
+    <Description>Overhauls the religious beleifs in civ 5</Description>
+    <Authors>???</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="9E6085FF688CA64E2657A7837FB3AAA1" import="0">Enhancers/Baptism.xml</File>
+    <File md5="F6A5DB6CC680C12391F0BFEA3538418E" import="0">Enhancers/Dharma.xml</File>
+    <File md5="D9068D16C50ACDFD3D0F58CAF8BC3DF3" import="0">Enhancers/Baptism.lua</File>
+    <File md5="37ECB40CA328A67AB20CA5A44DDD5DD2" import="0">Enhancers/Crusades.xml</File>
+    <File md5="60AD38D5896CE121285D16A6C86C1B6B" import="0">Enhancers/Crusades.lua</File>
+    <File md5="D9A906D929E9D110A2C9AE106DDA0C42" import="0">Enhancers/Karma.xml</File>
+    <File md5="704F1523A8A4AB38B361D5AEAF73E12A" import="0">Enhancers/MissionaryZeal.xml</File>
+    <File md5="CF9AF01B41A9AC4003947120649F5368" import="0">Enhancers/PapalPrimacy.xml</File>
+    <File md5="E6330024171C0E36ABD695CC4D49CDFD" import="0">Enhancers/Pilgrimage.xml</File>
+    <File md5="BD03A82C2C7A824AC7B31B7C4F5461F8" import="0">Enhancers/PromisedLand.xml</File>
+    <File md5="1816E5BE7037090DF108FF09FD44E60B" import="0">Enhancers/ReligiousTexts.xml</File>
+    <File md5="38E9F6D3B3482B159BFBA3A3DF2B847D" import="0">Enhancers/Reliquary.xml</File>
+    <File md5="5173EA59E57E6490C32F1D98B3534104" import="0">Enhancers/TempleToTheGreats.xml</File>
+    <File md5="EE077365004B16DF8E695B51E587D298" import="0">Enhancers/UnityOfTheProphets.xml</File>
+    <File md5="0168158B60F76BCCD5FEA561F04A822C" import="0">Enhancers/_RemoveOldEnhancers.xml</File>
+    <File md5="6D7AF1FF0CB47429E433FD75075AED6D" import="0">Followers/Ascetism.xml</File>
+    <File md5="E2C48BCD12A5B42E98A690CFA817D633" import="0">Followers/Cathedrals.xml</File>
+    <File md5="8EA8B4DD9AFB96493B744CDF024F73D1" import="0">Followers/DivineInspiration.xml</File>
+    <File md5="5E61011E1D2124780ECC9C40D0BADA4B" import="0">Followers/MountainTopAltars.xml</File>
+    <File md5="96E1D5129566B380A07523DD3FDAF680" import="0">Followers/ReligiousArt.lua</File>
+    <File md5="CA440B212DB14F41CBD8484042F3C44F" import="0">Followers/ReligiousDiversity.sql</File>
+    <File md5="B9DB7B7A02AA54A4942A2BFD25196FD6" import="0">Followers/WarriorMonks.lua</File>
+    <File md5="9BA9CC6B43FB871B9AE870726F398E6D" import="0">Followers/Gurdwaras.xml</File>
+    <File md5="499C630BBAFBCECA305085C11ED30B71" import="0">Followers/Guruship.xml</File>
+    <File md5="3408C50486297E531BBFF9CC31A34EDA" import="0">Followers/WarriorMonks.xml</File>
+    <File md5="FF4FE30532DB080FB17CF9E07C2E923F" import="0">Followers/LiturgicalDrama.xml</File>
+    <File md5="4E9EE2A13493A6FE6D4646945DE314E7" import="0">Followers/Madrassas.xml</File>
+    <File md5="8B1AF44CC3D4AD46DF33319EB07FE8E1" import="0">Followers/Mandirs.xml</File>
+    <File md5="44E01747BAC46D3D9175D41F1E1FC324" import="0">Followers/ReligiousDiversity.xml</File>
+    <File md5="BD46353C16A3B64B9A77BD9FD0C5434F" import="0">Followers/Monasteries.xml</File>
+    <File md5="F5563551DE322689AD897946DB4F360B" import="0">Followers/Mosques.xml</File>
+    <File md5="458B11A64E54D87AE4ADD13D6522A6DB" import="0">Followers/Pagodas.xml</File>
+    <File md5="1766F126F148CAF015A24310CC568D96" import="0">Followers/PeaceGardens.xml</File>
+    <File md5="C3F95BB74C9F1FBBCABE3447BC0AA0A5" import="0">Followers/ReligiousArt.xml</File>
+    <File md5="994ED940AA67DBA4934BC6A4B1BD2698" import="0">Followers/ReligiousCenter.xml</File>
+    <File md5="396892765A08A701C1FC6D81709E7E5D" import="0">Followers/Stupas.xml</File>
+    <File md5="C470E4A7010E49EA7E2E41F02F68D6E7" import="0">Followers/Synagogues.xml</File>
+    <File md5="1A0F1EBD40DE151D5D4AD3976A22C11E" import="0">Followers/WaterFountains.xml</File>
+    <File md5="8526E5DA73A5CB04EA38A616AEF70889" import="0">Followers/_RemoveOldFollowers.xml</File>
+    <File md5="8D61D8589200B581E3A2CA5621FFFE94" import="0">Founders/CeremonialBurial.xml</File>
+    <File md5="DDE1D3B5A61A34EB83D9EC43FC7F901C" import="0">Founders/CharitableMissions.xml</File>
+    <File md5="EC865A33DC188189F9D9B070A37437A0" import="0">Founders/ChurchProperty.xml</File>
+    <File md5="5CFA75B8D322093F85F942D9CA933BA4" import="0">Founders/DefenderOfTheFaith.xml</File>
+    <File md5="9187C2DE32A1AAC43864A41FBDE98405" import="0">Founders/FeedTheWorld.xml</File>
+    <File md5="BD0F0CBB78F317136E1B28A5AEA8C70A" import="0">Founders/DefenderOfTheFaith.lua</File>
+    <File md5="75B997734B809A290DFC38C3B35DCBC1" import="0">Founders/DivineEspionage.xml</File>
+    <File md5="6B5A84C1FA572E6A4C32EAC7A98D0071" import="0">Founders/ReligiousSettlements.lua</File>
+    <File md5="738141C628A2336C8FCA0F878F1375EE" import="0">Founders/InitiationRites.lua</File>
+    <File md5="704857163FEF14A02D288C2D877D7CDC" import="0">Founders/InitiationRites.xml</File>
+    <File md5="494DA01533299027F8B0D2D3E61C0649" import="0">Founders/InterfaithDialogue.xml</File>
+    <File md5="3709374BD859512F0AABF8B1F39855B8" import="0">Founders/Messiah.xml</File>
+    <File md5="13D6561E5F39A4DF75DBBC2D5F82756F" import="0">Founders/PeaceLoving.xml</File>
+    <File md5="9D08E2CE89EFC3DD6B9F8E664E9D1D8A" import="0">Founders/ReligiousCommunity.xml</File>
+    <File md5="3451174F6E159153837392279017A0DA" import="0">Founders/ReligiousSettlements.xml</File>
+    <File md5="1C3B3F3AA54E0FF5CABD389AC55A2B23" import="0">Founders/Tithe.xml</File>
+    <File md5="C84616878F13FC7C1866DC7138E951FA" import="0">Founders/Transcendence.xml</File>
+    <File md5="13A066DB7BEB460706E89FC384F648CD" import="0">Founders/_RemoveOldFounders.xml</File>
+    <File md5="D7828AFA80CA6B812CDA882BBDCCE104" import="1">NewReligions/ART/strange-fonticons.dds</File>
+    <File md5="43A58F743D507759EA64C6176C41CB44" import="1">NewReligions/ART/strange-fonticons.ggxml</File>
+    <File md5="62F616417C3216ABC35FD6EF3AD9A51E" import="1">NewReligions/ART/strange128.dds</File>
+    <File md5="6F0AF18B6429844EDB98A9CD96FD149C" import="1">NewReligions/ART/strange16.dds</File>
+    <File md5="40C6789D476924A9593FA563AD54880D" import="1">NewReligions/ART/strange24.dds</File>
+    <File md5="8DD7A337B67DEA621A8C7BBDA01B365A" import="1">NewReligions/ART/strange32.dds</File>
+    <File md5="4F96B75C3141A345454042D25420BA4A" import="1">NewReligions/ART/strange48.dds</File>
+    <File md5="BDFFE47395D527EE24DBE90B974906EC" import="1">NewReligions/ART/strange64.dds</File>
+    <File md5="B681B088CCFDCF1FD1A737CEE2815FC5" import="1">NewReligions/ART/strange80.dds</File>
+    <File md5="74D5FB17C7E6F30304E89FDEF5E8E0C1" import="1">NewReligions/ART/strangeB-fonticons.dds</File>
+    <File md5="4AB1FA8B763C4FB1F23B55883BEDFF61" import="1">NewReligions/ART/strangeB-fonticons.ggxml</File>
+    <File md5="36B145B462F7816D61EBFDB988DB1EA1" import="1">NewReligions/ART/strangeB128.dds</File>
+    <File md5="395535B473AD76A9EC77CDD77E5B9C4F" import="1">NewReligions/ART/strangeB16.dds</File>
+    <File md5="1BFEC6704DFBA1263FB0C307E6AFA069" import="1">NewReligions/ART/strangeB24.dds</File>
+    <File md5="10FE9C38E027F3EC847344D9ECCEB55A" import="1">NewReligions/ART/strangeB32.dds</File>
+    <File md5="CBB8E4F3C56E2584A75B24B98101CF17" import="1">NewReligions/ART/strangeB48.dds</File>
+    <File md5="6BF76828DB9B1D1A7925C7779BC2F668" import="1">NewReligions/ART/strangeB64.dds</File>
+    <File md5="522D4D09290C491E3F1BFBFEBF75B987" import="1">NewReligions/ART/strangeB80.dds</File>
+    <File md5="B08B8F5EC4908AF3EFE5BBBAA6815F39" import="0">NewReligions/strangereligions.xml</File>
+    <File md5="FBB1F8B33F15FFDB4FB5CE3B7B49C294" import="0">Pantheons/AncestorWorship.xml</File>
+    <File md5="8519BF156687A5EC076770E480073532" import="0">Pantheons/DanceOfTheAurora.xml</File>
+    <File md5="6CD9F80425008B7C91C8A03E253836D7" import="0">Pantheons/DesertFolklore.xml</File>
+    <File md5="F700BDCAAF9ED8FC0E9554AE38B140CF" import="0">Pantheons/EarthMother.xml</File>
+    <File md5="70318E0ECA4E31B48CFCC320B9A78AFC" import="0">Pantheons/FertilityRites.xml</File>
+    <File md5="CC27C4A157BF5C5D9C11B4263752E256" import="0">Pantheons/God-King.xml</File>
+    <File md5="CB7221B463D4C6FA961B088515C3E29B" import="0">Pantheons/GoddessOfFestivals.xml</File>
+    <File md5="4C05F4B2E8EB407127DCD35CAB0F4213" import="0">Pantheons/GoddessOfHarvest.xml</File>
+    <File md5="C7B7490E5E995F11063FEFF16FD44195" import="0">Pantheons/GoddessOfProtection.xml</File>
+    <File md5="E96004506E39B269AA25DE4F2EDF3427" import="0">Pantheons/GoddessOfTheHunt.xml</File>
+    <File md5="239E0CBB567F0DACCF585DB5CA8BEAF9" import="0">Pantheons/GodOfTheSea.xml</File>
+    <File md5="217596AC17D01805338890A0515610FB" import="0">Pantheons/GodOfTheSky.xml</File>
+    <File md5="62872B1F3E19113B06972E6B7DA192E8" import="0">Pantheons/GodOfWar.xml</File>
+    <File md5="0EBDE0CC7004F1CBC0C7DD39028BBECD" import="0">Pantheons/MonumentToTheGods.xml</File>
+    <File md5="6062D888EB323453D495AC4A0C70E444" import="0">Pantheons/MysticRituals.xml</File>
+    <File md5="74E1E86F52DA5C984DDFFEB8C8DCCB57" import="0">Pantheons/OceansBounty.xml</File>
+    <File md5="835D40C73439270DB10AD87EA452638B" import="0">Pantheons/OneWithNature.xml</File>
+    <File md5="7CF70FADE83A719D08B62EE97CA4940C" import="0">Pantheons/OralTradition.xml</File>
+    <File md5="43EC04E1BDD0B8AFE57A9B50C3B13CB3" import="0">Pantheons/ReligiousIdols.xml</File>
+    <File md5="06D9FF6C70CE45E0DBF34293B7DE2553" import="0">Pantheons/RiteOfSpring.xml</File>
+    <File md5="ABCBB0C4DDF9F79E5B9344664BF9BC26" import="0">Pantheons/SacredPath.xml</File>
+    <File md5="B3C04401828B8287579BB34DF5F6E617" import="0">Pantheons/SacredWaters.xml</File>
+    <File md5="E86821809A5446B380270B545DC33916" import="0">Pantheons/SpiritAnimals.xml</File>
+    <File md5="B22302D5B19B38AEDFDE82E4927A92DB" import="0">Pantheons/StoneCircles.xml</File>
+    <File md5="7FCAE8B854C4242616EC2BC5775D89D0" import="0">Pantheons/SunGod.xml</File>
+    <File md5="36B8FA2300A2D6E48734777F80F10F1D" import="0">Pantheons/Thrift.xml</File>
+    <File md5="ACE3BEB484B5C7EFB2A392B8831C1994" import="0">Pantheons/VisionQuests.xml</File>
+    <File md5="9EC24C952AE563703669FB6E89C3C481" import="0">Pantheons/_RemoveOldPantheons.xml</File>
+    <File md5="A0CAC861EAACBC91BB2AB2D8F867A355" import="0">Reformations/ApostolicPalace.xml</File>
+    <File md5="D2CBB6F33A6D4D02264AFA064B9504F3" import="0">Reformations/Disciples.xml</File>
+    <File md5="515A0DE0140068C2FF0590EEFBF0F888" import="0">Reformations/HousesOfWorship.xml</File>
+    <File md5="112F9AFB33BFC71E6C806AF036AF9723" import="0">Reformations/IdeologicalCenter.xml</File>
+    <File md5="5195C03DFA7B5DFE17A4C3DC2E85A5F1" import="0">Reformations/Indulgences.xml</File>
+    <File md5="9BC33A3B79347C7CB84A163475B49ED8" import="0">Reformations/ReligiousFervor.xml</File>
+    <File md5="10ED194CC6BB46E53D5D452999D3A771" import="0">Reformations/ReligiousUnity.xml</File>
+    <File md5="446484BE1797E7FB42F218BE5A18515C" import="0">Reformations/SacredSites.xml</File>
+    <File md5="71D5D677FAE8E8E336D5B1FA7DF6F09F" import="0">Reformations/SwordsToPlowshares.xml</File>
+    <File md5="0694AB4D186663AEF0185D6979F131F6" import="0">Reformations/UndergroundSect.xml</File>
+    <File md5="39A48B15093F18E34089783E9F880605" import="0">Reformations/WorldChurch.xml</File>
+    <File md5="FC9C2213C1A312960C210691328110A0" import="0">Reformations/_RemoveOldReformations.xml</File>
+    <File md5="0D8C67F78CBA8018C0FD3C3B1A0F7B30" import="0">Shared/Belief_FounderFreeBuildingClassCapital (v 4)/Belief_FounderFreeBuildingClassCapital.lua</File>
+    <File md5="A63F367D58341D3A25FCDB0BBAFF716D" import="0">Shared/Belief_FounderFreeBuildingClassCapital (v 4)/Belief_FounderFreeBuildingClassCapital.xml</File>
+    <File md5="EC8608BCE01B78CC1AE8084581416865" import="0">Shared/CityAdoptsReligionEvent (v 4)/CityAdoptsReligionEvent.lua</File>
+    <File md5="8A8F3436C9F3EDC91CBDE58515806A64" import="0">Shared/CityAdoptsReligionEvent (v 4)/CityAdoptsReligionEvent.sql</File>
+    <File md5="267774CF73AAF71A001577C9A899D0AA" import="0">Shared/IncreaseAIFaithCosts.lua</File>
+    <File md5="A34F2CC239DFE4E5985C1877930C91E3" import="0">Shared/IncreaseAIFaithCosts.xml</File>
+    <File md5="DAF60F13B28486DE4D71F77653D198B7" import="0">Shared/IncreaseMaxReligions.xml</File>
+    <File md5="B8F6DE6FE40EE33A7800AE6E74E4D074" import="0">Shared/GreatPeopleCosts.xml</File>
+    <File md5="44741CA2AE8776F45353F6965BFEC220" import="0">Shared/ReligionFoundedEvent (v 4)/ReligionFoundedEvent.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Shared/CityAdoptsReligionEvent (v 4)/CityAdoptsReligionEvent.sql</UpdateDatabase>
+      <UpdateDatabase>Shared/Belief_FounderFreeBuildingClassCapital (v 4)/Belief_FounderFreeBuildingClassCapital.xml</UpdateDatabase>
+      <UpdateDatabase>Reformations/_RemoveOldReformations.xml</UpdateDatabase>
+      <UpdateDatabase>Reformations/ApostolicPalace.xml</UpdateDatabase>
+      <UpdateDatabase>Reformations/Disciples.xml</UpdateDatabase>
+      <UpdateDatabase>Reformations/HousesOfWorship.xml</UpdateDatabase>
+      <UpdateDatabase>Reformations/IdeologicalCenter.xml</UpdateDatabase>
+      <UpdateDatabase>Reformations/Indulgences.xml</UpdateDatabase>
+      <UpdateDatabase>Reformations/ReligiousFervor.xml</UpdateDatabase>
+      <UpdateDatabase>Reformations/ReligiousUnity.xml</UpdateDatabase>
+      <UpdateDatabase>Reformations/SacredSites.xml</UpdateDatabase>
+      <UpdateDatabase>Reformations/SwordsToPlowshares.xml</UpdateDatabase>
+      <UpdateDatabase>Reformations/UndergroundSect.xml</UpdateDatabase>
+      <UpdateDatabase>Reformations/WorldChurch.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/_RemoveOldPantheons.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/AncestorWorship.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/DanceOfTheAurora.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/DesertFolklore.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/EarthMother.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/FertilityRites.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/GoddessOfFestivals.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/GoddessOfProtection.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/GoddessOfHarvest.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/GoddessOfTheHunt.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/God-King.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/GodOfTheSea.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/GodOfTheSky.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/GodOfWar.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/MonumentToTheGods.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/MysticRituals.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/OceansBounty.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/OneWithNature.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/OralTradition.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/ReligiousIdols.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/RiteOfSpring.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/SacredPath.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/SacredWaters.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/SpiritAnimals.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/StoneCircles.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/SunGod.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/Thrift.xml</UpdateDatabase>
+      <UpdateDatabase>Pantheons/VisionQuests.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/_RemoveOldFounders.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/CeremonialBurial.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/CharitableMissions.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/ChurchProperty.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/DefenderOfTheFaith.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/FeedTheWorld.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/InitiationRites.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/InterfaithDialogue.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/Messiah.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/PeaceLoving.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/ReligiousCommunity.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/ReligiousSettlements.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/Tithe.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/Transcendence.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/_RemoveOldFollowers.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/Ascetism.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/Cathedrals.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/DivineInspiration.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/Gurdwaras.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/Guruship.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/WarriorMonks.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/LiturgicalDrama.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/Madrassas.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/Mandirs.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/ReligiousDiversity.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/Mosques.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/Pagodas.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/PeaceGardens.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/ReligiousArt.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/ReligiousCenter.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/Stupas.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/Synagogues.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/WaterFountains.xml</UpdateDatabase>
+      <UpdateDatabase>Enhancers/_RemoveOldEnhancers.xml</UpdateDatabase>
+      <UpdateDatabase>Enhancers/Baptism.xml</UpdateDatabase>
+      <UpdateDatabase>Enhancers/Dharma.xml</UpdateDatabase>
+      <UpdateDatabase>Enhancers/Crusades.xml</UpdateDatabase>
+      <UpdateDatabase>Enhancers/Karma.xml</UpdateDatabase>
+      <UpdateDatabase>Enhancers/MissionaryZeal.xml</UpdateDatabase>
+      <UpdateDatabase>Enhancers/PapalPrimacy.xml</UpdateDatabase>
+      <UpdateDatabase>Enhancers/Pilgrimage.xml</UpdateDatabase>
+      <UpdateDatabase>Enhancers/PromisedLand.xml</UpdateDatabase>
+      <UpdateDatabase>Enhancers/ReligiousTexts.xml</UpdateDatabase>
+      <UpdateDatabase>Enhancers/Reliquary.xml</UpdateDatabase>
+      <UpdateDatabase>Enhancers/UnityOfTheProphets.xml</UpdateDatabase>
+      <UpdateDatabase>Shared/GreatPeopleCosts.xml</UpdateDatabase>
+      <UpdateDatabase>Founders/DivineEspionage.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/ReligiousDiversity.sql</UpdateDatabase>
+      <UpdateDatabase>Followers/MountainTopAltars.xml</UpdateDatabase>
+      <UpdateDatabase>Followers/Monasteries.xml</UpdateDatabase>
+      <UpdateDatabase>Enhancers/TempleToTheGreats.xml</UpdateDatabase>
+      <UpdateDatabase>Shared/IncreaseMaxReligions.xml</UpdateDatabase>
+      <UpdateDatabase>Shared/IncreaseAIFaithCosts.xml</UpdateDatabase>
+      <UpdateDatabase>NewReligions/strangereligions.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Shared/CityAdoptsReligionEvent (v 4)/CityAdoptsReligionEvent.lua">
+      <Name>CityAdoptsReligionEvent</Name>
+      <Description>CityAdoptsReligionEvent</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Shared/ReligionFoundedEvent (v 4)/ReligionFoundedEvent.lua">
+      <Name>ReligionFoundedEvent</Name>
+      <Description>ReligionFoundedEvent</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Shared/Belief_FounderFreeBuildingClassCapital (v 4)/Belief_FounderFreeBuildingClassCapital.lua">
+      <Name>FounderFreeBuildingClassCapital</Name>
+      <Description>FounderFreeBuildingClassCapital</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Founders/DefenderOfTheFaith.lua">
+      <Name>DefenderOfTheFaith</Name>
+      <Description>DefenderOfTheFaith</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Founders/InitiationRites.lua">
+      <Name>InitiationRites</Name>
+      <Description>InitiationRites</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Founders/ReligiousSettlements.lua">
+      <Name>ReligiousSettlements</Name>
+      <Description>ReligiousSettlements</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Followers/WarriorMonks.lua">
+      <Name>WarriorMonks</Name>
+      <Description>WarriorMonks</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Followers/ReligiousArt.lua">
+      <Name>ReligiousArt</Name>
+      <Description>ReligiousArt</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Enhancers/Baptism.lua">
+      <Name>Baptism</Name>
+      <Description>Baptism</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Enhancers/Crusades.lua">
+      <Name>Crusades</Name>
+      <Description>Crusades</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Shared/IncreaseAIFaithCosts.lua">
+      <Name>IncreaseAIFaithCosts</Name>
+      <Description>IncreaseAIFaithCosts</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

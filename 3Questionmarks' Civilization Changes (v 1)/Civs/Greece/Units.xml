@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:42:38 PM -->
+<GameData>
+	<!-- Hoplite -->
+	<Units>
+		<Update>
+			<Set Cost="46" />
+			<Where Type="UNIT_GREEK_HOPLITE" />
+		</Update>
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+			<PromotionType>PROMOTION_ATTACK_BONUS</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_HOPLITE"/>
+			<Set Text="The Hoplite is the Greek unique unit, replacing the Spearman. It is far more powerful than the Spearman. The Hoplite is deadly against mounted opponents. It also receives +25% [ICON_STRENGTH] Combat Strength when attacking."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GREEK_HOPLITE_STRATEGY"/>
+			<Set Text="Ancient Era Unit which specializes in defeating Mounted Units. Only the Greeks may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Spearman which it replaces. It also receives +25% [ICON_STRENGTH] Combat Strength when attacking."/>
+		</Update>
+	</Language_en_US>
+	
+	<!-- Companion Cavalry -->
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_GREEK_COMPANIONCAVALRY</UnitType>
+			<PromotionType>PROMOTION_HEAVY_CHARGE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_COMPANION_CAVALRY"/>
+			<Set Text="Fast and powerful early game Mounted Unit. Weak to Spearmen. Only the Greeks may build it. This Unit is faster, has a higher [ICON_STRENGTH] Combat Strength, Bosts the Heavy Charge Promotion, and helps produce Great Generals more quickly than the Horseman which it replaces."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GREEK_COMPANIONCAVALRY_STRATEGY"/>
+			<Set Text="Companion Cavalry are Greek unique units, replacing the Horseman. Companion Cavalry are faster and more powerful than the Horseman unit, making them the most dangerous cavalry units until the arrival of the Knight. Companion Cavalry help generate Great Generals more rapidly than other units. In addition, they can move after attacking and will force an apponent to retreat when faced with an attack. Companion Cavalry are mounted, and still vulnerable to Spearmen and Pikemen attack."/>
+		</Update>
+	</Language_en_US>
+</GameData>

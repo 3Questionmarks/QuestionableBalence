@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="44b7cffb-9c0a-42df-b0f8-5037780e60cb" version="2">
+  <Properties>
+    <Name>Global - Archaeologist Dig Sites</Name>
+    <Teaser>Highlights dig sites when an Archaeologist is selected</Teaser>
+    <Description>Highlights all dig sites when an Archaeologist is selected.  Sites with an Archaeologist en-route are highlighted in green, others in magenta</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="8E69E2A2C0C2932F087C029B22111358" import="0">LUA/GlobalArchaeologistDigSites.lua</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/GlobalArchaeologistDigSites.lua">
+      <Name>Global Archaeologist Dig Sites</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

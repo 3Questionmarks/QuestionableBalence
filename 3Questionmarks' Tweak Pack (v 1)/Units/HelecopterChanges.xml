@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/28/2016 9:17:42 PM -->
+<GameData>
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_HELICOPTER_GUNSHIP" PromotionType="PROMOTION_EMBARKATION"/>
+		<Delete UnitType="UNIT_HELICOPTER_GUNSHIP" PromotionType="PROMOTION_DEFENSIVE_EMBARKATION"/>
+		<Delete UnitType="UNIT_HELICOPTER_GUNSHIP" PromotionType="PROMOTION_ALLWATER_EMBARKATION"/>
+		<Delete UnitType="UNIT_HELICOPTER_GUNSHIP" PromotionType="PROMOTION_NO_CAPTURE"/>
+	</Unit_FreePromotions>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Units>
+		<Update>
+			<Set Range ="1" />
+			<Where Type ="UNIT_HELICOPTER_GUNSHIP" />
+		</Update>
+		<Update>
+			<Set Combat="65"/>
+			<Where Type="UNIT_HELICOPTER_GUNSHIP"/>
+		</Update>
+		<Update>
+			<Set RangedCombat="75"/>
+			<Where Type="UNIT_HELICOPTER_GUNSHIP"/>
+		</Update>
+		<Update>
+			<Set Cost="800" PrereqTech="TECH_LASERS" />
+			<Where Class ="UNITCLASS_HELICOPTER_GUNSHIP" />
+		</Update>
+		<Update>
+			<Set Moves="5" />
+			<Where Class ="UNITCLASS_HELICOPTER_GUNSHIP" />
+		</Update>
+	</Units>
+</GameData>

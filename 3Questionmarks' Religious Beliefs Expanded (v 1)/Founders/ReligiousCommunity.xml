@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- +1% Production for each follower (Max +10%) -->
+	<Belief_MaxYieldModifierPerFollower>
+		<Update>
+			<Set Max="20" />
+			<Where BeliefType="BELIEF_RELIGIOUS_COMMUNITY" YieldType="YIELD_PRODUCTION" />
+		</Update>
+	</Belief_MaxYieldModifierPerFollower>
+
+	<Beliefs>
+		<Update>
+			<Set Follower="false" Founder="true" />
+			<Where Type="BELIEF_RELIGIOUS_COMMUNITY" />
+		</Update>
+	</Beliefs>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY" />
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY">
+			<Text>+1% [ICON_PRODUCTION] Production for each follower (max +20%).</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

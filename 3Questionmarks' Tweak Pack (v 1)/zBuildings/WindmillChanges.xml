@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/12/2014 7:04:04 AM -->
+<GameData>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_WINDMILL</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+    <Buildings>
+		<Update>
+			<Set ProhibitedCityTerrain="NULL" />
+			<Where BuildingClass="BUILDINGCLASS_WINDMILL" />
+		</Update>
+	</Buildings>
+	<LANGUAGE_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_WINDMILL_HELP"/>
+			<Set>
+				<Text>+1 [ICON_FOOD] food from Wheat. +10% Production when constructing Buildings.</Text>
+			</Set>
+		</Update>
+	</LANGUAGE_en_US>
+</GameData>

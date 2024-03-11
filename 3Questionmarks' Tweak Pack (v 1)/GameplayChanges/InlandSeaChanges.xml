@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/12/2015 9:06:37 PM -->
+<GameData>
+
+	<!-- allow production of naval units in those cities -->
+	<Units>
+		<Update>
+			<Set MinAreaSize="1" />
+			<Where Domain="DOMAIN_SEA" />
+		</Update>
+	</Units>
+	
+	<!-- allow production of coastal buildings in those cities -->
+	<Buildings>
+		<!--Normal Buildings-->
+		<Update>
+			<Where Type="BUILDING_LIGHTHOUSE"/>
+			<Set MinAreaSize="1"/>
+		</Update>
+
+		<Update>
+			<Where Type="BUILDING_HARBOR"/>
+			<Set MinAreaSize="1"/>
+		</Update>
+
+		<Update>
+			<Where Type="BUILDING_SEAPORT"/>
+			<Set MinAreaSize="1"/>
+		</Update>
+	</Buildings>
+</GameData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/13/2014 12:47:13 AM -->
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_WALLS_OF_BENIN</Type>
+			<Description>TXT_KEY_POLICY_WALLS_OF_BENIN</Description>
+			<Civilopedia>TXT_KEY_POLICY_WALLS_OF_BENIN_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_WALLS_OF_BENIN_HELP</Help>
+			<GridX>1000</GridX>
+			<GridY>1000</GridY>
+			<PortraitIndex>47</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			<CityStrengthMod>17</CityStrengthMod>		
+		</Row>
+	</Policies>
+</GameData>

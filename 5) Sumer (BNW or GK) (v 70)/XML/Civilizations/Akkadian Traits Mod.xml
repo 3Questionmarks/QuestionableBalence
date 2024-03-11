@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_CRADLE_OF_CIVILIZATION</Type>
+			<Description>TXT_KEY_TRAIT_CRADLE_OF_CIVILIZATION</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CRADLE_OF_CIVILIZATION_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+    <Civilization_FreeTechs>
+        <Row>
+            <CivilizationType>CIVILIZATION_AKKADIAN_MOD</CivilizationType>
+            <TechType>TECH_POTTERY</TechType>
+        </Row>
+  </Civilization_FreeTechs>
+</GameData>

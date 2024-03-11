@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/29/2014 7:10:44 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DJSH_TEA_HOUSE</Type>
+			<DefaultBuilding>BUILDING_DJSH_TEA_HOUSE</DefaultBuilding>
+			<Description>Tea House</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DJSH_TEA_HOUSE</Type>
+			<BuildingClass>BUILDINGCLASS_DJSH_TEA_HOUSE</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<Description>Tea House</Description>
+			<Civilopedia>A tea house or tea room is an establishment which primarily serves tea and other light refreshments. Although its function varies widely depending on the culture, tea houses often serve as centers of social interaction. Some cultures have a variety of distinct tea-centered houses or parlors that all qualify under the English language term "tea house" or "tea room."</Civilopedia>
+			<Strategy>The Tea House can only be constructed in a city with improved tea or coffee resources nearby. The Tea House increases the [ICON_FOOD] Food and [ICON_CULTURE] Culture output of each such resource the city has access to. +1 [ICON_GOLD] Gold per incoming Trade Route (also +1 [ICON_GOLD] Gold for the owner of the route).</Strategy>
+			<Help>Each source of [ICON_RES_TEA] Tea and [ICON_RES_COFFEE] Coffee worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. +1 [ICON_GOLD] Gold per incoming Trade Route (also +1 [ICON_GOLD] Gold for the owner of the route).[NEWLINE][NEWLINE]City must have at least one of these resources worked nearby.</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+			<TradeRouteRecipientBonus>1</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>RES_BUILDING_DJSH_ATLAS</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TEA_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_FOOD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TEA_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TEA_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TEA_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TEA_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TEA_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_TEA</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TEA_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TEA_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_TEA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TEA_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_TEA</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TEA_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_TEA_HOUSE</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+</GameData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 11:09:22 AM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set UnresearchedTechBonusFromKills="200"/>
+			<Where Type="TRAIT_SLAYER_OF_TIAMAT"/>
+		</Update>
+        <Update>
+            <Set GreatScientistRateModifier="25"/>
+			<Where Type="TRAIT_SLAYER_OF_TIAMAT"/>
+		</Update>
+        <Update>
+            <Set GreatGeneralRateModifier="25" />
+			<Where Type="TRAIT_SLAYER_OF_TIAMAT"/>
+		</Update>
+	</Traits>
+
+	<Language_en_US>
+		<Update>
+			<Set Text="When a city is conquered, gain a Technology discovered by its owner. Receive [ICON_RESEARCH] Science from defeated units that require a technology you have not yet researched. [ICON_GREAT_GENERAL] Great Generals and [ICON_GREAT_SCIENTIST] Scientists are earned 25% faster."/>
+			<Where Tag="TXT_KEY_TRAIT_SLAYER_OF_TIAMAT"/>
+		</Update>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fe666a56-1916-4c54-9bce-81bd99f9c5f2" version="2">
+  <Properties>
+    <Name>Tar's Arabian Split</Name>
+    <Teaser>Adds the [COLOR_YIELD_FOOD]Rashidun, Umayyad and Abbasid Caliphates[ENDCOLOR] to the game.</Teaser>
+    <Description>Adds the [COLOR_CITY_GREEN]Rashidun, Umayyad and Abbasid Caliphates[ENDCOLOR] to the game.</Description>
+    <Authors>Tar</Authors>
+    <SpecialThanks>Urdnot, Regalman</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="7fdd72a5-d4ae-441c-bc4e-2e3d2a26cff4" minversion="0" maxversion="999" title="Ethnic Units" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Maps Pack" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Rise to Power" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFD’s Cities in Development" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Sukritact’s Events and Decisions" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="0F3E1F9F58949D1F85D0066DA5A3CDA3" import="1">Art Files/3D Models/Pikeman_Arabia.dds</File>
+    <File md5="2F0538DB78E4001521B00D67F3952138" import="1">Art Files/3D Models/Pikeman_Arabia.fxsxml</File>
+    <File md5="67C7916F1DB030ADC821D9E9348EDE5E" import="1">Art Files/3D Models/Pikeman_Arabia.gr2</File>
+    <File md5="8FCD81EDD21F676302F6CEF0273ECF6C" import="1">Art Files/3D Models/Pikeman_Arabia_gloss.dds</File>
+    <File md5="ADB67369CFE5C0D1C1E6174D58060A82" import="1">Art Files/Icon Atlases/Tar_Ansar_Alpha_32.dds</File>
+    <File md5="0BF7FB9C5B710E859D0D387ED4804135" import="1">Art Files/Icon Atlases/Tar_Arabian_Alpha_128.dds</File>
+    <File md5="329640921E29546880B676F1E1043CC3" import="1">Art Files/Icon Atlases/Tar_Arabian_Alpha_16.dds</File>
+    <File md5="6F3CCC3952787D5417CF0C5D6006A88A" import="1">Art Files/Icon Atlases/Tar_Arabian_Alpha_24.dds</File>
+    <File md5="46D5D03D7E9A6F99028B4C29140D762A" import="1">Art Files/Icon Atlases/Tar_Arabian_Alpha_256.dds</File>
+    <File md5="902FCC7C659241C38DD2CC57C90C4F13" import="1">Art Files/Icon Atlases/Tar_Arabian_Alpha_32.dds</File>
+    <File md5="0BAF50A3C8A35A856A9D6BE848FB76C8" import="1">Art Files/Icon Atlases/Tar_Arabian_Alpha_45.dds</File>
+    <File md5="3ADAB20C3527E9EF8E15D1D7975E80B2" import="1">Art Files/Icon Atlases/Tar_Arabian_Alpha_48.dds</File>
+    <File md5="984D0545D1EA280D1CBBBB939F4E7D5A" import="1">Art Files/Icon Atlases/Tar_Arabian_Alpha_64.dds</File>
+    <File md5="94ED231C3305E57FA1997668B1CB6A15" import="1">Art Files/Icon Atlases/Tar_Arabian_Alpha_80.dds</File>
+    <File md5="A2E0E48BFB4264A03E295F75735BDE17" import="1">Art Files/Icon Atlases/Tar_Arabian_Icons_128.dds</File>
+    <File md5="A92C4F1E52073F1D591F73D12023ECEE" import="1">Art Files/Icon Atlases/Tar_Arabian_Icons_256.dds</File>
+    <File md5="3EA16B45520148D4E59B6526ED9CCFE1" import="1">Art Files/Icon Atlases/Tar_Arabian_Icons_32.dds</File>
+    <File md5="6D0F67E851EB657524ED095BA12A2297" import="1">Art Files/Icon Atlases/Tar_Arabian_Icons_45.dds</File>
+    <File md5="430E0A7EEC39FCFAF3E2E6E57CB3DD17" import="1">Art Files/Icon Atlases/Tar_Arabian_Icons_64.dds</File>
+    <File md5="3BD450D8B6060C9F897A109FFC12D610" import="1">Art Files/Icon Atlases/Tar_Arabian_Icons_80.dds</File>
+    <File md5="A4A328744124BF0C40299438DFFF22C3" import="1">Art Files/Icon Atlases/Tar_Physician_Alpha_32.dds</File>
+    <File md5="FF36B703941D761C396A34895A7222C2" import="1">Art Files/Icon Atlases/Tar_SV_Ansar.dds</File>
+    <File md5="297A4D13BD7E82FDAB342EF57A88E11D" import="1">Art Files/Icon Atlases/Tar_SV_Physician.dds</File>
+    <File md5="C16D29526D3287A84126C80CC5DD6E43" import="1">Art Files/Icon Atlases/Tar_Yamani_Alpha_32.dds</File>
+    <File md5="826487F4A218931B35930601F59C8794" import="1">Art Files/Sound Tracks/Tar_Ansar_Heal.mp3</File>
+    <File md5="75673EEAE8E2BCBCB03184B7388F379D" import="1">Art Files/Sound Tracks/Tar_Rashidun_Peace.mp3</File>
+    <File md5="0ADB0EEE60A6947C365AFE5DB38265A5" import="1">Art Files/Sound Tracks/Tar_Rashidun_War.mp3</File>
+    <File md5="47D4BC09DAF1F4BBDE2C8E4319A006EF" import="0">Art Files/Sound Tracks/Tar_SV_Yamani.dds</File>
+    <File md5="258FE48F4FA65770EB0E47C010E15F58" import="1">Art Files/Sound Tracks/Tar_Umayyad_Peace.mp3</File>
+    <File md5="9CDAFCE202DB74152844CE9BD38EAAF9" import="1">Art Files/Sound Tracks/Tar_Umayyad_War.mp3</File>
+    <File md5="56C2F3D1D95E99162FC503C1A1E159F2" import="1">Art Files/Splash Artworks/Tar_Abbasid_DOM.dds</File>
+    <File md5="1549410EC63261F02E050C56F56DF2BF" import="1">Art Files/Splash Artworks/Tar_Abbasid_Map.dds</File>
+    <File md5="C23877C04240F904B7FE97462550CF91" import="1">Art Files/Splash Artworks/Tar_Rashidun_DOM.dds</File>
+    <File md5="11BAFA72C1ACBBBAC15DBC11D0DDF47A" import="1">Art Files/Splash Artworks/Tar_Rashidun_Leaderscreen.dds</File>
+    <File md5="C062287EC26D9E0503285B818E54C5B7" import="1">Art Files/Splash Artworks/Tar_Rashidun_Map.dds</File>
+    <File md5="FD98B95C3F8935040AB770CAF1900748" import="1">Art Files/Splash Artworks/Tar_Umayyad_DOM.dds</File>
+    <File md5="415FF1F666D0E2C18232BB345E2D9A8F" import="1">Art Files/Splash Artworks/Tar_Umayyad_Leaderscreen.dds</File>
+    <File md5="D8C3E96E99906FCD740AB4523E8A0F16" import="1">Art Files/Splash Artworks/Tar_Umayyad_Map.dds</File>
+    <File md5="4486E05E92C6A1829D1BD4FC8EAB80DE" import="1">Code/CultureOverview.lua</File>
+    <File md5="BF85D174CA9D4F2EC2AD7E3FBB6C0D6D" import="1">Code/CultureOverview.xml</File>
+    <File md5="EA03203774448E5733891DA44613C50E" import="0">Code/ArtDefines.sql</File>
+    <File md5="CFF7E6F56C1ECE37206BFC043ABC4A60" import="0">Code/Functions.lua</File>
+    <File md5="541B18C74B80EFCB716C209998F37E9F" import="1">Code/Tar_Arabian_Decisions.lua</File>
+    <File md5="339472DFFB4AAAD6AF872706F0CCA2CD" import="0">Code/ModSupport.sql</File>
+    <File md5="5244308719C5B41D37E35BCE6F354D41" import="1">Code/PlotIterators.lua</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Code/Sukritact_SaveUtils.lua</File>
+    <File md5="35937F72293FD0B5A0885E5102634F34" import="1">Code/Tar_Umar_Leaderscreen.xml</File>
+    <File md5="19A51DD6E81658A08DF30355C0E71979" import="1">Code/Tar_AbdAlMalik_Leaderscreen.xml</File>
+    <File md5="3640811362E62F7CCE4C26590EB10420" import="0">Code/TextDefines.xml</File>
+    <File md5="0C24CBFD75D39B21A2B71D507AF48865" import="0">Code/GameDefines.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Code/GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Code/TextDefines.xml</UpdateDatabase>
+      <UpdateDatabase>Code/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Code/ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Code/Functions.lua">
+      <Name>Arabian Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

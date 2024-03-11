@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2021 2:27:18 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_RANCH</Type>
+			<DefaultBuilding>BUILDING_RANCH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_RANCH</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_RANCH</Type>
+			<BuildingClass>BUILDINGCLASS_RANCH</BuildingClass>
+			<Cost>360</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+			<Description>TXT_KEY_BUILDING_RANCH</Description>
+			<Civilopedia>TXT_KEY_BUILDING_RANCH_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_RANCH_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>INDUSTRIAL_ICONATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_RANCH</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_RANCH</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANCH</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANCH</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANCH</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANCH</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANCH</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_RANCH</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_RANCH</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANCH</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RANCH</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_RANCH">
+			<Text>Ranch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RANCH_HELP">
+			<Text>+1 [ICON_FOOD] Food and [ICON_GOLD] Gold from [ICON_RES_SHEEP] Sheep, [ICON_RES_COW] Cows, and [ICON_RES_HORSE] Horses.[NEWLINE][NEWLINE]City must have a Stable.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RANCH_PEDIA">
+			<Text>Ranching and the cowboy tradition originated in Spain, out of the necessity to handle large herds of grazing animals on dry land from horseback. During the Reconquista, members of the Spanish nobility and various military orders received large land grants that the Kingdom of Castile had conquered from the Moors. These landowners were to defend the lands put into their control and could use them for earning revenue. In the process it was found that open-range breeding of sheep and cattle (under the Mesta system) was the most suitable use for vast tracts, particularly in the parts of Spain now known as Castilla-La Mancha, Extremadura and Andalusia.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+
+
+
+	
+</GameData>

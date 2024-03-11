@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/14/2014 4:13:26 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set RangedCombat="150"/>
+			<Where Type="UNIT_GUIDED_MISSILE"/>			
+		</Update>
+		<Update>
+			<Set Range="15"/>
+			<Where Type="UNIT_GUIDED_MISSILE"/>
+		</Update>
+        <Update>
+			<Set Cost="375"/>
+			<Where Type="UNIT_GUIDED_MISSILE"/>
+		</Update>
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
+			<PromotionType>PROMOTION_VOLLEY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
+			<PromotionType>PROMOTION_SIEGE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+</GameData>

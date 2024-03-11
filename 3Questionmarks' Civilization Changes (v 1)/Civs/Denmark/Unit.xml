@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_DANISH_BERSERKER</UnitType>
+			<PromotionType>PROMOTION_STRONGER_VS_DAMAGED</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DANISH_BERSERKER</UnitType>
+			<PromotionType>PROMOTION_BLITZ</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_DENMARK_BERSERKER_HELP"/>
+			<Set Text="Strong, front-line land Unit of the Medieval Era that specializes in attacks from the sea. Only Denmark may build it. Replaces the Longswordsman."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_DENMARK_BERSERKER_STRATEGY"/>
+			<Set Text="The Berserker is one of two Danish Unique Units, replacing the Longswordsman. This Unit is +1 Movement [ICON_MOVES] compared to the Longswordsman and possesses the Amphibious promotion, allowing it to attack onto land from a Coast tile with no penalty."/>
+		</Update>
+	</Language_en_US>
+  
+</GameData>

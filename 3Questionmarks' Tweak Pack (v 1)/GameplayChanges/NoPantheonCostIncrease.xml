@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/14/2012 10:24:21 PM -->
+<GameData>
+	<Defines>
+        <Update>
+			<Set Value="15" />
+			<Where Name="RELIGION_MIN_FAITH_FIRST_PANTHEON" />
+		</Update>
+		<Update>
+			<Where Name="RELIGION_GAME_FAITH_DELTA_NEXT_PANTHEON"/>
+			<Set Value="0"/>
+		</Update>
+	</Defines>
+    <Eras>
+		<Update>
+			<Set FaithCostMultiplier="100" />
+		</Update>
+	</Eras>	
+</GameData>

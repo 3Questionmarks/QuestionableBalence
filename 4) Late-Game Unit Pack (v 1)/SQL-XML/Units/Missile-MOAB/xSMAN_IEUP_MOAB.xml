@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 02/25/18 5:25:49 PM -->
+<GameData>
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_MOAB</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_MOAB</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_MOAB</DefaultUnit>
+			<MaxPlayerInstances>6</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_IEUP_MOAB</Class>
+			<Type>UNIT_SMAN_IEUP_MOAB</Type>
+			<PrereqTech>TECH_ROCKETRY</PrereqTech>
+
+			<Combat>0</Combat>
+			<RangedCombat>400</RangedCombat>
+			<BaseSightRange>2</BaseSightRange>
+			<NoMaintenance>1</NoMaintenance>
+
+			<Cost>350</Cost>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<Range>10</Range>
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_ICBM</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_MOAB</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_MOAB_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_MOAB_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_MOAB_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<Suicide>true</Suicide>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<NukeDamageLevel>-1</NukeDamageLevel>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_MOAB</UnitArtInfo>			
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>33</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>33</UnitFlagIconOffset>			
+			<MoveRate>AIR_REBASE</MoveRate>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_MOAB</UnitType>
+			<UnitAIType>UNITAI_ICBM</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_MOAB</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>22</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_MOAB</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_MOAB</UnitType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_MOAB</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_MOAB</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_MOAB</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_MOAB</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_MOAB</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_MOAB</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+		
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_MOAB">
+			<Text>Mother of All Bombs (MOAB)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_MOAB_STRATEGY">
+			<Text>The MOAB is a one-shot unit which is destroyed when it attacks an enemy target. It may be based in a player-owned friendly city or unit that can carry aircraft. They may move from base to base or attack an enemy unit or city with their range of 10. Requires [ICON_RES_OIL] Oil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_MOAB_HELP">
+			<Text>A massively powerful conventional bomb that may be used once to damage enemy Units or Cities up to 10 tiles away. A maximum of 6 may be built. Requires [ICON_RES_OIL] Oil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_MOAB_PEDIA">
+			<Text>
+				The MOAB is a powerful, one-shot unit available on the discovery of Rocketry. It does damage similar to an Atomic Bomb, but only to a single target. Does not leave fallout. Requires [ICON_RES_OIL] Oil.[NEWLINE][NEWLINE]The MOAB is based on the GBU-43, Massive Ordnance Air Blast, aka MOAB, which is commonly known as the Mother of All Bombs.  It is a large-yield bomb, developed for the United States military by Albert L. Weimorts, Jr. of the Air Force Research Laboratory. At the time of development, it was touted as the most powerful non-nuclear weapon in the American arsenal. The bomb is designed to be delivered by a C-130 Hercules, primarily the MC-130E Combat Talon I or MC-130H Combat Talon II variants.  The MOAB was first dropped in combat in the 13 April 2017 airstrike against Islamic State of Iraq and the Levant, or ISIL, militants in Afghanistan.[NEWLINE][NEWLINE]The basic operational concept bears some similarity to the BLU-82 Daisy Cutter, which was used to clear heavily wooded areas in the Vietnam War. Decades later, the BLU-82 was used in Afghanistan in November 2001 against the Taliban. Its success as a weapon of intimidation led to the decision to develop the MOAB. Pentagon officials suggested MOAB might be used as an anti-personnel weapon, as part of the `shock and awe` strategy integral to the 2003 invasion of Iraq.[NEWLINE][NEWLINE]GBU-43s are delivered from C-130 cargo planes, inside which they are carried on cradles resting on airdrop platforms. The bombs are dropped by deploying drogue parachutes, which also extract the cradle and platform from the aircraft. Shortly after launch, the drogues are released and bombs fall unhindered. GPS satellite-guidance is used to guide bombs to their targets.
+			</Text>
+		</Row>
+	</Language_en_US>	
+  
+</GameData>

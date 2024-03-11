@@ -1,0 +1,47 @@
+-- Credits
+-- Author: JFD
+-- DateCreated: 1/6/2018 1:43:31 PM
+----------------
+JFD: 
+----------------
+	Author
+	Art (Unit Icon)
+	Coding 
+	Design 
+	Research 
+	Writing
+----------------
+Alga: 
+----------------
+	Art (Unit Icon)
+----------------
+DarthStarKiller: 
+----------------
+	Art (Civ Icon)
+----------------
+Janboruta: 
+----------------
+	Art (Building Icon; Map)
+----------------
+Regalman: 
+----------------
+	Art (Map)
+----------------
+Whoward:
+----------------
+	Utilities (PlotIterators.lua)
+	https://forums.civfanatics.com/threads/border-and-area-plot-iterators.474634/
+----------------
+Andreas Waldetoft: 
+----------------
+	Music (For God and Queen; A Cruce Victoria)
+	https://www.youtube.com/watch?v=_AsiPz_vjPI
+	https://www.youtube.com/watch?v=5cCB7nrhaKE
+----------------
+Wikipedia.com: 
+----------------
+	Pedias
+	https://en.wikipedia.org/wiki/Chocolaterie
+	https://en.wikipedia.org/wiki/Praline
+--------------------------------------------------------------
+--------------------------------------------------------------

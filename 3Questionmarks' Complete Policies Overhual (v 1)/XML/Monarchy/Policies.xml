@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/9/2020 3:20:07 PM -->
+<GameData>
+	<!-- Opener -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_TRADITION" />
+			<Set PlotCultureExponentModifier="0" />
+		</Update>
+	</Policies>
+    <Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_TRADITION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	<!-- Finisher -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_TRADITION_FINISHER" />
+			<Set>
+				<NumFreePolicies>0</NumFreePolicies>
+				<CityGrowthMod>0</CityGrowthMod>
+                <PlotCultureCostModifier>-25</PlotCultureCostModifier>
+                <NumCitiesFreeFoodBuilding>0</NumCitiesFreeFoodBuilding>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldMod>25</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	<Policy_PGB_FreeBuildingClass>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
+		</Row>
+	</Policy_PGB_FreeBuildingClass>
+	<!-- Opener and Finisher Text -->
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_TRADITION_CAP" />
+			<Set Text="Monarchy" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_TRADITION" />
+			<Set Text="Monarchy" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_POLICY_TRADITION_TEXT" />
+			<Set Text="Monarchy is a form of government focused on the monarch and therefore on the [ICON_CAPITAL] Capital and on the defense of its territory." />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_TRADITION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Monarchy[ENDCOLOR] lends itself well to a civilization that focuses on the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Monarchy[ENDCOLOR] provides +3 [ICON_CULTURE] Culture and +3 [ICON_PRODUCTION] Production in [ICON_CAPITAL] Capital City. Unlocks building [COLOR_BUILDING_TEXT]Public Baths[ENDCOLOR] and the [COLOR_CITY_GREEN]Hanging Gardens[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies in [COLOR_POSITIVE_TEXT]Monarchy[ENDCOLOR] will decress the [ICON_CULTURE] Culture cost of aquiring new tiles by 25%, and grant a free aqueduct in all cities. Additionally aqueducts will increase the [ICON_FOOD] Food output of a city by +25%." />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Monarchy[ENDCOLOR] lends itself well to a civilization that focuses on the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Monarchy[ENDCOLOR] provides +3 [ICON_CULTURE] Culture and +3 [ICON_PRODUCTION] Production in [ICON_CAPITAL] Capital City. Unlocks building [COLOR_BUILDING_TEXT]Public Baths[ENDCOLOR] and the [COLOR_CITY_GREEN]Hanging Gardens[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies in [COLOR_POSITIVE_TEXT]Monarchy[ENDCOLOR] will decress the [ICON_CULTURE] Culture cost of aquiring new tiles by 25%, and grant a free aqueduct in all cities. Additionally aqueducts will increase the [ICON_FOOD] Food output of a city by +25%." />
+        </Update>
+        </Language_en_US>
+	 
+	<!-- Oligarchy -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_OLIGARCHY" />
+			<Set GridX="1" />
+			<ExpInBorderModifier>100</ExpInBorderModifier>
+		</Update>
+	</Policies>
+	<Policy_PrereqPolicies>
+		<Row>
+			<PolicyType>POLICY_ARISTOCRACY</PolicyType>
+			<PrereqPolicy>POLICY_OLIGARCHY</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_OLIGARCHY_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Oligarchy[ENDCOLOR][NEWLINE]Garrisoned units cost no [ICON_GOLD] Gold maintenance and cities with a garrison gain +50% [ICON_RANGE_STRENGTH] Ranged Combat Strength. [NEWLINE]Units within friendly borders earn double XP during combat.[NEWLINE]This policy unlocks the [COLOR_XP_BLUE]Light Catapult[ENDCOLOR] unit." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Landed Elite-->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_LANDED_ELITE" />
+			<Set>
+				<GridX>3</GridX>
+				<GridY>1</GridY>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_PrereqPolicies>
+		<Delete>
+			<PolicyType>POLICY_LANDED_ELITE</PolicyType>
+			<PrereqPolicy>POLICY_LEGALISM</PrereqPolicy>
+		</Delete>
+	</Policy_PrereqPolicies>
+	
+	<!-- Luxury -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_LEGALISM" />
+			<Set>
+				<Description>TXT_KEY_POLICY_LEGALISM1</Description>
+				<Civilopedia>TXT_KEY_POLICY_LEGALISM1_TEXT</Civilopedia>
+				<OneShot>false</OneShot>
+				<GridX>3</GridX>
+				<GridY>2</GridY>
+				<WonderProductionModifier>20</WonderProductionModifier>
+				<NumCitiesFreeCultureBuilding>0</NumCitiesFreeCultureBuilding>
+				<PortraitIndex>9</PortraitIndex>
+				<CapitalGrowthMod>10</CapitalGrowthMod>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_CapitalYieldPerPopChanges>
+		<Row>
+			<PolicyType>POLICY_LEGALISM</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>50</Yield>
+		</Row>
+	</Policy_CapitalYieldPerPopChanges>
+	<Policy_PrereqPolicies>
+		<Update>
+			<Where PolicyType="POLICY_LEGALISM" />
+			<Set>
+				<PrereqPolicy>POLICY_LANDED_ELITE</PrereqPolicy>
+			</Set>
+		</Update>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_LEGALISM_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Luxury[ENDCOLOR][NEWLINE]+20% wonder [ICON_PRODUCTION] Production in all citites, and +1 [ICON_GOLD] Gold for every 2 [ICON_CITIZEN] Citizens of the [ICON_CAPITAL] Capital City. +10% [ICON_FOOD] Growth in the [ICON_CAPITAL] Captial City." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Absolutism -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_ARISTOCRACY" />
+			<Set>
+				<GridX>1</GridX>
+				<GridY>3</GridY>
+				<WonderProductionModifier>0</WonderProductionModifier>
+				<HappinessPerXPopulation>0</HappinessPerXPopulation>
+				<HappinessPerTradeRoute>0</HappinessPerTradeRoute>
+				<UnhappinessMod>-20</UnhappinessMod>
+				<PortraitIndex>41</PortraitIndex>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_ARISTOCRACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>30</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	<Policy_FreePromotions>
+		<Row>
+			<PolicyType>POLICY_ARISTOCRACY</PolicyType>
+			<PromotionType>PROMOTION_ASSOLUTISMO</PromotionType>
+		</Row>
+	</Policy_FreePromotions>
+	<Policy_PrereqPolicies>
+		<Row>
+			<PolicyType>POLICY_ARISTOCRACY</PolicyType>
+			<PrereqPolicy>POLICY_LEGALISM</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ARISTOCRACY" />
+			<Set Text="Absolutism" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ARISTOCRACY_TEXT" />
+			<Set Text="Absolutism of the crown" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Absolutism[ENDCOLOR][NEWLINE]Land Units gain the [COLOR_YIELD_FOOD]Absolutism[ENDCOLOR] promotion, providing increased [ICON_STRENGTH] Combat Strength with proximity to the [ICON_CAPITAL] Capital City.[NEWLINE]-20% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population empire wide and the [ICON_CAPITAL] Capital City produces +30% [ICON_RESEARCH] Science.[NEWLINE]This policy unlocks the [COLOR_XP_BLUE]Palace Guard[ENDCOLOR] unit." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Centrelization -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_MONARCHY" />
+			<Set GridX="3" />
+		</Update>
+	</Policies>
+	<Policy_CapitalYieldPerPopChanges>
+		<Delete>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>50</Yield>
+		</Delete>
+	</Policy_CapitalYieldPerPopChanges>
+    <Policy_BuildingClassYieldModifiers>
+        <Row>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>30</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+    <Policy_SpecialistExtraYields>
+		<Row>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_SpecialistExtraYields>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MONARCHY" />
+			<Set Text="Centralization" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MONARCHY_TEXT" />
+			<Set Text="Centralization of the capital city" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MONARCHY_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Centralization[ENDCOLOR][NEWLINE]+30% [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital City.[NEWLINE]-1 [ICON_HAPPINESS_4] Unhappiness for every 2 [ICON_CITIZEN] Citizens in the [ICON_CAPITAL] Capital City. [NEWLINE]+1 [ICON_FOOD] Food from each specialist." />
+		</Update>
+	</Language_en_US>
+    
+    <!-- Tradition -->
+    <Policies>
+		<Row>
+			<Type>POLICY_TRADITION1</Type>
+			<Description>TXT_KEY_POLICY_TRADITION1</Description>
+			<Civilopedia>TXT_KEY_CIV5_POLICY_TRADITION1_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_TRADITION1_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>5</GridX>
+            <GridY>3</GridY>
+			<PortraitIndex>47</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	<Policy_PrereqPolicies>
+		<Row>
+			<PolicyType>POLICY_TRADITION1</PolicyType>
+			<PrereqPolicy>POLICY_LEGALISM</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
+    <Policy_BuildingClassTourismModifiers>
+		<Row>
+			<PolicyType>POLICY_TRADITION1</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<TourismModifier>30</TourismModifier>
+		</Row>
+	</Policy_BuildingClassTourismModifiers>
+    <Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_TRADITION1</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldMod>30</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+    
+    <!-- Making Dummy Building -->
+    <BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TRADITIONDUMMYBUILDING</Type>
+			<Description>TXT_KEY_BUILDING_TRADITIONDUMMYBUILDING</Description>
+			<DefaultBuilding>BUILDING_TRADITIONDUMMYBUILDING</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TRADITIONDUMMYBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_TRADITIONDUMMYBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_TRADITIONDUMMYBUILDING</Description>
+			<NukeImmune>true</NukeImmune>
+            <GreatPeopleRateModifier>25</GreatPeopleRateModifier>
+            <CultureRateModifier>30</CultureRateModifier>
+		</Row>
+	</Buildings>
+    
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TRADITIONDUMMYBUILDING">
+			<Text>You should not see this in game?</Text>
+		</Row>
+	</Language_en_US>
+
+	<Policy_PGB_FreeBuildingClassCapital>
+		<Row>
+			<PolicyType>POLICY_TRADITION1</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TRADITIONDUMMYBUILDING</BuildingClassType>
+		</Row>
+	</Policy_PGB_FreeBuildingClassCapital>
+
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_POLICY_TRADITION1</Tag>
+			<Text>Tradition</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_CIV5_POLICY_TRADITION1_TEXT</Tag>
+			<Text>Tradition of the kingdom</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_POLICY_TRADITION1_HELP</Tag>
+			<Text>[COLOR_POSITIVE_TEXT]Tradition[ENDCOLOR][NEWLINE]+30% [ICON_CULTURE] Culture and +30% [ICON_TOURISM] Tourism in the [ICON_CAPITAL] Capital City.[NEWLINE]+25% [ICON_GREAT_PEOPLE] Great Person Generation in the [ICON_CAPITAL] Capital City.</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Flavors -->
+	<Policy_Flavors>
+		<Delete>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Delete>
+		<Row>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MONARCHY</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Delete>
+			<PolicyType>POLICY_ARISTOCRACY</PolicyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Delete>
+		<Row>
+			<PolicyType>POLICY_ARISTOCRACY</PolicyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARISTOCRACY</PolicyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_TRADITION_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LEGALISM</PolicyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LEGALISM</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Delete>
+			<PolicyType>POLICY_LEGALISM</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Delete>
+	</Policy_Flavors>
+	
+</GameData>

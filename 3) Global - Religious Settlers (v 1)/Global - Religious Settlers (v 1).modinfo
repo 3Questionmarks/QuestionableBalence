@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="34d9746b-2f1e-4ac1-ab24-6f1ad4a6acbd" version="1">
+  <Properties>
+    <Name>Global - Religious Settlers</Name>
+    <Teaser>Settlers take their religion with them</Teaser>
+    <Description>Settlers (and other units capable of founding a city) from a city with one or more religions will take a random religion with them.  When the new city if founded it will fully adopt that religion.
+
+For example, a city of population 10 has 3 religions - A with 6 followers, B with 2 followers and C with 1 follower (leaving 1 atheist).  When the new city is founded there is a 60% change it will adopt relion A, 20% for B, 10% for C and a 10% chance it won't adopt a religion.  These figures are fixed when the settler unit is created, not when the new city is founded.
+
+If the "Global - Grateful Settlers" mod is active, if the re-captured settlers are of the religion founded by the liberator, there is a greater chance they will remain a settler unit.  Conversely, if the liberator has occupied their holy city, there is a reduced chance they will remain as settlers.</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="99C18F2164854F8DE2FFCBA8E350E867" import="0">XML/GlobalReligiousSettlers.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GlobalReligiousSettlers.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

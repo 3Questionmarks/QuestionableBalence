@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 07/01/17 9:32:00 AM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_SUPERCARRIER</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_SUPERCARRIER</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_SUPERCARRIER</DefaultUnit>
+		</Row>	
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_IEUP_SUPERCARRIER</Class>
+			<Type>UNIT_SMAN_IEUP_SUPERCARRIER</Type>
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
+			<Combat>90</Combat>
+			<Cost>600</Cost>
+			<Moves>7</Moves>
+			<AirInterceptRange>2</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_SUPERCARRIER</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_SUPERCARRIER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_SUPERCARRIER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_SUPERCARRIER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_SUPERCARRIER</UnitArtInfo>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>47</UnitFlagIconOffset>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>47</PortraitIndex>
+			<MoveRate>BOAT</MoveRate>
+		</Row>		
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SUPERCARRIER</UnitType>
+			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SUPERCARRIER</UnitType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>		
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_CARGO_VI</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_ANTI_AIR</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SUPERCARRIER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>		
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_SUPERCARRIER</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SUPERCARRIER</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_SUPERCARRIER</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SUPERCARRIER">
+			<Text>Supercarrier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SUPERCARRIER_STRATEGY">
+			<Text>The Supercarrier is a specialized vessel which carries fighter airplanes, bombers (but not stealth bombers), and atomic bombs. The Supercarrier itself is unable to attack, but the aircraft it carries make it the most powerful offensive weapon afloat of its era. Defensively, however, the Supercarrier is weak and should be escorted by Destroyers and Submarines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SUPERCARRIER_HELP">
+			<Text>Initially carries up to 6 Aircraft; capacity may be boosted through promotions. Improved air defenses. Requires [ICON_RES_URANIUM] Uranium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_SUPERCARRIER_PEDIA">
+			<Text>
+				The Supercarrier is an Information Era upgrade to the Fleet Carrier, and becomes available on the discovery of Mobile Tactics. It does not become obsolete. Can carry up to 6 Aircraft, more with additional promotions. Requires [ICON_RES_URANIUM] Uranium.[NEWLINE][NEWLINE]"Supercarrier" is an unofficial descriptive term for the largest type of aircraft carrier, typically those displacing over 70,000 tons (64,000 metric tons). Supercarriers are the largest warships ever built, larger than the largest battleship class laid down by any country. The largest, such as those in the US Navy are nuclear powered.
+			</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a526e077-5066-4268-a23f-95a562e709e1" version="2">
+  <Properties>
+    <Name>Global - Local Generals</Name>
+    <Teaser>General and Admirals gained from combat spawn in the war-zone</Teaser>
+    <Description>Great Generals and Admirals gained from combat experience spawn in the war-zone and not in a distant city</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="1" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="6B3FF3E591B9E77C1E94A6F15A913AB9" import="0">XML/GlobalLocalGenerals.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/GlobalLocalGenerals.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

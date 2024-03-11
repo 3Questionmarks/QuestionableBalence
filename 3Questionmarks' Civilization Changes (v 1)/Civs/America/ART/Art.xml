@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/23/2017 2:55:01 AM -->
+<GameData>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BAMERICA_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ART/MovieTheater256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BAMERICA_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ART/MovieTheater128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BAMERICA_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ART/MovieTheater45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BAMERICA_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ART/MovieTheater64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+  
+</GameData>

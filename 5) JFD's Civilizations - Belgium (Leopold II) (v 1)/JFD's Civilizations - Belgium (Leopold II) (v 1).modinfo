@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="32d7b444-2086-4746-80b8-f47cb674e86e" version="1">
+  <Properties>
+    <Name>JFD's Civilizations - Belgium (Leopold II)</Name>
+    <Teaser>Adds [COLOR_CYAN]Belgium under Leopold II[ENDCOLOR]. Click for details.</Teaser>
+    <Description>BELGIUM (LEOPOLD II)[NEWLINE][NEWLINE]UNIQUE TRAIT: CONGO FREE STATE[NEWLINE][ICON_BULLET]Plantation Resources within two tiles are improved when a city is founded.[NEWLINE][ICON_BULLET][ICON_GOLD] Gold from Plantations worked outside the Capital is added to the Palace.[NEWLINE][ICON_BULLET]Spending [ICON_GOLD] Gold on Buildings generates [ICON_GOLDEN_AGE] GA Points.[NEWLINE][NEWLINE]UNIQUE BUILDING: CHOCOLATERIE[NEWLINE][ICON_BULLET]Replaces Zoo.[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture.[NEWLINE][ICON_BULLET]Does not yield [ICON_HAPPINESS_1] Local Happiness.[NEWLINE][ICON_BULLET]Does not require a Colosseum.[NEWLINE][ICON_BULLET]Requires at least one available source of any Plantation-based resource per Chocolaterie.[NEWLINE][ICON_BULLET]Provides 1 copy of the unique Praline luxury resource.[NEWLINE][NEWLINE]UNIQUE UNIT: FORCE PUBLIQUE[NEWLINE][ICON_BULLET]Replaces Foreign Legion.[NEWLINE][ICON_BULLET]Can be purchased with [ICON_GOLD] Gold after Steam Power.[NEWLINE][ICON_BULLET]+20% Combat within Friendly Borders.[NEWLINE][ICON_BULLET]Ignores terrain penalties when moving.</Description>
+    <Authors>JFD, COF, Regalman, Alga</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Maps Pack" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Pouakai's Enlightenment Era" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="E26FA2F7944C9E3B9AA62583D10776EC" import="1">Art/Font Icons/FontIcons_ResourcePraline_22.dds</File>
+    <File md5="80D72293590C6AFE08917A015EE8EB96" import="1">Art/Font Icons/FontIcons_ResourcePraline_22.ggxml</File>
+    <File md5="8420DEEF26E180AAB535B847A18F233D" import="1">Art/Graphics/Force Publique/forcepublique.fxsxml</File>
+    <File md5="2EFA68D7DC2B0B8E4A567E08BF51DF18" import="1">Art/Graphics/Force Publique/forcepublique.gr2</File>
+    <File md5="A22873331E1DCBC0301C81917179A59D" import="1">Art/Graphics/Force Publique/forcepublique_diff.dds</File>
+    <File md5="B0DFD1FAE1BBC0DC5C1A515CF1C69145" import="1">Art/Graphics/Force Publique/forcepublique_sref.dds</File>
+    <File md5="6D7CD42B64F17FA2E7610B3A5957E611" import="1">Art/Graphics/Force Publique/sv_ForcePublique.dds</File>
+    <File md5="F8E51DEAB02ACEF75D07D464EF7E5779" import="1">Art/Icons/JFD_BelgiumLeopoldII_AlphaAtlas_128.dds</File>
+    <File md5="81008D8864565ADB6DAA48F8DBB02F7D" import="1">Art/Icons/JFD_BelgiumLeopoldII_AlphaAtlas_16.dds</File>
+    <File md5="169A3117003BB1440BFE3A70E398354F" import="1">Art/Icons/JFD_BelgiumLeopoldII_AlphaAtlas_24.dds</File>
+    <File md5="3308D59926F6A00E4CDF13C1F8243D9E" import="1">Art/Icons/JFD_BelgiumLeopoldII_AlphaAtlas_32.dds</File>
+    <File md5="3851393F6847FB8619441484922F664C" import="1">Art/Icons/JFD_BelgiumLeopoldII_AlphaAtlas_45.dds</File>
+    <File md5="81E1AC7B321D6DB886E4750377D86B4D" import="1">Art/Icons/JFD_BelgiumLeopoldII_AlphaAtlas_48.dds</File>
+    <File md5="92C1F5D5E5FE070C7BD369BAE748F298" import="1">Art/Icons/JFD_BelgiumLeopoldII_AlphaAtlas_64.dds</File>
+    <File md5="EB25827EC59E1B896C357A3877177884" import="1">Art/Icons/JFD_BelgiumLeopoldII_AlphaAtlas_80.dds</File>
+    <File md5="D48B6A3D1EE47386876C35E4E80859A1" import="1">Art/Icons/JFD_BelgiumLeopoldII_IconAtlas_128.dds</File>
+    <File md5="10C1E170367394164357BB507A0039F9" import="1">Art/Icons/JFD_BelgiumLeopoldII_IconAtlas_256.dds</File>
+    <File md5="E1FF824564A6F7C334AAF93A789B5183" import="1">Art/Icons/JFD_BelgiumLeopoldII_IconAtlas_32.dds</File>
+    <File md5="45F8069977BA543233C02A98BC3323C8" import="1">Art/Icons/JFD_BelgiumLeopoldII_IconAtlas_45.dds</File>
+    <File md5="E757AC8100A46C1992BC1779783BAD92" import="1">Art/Icons/JFD_BelgiumLeopoldII_IconAtlas_64.dds</File>
+    <File md5="49EF801FDE9BC094877D7FD1060B8681" import="1">Art/Icons/JFD_BelgiumLeopoldII_IconAtlas_80.dds</File>
+    <File md5="106025475FD4B27DC0671AEA8F884B69" import="1">Art/Icons/JFD_BelgiumLeopoldII_UnitFlagAtlas_32.dds</File>
+    <File md5="21CDCEED7D81983A502F1C20ED00BC57" import="1">Art/Icons/Tomatekh_PromotionAtlas_256.dds</File>
+    <File md5="4515CFD32CBCA5FD9B31BA7E74BDF85D" import="1">Art/Icons/Tomatekh_PromotionAtlas_32.dds</File>
+    <File md5="2D64910169FF17FBFD6D2CFAAAADE518" import="1">Art/Icons/Tomatekh_PromotionAtlas_45.dds</File>
+    <File md5="D2E665F6B269588CF10F19FE789271C9" import="1">Art/Icons/Tomatekh_PromotionAtlas_64.dds</File>
+    <File md5="382DA7DC4147ADC14D479347A5A7D91C" import="1">Art/Leaderscene/JFD_BelgiumLeopoldII_Diplo.dds</File>
+    <File md5="8ABA26773B1520926D9CBEC86D1639C0" import="1">Art/Leaderscene/JFD_BelgiumLeopoldII_Scene.xml</File>
+    <File md5="09A41EF6702938A406E854912502252C" import="1">Art/Maps/JFD_DOM_BelgiumLeopoldII.dds</File>
+    <File md5="25FA7747EB0D2E7964D5FF9343AA86D5" import="1">Art/Maps/JFD_MapBelgiumLeopoldII512.dds</File>
+    <File md5="491F4FACCC46C87205C3DA2E9106CD99" import="1">Audio/Themes/JFD_BelgiumLeopoldII_Peace.mp3</File>
+    <File md5="347698720D76CC416292BC3197AD834C" import="1">Audio/Themes/JFD_BelgiumLeopoldII_War.mp3</File>
+    <File md5="7201AFDDD2758BE941E93191997039F2" import="0">Core/BelgiumLeopoldII_ArtDefines.sql</File>
+    <File md5="B6AB5CB8F7B018B1879199F097BBE7C3" import="0">Core/BelgiumLeopoldII_GameDefines.sql</File>
+    <File md5="3C9091EAA6442DFC4250977515BB00BB" import="0">Core/BelgiumLeopoldII_GameText.xml</File>
+    <File md5="9529122ABFCCEFF41D3FE2657A705262" import="0">Core/BelgiumLeopoldII_ModSupport.sql</File>
+    <File md5="E163CF97D56FE72132F5621000CDC0B2" import="0">Credits.txt</File>
+    <File md5="573A931BE5D47505FAEE9DEE3835DF59" import="0">Lua/JFD_Civs_BelgiumLeopoldII_Functions.lua</File>
+    <File md5="5690A1B2ACA2729FD9D55156E232AB1A" import="1">Lua/Utilities/PlotIterators.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/BelgiumLeopoldII_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/BelgiumLeopoldII_GameDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Core/BelgiumLeopoldII_GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Core/BelgiumLeopoldII_ModSupport.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/JFD_Civs_BelgiumLeopoldII_Functions.lua">
+      <Name>JFD_Civs_BelgiumLeopoldII_Functions.lua</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

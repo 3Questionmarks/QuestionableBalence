@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:19:18 PM -->
+<GameData>
+	<!-- Destroyers require oil -->
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_DESTROYER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Units>
+		<Update>
+			<Set Cost="420" Combat ="65" />
+			<Where Class ="UNITCLASS_DESTROYER" />
+		</Update>
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_DESTROYER</UnitType>
+			<PromotionType>PROMOTION_SUB_DEFEND</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+</GameData>

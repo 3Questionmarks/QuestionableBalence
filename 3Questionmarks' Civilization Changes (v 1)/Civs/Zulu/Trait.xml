@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/17/2016 4:53:05 PM -->
+<GameData>
+
+	<Traits>
+		<Update>
+			<Where Type="TRAIT_BUFFALO_HORNS"/>
+			<Set LevelExperienceModifier="-50" />
+		</Update>
+	</Traits>
+	<Trait_MaintenanceModifierUnitCombats>
+		<Update>
+			<Where TraitType="TRAIT_BUFFALO_HORNS"/>
+			<Set MaintenanceModifier="-100" />
+		</Update>
+	</Trait_MaintenanceModifierUnitCombats>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_BUFFALO_HORNS"/>
+			<Set Text="Melee units do not require any [GOLD] gold to maintain. All units require 50% less [ICON_WAR] XP to earn promotions."/>
+		</Update>
+	</Language_en_US>
+</GameData>

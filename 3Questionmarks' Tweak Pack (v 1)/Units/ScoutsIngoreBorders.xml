@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/26/2014 9:09:48 PM -->
+<GameData>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SCOUT</UnitType>
+			<PromotionType>
+				PROMOTION_RIVAL_TERRITORY
+			</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<PromotionType>
+				PROMOTION_RIVAL_TERRITORY
+			</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_CANADIAN_SKRAELING</UnitType>
+			<PromotionType>
+				PROMOTION_RIVAL_TERRITORY
+			</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_CANADIAN_SKRAELING_2</UnitType>
+			<PromotionType>
+				PROMOTION_RIVAL_TERRITORY
+			</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_EXPLORERX</UnitType>
+			<PromotionType>
+				PROMOTION_RIVAL_TERRITORY
+			</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+</GameData>
+

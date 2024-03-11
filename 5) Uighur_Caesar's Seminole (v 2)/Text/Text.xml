@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 07/28/16 10:15:48 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_DAWN_OF_MAN_UC_SEMINOLE">
+			<Text>Greetings great war chief Micanopy! You reigned as the principal chief of the Seminole nation during their second conflict with the United States government after refusing to sign a treaty ceding land to the Americans. Your people took to the fighting into the Everglades, the massive swamp encompassing much of Florida, where your soldiers were initially successful in countering the American onslaught. Ultimately, the numerical and technological superiority of the US eventually overpowered you and your people, and the Second Seminole War ended in America taking even more of your traditional lands. However, your valiant efforts have never been forgotten and you are still held in high regard among the Seminole people today, who are still distinguised as the only Native American tribe who have never signed a peace treaty with the US.[NEWLINE][NEWLINE]Brave chief, your people are in need of your leadership again once again. Can you help your people adapt to new environments and times in order to survival? Can you fight off foreign invaders by mastering your terrain? Can you restore democracy to your downtrodden people? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_SEMINOLE_0">
+			<Text>Osceola</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_SEMINOLE_1">
+			<Text>Hachi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_SEMINOLE_2">
+			<Text>Holata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_SEMINOLE_3">
+			<Text>Coeehajo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_SEMINOLE_4">
+			<Text>Heenehatche</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_SEMINOLE_5">
+			<Text>Homathlemico</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_SEMINOLE_6">
+			<Text>Pe-o-ka</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_SEMINOLE_7">
+			<Text>Ar-pi-uck-i</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_SEMINOLE_8">
+			<Text>Tustenuggee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_UC_SEMINOLE_9">
+			<Text>Abiaka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_SEMINOLE_DESC">
+			<Text>The Seminole</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_SEMINOLE_SHORT_DESC">
+			<Text>The Seminole</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_SEMINOLE_ADJECTIVE">
+			<Text>Seminole</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UC_SEMINOLE">
+			<Text>The Seminole</Text>
+		</Row>
+		<!--City List-->
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_0">
+			<Text>Cuscowilla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_1">
+			<Text>Apopka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_2">
+			<Text>Loxahatchee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_3">
+			<Text>Hialeah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_4">
+			<Text>Thonotosassa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_5">
+			<Text>Homosassa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_6">
+			<Text>Red Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_7">
+			<Text>Oponays</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_8">
+			<Text>Totstalahoeetaka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_9">
+			<Text>Ahapoka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_10">
+			<Text>Lowwalta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_11">
+			<Text>Santefeetalofa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_12">
+			<Text>Wawkasausu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_13">
+			<Text>Suwany</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_14">
+			<Text>Alapahotofa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_15">
+			<Text>Wacissatalofa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_16">
+			<Text>Tallahasse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_17">
+			<Text>Oclawahaw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_18">
+			<Text>Tophulga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_19">
+			<Text>Choconickla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_20">
+			<Text>Palacklekeha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_21">
+			<Text>Chukuchatta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_22">
+			<Text>Big Hammock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_23">
+			<Text>Okenafenoke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_24">
+			<Text>Cheehaws</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_UC_SEMINOLE_25">
+			<Text>Uchees</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_UC_MICANOPY_DESC">
+				<Text>Micanopy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_TEXT_1">
+			<Text>Micanopy (c. 1780 – January 2, 1849), also known as Micco-Nuppe, Michenopah, Miccanopa, Mico-an-opa and Sint-chakkee ("pond frequenter", as he was known prior to accession), was the leading chief of the Seminoles who led the tribe during the Second Seminole War. His name was derived from the Hitchiti words "miko" (chief), and "naba" (above), and consequently meaning "high chief" or the like. Micanopy was also known as Hulbutta Hajo (or "Crazy Alligator").</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_HEADING_2">
+			<Text>Early Years</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_TEXT_2">
+			<Text>Although little is known of his early life, Micanopy was born near present-day St. Augustine, Florida, sometime around 1780. He succeeded Bolek as hereditary principal chief of the Seminole following his death in 1819; Micanopy soon began acquiring large amounts of land and cattle. As was common practice among elite Seminole, he hired more than 100 fugitive slaves to work his estates during the early nineteenth century. He encouraged intermarriage between the Seminole and blacks. Some of their descendants gained influence as an elite among tribal councils (including several war chiefs).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_HEADING_3">
+			<Text>Tensions between Seminole and White Americans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_TEXT_3">
+			<Text>Following the American purchase of Florida from Spain in 1819 (and the subsequent appointment of Andrew Jackson as territorial governor in 1821), large numbers of American settlers began colonizing northern Florida during the next decade. Micanopy opposed further American settlement of the region. As conflicts arose more frequently between the Seminole and settlers, the Seminole were driven away from the Florida coast and into the extensive wetlands of the interior. By the Treaty of Moultrie Creek in 1823, the Americans seized 24 million acres of Seminole land in northern Florida, and the Seminole moved to central and southern territory. Slaveholders from Florida and neighboring states demanded that the Seminole capture and return slaves who had taken refuge with them. American development of large plantations in Florida led to planters buying more slaves, only to see some escape. With pressure continuing against the tribe and Americans calling for removal following passage of the Indian Removal Act, a group of Seminole chiefs eventually agreed to the Treaty of Payne's Landing in 1832; they ceded more Seminole lands in exchange for reservations in the Indian Territory (present-day Oklahoma) on May 9, 1832.</Text>
+		</Row>
+			<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_HEADING_4">
+			<Text>Resistance Towards America and Imprisonment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_TEXT_4">
+			<Text>Negotiating a peaceful resolution between the Seminole and local authorities, Micanopy refused to sign the treaty. He joined younger chiefs, such as Osceola, Alligator and Wild Cat (a nephew of Micanopy), in opposing the treaty. They began to organize resistance among the Seminole warriors. Following Osceola's murder of the US Indian agent General Wiley Thompson, Micanopy (with Osceola) attacked forces under Major Francis Langhorne Dade and General Duncan Lamont Clinch in December 1835. Only three soldiers survived what the Americans called Dade's Massacre, contributing to calls for US military action against the Seminole, and the beginning of the Second Seminole War. The Seminole had early success, but the elderly Micanopy became convinced of the futility of war against the large numbers of American soldiers. He surrendered in June 1837 and began negotiating to move his tribe to the Indian Territory, but he was kidnapped by Osceola. In December 1838, Micanopy was captured by General Thomas S. Jesup's forces while under a flag of truce, when he had already agreed to sign a peace treaty. This breach of honor by the US was considered an outrage by much of the public, increasing their sympathy toward the Seminole. Imprisoned at Charlestown, South Carolina, Micanopy was eventually released and sent with around 200 other Seminole to Indian Territory. They were initially put under Creek Nation authority, although the people had long been independent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_HEADING_5">
+			<Text>The Later Years</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_TEXT_5">
+			<Text>Although Micanopy attempted to reestablish the Seminole as independent, he never regained his previous power. In 1845, he was one of the signatories of a treaty with the US, which gave the Seminole of western Florida semi-independence from the Creek Nation in Indian Territory, with full Seminole independence to be granted in 1855. He died at Fort Gibson on January 2, 1849. Micanopy was succeeded in the matrilineal line by his sister's son, Jim Jumper, as principal chief, as the Seminole had gradually re-established their italwa and traditional organizations in Indian Territory. Jim Jumper was succeeded after his death four years later by his brother, John Jumper, who led the tribe until after the American Civil War. At that time, United States intervention in tribal affairs complicated the succession.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_HEADING_6">
+			<Text>Legacy in History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_TEXT_6">
+			<Text>Despite the relatively few information known of Micanopy’s life, he appeared to desire the best for his people, even it is meant resistance to the growing United States of America. Even the Whites admired him. European Americans named Micanopy, Florida after the Seminole leader; it was founded at the site of the chief's capital town, Cuscowilla.</Text>
+		</Row>		
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_LIVED">
+			<Text>1780 - 1849</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_NAME">
+			<Text>Micanopy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_SUBTITLE">
+			<Text>Leader of the Seminole</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LEADER_UC_MICANOPY_PEDIA_TITLES_1">
+			<Text>Principal Chief (1825 - 1849)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_UC_SEMINOLE">
+			<Text>Unit have double [ICON_STRENGTH] Defense and [ICON_MOVES] Movement while on Marshes or Jungles. +1 [ICON_CULTURE] Culture and [ICON_GOLD] Gold from all Jungle and Marsh tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_UC_SEMINOLE_SHORT">
+			<Text>Swamp Survival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_UC_CHICKEE">
+			<Text>Chickee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_UC_CHICKEE_TEXT">
+			<Text>Improvement unique to the Seminole. May only be built on Jungle and Marshes. +1 [ICON_GOLD] Gold, +1 [ICON_CULTURE] Culture, and +1 [ICON_FOOD] Food. +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold on after Acoustics and Ecology; +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture after Biology. Marsh Chickees provide double the yields of Jungle Chickees.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_UC_CHICKEE">
+			<Text>Construct a [LINK=IMPROVEMENT_UC_CHICKEE]Chickee[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_UC_HAMMOCK">
+			<Text>Hammock Gunman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_HAMMOCK_TEXT">
+			<Text>During the Seminole Wars, the Seminoles were primitively equipped when compared to their foes, the Americans. They maintained the initiative by hiding when outnumbered and attacking only when the conditions were favorable. The standard Seminole practice was to conduct ambushes on supply convoys and raids against small, isolated outposts. The Indians, who may have numbered no more than 1,000 warriors, fought a force ten to thirty times their number to a standstill. They also had highly motivated allies: fugitive runaway slaves. These fugitives from southern plantations had no desire to see the white man victorious, for it could have meant an end to their own independence. While the Indians conducted a raiding logistic and combat strategy, the US Army pursued their goals with a persisting combat strategy. The Indians’ avoided a stand up fight not on their terms and effectively thwarted the Army’s attempts to fight a Jominian style battle. However, the Army’s repeated failures may have prompted a sense of overconfidence and hence a change in Indian tactics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_UC_HAMMOCK_STRATEGY">
+			<Text>Replaces the Rifleman. Ignores terrain cost and can move after attacking.  Earns double XP and heals twice as fast when starting adjacent to another Hammock Gunman or a Chickee.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_UC_HAMMOCK">
+			<Text>Replaces the Rifleman. Ignores terrain cost and can move after attacking.  Earns double XP and heals twice as fast when starting adjacent to another Hammock Gunman or a Chickee.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_SEMINOLE">
+			<Text>Swamp Survival</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_SEMINOLE_HELP">
+			<Text>Double Defense and Movement on Marsh and Jungles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_HAMMOCK">
+			<Text>Hammock Warfare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_HAMMOCK_HELP">
+			<Text>Ignores terrain cost and may move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_HAMMOCK_FLANK">
+			<Text>Hammock Flank</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UC_HAMMOCK_FLANK_HELP">
+			<Text>Earns XP and heals twice as fast when starting adjacent to another Hammock or a Chickee.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVLOPEDIA_UC_SEMINOLE_TITLE">
+			<Text>The Seminole</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_TEXT_1">
+			<Text>The Seminole are a Native American people originally from Florida. They comprise three federally recognized tribes and independent groups, most living in Oklahoma with a minority in Florida. The Seminole nation emerged in a process of ethnogenesis out of several groups of Native Americans, most significantly Creeks or Muscogee from what is now the state of Georgia. The word Seminole is a corruption of cimarrón, a Spanish term for "runaway" or "wild one". During their early decades, the Seminole became increasingly independent of other Creek groups and established their own identity. They developed a thriving trade network during the British and second Spanish periods (roughly 1767–1821). The tribe expanded considerably during this time, and was further supplemented from the late 18th century by free black people and escaped enslaved people who settled near and paid tribute to Seminole towns. The latter became known as Black Seminoles, although they kept their own Gullah culture of the Low Country. Seminole culture is largely derived from that of the Creek; the most important ceremony is the Green Corn Dance; other notable traditions include use of the black drink and ritual tobacco. As the Seminole adapted to Florida environs, they developed local traditions, such as the construction of open-air, thatched-roof houses known as chickees. Historically the Seminole spoke Mikasuki and Creek, both Muskogean languages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_TEXT_2">
+			<Text>The Seminole came to live in what is now called the state of Florida, practically a peninsula with the Atlantic Ocean on its eastern shore and the Gulf of Mexico on its western shore. The climate of the north and central parts of Florida is humid subtropical. South Florida has a tropical savanna climate. There is a defined rainy season from May through October, when air mass thundershowers that build in the heat of the day drop heavy but brief summer rainfall. Late summer and early fall bring decaying tropical lows (and occasionally landfalling tropical cyclones) that contribute to late summer and early fall rains. In October, the dry season sets in across much of Florida (starting early in the month in northern Florida and near the end of the month in deep southern Florida) and lasts until late April in most years. Fronts from mid-latitude storms north of Florida occasionally pass through northern and central parts of the state which bring light and brief winter rainfall. Mid and late winter can become severely dry in Florida. In some years the dry season becomes quite severe and water restrictions are imposed to conserve water. While most areas of Florida do not experience any type of frozen precipitation, north Florida can see fleeting snow or sleet a few times each decade. The Gulf Stream running through the Florida Straits and then north off the Florida East Coast keeps temperatures moderate a few miles inland from around Stuart on the east coast to Ft. Myers on the west side of the state year round, with few extremes in temperature. The tropical ocean current also provides warm sea surface temperatures, giving Florida beaches the warmest ocean surf waters on the United States mainland.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_HEADING_3">
+			<Text>Origins of the Seminole</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_TEXT_3">
+			<Text>During the early 18th century, Native American refugees from northern wars, such as the Yuchi and Yamasee after the Yamasee War in South Carolina, migrated into Florida. More arrived in the second half of the 18th century, as the Lower Creeks, part of the Muscogee people, began to migrate from several of their towns into Florida to evade the dominance of the Upper Creeks and pressure of colonists. They spoke primarily Hitchiti, of which Mikasuki is a dialect, which is the primary traditional language spoken today by Miccosukee in Florida. They displaced the native Calusa and Mayaimi tribes with the aid of the Spanish, who moved many of the smaller tribes to Cuba when they withdrew after ceding Florida to the British in 1763, following the French and Indian War. In Cuba, the Floridian tribes suffered high mortality due to disease. In Florida, the Creeks had earlier intermingled with the Choctaw and other few remaining indigenous people. In a process of ethnogenesis, the Native Americans formed a new culture which they called "Seminole", a derivative of the Mvskoke' (a Creek language) word simano-li, an adaptation of the Spanish cimarrón which means "wild" (in their case, "wild men"), or "runaway" [men]. The Seminole were a heterogeneous tribe made up of mostly Lower Creeks from Georgia, who by the time of the Creek Wars (1812–1813) numbered about 4,000 in Florida. At that time, numerous refugees of the Red Sticks migrated south, adding about 2,000 people to the population. They were Creek-speaking Muscogee, and were the ancestors of most of the later Creek-speaking Seminole. In addition, a few hundred escaped African-American slaves had settled near the Seminole towns and, to a lesser extent, Native Americans from other tribes, and some white Americans. The unified Seminole spoke two languages: Creek and Mikasuki (mutually intelligible with its dialect Hitchiti), two among the Muskogean languages family. Creek became the dominant language for political and social discourse, so Mikasuki speakers learned it if participating in high-level negotiations. The Muskogean language group includes Choctaw and Chickasaw, associated with two other major Southeastern tribes. During the colonial years, the Seminole were on good terms with both the Spanish and the British. In 1784, after the American Revolutionary War, Britain came to a settlement with Spain and transferred East and West Florida to it. The Spanish Empire's decline enabled the Seminole to settle more deeply into Florida. They were led by a dynasty of chiefs of the Alachua chiefdom, founded in eastern Florida in the 18th century by Cowkeeper. Beginning in 1825, Micanopy was the principal chief of the unified Seminole, until his death in 1849, after Removal to Indian Territory. The Seminole were organized around itálwa, the basis of their social, political and ritual systems, and roughly equivalent to towns or bands in English. Membership was matrilineal but males held the leading political and social positions. Each itálwa had civil, military and religious leaders; they were self-governing throughout the nineteenth century, but would cooperate for mutual defense. The itálwa continued to be the basis of Seminole society in the West into the 21st century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_HEADING_4">
+			<Text>The Seminole Wars</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_TEXT_4">
+			<Text>After attacks by Spanish settlers on Native American towns, natives began raiding Georgia settlements, purportedly at the behest of the Spanish. In the early 19th century, the U.S. Army made increasingly frequent incursions into Spanish territory to recapture escaped slaves. General Andrew Jackson's 1817–1818 campaign against the Seminole became known as the First Seminole War. Following the war, the United States effectively controlled East Florida. In 1819, the United States and Spain signed the Adams-Onís Treaty, which took effect in 1821. According to its terms, the United States acquired Florida and, in exchange, renounced all claims to Texas. Andrew Jackson was named military governor of Florida. As European-American settlement increased after the treaty, settlers pressured the Federal government to remove the Native Americans from Florida. Slaveholders resented that tribes harbored runaway black slaves, and more settlers wanted access to the desirable lands held by Native Americans. Georgian slaveholders wanted the "maroons" and fugitive slaves living among the Seminoles, known today as Black Seminoles, returned to slavery. After acquisition by the US of Florida in 1821, many American slaves and Black Seminoles frequently escaped from Cape Florida to the British colony of the Bahamas, settling mostly on Andros Island. Contemporary accounts noted a group of 120 migrating in 1821, and a much larger group of 300 African-American slaves escaping in 1823, picked up by Bahamians in 27 sloops and also by canoes. They developed a village known as Red Bays on Andros. Federal construction and staffing of the Cape Florida Lighthouse in 1825 reduced the number of slave escapes from this site. Under settlement pressure, the US government made the 1823 Treaty of Camp Moultrie with the Seminole, seizing 24 million acres in northern Florida and offering them a reservation in the Everglades of about 100,000-acre (400 km2). They and the Black Seminoles moved into central and southern Florida. In 1832, the United States government signed the Treaty of Payne's Landing with a few of the Seminole chiefs. They promised lands west of the Mississippi River if the chiefs agreed to leave Florida voluntarily with their people. The Seminoles who remained prepared for war. White settlers continued to press for their removal. In 1835, the U.S. Army arrived to enforce the treaty. The Seminole leader Osceola led the vastly outnumbered resistance during the Second Seminole War. Drawing on a population of about 4,000 Seminole and 800 allied Black Seminoles, he mustered at most 1,400 warriors (Andrew Jackson estimated they had only 900). They countered combined U.S. Army and militia forces that ranged from 6,000 troops at the outset to 9,000 at the peak of deployment in 1837. To survive, the Seminole allies employed guerrilla tactics with devastating effect against U.S. forces, as they knew how to move within the Everglades and use this area for their protection. Osceola was arrested (in a breach of honor) when he came under a flag of truce to negotiations with the US in 1837. He died in jail less than a year later. His body was buried without his head, which was preserved. Other war chiefs, such as Halleck Tustenuggee and John Jumper, and the Black Seminoles Abraham and John Horse, continued the Seminole resistance against the army. After a full decade of fighting, the war ended in 1842. Scholars estimate the U.S. government spent about $40,000,000 on the war, at the time a huge sum. An estimated 3,000 Seminole and 800 Black Seminole were forcibly exiled to Indian Territory west of the Mississippi, where they were settled on the Creek reservation. A few hundred survivors retreated into the Everglades. In the end, after the Third Seminole War, the government gave up trying to subjugate the Seminole and left the estimated fewer than 500 survivors in peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_HEADING_5">
+			<Text>Removal to Oklahoma and Period After</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_TEXT_5">
+			<Text>By 1842, most Seminoles and Black Seminoles had been coerced or forced to move to Indian Territory west of the Mississippi River. During the American Civil War, most of the Oklahoma Seminole allied with the Confederacy, after which they had to sign a new treaty with the U.S., including freedom and tribal membership for the Black Seminole. The chiefly dynasty lasted past Removal, when the US forced the majority of Seminole to move from Florida to the Indian Territory (modern Oklahoma) after the Second Seminole War. Micanopy's sister's son, John Jumper, succeeded him in 1849 and, after his death in 1853, his brother Jim Jumper became principal chief. He was in power through the American Civil War, after which the US government began to interfere with tribal government, supporting its own candidate for chief.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_HEADING_6">
+			<Text>Seminole Left in Florida</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_TEXT_6">
+			<Text>Perhaps fewer than 200 Seminoles remained in Florida after the Third Seminole War (1855–1858), but they fostered a resurgence in traditional customs and a culture of staunch independence. In the late 19th century, the Florida Seminole re-established limited relations with the U.S. government and in 1930 received 5,000 acres (20 km2) of reservation lands. Few Seminole moved to reservations until the 1940s; they reorganized their government and received federal recognition in 1957 as the Seminole Tribe of Florida. The more traditional people near the Tamiami Trail received federal recognition as the Miccosukee Tribe in 1962.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_HEADING_7">
+			<Text>Split into Two Groups</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_TEXT_7">
+			<Text>During the Seminole Wars, the Seminole people began to separate due to the conflict and differences in ideology. The Seminole population had also been growing significantly, though it was diminished by the wars. With the division of the Seminole population between Oklahoma and Florida, some traditions such as powwow trails and ceremonies were maintained among them. In general, the cultures grew apart and had little contact for a century.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_HEADING_8">
+			<Text>20th Century Life for the Seminole</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_TEXT_8">
+			<Text>In the 1950s, federal projects in Florida encouraged the tribe's reorganization. They created organizations within tribal governance to promote modernization. As Christian pastors began preaching on reservations, Green Corn Ceremony attendance decreased. This created tension between religiously traditional Seminole and those who began adopting Christianity. In the 1960s and 1970s, some tribal members on reservations, such as the Brighton Seminole Indian Reservation in Florida, viewed organized Christianity as a threat to their traditions. The Oklahoma and Florida Seminole filed land claim suits in the 1950s, which were combined in the government's settlement of 1976. The tribes and Traditionals took until 1990 to negotiate an agreement as to division of the settlement, a judgment trust against which members can draw for education and other benefits. The Florida Seminole founded a high-stakes bingo game on their reservation in the late 1970s, winning court challenges to initiate Indian Gaming, which many tribes have adopted to generate revenues for welfare, education and development.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_HEADING_9">
+			<Text>The Present and Future</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_TEXT_9">
+			<Text>By the 1980s, Seminole communities were concerned about loss of language and tradition. Many tribal members began to revive the observance of traditional Green Corn Dance ceremonies, and some moved away from Christianity observance. By 2000, religious tension between Green Corn Dance attendees and Christians (particularly Baptists) decreased. Some Seminole families participate in both religions; these practitioners have developed a Christianity that has absorbed some tribal traditions. Seminole tribes generally follow Christianity, both Protestantism and Roman Catholicism, and their traditional Native religion, which is expressed through the stomp dance and the Green Corn Ceremony held at their ceremonial grounds. Indigenous peoples have practiced Green Corn rituals for centuries. Contemporary southeastern Native American tribes, such as the Seminole and Muscogee Creek, still practice these ceremonies. As converted Christian Seminole established their own churches, they incorporated their traditions, as Christianity is a syncretic religion, able to absorb other influences. Seminole Christian churches often sing hymns in their traditional languages. Today, the Seminole Nation of Oklahoma, and the Seminole Tribe of Florida and Miccosukee Tribe of Indians of Florida are federally recognized, independent nations that operate in their own spheres.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_HEADING_10">
+			<Text>Seminole Factoid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UC_SEMINOLE_TEXT_10">
+			<Text>The Florida Seminole are the only tribe in America to have never signed a peace treaty with the U.S. Government.</Text>
+		</Row>
+		<!--Row Tag="TXT_KEY_SEMINOLE_UA">
+			<Text>+{1_Num} [ICON_TOURISM] Tourism for three turns from your discovery of Refrigeration!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SEMINOLE_THINGY">
+			<Text>+{1_Num} [ICON_CULTURE] Culture from gaining XP on Jungles or Marshes last turn!</Text>
+		</Row-->
+	</Language_en_US>
+  
+</GameData>

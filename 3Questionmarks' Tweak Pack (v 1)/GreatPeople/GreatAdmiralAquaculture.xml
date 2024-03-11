@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Units>
+		<Update>
+			<Where Type="UNIT_GREAT_ADMIRAL" />
+			<Set WorkRate="1" DontShowYields="false" />
+		</Update>
+	</Units>
+
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_GREAT_ADMIRAL</UnitType>
+			<BuildType>BUILD_AQUACULTURE</BuildType>
+		</Row>
+	</Unit_Builds>
+
+	<Builds>
+		<Row>
+			<Type>BUILD_AQUACULTURE</Type>
+			<ImprovementType>IMPROVEMENT_AQUACULTURE</ImprovementType>
+			<Description>TXT_KEY_BUILD_AQUACULTURE</Description>
+			<Help>TXT_KEY_BUILD_AQUACULTURE_HELP</Help>
+			<Kill>1</Kill>
+			<Water>true</Water>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_A</HotKey>
+			<OrderPriority>96</OrderPriority>
+			<IconIndex>35</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_AQUACULTURE</Type>
+			<Description>TXT_KEY_IMPROVEMENT_AQUACULTURE</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_AQUACULTURE_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_FISHING_BOATS</ArtDefineTag>
+			<PillageGold>10</PillageGold>
+			<Water>true</Water>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>
+			<PortraitIndex>27</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_AQUACULTURE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_AQUACULTURE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_AQUACULTURE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_Yields>
+	<Improvement_ResourceTypes>
+		<Row>
+			<ImprovementType>IMPROVEMENT_AQUACULTURE</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<ResourceMakesValid>1</ResourceMakesValid>
+			<ResourceTrade>1</ResourceTrade>
+			<DiscoveryRand>0</DiscoveryRand>
+			<QuantityRequirement>0</QuantityRequirement>
+		</Row>
+	</Improvement_ResourceTypes>
+	<Improvement_ResourceType_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_AQUACULTURE</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_AQUACULTURE</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_ResourceType_Yields>
+
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_AQUACULTURE</ImprovementType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_AQUACULTURE</ImprovementType>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_IMPROVEMENT_AQUACULTURE">
+			<Text>Aquaculture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_AQUACULTURE_TEXT">
+			<Text>Aquaculture, also known as aquafarming, is the farming of aquatic organisms such as fish, crustaceans, molluscs and aquatic plants. Aquaculture involves cultivating freshwater and saltwater populations under controlled conditions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_AQUACULTURE">
+			<Text>Construct an Aquaculture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_AQUACULTURE_HELP">
+			<Text>Immediately generates an improved [ICON_RES_FISH] Fish resource. Consumes this unit. The aquaculture can instead be used to improve [ICON_RES_OIL] Oil, when it does it yields +1 [ICON_FOOD] food, +3 [ICON_GOLD] gold, and +4 [ICON_PRODUCTION] production.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY" />
+			<Set Text="The Great Admiral has the ability to instantly repair every naval and embarked unit in the same hex, as well as in adjacent hexes. It can also create an Aquaculture, which generates an improved [ICON_RES_FISH] Fish resource on the Tile. The Great Admiral is expended when used in either of these ways. The Great Admiral also provides a 15% combat bonus to all player-owned naval units within 2 tiles. The Great Admiral is NOT consumed when he provides this bonus." />
+		</Update>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<Beliefs>
+		<Update>
+			<Set Pantheon="false" Follower="true" />
+			<Where Type="BELIEF_MESSENGER_GODS" />
+		</Update>
+	</Beliefs>
+	<Belief_YieldChangeTradeRoute>
+		<Row>
+			<BeliefType>BELIEF_MESSENGER_GODS</BeliefType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>0</Yield>
+		</Row>
+	</Belief_YieldChangeTradeRoute>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_MESSENGER_GODS_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_MESSENGER_GODS_SHORT">
+			<Text>Religious Diversity</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_BELIEF_MESSENGER_GODS" />
+		<Row Tag="TXT_KEY_BELIEF_MESSENGER_GODS">
+			<Text>+2 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith for each [ICON_RELIGION] Religion a city has ever followed.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

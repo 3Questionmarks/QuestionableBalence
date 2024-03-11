@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+
+	<!-- Simply allows farms to be built on all tundra tiles (not just fresh water ones) to improve gameplay. -->
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+
+</GameData>

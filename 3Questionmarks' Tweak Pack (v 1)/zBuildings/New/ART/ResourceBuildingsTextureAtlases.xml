@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/18/2013 10:30:13 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>RES_BUILDING_DJSH_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ResourceBuildings_Icons256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RES_BUILDING_DJSH_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ResourceBuildings_Icons128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RES_BUILDING_DJSH_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>ResourceBuildings_Icons80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RES_BUILDING_DJSH_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ResourceBuildings_Icons64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RES_BUILDING_DJSH_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ResourceBuildings_Icons45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

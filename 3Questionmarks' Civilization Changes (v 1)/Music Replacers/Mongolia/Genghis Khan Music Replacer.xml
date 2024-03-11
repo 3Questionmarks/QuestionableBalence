@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/28/2016 11:09:07 PM -->
+<GameData>
+
+	<!--Genghis Khan Music-->
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_GENGHIS_KHAN_WAR</SoundID>
+			<Filename>Genghis Khan War</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_GENGHIS_KHAN_WAR</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_GENGHIS_KHAN_WAR</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>100</MinVolume>
+			<MaxVolume>100</MaxVolume>
+			<IsMusic>True</IsMusic>
+		</Row>
+	</Audio_2DSounds>
+
+</GameData>

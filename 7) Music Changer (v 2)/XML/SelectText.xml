@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/21/2015 2:05:08 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_HEADER">
+			<Text>Please choose your music ethnicity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUROPE">
+			<Text>Choose european music.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ASIA">
+			<Text>Choose asian music.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AFRICA">
+			<Text>Choose african music.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AMERICA">
+			<Text>Choose traditional native american music.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MIDEASTERN">
+			<Text>Choose middle eastern music.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

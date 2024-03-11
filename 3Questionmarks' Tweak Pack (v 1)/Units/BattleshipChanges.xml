@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/27/2024 7:48:50 PM -->
+<GameData>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_BATTLESHIP</UnitType>
+			<UnitClassType>UNITCLASS_MISSILE_CRUISER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Units>
+		<Update>
+			<Set Cost="520" />
+			<Where Class="UNITCLASS_BATTLESHIP" />
+		</Update>
+	</Units>
+</GameData>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/19/2018 5:59:29 PM -->
+<GameData>
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_DANCE_OF_THE_AURORA</Type>
+			<Description>TXT_KEY_BELIEF_DANCE_OF_THE_AURORA</Description>
+			<ShortDescription>TXT_KEY_BELIEF_DANCE_OF_THE_AURORA_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+	</Beliefs>
+	<Belief_TerrainYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_DANCE_OF_THE_AURORA</BeliefType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_DANCE_OF_THE_AURORA</BeliefType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_DANCE_OF_THE_AURORA</BeliefType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BeliefType>BELIEF_DANCE_OF_THE_AURORA</BeliefType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Belief_TerrainYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_DANCE_OF_THE_AURORA_SHORT">
+			<Text>Dance of the Aurora</Text>
+		</Row>
+	</Language_en_US>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_DANCE_OF_THE_AURORA">
+			<Text>+1 [ICON_CULTURE] Culture and [ICON_PEACE] Faith from Tundra and Snow tiles without Forest.</Text>
+		</Row>
+    </Language_en_US>
+</GameData>

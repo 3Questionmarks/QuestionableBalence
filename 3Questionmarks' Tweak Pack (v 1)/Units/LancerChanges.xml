@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/5/2024 6:18:05 PM -->
+<GameData>
+	<!-- Redefining unit as a frontline anti-calvarlry unit - Increase Combat Strength and Reduce Speed -->
+	<Units>
+		<Update>
+			<Set Combat ="28" Moves ="3"/>
+			<Where Type ="UNIT_LANCER" />
+		</Update>
+	</Units>
+	<Unit_FreePromotions>
+		<!-- Removing Formation 1 (+33%) and replacing with Bonus vs Mounted (+50%) -->
+		<Delete>
+			<UnitType>UNIT_LANCER</UnitType>
+			<PromotionType>PROMOTION_FORMATION_1</PromotionType>
+		</Delete>
+		<Row>
+			<UnitType>UNIT_LANCER</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_LANCER_STRATEGY"/>
+		<Row Tag="TXT_KEY_UNIT_LANCER_STRATEGY">
+			<Text>The Lancer is the Renaissance horse unit that comes between the Knight and the Cavalry unit. It can completly dominate Knights in combat and can keep Cavalry in check, though it is slower.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

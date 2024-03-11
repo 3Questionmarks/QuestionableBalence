@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/26/2024 6:51:52 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set Happiness="2" />
+			<Where Type="BUILDING_MONUMENT" />
+		</Update>
+		<Update>
+			<Set Happiness="3" />
+			<Where Type="BUILDING_STELE" />
+		</Update>
+	</Buildings>
+  
+</GameData>

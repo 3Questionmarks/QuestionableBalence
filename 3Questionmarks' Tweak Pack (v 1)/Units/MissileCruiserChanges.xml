@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:14:29 PM -->
+<GameData>
+	<!-- Urainium and Aluminum now required for Missile Crusers -->
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<!-- Missile Cruesers no longer get a bonus vs subs and can no longer see them and dont get intercenption 4 (interception 2 instead). They start with indirect fire-->
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_MISSILE_CRUISER" />
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_CARGO_III</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<!-- Reduces the speed of missile cruiser by 1 -->
+	<Units>
+		<Update>
+			<Set Cost="1000" Moves="6" />
+			<Where Type="UNIT_MISSILE_CRUISER" />
+		</Update>
+	</Units>
+	
+	<!-- Text -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_MISSILE_CRUISER" />
+		<Row Tag="TXT_KEY_UNIT_HELP_MISSILE_CRUISER">
+			<Text>Naval Unit specialized in ranged naval combat. Can hold 3 Missiles.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_UNIT_MISSILE_CRUISER_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_MISSILE_CRUISER_STRATEGY">
+			<Text>The Missile Cruiser is a modern warship. It's fast and tough, carries a mean Ranged Combat punch and is pretty good at intercepting enemy aircraft. Most importantly, the Missile Cruiser can carry Guided Missiles, allowing you to carry right up to the enemy's shore. Missile Cruisers combined with carriers and submarines make a fiendishly powerful armada.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_MISSILE_CRUISER_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_MISSILE_CRUISER_STRATEGY">
+			<Text>The Missile Cruiser is a modern warship. It's fast and tough, carries a mean Ranged Combat punch and is pretty good at intercepting enemy aircraft. Most importantly, the Missile Cruiser can carry Guided Missiles, allowing you to carry right up to the enemy's shore. Missile Cruisers combined with carriers and submarines make a fiendishly powerful armada.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

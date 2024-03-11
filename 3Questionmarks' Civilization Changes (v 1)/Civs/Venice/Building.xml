@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/29/2024 7:41:56 PM -->
+<GameData>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_VENICE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_VENICE_GRAND_CANAL</Type>
+			<DefaultBuilding>BUILDING_NATIONAL_TREASURY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_VENICE_GRAND_CANAL</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_VENICE_GRAND_CANAL</Type>
+			<BuildingClass>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClass>
+			<Description>TXT_KEY_BUILDING_VENICE_GRAND_CANAL</Description>
+			<Help>TXT_KEY_BUILDING_VENICE_GRAND_CANAL_HELP</Help>
+			<Strategy>TXT_KEY_BUILDING_VENICE_GRAND_CANAL_STRATEGY</Strategy>
+			<Cost>125</Cost>
+			<NumCityCostMod>30</NumCityCostMod>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<SpecialistCount>2</SpecialistCount>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<NeverCapture>1</NeverCapture>
+			<TradeRouteRecipientBonus>4</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<CultureRateModifier>10</CultureRateModifier>
+			<IconAtlas>BW_ATLAS_VENICE</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_TerrainYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+	<Building_LakePlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_LakePlotYieldChanges>
+	<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VENICE_GRAND_CANAL</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_VENICE_GRAND_CANAL">
+			<Text>Grand Canal of Venice</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_BUILDING_VENICE_GRAND_CANAL_HELP">
+			<Text>Must have built a Market in all Cities. The cost goes up the more cities there are in the empire. Trade routes other players make to the city with the Grand Canal of Venice will generate an extra 4 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 2 [ICON_GOLD] Gold for the trade route. +1 [ICON_GOLD] Gold and [ICON_CULTURE] from water tiles worked by this city, and grants an additional [ICON_INTERNATION_TRADE] Trade Route slot (+2 with Venice's Abiltiy). +10% [ICON_GOLD] Gold and [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<!-- Strategy tags -->
+		<Row Tag="TXT_KEY_BUILDING_VENICE_GRAND_CANAL_STRATEGY">
+			<Text>Replacing the East India Company, the Grand Canal of Venice is the unique building of Venice. In addition to the regular trade route bonuses of the East India Company, the Grand Canal of Venice also increased the [ICON_GOLD] Gold and [ICON_CULTURE] Culture output of the city directly as well as the cities water tiles, provides +1 [ICON_INTERNATION_TRADE] Trade Route (+2 with Venice's Ability), and is available earlier at Currency instead of Guilds. It has also has 2 Slots for Merchant Specilists, and provides a passive +2 Great Merchant Points per turn. Requires a Market to be in every City to produce.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

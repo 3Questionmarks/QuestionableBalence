@@ -1,0 +1,312 @@
+<GameData>
+	<Language_en_US>
+		<!-- IRELAND_OCONNELL -->
+		<!-- CITIES -->
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_1">
+			<Text>Dublin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_2">
+			<Text>Cork</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_3">
+			<Text>Galway</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_4">
+			<Text>Belfast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_5">
+			<Text>Kilkenny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_6">
+			<Text>Nenagh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_7">
+			<Text>Castlebar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_8">
+			<Text>Downpatrick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_9">
+			<Text>Limerick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_10">
+			<Text>Omagh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_11">
+			<Text>Lifford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_12">
+			<Text>Tralee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_13">
+			<Text>Ennis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_14">
+			<Text>Antrim</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_15">
+			<Text>Roscommon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_16">
+			<Text>Cavan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_17">
+			<Text>Londonderry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_18">
+			<Text>Armagh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_19">
+			<Text>Wexford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_20">
+			<Text>Monaghan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_21">
+			<Text>Waterford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_22">
+			<Text>Sligo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_23">
+			<Text>Navan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_24">
+			<Text>Enniskillen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_25">
+			<Text>Carrick-on-Shannon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_26">
+			<Text>Maryborough</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_27">
+			<Text>Tullamore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_28">
+			<Text>Mullingar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_29">
+			<Text>Wicklow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_30">
+			<Text>Carlow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_31">
+			<Text>Longford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_32">
+			<Text>Naas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_33">
+			<Text>Dundalk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_34">
+			<Text>Drogheda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CIVILIZATION_DMS_IRELAND_OCONNELL_35">
+			<Text>Carrickfergus</Text>
+		</Row>
+		<!-- SPY NAMES -->
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_IRELAND_OCONNELL_0">
+			<Text>Patrick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_IRELAND_OCONNELL_1">
+			<Text>James</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_IRELAND_OCONNELL_2">
+			<Text>Thomas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_IRELAND_OCONNELL_3">
+			<Text>Michael</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_IRELAND_OCONNELL_4">
+			<Text>William</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_IRELAND_OCONNELL_5">
+			<Text>Timothy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_IRELAND_OCONNELL_6">
+			<Text>Dennis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_IRELAND_OCONNELL_7">
+			<Text>Margaret</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_IRELAND_OCONNELL_8">
+			<Text>Bridget</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_DMS_IRELAND_OCONNELL_9">
+			<Text>Ann</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!-- IRELAND_OCONNELL -->
+		<Row Tag="TXT_KEY_CIVILIZATION_DMS_IRELAND_OCONNELL">
+			<Text>Irish Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_DMS_IRELAND_OCONNELL_SHORT">
+			<Text>Ireland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_DMS_IRELAND_OCONNELL_ADJECTIVE">
+			<Text>Irish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_TEXT_1">
+			<Text>Ireland is an island in the North Atlantic. It is separated from Great Britain to its east by the North Channel, the Irish Sea, and St George's Channel. Ireland is the second-largest island of the British Isles, the third-largest in Europe, and the twentieth-largest on Earth. Irish culture has had a significant influence on other cultures, especially in the field of literature. Alongside mainstream Western culture, a strong indigenous culture exists, as expressed through Gaelic games, Irish music and the Irish language.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_HEADING_2">
+			<Text>Geography and Climate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_TEXT_2">
+			<Text>The geography of Ireland comprises relatively low-lying mountains surrounding a central plain, with several navigable rivers extending inland. Its lush vegetation is a product of its mild but changeable climate which is free of extremes in temperature. The Irish climate is influenced by the Atlantic Ocean and thus very moderate, and winters are milder than expected for such a northerly area, although summers are cooler than those in continental Europe. Rainfall and cloud cover are abundant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_HEADING_3">
+			<Text>Pre-Christian Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_TEXT_3">
+			<Text>The pre-Christian era in Ireland is known chiefly through legend, although there is archaeological evidence of habitation during the Stone and Bronze ages. In about the 4th century bc, the tall, red-haired Celts from Gaul or Galicia arrived, bringing with them the Iron Age. They subdued the Picts in the north and the Érainn tribe in the south, then settled down to establish a Gaelic civilization, absorbing many of the traditions of the previous inhabitants. By the 3rd century ad, the Gaels had established five permanent kingdoms—Ulster, Connacht, Leinster, Meath (North Leinster), and Munster—with a high king, whose title was often little more than honorary, at Tara. After St. Patrick's arrival in ad 432, Christian Ireland rapidly became a center of Latin and Gaelic learning. Irish monasteries drew not only the pious but also the intellectuals of the day, and sent out missionaries to many parts of Europe.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_HEADING_4">
+			<Text>The English Crown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_TEXT_4">
+			<Text>Toward the end of the 8th century, the Vikings began their invasions, destroying monasteries and wreaking havoc on the land, but also intermarrying, adopting Irish customs, and establishing coastal settlements from which have grown Ireland's chief cities. Viking power was finally broken at the Battle of Clontarf in 1014. About 150 years later, the Anglo-Norman invasions began. Gradually, the invaders gained control of the whole country. Many of them intermarried, adopted the Irish language, customs, and traditions, and became more Irish than the Gaels. But the political attachment to the English crown instituted by the Norman invasion caused almost 800 years of strife, as successive English monarchs sought to subdue Gaels and Norman-Irish alike. Wholesale confiscations of land and large plantations of English colonists began under Mary I (Mary Tudor) and continued under Elizabeth I, Cromwell, and William III. Treatment of the Irish reached a brutal climax in the 18th century with the Penal Laws, which deprived Catholics and Dissenters (the majority of the population) of all legal rights.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_HEADING_5">
+			<Text>Catholic Emancipation and the Great Famine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_TEXT_5">
+			<Text>By the end of the 18th century, many of the English colonists had come to regard themselves as Irish and, like the English colonists in America, resented the domination of London and their own lack of power to rule themselves. In 1783, they forced the establishment of an independent Irish parliament, but it was abolished by the Act of Union (1800), which gave Ireland direct representation in Westminster. Catholic emancipation was finally achieved in 1829 through the efforts of Daniel O'Connell, but the great famine of the 1840s, when millions died or emigrated for lack of potatoes while landlords continued to export other crops to England, emphasized the tragic condition of the Irish peasant and the great need for land reform.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_HEADING_6">
+			<Text>Desire for Independence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_TEXT_6">
+			<Text>A series of uprisings and the growth of various movements aimed at home rule or outright independence led gradually to many reforms, but the desire for complete independence continued to grow. After the bloodshed and political maneuvers that followed the Easter Uprising of 1916 and the proclamation of an Irish Republic by Irish members of Parliament in 1919, the Anglo-Irish Treaty was signed in 1921, establishing an Irish Free State with dominion status in the British Commonwealth. Violent opposition to dominion status and to a separate government in Protestant-dominated Northern Ireland precipitated a civil war lasting almost a year. The Free State was officially proclaimed and a new constitution adopted in 1922, but sentiment in favor of a reunified Irish Republic remained strong, represented at its extreme by the terrorist activities of the Irish Republican Army (IRA). Powerful at first, the IRA lost much of its popularity after Éamon de Valera, a disillusioned supporter, took over the government in 1932. During the civil violence that disrupted Northern Ireland from the late 1960s on, the Irish government attempted to curb the "provisional wing" of the IRA, a terrorist organization that used Ireland as a base for attacks in the north. Beginning in 1976, the government assumed emergency powers to cope with IRA activities, but the terrorist acts continued, most notably the assassination on 27 August 1979 of the British Earl Mountbatten.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_HEADING_7">
+			<Text>Peace Negotiations and Northern Ireland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_TEXT_7">
+			<Text>The Irish government continued to favor union with Northern Ireland, but only by peaceful means. In November 1985, with the aim of promoting peace in Northern Ireland, Ireland and the United Kingdom ratified a treaty enabling Ireland to play a role in various aspects of Northern Ireland's affairs. On 10 April 1998 the Irish Republic jointly signed a peace agreement with the United Kingdom to resolve the Northern Ireland crisis. Ireland pledged to amend articles 2 and 3 of the Irish Constitution, which lay claim to the territory of the North, in return for the United Kingdom promising to amend the Government of Ireland Act. On 22 May 1998, 94.4% of the electorate voted in a referendum to drop Ireland's claim to Northern Ireland. A year after the agreement, several key provisions of the Good Friday Agreement had been implemented. The peace process has since then witnessed long moments of gloom in spite of the ongoing involvements of the British and Irish prime ministers to resolve the situation in Northern Ireland. One of the largest obstacles was the disarmament of the IRA and the reservations on the part of the Ulster Unionists to share power with Sinn Feìn, the political arm of the IRA. Finally, in May 2000, the IRA proposed that outside observers be shown the contents of arms dumps and reinspect them at regular intervals to ensure that weaponry had not been removed and was back in circulation. The Ulster Unionists agreed to power-sharing arrangements and to endorse devolution of Northern Ireland. Decommissioning of the IRA did not progress in early 2001, however, and David Trimble, the first minister of the power-sharing government, resigned in July 2001. Sinn Feìn's offices at Stormont, the Northern Ireland Assembly, were raided by the police in October 2002, due to spying allegations. On 14 October 2002, devolution was suspended and direct rule from London returned to Northern Ireland. Elections planned for the assembly in May 2003 were indefinitely postponed by British Prime Minister Tony Blair, due to a lack of evidence of peaceful intentions on the part of the IRA. Talks aimed at restoring devolved government in 2004 failed due to the continued IRA possession of illegal arms and its refusal to disband and pull out of illegal activities. Progress did not look eminent as of January 2005, when some IRA members were brutally murdered and the provisional government seemed to make attempts to protect those responsible for the murders from prosecution.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_HEADING_8">
+			<Text>Irish factoids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_CIVILIZATIONS_DMS_IRELAND_OCONNELL_TEXT_8">
+			<Text>[ICON_BULLET]The Irish consume in average 131.1 liters of beer per year - the 2nd highest per-capita consumption after the Czech Republic.[NEWLINE][NEWLINE][ICON_BULLET]88% of Irish citizens are nominally Roman Catholic. The Republic of Ireland has one of the highest rates of church attendance in the Western World (around 45% of regular Mass attendance).[NEWLINE][NEWLINE][ICON_BULLET]Many Irish family names start with "Mac" or "O'...", which means respectively "son of ..." and "grandson of ..." in Gaelic.[NEWLINE][NEWLINE][ICON_BULLET]Ireland has had its own Olympics since the Bronze Age. The Tailteann Games (Aonach Tailteann), as they were known, were athletic contests held in honor of the deceased goddess Tailtiu, Lugh's wife. Although historically attested games were held from the 6th to the 12th century CE, it is claimed that the origins of the Tailteann Games go back to 632 BCE, or even as far as 1600 BCE (against 776 BCE for the ancient Greek Olympic Games). Modern revival of the games have been held since 1924.</Text>
+		</Row>
+		<!-- Daniel O'Connell -->
+		<Row Tag="TXT_KEY_LEADER_DMS_DANIEL_O_CONNELL">
+			<Text>Daniel O'Connell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_DANIEL_O_CONNELL_HEADING_1">
+			<Text>Background</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_DANIEL_O_CONNELL_TEXT_1">
+			<Text> </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_DANIEL_O_CONNELL_HEADING_5">
+			<Text>Judgement of History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_DANIEL_O_CONNELL_TEXT_5">
+			<Text> </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_DANIEL_O_CONNELL_NAME">
+			<Text>Daniel O'Connell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_DANIEL_O_CONNELL_SUBTITLE">
+			<Text>Leader of Ireland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_DANIEL_O_CONNELL_TITLES_1">
+			<Text>The Liberator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_DANIEL_O_CONNELL_TITLES_2">
+			<Text>The Emancipator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_DMS_DANIEL_O_CONNELL_LIVED">
+			<Text>1775 - 1847</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_DMS_IRELAND_OCONNELL_TEXT">
+			<Text>The people of Ireland yearn once more for their ardent emancipator, Daniel O’Connell! Born firmly in a land dominated by a foreign power, you would rise to prominence not by subverting the system or seeking to overthrow it, but by effecting gradual parliamentary change in order to better the lives of your kinfolk. An outspoken champion of liberty and opponent of violence, you were a political titan of the times, regarded by many as the ‘Uncrowned King of Ireland’ due to your popularity with the people you fought for. Though your goal of breaking the acts of union and the recreation of an independent Irish State would not be realised in your lifetime, it is undeniable that the steps taken by you and your allies were a massive inspiration to many civil rights leaders internationally. Whilst freedom would eventually come to your people, it came at a cost of immense violence and bitter civil conflict that you worked so hard to oppose in your lifetime.[NEWLINE][NEWLINE]Oh Great Liberator, uncrowned King of Ireland, your people once again call out for your august guidance. The altar of liberty has toppled, and requires a firm foundation to be laid once more. In such a time of uncertainty and chaos Irishmen of all faiths and creeds cry out to you as their guardian, Daniel O’Connell. Will you lead your people from ignorance and oppression? Can you make the heart of the Irish Nation beat once again? Can you build a civilization that will stand the Test of Time?</Text>
+		</Row>
+		<!-- Twilight of the Gaels  -->
+		<Row Tag="TXT_KEY_TRAIT_DMS_TWILIGHT_OF_THE_GAELS_SHORT">
+			<Text>Twilight of the Gaels</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_DMS_TWILIGHT_OF_THE_GAELS">
+			<Text>Pressure from foreign Religions provides [ICON_PEACE] Faith, while pressure from your own yields [ICON_CULTURE] Culture. Irish [ICON_GREAT_WORK] Great Works increase Religious pressure in your Cities.</Text>
+		</Row>
+		<!-- Fraternal Lodge -->
+		<Row Tag="TXT_KEY_BUILDING_DMS_FRATERNAL_LODGE">
+			<Text>Fraternal Lodge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DMS_FRATERNAL_LODGE_TEXT">
+			<Text> </Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_FRATERNAL_LODGE_HELP">
+			<Text>The Fraternal Lodge is the Irish unique building, replacing the Constabulary. Like the Constabulary, it reduces enemy spy stealing rate by 25%. Additionally, it has one slot for a Great Work of Writing and provides 15% of the City's Culture output as Great Writer points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_FRATERNAL_LODGE_STRATEGY">
+			<Text>The Fraternal Lodge is the Irish unique building, replacing the Constabulary. Like the Constabulary, it reduces enemy spy stealing rate by 25%. Additionally, it has one slot for a Great Work of Writing and provides 15% of the City's Culture output as Great Writer points.</Text>
+		</Row>
+		<!-- Devil's Own -->
+		<Row Tag="TXT_KEY_UNIT_DMS_DEVILS_OWN">
+			<Text>Devil's Own</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DMS_DEVILS_OWN_TEXT">
+			<Text>The Connaught Rangers ("The Devil's Own") were an Irish line infantry regiment of the British Army formed by the amalgamation of the 88th Regiment of Foot (Connaught Rangers) and the 94th Regiment of Foot (which formed the 2nd Battalion) in July 1881. Between the time of its formation and Irish independence, it was one of eight Irish regiments raised largely in Ireland. It was disbanded following the establishment of the independent Irish Free State in 1922, along with the other five regiments that had their traditional recruiting grounds in the counties of the new state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DMS_DEVILS_OWN_HELP">
+			<Text>One of the first gunpowder units of the game. Only the Irish under Daniel O'Connell may build it. This Unit is trained faster based on foreign religious pressure and starts with more Experience based on the pressure of your majority Religion. Additionally, high level Devil's Own Units grant [ICON_STRENGTH] Combat Strength to adjacent Irish Units of lower level, unlike the Musketman it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DMS_DEVILS_OWN_STRATEGY">
+			<Text>The Devil' Own is the Irish Unique Unit, replacing the Rifleman. The Devil's Own is trained faster at a rate depending on forieng religious pressue, and starts with more Experience depending on the pressure of your majority Religion in the City. In addition, Devil's Own Units of higher level grant bonus [ICON_STRENGTH] Combat Strength to adjacent Units of lower level.</Text>
+		</Row>
+		<!-- Promotions -->
+		<Row Tag="TXT_KEY_PROMOTION_DMS_DEVILS_OWN_ABILITY">
+			<Text>Connaught Rangers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DMS_DEVILS_OWN_ABILITY_HELP">
+			<Text>Adjacent Units of lower level, receive +15% [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DMS_DEVILS_OWN_COMBAT_STRENGTH">
+			<Text>Quis Seprabit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DMS_DEVILS_OWN_COMBAT_STRENGTH_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength from adjacent Devil's Own Unit (or upgrade) of higher level.</Text>
+		</Row>
+		<!-- Dummy buildings -->
+		<Row Tag="TXT_KEY_BUILDING_DMS_PRESSURE_FROM_GREATWORKS">
+			<Text>DMS: Ireland: Pressure from Great Works</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_PRESSURE_FROM_GREATWORKS_HELP">
+			<Text>Religious Pressure from Great Works in City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_CULTURE_FROM_PRESSURE">
+			<Text>DMS: Ireland: Culture from Pressure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_CULTURE_FROM_PRESSURE_HELP">
+			<Text>Culture from religious Pressure in City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_FAITH_FROM_PRESSURE">
+			<Text>DMS: Ireland: Faith from Pressure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_FAITH_FROM_PRESSURE_HELP">
+			<Text>Faith from religious Pressure in City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_UNIT_PRODUCTION_FROM_PRESSURE">
+			<Text>DMS: Ireland: Unit Production from Pressure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DMS_UNIT_PRODUCTION_FROM_PRESSURE_HELP">
+			<Text>Unit Production from religious Pressure in City.</Text>
+		</Row>
+		<!-- MCIS -->
+		<Row Tag="TXT_KEY_MCIS_DMS_TWILIGHT_OF_THE_GAELS">
+			<Text>[ICON_BULLET][ICON_PEACE] Faith from foreign Religious Pressure: {1_faith}.[NEWLINE][ICON_BULLET][ICON_CULTURE] Culture from you own Religious Pressure: {2_culture}.[NEWLINE][ICON_BULLET]Religious Pressure from Irish [ICON_GREAT_WORK] Great Works: {3_pressure}.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

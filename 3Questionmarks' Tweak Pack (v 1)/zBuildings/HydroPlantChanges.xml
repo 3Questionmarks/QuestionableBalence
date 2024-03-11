@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Hydro Plant can now be built near a river -->
+  <Buildings>
+    <Update>
+      <Where Type="BUILDING_HYDRO_PLANT"/>
+      <Set River="false"/>
+    </Update>
+  </Buildings>
+</GameData>

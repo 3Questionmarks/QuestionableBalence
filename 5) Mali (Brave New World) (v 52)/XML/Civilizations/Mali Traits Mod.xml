@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_ROYAL_HAJJ_MALI_MOD</Type>
+			<Description>TXT_KEY_TRAIT_ROYAL_HAJJ_MALI_MOD</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ROYAL_HAJJ_MALI_MOD_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+    <Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_ROYAL_HAJJ_MALI_MOD</TraitType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<TraitType>TRAIT_ROYAL_HAJJ_MALI_MOD</TraitType>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+</GameData>

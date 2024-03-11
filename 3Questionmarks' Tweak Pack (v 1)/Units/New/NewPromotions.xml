@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/23/2012 6:55:19 PM -->
+<GameData>
+	<!-- Special Forces Promotion -->
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_EXTPARADROP</Type>
+			<Description>TXT_KEY_PROMOTION_EXTPARADROP</Description>
+			<Help>TXT_KEY_PROMOTION_EXTPARADROP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<DropRange>15</DropRange>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_EXTPARADROP</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_EXTPARADROP">
+			<Text>Can Paradrop 15 Tiles</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Naval Bomber Promotion -->
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_NAVAL_BOMBER</Type>
+			<Description>TXT_KEY_PROMOTION_NAVAL_BOMBER</Description>
+			<Help>TXT_KEY_PROMOTION_NAVAL_BOMBER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PortraitIndex>52</PortraitIndex>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_NAVAL_BOMBER</PediaEntry>
+			<CannotBeChosen>1</CannotBeChosen>
+			<LostWithUpgrade>1</LostWithUpgrade>
+			<CityAttack>-33</CityAttack>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_Domains>
+		<Row>
+			<PromotionType>PROMOTION_NAVAL_BOMBER</PromotionType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Modifier>50</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NAVAL_BOMBER</PromotionType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>-33</Modifier>
+		</Row>
+	</UnitPromotions_Domains>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_BOMBER">
+			<Text>Naval Specialization I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_BOMBER_HELP">
+			<Text>Increase damage done to Naval Units by 50%. Reduces damage done to land units and cities by 33%</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Naval Bomber Promotion II -->
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_NAVAL_BOMBER_II</Type>
+			<Description>TXT_KEY_PROMOTION_NAVAL_BOMBER_II</Description>
+			<Help>TXT_KEY_PROMOTION_NAVAL_BOMBER_II_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PortraitIndex>53</PortraitIndex>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_NAVAL_BOMBER_II_</PediaEntry>
+			<CannotBeChosen>1</CannotBeChosen>
+			<LostWithUpgrade>1</LostWithUpgrade>
+			<CityAttack>-33</CityAttack>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_Domains>
+		<Row>
+			<PromotionType>PROMOTION_NAVAL_BOMBER_II</PromotionType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Modifier>75</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NAVAL_BOMBER_II</PromotionType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>-33</Modifier>
+		</Row>
+	</UnitPromotions_Domains>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_BOMBER_II">
+			<Text>Naval Specialization II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_BOMBER_II_HELP">
+			<Text>Increase damage done to Naval Units by 75%. Reduces damage done to land units and cities by 33%</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Naval Bomber Promotion III -->
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_NAVAL_BOMBER_III</Type>
+			<Description>TXT_KEY_PROMOTION_NAVAL_BOMBER_III</Description>
+			<Help>TXT_KEY_PROMOTION_NAVAL_BOMBER_III_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PortraitIndex>53</PortraitIndex>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_NAVAL_BOMBER_III_</PediaEntry>
+			<CannotBeChosen>1</CannotBeChosen>
+			<LostWithUpgrade>1</LostWithUpgrade>
+			<CityAttack>-33</CityAttack>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_Domains>
+		<Row>
+			<PromotionType>PROMOTION_NAVAL_BOMBER_III</PromotionType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Modifier>100</Modifier>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NAVAL_BOMBER_III</PromotionType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>-33</Modifier>
+		</Row>
+	</UnitPromotions_Domains>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_BOMBER_III">
+			<Text>Naval Specialization III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_BOMBER_III_HELP">
+			<Text>Increase damage done to Naval Units by 100%. Reduces damage done to land units and cities by 33%</Text>
+		</Row>
+	</Language_en_US>
+	
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_MAY_CROSS_MOUNTAINS</Type>
+			<Description>May Cross Over Mountains</Description>
+			<Help>Unit may corss over mountains, but it takes damage if it ends it's turn there.</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CanMoveImpassable>true</CanMoveImpassable>
+			<LostWithUpgrade>false</LostWithUpgrade>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>Unit may corss over mountains, but it takes damage if it ends it's turn there.</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+	<!-- Air Targeting III -->
+	<!-- This needs to actually replace Air Ambush 1 to be in the right order in the unit promos... -->
+	<UnitPromotions>
+		<Update>
+			<Set Description="TXT_KEY_PROMOTION_AIR_TARGETING_3" Help="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP" OrderPriority="3" PortraitIndex="54" PediaEntry="TXT_KEY_PROMOTION_AIR_TARGETING_3" PromotionPrereqOr1="PROMOTION_AIR_TARGETING_2" PromotionPrereqOr2="NULL" PromotionPrereqOr3="NULL" PromotionPrereqOr4="NULL" />
+			<Where Type="PROMOTION_AIR_AMBUSH_1" />
+		</Update>
+	</UnitPromotions>
+
+	<UnitPromotions_Domains>
+		<Row>
+			<PromotionType>PROMOTION_AIR_TARGETING_3</PromotionType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Modifier>34</Modifier>
+		</Row>
+	</UnitPromotions_Domains>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3">
+			<Text>Air Targeting III</Text>
+		</Row>
+	</Language_en_US>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
+			<Text>+34% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Naval[ENDCOLOR] units.</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Armored units now get +50% vs Land units. -->
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_ARMOR_VS_LAND</Type>
+			<Description>TXT_KEY_PROMOTION_ARMOR_VS_LAND</Description>
+			<Help>TXT_KEY_PROMOTION_ARMOR_VS_LAND_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_ARMOR_VS_LAND</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_Domains>
+		<Row>
+			<PromotionType>PROMOTION_ARMOR_VS_LAND</PromotionType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>50</Modifier>
+		</Row>
+	</UnitPromotions_Domains>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<PromotionType>PROMOTION_ARMOR_VS_LAND</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERN_ARMOR</UnitType>
+			<PromotionType>PROMOTION_ARMOR_VS_LAND</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TANK</UnitType>
+			<PromotionType>PROMOTION_ARMOR_VS_LAND</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GERMAN_PANZER</UnitType>
+			<PromotionType>PROMOTION_ARMOR_VS_LAND</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_TANK</UnitType>
+			<PromotionType>PROMOTION_ARMOR_VS_LAND</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<!-- Infantry units now get +25% bonus vs ranged units and heal an extra 10HP in friendly borders and 5HP outside. -->
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_INFANTRY</Type>
+			<Description>TXT_KEY_PROMOTION_INFANTRY</Description>
+			<Help>TXT_KEY_PROMOTION_INFANTRY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_INFANTRY</PediaEntry>
+			<EnemyHealChange>5</EnemyHealChange>
+			<NeutralHealChange>5</NeutralHealChange>
+			<FriendlyHealChange>10</FriendlyHealChange>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_UnitCombatMods>
+		<Row>
+			<PromotionType>PROMOTION_INFANTRY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<Modifier>25</Modifier>
+		</Row>
+	</UnitPromotions_UnitCombatMods>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_INFANTRY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_INFANTRY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_INFANTRY">
+			<Text>Infantry Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INFANTRY_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Ranged Units[ENDCOLOR]. This unit heals an additional 5 HP per turn, or 10 HP per turn in friendly territory.</Text>
+		</Row>
+	</Language_en_US>
+	
+
+	<!-- Destroyers are Stronger when Defending VS Subs -->
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SUB_DEFEND</Type>
+			<Description>TXT_KEY_PROMOTION_SUB_DEFEND</Description>
+			<Help>TXT_KEY_PROMOTION_SUB_DEFEND_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SUB_DEFEND</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_UnitClasses>
+		<Row>
+			<PromotionType>PROMOTION_SUB_DEFEND</PromotionType>
+			<UnitClassType>UNITCLASS_SUBMARINE</UnitClassType>
+			<Defense>50</Defense>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SUB_DEFEND</PromotionType>
+			<UnitClassType>UNITCLASS_NUCLEAR_SUBMARINE</UnitClassType>
+			<Defense>50</Defense>
+		</Row>
+	</UnitPromotions_UnitClasses>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_SUB_DEFEND">
+			<Text>Defence vs Subs (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUB_DEFEND_HELP">
+			<Text>+50% [ICON_STRENGTH] Combat Strength when defending against Submarines.</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

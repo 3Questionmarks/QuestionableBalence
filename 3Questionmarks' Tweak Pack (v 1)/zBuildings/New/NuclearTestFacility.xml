@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/4/2024 7:35:34 PM -->
+<GameData>
+	<!-- Flavours -->
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_TEST_FACILITY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+	<!-- Classes -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_NUCLEAR_TEST_FACILITY</Type>
+			<DefaultBuilding>BUILDING_NUCLEAR_TEST_FACILITY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_NUCLEAR_TEST_FACILITY</Description>
+		</Row>
+	</BuildingClasses>
+	<!-- Building -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_NUCLEAR_TEST_FACILITY</Type>
+			<BuildingClass>BUILDINGCLASS_NUCLEAR_TEST_FACILITY</BuildingClass>
+			<Cost>800</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_ATOMIC_THEORY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_NUCLEAR_TEST_FACILITY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDING_NUCLEAR_TEST_FACILITY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NUCLEAR_TEST_FACILITY_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_NUCLEAR_TEST_FACILITY_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>0</HurryCostModifier>
+			<PortraitIndex>56</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_TEST_FACILITY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_TEST_FACILITY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NUCLEAR_TEST_FACILITY</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<!-- Text -->
+	<Language_en_US>
+		<Row Tag ="TXT_KEY_BUILDING_NUCLEAR_TEST_FACILITY">
+			<Text>Nuclear Test Facility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NUCLEAR_TEST_FACILITY_STRATEGY">
+			<Text>+2 [ICON_RESEARCH] Science from [ICON_RES_URANIUM] Uranium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NUCLEAR_TEST_FACILITY_HELP">
+			<Text>+2 [ICON_RESEARCH] Science from [ICON_RES_URANIUM] Uranium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_NUCLEAR_TEST_FACILITY_PEDIA">
+			<Text>Nuclear weapons tests are experiments carried out to determine the performance, yield, and effects of nuclear weapons. Testing nuclear weapons offers practical information about how the weapons function, how detonations are affected by different conditions, and how personnel, structures, and equipment are affected when subjected to nuclear explosions. However, nuclear testing has often been used as an indicator of scientific and military strength. Many tests have been overtly political in their intention; most nuclear weapons states publicly declared their nuclear status through a nuclear test. --Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

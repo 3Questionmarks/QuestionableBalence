@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/24/2021 3:28:19 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_FA_TRADINGPOST">
+			<Text>Trading Post</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FA_TRADINGPOST_HELP">
+			<Text>
+				Requires a Coastal City. Ships trained in this City: +1 [ICON_MOVES] Movement and can move into Ocean Tiles. +1 [ICON_FOOD] Food from Ocean Tiles and all Sea Resources worked by this City. Denmark's replacement for the [COLOR_POSITIVE_TEXT]Lighthouse[ENDCOLOR].
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FA_TRADINGPOST2_HELP">
+			<Text>
+				Requires a Coastal City. Ships trained in this City: +1 [ICON_MOVES] Movement and can move into Ocean Tiles. +1 [ICON_FOOD] Food from Ocean Tiles. +1 [ICON_FOOD] Food and [ICON_PRODUCTION] Production on all Sea Resources. Denmark's replacement for the [COLOR_POSITIVE_TEXT]Lighthouse[ENDCOLOR].
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VIKING_HERITAGE">
+			<Text>Viking Heritage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VIKING_HERITAGE_HELP">
+			<Text>+1 [ICON_MOVES] Movement</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

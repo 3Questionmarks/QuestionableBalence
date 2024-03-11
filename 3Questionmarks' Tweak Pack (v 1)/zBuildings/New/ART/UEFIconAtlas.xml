@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/14/2016 1:29:42 PM -->
+<GameData>
+		<IconTextureAtlases>
+			<Row>
+				<Atlas>UEF</Atlas>
+				<IconSize>256</IconSize>
+				<Filename>ART/UEF256.dds</Filename>
+				<IconsPerRow>8</IconsPerRow>
+				<IconsPerColumn>8</IconsPerColumn>
+			</Row>
+			<Row>
+				<Atlas>UEF</Atlas>
+				<IconSize>128</IconSize>
+				<Filename>ART/UEF128.dds</Filename>
+				<IconsPerRow>8</IconsPerRow>
+				<IconsPerColumn>8</IconsPerColumn>
+			</Row>
+			<Row>
+				<Atlas>UEF</Atlas>
+				<IconSize>64</IconSize>
+				<Filename>ART/UEF64.dds</Filename>
+				<IconsPerRow>8</IconsPerRow>
+				<IconsPerColumn>8</IconsPerColumn>
+			</Row>
+			<Row>
+				<Atlas>UEF</Atlas>
+				<IconSize>45</IconSize>
+				<Filename>ART/UEF45.dds</Filename>
+				<IconsPerRow>8</IconsPerRow>
+				<IconsPerColumn>8</IconsPerColumn>
+			</Row>
+		</IconTextureAtlases>
+</GameData>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<CustomModOptions>
+		<Replace Name="EVENTS_TILE_REVEALED" Value="1"/>
+		<Replace Name="EVENTS_NW_DISCOVERY" Value="1"/>
+	</CustomModOptions>
+	
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_XP_FOR_SCOUTING</Type>
+			<Description>TXT_KEY_PROMOTION_XP_FOR_SCOUTING</Description>
+			<Help>TXT_KEY_PROMOTION_XP_FOR_SCOUTING_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_XP_FOR_SCOUTING_HELP</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	
+	<!-- We use SQL to give PROMOTION_XP_FOR_SCOUTING to recon units, as we need a trigger --> 
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_XP_FOR_SCOUTING">
+			<Text>Scouting</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XP_FOR_SCOUTING_HELP">
+			<Text>Units gain XP from scouting</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

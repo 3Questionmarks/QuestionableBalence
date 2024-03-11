@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2021 2:38:21 AM -->
+<GameData>
+	<BuildingClasses>
+		<Replace>
+			<Type>BUILDINGCLASS_RECYCLING_CENTER</Type>
+			<DefaultBuilding>BUILDING_RECYCLING_CENTER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_RECYCLING_CENTER</Description>
+		</Replace>
+	</BuildingClasses>
+	<Building_ResourceQuantity>
+		<Replace>
+			<BuildingType>BUILDING_RECYCLING_CENTER</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Quantity>3</Quantity>
+		</Replace>
+	</Building_ResourceQuantity>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_RECYCLING_CENTER" />
+			<Set Cost="520" />
+		</Update>
+		<Update>
+			<Where Type="BUILDING_RECYCLING_CENTER" />
+			<Set GoldMaintenance="5" />
+		</Update>
+	</Buildings>
+	<Language_en_US>
+		<Replace Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_STRATEGY">
+			<Text>Each Recycling Center provides 3 [ICON_RES_ALUMINUM] Aluminum.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_HELP">
+			<Text>Provides 3 [ICON_RES_ALUMINUM] Aluminum.</Text>
+		</Replace>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e4ed3b3d-39aa-4bb3-8bfa-e06630de6fae" version="1">
+  <Properties>
+    <Name>Late-Game Unit Pack</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Late-Game Unit Pack</Teaser>
+    <Description>Adds 32 units to the game, in the Modern and latter Eras.
+
+This mod uses models, icons, code, and concepts provided by these great modders:  Bloublou, Cecil Lizard, Civitar, danrell, Deliverator, FramedArchitecture, Hangman, Josh LaBrie, JTitan, Labby, nomadorwhat, Patum333, Pouakai, Snafusmith, swatmp5, thecrazyscotsman, Tofusojo, Uruk, Whoward69, Wolfdog, and Zwei833.</Description>
+    <Authors>sman</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">ART/Common/no_gloss_16x16.dds</File>
+    <File md5="9309774C33232FFC6E47E09F56BDD3C5" import="1">ART/Edited Animation Files/edited_aim_attack_city_to_run.dge</File>
+    <File md5="FA9CE373BB700CFCD8F0FA3A955B1E69" import="1">ART/Edited Animation Files/edited_aim_attack_to_run_graph.dge</File>
+    <File md5="BA4F6AEB27527AB47CC284B27C8288A8" import="1">ART/Edited Animation Files/edited_aim_bombard_defend_loop_graph.dge</File>
+    <File md5="CD02EC91E73F396297C2B3434A8BA034" import="1">ART/Edited Animation Files/edited_aim_combat_ready_graph.dge</File>
+    <File md5="6B4338103039DFBD431A44C89DA198D6" import="1">ART/Edited Animation Files/edited_aim_death_final_graph.dge</File>
+    <File md5="F9F109E1E43FD75DFC765D9B3A43CE48" import="1">ART/Edited Animation Files/edited_aim_death_graph.dge</File>
+    <File md5="014FBFBCB17012BEC0B32D9FFDBF721E" import="1">ART/Edited Animation Files/edited_aim_enter_bombard_defend_graph.dge</File>
+    <File md5="7A5A0ADFBBB05D6E4FB126383988B264" import="1">ART/Edited Animation Files/edited_aim_enter_combat_ready_graph.dge</File>
+    <File md5="34488A641F9D948D865BBECF8B3878DF" import="1">ART/Edited Animation Files/edited_aim_enter_fortify.dge</File>
+    <File md5="F245B80AAC985C0011FEE5CBF3FB25DF" import="1">ART/Edited Animation Files/edited_aim_fidgets_graph.dge</File>
+    <File md5="65FED4E2E20D7512D6B5E92C1CD37EF7" import="1">ART/Edited Animation Files/edited_aim_fortify_fidget_graph.dge</File>
+    <File md5="F758D65157483D32C6763F817B216937" import="1">ART/Edited Animation Files/edited_aim_fortify_graph.dge</File>
+    <File md5="C2C8D0ADFA388980A03E814BF2B335F5" import="1">ART/Edited Animation Files/edited_aim_fortify_leave_graph.dge</File>
+    <File md5="EF6168FF0903555EDCBB9FD626CFB00F" import="1">ART/Edited Animation Files/edited_aim_idle_graph.dge</File>
+    <File md5="268797759660DA55A0F792A966EB586B" import="1">ART/Edited Animation Files/edited_aim_idle_offset_continue_true_graph.dge</File>
+    <File md5="C4D8B3EB164B5525B92514645521D0C3" import="1">ART/Edited Animation Files/edited_aim_leave_bombard_defend_trans_idle_a_graph.dge</File>
+    <File md5="189E34C23C7A19F2C190E1ACB4212C91" import="1">ART/Edited Animation Files/edited_aim_leave_combat_ready.dge</File>
+    <File md5="225D164523FE1270306005CCD71B075A" import="1">ART/Edited Animation Files/edited_aim_melee_attacks.dge</File>
+    <File md5="BA0D234DE017F5CEB6DEF37CE7DFE384" import="1">ART/Edited Animation Files/edited_aim_ms_attack_city_to_run.dge</File>
+    <File md5="75D8FBC3A2C4D56B1089F20A2E9D9DA1" import="1">ART/Edited Animation Files/edited_aim_ms_attack_to_run_graph.dge</File>
+    <File md5="82C3CE94F7827159DEA80CCF8AAF5D9E" import="1">ART/Edited Animation Files/edited_aim_ms_bombard_defend_loop_graph.dge</File>
+    <File md5="C3686411D2E96A715267F9A5C72A5EB1" import="1">ART/Edited Animation Files/edited_aim_ms_combat_ready_graph.dge</File>
+    <File md5="FE5B902745DEE0860ECEE5BA421D141F" import="1">ART/Edited Animation Files/edited_aim_ms_death_final_graph.dge</File>
+    <File md5="21659FCED7A08D6FB464A693D0E82597" import="1">ART/Edited Animation Files/edited_aim_ms_death_graph.dge</File>
+    <File md5="B66FF4B10706BE666A916B917D14AC83" import="1">ART/Edited Animation Files/edited_aim_ms_enter_bombard_defend_graph.dge</File>
+    <File md5="9B18015ACB470CD66C3294FDA203C27E" import="1">ART/Edited Animation Files/edited_aim_ms_enter_combat_ready_graph.dge</File>
+    <File md5="04680D47D3519A5FFB950F1147D7B1D4" import="1">ART/Edited Animation Files/edited_aim_ms_fidgets_graph.dge</File>
+    <File md5="327CB90C3BCF5BAC71F77DA677997631" import="1">ART/Edited Animation Files/edited_aim_ms_fortify_fidget_graph.dge</File>
+    <File md5="998F9D5F9FCAFE31E97022C5C50C67E8" import="1">ART/Edited Animation Files/edited_aim_ms_fortify_graph.dge</File>
+    <File md5="39370F05801D7D017D605CE224EE11E7" import="1">ART/Edited Animation Files/edited_aim_ms_fortify_leave_graph.dge</File>
+    <File md5="EF3E7C919600B18CDC0D6F1BCDD45F64" import="1">ART/Edited Animation Files/edited_aim_ms_idle_graph.dge</File>
+    <File md5="4BB9881AAB8B9F3571AA787BB89B4FF1" import="1">ART/Edited Animation Files/edited_aim_ms_leave_combat_ready.dge</File>
+    <File md5="E538938BAD81B88082C8DF076514653E" import="1">ART/Edited Animation Files/edited_aim_ms_modern_ship_attacks.dge</File>
+    <File md5="DBFC96AE4406957395EC439CEFF8584A" import="1">ART/Edited Animation Files/edited_aim_ms_running_loop.dge</File>
+    <File md5="C017AA3F2D83AAB3B6B939B6418071A3" import="1">ART/Edited Animation Files/edited_aim_ms_start_running.dge</File>
+    <File md5="34D584D857E6CBA51D87EE2FD6950EC6" import="1">ART/Edited Animation Files/edited_aim_ms_stop_running.dge</File>
+    <File md5="500F6DEDBDB767CAE8C964DBEE647459" import="1">ART/Edited Animation Files/edited_aim_ms_transitions_for_idles.dge</File>
+    <File md5="A64E86033B61613B4F39979D5603E65F" import="1">ART/Edited Animation Files/edited_aim_running_loop.dge</File>
+    <File md5="BCF1F945C0CBE7A1C9F62E5B46F84F99" import="1">ART/Edited Animation Files/edited_aim_start_running.dge</File>
+    <File md5="7B0232A8BE345EB899FF221FBD7BDCFB" import="1">ART/Edited Animation Files/edited_aim_stop_running.dge</File>
+    <File md5="2506D6C118D6A9FB915723F731C95FD4" import="1">ART/Edited Animation Files/edited_aim_transitions_for_idles.dge</File>
+    <File md5="5B811AF5596286D7B6DAD0FE8E8FA53B" import="1">ART/Edited Animation Files/edited_fx_triggers_jetfighter.ftsxml</File>
+    <File md5="B233D27FC1FA1DB1127E263DC20D30DB" import="1">ART/Edited Animation Files/edited_mechanized_aim_state_01.fsmxml</File>
+    <File md5="75C5BA4CEC139C9EAFA47AE912EAB3EC" import="1">ART/Edited Animation Files/edited_modern_ship_aim_state_01.fsmxml</File>
+    <File md5="D338AD1A18313F258BDA8AA395E94B27" import="1">ART/Icons/InfoEraUnitPackAtlas032.dds</File>
+    <File md5="A725E56783FD7A5F0C400C607F3BF0CA" import="1">ART/Icons/InfoEraUnitPackAtlas045.dds</File>
+    <File md5="54B7B491D3764CAA7E40D24EDFDA8457" import="1">ART/Icons/InfoEraUnitPackAtlas064.dds</File>
+    <File md5="059B0370E1FE3C00CF827C959BD3B875" import="1">ART/Icons/InfoEraUnitPackAtlas080.dds</File>
+    <File md5="8F7CBB648A86F1C05708DD9756195B76" import="1">ART/Icons/InfoEraUnitPackAtlas128.dds</File>
+    <File md5="382C3AC1555F7AF0BEB7B8F07A3C8891" import="1">ART/Icons/InfoEraUnitPackAtlas256.dds</File>
+    <File md5="6EC1CF173AFD2394EFF72B1BBC69798B" import="1">ART/Icons/InfoEraUnitPackFlagAtlas032.dds</File>
+    <File md5="3EE3880CFE63B2262EA67AEAC67452DE" import="0">ART/Icons/InfoEraUnitPackAtlas_Definitions.xml</File>
+    <File md5="E929CD1F83979F5895D80F1D929BDBAA" import="0">LUA/AirRecon.lua</File>
+    <File md5="DC0CBFE3B438F3E93DE62E2F7F79036B" import="0">LUA/AirRecon.xml</File>
+    <File md5="2E2BF7FBB0FB9B4AC1933E31349990B6" import="0">LUA/Misc.xml</File>
+    <File md5="E6C382609B837B34C60039C0D808471A" import="1">SQL-XML/Units/Air-CAS Fighter/ART/SMAN_IEUP_CASFighter.fxsxml</File>
+    <File md5="5E9F35EEA82C3E0720D0276C6ADF1A52" import="1">SQL-XML/Units/Air-CAS Fighter/ART/SMAN_IEUP_CASFighter.gr2</File>
+    <File md5="210F0AAF9CCA036907E90DC209C525F7" import="1">SQL-XML/Units/Air-CAS Fighter/ART/SMAN_IEUP_CASFighter_diff.dds</File>
+    <File md5="6B32B7D4FEE94C70CDE92DC6490D1187" import="1">SQL-XML/Units/Air-CAS Fighter/ART/SMAN_IEUP_CASFighter_sref.dds</File>
+    <File md5="37064B6BB3B92D34BFEBE5D46896D1FC" import="0">SQL-XML/Units/Air-CAS Fighter/SMAN_IEUP_CASFighter.xml</File>
+    <File md5="547F1EC0A9E798F3177ABF275329774C" import="1">SQL-XML/Units/Air-F117 Fighter/ART/SMAN_IEUP_F117.fxsxml</File>
+    <File md5="1F68279C8E3D74C68C94C71E95DD8626" import="1">SQL-XML/Units/Air-F117 Fighter/ART/SMAN_IEUP_F117.gr2</File>
+    <File md5="95661C35835330A2B9FF73A96DD2C96C" import="1">SQL-XML/Units/Air-F117 Fighter/ART/SMAN_IEUP_F117_diff.dds</File>
+    <File md5="D95E59AADF2598ECA88F3E24302871D4" import="1">SQL-XML/Units/Air-F117 Fighter/ART/SMAN_IEUP_F117_sref.dds</File>
+    <File md5="E095034BA7933549BF97A2EDAF15E2F5" import="0">SQL-XML/Units/Air-F117 Fighter/SMAN_IEUP_F117.xml</File>
+    <File md5="EEC6C3BCD6DF7C6C6096460BC3E15205" import="0">SQL-XML/Units/Air-F117 Fighter/SMAN_IEUP_F117_ArtDefines.sql</File>
+    <File md5="504C21A6C8A5C07B2A7CC2B657B7E080" import="1">SQL-XML/Units/Air-F35 Fighter/ART/SMAN_IEUP_F35.fxsxml</File>
+    <File md5="1602A46777B1BFEC4BA45ECAEE928814" import="1">SQL-XML/Units/Air-F35 Fighter/ART/SMAN_IEUP_F35.gr2</File>
+    <File md5="A15AD85EDC6F3AB93E1A32AD70578941" import="1">SQL-XML/Units/Air-F35 Fighter/ART/SMAN_IEUP_F35_diff.dds</File>
+    <File md5="E485AC0F9B72F1037866AA4AB7203F21" import="1">SQL-XML/Units/Air-F35 Fighter/ART/SMAN_IEUP_F35_sref.dds</File>
+    <File md5="5C66BA9D7A232F3802FEBC889C65ABC2" import="0">SQL-XML/Units/Air-F35 Fighter/SMAN_IEUP_F35.xml</File>
+    <File md5="4153B7B6843DED7B7A708EE7ED868A0E" import="0">SQL-XML/Units/Air-F35 Fighter/SMAN_IEUP_F35_ArtDefines.sql</File>
+    <File md5="6E05D5ECE29E4E37DBBD63C7DA7E5709" import="1">SQL-XML/Units/Air-Nightstalker Drone/ART/fx_triggers_sman_ieup_nightstalker.ftsxml</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">SQL-XML/Units/Air-Nightstalker Drone/ART/no_gloss_16x16.dds</File>
+    <File md5="77FBA86BB3DEA722DA0D34591EB488E2" import="1">SQL-XML/Units/Air-Nightstalker Drone/ART/SMAN_IEUP_Nightstalker.fxsxml</File>
+    <File md5="E12F9C8972FCB0AD296EDAA6A3A69CE2" import="1">SQL-XML/Units/Air-Nightstalker Drone/ART/SMAN_IEUP_Nightstalker.gr2</File>
+    <File md5="D0002C935507F818A413C96E13A90931" import="1">SQL-XML/Units/Air-Nightstalker Drone/ART/SMAN_IEUP_Nightstalker_diff.dds</File>
+    <File md5="97016137A831A4F55273506D9DCA43AE" import="0">SQL-XML/Units/Air-Nightstalker Drone/SMAN_IEUP_NightStalkerDrone.xml</File>
+    <File md5="644F29ED677361EA026E93DD15D919AD" import="0">SQL-XML/Units/Air-Nightstalker Drone/SMAN_IEUP_NightStalkerDroneArtDefines.sql</File>
+    <File md5="FDA1C08CA44BD3509B61E27A3F56837F" import="1">SQL-XML/Units/Air-Plasma Fighter/ART/fx_triggers_sman_ieup_suborb_fighter.ftsxml</File>
+    <File md5="0FAAD6139E014C5C3E52CBBD7C0D1B38" import="1">SQL-XML/Units/Air-Plasma Fighter/ART/SMAN_IEUP_SubOrb_Fighter.fxsxml</File>
+    <File md5="56CED0DF5ED6DB778BF99D0F17EE8834" import="1">SQL-XML/Units/Air-Plasma Fighter/ART/SMAN_IEUP_SubOrb_Fighter.gr2</File>
+    <File md5="C75F41077976793D47411EFEBF40D09E" import="1">SQL-XML/Units/Air-Plasma Fighter/ART/SMAN_IEUP_SubOrb_Fighter_diff.dds</File>
+    <File md5="5AF9B71CB1C71561EDC3E451E709ABD3" import="1">SQL-XML/Units/Air-Plasma Fighter/ART/SMAN_IEUP_SubOrb_Fighter_gloss.dds</File>
+    <File md5="3C48263B572469E84021F540B83936D5" import="0">SQL-XML/Units/Air-Plasma Fighter/SMAN_IEUP_Plasma_Fighter.xml</File>
+    <File md5="CCDDAD1E9D28D3B40298357F1064CBE2" import="0">SQL-XML/Units/Air-Plasma Fighter/SMAN_IEUP_Plasma_Fighter_ArtDefines.sql</File>
+    <File md5="DBBDA09BC83916D915EFD9FDB97D528F" import="1">SQL-XML/Units/Air-Predator Drone/ART/fx_triggers_sman_ieup_predator.ftsxml</File>
+    <File md5="FC468010009178F50C9C29D3A73BD51D" import="1">SQL-XML/Units/Air-Predator Drone/ART/SMAN_IEUP_Predator.fxsxml</File>
+    <File md5="5E344E2344DECECBE47EB8637269FD64" import="1">SQL-XML/Units/Air-Predator Drone/ART/SMAN_IEUP_Predator.gr2</File>
+    <File md5="25508B471913335C68040D5530CDA408" import="1">SQL-XML/Units/Air-Predator Drone/ART/SMAN_IEUP_Predator_diff.dds</File>
+    <File md5="E67EC2B0DCD3D94063F3720CBE02018A" import="1">SQL-XML/Units/Air-Predator Drone/ART/SMAN_IEUP_Predator_sref.dds</File>
+    <File md5="339B1B01BDBECE799889FA9B55B0165D" import="0">SQL-XML/Units/Air-Predator Drone/SMAN_IEUP_PredatorDrone.xml</File>
+    <File md5="97F6B479CBB926FDC4CBEACFB87356B2" import="0">SQL-XML/Units/Air-Predator Drone/SMAN_IEUP_PredatorDroneArtDefines.sql</File>
+    <File md5="98DEB086E7AF73477D1E9E6F7DA24702" import="1">SQL-XML/Units/Air-Reaper Drone/ART/fx_triggers_sman_ieup_Reaper.ftsxml</File>
+    <File md5="CFA1875FF38200666A9F4FE94ABA4940" import="1">SQL-XML/Units/Air-Reaper Drone/ART/SMAN_IEUP_Reaper.fxsxml</File>
+    <File md5="ADE6A77822B211CDB1302C9AA54E4293" import="1">SQL-XML/Units/Air-Reaper Drone/ART/SMAN_IEUP_Reaper.gr2</File>
+    <File md5="BCD4E431E311353407D7930CE6A4D9AF" import="1">SQL-XML/Units/Air-Reaper Drone/ART/SMAN_IEUP_Reaper_diff.dds</File>
+    <File md5="979E05F7498FA771678B38450B2F8E87" import="1">SQL-XML/Units/Air-Reaper Drone/ART/SMAN_IEUP_Reaper_sref.dds</File>
+    <File md5="5F60BCDBFD0F7FAF60F52FF4AE452BB1" import="0">SQL-XML/Units/Air-Reaper Drone/SMAN_IEUP_ReaperDrone.xml</File>
+    <File md5="84204AB1033A372767826EBD9A753F63" import="0">SQL-XML/Units/Air-Reaper Drone/SMAN_IEUP_ReaperDroneArtDefines.sql</File>
+    <File md5="F499B40262DAF0E064FBD6BEF83A43E6" import="1">SQL-XML/Units/Air-Recon Jet/ART/SMAN_IEUP_ReconJet.fxsxml</File>
+    <File md5="ADF187DD29CA8CDCFFE2C351D606D98B" import="1">SQL-XML/Units/Air-Recon Jet/ART/SMAN_IEUP_ReconJet.gr2</File>
+    <File md5="9257DCA622782AF277B49583F85C4C3C" import="1">SQL-XML/Units/Air-Recon Jet/ART/SMAN_IEUP_ReconJet_diff.dds</File>
+    <File md5="2CB870156E94747E8B00CA4F8EC78AC1" import="1">SQL-XML/Units/Air-Recon Jet/ART/SMAN_IEUP_ReconJet_sref.dds</File>
+    <File md5="5CF5549FC4A7EF84FFD01BDB74FA8AB5" import="0">SQL-XML/Units/Air-Recon Jet/SMAN_IEUP_ReconJet.xml</File>
+    <File md5="6903919CC91F1C38BC07B661FDCF73AB" import="1">SQL-XML/Units/Air-Recon Plane/ART/fx_triggers_SMAN_IEUP_ReconPlane.ftsxml</File>
+    <File md5="0125DD2B2E78937D744C9E0323F0F732" import="1">SQL-XML/Units/Air-Recon Plane/ART/SMAN_IEUP_ReconPlane.fxsxml</File>
+    <File md5="14CEC2171DE5046688CB7DFAFC5543EF" import="1">SQL-XML/Units/Air-Recon Plane/ART/SMAN_IEUP_ReconPlane.gr2</File>
+    <File md5="D228AAF805BC90FD20A1B9196C12BFBD" import="1">SQL-XML/Units/Air-Recon Plane/ART/SMAN_IEUP_ReconPlane_diff.dds</File>
+    <File md5="DBD0DB57A3F909428746A299C0D923DF" import="1">SQL-XML/Units/Air-Recon Plane/ART/SMAN_IEUP_ReconPlane_gloss.dds</File>
+    <File md5="CBCB9E97FB958FCA6F276DCC9E023CF3" import="0">SQL-XML/Units/Air-Recon Plane/SMAN_IEUP_ReconPlane.xml</File>
+    <File md5="5B672D1A8C98089201D9C0680C3D8600" import="1">SQL-XML/Units/Air-Strategic Bomber/ART/SMAN_IEUP_StrategicBomber_diff.dds</File>
+    <File md5="2EEF0E3506A36D2A3B76AD54FDD8D77C" import="1">SQL-XML/Units/Air-Strategic Bomber/ART/SMAN_IEUP_StrategicBomber.fxsxml</File>
+    <File md5="45ACE42AE6002B1E3E4233BB34779AB3" import="1">SQL-XML/Units/Air-Strategic Bomber/ART/SMAN_IEUP_StrategicBomber.gr2</File>
+    <File md5="3355C44C9175B4A247B5E0EAEDDE1723" import="1">SQL-XML/Units/Air-Strategic Bomber/ART/SMAN_IEUP_StrategicBomber_gloss.dds</File>
+    <File md5="F2279572A69824572DF4C9068B9B1793" import="0">SQL-XML/Units/Air-Strategic Bomber/SMAN_IEUP_StrategicBomber.xml</File>
+    <File md5="4B125BA8CCB61F0461A5AD8C7DB224A0" import="1">SQL-XML/Units/Air-Suborbital Bomber/ART/SMAN_IEUP_SuborbitalBomber_diff.dds</File>
+    <File md5="C683DCF6D0DCD858BBED4CEB352B5A25" import="1">SQL-XML/Units/Air-Suborbital Bomber/ART/SMAN_IEUP_SuborbitalBomber.fxsxml</File>
+    <File md5="02026145D99E3997C9BB56F47B8D048B" import="1">SQL-XML/Units/Air-Suborbital Bomber/ART/SMAN_IEUP_SuborbitalBomber.gr2</File>
+    <File md5="E14CA32FE76090F7BC5B31B65BCF7EE8" import="0">SQL-XML/Units/Air-Suborbital Bomber/SMAN_IEUP_SuborbitalBomber.xml</File>
+    <File md5="5B811AF5596286D7B6DAD0FE8E8FA53B" import="1">SQL-XML/Units/Air-WildWeasel/ART/edited_fx_triggers_jetfighter.ftsxml</File>
+    <File md5="27C6B0EA05526026496E9B4119BF61F0" import="1">SQL-XML/Units/Air-WildWeasel/ART/SMAN_IEUP_Wild_Weasel.fxsxml</File>
+    <File md5="EE8C5EE016B526D8F4517C9DF24B0722" import="1">SQL-XML/Units/Air-WildWeasel/ART/SMAN_IEUP_Wild_Weasel.gr2</File>
+    <File md5="29EA352A8746DA14F73B404DE12EA4C2" import="1">SQL-XML/Units/Air-WildWeasel/ART/SMAN_IEUP_Wild_Weasel_diff.dds</File>
+    <File md5="F9008695BB62FB829A6C881304A6DC32" import="1">SQL-XML/Units/Air-WildWeasel/ART/SMAN_IEUP_Wild_Weasel_sref.dds</File>
+    <File md5="26C6D1D54BD5ED8B43C7F8B318953ED6" import="0">SQL-XML/Units/Air-WildWeasel/SMAN_IEUP_WildWeasel_ArtDefines.sql</File>
+    <File md5="23F9FD11B5167E0448995DE75561B3D5" import="0">SQL-XML/Units/Air-WildWeasel/SMAN_IEUP_WildWeasel.xml</File>
+    <File md5="95122F5250891D0D8B575FAAA8522EE3" import="1">SQL-XML/Units/Ship-Missile Destroyer/ART/SMAN_IEUP_Destroyer_Missile.fxsxml</File>
+    <File md5="65100A20054C5B3AF16E5E537B1221C6" import="1">SQL-XML/Units/Ship-Missile Destroyer/ART/SMAN_IEUP_Destroyer_Missile.gr2</File>
+    <File md5="989F874C089D79E034D976AF5AB1848F" import="1">SQL-XML/Units/Ship-Missile Destroyer/ART/SMAN_IEUP_Destroyer_Missile_diff.dds</File>
+    <File md5="3EE94DE8468EEE9447E650443FD16A74" import="1">SQL-XML/Units/Ship-Missile Destroyer/ART/SMAN_IEUP_Destroyer_Missile_sref.dds</File>
+    <File md5="0EBAB45C588E00D24F4DF3BB96F64B2F" import="1">SQL-XML/Units/Ship-Sub Hunter/ART/SMAN_IEUP_SubHunter.fxsxml</File>
+    <File md5="F90805ECE5BED5C99A92FCD3D510CBD5" import="1">SQL-XML/Units/Ship-Sub Hunter/ART/SMAN_IEUP_SubHunter.gr2</File>
+    <File md5="DFA310D592879E5F3A2EED97F2086D9A" import="1">SQL-XML/Units/Ship-Sub Hunter/ART/SMAN_IEUP_SubHunter_diff.dds</File>
+    <File md5="3872E535CC6D36CD1B6B721A9B040510" import="1">SQL-XML/Units/Ship-Sub Hunter/ART/SMAN_IEUP_SubHunter_sref.dds</File>
+    <File md5="7A5EA5F47593D4B19726A3CA2FD8A8FF" import="0">SQL-XML/Units/Ship-Sub Hunter/SMAN_IEUP_SubHunter.xml</File>
+    <File md5="3EA34BA132B0818F3C148557A412C0D5" import="0">SQL-XML/Units/Ship-Sub Hunter/SMAN_IEUP_SubHunterArtDefines.sql</File>
+    <File md5="B06896E8A6830A959621059CB4151EDC" import="0">SQL-XML/Units/UnitFixes.xml</File>
+    <File md5="6066EF3B6FFBACBB7435668873DC220D" import="0">SQL-XML/Units/Land-GDR Replacement/SMAN_IEUP_ApocalypseClass.xml</File>
+    <File md5="9DD72AA23F06C3276E158F361AA73CDF" import="1">SQL-XML/Units/Land-Private Mil Contractors/ART/SMAN_IEUP_PMC_Inf.fxsxml</File>
+    <File md5="45C7ED33C9A76D636B93479AEE913D2F" import="1">SQL-XML/Units/Land-Private Mil Contractors/ART/SMAN_IEUP_PMC_Inf.gr2</File>
+    <File md5="596FE9E00354ADE3E104919AA370C9DD" import="1">SQL-XML/Units/Land-Private Mil Contractors/ART/SMAN_IEUP_PMC_Inf_diff.dds</File>
+    <File md5="26569E1A45F30ECD7A67E8A0617DFF1B" import="1">SQL-XML/Units/Land-Private Mil Contractors/ART/SMAN_IEUP_PMC_Mech.fxsxml</File>
+    <File md5="D763E839BB5D8EAE21967BD7A202F6AB" import="1">SQL-XML/Units/Land-Private Mil Contractors/ART/SMAN_IEUP_PMC_Mech.gr2</File>
+    <File md5="ADBB1C924379AD3FD2BB60EF2FBE1A51" import="1">SQL-XML/Units/Land-Private Mil Contractors/ART/SMAN_IEUP_PMC_Mech_diff.dds</File>
+    <File md5="76BF5FAB69E1FED58836577FDB581B81" import="1">SQL-XML/Units/Land-Private Mil Contractors/ART/SMAN_IEUP_PMC_Mech_sref.dds</File>
+    <File md5="D3CDF7DCA3FBE56F2F8A0D8E57F972A0" import="0">SQL-XML/Units/Land-Private Mil Contractors/SMAN_IEUP_PMC.xml</File>
+    <File md5="904284379026C0D80E98972C481683CF" import="0">SQL-XML/Units/Land-Private Mil Contractors/SMAN_IEUP_PMC_ArtDefines.sql</File>
+    <File md5="115B72BD84C9DA1CF0E86BE6B5BEF238" import="1">SQL-XML/Units/Land-Railgun Tank/ART/fx_triggers_sman_ieup_armor_railgun.ftsxml</File>
+    <File md5="57520F4793F151180EE98FA8234DD8DF" import="1">SQL-XML/Units/Land-Railgun Tank/ART/SMAN_IEUP_Railgun_Armor.fxsxml</File>
+    <File md5="6EBBE84BEADAA4731DAA86043352475B" import="1">SQL-XML/Units/Land-Railgun Tank/ART/SMAN_IEUP_Railgun_Armor.gr2</File>
+    <File md5="C7752B197E0B68FF53E4200209C235C9" import="1">SQL-XML/Units/Land-Railgun Tank/ART/SMAN_IEUP_Railgun_Armor_diff.dds</File>
+    <File md5="2CDB4675E914E1449FED37F8AF50E9CB" import="0">SQL-XML/Units/Land-Railgun Tank/SMAN_IEUP_RailgunTank.xml</File>
+    <File md5="E4D5371A0C67B10E964062C200AE4094" import="0">SQL-XML/Units/Land-Railgun Tank/SMAN_IEUP_RailgunTank_ArtDefines.sql</File>
+    <File md5="05C262A3D3485AAB0B054B469A040BD4" import="0">SQL-XML/Units/Missile-ICBM/SMAN_IEUP_ICBM.xml</File>
+    <File md5="EB8BE2CBF538CBD09BB480B8D8FE1959" import="1">SQL-XML/Units/Missile-MOAB/ART/fx_triggers_sman_ieup_moab.ftsxml</File>
+    <File md5="D06BA8BE28C2E14FDE47B9A477C53559" import="1">SQL-XML/Units/Missile-MOAB/ART/SMAN_IEUP_MOAB.fxsxml</File>
+    <File md5="58B890D6F669A1988ED1BBF0EAC75446" import="1">SQL-XML/Units/Missile-MOAB/ART/SMAN_IEUP_MOAB.gr2</File>
+    <File md5="91E2A63ABB409EAAEB0484E162BC9F98" import="1">SQL-XML/Units/Missile-MOAB/ART/SMAN_IEUP_MOAB_diff.dds</File>
+    <File md5="002CB64AB477D907B521B4EEB76A52F2" import="1">SQL-XML/Units/Missile-MOAB/ART/SMAN_IEUP_MOAB_sref.dds</File>
+    <File md5="54E7A690447AE6F575981F87AF095ABD" import="0">SQL-XML/Units/Missile-MOAB/SMAN_IEUP_MOAB.xml</File>
+    <File md5="991D0EC382EA310A7051038508CE000E" import="0">SQL-XML/Units/Missile-MOAB/SMAN_IEUP_MOAB_ArtDefines.sql</File>
+    <File md5="3C107274F1967DE5BDB82F5824E7420C" import="0">SQL-XML/Units/Missile-Nuclear Cruise Missile/SMAN_IEUP_NuclearCruiseMissile.xml</File>
+    <File md5="4474F83E17773E3F6DB8FC110E8FC5D4" import="0">SQL-XML/Units/Missile-Plasma Missile/SMAN_IEUP_MissilePlasma.xml</File>
+    <File md5="45244A0EC408858901D5CD8688153BFE" import="0">SQL-XML/Units/Missile-Plasma Missile/SMAN_IEUP_MissilePlasmaArtDefines.xml</File>
+    <File md5="3694FD7A9ABC2D72D33469C2731BA373" import="1">SQL-XML/Units/Land-Arty Laser/ART/fx_triggers_sman_ieup_arty_laser.ftsxml</File>
+    <File md5="1D7A9122551CB9EF57AB3888E1FCB089" import="1">SQL-XML/Units/Land-Arty Laser/ART/SMAN_IEUP_Arty_Laser.fxsxml</File>
+    <File md5="CBEA6B52339EA9B96B8336D3C2967A1E" import="1">SQL-XML/Units/Land-Arty Laser/ART/SMAN_IEUP_Arty_Laser.gr2</File>
+    <File md5="D76A0A3A259E87DFC2C154649EA6685A" import="1">SQL-XML/Units/Land-Arty Laser/ART/SMAN_IEUP_Arty_Laser_diff.dds</File>
+    <File md5="BB67DC75B24665B6FCFC78B9EEA119E8" import="0">SQL-XML/Units/Land-Arty Laser/SMAN_IEUP_Arty_Laser.xml</File>
+    <File md5="B553EE6C26A6193355F7ADF515327E39" import="0">SQL-XML/Units/Land-Arty Laser/SMAN_IEUP_Arty_Laser_ArtDefines.sql</File>
+    <File md5="92761D8804C7823A40C31D7B4243C575" import="1">SQL-XML/Units/Land-Arty Railgun/ART/fx_triggers_sman_ieup_arty_railgun.ftsxml</File>
+    <File md5="D5EA7CF99171A534D3F6701822FDCC09" import="1">SQL-XML/Units/Land-Arty Railgun/ART/SMAN_IEUP_Arty_Railgun.fxsxml</File>
+    <File md5="424CCB07667788507DD707CA183F77AF" import="1">SQL-XML/Units/Land-Arty Railgun/ART/SMAN_IEUP_Arty_Railgun.gr2</File>
+    <File md5="136E1614FCCE336EE4D8142151B120AB" import="1">SQL-XML/Units/Land-Arty Railgun/ART/SMAN_IEUP_Arty_Railgun_diff.dds</File>
+    <File md5="9214B4B2860B69BB89B8E4A2B6E4ABAF" import="1">SQL-XML/Units/Land-Arty Railgun/ART/SMAN_IEUP_Arty_Railgun_sref.dds</File>
+    <File md5="C61B60E6FCE5E0C8A145FB17241D35EE" import="0">SQL-XML/Units/Land-Arty Railgun/SMAN_IEUP_Arty_Railgun.xml</File>
+    <File md5="DB46015A01755DCA484FDAD91CAF628C" import="0">SQL-XML/Units/Land-Arty Railgun/SMAN_IEUP_Arty_Railgun_ArtDefines.sql</File>
+    <File md5="EE687D1AB2E9E9582D21692FD6A11665" import="0">SQL-XML/Units/Promotions.xml</File>
+    <File md5="2B793DE6E52F07DBC148CC6EB468F923" import="1">SQL-XML/Units/Land-SAM Laser/ART/SMAN_IEUP_SAM_Laser.fxsxml</File>
+    <File md5="112025747ECF7C973213C043F6D11DA2" import="1">SQL-XML/Units/Land-SAM Laser/ART/fx_triggers_sman_ieup_sam_laser.ftsxml</File>
+    <File md5="5DDC12A8F505A15DBC43EE15B5CFFF3A" import="1">SQL-XML/Units/Land-SAM Laser/ART/SMAN_IEUP_SAM_Laser.gr2</File>
+    <File md5="8E3C3EAEB21A75D30E2698BCA0424DC4" import="1">SQL-XML/Units/Land-SAM Laser/ART/SMAN_IEUP_SAM_Laser_diff.dds</File>
+    <File md5="A42A845C224D90DC63660FD09E202DAD" import="0">SQL-XML/Units/Land-SAM Laser/SMAN_IEUP_SAM_Laser.xml</File>
+    <File md5="7D4106780459695D112380B7E58F85B9" import="0">SQL-XML/Units/Land-SAM Laser/SMAN_IEUP_SAM_Laser_ArtDefines.sql</File>
+    <File md5="E6FA61F798D8A8CFFB0438FEC854DBFF" import="1">SQL-XML/Units/Land-SAM Railgun/ART/fx_triggers_sman_ieup_sam_railgun.ftsxml</File>
+    <File md5="0FE2C67F8F0E3FE547D668CCD12B2810" import="1">SQL-XML/Units/Land-SAM Railgun/ART/SMAN_IEUP_SAM_Railgun.fxsxml</File>
+    <File md5="FF7C2D8FE80169524905B479AC551634" import="1">SQL-XML/Units/Land-SAM Railgun/ART/SMAN_IEUP_SAM_Railgun.gr2</File>
+    <File md5="248B8A15B7F610C515902CC9BF9C1A72" import="1">SQL-XML/Units/Land-SAM Railgun/ART/SMAN_IEUP_SAM_Railgun_diff.dds</File>
+    <File md5="5B5B0526BC32A2DC7A55FF2BD3815EE5" import="1">SQL-XML/Units/Land-SAM Railgun/ART/SMAN_IEUP_SAM_Railgun_sref.dds</File>
+    <File md5="C5A6415115B75902C59FE43117BE0F2E" import="0">SQL-XML/Units/Land-SAM Railgun/SMAN_IEUP_SAM_Railgun.xml</File>
+    <File md5="F05B332E8C6B526961A609A664BDC746" import="0">SQL-XML/Units/Land-SAM Railgun/SMAN_IEUP_SAM_Railgun_ArtDefines.sql</File>
+    <File md5="D9772C33D958872007290F484127A09B" import="0">SQL-XML/Units/Ship-Arsenal Ship/SMAN_IEUP_ArsenalShip.xml</File>
+    <File md5="76B580FA613AE74F294B51202041B838" import="1">SQL-XML/Units/Ship-Arsenal Ship/ART/SMAN_IEUP_ArsenalShip_diff.dds</File>
+    <File md5="0B18EA578E821434C8843F9D2F56EC3F" import="1">SQL-XML/Units/Ship-Arsenal Ship/ART/SMAN_IEUP_ArsenalShip.fxsxml</File>
+    <File md5="F0A9DD1547E3CBB601FF3CBFB653FCB0" import="1">SQL-XML/Units/Ship-Arsenal Ship/ART/SMAN_IEUP_ArsenalShip.gr2</File>
+    <File md5="597F62254C2B1A37FC33F20F2BBDD7FB" import="1">SQL-XML/Units/Ship-Arsenal Ship/ART/SMAN_IEUP_ArsenalShip_gloss.dds</File>
+    <File md5="B171715A4B72399416D8E18EF4B13A8C" import="1">SQL-XML/Units/Ship-Arsenal Ship/ART/fx_triggers_sman_ieup_arsenalship.ftsxml</File>
+    <File md5="E3F0B513C1B865E9B1C19D6FC1129868" import="1">SQL-XML/Units/Ship-Ballistic Missile Sub/ART/SMAN_IEUP_BallisticMissileSub.fxsxml</File>
+    <File md5="5BD863D8D81BEC414A55F72945615655" import="1">SQL-XML/Units/Ship-Ballistic Missile Sub/ART/SMAN_IEUP_BallisticMissileSub.gr2</File>
+    <File md5="B3CA3D75AB029575EADCA9931AA93FFE" import="1">SQL-XML/Units/Ship-Ballistic Missile Sub/ART/SMAN_IEUP_BallisticMissileSub_diff.dds</File>
+    <File md5="B3CA3D75AB029575EADCA9931AA93FFE" import="1">SQL-XML/Units/Ship-Ballistic Missile Sub/ART/SMAN_IEUP_BallisticMissileSub_dmg_diff.dds</File>
+    <File md5="0FFFCC60FF94A61C2B9C2EECBAF5C73E" import="1">SQL-XML/Units/Ship-Ballistic Missile Sub/ART/SMAN_IEUP_BallisticMissileSub_dmg_sref.dds</File>
+    <File md5="0FFFCC60FF94A61C2B9C2EECBAF5C73E" import="1">SQL-XML/Units/Ship-Ballistic Missile Sub/ART/SMAN_IEUP_BallisticMissileSub_sref.dds</File>
+    <File md5="B42D51A0E5B738A6744CCD70297AFBE1" import="0">SQL-XML/Units/Ship-Ballistic Missile Sub/SMAN_IEUP_BallisticMissileSub.xml</File>
+    <File md5="83E321EF98B5848041556FA2955BC58E" import="1">SQL-XML/Units/Ship-Destroyer Railgun/ART/fx_triggers_sman_ieup_destroyer_railgun.ftsxml</File>
+    <File md5="FDE47F342D77C58D99708A92BD1B2BE9" import="1">SQL-XML/Units/Ship-Destroyer Railgun/ART/SMAN-IEUP_Destroyer_Railgun.fxsxml</File>
+    <File md5="71ACA40C4C8622746BBAE7C0CCD97082" import="1">SQL-XML/Units/Ship-Destroyer Railgun/ART/SMAN-IEUP_Destroyer_Railgun.gr2</File>
+    <File md5="AF46E5F326BB624E1B667EA409C0E8DF" import="1">SQL-XML/Units/Ship-Destroyer Railgun/ART/SMAN-IEUP_Destroyer_Railgun_diff.dds</File>
+    <File md5="3872E535CC6D36CD1B6B721A9B040510" import="1">SQL-XML/Units/Ship-Destroyer Railgun/ART/SMAN-IEUP_Destroyer_Railgun_sref.dds</File>
+    <File md5="82471C65319306B2C03ABC8DD4060AB6" import="0">SQL-XML/Units/Ship-Destroyer Railgun/SMAN_IEUP_Destroyer_Railgun.xml</File>
+    <File md5="37FF66D936A57AF3B02D01FA81542E2E" import="0">SQL-XML/Units/Ship-Destroyer Railgun/SMAN_IEUP_Destroyer_Railgun_ArtDefines.sql</File>
+    <File md5="2B77092643C65B0E467AD366CAFFB60D" import="1">SQL-XML/Units/Ship-Escort Carrier/ART/SMAN_IEUP_Escort_Carrier - old.fxsxml</File>
+    <File md5="2F9496696BB713534F69D1BF87B47F93" import="1">SQL-XML/Units/Ship-Escort Carrier/ART/SMAN_IEUP_Escort_Carrier.fxsxml</File>
+    <File md5="E47C20A7EF37F0093A6AE78DB52A6BF9" import="1">SQL-XML/Units/Ship-Escort Carrier/ART/SMAN_IEUP_Escort_Carrier.gr2</File>
+    <File md5="1B35E19D7C6B20DC1A68C6B2359B39B4" import="1">SQL-XML/Units/Ship-Escort Carrier/ART/SMAN_IEUP_Escort_Carrier_diff.dds</File>
+    <File md5="7D899934B3C176766EA4FDF757D711DE" import="1">SQL-XML/Units/Ship-Escort Carrier/ART/SMAN_IEUP_Escort_Carrier_gloss.dds</File>
+    <File md5="8C98BBB3911611FF085B7C3C54666090" import="0">SQL-XML/Units/Ship-Escort Carrier/SMAN_IEUP_Escort_Carrier.xml</File>
+    <File md5="1E27F7C2B6FBB8A2B0BB145CC0DD62EB" import="0">SQL-XML/Units/Ship-Escort Carrier/SMAN_IEUP_Escort_Carrier_ArtDefines.sql</File>
+    <File md5="A0F343329995285EA95A68FA5F2916C3" import="1">SQL-XML/Units/Ship-Fleet Carrier/ART/SMAN_IEUP_Fleet_Carrier.fxsxml</File>
+    <File md5="68E07B621DCC16D0582534BD340132E2" import="1">SQL-XML/Units/Ship-Fleet Carrier/ART/SMAN_IEUP_Fleet_Carrier.gr2</File>
+    <File md5="D7B88E360DA38607C64734FEA6FCF44F" import="1">SQL-XML/Units/Ship-Fleet Carrier/ART/SMAN_IEUP_Fleet_Carrier_diff.dds</File>
+    <File md5="2C9702664C03F1D785B4BB8FD7FFFEEF" import="1">SQL-XML/Units/Ship-Fleet Carrier/ART/SMAN_IEUP_Fleet_Carrier_gloss.dds</File>
+    <File md5="65CDA2289596AF819410FFF671E212DF" import="0">SQL-XML/Units/Ship-Fleet Carrier/SMAN_IEUP_Fleet_Carrier.xml</File>
+    <File md5="6B0C2B4697A533C9C1E11F5E07EEE25F" import="0">SQL-XML/Units/Ship-Fleet Carrier/SMAN_IEUP_Fleet_CarrierArtDefines.xml</File>
+    <File md5="7E9DD2BAF24E7437D48655E8FD52AE9D" import="0">SQL-XML/Units/Ship-Missile Destroyer/SMAN_IEUP_Destroyer_Missile.xml</File>
+    <File md5="4A712F3F899E3623E3289AC16A6A240C" import="0">SQL-XML/Units/Ship-Missile Destroyer/SMAN_IEUP_Destroyer_MissileArtDefines.sql</File>
+    <File md5="EA5823FE173D47240F6BA44B363B798A" import="1">SQL-XML/Units/Ship-Railgun Cruiser/ART/fx_triggers_sman_ieup_railgun_cruiser.ftsxml</File>
+    <File md5="C6BF6E5339B5FE393AB92B320BC7EDA7" import="1">SQL-XML/Units/Ship-Railgun Cruiser/ART/SMAN_IEUP_Railgun_Cruiser.fxsxml</File>
+    <File md5="70EDDE900CC5406AC8954BF5390CD598" import="1">SQL-XML/Units/Ship-Railgun Cruiser/ART/SMAN_IEUP_Railgun_Cruiser.gr2</File>
+    <File md5="06274CF1ACBF2194166F46747F03971F" import="1">SQL-XML/Units/Ship-Railgun Cruiser/ART/SMAN_IEUP_Railgun_Cruiser_diff.dds</File>
+    <File md5="FC0407C09AD55C6821EE9EF6FD80BBA5" import="1">SQL-XML/Units/Ship-Railgun Cruiser/ART/SMAN_IEUP_Railgun_Cruiser_gloss.dds</File>
+    <File md5="F77BF79210BA760B31988C581BC34401" import="0">SQL-XML/Units/Ship-Railgun Cruiser/SMAN_IEUP_Railgun_Cruiser.xml</File>
+    <File md5="361D50E970454530660B0FC5AD51668F" import="0">SQL-XML/Units/Ship-Railgun Cruiser/SMAN_IEUP_Railgun_CruiserArtDefines.xml</File>
+    <File md5="1CB0D8BA6BC1F4F772F4CAF2BEAC074F" import="1">SQL-XML/Units/Ship-Supercarrier/ART/SMAN_IEUP_Supercarrier.fxsxml</File>
+    <File md5="7D587530A062374E99F43309A535916F" import="1">SQL-XML/Units/Ship-Supercarrier/ART/SMAN_IEUP_Supercarrier.gr2</File>
+    <File md5="ED4A5AB326883371F14E49AA082574D5" import="1">SQL-XML/Units/Ship-Supercarrier/ART/SMAN_IEUP_Supercarrier_diff.dds</File>
+    <File md5="2FF87861C6F97D3DE71A8148E98FD294" import="1">SQL-XML/Units/Ship-Supercarrier/ART/SMAN_IEUP_Supercarrier_sref.dds</File>
+    <File md5="155EED342041477F9708AAF91A4D83F1" import="0">SQL-XML/Units/Ship-Supercarrier/SMAN_IEUP_Supercarrier.xml</File>
+    <File md5="AD4025F78A4CCD0349C615ADABE465FE" import="0">SQL-XML/Units/Ship-Supercarrier/SMAN_IEUP_SupercarrierArtDefines.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ART/Icons/InfoEraUnitPackAtlas_Definitions.xml</UpdateDatabase>
+      <UpdateDatabase>LUA/AirRecon.xml</UpdateDatabase>
+      <UpdateDatabase>LUA/Misc.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-CAS Fighter/SMAN_IEUP_CASFighter.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-F35 Fighter/SMAN_IEUP_F35.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-F35 Fighter/SMAN_IEUP_F35_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-F117 Fighter/SMAN_IEUP_F117.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-F117 Fighter/SMAN_IEUP_F117_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-Nightstalker Drone/SMAN_IEUP_NightStalkerDrone.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-Nightstalker Drone/SMAN_IEUP_NightStalkerDroneArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-Plasma Fighter/SMAN_IEUP_Plasma_Fighter.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-Plasma Fighter/SMAN_IEUP_Plasma_Fighter_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-Predator Drone/SMAN_IEUP_PredatorDrone.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-Predator Drone/SMAN_IEUP_PredatorDroneArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-Reaper Drone/SMAN_IEUP_ReaperDrone.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-Reaper Drone/SMAN_IEUP_ReaperDroneArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-Recon Jet/SMAN_IEUP_ReconJet.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-Recon Plane/SMAN_IEUP_ReconPlane.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-Strategic Bomber/SMAN_IEUP_StrategicBomber.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-Suborbital Bomber/SMAN_IEUP_SuborbitalBomber.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-WildWeasel/SMAN_IEUP_WildWeasel.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Air-WildWeasel/SMAN_IEUP_WildWeasel_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Land-SAM Laser/SMAN_IEUP_SAM_Laser.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Land-SAM Laser/SMAN_IEUP_SAM_Laser_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Land-SAM Railgun/SMAN_IEUP_SAM_Railgun.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Land-SAM Railgun/SMAN_IEUP_SAM_Railgun_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Land-Arty Laser/SMAN_IEUP_Arty_Laser.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Land-Arty Laser/SMAN_IEUP_Arty_Laser_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Land-Arty Railgun/SMAN_IEUP_Arty_Railgun.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Land-Arty Railgun/SMAN_IEUP_Arty_Railgun_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Land-GDR Replacement/SMAN_IEUP_ApocalypseClass.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Land-Private Mil Contractors/SMAN_IEUP_PMC.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Land-Private Mil Contractors/SMAN_IEUP_PMC_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Land-Railgun Tank/SMAN_IEUP_RailgunTank.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Land-Railgun Tank/SMAN_IEUP_RailgunTank_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Missile-ICBM/SMAN_IEUP_ICBM.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Missile-MOAB/SMAN_IEUP_MOAB.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Missile-MOAB/SMAN_IEUP_MOAB_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Missile-Nuclear Cruise Missile/SMAN_IEUP_NuclearCruiseMissile.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Missile-Plasma Missile/SMAN_IEUP_MissilePlasma.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Missile-Plasma Missile/SMAN_IEUP_MissilePlasmaArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Arsenal Ship/SMAN_IEUP_ArsenalShip.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Ballistic Missile Sub/SMAN_IEUP_BallisticMissileSub.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Destroyer Railgun/SMAN_IEUP_Destroyer_Railgun.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Destroyer Railgun/SMAN_IEUP_Destroyer_Railgun_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Escort Carrier/SMAN_IEUP_Escort_Carrier.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Escort Carrier/SMAN_IEUP_Escort_Carrier_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Fleet Carrier/SMAN_IEUP_Fleet_Carrier.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Fleet Carrier/SMAN_IEUP_Fleet_CarrierArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Missile Destroyer/SMAN_IEUP_Destroyer_Missile.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Missile Destroyer/SMAN_IEUP_Destroyer_MissileArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Railgun Cruiser/SMAN_IEUP_Railgun_Cruiser.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Railgun Cruiser/SMAN_IEUP_Railgun_CruiserArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Sub Hunter/SMAN_IEUP_SubHunter.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Sub Hunter/SMAN_IEUP_SubHunterArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Supercarrier/SMAN_IEUP_Supercarrier.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Ship-Supercarrier/SMAN_IEUP_SupercarrierArtDefines.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>SQL-XML/Units/UnitFixes.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/AirRecon.lua">
+      <Name>Air Recon LUA</Name>
+      <Description>Air Recon LUA</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

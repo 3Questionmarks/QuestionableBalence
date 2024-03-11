@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/5/2024 12:23:15 AM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set FreePromotion="PROMOTION_INFANTRY"/>
+			<Where Type="BUILDING_PALACE"/>
+		</Update>
+		<Update>
+			<Set FreePromotion="PROMOTION_INFANTRY"/>
+			<Where Type="BUILDING_PALACE_CA"/>
+		</Update>
+		<Update>
+			<Set FreePromotion="PROMOTION_INFANTRY"/>
+			<Where Type="BUILDING_BYZANTINE_PALACE"/>
+		</Update>
+		<Update>
+			<Set FreePromotion="PROMOTION_INFANTRY"/>
+			<Where Type="BUILDING_FRENCH_PALACE"/>
+		</Update>
+	</Buildings>
+</GameData>

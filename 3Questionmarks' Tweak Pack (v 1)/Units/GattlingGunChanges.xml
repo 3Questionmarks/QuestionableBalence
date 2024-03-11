@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/24/2021 4:22:50 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set Combat="20" RangedCombat="30" Range="2" />
+			<Where Type="UNIT_GATLINGGUN"/>
+		</Update>
+	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_GATLINGGUN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GATLINGGUN_STRATEGY"/>
+			<Set Text="The Gatling Gun is a mid-game non-siege ranged unit. It is much more powerful than earlier ranged units like the Crossbowman. It can deal significant damage to other units without being hurt itself."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_GATLINGGUN"/>
+			<Set Text="Mid-game ranged Infantry Unit."/>
+		</Update>
+	</Language_en_US>
+</GameData>

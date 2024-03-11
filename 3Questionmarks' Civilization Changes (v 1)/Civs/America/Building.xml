@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 12:48:07 PM -->
+<GameData>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
+			<BuildingType>BUILDING_AMERICAN_MOVIE_THEATER</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AMERICAN_MOVIE_THEATER</Type>
+			<BuildingClass>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClass>
+			<Description>TXT_KEY_BUILDING_AMERICAN_MOVIE_THEATER</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AMERICAN_MOVIE_THEATER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_CIV5_BUILDINGS_AMERICAN_MOVIE_THEATER_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_AMERICAN_MOVIE_THEATER_HELP</Help>
+			<GoldMaintenance>0</GoldMaintenance>
+			<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
+			<Cost>360</Cost>
+			<HurryCostModifier>15</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<Happiness>3</Happiness>
+			<ArtDefineTag>ART_DEF_BUILDING_STOCK_EXCHANGE</ArtDefineTag>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+			<IconAtlas>BAMERICA_ICON_ATLAS</IconAtlas>
+			<GreatWorksTourismModifier>25</GreatWorksTourismModifier>
+			<LandmarksTourismPercent>25</LandmarksTourismPercent>
+		</Row>
+	</Buildings>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MOVIE_THEATER</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MOVIE_THEATER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MOVIE_THEATER</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MOVIE_THEATER</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MOVIE_THEATER</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MOVIE_THEATER</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MOVIE_THEATER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_AMERICAN_MOVIE_THEATER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Building_YieldModifiers>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_MOVIE_THEATER">
+			<Text>Movie Theater</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_AMERICAN_MOVIE_THEATER_TEXT">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_AMERICAN_MOVIE_THEATER_STRATEGY">
+			<Text>The Movie Theater is America's unique building, it increases the tourism output of the city.  A mid-game building which increases the city's output of [ICON_GOLD] Gold and [ICON_HAPPINESS_1] Happiness. The city must possess a Market before the Movie Theater can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMERICAN_MOVIE_THEATER_HELP">
+			<Text>City must have a Market.  25% of the [ICON_CULTURE] Culture from World Wonders, Natural Wonders, and Improvements is added to the [ICON_TOURISM] Tourism output of the city.  [ICON_TOURISM] Tourism output from Great Works +25%.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

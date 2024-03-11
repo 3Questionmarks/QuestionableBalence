@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/4/2024 8:05:31 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_NATIONAL_RESEARCH</Type>
+			<DefaultBuilding>BUILDING_NATIONAL_RESEARCH</DefaultBuilding>
+			<Description>TXT_KEY_NATIONAL_RESEARCH</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_NATIONAL_RESEARCH</Type>
+			<BuildingClass>BUILDINGCLASS_NATIONAL_RESEARCH</BuildingClass>
+			<Cost>1200</Cost>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<Description>TXT_KEY_BUILDING_NATIONAL_RESEARCH</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDING_NATIONAL_RESEARCH_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NATIONAL_RESEARCH_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_NATIONAL_RESEARCH_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>50</NumCityCostMod>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>25</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>3</SpecialistCount>
+		</Row>
+	</Buildings>
+	<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_RESEARCH</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_RESEARCH</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_RESEARCH</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>33</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_YieldChangesPerPop>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_RESEARCH</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>100</Yield>
+		</Row>
+	</Building_YieldChangesPerPop>
+	<Building_SpecialistYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_RESEARCH</BuildingType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_SpecialistYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_RESEARCH</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_RESEARCH</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_RESEARCH">
+			<Text>National Institute of Research</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_NATIONAL_RESEARCH_TEXT">
+			<Text>A research institute, research centre, research center or research organization is an establishment founded for doing research. Research institutes may specialize in basic research or may be oriented to applied research. Although the term often implies natural science research, there are also many research institutes in the social science as well, especially for sociological and historical research purposes. -- Wikipedia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_RESEARCH_HELP">
+			<Text>+1 [ICON_RESEARCH] Science for every [ICON_CITIZEN] Citizen. +2 [ICON_RESEARCH] Science for each Scientist Specalist in every city. Must have built a Research Lab in all Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_RESEARCH_STRATEGY">
+			<Text>+1 [ICON_RESEARCH] Science for every [ICON_CITIZEN] Citizen. +2 [ICON_RESEARCH] Science for each Scientist Specalist in every city. Must have built a Research Lab in all Cities.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

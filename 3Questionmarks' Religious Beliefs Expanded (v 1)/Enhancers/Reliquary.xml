@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- Gain 200 Faith (on Quick Speed) whenever a Great Person is expended -->
+	<Beliefs>
+		<Update>
+			<Set GreatPersonExpendedFaith="300" />
+			<Where Type="BELIEF_RELIQUARY" />
+		</Update>
+	</Beliefs>
+
+	<Belief_ImprovementYieldChanges>
+		<!-- Holy Sites -->
+		<Row>
+			<BeliefType>BELIEF_RELIQUARY</BeliefType>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<!-- Academies -->
+		<Row>
+			<BeliefType>BELIEF_RELIQUARY</BeliefType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<!-- Manufactories -->
+		<Row>
+			<BeliefType>BELIEF_RELIQUARY</BeliefType>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<!-- Custom Houses -->
+		<Row>
+			<BeliefType>BELIEF_RELIQUARY</BeliefType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<!-- Citidels -->
+		<Row>
+			<BeliefType>BELIEF_RELIQUARY</BeliefType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Belief_ImprovementYieldChanges>
+
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_RELIQUARY" />
+		<Row Tag="TXT_KEY_BELIEF_RELIQUARY">
+			<Text>Gain [ICON_PEACE] Faith whenever a [ICON_GREAT_PEOPLE] Great Person is expended, scaling with Era. +3 [ICON_PEACE] Faith from [ICON_GREAT_PEOPLE] Great Person tile improvements.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

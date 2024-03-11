@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:29:37 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set GlobalPlotCultureCostModifier="0" GlobalPlotBuyCostModifier="0" />
+			<Where Type="BUILDING_ANGKOR_WAT" />
+		</Update>
+	</Buildings>
+	<Building_FreeUnits>
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<UnitType>UNIT_ENGINEER</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>8</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>8</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_ANGKOR_WAT_HELP"/>
+			<Set Text="A free [ICON_GREAT_ENGINEER] Great Engineer appears."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_ANGKOR_WAT_GAME_INFO"/>
+			<Set Text="A free [ICON_GREAT_ENGINEER] Great Engineer appears."/>
+		</Update>
+	</Language_en_US>
+</GameData>

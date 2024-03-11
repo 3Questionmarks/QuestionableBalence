@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/25/2024 11:44:19 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_APOTHECARY</Type>
+			<DefaultBuilding>BUILDING_APOTHECARY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_APOTHECARY</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_APOTHECARY</Type>
+			<BuildingClass>BUILDINGCLASS_APOTHECARY</BuildingClass>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_APOTHECARY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_APOTHECARY_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_APOTHECARY_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>MED-REN_ICONATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_APOTHECARY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_APOTHECARY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_APOTHECARY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_APOTHECARY</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_APOTHECARY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_APOTHECARY">
+			<Text>Apothecary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_APOTHECARY_HELP">
+			<Text>+5% [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_APOTHECARY_PEDIA">
+			<Text>Apothecary is a historical name for a medical professional who formulates and dispenses materia medica to physicians, surgeons and patients — a role now served by a pharmacist (or a chemist or dispensing chemist) and some caregivers.[NEWLINE][NEWLINE]In addition to pharmacy responsibilities, the apothecary offered general medical advice and a range of services that are now performed solely by other specialist practitioners, such as surgery and midwifery. Apothecaries often operated through a retail shop which, in addition to ingredients for medicines, sold tobacco and patent medicines.[NEWLINE][NEWLINE]In its investigation of herbal and chemical ingredients, the work of an apothecary may be regarded as a precursor of the modern sciences of chemistry and pharmacology, prior to the formulation of the scientific method.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

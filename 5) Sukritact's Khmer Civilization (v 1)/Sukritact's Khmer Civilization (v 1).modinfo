@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="7b2d759e-3366-41c7-8e0c-b4ebfe1c55f0" version="1">
+  <Properties>
+    <Name>Sukritact's Khmer Civilization</Name>
+    <Teaser>The Khmer: Architects of the East</Teaser>
+    <Description>The Khmer Empire, now known as Cambodia, was the powerful Khmer Hindu-Buddhist empire in Southeast Asia which at times ruled over most of mainland Southeast Asia. Its greatest legacy is Angkor, in present-day Cambodia, which was the site of the capital city during the empire's zenith. The majestic monuments of Angkor, such as Angkor Wat and Bayon, bear testimony to the Khmer empire's immense power and wealth, impressive art and culture, architectural technique and aesthetic achievements.</Description>
+    <Authors>Sukritact, JanBoruta, Leugi, Viregel</Authors>
+    <SpecialThanks>Charlatan Alley</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="e576894a-ed2b-4033-be14-ed1c8ceb81d3" minversion="0" maxversion="999" title="Map Labels" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD’s Piety &amp; Prestige" />
+    <Mod id="43868e8d-de88-48a1-a8d9-ce144e07f5e0" minversion="0" maxversion="999" title="JFD's Exploration Continued Expanded" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="63F1A61AF423F0F11808561400D42257" import="0">Art/Khmer_ArtDefines.sql</File>
+    <File md5="95E0FBAFC372BC732DAFFABF709A7A6E" import="1">Art/IconAtlas/KhmerAlphaAtlas_128.dds</File>
+    <File md5="BCC82FC286493C1A0C19CA30FDD052DF" import="1">Art/IconAtlas/KhmerAlphaAtlas_16.dds</File>
+    <File md5="269B144466DD743C8BA8EA99343C3EE3" import="1">Art/IconAtlas/KhmerAlphaAtlas_24.dds</File>
+    <File md5="1B8054E8AB9832B80A596741F3AF809B" import="1">Art/IconAtlas/KhmerAlphaAtlas_32.dds</File>
+    <File md5="5276D6D6806A53C592309BD01FC280A7" import="1">Art/IconAtlas/KhmerAlphaAtlas_45.dds</File>
+    <File md5="419025A4B5D1CC6B89F361C62B3149D9" import="1">Art/IconAtlas/KhmerAlphaAtlas_48.dds</File>
+    <File md5="33E6F5CF0EEA3A40A288D6E4DCC0BC4E" import="1">Art/IconAtlas/KhmerAlphaAtlas_64.dds</File>
+    <File md5="024240A63448B42F50A56636A60EEA62" import="1">Art/IconAtlas/KhmerAlphaAtlas_80.dds</File>
+    <File md5="29F4F5832E06F55A545651C90F6E1261" import="1">Art/IconAtlas/KhmerAtlas_128.dds</File>
+    <File md5="720156190D625C514BEBF78F807EAC16" import="1">Art/IconAtlas/KhmerAtlas_256.dds</File>
+    <File md5="A124FEDF39AB01F769110F8C75BDB352" import="1">Art/IconAtlas/KhmerAtlas_32.dds</File>
+    <File md5="564DEA148F85F4692C1E4B6DBCE99477" import="1">Art/IconAtlas/KhmerAtlas_45.dds</File>
+    <File md5="8E8940C5E152321899C3F92E60F27AD3" import="1">Art/IconAtlas/KhmerAtlas_64.dds</File>
+    <File md5="BDB5B13C5E08B92CC2BF328DA608FEFC" import="1">Art/IconAtlas/KhmerAtlas_80.dds</File>
+    <File md5="20812A59F17184BF6BE31EEFD754CAA1" import="1">Art/Leaderscene/Jayavarman_VII_Diplo.dds</File>
+    <File md5="5A23817B18C6DC1C86794F7692F4D87E" import="1">Art/Leaderscene/Jayavarman_VII_Scene.xml</File>
+    <File md5="BF1F8DEE76A3CF384E95777987203637" import="1">Art/Map/Jayavarman_VII_DOM.dds</File>
+    <File md5="595FA133765A476AEB0BA6B80B082225" import="1">Art/Map/KhmerMap512.dds</File>
+    <File md5="53D26C8E9557FFC6BE4A234F1D6DEB29" import="1">Art/Units/fx_triggers_royal_tromeak.ftsxml</File>
+    <File md5="18EF26C85D0342B002D6D937DDFBEDC1" import="1">Art/Units/royal_tromeak.fxsxml</File>
+    <File md5="49AAC955C506E579F0B0C2AB934B9363" import="1">Art/Units/royal_tromeak.gr2</File>
+    <File md5="A6BA3A26526B4E622C63303EED0EBE84" import="1">Art/Units/sv_RoyalTromeak.dds</File>
+    <File md5="7EFDEC9C9EFC25DCE4E45EFB1DB195E3" import="1">Art/Units/tromeak_activate.gr2</File>
+    <File md5="7EFDEC9C9EFC25DCE4E45EFB1DB195E3" import="1">Art/Units/tromeak_activate_idle.gr2</File>
+    <File md5="D2B58307EC5C008689B7017BA83B12A5" import="1">Art/Units/tromeak_diff.dds</File>
+    <File md5="BACDE239E0952E482E997E05C904DD61" import="1">Art/Units/Unit_RoyalTromeak_Flag_32.dds</File>
+    <File md5="1568E29C2850D40A9B907D8A60CF3B2A" import="1">Audio/Khmer_DoM.mp3</File>
+    <File md5="0AF59B7207C1F447F63EAD0E93D27220" import="0">Audio/Khmer_Audio.sql</File>
+    <File md5="61CB4E3AB1B648C1646E2FE0A0336226" import="1">Audio/Jayavarman_VII_Peace.mp3</File>
+    <File md5="F75772B95AB4EE3187D94B5E62231408" import="1">Audio/Jayavarman_VII_War.mp3</File>
+    <File md5="F41E9433F26B99097462C33DB2B4E01A" import="1">Core/Decisions Support/Khmer_Decisions.lua</File>
+    <File md5="8247501F8764F56A288ECC35F57D1249" import="0">Core/Decisions Support/Khmer_Decisions.sql</File>
+    <File md5="4C37CBE4569F09E0DD1A81A766C7F190" import="0">Core/Decisions Support/Khmer_EN_US.xml</File>
+    <File md5="58C1703BCC50FBE47585AEEFF152F7A7" import="0">Core/Khmer_Buildings.sql</File>
+    <File md5="FE92D655715D487B5BB1D8316F436128" import="0">Core/Khmer_Civilizations.sql</File>
+    <File md5="AEF45ED553AE040E4D7E414E56B8FA45" import="0">Core/Khmer_Diplomacy.sql</File>
+    <File md5="2F0D2DE569D530DA3DE0B5EE577CAB5C" import="0">Core/Khmer_EN_US.xml</File>
+    <File md5="1D3D3FE6303D8E740CE66E73A6E6A8A9" import="0">Core/Khmer_Leaderhead.sql</File>
+    <File md5="B31700BCEA30CA1E5AD5B6C051D3F7A4" import="0">Core/Khmer_PlayerColours.sql</File>
+    <File md5="05AD03ACE44F7E80F05CF624FAA5B9EA" import="0">Core/Khmer_Traits.sql</File>
+    <File md5="1D517F10082980F3E9050CE17777BA4E" import="0">Core/Khmer_Units.sql</File>
+    <File md5="2E10C9BEA285180D6E9D3ADD49498A1B" import="0">Core/Piety and Prestige Support/Khmer_Flavor.sql</File>
+    <File md5="B800EE1BF6EFAB12D6DFA91EE80B0CAF" import="0">Core/YnAEMP Support/Khmer_TSL.sql</File>
+    <File md5="CD65FA3580357984D200DA4A6E5F90CA" import="0">Lua/BuildingRemoteGreatPeoplePoints.lua</File>
+    <File md5="7DF9CF36F10D2904A2B4D87A8230E803" import="0">Lua/RoyalTromeakCode.xml</File>
+    <File md5="117FB04BF0CB8D2ED4AB8EE6FDA62241" import="0">Lua/PrasatEffect.lua</File>
+    <File md5="554825DC97DCE1D78C6AB3A3AE06E91D" import="0">Lua/RoyalTromeakCode.lua</File>
+    <File md5="8A5FC22EB73A2C2106DE16D1A3E98AF2" import="1">Lua/Sukritact_SaveUtils.lua</File>
+    <File md5="64DF635BD57CDEB13DC1038934568A7E" import="0">Lua/UI/CityInfoStack.lua</File>
+    <File md5="120EB71025973A8A48B38314241DD0B3" import="0">Lua/UI/CityInfoStack.xml</File>
+    <File md5="87DF12E0140C435ABB8D0637BDE921FA" import="0">Lua/UI/KhmerUA.lua</File>
+    <File md5="B4847C56AC34749AC1560A05FE0B7281" import="0">Lua/UI/KhmerUA.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Art/Khmer_ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Audio/Khmer_Audio.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Khmer_Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Khmer_Civilizations.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Khmer_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Khmer_EN_US.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Khmer_Leaderhead.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Khmer_PlayerColours.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Khmer_Traits.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Khmer_Units.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Decisions Support/Khmer_EN_US.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Decisions Support/Khmer_Decisions.sql</UpdateDatabase>
+      <UpdateDatabase>Core/YnAEMP Support/Khmer_TSL.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Piety and Prestige Support/Khmer_Flavor.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/UI/KhmerUA.lua">
+      <Name>KhmerUA</Name>
+      <Description>KhmerUA</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/RoyalTromeakCode.lua">
+      <Name>RoyalTromeakCode</Name>
+      <Description>RoyalTromeakCode</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/PrasatEffect.lua">
+      <Name>PrasatEffect</Name>
+      <Description>PrasatEffect</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/BuildingRemoteGreatPeoplePoints.lua">
+      <Name>BuildingRemoteGreatPeoplePoints</Name>
+      <Description>BuildingRemoteGreatPeoplePoints</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/UI/CityInfoStack.lua">
+      <Name>CityInfoStack.lua</Name>
+      <Description>CityInfoStack.lua</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

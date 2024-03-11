@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/28/2024 12:42:09 PM -->
+<GameData>
+  <!-- Isaac Asimov -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_WRITTER</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ISAAC_ASIMOV</UniqueName>
+			<GreatWorkType>GREAT_WORK_IROBOT</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_IROBOT</Type>
+			<GreatWorkClassType>GREAT_WORK_LITERATURE</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_IROBOT</Description>
+			<Quote>TXT_KEY_GREAT_WORK_QUOTE_IROBOT</Quote>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GreatWriter_Background.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ISAAC_ASIMOV">
+			<Text>Isaac Asimov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_IROBOT">
+			<Text>I, Robot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_IROBOT">
+			<Text>“It is the obvious which is so difficult to see most of the time. People say 'It's as plain as the nose on your face.' But how much of the nose on your face can you see, unless someone holds a mirror up to you?” </Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Douglas Adams -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_WRITTER</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_DOUGLAS_ADAMS</UniqueName>
+			<GreatWorkType>GREAT_WORK_HITCHHIKERS_GUIDE</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_HITCHHIKERS_GUIDE</Type>
+			<GreatWorkClassType>GREAT_WORK_LITERATURE</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_HITCHHIKERS_GUIDE</Description>
+			<Quote>TXT_KEY_GREAT_WORK_QUOTE_HITCHHIKERS_GUIDE</Quote>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GreatWriter_Background.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DOUGLAS_ADAMS">
+			<Text>Douglas Adams</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_HITCHHIKERS_GUIDE">
+			<Text>Hitchhiker's Guide to the Galaxy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_HITCHHIKERS_GUIDE">
+			<Text>“There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states that this has already happened.” </Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- JRR Tolkien -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_WRITTER</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JRR_TOLKIEN</UniqueName>
+			<GreatWorkType>GREAT_WORK_LORD_OF_THE_RINGS</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_LORD_OF_THE_RINGS</Type>
+			<GreatWorkClassType>GREAT_WORK_LITERATURE</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_LORD_OF_THE_RINGS</Description>
+			<Quote>TXT_KEY_GREAT_WORK_QUOTE_LORD_OF_THE_RINGS</Quote>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GreatWriter_Background.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JRR_TOLKIEN">
+			<Text>J. R. R. Tolkien</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_LORD_OF_THE_RINGS">
+			<Text>Lord of the Rings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_LORD_OF_THE_RINGS">
+			<Text>“It's a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to.” </Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Arthur C Clarke -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_WRITTER</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ARTHUR_CLARKE</UniqueName>
+			<GreatWorkType>GREAT_WORK_A_SPACE_ODYSSEY</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_A_SPACE_ODYSSEY</Type>
+			<GreatWorkClassType>GREAT_WORK_LITERATURE</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_A_SPACE_ODYSSEY</Description>
+			<Quote>TXT_KEY_GREAT_WORK_QUOTE_A_SPACE_ODYSSEY</Quote>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GreatWriter_Background.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ARTHUR_CLARKE">
+			<Text>Arthur C. Clarke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_A_SPACE_ODYSSEY">
+			<Text>2001: A Space Odyssey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_A_SPACE_ODYSSEY">
+			<Text>“Now this is an interesting number, for by a curious coincidence there are approximately a hundred billion stars in our local universe, the Milky Way. So for every man who has ever lived, in this Universe there shines a star.” </Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Robert Heinlein -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_WRITTER</UnitType>
+			<UniqueName>TXT_KEY_GREAT_ROBERT_HEINLEIN</UniqueName>
+			<GreatWorkType>GREAT_WORK_MOON_MISTRESS</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_MOON_MISTRESS</Type>
+			<GreatWorkClassType>GREAT_WORK_LITERATURE</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_MOON_MISTRESS</Description>
+			<Quote>TXT_KEY_GREAT_WORK_QUOTE_MOON_MISTRESS</Quote>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GreatWriter_Background.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROBERT_HEINLEIN">
+			<Text>Robert A. Heinlein</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_MOON_MISTRESS">
+			<Text>The Moon is a Harsh Mistress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_MOON_MISTRESS">
+			<Text>“In terms of morals there is no such thing as ‘state.’ Just men. Individuals. Each responsible for his own acts.” </Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Terry Prachett -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_WRITTER</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_TERRY_PRATCHETT</UniqueName>
+			<GreatWorkType>GREAT_WORK_DISCWORLD</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_LORD_OF_THE_RINGS</Type>
+			<GreatWorkClassType>GREAT_WORK_LITERATURE</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_DISCWORLD</Description>
+			<Quote>TXT_KEY_GREAT_WORK_QUOTE_DISCWORLD</Quote>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GreatWriter_Background.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JRR_TOLKIEN">
+			<Text>Terry Pratchett</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_DISCWORLD">
+			<Text>Discworld</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_DISCWORLD">
+			<Text>“Why do you go away? So that you can come back. So that you can see the place you came from with new eyes and extra colors. And the people there see you differently, too. Coming back to where you started is not the same as never leaving.”</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- HP Lovecraft -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_WRITTER</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_HP_LOVECRAFT</UniqueName>
+			<GreatWorkType>GREAT_WORK_CALL_OF_CTHULHU</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_CALL_OF_CTHULHU</Type>
+			<GreatWorkClassType>GREAT_WORK_LITERATURE</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_CALL_OF_CTHULHU</Description>
+			<Quote>TXT_KEY_GREAT_WORK_QUOTE_CALL_OF_CTHULHU</Quote>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GreatWriter_Background.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HP_LOVECRAFT">
+			<Text>HP Lovecraft</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_CALL_OF_CTHULHU">
+			<Text>Call of Cthulhu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_CALL_OF_CTHULHU">
+			<Text>“We live on a placid island of ignorance in the midst of black seas of infinity, and it was not meant that we should voyage far.”</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- George Orwell -->
+	<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_WRITTER</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_GEORGE_ORWELL</UniqueName>
+			<GreatWorkType>GREAT_WORK_1984</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>
+
+	<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_1984</Type>
+			<GreatWorkClassType>GREAT_WORK_LITERATURE</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_1984</Description>
+			<Quote>TXT_KEY_GREAT_WORK_QUOTE_1984</Quote>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>GreatWriter_Background.dds</Image>
+		</Row>
+	</GreatWorks>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GEORGE_ORWELL">
+			<Text>George Orwell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_1984">
+			<Text>Nineteen Eighty-Four</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_1984">
+			<Text>“War is peace.\nFreedom is slavery.\nIgnorance is strength.”</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

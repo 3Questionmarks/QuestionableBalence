@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Adds the new Peristyle -->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PERISTYLE</Type>
+			<BuildingClass>BUILDINGCLASS_SHRINE</BuildingClass>
+			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<Cost>40</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_PERISTYLE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PERISTYLE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_PERISTYLE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PERISTYLE_STRATEGY</Strategy>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>PERISTYLE_ICON</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<!-- Cotton -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Furs -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Dyes -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Copper -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Marble -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Spices -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Ivory -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Incense -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Gold -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Pearls -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Sugar -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Silk -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Wine -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Silver -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Truffles -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Crab -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Salt -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Whales -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Citrus -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Cocoa -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Gems -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Coffee -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_COFFEE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Tea -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_TEA</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Tobacco -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Amber -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_AMBER</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- JADE -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_JADE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Ollive -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_OLIVE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Perfume -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_PERFUME</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Coral -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_CORAL</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Lapis -->
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<ResourceType>RESOURCE_LAPIS</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+	</Building_Flavors>
+    
+	<!-- Deletes Cataphract -->
+    <Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_BYZANTINE_CATAPHRACT" />
+	</Civilization_UnitClassOverrides>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<BuildingType>BUILDING_PERISTYLE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+
+	<!-- Adds new text -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PERISTYLE">
+			<Text>Peristyle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PERISTYLE_HELP">
+			<Text>+1 [ICON_PEACE] Faith from every Luxury Resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PERISTYLE_STRATEGY">
+			<Text>The Byzantine unique building, Peristyle, replaces the Shrine. It produces culture and generates additional faith from every Luxury Resource worked by the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PERISTYLE_TEXT">
+			<Text>
+				In Hellenistic Greek and Roman architecture a peristyle is a columned porch or open colonnade in a building surrounding a court that may contain an internal garden. In the Christian ecclesiastical architecture that developed from Roman precedents, a basilica, such as Old St Peter's in Rome, would stand behind a peristyle forecourt that sheltered it from the street. In time the cloister developed from the peristyle.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

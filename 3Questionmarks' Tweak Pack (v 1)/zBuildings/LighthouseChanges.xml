@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/11/2014 8:51:33 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_LIGHTHOUSE"/>
+			<Set>
+				<EnhancedYieldTech>TECH_RADIO</EnhancedYieldTech>
+				<TechEnhancedTourism>1</TechEnhancedTourism>
+				<Water>0</Water>
+			</Set>
+		</Update>
+	</Buildings>
+	<Building_LakePlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_LakePlotYieldChanges>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_LIGHTHOUSE_HELP"/>
+			<Set>
+				<Text>+1 [ICON_FOOD] Food from Coast, Ocean, and Lake Tiles.[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] Production from Sea Resources worked by this City and each source of [ICON_RES_FISH] Fish worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]After Radio is researched, also provides +1 [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]City must be built near the coast.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
+</GameData>

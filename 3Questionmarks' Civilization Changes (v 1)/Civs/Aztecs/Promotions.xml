@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 9:08:26 PM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_CULTURAL_SACRIFICES</Type>
+			<Description>Cultural Sacrifices</Description>
+			<Help>+25% Bonus vs Wounded Units. Kills yield Golden Age points.</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OrderPriority>3</OrderPriority>
+			<AttackWoundedMod>25</AttackWoundedMod>
+			<GoldenAgeValueFromKills>200</GoldenAgeValueFromKills>
+			<PortraitIndex>13</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>Cultural Sacrifices</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+</GameData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/6/2024 4:29:11 PM -->
+<GameData>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_ARMORY_HELP"/>
+		<Row Tag="TXT_KEY_BUILDING_ARMORY_HELP">
+			<Text>+15 [ICON_WAR] XP for all Units.[NEWLINE][NEWLINE]City must have a Barracks.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

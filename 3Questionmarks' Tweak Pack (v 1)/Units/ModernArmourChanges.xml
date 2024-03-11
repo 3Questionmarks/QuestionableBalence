@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:23:01 PM -->
+<GameData>
+	<!-- Modern Armour at Mobile Tactics -->
+	<Units>
+		<Update>
+			<Set Cost="1000" PrereqTech="TECH_MOBILE_TACTICS" />
+			<Where Class="UNITCLASS_MODERN_ARMOR" />
+		</Update>
+	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_MODERN_ARMOR</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+</GameData>

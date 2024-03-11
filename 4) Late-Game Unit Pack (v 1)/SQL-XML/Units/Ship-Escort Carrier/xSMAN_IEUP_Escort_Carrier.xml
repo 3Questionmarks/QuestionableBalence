@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 07/01/17 9:32:00 AM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_ESCORT_CARRIER</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_ESCORT_CARRIER</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_ESCORT_CARRIER</DefaultUnit>
+		</Row>	
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_IEUP_ESCORT_CARRIER</Class>
+			<Type>UNIT_SMAN_IEUP_ESCORT_CARRIER</Type>
+			<PrereqTech>TECH_FLIGHT</PrereqTech>
+			<ObsoleteTech>TECH_NUCLEAR_FISSION</ObsoleteTech>
+			<Combat>25</Combat>
+			<Cost>225</Cost>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_ESCORT_CARRIER</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_ESCORT_CARRIER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_ESCORT_CARRIER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_ESCORT_CARRIER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<HurryCostModifier>-20</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_ESCORT_CARRIER</UnitArtInfo>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>48</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>48</UnitFlagIconOffset>
+			<MoveRate>BOAT</MoveRate>
+		</Row>		
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ESCORT_CARRIER</UnitType>
+			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ESCORT_CARRIER</UnitType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>	
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ESCORT_CARRIER</UnitType>
+			<PromotionType>PROMOTION_CARGO_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ESCORT_CARRIER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_ESCORT_CARRIER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_ESCORT_CARRIER</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_ESCORT_CARRIER</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_ESCORT_CARRIER">
+			<Text>Escort Carrier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_ESCORT_CARRIER_STRATEGY">
+			<Text>Use the Escort Carrier when you need to build or buy these units in a hurry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_ESCORT_CARRIER_HELP">
+			<Text>Inexpensive aircraft carrier, less capable than the normal Carrier. Able to carry 1 aircraft when built, but can carry more with additional promotions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_ESCORT_CARRIER_PEDIA">
+			<Text>
+				The Escort Carrier is the first ship capable of carrying aircraft, becoming available on the discovery of Flight. Normally, it can carry one aircraft unit, but can carry more units with additional promotions. As so many of these units were converted from existing ship hulls, they are much cheaper to purchase than other naval units. Escort Carriers become obsolete on the discovery of Nuclear Fission. Requires [ICON_RES_OIL] Oil.[NEWLINE][NEWLINE]The Escort Carrier, or escort aircraft carrier (US hull classification symbol CVE), also called a "jeep carrier" or "baby flattop" in the United States Navy (USN) or "Woolworth Carrier" by the Royal Navy, was a small and slow type of aircraft carrier used by the Royal Navy, the Imperial Japanese Navy and Imperial Japanese Army Air Force, and the United States Navy in World War II. They were typically half the length and a third the displacement of larger fleet carriers. While they were slower, carried fewer planes and were less well armed and armored, escort carriers were cheaper and could be built quickly, which was their principal advantage. Escort carriers could be completed in greater numbers as a stop-gap when fleet carriers were scarce. However, the lack of protection made escort carriers particularly vulnerable and several were sunk with great loss of life. The light carrier (hull classification symbol CVL) was a similar concept to escort carriers in most respects, but were capable of higher speeds to allow operation alongside fleet carriers.[NEWLINE][NEWLINE]Most often built on a commercial ship hull, escort carriers were too slow to keep up with the main forces consisting of fleet carriers, battleships, and cruisers. Instead, they were used to escort convoys, defending them from enemy threats such as submarines and planes. In the invasions of mainland Europe and Pacific islands, escort carriers provided air support to ground forces during amphibious operations. Escort carriers also served as backup aircraft transports for fleet carriers and ferried aircraft of all military services to points of delivery.
+			</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

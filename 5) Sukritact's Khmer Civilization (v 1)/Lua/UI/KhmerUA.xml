@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Context>
+	<Box ID="KhmerUIBG" Style="BGBlock_ClearTopBar"/>
+	<Grid ID="KhmerUI"  Size="450,450" Anchor="C,C" Style="Grid9DetailFive140" ConsumeMouse="1">
+	
+	<Label Style="MenuTitleCaption" String="TXT_KEY_TRAIT_KHMER_BARAYS_SHORT" ID="TitleLabel" />
+	
+	<Image Anchor="C,T" AnchorSide="I.O" Size="256,64" Offset="0,-14"  Texture="assets\UI\Art\Icons\Top512IconTrim.dds" >
+		<Image ID="CivIconBG" Size="64.64" Anchor="C,C" Offset="-1,-1" TextureOffset="77,0" Texture="CivIconBGSizes.dds" />
+		<Image ID="CivIconShadow" Size="48.48" Anchor="C,C" Offset="0,0" Texture="CivSymbolAtlas48.dds" Color="Black.128"/>
+		<Image ID="Icon" Size="48,48" Offset="-1,-1"  Anchor="C,C" Texture="CivSymbolsColor512.dds" />
+    </Image>
+
+	<Label ID="Message" Offset="0,30" WrapWidth="390" Anchor="C,C" Font="TwCenMT24" FontStyle="Shadow" ColorSet="Beige_Black_Alpha" String="TXT_KEY_KHMER_DIALOG"/>
+	<Image Anchor="C,C" Offset="0,-100" Size="128,128"  Texture="CitizenFrame128.dds" >
+		<Image Anchor="C,C" Offset="0,-1" Size="128,128"  Texture="WonderAtlas1024.dds" ID="WonderIcon" />
+	</Image>
+	
+		<Box Anchor="C,B" AnchorSide="I.I" Offset="0,54" Size="450,56" Color="255,255,255,0">
+			<!-- FOOD BUTTON  -->
+			<GridButton Anchor="C,B" Style="SmallButton" Size="150,32" Offset="-100,0" StateOffsetIncrement="0,0" ID="Food" ToolTip="TXT_KEY_KHMER_FOOD_TOOLTIP">
+				<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_KHMER_FOOD" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			</GridButton>
+			<!-- FAITH BUTTON  -->
+			<GridButton Anchor="C,B" Style="SmallButton" Size="150,32" Offset="100,0" StateOffsetIncrement="0,0" ID="Faith" ToolTip="TXT_KEY_KHMER_FAITH_TOOLTIP">
+				<Label Anchor="C,C" Offset="0,0" String="TXT_KEY_KHMER_FAITH" Font="TwCenMT18" ColorSet="Beige_Black_Alpha" FontStyle="Shadow"/>
+			</GridButton>
+		</Box>
+		
+	</Grid>
+</Context>
+

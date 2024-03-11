@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 10:35:30 AM -->
+<GameData>
+	<!-- Free freat merchant with Currency and extra production and culture from custom houses and merchant specilists -->
+
+	<Traits>
+		<Update>
+			<Set FreeUnit="UNITCLASS_MERCHANT"
+				 FreeUnitPrereqTech="TECH_CURRENCY"/>
+			<Where Type="TRAIT_EXTRA_TRADE" />
+		</Update>
+	</Traits>
+	
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_EXTRA_TRADE</TraitType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_EXTRA_TRADE</TraitType>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+
+	<Trait_SpecialistYieldChanges>
+		<Row>
+			<TraitType>TRAIT_EXTRA_TRADE</TraitType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_EXTRA_TRADE</TraitType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_SpecialistYieldChanges>
+	
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_EXTRA_TRADE" />
+			<Set Text="Resource diversity grants 2x as much [ICON_GOLD] Gold in [ICON_INTERNATIONAL_TRADE] Trade Routes. Gain a free [ICON_GREAT_MERCHANT] Great Merchant at Currency. Merchant Specialists produce +2 [ICON_PRODUCTION] Production/[ICON_CULTURE] Culture. Customs Houses yield +3 [ICON_PRODUCTION] Production/[ICON_CULTURE] Culture."/>
+		</Update>
+	</Language_en_US>
+</GameData>

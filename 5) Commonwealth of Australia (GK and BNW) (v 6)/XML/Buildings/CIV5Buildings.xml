@@ -1,0 +1,171 @@
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AUSTRALIA_GOLDFIELD</Type>
+			<BuildingClass>BUILDINGCLASS_MINT</BuildingClass>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_AUSTRALIA_GOLDFIELD</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AUSTRALIA_GOLDFIELD</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AUSTRALIA_GOLDFIELD_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_AUSTRALIA_GOLDFIELD_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<GlobalPopulationChange>1</GlobalPopulationChange>
+			<IconAtlas>CIV_COLOR_ATLAS_LEGENDS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<Happiness>2</Happiness>
+			<Gold>4</Gold>
+		</Row>
+		<Row>
+			<Type>BUILDING_AUSTRALIA_WHARFDISTRICT</Type>
+			<BuildingClass>BUILDINGCLASS_WHARFDISTRICT</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_AUSTRALIA_WHARFDISTRICT</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AUSTRALIA_WHARFDISTRICT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AUSTRALIA_WHARFDISTRICT_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_AUSTRALIA_WHARFDISTRICT_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_HARBOUR</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>26</PortraitIndex>
+			<Happiness>1</Happiness>
+			<NeverCapture>true</NeverCapture>
+			<Water>true</Water>
+		</Row>
+		<Row>
+			<Type>BUILDING_AUSTRALIA_OUTPOST</Type>
+			<BuildingClass>BUILDINGCLASS_OUTPOST</BuildingClass>
+			<Cost>-1</Cost>
+			<Description>TXT_KEY_BUILDING_AUSTRALIA_OUTPOST</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AUSTRALIA_OUTPOST</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AUSTRALIA_OUTPOST_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_AUSTRALIA_OUTPOST_HELP</Help>
+			<ArtDefineTag>PALACE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<NeverCapture>true</NeverCapture>
+			<FreeBuilding>BUILDINGCLASS_WHARFDISTRICT</FreeBuilding>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AUSTRALIA_GOLDFIELD</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AUSTRALIA_GOLDFIELD</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AUSTRALIA_GOLDFIELD</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AUSTRALIA_OUTPOST</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AUSTRALIA_OUTPOST</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AUSTRALIA_OUTPOST</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_AUSTRALIA_GOLDFIELD</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AUSTRALIA_GOLDFIELD</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AUSTRALIA_GOLDFIELD</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AUSTRALIA_GOLDFIELD</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AUSTRALIA_GOLDFIELD</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_AUSTRALIA_GOLDFIELD</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_TerrainYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AUSTRALIA_OUTPOST</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRALIA_GOLDFIELD">
+			<Text>Goldfield</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_AUSTRALIA_GOLDFIELD">
+			<Text>
+During the Australian Gold Rush in 1851, many rural areas were converted entirely into mining fields in order to maximize the chance of striking larger Gold deposits.[NEWLINE][NEWLINE]The Gold Rush, and the fields that followed, created a massive boom in Victoria's population, tripling it from 430,000 in 1851 to 1.7 Million in 1871.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRALIA_GOLDFIELD_STRATEGY">
+			<Text>
+The GoldField is a Renaissance-era building unique to Australia, replacing the Mint. It increases the city's Gold, Happiness, and grants a population boost.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRALIA_GOLDFIELD_HELP">
+			<Text>Boost to Gold, Happiness, and Population to the city in which it is built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRALIA_WHARFDISTRICT">
+			<Text>Wharf District</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_AUSTRALIA_WHARFDISTRICT">
+			<Text>Australia is famous for it's overseas relations and trade agreements, and this international commerce is supported by large seaside trading districts, such as Melbourne's Docklands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRALIA_WHARFDISTRICT_STRATEGY">
+			<Text>Grants [ICON_HAPPINESS_1] Happiness to any Australian Coastal City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRALIA_WHARFDISTRICT_HELP">
+			<Text>Boost the Happiness of any Australian Coastal City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRALIA_OUTPOST">
+			<Text>Desert Outpost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_AUSTRALIA_OUTPOST">
+			<Text>Australia is largely covered in desert areas, and therefore Australians have learned to make the most of their surroundings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRALIA_OUTPOST_STRATEGY">
+			<Text>Grants [ICON_GOLD] Gold from desert tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUSTRALIA_OUTPOST_HELP">
+			<Text>Grants Austrlaian cities gold from desert tiles.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

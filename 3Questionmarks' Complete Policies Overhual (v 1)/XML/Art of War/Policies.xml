@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/9/2020 4:34:19 PM -->
+<GameData>
+	<!-- Opener -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_HONOR" />
+			<Set>
+				<BarbarianCombatBonus>50</BarbarianCombatBonus>
+				<AlwaysSeeBarbCamps>false</AlwaysSeeBarbCamps>
+				<CultureFromBarbarianKills>0</CultureFromBarbarianKills>
+                <CultureFromKills>100</CultureFromKills>
+                <GoldFromKills>100</GoldFromKills>
+			</Set>
+		</Update>
+	</Policies>
+	
+	<!-- Finisher -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_HONOR_FINISHER" />
+			<Set>
+				<NumFreePolicies>0</NumFreePolicies>
+				<FreeExperience>15</FreeExperience>
+				<BarbarianCombatBonus>50</BarbarianCombatBonus>
+                <FreeBuildingOnConquest>BUILDING_COURTHOUSE</FreeBuildingOnConquest>
+                <CultureFromKills>100</CultureFromKills>
+                <GoldFromKills>100</GoldFromKills>
+			</Set>
+		</Update>
+	</Policies>
+	
+	<!-- Opener and Finisher Text -->
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_HONOR_CAP" />
+			<Set Text="Art of War" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_HONOR" />
+			<Set Text="Art of War" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_POLICY_HONOR_TEXT" />
+			<Set Text="The Art of War is a policy branch that focuses on dividing, conquering and intergrating your foes into your empire." />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_HONOR_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Art of War[ENDCOLOR] focuses on dividing, conquering and intergrating your foes into your empire.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Art of War[ENDCOLOR] provides grants a 50% [ICON_STRENGTH] Combat Strength bonus when fighting against barbarian units. Additionally, defeating a unit grants [ICON_CULTURE] Culture and [ICON_GOLD] Gold equal to the [ICON_STRENGTH] Combat Strength of the defeated unit (or [ICON_RANGE_STRENGTH] Ranged Strength if it is higher). Unlocks building the [COLOR_BUILDING_TEXT]Stronghold[ENDCOLOR] and the [COLOR_CITY_GREEN]Statue of Zeus[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies in [COLOR_POSITIVE_TEXT]Art of War[ENDCOLOR] increases the [ICON_STRENGTH] Combat Strength bonus vs barbarian units to +100%, and increases the [ICON_CULTURE] Culture and [ICON_GOLD] Gold gained from defeating units to 3x the [ICON_STRENGTH] Combat Strength of the defeated unit. Additionally newly trained units will gain +15 [ICON_WAR] XP and each captured city receives a free courthouse." />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Art of War[ENDCOLOR] focuses on dividing, conquering and intergrating your foes into your empire.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Art of War[ENDCOLOR] provides grants a 50% [ICON_STRENGTH] Combat Strength bonus when fighting against barbarian units. Additionally, defeating a unit grants [ICON_CULTURE] Culture and [ICON_GOLD] Gold equal to the [ICON_STRENGTH] Combat Strength of the defeated unit (or [ICON_RANGE_STRENGTH] Ranged Strength if it is higher). Unlocks building the [COLOR_BUILDING_TEXT]Stronghold[ENDCOLOR] and the [COLOR_CITY_GREEN]Statue of Zeus[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies in [COLOR_POSITIVE_TEXT]Art of War[ENDCOLOR] increases the [ICON_STRENGTH] Combat Strength bonus vs barbarian units to +100%, and increases the [ICON_CULTURE] Culture and [ICON_GOLD] Gold gained from defeating units to 3x the [ICON_STRENGTH] Combat Strength of the defeated unit. Additionally newly trained units will gain +15 [ICON_WAR] XP and each captured city receives a free courthouse." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Military Training -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_DISCIPLINE" />
+			<Set>
+				<GridX>2</GridX>
+				<GridY>1</GridY>
+				<FreeExperience>15</FreeExperience>
+				<AlwaysSeeBarbCamps>true</AlwaysSeeBarbCamps>
+				<ExpModifier>50</ExpModifier>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE_OF_ARTEMIS</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STATUE_OF_ZEUS</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+         <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STRONGHOLD</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FA_WAR_ACADEMY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FA_SEA_ACADEMY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_FA_AIR_ACADEMY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BRANDENBURG_GATE</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PRORA</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_KREMLIN</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PENTAGON</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TERRACOTTA_ARMY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+	<Policy_FreePromotions>
+		<Delete>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
+		</Delete>
+	</Policy_FreePromotions>
+	<Policy_PrereqPolicies>
+		<Delete>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
+		</Delete>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_DISCIPLINE" />
+			<Set Text="Military Training" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_DISCIPLINE_TEXT" />
+			<Set Text="Military Training" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_DISCIPLINE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Military Training[ENDCOLOR][NEWLINE]+15 [ICON_WAR] XP to all newly trained military units and all military units receive +50% XP from combat.[NEWLINE]+50% [ICON_PRODUCTION] Production towards the construction of military buildings and wonders.[NEWLINE]The location of barbarian camps is revealed." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Warrior Code -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_WARRIOR_CODE" />
+			<Set>
+				<GridX>4</GridX>
+				<GridY>1</GridY>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_UnitCombatProductionModifiers>
+		<Delete>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Delete>
+	</Policy_UnitCombatProductionModifiers>
+    <Policy_FreePromotions>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<PromotionType>PROMOTION_ARTOFWAR</PromotionType>
+		</Row>
+	</Policy_FreePromotions>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_WARRIOR_CODE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Warrior code[ENDCOLOR][NEWLINE][ICON_GREAT_GENERAL] Great Generals are earned 50% faster and a free [ICON_GREAT_GENERAL] Great General apears near the [ICON_CAPITAL] Capital City.[NEWLINE]All military units recive +10% [ICON_STRENGTH] Combat Strength when attacking.[NEWLINE]This policy unlocks the [COLOR_XP_BLUE]Axeman[ENDCOLOR] and [COLOR_XP_BLUE]Warship[ENDCOLOR] units." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Millitary Caste -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_MILITARY_CASTE" />
+			<Set>
+				<GridX>2</GridX>
+				<GridY>2</GridY>
+                <CulturePerGarrisonedUnit>3</CulturePerGarrisonedUnit>
+                <HappinessPerGarrisonedUnit>1</HappinessPerGarrisonedUnit>
+                <UnitGoldMaintenanceMod>-15</UnitGoldMaintenanceMod>
+			</Set>
+		</Update>
+	</Policies>
+    <!--Policy_PrereqPolicies>
+		<Delete>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<PrereqPolicy>POLICY_DISCIPLINE</PrereqPolicy>
+		</Delete>
+	</Policy_PrereqPolicies-->
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<ImprovementType>IMPROVEMENT_AIRBASE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<ImprovementType>IMPROVEMENT_AIRBASE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Policy_PGB_FreeBuildingClass>
+		<Row>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+		</Row>
+	</Policy_PGB_FreeBuildingClass>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MILITARY_CASTE" />
+			<Set Text="Millitary Caste" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MILITARYCASTE_TEXT" />
+			<Set Text="Millitary Caste" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Millitary Caste[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness and +3 [ICON_CULTURE] Culture if a unit is garrisoned within a city.[NEWLINE]All cities recive a free Barracks and Walls.[NEWLINE]-15% [ICON_GOLD] Gold cost to maintain millitary units.[NEWLINE]+1 [ICON_FOOD] Food and [ICON_PRODUCTION] Production from the [COLOR_YIELD_GOLD]Fort[ENDCOLOR] improvement, +1 [ICON_FOOD] Food and [ICON_PRODUCTION] Production from the [COLOR_YIELD_GOLD]Airbase[ENDCOLOR] improvement and +2 [ICON_FOOD] Food and [ICON_PRODUCTION] Production from [COLOR_YIELD_GOLD]Citadels[ENDCOLOR]." />
+		</Update>
+	</Language_en_US>
+		
+	<!-- Malitary Tradition -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_MILITARY_TRADITION" />
+			<Set>
+				<GridX>4</GridX>
+				<GridY>2</GridY>
+				<ExpModifier>0</ExpModifier>
+				<UnitGoldMaintenanceMod>0</UnitGoldMaintenanceMod>
+				<MilitaryProductionModifier>25</MilitaryProductionModifier>
+                <CultureFromKills>100</CultureFromKills>
+                <GoldFromKills>100</GoldFromKills>
+                <UnitUpgradeCostMod>-10</UnitUpgradeCostMod>
+			</Set>
+		</Update>
+	</Policies>
+    <Policy_PrereqPolicies>
+		<Row>
+			<PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+			<PrereqPolicy>POLICY_DISCIPLINE</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
+    <Policy_BuildingClassCultureChanges>
+        <Row>
+            <PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+            <BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+            <CultureChange>2</CultureChange>
+        </Row>
+        <Row>
+            <PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+            <BuildingClassType>BUILDINGCLASS_STRONGHOLD</BuildingClassType>
+            <CultureChange>2</CultureChange>
+        </Row>
+        <Row>
+            <PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+            <BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+            <CultureChange>2</CultureChange>
+        </Row>
+        <Row>
+            <PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+            <BuildingClassType>BUILDINGCLASS_FA_WAR_ACADEMY</BuildingClassType>
+            <CultureChange>2</CultureChange>
+        </Row>
+        <Row>
+            <PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+            <BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+            <CultureChange>2</CultureChange>
+        </Row>
+        <Row>
+            <PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+            <BuildingClassType>BUILDINGCLASS_FA_SEA_ACADEMY</BuildingClassType>
+            <CultureChange>2</CultureChange>
+        </Row>
+        <Row>
+            <PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+            <BuildingClassType>BUILDINGCLASS_FA_AIR_ACADEMY</BuildingClassType>
+            <CultureChange>2</CultureChange>
+        </Row>
+        <Row>
+            <PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
+            <BuildingClassType>BUILDINGCLASS_BRANDENBURG_GATE</BuildingClassType>
+            <CultureChange>2</CultureChange>
+        </Row>
+    </Policy_BuildingClassCultureChanges>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MILITARY_TRADITION_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Military Tradition[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Production when constructiong a military unit.[NEWLINE][ICON_CULTURE] Culutre and [ICON_GOLD] Gold from defeating units is increased to 2x the [ICON_STRENGTH] Combat Strength of the defeated unit and units require 10% less [ICON_GOLD] Gold to upgrade.[NEWLINE]Buildings and wonders that grant additional XP to trained units provide +2 [ICON_CULTURE] Culture.[NEWLINE]This policy unlocks the [COLOR_XP_BLUE]Shortbowman[ENDCOLOR] unit." />
+		</Update>
+	</Language_en_US>
+	
+    <!-- Pannen es Circenses -->
+	<Policies>
+		<Row>
+			<Type>POLICY_PANEMETCIRCENSES</Type>
+			<Description>TXT_KEY_POLICY_PANEMETCIRCENSES</Description>
+			<Civilopedia>TXT_KEY_POLICY_PANEMETCIRCENSES_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_PANEMETCIRCENSES_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<GridX>2</GridX>
+			<GridY>3</GridY>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HUNTING_LODGE</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SMOKEHOUSE</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BAKERY</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CISTERN</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TCS_PUBLIC_BATHS</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CONSTABULARY</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WINDMILL</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_DJSH_DISTILLERY</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_DJSH_CHOCOLATIER</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_POLICE_STATION</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+        <Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STADIUM</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+    <Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldMod>20</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	<Policy_PrereqPolicies>
+		<Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<PrereqPolicy>POLICY_MILITARY_CASTE</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<PrereqPolicy>POLICY_MILITARY_TRADITION</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Row>
+			<Tag>TXT_KEY_POLICY_PANEMETCIRCENSES</Tag>
+			<Text>Panem et Circenses</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_POLICY_PANEMETCIRCENSES_TEXT</Tag>
+			<Text>Food and games or parties</Text>
+		</Row>
+		<Row>
+			<Tag>TXT_KEY_POLICY_PANEMETCIRCENSES_HELP</Tag>
+			<Text>[COLOR_POSITIVE_TEXT]Panem et Circenses[ENDCOLOR][NEWLINE]+100% [ICON_PRODUCTION] Production when constructing a [ICON_FOOD] Food or [ICON_HAPPINESS_1] Happiness building.[NEWLINE]+20% [ICON_FOOD] Food and +3 [ICON_FOOD] Food from Colosseums.[NEWLINE]+1 [ICON_GOLD] Gold from the [COLOR_YIELD_GOLD]Fort[ENDCOLOR] improvement, and +2 [ICON_GOLD] Gold from [COLOR_YIELD_GOLD]Citadels[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+    
+	<!-- Integration -->
+	<Policies>
+		<Update>
+			<Where Type="POLICY_PROFESSIONAL_ARMY" />
+			<Set>
+				<GridX>4</GridX>
+				<GridY>3</GridY>
+				<UnhappinessMod>-20</UnhappinessMod>
+                <OccupiedPopulationUnhappinessMod>-20</OccupiedPopulationUnhappinessMod>
+                <UnitUpgradeCostMod>0</UnitUpgradeCostMod>
+                <BuildingPurchaseCostModifier>-25</BuildingPurchaseCostModifier>
+                <BuildingProductionModifier>10</BuildingProductionModifier>
+			</Set>
+		</Update>
+	</Policies>
+	
+	<Policy_BuildingClassProductionModifiers>
+		<Delete>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Delete>
+		<Delete>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Delete>
+		<Delete>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Delete>
+	</Policy_BuildingClassProductionModifiers>
+    <Policy_BuildingClassHappiness>
+        <Row>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+    </Policy_BuildingClassHappiness>
+    <Policy_BuildingClassCultureChanges>
+        <Row>
+            <PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+            <BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+            <CultureChange>3</CultureChange>
+        </Row>
+    </Policy_BuildingClassCultureChanges>
+	<Policy_PrereqPolicies>
+        <Delete>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<PrereqPolicy>POLICY_MILITARY_CASTE</PrereqPolicy>
+		</Delete>
+		<Row>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<PrereqPolicy>POLICY_MILITARY_TRADITION</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY" />
+			<Set Text="Integration" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_PROFESSIONALARMY_TEXT" />
+			<Set Text="Integration" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP" />
+			<Set Text="[COLOR_POSITIVE_TEXT]Integration[ENDCOLOR][NEWLINE]-20% [ICON_HAPPINESS_4] unhappiness from [ICON_CITIZEN] population and a further -20% [ICON_HAPPINESS_4] unhappiness from [ICON_CITIZEN] population within an [ICON_OCCUPIED] Occupided City.[NEWLINE]+3 [ICON_HAPPINESS_1] Happiness and [ICON_CULTURE] Culture from Courthouses.[NEWLINE]+10% [ICON_PRODUCTION] Production when constructing a building and buildings cost 25% less [ICON_GOLD] Gold to purchace in cities." />
+		</Update>
+	</Language_en_US>
+	
+	<!-- Flavours -->
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_HONOR_FINISHER</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PANEMETCIRCENSES</PolicyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Policy_Flavors>
+</GameData>

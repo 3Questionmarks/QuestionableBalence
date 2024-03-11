@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/29/2014 6:35:17 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DJSH_CHOCOLATIER</Type>
+			<DefaultBuilding>BUILDING_DJSH_CHOCOLATIER</DefaultBuilding>
+			<Description>Chocolatier</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DJSH_CHOCOLATIER</Type>
+			<BuildingClass>BUILDINGCLASS_DJSH_CHOCOLATIER</BuildingClass>
+            <GoldMaintenance>1</GoldMaintenance>
+			<Cost>200</Cost>
+			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
+			<Description>Chocolatier</Description>
+			<Civilopedia>Chocolate is a typically sweet, usually brown, food preparation of cacao seeds, roasted and ground, often flavored, as with vanilla. It is made in the form of a liquid, paste or in a block or used as a flavoring ingredient in other sweet foods. Cacao has been cultivated by many cultures for at least three millennia in Mexico and Central America. A chocolatier is a person who makes confectionery from chocolate. Chocolatiers are distinct from chocolate makers, who create chocolate from cacao beans and other ingredients.</Civilopedia>
+			<Strategy>The Chocolatier can only be constructed in a city with an improved cocoa resource nearby. The Chocolatier increases the [ICON_FOOD] Food and [ICON_CULTURE] Culture output of each such resource the city has access to. +10% of [ICON_FOOD] Food.</Strategy>
+			<Help>+10% [ICON_FOOD] Food. Each source of [ICON_RES_COCOA] Cocoa worked by this City produces +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture. [NEWLINE][NEWLINE]City must have at least one [ICON_RES_COCOA] Cocoa resource worked nearby.</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
+			<FoodKept>0</FoodKept>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>RES_BUILDING_DJSH_ATLAS</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DJSH_CHOCOLATIER</BuildingType>
+			<FlavorType>FLAVOR_FOOD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_CHOCOLATIER</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_DJSH_CHOCOLATIER</BuildingType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_DJSH_CHOCOLATIER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DJSH_CHOCOLATIER</BuildingType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DJSH_CHOCOLATIER</BuildingType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+</GameData>

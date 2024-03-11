@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 3:37:45 PM -->
+<GameData>
+	<!-- Nau is buffed slightly -->
+	<Units>
+		<Update>
+			<Set Combat="22" NumExoticGoods="3"/>
+			<Where Type="UNIT_PORTUGUESE_NAU" />
+		</Update>
+	</Units>
+	
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY"/>
+			<Set Text="This melee naval unit replaces the Caravel and is skilled at exploration. When it is in a tile next to land owned by another Civilization or City-State you are at peace with, it may perform a trade mission to earn [ICON_GOLD] Gold and XP. The further the land is from your own capital, the greater the bonus, so it is best to use on distant players. Use this unit to explore the map and uncover the locations of other players."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_PORTUGUESE_NAU"/>
+			<Set Text="Melee naval unit which excels at sea exploration. It has more [ICON_MOVES] Movement than the Caravel, which it replaces, and can perform an ability next to foreign lands to earn [ICON_GOLD] Gold and XP. May only be built by the Portuguese."/>
+		</Update>
+	</Language_en_US>
+</GameData>

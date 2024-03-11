@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/2/2024 7:17:52 PM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_TURTLE_SHELL</Type>
+			<Description>TXT_KEY_PROMOTION_TURTLE_SHELL</Description>
+			<Help>TXT_KEY_PROMOTION_TURTLE_SHELL_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>EXPANSION2_PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_TURTLE_SHELL</PediaEntry>
+			<DefenseMod>33</DefenseMod>
+		</Row>
+		<Row>
+			<Type>PROMOTION_COSTAL_MOVEMENT</Type>
+			<Description>TXT_KEY_PROMOTION_COSTAL_MOVEMENT</Description>
+			<Help>TXT_KEY_PROMOTION_COSTAL_MOVEMENT</Help>
+			<CannotBeChosen>true</CannotBeChosen>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COSTAL_MOVEMENT</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_Terrains>
+		<Row>
+			<PromotionType>PROMOTION_COSTAL_MOVEMENT</PromotionType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<DoubleMove>true</DoubleMove>
+		</Row>
+	</UnitPromotions_Terrains>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_TURTLE_SHELL">
+			<Text>Turtle Shell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TURTLE_SHELL_HELP">
+			<Text>Bonus when Defending (33%)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_COSTAL_MOVEMENT">
+			<Text>Double Movement in Coast</Text>
+		</Row>
+	</Language_en_US>
+	
+  
+</GameData>

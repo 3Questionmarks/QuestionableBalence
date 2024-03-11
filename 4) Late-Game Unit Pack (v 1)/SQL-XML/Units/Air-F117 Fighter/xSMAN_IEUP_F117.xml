@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/09/17 2:15:31 PM -->
+<GameData>
+	
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_F117</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_F117</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_F117</DefaultUnit>			
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Type>UNIT_SMAN_IEUP_F117</Type>
+			<Class>UNITCLASS_SMAN_IEUP_F117</Class>
+			<PrereqTech>TECH_STEALTH</PrereqTech>
+			<ObsoleteTech></ObsoleteTech>
+			<RangedCombat>80</RangedCombat>
+			<Range>15</Range>
+			<Moves>2</Moves>
+			<Cost>500</Cost>			
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<Immobile>true</Immobile>
+			<AirInterceptRange>10</AirInterceptRange>
+			<RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE_AIR</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_F117</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_F117_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_F117_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_F117_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AirUnitCap>1</AirUnitCap>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<CombatLimit>0</CombatLimit>		
+			<AdvancedStartCost>70</AdvancedStartCost>
+			<HurryCostModifier>10</HurryCostModifier>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>2</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_F117</UnitArtInfo>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>11</UnitFlagIconOffset>
+		</Row>
+	</Units>
+	
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_F117</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_F117</UnitType>
+			<UnitAIType>UNITAI_DEFENSE_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_F117</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_F117</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_F117</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_F117</UnitType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_F117</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_F117_PROMOTION_1</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_F117</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+		
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_F117</UnitType>
+			<SelectionSound>AS2D_SELECT_FIGHTER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_FIGHTER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_F117">
+			<Text>Stealth Fighter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_F117_HELP">
+			<Text>Fighter unit that specialises in establishing air superiority. Requires [ICON_RES_ALUMINUM] Aluminum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_F117_STRATEGY">
+			<Text>Use Stealth Fighters to neutralize enemy air power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_F117_PEDIA">
+			<Text>The Stealth Fighter deals moderate damage up to 15 tiles away. It has specialized promotions that significantly reduces damage. It is available on the discovery of Stealth, and does not become obsolete. Requires [ICON_RES_ALUMINUM] Aluminum.[NEWLINE][NEWLINE]The Stealth Fighter is based on the Lockheed F-117 Nighthawk, which is an American single-seat, twin-engine stealth attack aircraft that was developed by Lockheed's secretive Skunk Works division and operated by the United States Air Force (USAF). The F-117 was based on the Have Blue technology demonstrator.[NEWLINE][NEWLINE]The Nighthawk was the first operational aircraft to be designed around stealth technology. Its maiden flight took place in 1981, and the aircraft achieved initial operating capability status in 1983. The Nighthawk was shrouded in secrecy until it was revealed to the public in 1988. Of the 64 F-117s built, 59 were production versions, with the other five being demonstrators/prototypes. [NEWLINE][NEWLINE]The F-117 was widely publicized for its role in the Persian Gulf War of 1991. Although it was commonly referred to as the "Stealth Fighter", it was strictly an attack aircraft. F-117s took part in the conflict in Yugoslavia, where one was shot down by a surface-to-air missile (SAM) in 1999; it was the only Nighthawk to be lost in combat. The U.S. Air Force retired the F-117 in 2008, primarily due to the fielding of the F-22 Raptor.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

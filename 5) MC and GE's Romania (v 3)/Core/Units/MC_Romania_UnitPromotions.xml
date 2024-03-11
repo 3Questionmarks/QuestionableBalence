@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_MC_LUPATOR_DUNARII</Type>
+			<Description>TXT_KEY_PROMOTION_MC_LUPATOR_DUNARII</Description>
+			<Help>TXT_KEY_PROMOTION_MC_LUPATOR_DUNARII_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MC_LUPATOR_DUNARII</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_MC_LUPATOR_DUNARII_II</Type>
+			<Description>TXT_KEY_PROMOTION_MC_LUPATOR_DUNARII</Description>
+			<Help>TXT_KEY_PROMOTION_MC_LUPATOR_DUNARII_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MC_LUPATOR_DUNARII</PediaEntry>
+			<OpenAttack>15</OpenAttack>
+			<OpenDefense>15</OpenDefense>
+			<RoughAttack>15</RoughAttack>
+			<RoughDefense>15</RoughDefense>
+		</Row>
+	</UnitPromotions>
+</GameData>

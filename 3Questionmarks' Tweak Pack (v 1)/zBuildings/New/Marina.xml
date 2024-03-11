@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/21/2014 8:56:53 AM -->
+<!-- Marina: +2 happiness, +1 gold from lake tiles, requires fresh water. -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_MARINA</Type>
+			<DefaultBuilding>BUILDING_MARINA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MARINA</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_MARINA</Type>
+			<BuildingClass>BUILDINGCLASS_MARINA</BuildingClass>
+			<Cost>360</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<FreshWater>true</FreshWater>
+			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_MARINA</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MARINA_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MARINA_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_MARINA_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<Happiness>4</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>1MOD_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_LakePlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MARINA</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MARINA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_LakePlotYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_MARINA</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MARINA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARINA</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+	</Building_Flavors>
+    <Building_FeatureYieldChanges>
+        <Row>
+			<BuildingType>BUILDING_MARINA</BuildingType>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+        <Row>
+			<BuildingType>BUILDING_MARINA</BuildingType>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+    </Building_FeatureYieldChanges>
+	<Language_en_US>
+		<!-- Description Tags-->
+		<Row Tag="TXT_KEY_BUILDING_MARINA">
+			<Text>Marina</Text>
+		</Row>
+		<!-- Help Tags-->
+		<Row Tag="TXT_KEY_BUILDING_MARINA_HELP">
+			<Text>+1 [ICON_GOLD] Gold and [ICON_CULTURE] Culture from Lake tiles.[NEWLINE][NEWLINE]Requires Fresh Water.</Text>
+		</Row>
+		<!-- Quote Tags, use for Wonders
+		<Row Tag="TXT_KEY_BUILDING_EXAMPLE_QUOTE">
+			<Text></Text>
+		</Row>
+		-->
+		<!-- Strategy Tags-->
+		<Row Tag="TXT_KEY_BUILDING_MARINA_STRATEGY">
+			<Text>The Marina requires Fresh Water, provides Happiness, and generates Gold and Culture from Lake tiles.</Text>
+		</Row>
+		<!-- Pedia Tags-->
+		<Row Tag="TXT_KEY_BUILDING_MARINA_PEDIA">
+			<Text>A marina is an inland wharf on rivers, lakes, and canals that is used exclusively by pleasure craft.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

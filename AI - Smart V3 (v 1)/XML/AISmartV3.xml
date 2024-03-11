@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<CustomModOptions>
+		<Update>
+			<Where Name="AI_SMART_V3"/>
+			<Set Value="1"/>
+		</Update>
+		
+		<!-- Stops the AI from adding zero-value items (eg late game horses) into trade offers -->
+		<Update>
+			<Where Name="AI_NO_ZERO_VALUE_TRADE_ITEMS"/>
+			<Set Value="1"/>
+		</Update>
+	</CustomModOptions>
+</GameData>

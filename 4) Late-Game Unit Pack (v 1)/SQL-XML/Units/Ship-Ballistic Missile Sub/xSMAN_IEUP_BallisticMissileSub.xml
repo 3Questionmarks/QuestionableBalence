@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
+  <Units>
+		<Row>
+		  <Type>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</Type>
+		  <Description>TXT_KEY_UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</Description>
+		  <CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
+		  <Domain>DOMAIN_SEA</Domain>
+		  <Class>UNITCLASS_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</Class>
+		  <Cost>700</Cost>
+		  <AdvancedStartCost>75</AdvancedStartCost>
+		  <Combat>80</Combat>
+		  <RangedCombat>100</RangedCombat>
+		  <Range>4</Range>
+		  <RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
+		  <RangeAttackIgnoreLOS>true</RangeAttackIgnoreLOS>
+		  <IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+		  <Moves>8</Moves>
+		  <SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+		  <Strategy>TXT_KEY_UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE_STRATEGY</Strategy>
+		  <Help>TXT_KEY_UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE_HELP</Help>
+		  <Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE_PEDIA</Civilopedia>
+		  <PrereqTech>TECH_ROBOTICS</PrereqTech>
+		  <Pillage>true</Pillage>
+		  <MoveRate>SUB</MoveRate>
+		  <Mechanized>true</Mechanized>
+		  <UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitArtInfo>
+		  <IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+		  <PortraitIndex>41</PortraitIndex>
+		  <UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+		  <UnitFlagIconOffset>41</UnitFlagIconOffset>
+		  <RangedCombatLimit>100</RangedCombatLimit>
+		  <DomainCargo>DOMAIN_AIR</DomainCargo>
+		  <MilitaryProduction>true</MilitaryProduction>
+		  <MilitarySupport>true</MilitarySupport>
+		  <DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+		  <MinAreaSize>10</MinAreaSize>
+		  <XPValueAttack>5</XPValueAttack>
+		  <XPValueDefense>5</XPValueDefense>
+	 </Row>
+  </Units>
+	
+  <Unit_AITypes>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+      <UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+      <UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+    </Row>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+      <UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+    </Row>
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+		  <UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+	  </Row>
+  </Unit_AITypes>
+	
+  <Unit_Flavors>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+      <FlavorType>FLAVOR_NAVAL</FlavorType>
+      <Flavor>35</Flavor>
+    </Row>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+      <FlavorType>FLAVOR_NUKE</FlavorType>
+      <Flavor>3</Flavor>
+    </Row>
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+		  <FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+		  <Flavor>5</Flavor>
+	  </Row>
+  </Unit_Flavors>
+	
+  <Unit_FreePromotions>
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+		  <PromotionType>PROMOTION_INVISIBLE_SUBMARINE</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+		  <PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+	  </Row>
+	 <!--
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+		  <PromotionType>PROMOTION_CARGO_II</PromotionType>
+	  </Row>
+	  -->
+	 
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+		  <PromotionType>PROMOTION_SMAN_IEUP_CARGO_VIII</PromotionType>
+	  </Row>
+	 
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+		  <PromotionType>PROMOTION_CAN_MOVE_IMPASSABLE</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+		  <PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+		  <PromotionType>PROMOTION_SILENT_HUNTER</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+		  <PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+	  </Row>
+	  <Row>
+		  <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+		  <PromotionType>PROMOTION_WOLFPACK_1</PromotionType>
+	  </Row>	 
+  </Unit_FreePromotions>
+	
+  <Unit_ResourceQuantityRequirements> 
+    <Row>
+		<UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+		<ResourceType>RESOURCE_URANIUM</ResourceType>
+		<Cost>1</Cost>
+    </Row>
+  </Unit_ResourceQuantityRequirements>
+	
+ 
+	<!-- ==============================	Art Defines	============================================	-->	
+  <ArtDefine_UnitInfos>
+    <Row>
+		<Type>ART_DEF_UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</Type>
+		<DamageStates>3</DamageStates>
+		<Formation />
+	</Row>
+  </ArtDefine_UnitInfos>
+	
+  <ArtDefine_UnitInfoMemberInfos>
+    <Row>
+		<UnitInfoType>ART_DEF_UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitInfoType>
+		<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitMemberInfoType>
+		<NumMembers>1</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+
+	
+	<ArtDefine_UnitMemberInfos>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</Type>
+			<Scale>.09</Scale>
+			<Domain>Sea</Domain>
+			<Model>SMAN_IEUP_BallisticMissileSub.fxsxml</Model>
+			<ZOffset>-2</ZOffset>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+	
+	
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<!--
+			<AttackRadius>135.0</AttackRadius>
+			<MoveRate>2.2</MoveRate>
+			<TurnRateMin>0.25</TurnRateMin>
+			<TurnRateMax>0.5</TurnRateMax>
+			-->
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+
+
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>			
+			<!--
+			<ProjectileSpeed>3.0</ProjectileSpeed>
+			<HitEffect>ART_DEF_VEFFECT_FIGHTER_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
+			<HitRadius>15.0</HitRadius>
+			-->
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION1TON</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+	
+	
+	
+  <UnitGameplay2DScripts>
+    <Row>
+      <UnitType>UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitType>
+      <SelectionSound>AS2D_SELECT_NUCLEAR_SUBMARINE</SelectionSound>
+      <FirstSelectionSound>AS2D_BIRTH_NUCLEAR_SUBMARINE</FirstSelectionSound>
+    </Row>
+  </UnitGameplay2DScripts>
+  
+  <ArtDefine_StrategicView>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</StrategicViewType>
+      <TileType>Unit</TileType>
+      <Asset>sv_nuclearsubmarine.dds</Asset>
+    </Row>
+  </ArtDefine_StrategicView>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	
+
+	<!-- ==============================	Text Data	============================================	-->
+	<Language_en_US>
+    <Row Tag="TXT_KEY_UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE">
+      <Text>Ballistic Missile Submarine</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE_STRATEGY">
+      <Text>The Ballistic Missile Submarine is tougher and stronger than the normal Nuclear Submarine. It too is invisible to most units and can see other submarines. Most importantly, the Ballistic Missile Sub can carry guided missiles and nuclear missiles (up to 8). This vessel excels at carrying large numbers of missiles to rain death down on your enemies.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE_HELP">
+      <Text>Invisible to all Units except Destroyers and other Submarines, or until it attacks or is adjacent to another unit. Can carry 8 Missiles. Extremely strong vs Naval Units</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SMAN_IEUP_BALLISTIC_MISSILE_SUBMARINE_PEDIA">
+      <Text>
+		  The Ballistic Missile Submarine is an upgrade to the Nuclear Submarine and is available on the discovery of Robotics. It does not become obsolete. Requires [ICON_RES_URANIUM] Uranium.[NEWLINE][NEWLINE]The Ballistic Missile Submarine is based on the Virginia class, also known as the SSN-774 class, which is a class of nuclear-powered fast attack submarines (hull classification symbol SSN) in service with the United States Navy. The submarines are designed for a broad spectrum of open-ocean and littoral missions. They were conceived as a less expensive alternative to the Seawolf-class attack submarines, designed during the Cold War era, and they are planned to replace the older of the Los Angeles-class submarine, twenty-one of which have already been decommissioned (from a total of 62 built). The class was developed under the codename Centurion, renamed to NSSN (New SSN) later on. The "Centurion Study" was initiated in February 1991. Virginia-class submarines will be acquired through 2043, and are expected to remain in service past 2060. Based on recent updates to the designs, some of the Virginia-class submarines are expected to still be in service in 2070.
+	  </Text>
+    </Row>	 
+	  
+  </Language_en_US>
+	
+</GameData>
+

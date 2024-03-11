@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/25/2024 11:50:00 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_BLACKSMITH</Type>
+			<DefaultBuilding>BUILDING_BLACKSMITH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BLACKSMITH</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_BLACKSMITH</Type>
+			<BuildingClass>BUILDINGCLASS_BLACKSMITH</BuildingClass>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_BLACKSMITH</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BLACKSMITH_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_BLACKSMITH_HELP</Help>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>MED-REN_ICONATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ResourceQuantityRequirements>
+		<Row>
+			<BuildingType>BUILDING_BLACKSMITH</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_BLACKSMITH</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BLACKSMITH</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_BLACKSMITH</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<Modifier>10</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BLACKSMITH</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<Modifier>10</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BLACKSMITH</BuildingType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<Modifier>10</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BLACKSMITH</BuildingType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<Modifier>10</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_BLACKSMITH</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BLACKSMITH</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_BLACKSMITH">
+			<Text>Blacksmith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BLACKSMITH_HELP">
+			<Text>+10% [ICON_PRODUCTION] Production towards land units.[NEWLINE][NEWLINE]Requires 1 [ICON_RES_IRON] Iron.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BLACKSMITH_PEDIA">
+			<Text>During the Chalcolithic era and the Bronze Age, humans in the Mideast learned how to smelt, melt, cast, rivet, and (to a limited extent) forge copper and bronze. Bronze is an alloy of copper and approximately 10% to 20% Tin. Bronze is superior to just copper, by being harder, being more resistant to corrosion, and by having a lower melting point (thereby requiring less fuel to melt and cast). Much of the copper used by the Mediterranean World came from the island of Cyprus. Most of the tin came from the Cornwall region of the island of Great Britain, transported by sea-borne Phoenician and Greek traders.[NEWLINE][NEWLINE]Concurrent with the advent of alphabetic characters in the Iron Age, humans became aware of the metal iron. In earlier ages, iron's qualities, in contrast to those of bronze, were not generally understood though. Iron artifacts, composed of meteoric iron, have the chemical composition containing up to 40% nickel. As this source of this iron is extremely rare and fortuitous, little development of smithing skills peculiar to iron can be assumed to have occurred.[NEWLINE][NEWLINE]In the medieval period, blacksmithing was considered part of the set of seven mechanical arts. Prior to the industrial revolution, a "village smithy" was a staple of every town. Factories and mass-production reduced the demand for blacksmith-made tools and hardware.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

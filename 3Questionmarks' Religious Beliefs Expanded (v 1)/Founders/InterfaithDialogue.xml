@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/22/2020 3:59:38 PM -->
+<GameData>
+	<!-- Interfaith Dialogue -->
+	<Beliefs>
+		<Update>
+			<Where Type="BELIEF_INTERFAITH_DIALOGUE" />
+			<Set SciencePerOtherReligionFollower="20" />
+		</Update>
+	</Beliefs>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_INTERFAITH_DIALOGUE" />
+			<Set Text="Gain [ICON_RESEARCH] Science when a [ICON_MISSIONARY] Missionary spreads this [ICON_RELIGION] Religion to cities of other [ICON_RELIGION] Religions per follower converted." />
+		</Update>
+	</Language_en_US>
+</GameData>

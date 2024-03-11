@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 04/06/18 11:51:51 AM -->
+<GameData>
+		
+	<Units>
+		<Replace>
+			<Class>UNITCLASS_MECH</Class>
+			<Type>UNIT_MECH</Type>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<Combat>150</Combat>
+			<Cost>700</Cost>
+			<Moves>4</Moves>
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_MECH</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_MECH_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MECH_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_MECH</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>80</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_MECH</UnitArtInfo>
+			<UnitFlagAtlas>UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>83</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>36</PortraitIndex>
+			<MoveRate>ROBOT</MoveRate>
+		</Replace>	
+		
+	</Units>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_APOCALYPSE_CLASS</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<!--
+	<Unit_ResourceQuantityRequirements>	
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>	
+	</Unit_ResourceQuantityRequirements>
+	-->
+
+	<Language_en_US>
+		
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_MECH"/>
+			<Set Text="Apocalypse Class"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIVILOPEDIA_UNITS_MODERN_MECH_TEXT"/>
+			<Set Text="The Apocalypse Class is the ultimate battle machine of the future and the toughest unit in the game, capable of attacking anything with ease.[NEWLINE][NEWLINE]The Apocalypse Class takes enormous resources to build."/>
+		</Update>
+		<!--<Update>
+			<Where Tag="TXT_KEY_UNIT_MECH_STRATEGY"/>
+			<Set>
+				<Text/>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_MECH"/>
+			<Set Text="Doesn't benefit from defensive terrain bonuses, but is otherwise stronger than any other military unit in the game.[NEWLINE][NEWLINE]Capable of carrying up to 2 missiles. Requires [ICON_RES_URANIUM] Uranium."/>
+		</Update>
+		
+		
+		
+		
+		
+	</Language_en_US>
+
+</GameData>

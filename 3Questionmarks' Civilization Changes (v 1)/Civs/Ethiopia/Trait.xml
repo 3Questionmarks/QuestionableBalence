@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 2:16:35 PM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set CombatBonusVsLargerCiv="25" />
+			<Where Type="TRAIT_BONUS_AGAINST_TECH" />
+		</Update>
+		<Update>
+			<Set CombatBonusVsHigherTech="25" />
+			<Where Type="TRAIT_BONUS_AGAINST_TECH" />
+		</Update>
+	</Traits>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_BONUS_AGAINST_TECH" />
+			<Set Text="+25% [ICON_STRENGTH] Combat Strength when fighting units from a Civilization with more Cities than Ethiopia. +25% [ICON_STRENGTH] Combat Strength when fighting units from a Civilization with more Technology than Ethiopia."/>
+		</Update>
+	</Language_en_US>    
+</GameData>

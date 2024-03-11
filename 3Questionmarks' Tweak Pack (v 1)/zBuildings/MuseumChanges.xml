@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 3:20:29 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set GoldMaintenance="2" CultureRateModifier="15" Help="TXT_KEY_BUILDING_MUSEUM_HELP" />
+			<Where Type="BUILDING_MUSEUM" />
+		</Update>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Update>
+			<Set BuildingClassType="BUILDINGCLASS_AMPHITHEATER" />
+			<Where BuildingType="BUILDING_MUSEUM" />
+		</Update>
+	</Building_ClassesNeededInCity>
+	<Building_YieldChanges>
+		<Update>
+			<Set Yield="2" />
+			<Where BuildingType="BUILDING_MUSEUM" YieldType="YIELD_CULTURE" />
+		</Update>
+	</Building_YieldChanges>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_MUSEUM_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_MUSEUM_HELP">
+			<Text>+15% [ICON_CULTURE] Culture in this City.[NEWLINE][NEWLINE]City must have an Amphitheater.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

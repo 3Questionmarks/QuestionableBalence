@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/09/16 1:41:25 PM -->
+<GameData>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>SMAN_IEUP_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>InfoEraUnitPackAtlas032.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_IEUP_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>InfoEraUnitPackAtlas045.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_IEUP_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>InfoEraUnitPackAtlas064.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_IEUP_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>InfoEraUnitPackAtlas080.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_IEUP_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>InfoEraUnitPackAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_IEUP_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>InfoEraUnitPackAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>		
+
+		
+		<!--		TCS Unit/Building Icons			-->
+		<!--
+		<Row>
+			<Atlas>SMAN_IEUP_ATLAS_2</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>SMAN_Icon_Atlas_2_256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_IEUP_ATLAS_2</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>SMAN_Icon_Atlas_2_128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_IEUP_ATLAS_2</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>SMAN_Icon_Atlas_2_080.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_IEUP_ATLAS_2</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>SMAN_Icon_Atlas_2_064.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_IEUP_ATLAS_2</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>SMAN_Icon_Atlas_2_045.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMAN_IEUP_ATLAS_2</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>SMAN_Icon_Atlas_2_032.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+
+		-->
+
+		
+		<!--		Flag Icons			-->
+		<Row>
+			<Atlas>SMAN_IEUP_FLAG_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>InfoEraUnitPackFlagAtlas032.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		
+
+	</IconTextureAtlases>
+
+</GameData>

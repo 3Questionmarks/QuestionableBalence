@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:39:35 PM -->
+<GameData>
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_MAYAN_ATLATLIST" />
+		<Row>
+			<UnitType>UNIT_MAYAN_ATLATLIST</UnitType>
+			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_MAYAN_ATLATLIST" />
+			<Set Combat="7" />
+		</Update>
+	</Units>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST"/>
+			<Set Text="The Atlatlist is the Mayan unique unit, replacing the Archer. Atlatlists are both cheaper than a traditional Archer, and available earlier without having to research Archery. They can also shoot over terrain obstacles and perform a melee attack."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GAME_INFO_MAYAN_ATLATLIST"/>
+			<Set Text="The Atlatlist is the Mayan unique unit, replacing the Archer. Atlatlists are both cheaper than a traditional Archer, and available earlier without having to research Archery. They can also shoot over terrain obstacles and perform a melee attack."/>
+		</Update>
+	</Language_en_US>
+</GameData>

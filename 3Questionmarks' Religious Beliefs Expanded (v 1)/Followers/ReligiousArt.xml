@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/20/2018 9:36:12 AM -->
+<GameData>
+
+	<Belief_BuildingClassYieldChanges>
+		<Delete BeliefType="BELIEF_RELIGIOUS_ART" />
+	</Belief_BuildingClassYieldChanges>
+
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_WRITERS_GUILD</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_ARTISTS_GUILD</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_WRITERS_GUILD</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_ARTISTS_GUILD</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>5</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+
+	<Belief_BuildingClassTourism>
+		<Delete BeliefType="BELIEF_RELIGIOUS_ART" />
+	</Belief_BuildingClassTourism>
+
+	<Belief_BuildingClassTourism>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_WRITERS_GUILD</BuildingClassType>
+			<Tourism>5</Tourism>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_ARTISTS_GUILD</BuildingClassType>
+			<Tourism>5</Tourism>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_ART</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
+			<Tourism>5</Tourism>
+		</Row>
+	</Belief_BuildingClassTourism>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_ART" />
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_ART">
+			<Text>+5 [ICON_CULTURE] Culture, +5 [ICON_PEACE] Faith, and +5 [ICON_TOURISM] Tourism from Guilds. Gain [ICON_GOLDEN_AGE] Golden Age points whenever a [ICON_GREAT_ARTIST] Great Artist, [ICON_GREAT_MUSICIAN] Musician or [ICON_GREAT_WRITER] Writer is born in a city following this [ICON_RELIGION] Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGIOUS_ART_HEADER">
+			<Text>Religious Art</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGIOUS_ART_BODY">
+			<Text>+{@2bonus} [ICON_GOLDEN_AGE] Golden Age points {@1unit_name}.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

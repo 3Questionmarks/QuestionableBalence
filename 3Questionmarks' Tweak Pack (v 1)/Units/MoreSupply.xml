@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/25/2020 4:25:03 PM -->
+<GameData>
+	<!-- More Supply -->
+	<HandicapInfos>
+		<Update>
+			<Where type="HANDICAP_SETTLER" />
+			<Set ProductionFreeUnitsPopulationPercent="75" ProductionFreeUnitsPerCity="3" />
+		</Update>
+		<Update>
+			<Where type="HANDICAP_CHIEFTAIN" />
+			<Set ProductionFreeUnitsPopulationPercent="75" ProductionFreeUnitsPerCity="3" />
+		</Update>
+		<Update>
+			<Where type="HANDICAP_WARLORD" />
+			<Set ProductionFreeUnitsPopulationPercent="75" ProductionFreeUnitsPerCity="3" />
+		</Update>
+		<Update>
+			<Where type="HANDICAP_PRINCE" />
+			<Set ProductionFreeUnitsPopulationPercent="75" ProductionFreeUnitsPerCity="3" />
+		</Update>
+		<Update>
+			<Where type="HANDICAP_KING" />
+			<Set ProductionFreeUnitsPopulationPercent="75" ProductionFreeUnitsPerCity="3" />
+		</Update>
+		<Update>
+			<Where type="HANDICAP_EMPEROR" />
+			<Set ProductionFreeUnitsPopulationPercent="75" ProductionFreeUnitsPerCity="3" />
+		</Update>
+		<Update>
+			<Where type="HANDICAP_IMMORTAL" />
+			<Set ProductionFreeUnitsPopulationPercent="75" ProductionFreeUnitsPerCity="3" />
+		</Update>
+		<Update>
+			<Where type="HANDICAP_DEITY" />
+			<Set ProductionFreeUnitsPopulationPercent="75" ProductionFreeUnitsPerCity="3" />
+		</Update>
+	</HandicapInfos>
+</GameData>

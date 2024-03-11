@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/5/2024 8:15:56 PM -->
+<GameData>
+	<!-- Public School Moved to Ecomomics (Chemist replaces it at Sceintific Theory) -->
+	<Buildings>
+		<Update>
+			<Set PrereqTech="TECH_ECONOMICS" />
+			<Where Type="BUILDING_PUBLIC_SCHOOL" />
+		</Update>
+	</Buildings>
+	<Building_YieldChangesPerPop>
+		<Update>
+			<Set Yield="100" />
+			<Where Type="BUILDING_PUBLIC_SCHOOL" />
+		</Update>
+	</Building_YieldChangesPerPop>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_PUBLIC_SCHOOL_HELP"/>
+		<Row Tag="TXT_KEY_BUILDING_PUBLIC_SCHOOL_HELP">
+			<Text>+1 [ICON_RESEARCH] Science for every [ICON_CITIZEN] Citizen in this City.[NEWLINE][NEWLINE]City must have a University.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

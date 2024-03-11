@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/5/2024 6:37:08 PM -->
+<GameData>
+	<!-- THEN THE WINGED HUSSARS ARIVED!!! (to ruin your day) -->
+	<Units>
+		<Update>
+			<Set Combat="32" Moves="4"/>
+			<Where Type="UNIT_POLISH_WINGED_HUSSAR" />
+		</Update>
+	</Units>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_POLISH_WINGED_HUSSAR</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Delete>
+			<UnitType>UNIT_POLISH_WINGED_HUSSAR</UnitType>
+			<PromotionType>PROMOTION_FORMATION_1</PromotionType>
+		</Delete>
+	</Unit_FreePromotions>
+
+</GameData>

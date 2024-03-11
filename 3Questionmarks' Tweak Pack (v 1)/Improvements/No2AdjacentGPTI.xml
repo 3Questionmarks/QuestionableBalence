@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/4/2024 5:47:36 PM -->
+<GameData>
+	<Improvements>
+		<Update>
+			<Where Type="IMPROVEMENT_MANUFACTORY" />
+			<Set NoTwoAdjacent="true" />
+		</Update>
+	</Improvements>
+	<Improvements>
+		<Update>
+			<Where Type="IMPROVEMENT_CUSTOMS_HOUSE" />
+			<Set NoTwoAdjacent="true" />
+		</Update>
+	</Improvements>
+	<Improvements>
+		<Update>
+			<Where Type="IMPROVEMENT_HOLY_SITE" />
+			<Set NoTwoAdjacent="true" />
+		</Update>
+	</Improvements>
+	<Improvements>
+		<Update>
+			<Where Type="IMPROVEMENT_ACADEMY" />
+			<Set NoTwoAdjacent="true" />
+		</Update>
+	</Improvements>
+  
+</GameData>

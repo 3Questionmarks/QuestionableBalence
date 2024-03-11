@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/20/2020 2:54:18 PM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set NaturalWonderSubsequentFinderGold="300" NaturalWonderFirstFinderGold="300"/>
+			<Where Type="TRAIT_SEVEN_CITIES" />
+		</Update>
+	</Traits>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_SEVEN_CITIES" />
+		<Row Tag="TXT_KEY_TRAIT_SEVEN_CITIES">
+			<Text>Gain 300 [ICON_GOLD] Gold when you discover a Natural Wonder. [ICON_HAPPINESS_1] Happiness and tile yields from Natural Wonders are doubled.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

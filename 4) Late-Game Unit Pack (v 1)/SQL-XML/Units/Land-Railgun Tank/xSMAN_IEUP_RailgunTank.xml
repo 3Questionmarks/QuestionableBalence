@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_RAILGUN_TANK</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_TANK</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_RAILGUN_TANK</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_IEUP_RAILGUN_TANK</Class>
+			<Type>UNIT_SMAN_IEUP_RAILGUN_TANK</Type>
+			<Combat>125</Combat>
+			<RangedCombat>140</RangedCombat>
+			<Cost>650</Cost>			
+			<Moves>6</Moves>
+			<Range>2</Range>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<ObsoleteTech></ObsoleteTech>
+			
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_TANK</Description>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_TANK_HELP</Help>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_TANK_STRATEGY</Strategy>			
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_TANK_PEDIA</Civilopedia>
+
+			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>			
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<GoodyHutUpgradeUnitClass></GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>75</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>			
+			<MoveRate>WHEELED</MoveRate>
+			
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_RAILGUN_TANK</UnitArtInfo>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>21</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>21</UnitFlagIconOffset>
+			
+		</Row>
+	</Units>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_RAILGUN_TANK</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_RAILGUN_TANK</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	
+	<!--
+	<Unit_BuildingClassRequireds>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_TANK</UnitType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+		</Row>
+	</Unit_BuildingClassRequireds>
+	-->
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_TANK</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_TANK</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_TANK</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>		
+	</Unit_ResourceQuantityRequirements>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_TANK</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_TANK</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_TANK</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_TANK</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_TANK</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_RAILGUN_TANK</UnitType>
+			<SelectionSound>AS2D_SELECT_TANK</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_TANK</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_TANK">
+			<Text>Railgun Armor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_TANK_HELP">
+			<Text>Futuristic Armor unit, capable of both a melee and ranged attack. May move after attacking. Requires [ICON_RES_URANIUM] Uranium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_TANK_STRATEGY">
+			<Text>Use Railgun Armor to punch through enemy defenses, and exploit any weaknesses you find.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_RAILGUN_TANK_PEDIA">
+			<Text>
+				Railgun Armor is an Information Era mobile unit, available when the civilization discovers the Nuclear Fusion. It may move after attacking, but receives no defensive bonus from terrain. The Railgun Armor unit does not become obsolete by game end. Requires [ICON_RES_URANIUM] Uranium.
+			</Text>
+		</Row>
+	</Language_en_US>	
+	
+</GameData>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- Temples provide +1 Happiness and +1 Production -->
+	<Beliefs>
+		<Update>
+			<Set MinFollowers="0" />
+			<Where Type="BELIEF_RELIGIOUS_CENTER" />
+		</Update>
+	</Beliefs>
+	<Belief_BuildingClassYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_CENTER</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_CENTER</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_CENTER</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_CENTER</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+	<Belief_BuildingClassHappiness>
+		<Update>
+			<Set Happiness="3" />
+			<Where BeliefType="BELIEF_RELIGIOUS_CENTER" BuildingClassType="BUILDINGCLASS_TEMPLE" />
+		</Update>
+		<Update>
+			<Set Happiness="3" />
+			<Where BeliefType="BELIEF_RELIGIOUS_CENTER" BuildingClassType="BUILDINGCLASS_SHRINE" />
+		</Update>
+	</Belief_BuildingClassHappiness>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_CENTER" />
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_CENTER">
+			<Text>+3 [ICON_PRODUCTION] Production, +3 [ICON_GOLD] Gold, and +3 [ICON_HAPPINESS_1] Happiness from Shrines and Temples.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

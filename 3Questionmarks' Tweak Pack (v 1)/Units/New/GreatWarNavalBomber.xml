@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/9/2020 8:07:19 AM -->
+<GameData>
+	<!-- Naval Bomber -->
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_WWI_NAVAL_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_WWI_NAVAL_BOMBER</Description>
+			<DefaultUnit>UNIT_WWI_NAVAL_BOMBER</DefaultUnit>
+		</Row>
+	</UnitClasses>
+	<Units>
+		<Row>
+			<Type>UNIT_WWI_NAVAL_BOMBER</Type>
+			<Description>TXT_KEY_UNIT_WWI_NAVAL_BOMBER</Description>
+			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
+			<Domain>DOMAIN_AIR</Domain>
+			<Special>SPECIALUNIT_FIGHTER</Special>
+			<Class>UNITCLASS_WWI_NAVAL_BOMBER</Class>
+			<Cost>350</Cost>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<RangedCombat>50</RangedCombat>
+			<Range>6</Range>
+			<Moves>2</Moves>
+			<Immobile>true</Immobile>
+			<Strategy>TXT_KEY_UNIT_WWI_NAVAL_BOMBER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_WWI_NAVAL_BOMBER</Help>
+			<Civilopedia>TXT_KEY_CIV5_NAVAL_BOMBER_TEXT</Civilopedia>
+			<PrereqTech>TECH_FLIGHT</PrereqTech>
+			<ObsoleteTech>TECH_RADAR</ObsoleteTech>
+			<Pillage>false</Pillage>
+			<MoveRate>AIR_REBASE</MoveRate>
+			<Mechanized>true</Mechanized>
+			<RangedCombatLimit>100</RangedCombatLimit>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<AirUnitCap>1</AirUnitCap>
+			<MilitaryProduction>true</MilitaryProduction>
+			<MilitarySupport>true</MilitarySupport>
+			<DefaultUnitAI>UNITAI_ATTACK_AIR</DefaultUnitAI>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_RECON_PLANE</UnitArtInfo>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>4</UnitFlagIconOffset>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_WWI_NAVAL_BOMBER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_AIR</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_WWI_NAVAL_BOMBER</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_NAVAL_BOMBER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_NAVAL_BOMBER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>13</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_WWI_NAVAL_BOMBER</UnitType>
+			<PromotionType>PROMOTION_ONLY_DEFENSE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WWI_NAVAL_BOMBER</UnitType>
+			<PromotionType>PROMOTION_NAVAL_BOMBER</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_WWI_NAVAL_BOMBER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_WWI_NAVAL_BOMBER</UnitType>
+			<UnitClassType>UNITCLASS_NAVAL_BOMBER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_WWI_NAVAL_BOMBER">
+			<Text>Great War Naval Bomber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_WWI_NAVAL_BOMBER">
+			<Text>Early Air Unit that can bombard enemy ships from the skies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WWI_NAVAL_BOMBER_STRATEGY">
+			<Text>The Great War Naval Bomber is a specilised vertion of the great war bomber. It is designed to sink naval units and convys from the skies, however it doesn't fair well in bombing cities and units, and it's quite vulnerable to enemy aircraft. The Great War Naval Bomber can be based on a player-owned city or aboard a carrier. It can move from base to base and perform missions within its range of "6." Use it to sink enemy boats that stray too close to your shoars or to sink navies from afar. When possible, send in triplanes or fighters first to "use up" the enemy's anti-aircraft defenses for that turn. See the rules on Aircraft for more information.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

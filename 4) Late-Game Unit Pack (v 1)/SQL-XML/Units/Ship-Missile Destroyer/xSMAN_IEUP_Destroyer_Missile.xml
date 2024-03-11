@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 07/01/17 9:32:00 AM -->
+<GameData>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_SMAN_IEUP_DESTROYER_MISSILE</Type>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_DESTROYER_MISSILE</Description>
+			<DefaultUnit>UNIT_SMAN_IEUP_DESTROYER_MISSILE</DefaultUnit>
+		</Row>	
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_SMAN_IEUP_DESTROYER_MISSILE</Class>
+			<Type>UNIT_SMAN_IEUP_DESTROYER_MISSILE</Type>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+			<Combat>80</Combat>
+			<Cost>425</Cost>
+			<Moves>8</Moves>
+			<AirInterceptRange>3</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SMAN_IEUP_DESTROYER_MISSILE</Description>
+			<Civilopedia>TXT_KEY_UNIT_SMAN_IEUP_DESTROYER_MISSILE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SMAN_IEUP_DESTROYER_MISSILE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SMAN_IEUP_DESTROYER_MISSILE_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<Mechanized>true</Mechanized>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
+			<DomainCargo>DOMAIN_AIR</DomainCargo>
+			<UnitArtInfo>ART_DEF_UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitArtInfo>
+			<IconAtlas>SMAN_IEUP_ATLAS</IconAtlas>
+			<PortraitIndex>43</PortraitIndex>
+			<UnitFlagAtlas>SMAN_IEUP_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>43</UnitFlagIconOffset>
+			<MoveRate>BOAT</MoveRate>
+		</Row>		
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>		
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<PromotionType>PROMOTION_SMAN_IEUP_CARGO_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<PromotionType>PROMOTION_INTERCEPTION_IV</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_SMAN_IEUP_DESTROYER_MISSILE</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_DESTROYER_MISSILE</UnitClassType>
+			<UnitType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<UnitClassType>UNITCLASS_SMAN_IEUP_DESTROYER_MISSILE</UnitClassType>
+			<UnitType/>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_DESTROYER_MISSILE">
+			<Text>Missile Destroyer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_DESTROYER_MISSILE_STRATEGY">
+			<Text>The Missile Destroyer is a fast naval melee attack unit designed to hunt down submarines and to provide anti-aircraft support. It often operates as an escort to embarked units, Battleships and Carriers when in range of enemy planes and subs.  It is quick, having a good chance to withdraw to the rear before an enemy naval melee attack can occur.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_DESTROYER_MISSILE_HELP">
+			<Text>The Missile Destroyer is a fast ship, highly effective at recon, and specialized at hunting down submarines and intercepting aircraft. Fights as a naval melee unit. Can hold 1 Missile. Requires [ICON_RES_OIL] Oil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMAN_IEUP_DESTROYER_MISSILE_PEDIA">
+			<Text>
+				The Missile Destroyer is an upgrade from the Destroyer unit, and is available on the discovery of Advanced Ballistics. It does not become obsolete. It can carry 1 missile. Requires [ICON_RES_OIL] Oil.[NEWLINE][NEWLINE]A Missile Destroyer is a larger, tougher Destroyer capable of carrying missiles. Like the Destroyer, but more so, it is specialized at hunting submarines and intercepting aircraft attempting to attack the larger ships it often escorts.
+			</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

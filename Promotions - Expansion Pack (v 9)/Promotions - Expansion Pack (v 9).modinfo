@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0d764575-8028-4350-a363-c1ffb88b6a9a" version="9">
+  <Properties>
+    <Name>Promotions - Expansion Pack</Name>
+    <Teaser>This mod add new promotions choices when leveling your units and also change the promotion tree system slightly.</Teaser>
+    <Description>This mod add new promotions choices when leveling your units and also change the promotion tree system slightly to improve customization possibilities.</Description>
+    <Authors>Bloublou</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="4B019768A27CF59ADC20060ECAB9E0A9" import="0">PEP - INIT.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>PEP - INIT.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

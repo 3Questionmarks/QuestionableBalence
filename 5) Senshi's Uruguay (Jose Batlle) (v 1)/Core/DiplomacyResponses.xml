@@ -1,0 +1,28 @@
+<GameData>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_SENSHI_BATLLE">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SENSHI_BATLLE_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SENSHI_BATLLE">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SENSHI_BATLLE_DEFEATED%</Response>
+		</Row>
+	</Diplomacy_Responses>
+	<Language_en_US>
+		<!--General phrases -->
+		<!--Greeting (first time meeting) -->
+		<Row Tag="TXT_KEY_LEADER_SENSHI_BATLLE_FIRSTGREETING_1">
+			<Text>Greetings. All are welcome here in our peaceful little country.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SENSHI_BATLLE_FIRSTGREETING_2">
+			<Text>I bid you welcome to Uruguay. Perhaps you'd like to join us for an asado?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SENSHI_BATLLE_DEFEATED_1">
+			<Text>What a shame. I'd have preferred it if you didn't do that.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_SENSHI_URUGUAY_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now eating your beef and playing your football. I worry the rest of the world will soon succumb to the sheer force of your culture - or, failing that, your midfielders.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/19/2014 4:11:55 AM -->
+<GameData>
+	<Defines>
+		<Update>
+			<Set Value="6"/>
+			<Where Name="RECON_VISIBILITY_RANGE"/>
+		</Update>
+	</Defines>
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_STEALTH_BOMBER" PromotionType="PROMOTION_AIR_RECON"/>
+	</Unit_FreePromotions>
+	<Language_en_US>
+		<Update>
+			<Set Text="The Stealth Bomber is an upgraded bomber, possessing increased range, a greater Ranged Combat Strength, and an increased ability to avoid enemy anti-aircraft and fighters. Note that Stealth Bombers cannot be transported aboard Carriers. See the rules on Aircraft for more information."/>
+			<Where Tag="TXT_KEY_UNIT_STEALTH_BOMBER_STRATEGY"/>
+		</Update>
+		<Update>
+			<Set Text="The Jet Fighter is a powerful air unit. It can be based in any city you own or aboard an aircraft carrier. It can move from base to base and can perform missions within its range of 10. Use Jet Fighters to attack enemy aircraft and ground units, to scout enemy positions, and to defend against enemy air attacks. Jet Fighters are especially effective against enemy helicopters. The Jet Fighter has the air recon ability. See the rules on Aircraft for more information."/>
+			<Where Tag="TXT_KEY_UNIT_JET_FIGHTER_STRATEGY"/>
+		</Update>
+		<Update>
+			<Set Text="Triplanes, fighters, and jet fighters have a special recon ability. At the start of their turn, everything within 3 tiles of their base is visible. By performing an air sweep, this area of visibility can be moved anywhere within range of the aircraft. Anything spotted by the aircraft during the recon mission will remain visible for the remainder of the turn."/>
+			<Where Tag="TXT_KEY_AIRPOWER_RECON_HEADING2_BODY"/>
+		</Update>
+		<Update>
+			<Set Text="When performing an air sweep, the aircraft will provide sight of the area near the sweep, and will draw out enemy interceptors."/>
+			<Where Tag="TXT_KEY_AIRPOWER_AIRSWEEP_HEADING3_BODY"/>
+		</Update>
+		<Update>
+			<Set Text="Can Air Sweep to provide reconnaissance and clear intercepting Units."/>
+			<Where Tag="TXT_KEY_PROMOTION_AIR_SWEEP_HELP"/>
+		</Update>
+	</Language_en_US>
+</GameData>

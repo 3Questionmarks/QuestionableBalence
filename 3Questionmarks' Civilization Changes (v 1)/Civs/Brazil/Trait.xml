@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/20/2016 12:05:35 AM -->
+<GameData>
+	<Traits>
+		<Update>
+			<Set GoldenAgeGreatArtistRateModifier="100" />
+			<Where Type="TRAIT_CARNIVAL" />
+		</Update>
+        <Update>
+			<Set GoldenAgeGreatMusicianRateModifier="100" />
+			<Where Type="TRAIT_CARNIVAL" />
+		</Update>
+        <Update>
+			<Set GoldenAgeGreatWriterRateModifier="100" />
+			<Where Type="TRAIT_CARNIVAL" />
+		</Update>
+        <Update>
+			<Set GoldenAgeDurationModifier="25" />
+			<Where Type="TRAIT_CARNIVAL" />
+		</Update>
+	</Traits>
+	    
+    <Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_CARNIVAL" />
+			<Set Text="[ICON_TOURISM] Tourism output is +100% during their [ICON_GOLDEN_AGE] Golden Ages. Earn [ICON_GREAT_ARTIST] Great Artists, [ICON_GREAT_MUSICIAN] Musicians, and [ICON_GREAT_WRITER] Writers 100% faster during their [ICON_GOLDEN_AGE] Golden Ages and [ICON_GOLDEN_AGE] Golden Ages last 25% longer."/>
+		</Update>
+	</Language_en_US>
+
+</GameData>
