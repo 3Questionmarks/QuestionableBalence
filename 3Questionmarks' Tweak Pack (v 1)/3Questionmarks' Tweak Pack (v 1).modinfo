@@ -609,7 +609,7 @@
     <File md5="D9257BBAD9299935BEE3C22850C0BF84" import="0">Tech/NoTechTreeBeelining.lua</File>
     <File md5="3044012A0EAF3DBE32F322D2BFEBCE34" import="0">Tech/SlowerTech.xml</File>
     <File md5="6EA22B763DB6524578F789A0AE0C3CE2" import="0">Tech/TechTextChanges.xml</File>
-    <File md5="7A1B021F85C3E965A753D59F3C5651DF" import="0">Terrain/BadTilesTweak.xml</File>
+    <File md5="A53A6FCE8D3FEF0FCCC3F69521CE6E36" import="0">Terrain/BadTilesTweak.xml</File>
     <File md5="967D0721E44BD4B09B5249EEDB178391" import="0">Terrain/chopjungle.sql</File>
     <File md5="5AE865C8E270D4AB1C5A25A3B6F5B937" import="0">Terrain/CopperBuff.xml</File>
     <File md5="25D0744DE8F298AAEDADE7DD87C9EBBB" import="1">Terrain/New/ART/ForestAtlas256.dds</File>

@@ -60,11 +60,11 @@
 		</Row>
 	</Improvement_ValidTerrains>
 
-	<Language_en_US>
+	<!--Language_en_US>
 		<Update>
 			<Set Text="When worked by cities, tiles adjacent to rivers receive a bonus of 1 gold. Further, rivers are sources of fresh water, allowing the construction of farms on adjacent hills, tundra and snow tiles. Farms next to fresh water receive an additional +1 food when the Civil Service technology is researched. Units expend all of their movement points when crossing rivers. This is true even if the tiles are connected by roads, until the civilization learns the Engineering technology. Finally, units receive a -20% penalty when they are attacking across a river." />
 			<Where Tag="TXT_KEY_CIV5_FEATURES_RIVER_TEXT" />
 		</Update>
-	</Language_en_US>
+	</Language_en_US-->
 
 </GameData>

@@ -7,10 +7,12 @@
 		<Where Type="UNIT_ROMAN_LEGION" />
 	</Units>
 	<Unit_ClassUpgrades>
-		<Row>
-			<UnitType>UNIT_ROMAN_LEGION</UnitType>
-			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
-		</Row>
+		<Update>
+			<Set>
+				<UnitType>UNIT_ROMAN_LEGION</UnitType>
+				<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+			</Set>
+		</Update>
 	</Unit_ClassUpgrades>
 	<Unit_FreePromotions>
 		<Row>
