@@ -14,7 +14,11 @@ pLumberYardTable[3] = GameInfoTypes["BUILDING_LUMBER_YARD_THIRD"]
 pLumberYardTable[4] = GameInfoTypes["BUILDING_LUMBER_YARD_FOURTH"]
 pLumberYardTable[5] = GameInfoTypes["BUILDING_LUMBER_YARD_FIFTH"]
 pLumberYardTable[6] = GameInfoTypes["BUILDING_LUMBER_YARD_SIXTH"]
-local iLumberYardTableLength = 7
+pLumberYardTable[7] = GameInfoTypes["BUILDING_LUMBER_YARD_SEVENTH"]
+pLumberYardTable[8] = GameInfoTypes["BUILDING_LUMBER_YARD_EIGHTH"]
+pLumberYardTable[9] = GameInfoTypes["BUILDING_LUMBER_YARD_NINETH"]
+pLumberYardTable[10] = GameInfoTypes["BUILDING_LUMBER_YARD_TENTH"]
+local iLumberYardTableLength = 11
 
 local iFeatureForest = GameInfoTypes.FEATURE_FOREST
 local iFeatureJungle = GameInfoTypes.FEATURE_JUNGLE

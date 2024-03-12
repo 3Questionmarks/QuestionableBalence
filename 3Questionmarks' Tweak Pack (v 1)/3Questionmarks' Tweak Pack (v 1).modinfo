@@ -585,8 +585,8 @@
     <File md5="527B861C9603E4F7C9D46F64886EF608" import="1">NewResources/Hardwood/ART/HardwoodmodIconAtlas45.dds</File>
     <File md5="842EC97EE582C63852B9D68DC48207D4" import="1">NewResources/Hardwood/ART/HardwoodmodIconAtlas64.dds</File>
     <File md5="E2C627385A86952B138EDBACF3230163" import="1">NewResources/Hardwood/ART/HardwoodmodIconAtlas80.dds</File>
-    <File md5="C9C03DD0CF1EE6886F18E9189EE17089" import="0">NewResources/Hardwood/Buildings.xml</File>
-    <File md5="3C5AB1D75EDAEC3639572B3C52268C0C" import="0">NewResources/Hardwood/Hardwood.lua</File>
+    <File md5="AF5F68CB92B2598A5C37B6A888EA24AA" import="0">NewResources/Hardwood/Buildings.xml</File>
+    <File md5="2F9171FE01A25613806921C167E3AE9E" import="0">NewResources/Hardwood/Hardwood.lua</File>
     <File md5="ECF1DC06E18BA39C1A4638474971C876" import="0">NewResources/Hardwood/Resources.xml</File>
     <File md5="73E9BBE5BF3D75F5E2B994E56CCF7AAD" import="0">NewResources/Hardwood/Text.xml</File>
     <File md5="B321ACD3AD39F84768CB11DD3ABCDCC3" import="0">NewResources/Hardwood/Unit.xml</File>
