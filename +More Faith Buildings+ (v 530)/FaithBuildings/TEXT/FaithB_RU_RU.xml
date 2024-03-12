@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/10/2021 2:33:54 -->
+<GameData>
+	<Language_RU_RU>
+<!--===============================================================-->
+<!--===== Faith Building Updates ==================================-->
+<!--===============================================================-->
+<!-- Monasteries -->
+		<Replace Tag="TXT_KEY_GAIA_BUILDING_MONASTERY_HELP">
+			<Text>Каждый ресурс роскоши, обрабатываемый городом, производит +1 [ICON_PEACE] веру.[NEWLINE][NEWLINE]Требуется [COLOR_CYAN]Набожность[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GAIA_BUILDING_MONASTERY_STRATEGY">
+			<Text>Монастыри увеличивают [ICON_PEACE] веру, [ICON_FOOD] пищу и [ICON_RESEARCH] науку в городе.</Text>
+		</Replace>
+<!--Cathedral-->
+		<Replace Tag="TXT_KEY_BUILDING_CATHEDRAL_HELP">
+			<Text>Повышает религиозное [ICON_RELIGION] давление этого города на 20% и увеличивает сопротивление к его обращению на 10%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_CATHEDRAL_STRATEGY">
+			<Text>Может быть построено только в городах, исповедующих религию с верованием, позволяющим строить Соборы. Получите это здание, купив его за [ICON_PEACE] веру.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_CATHEDRAL_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] настроение[NEWLINE]+1 [ICON_PEACE] вера[NEWLINE]+2 [ICON_CULTURE] культуры[NEWLINE]+1 [ICON_GOLD] золото[NEWLINE]1 [ICON_GREAT_WORK] ячейка для музыкального произведения[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_CATHEDRAL_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_CATHEDRALS">
+			<Text>Покупка Соборов за очки [ICON_PEACE] веры (+1 [ICON_HAPPINESS_1] настроение, +1 [ICON_PEACE] вера, +2 [ICON_CULTURE] культуры, +1 [ICON_GOLD] золото, 1 [ICON_GREAT_WORK] ячейка для музыкального произведения)</Text>
+		</Replace>
+<!--Mosque-->
+		<Replace Tag="TXT_KEY_BUILDING_MOSQUE_HELP">
+			<Text>Усиление [ICON_RELIGION] религиозного давления города на 20%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MOSQUE_STRATEGY">
+			<Text>Может быть построено только в городах, исповедующих религию с верованием, позволяющим строить Мечети. Получите это здание, купив его за [ICON_PEACE] веру.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_MOSQUE_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] настроение[NEWLINE]+2 [ICON_PEACE] веры[NEWLINE]+1 [ICON_CULTURE] культура[NEWLINE]+1 [ICON_RESEARCH] наука[NEWLINE]1 [ICON_GREAT_ENGINEER] место для инженера[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_MOSQUE_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_MOSQUES">
+			<Text>Покупка мечетей за очки [ICON_PEACE] веры (+1 [ICON_HAPPINESS_1] настроение, +2 [ICON_PEACE] веры, +1 [ICON_CULTURE] культура, +1 [ICON_RESEARCH] наука, 1 [ICON_GREAT_WORK] место для писателя)</Text>
+		</Replace>
+<!--Pagoda-->
+		<Replace Tag="TXT_KEY_BUILDING_PAGODA_HELP">
+			<Text>Усиление[ICON_RELIGION] религиозного давления  города на 20% и увеличение его сопротивления обращению на 10%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_PAGODA_STRATEGY">
+			<Text>Может быть построено только в городах, исповедующих религию с верованием, позволяющим строить Пагоды. Получите это здание, купив его за [ICON_PEACE] веру.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_PAGODA_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] настроение[NEWLINE]+2 [ICON_PEACE] веры[NEWLINE]+2 [ICON_CULTURE]культуры[NEWLINE]1 [ICON_GREAT_WORK] место для художника[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_PAGODA_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_PAGODAS">
+			<Text>Покупка пагод за очки [ICON_PEACE] веры (+1 [ICON_HAPPINESS_1] настроение, +2 [ICON_PEACE] веры, +2 [ICON_CULTURE] культуры, 1 [ICON_GREAT_WORK] место для художника)</Text>
+		</Replace>
+<!--===============================================================-->
+<!--===== NEW Faith Buildings =====================================-->
+<!--===============================================================-->
+<!--Stave Church-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_CHURCH">
+			<Text>Каркасная церковь</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_CHURCH_STRATEGY">
+			<Text>Может быть построено только в городах, исповедующих религию с верованием, позволяющим строить Каркасные церкви. Получите это здание, купив его за [ICON_PEACE] веру. Начинает "День любви к отчизне" в городе.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_CHURCH_PEDIA">
+			<Text>Stave churches were wooden, post-and-beam constructions found throughout medieval Scandinavia after the Vikings converted to Christianity.  In Sweden alone it is estimated that over 1000 stave churches were built, the oldest dating back to the mid-1100s. Besides their religious function, stave churches often served as meeting halls, cultural centers, courthouses, and even as marketplaces. Early stave churches were palisade constructions, with steeply pitched roofs to shed the heavy snows. The churches had elaborate wooden carvings, usually Christian in design but occasionally depicting pre-Christian heroes and myths. Later, only the corner posts were set in the earth, with planking covering the frame. Currently 30 stave churches remain standing, all save two in Norway.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_CHURCH_HELP">
+			<Text>25% к скорости расширения границ и удешевление на 20% стоимости покупки клеток.[NEWLINE][NEWLINE]Усиление [ICON_RELIGION] религиозного давления города на 20%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_CHURCH_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] настроение[NEWLINE]+1 [ICON_PRODUCTION] производство[NEWLINE]+1 [ICON_PEACE] вера[NEWLINE]+1 [ICON_CULTURE] культура[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_CHURCH_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_STAVE_CHURCH_SHORT">
+			<Text>Церковь</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_STAVE_CHURCH">
+			<Text>Используйте очки [ICON_PEACE] веры для покупки церкви (+1 [ICON_HAPPINESS_1] настроение[NEWLINE], +1 [ICON_PRODUCTION] производство, +2 [ICON_PEACE] веры, +1 [ICON_CULTURE] культура, +25% к скорости расширения границ, удешевление покупки клеток на 20%)</Text>
+		</Replace>
+<!--Daoguan-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAOGUAN">
+			<Text>Даогуань</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAOGUAN_STRATEGY">
+			<Text>Может быть построено только в городах, исповедующих религию с верованием, позволяющим строить Даогуани. Получите это здание, купив его за очки [ICON_PEACE] веры.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAOGUAN_PEDIA">
+			<Text>A place of worship for Confucianism. Sages and philosophers would find comfort in these places for it was a temple of study and learning for all that wish to endeavor.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAOGUAN_HELP">
+			<Text>+10% [ICON_GREAT_PEOPLE] к скорости появления великих людей в городе.[NEWLINE][NEWLINE]Усиление [ICON_RELIGION]религиозного давления города на 20% и увеличение его сопротивления обращению на 10%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAOGUAN_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] настроение[NEWLINE]+2 [ICON_RESEARCH] науки[NEWLINE]+2 [ICON_PEACE] веры[NEWLINE]1 [ICON_GREAT_WORK] место для литературного шедевра[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_DAOGUAN_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_DAOGUAN_SHORT">
+			<Text>Даогуань</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_DAOGUAN">
+			<Text>Используйте очки [ICON_PEACE] для покупки Даогуани (+1 [ICON_HAPPINESS_1] настроение[NEWLINE], +2 [ICON_RESEARCH] науки, +2 [ICON_PEACE] веры, +10% [ICON_GREAT_PEOPLE] к скорости появления великих людей)</Text>
+		</Replace>
+<!--Dar-e Mehr-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAR_E_MEHR">
+			<Text>Храм огня</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAR_E_MEHR_STRATEGY">
+			<Text>Может быть построено только в городах, исповедующих религию с верованием, позволяющим строить Храмы огня. Получите это здание, купив его за очки [ICON_PEACE] веры.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAR_E_MEHR_PEDIA">
+			<Text>A practical place of worship for the religion of Tengriism. These shrines have been claimed to be used as a place of worship by praying to a great tree. Tengriism followers however mostly found their place of worship within nature itself.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAR_E_MEHR_HELP">
+			<Text>+30% к дальности наземных и водных [ICON_INTERNATIONAL_TRADE] торговых путей.[NEWLINE][NEWLINE]Усиление [ICON_RELIGION]религиозного давления города на 20% и увеличение его сопротивления обращению на 10%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAR_E_MEHR_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] настроение[NEWLINE]+2 [ICON_CULTURE] культуры[NEWLINE]+2 [ICON_PEACE] веры[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_DAR_E_MEHR_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_DAR_E_MEHR_SHORT">
+			<Text>Храм огня</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_DAR_E_MEHR">
+			<Text>Используйте очки [ICON_PEACE] для покупки Храма огня (+1 [ICON_HAPPINESS_1] счастье[NEWLINE], +2 [ICON_CULTURE] культуры, +2 [ICON_PEACE] веры, +30% к дальности [ICON_INTERNATIONAL_TRADE] торговых путей)</Text>
+		</Replace>
+<!--Gurdwara-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_GURDWARA">
+			<Text>Гурдвара</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_GURDWARA_STRATEGY">
+			<Text>Может быть построено только в городах, исповедующих религию с верованием, позволяющим строить Гурадвары. Получите это здание, купив его за очки [ICON_PEACE] веры.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_GURDWARA_PEDIA">
+			<Text>A place of worship for Sikhs. People from all faiths and without faith are welcomed in these gurdwaras where they can find a path to the Guru or all-mighty knowledge rouhgly translated. Inside may find a place of welcome and diversity where all faiths are to be respected for all faiths and without should eventually lead to the Sikh''s belief of peace and knoweldge.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_GURDWARA_HELP">
+			<Text>+10%[ICON_FOOD] пищи сберегается после появления нового жителя в городе.[NEWLINE][NEWLINE]Усиление [ICON_RELIGION] религиозного давления города на 20%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_GURDWARA_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] настроение[NEWLINE]+2 [ICON_FOOD] пищи[NEWLINE]+1 [ICON_PEACE] вера[NEWLINE]+1 [ICON_CULTURE] культура[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_GURDWARA_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_GURDWARA_SHORT">
+			<Text>Гурадвары</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_GURDWARA">
+			<Text>Используйте очки [ICON_PEACE] веры для покупки Гурадвары (+1 [ICON_HAPPINESS_1] настроение[NEWLINE], +2 [ICON_FOOD] пищи, +1 [ICON_PEACE] вера, +1 [ICON_CULTURE] культура, +10% [ICON_FOOD] пищи сберегается после появления нового жителя в городе)</Text>
+		</Replace>
+<!--Jinja-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_JINJA">
+			<Text>Дзиндзя</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_JINJA_STRATEGY">
+			<Text>Может быть построено только в городах, исповедующих религию с верованием, позволяющим строить Дзиндзя. Получите это здание, купив его за очки [ICON_PEACE] веры.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_JINJA_PEDIA">
+			<Text>A place of worship for Shinto. Inside these shrines were meant to hold cultural valuable objects to dedicate toward their spirits rather than be mainly used as a place of worship.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_JINJA_HELP">
+			<Text>+1 [ICON_GREAT_ADMIRAL] к очкам великого генерала. +1 [ICON_PEACE] вера с водных ресурсов, обрабатываемых городом.[NEWLINE][NEWLINE]Усиление [ICON_RELIGION] религиозного давления города на 20%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_JINJA_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] настроение[NEWLINE]+1 [ICON_RESEARCH] наука[NEWLINE]+2 [ICON_PEACE] веры[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_JINJA_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_JINJA_SHORT">
+			<Text>Дзиндзя</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_JINJA">
+			<Text>Используйте очки [ICON_PEACE] веры для покупки Дзиндзя (+1 [ICON_HAPPINESS_1] настроение[NEWLINE], +1 [ICON_RESEARCH] наука, +2 [ICON_PEACE] вера, +1 [ICON_GREAT_ADMIRAL] к очкам великого адмирала, +1 [ICON_PEACE] вера с ресурсов, обрабатываемых городом)</Text>
+		</Replace>
+<!--Mandir-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MANDIR">
+			<Text>Мандир</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MANDIR_STRATEGY">
+			<Text>Может быть построено только в городах, исповедующих религию с верованием, позволяющим строить Мандиры. Получите это здание, купив его за очки [ICON_PEACE] веры.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MANDIR_PEDIA">
+			<Text>A Hindu temple is a house of god(s). It is a space and structure designed to bring human beings and gods together, infused with symbolism to express the ideas and beliefs of Hinduism.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MANDIR_HELP">
+			<Text>+1 [ICON_PRODUCTION] производство с ресурсов роскоши, обрабатываемых городом.[NEWLINE][NEWLINE]Усиление [ICON_RELIGION] религиозного давления города на 20%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MANDIR_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] настроение[NEWLINE]+2 [ICON_FOOD] пищи[NEWLINE]+2 [ICON_PEACE] веры[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_MANDIR_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_MANDIR_SHORT">
+			<Text>Мандиры</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_MANDIR">
+			<Text>Используйте очки [ICON_PEACE] веры для покупки Мандира (+1 [ICON_HAPPINESS_1] настроение[NEWLINE], +2 [ICON_FOOD] Food, +2 [ICON_PEACE] веры, +1 [ICON_PRODUCTION] производство с ресурсов роскоши, обрабатываемых городом)</Text>
+		</Replace>
+<!--Synagogue-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_SYNAGOGUE">
+			<Text>Синагога</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_SYNAGOGUE_STRATEGY">
+			<Text>Может быть построено только в городах, исповедующих религию с верованием, позволяющим строить Синагоги. Получите это здание, купив его за очки [ICON_PEACE] веры."</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_SYNAGOGUE_PEDIA">
+			<Text>A synagogue, also spelled synagog, is a Jewish house of prayer. Synagogues have a large hall for prayer (the main sanctuary), and may also have smaller rooms for study and sometimes a social hall and offices. Some have a separate room for Torah study, called the beth midrash.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_SYNAGOGUE_HELP">
+			<Text>+10% [ICON_PRODUCTION] производства при строительстве зданий.[NEWLINE][NEWLINE]Усиление [ICON_RELIGION] религиозного давления города на 20%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_SYNAGOGUE_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] настроение[NEWLINE]+1 [ICON_PRODUCTION] производство[NEWLINE]+2 [ICON_PEACE] веры[NEWLINE]+1 [ICON_CULTURE] культура[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_SYNAGOGUE_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_SYNAGOGUE_SHORT">
+			<Text>Синагоги</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_SYNAGOGUE">
+			<Text>Используйте очки [ICON_PEACE] веры для покупки Синагог (+1 [ICON_HAPPINESS_1] настроение[NEWLINE], +1 [ICON_PRODUCTION] производство, +2 [ICON_PEACE] веры, +1 [ICON_CULTURE] культура, +10% [ICON_PRODUCTION] производства при строительстве зданий)</Text>
+		</Replace>
+<!--Stupa-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_STUPA">
+			<Text>Ступа</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_STUPA_STRATEGY">
+			<Text>Может быть построено только в городах, исповедующих религию с верованием, позволяющим строить Ступы. Получите это здание, купив его за очки [ICON_PEACE] веры.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_STUPA_PEDIA">
+			<Text>A stupa is a mound-like or hemispherical structure containing Buddhist relics, typically the ashes of Buddhist monks, used by Buddhists as a place of meditation.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_STUPA_HELP">
+			<Text>+1 к очкам [ICON_GOLDEN_AGE] золотого века +10% к [ICON_GOLD] золоту.[NEWLINE][NEWLINE]Усиление [ICON_RELIGION] религиозного давления города на 20%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_STUPA_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] настроение[NEWLINE]+2 [ICON_TOURISM] туризма[NEWLINE]+1 [ICON_PEACE] веры[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_STUPA_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_STUPA_SHORT">
+			<Text>Вихара</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_STUPA">
+			<Text>Используйте очки [ICON_PEACE] веры для покупки Вихары(+1 [ICON_HAPPINESS_1] настроение[NEWLINE], +1 к очкам [ICON_GOLDEN_AGE]золотого века, +2 [ICON_TOURISM] туризма, +1 [ICON_PEACE] веры, +2 [ICON_GOLD] золота, +10% к общей выработке[ICON_GOLD] золота в городе)</Text>
+		</Replace>
+<!--Teocalli-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_TEOCALLI">
+			<Text>Пирамидальный алтарь</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_TEOCALLI_STRATEGY">
+			<Text>Может быть построено только в городах, исповедующих религию с верой в пирамидальный алтарь. Постройте это здание, купив его за [ICON_PEACE] Веру.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_TEOCALLI_PEDIA">
+			<Text>Пирамида Ла Данта в Гватемале, по оценкам, была построена в 300 году до нашей эры и имеет объем 2 800 000 кубических метров. Это самая большая пирамида не только в Центральной Америке, но и во всем мире. Его высота составляет 72 метра, что также делает его самым высоким в Америке. Почти ничего! Эксперты говорят, что это может быть небольшой город из-за его значительных размеров. Стоит отметить, что его структура состоит из нескольких платформ и имеет различные типы сооружений: жилые, административные, церемониальные… Он также расположен посреди джунглей, так что будьте готовы к приключениям: три дня пешком...</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_TEOCALLI_HELP">
+			<Text>+15 XP для военных юнитов, рожденных в этом городе.[NEWLINE][NEWLINE]Увеличивает[ICON_RELIGION] Религиозное давление главной религии в городе на 20%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_TEOCALLI_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] Настроение [NEWLINE]+2 [ICON_PEACE] Веры[NEWLINE]+1 [ICON_GOLD] Золото[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_TEOCALLI_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_TEOCALLI_SHORT">
+			<Text>Пирамидальные алтари</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_TEOCALLI">
+			<Text>Потратье [ICON_PEACE] Веру, что бы получить Пирамидальный алтарь (+1 [ICON_HAPPINESS_1] Настроение, +2 [ICON_PEACE] Веры, +1 [ICON_GOLD] Золото, +15 XP для военных юнитов, рожденных в этом городе)</Text>
+		</Replace>
+<!--===============================================================-->
+<!--===== NEW National Faith Buildings ============================-->
+<!--===============================================================-->
+<!-- Akapana -->
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_AKAPANA_SHORT">
+			<Text>Пирамида Акапана</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_AKAPANA">
+			<Text>Открывает чудо [COLOR_YELLOW]Пирамида Акапана[ENDCOLOR] (+50% к религиозному давлению этого города). Позволяет проводить [COLOR_POSITIVE_TEXT]Ритуалы Чаллы[ENDCOLOR], которые дают +1 всех видов ресурсов к Акапане (максимум +12).</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA">
+			<Text>[COLOR_YELLOW]Акапана[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA_HELP">
+			<Text>Может быть построено только в [COLOR_CYAN]Священном городе[ENDCOLOR].[NEWLINE][NEWLINE]Открывает возможность проводить [COLOR_POSITIVE_TEXT]Ритуалы Чаллы[ENDCOLOR], тратя [ICON_PEACE] веры, которые добавляют +1 ко всем типам урожая Акапана (максимум +12 к каждому). После выполнения 10 ритуалов Чаллы вы можете выбрать веру Реформации.[NEWLINE][NEWLINE]Усиливает давление [ICON_RELIGION] Религиозного большинства, исходящее из этого города, на 50% и повышает сопротивляемость города к обращению на 25%.[NEWLINE][NEWLINE]Получает 1 дополнительного [ICON_DIPLOMAT] делегата на Всемирном конгрессе за каждые 10 городов, следующих вашей [ICON_RELIGION] религии.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA_STRATEGY">
+			<Text>Пирамиду Акапана можно построить сразу после основания религии. Вы можете потратить веру на улучшение Акапаны, выполняя ритуалы Чаллы. Каждый ритуал Чаллы приближает вас к реформированию вашей религии и увеличивает доходность Акапаны, делая её мощным экономическим инструментом для вашей империи.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA_PEDIA">
+			<Text>На берегах озера Титикака находятся остатки одной из самых мощных и влиятельных культур, появившихся в горах Анд: Тиуанако. Задолго до империи инков жрецы и вельможи Тиуанако установили гегемонию над современной Боливией и северным Чили, основываясь исключительно на культурном и религиозном влиянии. На территории Тиуанако располагался обширный комплекс храмов и дворов для проведения различных ритуалов и обрядов, но самым великим из них была Акапана - гигантская рукотворная ступенчатая пирамида в форме модифицированного андского креста. [Сходство Акапана с близлежащими горами не случайно: как горы, окружающие озеро Титикака, питают его своими родниковыми водами, так и Акапана, как считается, собирала дождевую воду на своей плоской верхней поверхности и отводила ее в углубление в центре. В центре пирамиды находилось отверстие, заполненное рыхлыми камнями, через которое вода вытекала из центра Акапана в ров, окружавший храмовый комплекс. Таким образом, Акапана рассматривалась как священная гора, благословляющая город своей водой. Акт выливания и сбора воды и священных напитков был центральным во многих андских религиях, которые преподносили дары земле, выливая напитки или закапывая еду и безделушки.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_AKAPANA_DUMMY">
+			<Text>слот для социальной политики Акапана</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_D_FOR_AKAPANA_STACKS">
+			<Text>слоты для усиления Акапаны</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_D_FOR_AKAPANA_REFORM">
+			<Text>реформация Акапаны</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNIT_AKAPANA_CHALLA_RITUAL">
+			<Text>[COLOR_YELLOW]Ритуал Чаллы[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNIT_AKAPANA_CHALLA_RITUAL_TEXT">
+			<Text>Ритуалы Чаллы являются центральной частью поклонения Пачамаме, божеству земли во многих доколумбовых культурах Анд. Каждый день жрецы готовили чашку чичи - пива из кукурузы - и выливали небольшое количество в качестве подношения Пачамаме, прежде чем выпить остальное. Мы не знаем точно, где зародился этот ритуал, но в городе Тиуанако находился один из самых старых и грандиозных храмовых комплексов, где проводились эти церемонии.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNIT_AKAPANA_CHALLA_RITUAL_STRATEGY">
+			<Text>Если вы приняли веру основателя Жертвенные возлияния, вы можете использовать веру для выполнения ритуалов Чалла, которые сделают ваше чудо сильнее. Можно выполнить [COLOR_NEGATIVE_TEXT]максимум 12[ENDCOLOR] раз.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_UNIT_AKAPANA_CHALLA_RITUAL_HELP">
+			<Text>Заплатить [ICON_PEACE] веры для проведения ритуала Чалла, что добавит +1 к производству всех видов ресурсов [COLOR_POSITIVE_TEXT]Пирамидой Акапана[ENDCOLOR].[NEWLINE][NEWLINE]Необходимо верование основателя [COLOR_POSITIVE_TEXT] Пирамида Акапана[ENDCOLOR] и её наличие в городе. Может быть улучшена с помощью ритуала Чалла [COLOR_NEGATIVE_TEXT]12 раз[ENDCOLOR].</Text>
+		</Replace>
+<!-- Mausoleum -->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MAUSOLEUM">
+			<Text>[COLOR_YELLOW]Мавзолей[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MAUSOLEUM_HELP">
+			<Text>Позволяет выбрать [COLOR_POSITVE_TEXT]Реформаторскую веру[ENDCOLOR]. Получает [ICON_PEACE] Веру, когда принадлежащий ему юнит погибает в бою.[NEWLINE][NEWLINE]Может быть построена только в Священном городе и только в том случае, если не менее 25% населения планеты придерживается вашей религии (размер карты зависит от размера карты).[NEWLINE][NEWLINE]Усиливает давление [ICON_RELIGION] Религиозного большинства, исходящее из этого города, на 33% и повышает сопротивляемость города обращению на 25%.[NEWLINE][NEWLINE]Получает 1 дополнительного [ICON_DIPLOMAT] делегата на Всемирном конгрессе за каждые 10 городов, следующих вашей [ICON_RELIGION] религии.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MAUSOLEUM_STRATEGY">
+			<Text>Постройте Мавзолей, чтобы выбрать [COLOR_POSITVE_TEXT]Реформаторскую веру[ENDCOLOR] и получить [ICON_PEACE] Веру от потерь в войне. Может быть построен только в Священном городе и только в том случае, если не менее 20% населения планеты придерживается вашей религии (размер зависит от размера карты).</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MAUSOLEUM_PEDIA">
+			<Text>Мавзолей - это внешнее отдельно стоящее здание, построенное в виде памятника, ограждающего пространство для погребения или погребальную камеру умершего человека или людей. Памятник без погребения - это кенотаф. Мавзолей может рассматриваться как разновидность усыпальницы, или же усыпальница может находиться внутри мавзолея. Христианский мавзолей иногда включает в себя часовню.</Text>
+		</Replace>
+	</Language_RU_RU>
+</GameData>

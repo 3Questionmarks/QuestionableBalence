@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/8/2023 11:45:59 -->
+<GameData>
+	<Language_IT_IT>
+<!--===============================================================-->
+<!--===== NEW National Faith Buildings ============================-->
+<!--===============================================================-->
+<!-- Mausoleum -->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MAUSOLEUM">
+			<Text>[COLOR_YELLOW]MausoleoENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MAUSOLEUM_HELP">
+			<Text>
+				Permette di scegliere una [COLOR_POSITVE_TEXT]Credenza Riformata[ENDCOLOR]. Guadagni [ICON_PEACE] Fede quando una tua Unità viene uccisa in battaglia.
+				[NEWLINE][NEWLINE]Può essere costruito solo in una Città Santa e solo se almeno il 25% della popolazione mondiale segue la tua Religione (in proporzione che variano in base alle dimensioni della mappa).
+				[NEWLINE][NEWLINE]Aumenta la Pressione della [ICON_RELIGION] Religione di Maggioranza emanata da questa città del 33% e aumenta la resistenza alla conversione della Città del 25%.
+				[NEWLINE][NEWLINE]Ricevi un [ICON_DIPLOMAT] Delegato aggiuntivo al Congresso Mondiale per ogni 10 Città che seguono la tua [ICON_RELIGION] Religione.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MAUSOLEUM_STRATEGY">
+			<Text>Costruisci il Mausoleo per scegliere una [COLOR_POSITVE_TEXT]Credenza Riformata[ENDCOLOR] e guadagna [ICON_PEACE] Fede dai caduti in battaglia. Può essere costruito solo in una Città Santa e solo se almeno il 25% della popolazione mondiale segue la tua Religione (in proporzione che variano in base alle dimensioni della mappa).</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MAUSOLEUM_PEDIA">
+			<Text>Un mausoleo è un edificio esterno e indipendente costruito come monumento che racchiude lo spazio di sepoltura o la camera funeraria di una o più persone decedute. Un monumento senza sepolture è detto cenotafio. Un mausoleo può essere considerato un tipo di tomba, o la tomba può essere considerata racchiusa nel mausoleo. Un mausoleo cristiano può talvolta includere una cappella.</Text>
+		</Replace>
+	</Language_IT_IT>
+</GameData>

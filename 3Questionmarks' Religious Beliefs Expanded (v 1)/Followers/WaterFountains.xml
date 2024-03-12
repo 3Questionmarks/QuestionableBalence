@@ -39,11 +39,11 @@
 			<Strategy>TXT_KEY_BUILDING_WATER_FOUNTAIN_STRATEGY</Strategy>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<IconAtlas>COMMUNITY_ATLAS</IconAtlas>
+			<IconAtlas>NW_ATLAS_DLC</IconAtlas>
 			<NeverCapture>false</NeverCapture>
 			<ConquestProb>66</ConquestProb>
             <Happiness>3</Happiness>
-			<PortraitIndex>33</PortraitIndex>
+			<PortraitIndex>1</PortraitIndex>
 		</Row>
 	</Buildings>
 	<Building_Flavors>

@@ -36,10 +36,10 @@
 			<Strategy>TXT_KEY_BUILDING_MANDIR_STRATEGY</Strategy>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<IconAtlas>COMMUNITY_ATLAS</IconAtlas>
+			<IconAtlas>GAIA_FAITHBLDG_ATLAS</IconAtlas>
 			<NeverCapture>false</NeverCapture>
 			<ConquestProb>66</ConquestProb>
-			<PortraitIndex>4</PortraitIndex>
+			<PortraitIndex>5</PortraitIndex>
 			<!-- Gameplay effects below -->
 			<GreatPeopleRateModifier>20</GreatPeopleRateModifier>
 		</Row>

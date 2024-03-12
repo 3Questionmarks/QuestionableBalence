@@ -250,8 +250,8 @@
 		</Row>
 	</Language_en_US>
 	<Language_en_US>
-		<Delete Tag="TXT_KEY_BUILDING_GURDWARA_HELP" />
-		<Row Tag="TXT_KEY_BUILDING_GURDWARA_HELP">
+		<Delete Tag="TXT_KEY_BUILDING_MOSQUE_HELP" />
+		<Row Tag="TXT_KEY_BBUILDING_MOSQUE_HELP">
 			<Text>+2 [ICON_PEACE] Faith from Luxuries.</Text>
 		</Row>
 	</Language_en_US>

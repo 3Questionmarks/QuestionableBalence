@@ -59,8 +59,8 @@
 			<ConquestProb>100</ConquestProb>
 			<ArtDefineTag>MONASTERY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<PortraitIndex>37</PortraitIndex>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>GAIA_FAITHBLDG_ATLAS</IconAtlas>
 		</Row>
 		<Row>
 			<Type>BUILDING_CHANTRY</Type>
@@ -75,8 +75,8 @@
 			<ConquestProb>100</ConquestProb>
 			<ArtDefineTag>MONASTERY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<PortraitIndex>37</PortraitIndex>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>BUILDINGCLASS_GAIA_DAOGUAN</IconAtlas>
 			<Happiness>2</Happiness>
 		</Row>
 		<Row>
@@ -92,8 +92,8 @@
 			<ConquestProb>100</ConquestProb>
 			<ArtDefineTag>MONASTERY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<PortraitIndex>37</PortraitIndex>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
 			<Happiness>2</Happiness>
 		</Row>
 	</Buildings>

@@ -39,10 +39,10 @@
 			<Strategy>TXT_KEY_BUILDING_MADRASSA_STRATEGY</Strategy>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<IconAtlas>EXPANSION_SCEN_BUILDING_ATLAS</IconAtlas>
+			<IconAtlas>GAIA_FAITHBLDG_ATLAS</IconAtlas>
 			<NeverCapture>false</NeverCapture>
 			<ConquestProb>66</ConquestProb>
-			<PortraitIndex>2</PortraitIndex>
+			<PortraitIndex>6</PortraitIndex>
 		</Row>
 	</Buildings>
 	<Building_Flavors>

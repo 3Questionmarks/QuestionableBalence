@@ -36,10 +36,10 @@
 			<Strategy>TXT_KEY_BUILDING_STUPA_STRATEGY</Strategy>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<IconAtlas>COMMUNITY_ATLAS</IconAtlas>
+			<IconAtlas>GAIA_FAITHBLDG_ATLAS</IconAtlas>
 			<NeverCapture>false</NeverCapture>
 			<ConquestProb>66</ConquestProb>
-			<PortraitIndex>11</PortraitIndex>
+			<PortraitIndex>2</PortraitIndex>
 			<!-- Gameplay effects below -->
 			<ReligiousPressureModifier>50</ReligiousPressureModifier>
 			<ExtraMissionarySpreads>1</ExtraMissionarySpreads>

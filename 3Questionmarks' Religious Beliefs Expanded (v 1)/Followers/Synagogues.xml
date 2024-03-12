@@ -38,10 +38,10 @@
 			<Strategy>TXT_KEY_BUILDING_SYNAGOGUE_STRATEGY</Strategy>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<IconAtlas>CIV_COLOR_ATLAS_SYNAGOGUE</IconAtlas>
+			<IconAtlas>GAIA_FAITHBLDG_ATLAS</IconAtlas>
 			<NeverCapture>false</NeverCapture>
 			<ConquestProb>66</ConquestProb>
-			<PortraitIndex>2</PortraitIndex>
+			<PortraitIndex>4</PortraitIndex>
 			<GoldenAgeModifier>5</GoldenAgeModifier>
 		</Row>
 	</Buildings>

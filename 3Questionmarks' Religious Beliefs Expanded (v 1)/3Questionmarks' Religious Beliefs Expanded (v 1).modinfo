@@ -39,26 +39,26 @@
     <File md5="6D7AF1FF0CB47429E433FD75075AED6D" import="0">Followers/Ascetism.xml</File>
     <File md5="E2C48BCD12A5B42E98A690CFA817D633" import="0">Followers/Cathedrals.xml</File>
     <File md5="8EA8B4DD9AFB96493B744CDF024F73D1" import="0">Followers/DivineInspiration.xml</File>
-    <File md5="5E61011E1D2124780ECC9C40D0BADA4B" import="0">Followers/MountainTopAltars.xml</File>
+    <File md5="097D86DE77EF27A4D6461B357481E59C" import="0">Followers/MountainTopAltars.xml</File>
     <File md5="96E1D5129566B380A07523DD3FDAF680" import="0">Followers/ReligiousArt.lua</File>
     <File md5="CA440B212DB14F41CBD8484042F3C44F" import="0">Followers/ReligiousDiversity.sql</File>
     <File md5="B9DB7B7A02AA54A4942A2BFD25196FD6" import="0">Followers/WarriorMonks.lua</File>
-    <File md5="9BA9CC6B43FB871B9AE870726F398E6D" import="0">Followers/Gurdwaras.xml</File>
+    <File md5="1C44AC4450572EA560B2707BF873B2F8" import="0">Followers/Gurdwaras.xml</File>
     <File md5="499C630BBAFBCECA305085C11ED30B71" import="0">Followers/Guruship.xml</File>
     <File md5="3408C50486297E531BBFF9CC31A34EDA" import="0">Followers/WarriorMonks.xml</File>
     <File md5="FF4FE30532DB080FB17CF9E07C2E923F" import="0">Followers/LiturgicalDrama.xml</File>
-    <File md5="4E9EE2A13493A6FE6D4646945DE314E7" import="0">Followers/Madrassas.xml</File>
-    <File md5="8B1AF44CC3D4AD46DF33319EB07FE8E1" import="0">Followers/Mandirs.xml</File>
+    <File md5="60416E355E5C21BF221E6B08F92A2328" import="0">Followers/Madrassas.xml</File>
+    <File md5="5EDCF56F2DAEF7F87BDE99EEA8D7C047" import="0">Followers/Mandirs.xml</File>
     <File md5="44E01747BAC46D3D9175D41F1E1FC324" import="0">Followers/ReligiousDiversity.xml</File>
     <File md5="BD46353C16A3B64B9A77BD9FD0C5434F" import="0">Followers/Monasteries.xml</File>
-    <File md5="F5563551DE322689AD897946DB4F360B" import="0">Followers/Mosques.xml</File>
+    <File md5="13560E9E2BD1D9B831F53684FD1F4507" import="0">Followers/Mosques.xml</File>
     <File md5="458B11A64E54D87AE4ADD13D6522A6DB" import="0">Followers/Pagodas.xml</File>
     <File md5="1766F126F148CAF015A24310CC568D96" import="0">Followers/PeaceGardens.xml</File>
     <File md5="C3F95BB74C9F1FBBCABE3447BC0AA0A5" import="0">Followers/ReligiousArt.xml</File>
     <File md5="994ED940AA67DBA4934BC6A4B1BD2698" import="0">Followers/ReligiousCenter.xml</File>
-    <File md5="396892765A08A701C1FC6D81709E7E5D" import="0">Followers/Stupas.xml</File>
-    <File md5="C470E4A7010E49EA7E2E41F02F68D6E7" import="0">Followers/Synagogues.xml</File>
-    <File md5="1A0F1EBD40DE151D5D4AD3976A22C11E" import="0">Followers/WaterFountains.xml</File>
+    <File md5="579D5D36ABEDB6051901588EDA5378BC" import="0">Followers/Stupas.xml</File>
+    <File md5="6C64CAF6F5C1CB3709D424A6F64AB266" import="0">Followers/Synagogues.xml</File>
+    <File md5="004227E2C0836F6CBB148B5481370469" import="0">Followers/WaterFountains.xml</File>
     <File md5="8526E5DA73A5CB04EA38A616AEF70889" import="0">Followers/_RemoveOldFollowers.xml</File>
     <File md5="8D61D8589200B581E3A2CA5621FFFE94" import="0">Founders/CeremonialBurial.xml</File>
     <File md5="DDE1D3B5A61A34EB83D9EC43FC7F901C" import="0">Founders/CharitableMissions.xml</File>
@@ -127,7 +127,7 @@
     <File md5="9EC24C952AE563703669FB6E89C3C481" import="0">Pantheons/_RemoveOldPantheons.xml</File>
     <File md5="A0CAC861EAACBC91BB2AB2D8F867A355" import="0">Reformations/ApostolicPalace.xml</File>
     <File md5="D2CBB6F33A6D4D02264AFA064B9504F3" import="0">Reformations/Disciples.xml</File>
-    <File md5="515A0DE0140068C2FF0590EEFBF0F888" import="0">Reformations/HousesOfWorship.xml</File>
+    <File md5="95B4CB808B5F08EA2F4B81AD3D5AA91F" import="0">Reformations/HousesOfWorship.xml</File>
     <File md5="112F9AFB33BFC71E6C806AF036AF9723" import="0">Reformations/IdeologicalCenter.xml</File>
     <File md5="5195C03DFA7B5DFE17A4C3DC2E85A5F1" import="0">Reformations/Indulgences.xml</File>
     <File md5="9BC33A3B79347C7CB84A163475B49ED8" import="0">Reformations/ReligiousFervor.xml</File>
@@ -137,6 +137,11 @@
     <File md5="0694AB4D186663AEF0185D6979F131F6" import="0">Reformations/UndergroundSect.xml</File>
     <File md5="39A48B15093F18E34089783E9F880605" import="0">Reformations/WorldChurch.xml</File>
     <File md5="FC9C2213C1A312960C210691328110A0" import="0">Reformations/_RemoveOldReformations.xml</File>
+    <File md5="2F6F931C77C33B3EB569807D353BB8CA" import="0">Shared/ART/FaithB_ArtInfo.sql</File>
+    <File md5="F819DBB0CAF09C6AC208513A92D94A3C" import="1">Shared/ART/GAIA_FaithBuildings_045.dds</File>
+    <File md5="B4D7E653ADB1390B7A0EE10366FBC662" import="1">Shared/ART/GAIA_FaithBuildings_064.dds</File>
+    <File md5="8C91C105E27B80B1ABCC232CB7AD0E22" import="1">Shared/ART/GAIA_FaithBuildings_128.dds</File>
+    <File md5="D766C2AC882022A8830B43F076C48CE4" import="1">Shared/ART/GAIA_FaithBuildings_256.dds</File>
     <File md5="0D8C67F78CBA8018C0FD3C3B1A0F7B30" import="0">Shared/Belief_FounderFreeBuildingClassCapital (v 4)/Belief_FounderFreeBuildingClassCapital.lua</File>
     <File md5="A63F367D58341D3A25FCDB0BBAFF716D" import="0">Shared/Belief_FounderFreeBuildingClassCapital (v 4)/Belief_FounderFreeBuildingClassCapital.xml</File>
     <File md5="EC8608BCE01B78CC1AE8084581416865" import="0">Shared/CityAdoptsReligionEvent (v 4)/CityAdoptsReligionEvent.lua</File>
@@ -245,6 +250,7 @@
       <UpdateDatabase>Shared/IncreaseMaxReligions.xml</UpdateDatabase>
       <UpdateDatabase>Shared/IncreaseAIFaithCosts.xml</UpdateDatabase>
       <UpdateDatabase>NewReligions/strangereligions.xml</UpdateDatabase>
+      <UpdateDatabase>Shared/ART/FaithB_ArtInfo.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>

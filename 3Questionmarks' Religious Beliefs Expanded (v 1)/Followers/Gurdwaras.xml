@@ -33,16 +33,17 @@
 			<Cost>-1</Cost>
 			<FaithCost>225</FaithCost>
 			<UnlockedByBelief>true</UnlockedByBelief>
+			<Happiness>4</Happiness>
 			<Description>TXT_KEY_BUILDING_GURDWARA</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GURDWARA_TEXT</Civilopedia>
 			<Help>TXT_KEY_BUILDING_GURDWARA_HELP</Help>
 			<Strategy>TXT_KEY_BUILDING_GURDWARA_STRATEGY</Strategy>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<IconAtlas>BUILDING_ATLAS_GURRA_GURDWARA</IconAtlas>
+			<IconAtlas>GAIA_FAITHBLDG_ATLAS</IconAtlas>
 			<NeverCapture>false</NeverCapture>
 			<ConquestProb>66</ConquestProb>
-			<PortraitIndex>0</PortraitIndex>
+			<PortraitIndex>7</PortraitIndex>
 		</Row>
 	</Buildings>
 	<Building_Flavors>
@@ -226,7 +227,7 @@
 	<!-- localization -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BELIEF_GURDWARAS">
-			<Text>+1 [ICON_HAPPINESS_1] Happiness from Luxuries. Use [ICON_PEACE] Faith to purchase Gurdwaras (+2 [ICON_CULTURE] Culture and +3 [ICON_PEACE] Faith for each [ICON_RELIGION] Religion in the City).</Text>
+			<Text>+1 [ICON_HAPPINESS_1] Happiness from Luxuries. Use [ICON_PEACE] Faith to purchase Gurdwaras (+4 [ICON_HAPPINESS_1] Happiness; +2 [ICON_CULTURE] Culture and +3 [ICON_PEACE] Faith for each [ICON_RELIGION] Religion in the City).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_GURDWARAS_SHORT">
 			<Text>Gurdwaras</Text>

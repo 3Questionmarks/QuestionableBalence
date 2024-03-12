@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/10/2021 2:33:54 -->
+<GameData>
+	<Language_en_US>
+<!--===============================================================-->
+<!--===== Faith Building Updates ==================================-->
+<!--===============================================================-->
+<!-- Monasteries -->
+		<Replace Tag="TXT_KEY_GAIA_BUILDING_MONASTERY_HELP">
+			<Text>Each Luxury resource worked by this City produces +1 [ICON_PEACE] Faith.[NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this City by 20%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_GAIA_BUILDING_MONASTERY_STRATEGY">
+			<Text>Monasteries increase [ICON_PEACE] Faith, [ICON_FOOD] Food, and [ICON_RESEARCH] Science output.</Text>
+		</Replace>
+<!--Cathedral-->
+		<Replace Tag="TXT_KEY_BUILDING_CATHEDRAL_HELP">
+			<Text>Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this City by 20%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_CATHEDRAL_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Cathedrals belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_CATHEDRAL_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness[NEWLINE]+1 [ICON_PEACE] Faith[NEWLINE]+2 [ICON_CULTURE] Culture[NEWLINE]+1 [ICON_GOLD] Gold[NEWLINE]1 [ICON_GREAT_WORK] Great Work of Music Slot[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_CATHEDRAL_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_CATHEDRALS">
+			<Text>Use [ICON_PEACE] Faith to purchase Cathedrals (+1 [ICON_HAPPINESS_1] Happiness, +1 [ICON_PEACE] Faith, +2 [ICON_CULTURE] Culture, +1 [ICON_GOLD] Gold, 1 [ICON_GREAT_WORK] Great Work of Music Slot)</Text>
+		</Replace>
+<!--Mosque-->
+		<Replace Tag="TXT_KEY_BUILDING_MOSQUE_HELP">
+			<Text>Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this City by 20%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MOSQUE_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Mosques belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_MOSQUE_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness[NEWLINE]+2 [ICON_PEACE] Faith[NEWLINE]+1 [ICON_CULTURE] Culture[NEWLINE]+1 [ICON_RESEARCH] Science[NEWLINE]1 [ICON_GREAT_ENGINEER] Engineer Specialist Slot[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_MOSQUE_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_MOSQUES">
+			<Text>Use [ICON_PEACE] Faith to purchase Mosques (+1 [ICON_HAPPINESS_1] Happiness, +2 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, +1 [ICON_RESEARCH] Science, 1 [ICON_GREAT_WORK] Great Work of Writing Slot)</Text>
+		</Replace>
+<!--Pagoda-->
+		<Replace Tag="TXT_KEY_BUILDING_PAGODA_HELP">
+			<Text>Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this City by 20%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_PAGODA_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Pagodas belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_PAGODA_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness[NEWLINE]+2 [ICON_PEACE] Faith[NEWLINE]+2 [ICON_CULTURE]Culture[NEWLINE]1 [ICON_GREAT_WORK] Great Work of Art Slot[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_PAGODA_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_PAGODAS">
+			<Text>Use [ICON_PEACE] Faith to purchase Pagodas (+1 [ICON_HAPPINESS_1] Happiness, +2 [ICON_PEACE] Faith, +2 [ICON_CULTURE] Culture, 1 [ICON_GREAT_WORK] Great Work of Art Slot)</Text>
+		</Replace>
+<!--===============================================================-->
+<!--===== NEW Faith Buildings =====================================-->
+<!--===============================================================-->
+<!--Stave Church-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_CHURCH">
+			<Text>Stave Church</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_CHURCH_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Church belief. Construct this building by purchasing it with [ICON_PEACE] Faith. Begins "We Love the King Day" in the City.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_CHURCH_PEDIA">
+			<Text>Stave churches were wooden, post-and-beam constructions found throughout medieval Scandinavia after the Vikings converted to Christianity.  In Sweden alone it is estimated that over 1000 stave churches were built, the oldest dating back to the mid-1100s. Besides their religious function, stave churches often served as meeting halls, cultural centers, courthouses, and even as marketplaces. Early stave churches were palisade constructions, with steeply pitched roofs to shed the heavy snows. The churches had elaborate wooden carvings, usually Christian in design but occasionally depicting pre-Christian heroes and myths. Later, only the corner posts were set in the earth, with planking covering the frame. Currently 30 stave churches remain standing, all save two in Norway.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_CHURCH_HELP">
+			<Text>25% faster border growth and tile purchases are 20% cheaper.[NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this City by 20%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_CHURCH_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness[NEWLINE]+1 [ICON_PRODUCTION] Production[NEWLINE]+1 [ICON_PEACE] Faith[NEWLINE]+1 [ICON_CULTURE] Culture[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_CHURCH_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_STAVE_CHURCH_SHORT">
+			<Text>Church</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_STAVE_CHURCH">
+			<Text>Use [ICON_PEACE] Faith to purchase Stave Churches (+1 [ICON_HAPPINESS_1] Happiness, +1 [ICON_PRODUCTION] Production, +2 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, +25% faster border growth and tile purchases are 20% cheaper)</Text>
+		</Replace>
+<!--Daoguan-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAOGUAN">
+			<Text>Daoguan</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAOGUAN_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Kongmiaos belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAOGUAN_PEDIA">
+			<Text>A place of worship for Confucianism. Sages and philosophers would find comfort in these places for it was a temple of study and learning for all that wish to endeavor.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAOGUAN_HELP">
+			<Text>+10% [ICON_GREAT_PEOPLE] Great People generation in the City.[NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this City by 20%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAOGUAN_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness[NEWLINE]+2 [ICON_RESEARCH] Science[NEWLINE]+2 [ICON_PEACE] Faith[NEWLINE]1 [ICON_GREAT_WORK] Great Work of Writing Slot[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_DAOGUAN_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_DAOGUAN_SHORT">
+			<Text>Daoguan</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_DAOGUAN">
+			<Text>Use [ICON_PEACE] Faith to purchase Daoguans (+1 [ICON_HAPPINESS_1] Happiness, +2 [ICON_RESEARCH] Science, +2 [ICON_PEACE] Faith, +10% [ICON_GREAT_PEOPLE] Great People generation in the City)</Text>
+		</Replace>
+<!--Dar-e Mehr-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAR_E_MEHR">
+			<Text>Dar-e Mehr</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAR_E_MEHR_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Dar-e Mehr belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAR_E_MEHR_PEDIA">
+			<Text>A Dar-e Mehr, or Fire Temple, is the place of worship for the followers of Zoroastrianism, the ancient religion of Iran (Persia). In the Zoroastrian religion, fire, together with clean water, are agents of ritual purity. Clean, white "ash for the purification ceremonies is regarded as the basis of ritual life", which "are essentially the rites proper to the tending of a domestic fire, for the temple fire is that of the hearth fire raised to a new solemnity". For, one "who sacrifices unto fire with fuel in his hand ..., is given happiness".</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAR_E_MEHR_HELP">
+			<Text>+30% land and sea [ICON_INTERNATIONAL_TRADE] Trade Route range.[NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this City by 20%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_DAR_E_MEHR_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness[NEWLINE]+2 [ICON_CULTURE] Culture[NEWLINE]+2 [ICON_PEACE] Faith[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_DAR_E_MEHR_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_DAR_E_MEHR_SHORT">
+			<Text>Dar-e Mehr</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_DAR_E_MEHR">
+			<Text>Use [ICON_PEACE] Faith to purchase Dar-e Mehrs (+1 [ICON_HAPPINESS_1] Happiness, +2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, +30% land and sea [ICON_INTERNATIONAL_TRADE] Trade Route range)</Text>
+		</Replace>
+<!--Gurdwara-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_GURDWARA">
+			<Text>Gurdwara</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_GURDWARA_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Gurdwara belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_GURDWARA_PEDIA">
+			<Text>A place of worship for Sikhs. People from all faiths and without faith are welcomed in these gurdwaras where they can find a path to the Guru or all-mighty knowledge rouhgly translated. Inside may find a place of welcome and diversity where all faiths are to be respected for all faiths and without should eventually lead to the Sikh''s belief of peace and knoweldge.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_GURDWARA_HELP">
+			<Text>+10% of [ICON_FOOD] Food carried over after population growth in this City.[NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this City by 20%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_GURDWARA_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness[NEWLINE]+2 [ICON_FOOD] Food[NEWLINE]+1 [ICON_PEACE] Faith[NEWLINE]+1 [ICON_CULTURE] Culture[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_GURDWARA_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_GURDWARA_SHORT">
+			<Text>Gurdwaras</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_GURDWARA">
+			<Text>Use [ICON_PEACE] Faith to purchase Gurdwaras (+1 [ICON_HAPPINESS_1] Happiness, +2 [ICON_FOOD] Food, +1 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, +10% of [ICON_FOOD] Food is carried over after population growth in the City)</Text>
+		</Replace>
+<!--Jinja-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_JINJA">
+			<Text>Jinja</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_JINJA_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Jinjas belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_JINJA_PEDIA">
+			<Text>A place of worship for Shinto. Inside these shrines were meant to hold cultural valuable objects to dedicate toward their spirits rather than be mainly used as a place of worship.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_JINJA_HELP">
+			<Text>+1 [ICON_PEACE] Faith from Sea Resources worked by this City.[NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this City by 20%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_JINJA_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness[NEWLINE]+2 [ICON_PEACE] Faith[NEWLINE]+1 [ICON_CULTURE] Culture[NEWLINE]+1 [ICON_RESEARCH] Science[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_JINJA_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_JINJA_SHORT">
+			<Text>Jinjas</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_JINJA">
+			<Text>Use [ICON_PEACE] Faith to purchase Jinjas (+1 [ICON_HAPPINESS_1] Happiness, +2 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, +1 [ICON_RESEARCH] Science, +1 [ICON_PEACE] Faith from Sea Resources worked by the City)</Text>
+		</Replace>
+<!--Mandir-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MANDIR">
+			<Text>Mandir</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MANDIR_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Mandirs belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MANDIR_PEDIA">
+			<Text>A Hindu temple is a house of god(s). It is a space and structure designed to bring human beings and gods together, infused with symbolism to express the ideas and beliefs of Hinduism.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MANDIR_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production from Luxury Resources worked by this City.[NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this City by 20%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MANDIR_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness[NEWLINE]+2 [ICON_FOOD] Food[NEWLINE]+2 [ICON_PEACE] Faith[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_MANDIR_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_MANDIR_SHORT">
+			<Text>Mandirs</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_MANDIR">
+			<Text>Use [ICON_PEACE] Faith to purchase Mandirs (+1 [ICON_HAPPINESS_1] Happiness, +2 [ICON_FOOD] Food, +2 [ICON_PEACE] Faith, +1 [ICON_PRODUCTION] Production from Luxury Resources worked by the City)</Text>
+		</Replace>
+<!--Synagogue-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_SYNAGOGUE">
+			<Text>Synagogue</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_SYNAGOGUE_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Synagogues belief. Construct this building by purchasing it with [ICON_PEACE] Faith."</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_SYNAGOGUE_PEDIA">
+			<Text>A synagogue, also spelled synagog, is a Jewish house of prayer. Synagogues have a large hall for prayer (the main sanctuary), and may also have smaller rooms for study and sometimes a social hall and offices. Some have a separate room for Torah study, called the beth midrash.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_SYNAGOGUE_HELP">
+			<Text>+10% [ICON_PRODUCTION] Production when constructing Buildings.[NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this City by 20%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_SYNAGOGUE_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness[NEWLINE]+1 [ICON_PRODUCTION] Production[NEWLINE]+2 [ICON_PEACE] Faith[NEWLINE]+1 [ICON_CULTURE] Culture[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_SYNAGOGUE_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_SYNAGOGUE_SHORT">
+			<Text>Synagogues</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_SYNAGOGUE">
+			<Text>Use [ICON_PEACE] Faith to purchase Synagogues (+1 [ICON_HAPPINESS_1] Happiness, +1 [ICON_PRODUCTION] Production, +2 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, +10% [ICON_PRODUCTION] Production when constructing Buildings)</Text>
+		</Replace>
+<!--Stupa-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_STUPA">
+			<Text>Stupa</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_STUPA_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Vihara belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_STUPA_PEDIA">
+			<Text>A stupa is a mound-like or hemispherical structure containing Buddhist relics, typically the ashes of Buddhist monks, used by Buddhists as a place of meditation.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_STUPA_HELP">
+			<Text>+10% [ICON_GOLD] Gold in the City.[NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this City by 20%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_STUPA_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness[NEWLINE]+2 [ICON_GOLD] Gold[NEWLINE]+1 [ICON_PEACE] Faith[NEWLINE]+1 [ICON_CULTURE] Culture[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_STUPA_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_STUPA_SHORT">
+			<Text>Stupa</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_STUPA">
+			<Text>Use [ICON_PEACE] Faith to purchase Stupas (+1 [ICON_HAPPINESS_1] Happiness, +2 [ICON_GOLD] Gold, +1 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, +10% [ICON_GOLD] Gold in the City)</Text>
+		</Replace>
+<!--Teocalli-->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_TEOCALLI">
+			<Text>Pyramid Altar</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_TEOCALLI_STRATEGY">
+			<Text>Can only be built in cities following a religion with the Pyramid Altar belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_TEOCALLI_PEDIA">
+			<Text>
+				The pyramid of La Danta in Guatemala is estimated to have been built in 300 BC and, at 2,800,000 cubic metres. It’s not only the largest pyramid in Central America, but in the whole world. It’s 72 metres high, which makes it the tallest in America too. Hardly anything! Experts say it could be a small city due to its considerable size. It’s worth noting that its structure consists of several platforms and has various types of facilities: housing, administrative, ceremonial… It’s also located in the middle of the jungle, so be prepared for adventure: three days on foot ...
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_TEOCALLI_HELP">
+			<Text>+15 XP for all Military Units produced in the City.[NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this City by 20%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_TEOCALLI_TOOLTIP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness[NEWLINE]+2 [ICON_PEACE] Faith[NEWLINE]+1 [ICON_GOLD] Gold[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GAIA_TEOCALLI_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_TEOCALLI_SHORT">
+			<Text>Pyramid Altars</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_TEOCALLI">
+			<Text>Use [ICON_PEACE] Faith to purchase Pyramid Altars (+1 [ICON_HAPPINESS_1] Happiness, +2 [ICON_PEACE] Faith, +1 [ICON_GOLD] Gold, +15 XP for all Military Units produced in the City)</Text>
+		</Replace>
+<!--===============================================================-->
+<!--===== NEW National Faith Buildings ============================-->
+<!--===============================================================-->
+<!-- Akapana -->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA">
+			<Text>[COLOR_YELLOW]Akapana[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA_HELP">
+			<Text>
+				May only be constructed in a [COLOR_CYAN]Holy City[ENDCOLOR].
+				[NEWLINE][NEWLINE]Unlocks the Ability to perform [COLOR_POSITIVE_TEXT]Challa Rituals[ENDCOLOR] by spending [ICON_PEACE] Faith, which add +1 of All Yield Types to the Akapana (Max of +12 each). After performing 10 Challa Rituals, you may select a Reformation Belief.
+				[NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this city by 50%, and increases the city's resistance to conversion by 25%.
+				[NEWLINE][NEWLINE]Receive 1 additional [ICON_DIPLOMAT] Delegate in the World Congress for every 10 Cities following your [ICON_RELIGION] Religion.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA_STRATEGY">
+			<Text>The Akapana can be built immediately upon founding. You can spend faith to upgrade your Akapana by performing Challa Rituals. Each Challa Ritual gets you closer to reforming your religion, and adds yields to the Akapana, making it a powerful economic boost to your empire.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA_PEDIA">
+			<Text>On the shores of Lake Titicaca are the remains of one of the most powerful and influential cultures to appear in the Andean mountains: Tiwanaku. Long before the Incan Empire, the priests and nobles of Tiwanaku cultivated a hegemony over modern day Bolivia and northern Chile, based solely on cultural and religious influence. Within Tiwanaku was a sprawling complex of temples and courtyards for various rituals and rites, but the greatest of them all was the Akapana, a gargantuan manmade stepped pyramid in the shape of a modified Andean Cross.[NEWLINE][NEWLINE]The Akapana's resemblance to the nearby mountains was not an accident, just as the mountains surrounding Lake Titicaca feed the great lake with their spring water, the Akapana is believed to have collected rainwater on its flat upper surface and funneled it into a depression at the centre. The centre of the pyramid contained a hole, filled with loose stones, which permitted water to drain out of the Akapana's center, and down into a moat surrounding the temple complex. Thus, the Akapana would have been seen as a holy mountain in its own right, blessing the city with its water. The act of pouring and collecting water and sacred drinks was central to many Andean religions, which presented gifts to the earth by pouring out drinks or burying meals and trinkets.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA_CHALLA_RITUAL">
+			<Text>[COLOR_YELLOW]Challa Ritual[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA_CHALLA_RITUAL_HELP">
+			<Text>
+				Spend [ICON_PEACE] Faith to perform a Challa Ritual, adding +1 of All Yields to your [COLOR_POSITIVE_TEXT]Akapana[ENDCOLOR].
+				[NEWLINE][NEWLINE]Requires adopting the [COLOR_POSITIVE_TEXT]Akapana[ENDCOLOR] Founder Belief and constructing the [COLOR_POSITIVE_TEXT]Akapana[ENDCOLOR] in this City.
+				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Warning[ENDCOLOR]: Automatic Faith Purchase will reset after each automatically purchased Challa Ritual!
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA_CHALLA_RITUAL_TEXT">
+			<Text>The Challa rituals are a central part of worship to Pachamama, the earth deity of many Pre-Columbian Andean cultures. Each day, priests would prepare a cup of chicha -- a kind of beer made from corn -- and spill a small amount as an offering to Pachamama before drinking the rest. We do not know for sure where the ritual originated, but the city of Tiwanaku contained one of the oldest and grandest temple complexes where these ceremonies took place.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA_CHALLA_RITUAL_STRATEGY">
+			<Text>If you have adopted the Akapana founder belief, use your faith to perform Challa rituals which make your Akapana wonder stronger.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA_CHALLA_REFORMATION">
+			<Text>[COLOR_YELLOW]Challa Reformation[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_AKAPANA_CHALLA_REFORMATION_HELP">
+			<Text>Spend [ICON_PEACE] Faith to perform a Challa Reformation that adds +2 of All Yields to your [COLOR_POSITIVE_TEXT]Akapana[ENDCOLOR] and let's you reform your religion on the following turn. Requires having performed [COLOR_CYAN]10 Challa Rituals[ENDCOLOR].</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_AKAPANA_SHORT">
+			<Text>Akapana</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BELIEF_GAIA_AKAPANA">
+			<Text>Unlocks the [COLOR_YELLOW]Akapana[ENDCOLOR] Wonder (+50% Religious Pressure from this City). Can perform [COLOR_POSITIVE_TEXT]Challa Rituals[ENDCOLOR], which add +1 of All Yields to the Akapana (Max of +12 each).</Text>
+		</Replace>
+<!-- Mausoleum -->
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MAUSOLEUM">
+			<Text>[COLOR_YELLOW]Mausoleum[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MAUSOLEUM_HELP">
+			<Text>
+				Allows you to select a [COLOR_POSITVE_TEXT]Reformation Belief[ENDCOLOR]. Gain [ICON_PEACE] Faith when an owned unit is killed in battle.
+				[NEWLINE][NEWLINE]May only be constructed in a Holy City, and only if at least 25% of the global population follows your Religion (scaling with map size).
+				[NEWLINE][NEWLINE]Boosts Pressure of [ICON_RELIGION] Religious Majority emanating from this city by 33%, and increases the city's resistance to conversion by 25%.
+				[NEWLINE][NEWLINE]Receive 1 additional [ICON_DIPLOMAT] Delegate in the World Congress for every 10 Cities following your [ICON_RELIGION] Religion.
+			</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MAUSOLEUM_STRATEGY">
+			<Text>Build the Mausoleum to chose a [COLOR_POSITVE_TEXT]Reformation Belief[ENDCOLOR] and gain [ICON_PEACE] Faith from casualties in war. May only be constructed in a Holy City, and only if at least 20% of the global population follows your Religion (scaling with map size).</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILDING_GAIA_MAUSOLEUM_PEDIA">
+			<Text>A mausoleum is an external free-standing building constructed as a monument enclosing the interment space or burial chamber of a deceased person or people. A monument without the interment is a cenotaph. A mausoleum may be considered a type of tomb, or the tomb may be considered to be within the mausoleum. A Christian mausoleum sometimes includes a chapel.</Text>
+		</Replace>
+	</Language_en_US>
+</GameData>
