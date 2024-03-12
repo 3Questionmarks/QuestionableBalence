@@ -183,7 +183,8 @@
 		<Row>
 			<Type>RESOURCE_CORAL</Type>
 			<Happiness>4</Happiness>
-			<TechCityTrade>TECH_SAILING</TechCityTrade>
+			<!--TechCityTrade>TECH_SAILING</TechCityTrade-->
+            <TechCityTrade>TECH_FISHING</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_CORAL</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_CORAL_TEXT</Civilopedia>
 			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>

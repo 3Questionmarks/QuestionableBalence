@@ -80,13 +80,14 @@
 			<Set PrereqTech="TECH_FISHING"/>
 		</Update>
 	</Technology_PrereqTechs>
-	<!-- Fish are improved at Fishing -->
+	<!-- Water Resources are improved at Fishing -->
 	<Resources>
 		<Update>
-			<Where Type="RESOURCE_FISH"/>
+			<Where TechCityTrade="TECH_SAILING"/>
 			<Set TechCityTrade="TECH_FISHING"/>
 		</Update>
 	</Resources>
+	
 	<!-- Language stuff done in "TechTextChanges" -->
 
 	<!-- Added Logging Tech (Allows for getting lumbermills earlier) -->
