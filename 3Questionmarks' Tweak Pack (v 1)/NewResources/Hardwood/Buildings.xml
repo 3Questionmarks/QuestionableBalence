@@ -38,22 +38,22 @@
 			<Description>TXT_KEY_BUILDING_LUMBER_YARD_SIXTH</Description>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_LUMBER_YARD_SIXTH</Type>
+			<Type>BUILDINGCLASS_LUMBER_YARD_SEVENTH</Type>
 			<DefaultBuilding>BUILDING_LUMBER_YARD_SEVENTH</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_LUMBER_YARD_SIXTH</Description>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_LUMBER_YARD_SIXTH</Type>
+			<Type>BUILDINGCLASS_LUMBER_YARD_EIGHTH</Type>
 			<DefaultBuilding>BUILDING_LUMBER_YARD_EIGHTH</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_LUMBER_YARD_SIXTH</Description>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_LUMBER_YARD_SIXTH</Type>
+			<Type>BUILDINGCLASS_LUMBER_YARD_NINETH</Type>
 			<DefaultBuilding>BUILDING_LUMBER_YARD_NINETH</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_LUMBER_YARD_SIXTH</Description>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_LUMBER_YARD_SIXTH</Type>
+			<Type>BUILDINGCLASS_LUMBER_YARD_TENTH</Type>
 			<DefaultBuilding>BUILDING_LUMBER_YARD_TENTH</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_LUMBER_YARD_SIXTH</Description>
 		</Row>

@@ -585,7 +585,7 @@
     <File md5="527B861C9603E4F7C9D46F64886EF608" import="1">NewResources/Hardwood/ART/HardwoodmodIconAtlas45.dds</File>
     <File md5="842EC97EE582C63852B9D68DC48207D4" import="1">NewResources/Hardwood/ART/HardwoodmodIconAtlas64.dds</File>
     <File md5="E2C627385A86952B138EDBACF3230163" import="1">NewResources/Hardwood/ART/HardwoodmodIconAtlas80.dds</File>
-    <File md5="AF5F68CB92B2598A5C37B6A888EA24AA" import="0">NewResources/Hardwood/Buildings.xml</File>
+    <File md5="07140012F926A3BE89DEF4A3AD314D7B" import="0">NewResources/Hardwood/Buildings.xml</File>
     <File md5="2F9171FE01A25613806921C167E3AE9E" import="0">NewResources/Hardwood/Hardwood.lua</File>
     <File md5="ECF1DC06E18BA39C1A4638474971C876" import="0">NewResources/Hardwood/Resources.xml</File>
     <File md5="73E9BBE5BF3D75F5E2B994E56CCF7AAD" import="0">NewResources/Hardwood/Text.xml</File>
@@ -1084,7 +1084,6 @@
       <UpdateDatabase>Units/New/GreatWarNavalBomber.xml</UpdateDatabase>
       <UpdateDatabase>Units/New/NavalBomber.xml</UpdateDatabase>
       <UpdateDatabase>Units/New/NavalStealthBomber.xml</UpdateDatabase>
-      <UpdateUserData>Terrain/BadTilesTweak.xml</UpdateUserData>
       <UpdateDatabase>Terrain/chopjungle.sql</UpdateDatabase>
       <UpdateDatabase>Terrain/CopperBuff.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/WorkableMountains.xml</UpdateDatabase>
@@ -1205,6 +1204,7 @@
       <UpdateDatabase>Improvements/New/ART/Art.xml</UpdateDatabase>
       <UpdateDatabase>Improvements/New/DeepseaMiningPlatform.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/WaterChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Terrain/BadTilesTweak.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
