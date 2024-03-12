@@ -17,7 +17,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_FOREST_ELEPHANT</UnitType>
-			<PromotionType>PROMOTION_MAY_CROSS_MOUNTAINS</PromotionType>
+			<PromotionType>PROMOTION_CAN_CROSS_MOUNTAINS</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
