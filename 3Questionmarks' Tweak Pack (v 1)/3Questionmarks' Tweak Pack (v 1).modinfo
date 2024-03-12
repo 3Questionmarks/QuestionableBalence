@@ -30,6 +30,7 @@
     <File md5="9843EDEE95EF8723E514024902B5362A" import="0">GameplayChanges/convenientstart.lua</File>
     <File md5="AD26F5B3458D671115114B334EBAA872" import="0">GameplayChanges/convenientstart.sql</File>
     <File md5="D72398C5BF063EF5C757072BC1FD5BE2" import="0">GameplayChanges/convenientstart.xml</File>
+    <File md5="5EF6510488F38EC0CB99370D91E2BA48" import="0">GameplayChanges/EspionageChanges.xml</File>
     <File md5="0C94D32FFEAA167FEDB7E26115451731" import="0">GameplayChanges/ExtraHappinessPerLuxury.xml</File>
     <File md5="961B77C345936677B3AF3D47A1D06A73" import="0">GameplayChanges/FasterPolocies.xml</File>
     <File md5="8257E75C2CBAD69DF4661DE835C6888D" import="0">GameplayChanges/FlatlandCityExtraFood.xml</File>
@@ -1205,6 +1206,7 @@
       <UpdateDatabase>Improvements/New/DeepseaMiningPlatform.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/WaterChanges.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/BadTilesTweak.xml</UpdateDatabase>
+      <UpdateDatabase>GameplayChanges/EspionageChanges.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>

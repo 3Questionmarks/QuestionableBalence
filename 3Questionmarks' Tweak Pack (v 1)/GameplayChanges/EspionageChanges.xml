@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2024 8:47:38 PM -->
+<GameData>
+	<Defines>
+		<!-- Change spy visibility from 1 tile to 3 -->
+		<Update>
+			<Where Name="ESPIONAGE_SURVEILLANCE_SIGHT_RANGE" />
+			<Set Value="3" />
+		</Update>
+	</Defines>
+  
+</GameData>
