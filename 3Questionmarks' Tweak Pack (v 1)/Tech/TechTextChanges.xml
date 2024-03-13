@@ -14,11 +14,11 @@
 		<!-- ===Ancient=== -->
 		<!-- ============= -->
 		
-		<!-- Agriculture -->
+		<!-- Agriculture >
 		<Delete Tag="TXT_KEY_TECH_AGRICULTURE_HELP" />
 		<Row Tag="TXT_KEY_TECH_AGRICULTURE_HELP">
 			<Text>Allows Workers to construct [COLOR_YIELD_GOLD]Farms[ENDCOLOR], vital for increasing the [ICON_FOOD] Food output of map tiles.</Text>
-		</Row>
+		</Row-->
 		
 		<!-- New Tech "Fishing" -->
 		<Row Tag="TXT_KEY_TECH_FISHING_TITLE">

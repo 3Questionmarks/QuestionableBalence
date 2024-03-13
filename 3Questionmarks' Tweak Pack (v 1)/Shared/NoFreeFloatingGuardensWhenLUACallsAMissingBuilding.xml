@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/13/2024 1:02:33 AM -->
+<GameData>
+	<!-- If a LUA file tries to add a building that does not exist, it will instead add a Floating Guarden (ID 0). -->
+	<!-- This file 0's the regular floating guardens and replaces the Aztec UB with one identical to the orriginal -->
+
+	<!-- Zero the old Floating Guardens -->
+	<BuildingClasses>
+		<Update>
+			<Where Type="BUILDING_FLOATING_GARDENS"/>
+			<Set>
+				<Description>TXT_KEY_BUILDING_BROKEN_FLOATING_GARDENS_DESC</Description>
+			</Set>
+		</Update>
+	</BuildingClasses>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_FLOATING_GARDENS"/>
+			<Set>
+				<ConquestProb>0</ConquestProb>
+				<NeverCapture>1</NeverCapture>
+				<GoldMaintenance>0</GoldMaintenance>
+				<Cost>-1</Cost>
+				<!--PrereqTech>null</PrereqTech-->
+				<Description>TXT_KEY_BUILDING_BROKEN_FLOATING_GARDENS_DESC</Description>
+				<Civilopedia>TXT_KEY_BUILDING_BROKEN_FLOATING_GARDENS_PEDIA</Civilopedia>
+				<Strategy>TXT_KEY_BUILDING_BROKEN_FOATING_GARDENS_STRATEGY</Strategy>
+				<Help>TXT_KEY_BUILDING_BROKEN_FLOATING_GARDENS_HELP</Help>
+			</Set>
+		</Update>
+	</Buildings>
+	<Building_LakePlotYieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_FLOATING_GARDENS" YieldType="YIELD_FOOD"/>
+			<Set>
+				<Yield>0</Yield>
+			</Set>
+		</Update>
+	</Building_LakePlotYieldChanges>
+	<Building_YieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_FLOATING_GARDENS" YieldType="YIELD_FOOD"/>
+			<Set>
+				<Yield>0</Yield>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_FLOATING_GARDENS" YieldType="YIELD_PRODUCTION"/>
+			<Set>
+				<Yield>0</Yield>
+			</Set>
+		</Update>
+	</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Update>
+			<Where BuildingType="BUILDING_FLOATING_GARDENS" YieldType="YIELD_FOOD"/>
+			<Set>
+				<Yield>0</Yield>
+			</Set>
+		</Update>
+	</Building_YieldModifiers>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_BROKEN_FLOATING_GARDENS_DESC">
+			<Text>[ICON_HAPPINESS_4]Broken LUA File Building[ICON_HAPPINESS_4]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BROKEN_FLOATING_GARDENS_PEDIA">
+			<Text>This building is added to a city if a LUA file tries to add a building that doesn't exist. If you see if please report it with as much info as possible about the game, maybe just attach the save file to the bug report.[NEWLINE][NEWLINE]This is me whenever I see this: --> [ICON_HAPPINESS_4].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BROKEN_FOATING_GARDENS_STRATEGY">
+			<Text>This building is added to a city if a LUA file tries to add a building that doesn't exist. If you see if please report it with as much info as possible about the game, maybe just attach the save file to the bug report.[NEWLINE][NEWLINE]This is me whenever I see this: --> [ICON_HAPPINESS_4].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BROKEN_FLOATING_GARDENS_HELP">
+			<Text>This building is added to a city if a LUA file tries to add a building that doesn't exist. If you see if please report it with as much info as possible about the game, maybe just attach the save file to the bug report.[NEWLINE][NEWLINE]This is me whenever I see this: --> [ICON_HAPPINESS_4].</Text>
+		</Row>
+	</Language_en_US>
+	
+	<!-- Make a new exact copy of the aztec's floating guardens -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_FLOATING_GARDENS_NEW</Type>
+			<DefaultBuilding>BUILDING_WATERMILL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_FLOATING_GARDENS_NEW_DESC</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_FLOATING_GARDENS_NEW</Type>
+			<BuildingClass>BUILDINGCLASS_WATERMILL</BuildingClass>
+			<Description>TXT_KEY_BUILDING_FLOATING_GARDENS_NEW_DESC</Description>
+			<Strategy>TXT_KEY_BUILDING_FOATING_GARDENS_NEW_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_FLOATING_GARDENS_NEW_HELP</Help>
+			<GoldMaintenance>1</GoldMaintenance>
+			<FreshWater>1</FreshWater>
+			<Cost>75</Cost>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<ArtDefineTag>ART_DEF_BUILDING_WATERMILL</ArtDefineTag>
+			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<PortraitIndex>58</PortraitIndex>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_LakePlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_LakePlotYieldChanges>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_NEW_DESC">
+			<Text>Floating Gardens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FOATING_GARDENS_NEW_STRATEGY">
+			<Text>The Floating Gardens is the Aztec unique building, replacing the Water Mill. It increases the city's [ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith output, and should be built if the city is near a lake or river.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_NEW_HELP">
+			<Text>+15% [ICON_FOOD] Food. Each worked Lake tile provides +2 [ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith.[NEWLINE][NEWLINE]City must be built next to a River or Lake.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_TECH_AGRICULTURE_HELP" />
+		<Row Tag="TXT_KEY_TECH_AGRICULTURE_HELP">
+			<Text>Allows [ICON_WORKER] Workers to construct [COLOR_YIELD_GOLD]Farms[ENDCOLOR], vital for increasing the [ICON_FOOD] Food output of map tiles.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Civilization_BuildingClassOverrides>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_AZTEC" BuildingType="BUILDING_FLOATING_GARDENS"/>
+			<Set>
+				<BuildingType>BUILDING_FLOATING_GARDENS_NEW</BuildingType>
+			</Set>
+		</Update>
+	</Civilization_BuildingClassOverrides>
+
+	
+	
+  
+</GameData>

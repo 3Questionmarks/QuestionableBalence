@@ -218,6 +218,14 @@
 			<PromotionType>PROMOTION_ARMOR_VS_LAND</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_ARMOR_VS_LAND">
+			<Text>Bonus vs Tanks (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ARMOR_VS_LAND_HELP">
+			<Text>+50% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
 
 	<!-- Infantry units now get +25% bonus vs ranged units and heal an extra 10HP in friendly borders and 5HP outside. -->
 	<UnitPromotions>

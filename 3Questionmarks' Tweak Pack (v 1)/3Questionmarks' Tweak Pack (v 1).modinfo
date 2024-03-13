@@ -594,6 +594,7 @@
     <File md5="43C0DAC6D0E4BDD6C365347C549F1E37" import="0">Projects/ApolloProgramChanges.xml</File>
     <File md5="0266253823AADEAA8613E74A1132096C" import="0">Projects/ManhattanProjectChanges.xml</File>
     <File md5="ABFD3FC29D8A487B2788BD85A1014BBF" import="0">Ruins/MoreGoodyHut.xml</File>
+    <File md5="4BD84694729E9C92B95DFDA7B9C5C567" import="0">Shared/NoFreeFloatingGuardensWhenLUACallsAMissingBuilding.xml</File>
     <File md5="2BF649C76A1685527B9EC6BC56A3EB1D" import="0">Shared/Unit Created (v 5)/Promotion_Created.xml</File>
     <File md5="E3AB73844886B35F4B78A604FA2D13D2" import="0">Shared/Unit Created (v 5)/SerialEventUnitCreatedGood.lua</File>
     <File md5="60BB5C05A28D5AE0960C8A19E3806D31" import="0">Specialists/SpecialistChanges.xml</File>
@@ -609,7 +610,7 @@
     <File md5="03011D8262F8EBFB26DB757C1CA4DBA8" import="1">Tech/NoBeelineConfigurations.lua</File>
     <File md5="D9257BBAD9299935BEE3C22850C0BF84" import="0">Tech/NoTechTreeBeelining.lua</File>
     <File md5="3044012A0EAF3DBE32F322D2BFEBCE34" import="0">Tech/SlowerTech.xml</File>
-    <File md5="6EA22B763DB6524578F789A0AE0C3CE2" import="0">Tech/TechTextChanges.xml</File>
+    <File md5="A8EDDCE1BBE57EFBF868618817687381" import="0">Tech/TechTextChanges.xml</File>
     <File md5="A53A6FCE8D3FEF0FCCC3F69521CE6E36" import="0">Terrain/BadTilesTweak.xml</File>
     <File md5="967D0721E44BD4B09B5249EEDB178391" import="0">Terrain/chopjungle.sql</File>
     <File md5="5AE865C8E270D4AB1C5A25A3B6F5B937" import="0">Terrain/CopperBuff.xml</File>
@@ -695,7 +696,7 @@
     <File md5="E1E59C493F7CE497A7F81CA614BCA98E" import="0">Units/New/NuclearDestroyer.xml</File>
     <File md5="F2FC49ACE9BC1E9204A57BEB66444082" import="0">Units/New/Pioneer+Colonist.lua</File>
     <File md5="84C05F06FBD79AC3D3101CE8669E1DF9" import="0">Units/New/MobileMissileLanucher.xml</File>
-    <File md5="B0767726C59334C9176D8B96BA2654DF" import="0">Units/New/NewPromotions.xml</File>
+    <File md5="E691E7B8ABB0DCED5CEE37A9C2D4CDB0" import="0">Units/New/NewPromotions.xml</File>
     <File md5="31A6C233CBB60DBE16F2F447E46C5194" import="0">Units/New/Pioneer.xml</File>
     <File md5="0ED8EF1BB83F2A5B867C630FB1BBBC0E" import="0">Units/New/SuperCarrier.xml</File>
     <File md5="329B078F35E319C5282B2A367166824C" import="0">Units/New/TaticalNuclearMissile.xml</File>
@@ -738,7 +739,7 @@
     <File md5="3D9CEE27B793F3E1CB354BAB4524B0D2" import="0">Wonders/NationalCollageChanges.xml</File>
     <File md5="BDABAEA7D31461E8B317FF98E101481A" import="0">Wonders/NationalIntelligenceAgency.xml</File>
     <File md5="02596CC960105DD9DF26394C1405F851" import="0">Wonders/NationalTouristCenterChanges.xml</File>
-    <File md5="D422797FB9ED8643633E6DB966DE9CF9" import="0">Wonders/NaturalWonderChanges.xml</File>
+    <File md5="8E1D99A9506D5ED35EFF009832A7E98D" import="0">Wonders/NaturalWonderChanges.xml</File>
     <File md5="B4A5B58F148A34A40B365735EA3D4D6C" import="0">Wonders/NeuschwansteinChanges.xml</File>
     <File md5="A5EA98BC37F2A579740985E7AB9AAA53" import="0">Wonders/New/ART/KeldurHall_IconTextureAtlases.xml</File>
     <File md5="532957F3BC13E93E5FF317AF2FDEEFA3" import="1">Wonders/New/ART/Keldur_Hall_icon128.dds</File>
@@ -1207,6 +1208,7 @@
       <UpdateDatabase>Terrain/WaterChanges.xml</UpdateDatabase>
       <UpdateDatabase>Terrain/BadTilesTweak.xml</UpdateDatabase>
       <UpdateDatabase>GameplayChanges/EspionageChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Shared/NoFreeFloatingGuardensWhenLUACallsAMissingBuilding.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>

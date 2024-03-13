@@ -245,14 +245,14 @@
 			<Set AddsFreshWater="true" SeeThrough="0"/>
 		</Update>
 	</Features>
-    
-    <Building_FeatureYieldChanges>
+
+	<!--Building_FeatureYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
 			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
-	</Building_FeatureYieldChanges>
+	</Building_FeatureYieldChanges-->
 	
 </GameData>
