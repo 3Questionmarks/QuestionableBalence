@@ -589,7 +589,7 @@
     <File md5="07140012F926A3BE89DEF4A3AD314D7B" import="0">NewResources/Hardwood/Buildings.xml</File>
     <File md5="2F9171FE01A25613806921C167E3AE9E" import="0">NewResources/Hardwood/Hardwood.lua</File>
     <File md5="ECF1DC06E18BA39C1A4638474971C876" import="0">NewResources/Hardwood/Resources.xml</File>
-    <File md5="73E9BBE5BF3D75F5E2B994E56CCF7AAD" import="0">NewResources/Hardwood/Text.xml</File>
+    <File md5="61FAA8FE39CF08B607547962B55567AA" import="0">NewResources/Hardwood/Text.xml</File>
     <File md5="B321ACD3AD39F84768CB11DD3ABCDCC3" import="0">NewResources/Hardwood/Unit.xml</File>
     <File md5="43C0DAC6D0E4BDD6C365347C549F1E37" import="0">Projects/ApolloProgramChanges.xml</File>
     <File md5="0266253823AADEAA8613E74A1132096C" import="0">Projects/ManhattanProjectChanges.xml</File>

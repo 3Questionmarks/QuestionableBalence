@@ -21,25 +21,37 @@
 			<Text>A lumber yard is a location where lumber and wood-related products used in construction projects are processed or stored. Tree have been felled, stored, and processed for human use since the dawn of civilization, but it took time for the industry to formalize. In ancient times only cities needed areas dedicated to large scale lumber storage and processing, usually for large public projects, such as for building ships or the scaffolding of monuments.[NEWLINE][NEWLINE]Generally, timber yards are locations where raw logs and other wood or forest products are processed and stored. The terms "lumber yard" and "timber yard" are sometimes used interchangeably, and timber yards may include additional aspects that lumber yards encompass, and vice versa.[NEWLINE][NEWLINE]Lumber yards store, and may sell, products made at lumber mills. Additional activities include inspection for signs of rot or insect infestation, utilizing stacking techniques to prevent rot from forming, and the removal of bark.[NEWLINE][NEWLINE]Nowadays customers pick up products at the yard themselves or request that an order be built and delivered to them by the lumber yard. Lumber yards are the primary resources for contractors and homeowners when construction material is needed. Saws may also be available to cut boards to a desired length for customers.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_DUMMY_HELP">
-			<Text>Must be built in a city with local Lumber Mills. Provides 1 [ICON_RES_HARDWOOD] Hardwood and 1 [ICON_PRODUCTION] Production for every Lumber Mill nearby.</Text>
+			<Text>Must be built in a city with local Lumber Mills. Provides 2 [ICON_RES_HARDWOOD] Hardwood and 1 [ICON_PRODUCTION] Production for every Lumber Mill nearby.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_FIRST_HELP">
-			<Text>Must be built in a city with local Lumber Mills. Provides 1 [ICON_RES_HARDWOOD] Hardwood and 1 [ICON_PRODUCTION] Production.</Text>
+			<Text>Must be built in a city with local Lumber Mills. Provides 2 [ICON_RES_HARDWOOD] Hardwood and 1 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_SECOND_HELP">
-			<Text>Must be built in a city with local Lumber Mills. Provides 2 [ICON_RES_HARDWOOD] Hardwood and 2 [ICON_PRODUCTION] Production.</Text>
+			<Text>Must be built in a city with local Lumber Mills. Provides 4 [ICON_RES_HARDWOOD] Hardwood and 2 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_THIRD_HELP">
-			<Text>Must be built in a city with local Lumber Mills. Provides 3 [ICON_RES_HARDWOOD] Hardwood and 3 [ICON_PRODUCTION] Production.</Text>
+			<Text>Must be built in a city with local Lumber Mills. Provides 6 [ICON_RES_HARDWOOD] Hardwood and 3 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_FOURTH_HELP">
-			<Text>Must be built in a city with local Lumber Mills. Provides 4 [ICON_RES_HARDWOOD] Hardwood and 4 [ICON_PRODUCTION] Production.</Text>
+			<Text>Must be built in a city with local Lumber Mills. Provides 8 [ICON_RES_HARDWOOD] Hardwood and 4 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_FIFTH_HELP">
-			<Text>Must be built in a city with local Lumber Mills. Provides 5 [ICON_RES_HARDWOOD] Hardwood and 5 [ICON_PRODUCTION] Production.</Text>
+			<Text>Must be built in a city with local Lumber Mills. Provides 10 [ICON_RES_HARDWOOD] Hardwood and 5 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_SIXTH_HELP">
-			<Text>Must be built in a city with local Lumber Mills. Provides 6 [ICON_RES_HARDWOOD] Hardwood and 6 [ICON_PRODUCTION] Production.</Text>
+			<Text>Must be built in a city with local Lumber Mills. Provides 12 [ICON_RES_HARDWOOD] Hardwood and 6 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_SEVENTH_HELP">
+			<Text>Must be built in a city with local Lumber Mills. Provides 14 [ICON_RES_HARDWOOD] Hardwood and 6 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_EIGHTH_HELP">
+			<Text>Must be built in a city with local Lumber Mills. Provides 16 [ICON_RES_HARDWOOD] Hardwood and 6 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_NINETH_HELP">
+			<Text>Must be built in a city with local Lumber Mills. Provides 18 [ICON_RES_HARDWOOD] Hardwood and 6 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LUMBER_YARD_TENTH_HELP">
+			<Text>Must be built in a city with local Lumber Mills. Provides 20 [ICON_RES_HARDWOOD] Hardwood and 6 [ICON_PRODUCTION] Production.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_LUMBER_YARD_UNIT">
 			<Text>Lumber Yard</Text>

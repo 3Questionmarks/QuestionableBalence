@@ -9,7 +9,7 @@
 	</Traits>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_TRAIT_FA_DIDO">
-			<Text>Cities receive a free Harbor. Each traded resource type generates 3 [ICON_GOLD] Gold and 3 [ICON_CULTURE] Culture per Turn. -50% Naval Unit [ICON_GOLD] Gold Maintainace. +33% [ICON_PRODUCTION] Production for naval units.</Text>
+			<Text>Costal cities receive a free Harbor and claim nearby resources. Each traded resource type generates 3 [ICON_GOLD] Gold and 3 [ICON_CULTURE] Culture per Turn. -50% Naval Unit [ICON_GOLD] Gold Maintainace. +33% [ICON_PRODUCTION] Production for naval units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_FA_DIDO_SHORT">
 			<Text>Trade Rule</Text>
