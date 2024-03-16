@@ -64,7 +64,7 @@
     <File md5="476F493747ADA572482E1314ECA9728F" import="0">XML/Communes/ART/WarJunkArtDefines.sql</File>
     <File md5="5FAA69682B2AF1C09A002C99FFCC000D" import="0">XML/Communes/Building.xml</File>
     <File md5="B1C80E7DC6D3A034476262A1860BFBD3" import="0">XML/Communes/Policies.xml</File>
-    <File md5="7C666B2FEBC8684EF636E4F37827E7B3" import="0">XML/Communes/Units.xml</File>
+    <File md5="0A6B420E6388C82EFDCC45699EC4EFE3" import="0">XML/Communes/Units.xml</File>
     <File md5="20124B488A6093D4031EED1395AB5920" import="0">XML/Democracy/ART/CheyenneDSArtDefines.sql</File>
     <File md5="A69C7661C61B0C00B8FAF64199CC7E9E" import="1">XML/Democracy/ART/fx_triggers_SMAN_EU_CDS.ftsxml</File>
     <File md5="38ECF0CB7A9302BC25659E9BFB7F348F" import="1">XML/Democracy/ART/SMAN_EU_CDS.fxsxml</File>
@@ -85,7 +85,7 @@
     <File md5="5F75B69AFD02477F0057234F5C649F7B" import="1">XML/Diplomacy/ART/SMAN_EU_Cavalier_Musketeer_sref.dds</File>
     <File md5="B3A919EAE570F83E8CBE066C6A45D65D" import="0">XML/Diplomacy/Building.xml</File>
     <File md5="0724D7DC12DAF7EB0A650CB0F69211D8" import="0">XML/Diplomacy/Policies.xml</File>
-    <File md5="822FFA8CCA05417DA35DFD7502F0EEDD" import="0">XML/Diplomacy/Units.xml</File>
+    <File md5="1F53E19F84717E894903BA28CC172E2E" import="0">XML/Diplomacy/Units.xml</File>
     <File md5="3E45CE03376F7001D48EEB82DF50D3AD" import="0">XML/Empire/Building.xml</File>
     <File md5="364780B03BB0FAF613AD95B7355A4E05" import="0">XML/Empire/Policies.xml</File>
     <File md5="71D39CF25C7E291A0BE22A732E9072F1" import="0">XML/Empire/Units.xml</File>
@@ -106,7 +106,7 @@
     <File md5="120C87D94087EC516EA1C074074E039E" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Venice_diff.dds</File>
     <File md5="315311E049F777DFB4BA9DCFA2D1563C" import="0">XML/Feudalism/Building.xml</File>
     <File md5="75AA90B7B2F7D219BE74020E2F64F2A3" import="0">XML/Feudalism/Policies.xml</File>
-    <File md5="884B3AECFD7ECB8F437E0B31E47EBD54" import="0">XML/Feudalism/Units.xml</File>
+    <File md5="3FDFED366329FC4B3FD9B0A6566BA6F3" import="0">XML/Feudalism/Units.xml</File>
     <File md5="3FBCCE10F866842D2D0A53277D1A1EAF" import="0">XML/Industry/Building.xml</File>
     <File md5="4AF510426F2F6B7082A551FFDE5E5590" import="0">XML/Industry/Policies.xml</File>
     <File md5="EC0736F0ECC30C1CBE5BA025212EE0A4" import="0">XML/Industry/Units.xml</File>
@@ -132,7 +132,7 @@
     <File md5="2C32FD057A9BAE99F003D21473253462" import="0">XML/Monarchy/Building.xml</File>
     <File md5="30F015CA21202BB295B5F03FD706627F" import="0">XML/Monarchy/CulturePerPopulation.lua</File>
     <File md5="6A205F293A402AA1E2F9022A9923DB87" import="0">XML/Monarchy/Policies.xml</File>
-    <File md5="06F5D920CFB7F1E27AF94731BAA8BA7C" import="0">XML/Monarchy/Units.xml</File>
+    <File md5="33A60450BB3FC7998DAECBC54E953AEF" import="0">XML/Monarchy/Units.xml</File>
     <File md5="784073E2D05CE860A4A68F0E0465FDF7" import="0">XML/Patonage/ART/CIV5IconTextureAtlases.xml</File>
     <File md5="83735AB125FD729E6D4DDE9BF57283AD" import="1">XML/Patonage/ART/IronwoodTrebuchet128.dds</File>
     <File md5="3DA6E09F5EF2551BCD1B09CC8CCDAFE4" import="1">XML/Patonage/ART/IronwoodTrebuchet256.dds</File>

@@ -14,11 +14,11 @@
 		<!-- ===Ancient=== -->
 		<!-- ============= -->
 		
-		<!-- Agriculture >
+		<!-- Agriculture -->
 		<Delete Tag="TXT_KEY_TECH_AGRICULTURE_HELP" />
 		<Row Tag="TXT_KEY_TECH_AGRICULTURE_HELP">
-			<Text>Allows Workers to construct [COLOR_YIELD_GOLD]Farms[ENDCOLOR], vital for increasing the [ICON_FOOD] Food output of map tiles.</Text>
-		</Row-->
+			<Text>Allows [ICON_WORKER] Workers to construct [COLOR_YIELD_GOLD]Farms[ENDCOLOR], vital for increasing the [ICON_FOOD] Food output of map tiles.</Text>
+		</Row>
 		
 		<!-- New Tech "Fishing" -->
 		<Row Tag="TXT_KEY_TECH_FISHING_TITLE">
@@ -43,7 +43,7 @@
 		<Delete Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_HELP" />
 		<Row Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_HELP">
 			<Text>
-				Allows Workers to construct [COLOR_YIELD_GOLD]Pastures[ENDCOLOR] to improve resources such as [ICON_RES_COW] [COLOR_WHITE]Cows[ENDCOLOR], and reveals [ICON_RES_HORSE] [COLOR_WHITE]Horses[ENDCOLOR], which are used to build powerful mounted units. Also allows you to build the [COLOR_XP_BLUE]Caravan[ENDCOLOR], used to establish lucrative [ICON_INTERNATIONAL_TRADE] [COLOR_CULTURE_STORED]Trade Routes[ENDCOLOR], and allows for the establishment of such a [ICON_INTERNATIONAL_TRADE] [COLOR_CULTURE_STORED]Trade Route[ENDCOLOR].</Text>
+				Allows [ICON_WORKER] Workers to construct [COLOR_YIELD_GOLD]Pastures[ENDCOLOR] to improve resources such as [ICON_RES_COW] [COLOR_WHITE]Cows[ENDCOLOR], and reveals [ICON_RES_HORSE] [COLOR_WHITE]Horses[ENDCOLOR], which are used to build powerful mounted units. Also allows you to build the [COLOR_XP_BLUE]Caravan[ENDCOLOR], used to establish lucrative [ICON_INTERNATIONAL_TRADE] [COLOR_CULTURE_STORED]Trade Routes[ENDCOLOR], and allows for the establishment of such a [ICON_INTERNATIONAL_TRADE] [COLOR_CULTURE_STORED]Trade Route[ENDCOLOR].</Text>
 		</Row>
 		<!-- Archery -->
 		<Delete Tag="TXT_KEY_TECH_ARCHERY_HELP" />
@@ -53,7 +53,7 @@
 		<!-- Mining -->
 		<Delete Tag="TXT_KEY_TECH_MINING_HELP" />
 		<Row Tag="TXT_KEY_TECH_MINING_HELP">
-			<Text>Allows Workers to construct [COLOR_YIELD_GOLD]Mines[ENDCOLOR] to increase the [ICON_PRODUCTION] Production of map tiles. Also reveals [COLOR_WHITE]Iron[ENDCOLOR] on the map, a vital resource for powerful military units.</Text>
+			<Text>Allows [ICON_WORKER] Workers to construct [COLOR_YIELD_GOLD]Mines[ENDCOLOR] to increase the [ICON_PRODUCTION] Production of map tiles; and to [COLOR_WHITE]Chop Forests[ENDCOLOR]/[COLOR_WHITE]Jungle[ENDCOLOR], allowing the construction of other improvements. Also reveals [COLOR_WHITE]Iron[ENDCOLOR] on the map, a vital resource for powerful military units.</Text>
 		</Row>
 		<!-- Sailing -->
 		<Update>
@@ -63,7 +63,7 @@
 		<!-- Calendar -->
 		<Update>
 			<Where Tag="TXT_KEY_TECH_CALENDAR_HELP"/>
-			<Set Text="Allows Workers to construct [COLOR_YIELD_GOLD]Plantations[ENDCOLOR] on many Luxury Resources, which are extremely important for [ICON_FOOD] Growth and [ICON_HAPPINESS_1] Happiness. Also allows you to construct the [COLOR_BUILDING_TEXT]Ritual Site[ENDCOLOR], a building that improves the [ICON_CULTURE] Culture and [ICON_PEACE] Faith yield of [ICON_RES_INCENSE] [COLOR_WHITE]Incense[ENDCOLOR], [ICON_RES_SPICES] [COLOR_WHITE]Spices[ENDCOLOR], and [ICON_RES_TOBACCO] [COLOR_WHITE]Tobacco[ENDCOLOR]."/>
+			<Set Text="Allows [ICON_WORKER] Workers to construct [COLOR_YIELD_GOLD]Plantations[ENDCOLOR] on many Luxury Resources, which are extremely important for [ICON_FOOD] Growth and [ICON_HAPPINESS_1] Happiness. Also allows you to construct the [COLOR_BUILDING_TEXT]Ritual Site[ENDCOLOR], a building that improves the [ICON_CULTURE] Culture and [ICON_PEACE] Faith yield of [ICON_RES_INCENSE] [COLOR_WHITE]Incense[ENDCOLOR], [ICON_RES_SPICES] [COLOR_WHITE]Spices[ENDCOLOR], and [ICON_RES_TOBACCO] [COLOR_WHITE]Tobacco[ENDCOLOR]; and to construct the [COLOR_BUILDING_TEXT]Stoneworks[ENDCOLOR], a building that increases the [ICON_PRODUCTION] Production of a city."/>
 		</Update>
 		<!-- Writing -->
 		<Delete Tag="TXT_KEY_TECH_WRITING_HELP" />
@@ -73,12 +73,12 @@
 		<!-- Trapping -->
 		<Delete Tag="TXT_KEY_TECH_TRAPPING_HELP" />
 		<Row Tag="TXT_KEY_TECH_TRAPPING_HELP">
-			<Text>Allows Workers to build [COLOR_YIELD_GOLD]Villages[ENDCOLOR], which increase the [ICON_GOLD] Gold output of map tiles, and may grow into Towns once Guilds is researched. Also Allows your Workers to construct [COLOR_YIELD_GOLD]Camps[ENDCOLOR] used to improve resources such as [ICON_RES_DEER] [COLOR_WHITE]Deer[ENDCOLOR]. Additionally, allows you to construct the [COLOR_BUILDING_TEXT]Smokehouse[ENDCOLOR] and [COLOR_BUILDING_TEXT]Tannery[ENDCOLOR] which are buildings that increase the yields of several resources, as well as the [COLOR_BUILDING_TEXT]Circus[ENDCOLOR] which increases the [ICON_HAPPINESS_1] Happiness of your cities.</Text>
+			<Text>Allows your [ICON_WORKER] Workers to construct [COLOR_YIELD_GOLD]Camps[ENDCOLOR] used to improve resources such as [ICON_RES_DEER] [COLOR_WHITE]Deer[ENDCOLOR]. Additionally, allows you to construct the [COLOR_BUILDING_TEXT]Smokehouse[ENDCOLOR] and [COLOR_BUILDING_TEXT]Tannery[ENDCOLOR] which are buildings that increase the yields of several resources, as well as the [COLOR_BUILDING_TEXT]Circus[ENDCOLOR] which increases the [ICON_HAPPINESS_1] Happiness of your cities.</Text>
 		</Row>
 		<!-- The Wheel -->
 		<Delete Tag="TXT_KEY_TECH_THE_WHEEL_HELP" />
 		<Row Tag="TXT_KEY_TECH_THE_WHEEL_HELP">
-			<Text>Allows you to build the [COLOR_XP_BLUE]Chariot Archer[ENDCOLOR], a fast and powerful ranged unit which requires [ICON_RES_HORSE] [COLOR_WHITE]Horses[ENDCOLOR]. Also allows Workers to construct [COLOR_YIELD_GOLD]Roads[ENDCOLOR], which allow units to move across the map faster and provide extra [ICON_GOLD] Gold when [ICON_CONNECTED] Connecting cities to your [ICON_CAPITAL] Capital. Additionally allows you to construct the [COLOR_BUILDING_TEXT]Water Mill[ENDCOLOR] and [COLOR_BUILDING_TEXT]Bakery[ENDCOLOR] buildings, both of which increase the [ICON_FOOD] Food output of your cities, allowing them to grow faster.</Text>
+			<Text>Allows you to build the [COLOR_XP_BLUE]Chariot Archer[ENDCOLOR], a fast and powerful ranged unit which requires [ICON_RES_HORSE] [COLOR_WHITE]Horses[ENDCOLOR]. Allows [ICON_WORKER] Workers to build [COLOR_YIELD_GOLD]Villages[ENDCOLOR], which increase the [ICON_GOLD] Gold output of map tiles, and may grow into Towns once Guilds is researched; and to construct [COLOR_YIELD_GOLD]Roads[ENDCOLOR], which allow units to move across the map faster and provide extra [ICON_GOLD] Gold when [ICON_CONNECTED] Connecting cities to your [ICON_CAPITAL] Capital. Additionally allows you to construct the [COLOR_BUILDING_TEXT]Water Mill[ENDCOLOR] and [COLOR_BUILDING_TEXT]Bakery[ENDCOLOR] buildings, both of which increase the [ICON_FOOD] Food output of your cities, allowing them to grow faster.</Text>
 		</Row>
 		
 		<!-- New Tech "Logging" -->
@@ -89,7 +89,7 @@
 			<Text>Logging is the process of cutting, processing, and moving trees to a location for transport. It may include skidding, on-site processing, and loading of trees or logs onto carts and later trucks or skeleton cars. In forestry, the term logging is sometimes used narrowly to describe the logistics of moving wood from the stump to somewhere outside the forest, usually a sawmill or a lumber yard. In common usage, however, the term may cover a range of forestry or silviculture activities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_LOGGING_HELP">
-			<Text>Allows Workers to construct [COLOR_YIELD_GOLD]Lumbermills[ENDCOLOR] on forested map tiles, increasing their [ICON_PRODUCTION] Production; and to [COLOR_WHITE]Chop Forests[ENDCOLOR]/[COLOR_WHITE]Jungle[ENDCOLOR], allowing the construction of other improvements; and to [COLOR_WHITE]Plant a Forest[ENDCOLOR].</Text>
+			<Text>Allows [ICON_WORKER] Workers to construct [COLOR_YIELD_GOLD]Lumbermills[ENDCOLOR] on forested map tiles, increasing their [ICON_PRODUCTION] Production; and to [COLOR_WHITE]Plant a Forest[ENDCOLOR]. Also allows for construction the [COLOR_BUILDING_TEST] Lumber Yard[ENDCOLOR], a vital building required for your empire to produce [ICON_RES_HARDWOOD] [COLOR_WHITE]Hardwood[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_LOGGING_QUOTE">
 			<Text>
@@ -100,12 +100,12 @@
 		<!-- Masonry -->
 		<Delete Tag="TXT_KEY_TECH_MASONRY_HELP" />
 		<Row Tag="TXT_KEY_TECH_MASONRY_HELP">
-			<Text>Allows you to construct [COLOR_BUILDING_TEXT]Walls[ENDCOLOR] which greatly improve the defense of cities from attack, and [COLOR_BUILDING_TEXT]Stone Works[ENDCOLOR] which increase the cities [ICON_PRODUCTION] Production. Also allows Workers to construct [COLOR_YIELD_GOLD]Quarries[ENDCOLOR] on [ICON_RES_STONE] [COLOR_WHITE]Stone[ENDCOLOR] and [ICON_RES_MARBLE] [COLOR_WHITE]Marble[ENDCOLOR] and to [COLOR_WHITE]Clear Marshes[ENDCOLOR], allowing other improvements to be constructed.</Text>
+			<Text>Allows you to construct [COLOR_BUILDING_TEXT]Walls[ENDCOLOR] which greatly improve the defense of cities from attack, and [COLOR_BUILDING_TEXT]Stone Works[ENDCOLOR] which increase the cities [ICON_PRODUCTION] Production. Also allows [ICON_WORKER] Workers to construct [COLOR_YIELD_GOLD]Quarries[ENDCOLOR] on [ICON_RES_STONE] [COLOR_WHITE]Stone[ENDCOLOR] and [ICON_RES_MARBLE] [COLOR_WHITE]Marble[ENDCOLOR].</Text>
 		</Row>
 		<!-- Bronce Working -->
 		<Delete Tag="TXT_KEY_TECH_BRONZE_WORKING_HELP" />
 		<Row Tag="TXT_KEY_TECH_BRONZE_WORKING_HELP">
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Spearman[ENDCOLOR], a military unit strong against mounted enemies. Also allows for the construction of the [COLOR_BUILDING_TEXT]Barracks[ENDCOLOR], a building that increases the starting [ICON_WAR] XP for new units; and the [COLOR_BUILDING_TEXT]Smelter[ENDCOLOR], a building that provides the empire with more [ICON_RES_IRON] [COLOR_WHITE]Iron[ENDCOLOR].</Text>
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Spearman[ENDCOLOR], a military unit strong against mounted enemies. Also allows for the construction of the [COLOR_BUILDING_TEXT]Barracks[ENDCOLOR], a building that increases the starting [ICON_WAR] XP for new units. Additionally allows [ICON_WORKER] Workers to[COLOR_WHITE]Clear Marshes[ENDCOLOR], allowing other improvements to be constructed.</Text>
 		</Row>
 
 		
@@ -159,13 +159,13 @@
 		<!-- Engineering -->
 		<Delete Tag="TXT_KEY_TECH_ENGINEERING_HELP" />
 		<Row Tag="TXT_KEY_TECH_ENGINEERING_HELP">
-			<Text>Allows your cities to build [COLOR_BUILDING_TEXT]Aqueducts[ENDCOLOR], increasing the [ICON_FOOD] Food that is carries over as your city grows. Also allows Workers to construct [COLOR_YIELD_GOLD]Forts[ENDCOLOR] on map tiles, increasing the defense of units stationed there; and the [COLOR_YIELD_GOLD]Pontoon Bridge[ENDCOLOR] on water tiles next to 3 land tiles, allowing for land units to cross water without enbarking. Additionally, [COLOR_CULTURE_STORED]Bridges are automatically added to roads which cross rivers[ENDCOLOR], allowing units to pass over them without slowing down.</Text>
+			<Text>Allows your cities to build [COLOR_BUILDING_TEXT]Aqueducts[ENDCOLOR], increasing the [ICON_FOOD] Food that is carries over as your city grows. Also allows [ICON_WORKER] Workers to construct [COLOR_YIELD_GOLD]Forts[ENDCOLOR] on map tiles, increasing the defense of units stationed there; and the [COLOR_YIELD_GOLD]Pontoon Bridge[ENDCOLOR] on water tiles next to 3 land tiles, allowing for land units to cross water without enbarking. Additionally, [COLOR_CULTURE_STORED]Bridges are automatically added to roads which cross rivers[ENDCOLOR], allowing units to pass over them without slowing down.</Text>
 		</Row>
 
 		<!-- Iron Working -->
 		<Delete Tag="TXT_KEY_TECH_IRON_WORKING_HELP" />
 		<Row Tag="TXT_KEY_TECH_IRON_WORKING_HELP">
-			<Text>Allows you to build the [COLOR_XP_BLUE]Swordsman[ENDCOLOR], an extremely powerful melee unit which [ICON_RES_IRON] [COLOR_WHITE]Iron[ENDCOLOR]. Also allows for the construction of the [COLOR_CITY_GREEN]Heroic Epic[ENDCOLOR] national wonder, increasing the [ICON_STRENGTH] Combat Strength of newly trained units in the city.</Text>
+			<Text>Allows you to build the [COLOR_XP_BLUE]Swordsman[ENDCOLOR], an extremely powerful melee unit which [ICON_RES_IRON] [COLOR_WHITE]Iron[ENDCOLOR].Also allows for constructing the [COLOR_BUILDING_TEXT]Smelter[ENDCOLOR], a building that provides the empire with more [ICON_RES_IRON] [COLOR_WHITE]Iron[ENDCOLOR]. Additionally, allows for the construction of the [COLOR_CITY_GREEN]Heroic Epic[ENDCOLOR] national wonder, increasing the [ICON_STRENGTH] Combat Strength of newly trained units in the city.</Text>
 		</Row>
 		
 		
@@ -337,7 +337,7 @@
 		<!-- Fertilizer -->
 		<Update>
 			<Where Tag="TXT_KEY_TECH_FERTILIZER_HELP"/>
-			<Set Text="Increases the [ICON_FOOD] Food from Farmed tiles, providing a massive boost to growth. Also allows Workers to [COLOR_WHITE]Plant a Jungle[ENDCOLOR]."/>
+			<Set Text="Increases the [ICON_FOOD] Food from Farmed tiles, providing a massive boost to growth. Also allows [ICON_WORKER] Workers to [COLOR_WHITE]Plant a Jungle[ENDCOLOR]."/>
 		</Update>
 		
 		<!-- Biology -->
@@ -390,14 +390,14 @@
 
 		<!-- Flight -->
 		<Update>
-			<Set Text="Allows you to build the [COLOR_XP_BLUE]Triplane[ENDCOLOR], an Air Unit Designed to gain control of the skies; the [COLOR_XP_BLUE]Great War Bomber[ENDCOLOR], which can devastate Land Units and Cites; and the [COLOR_XP_BLUE]Great War Naval Bomber[ENDCOLOR], which can devaste naval units from above. Also allows you to construct the [COLOR_CITY_GREEN]National Air Force Academy[ENDCOLOR], which boosts the [ICON_WAR] XP and [ICON_PRODUCTION] Production towards air units. Additionally allows Workers to construct an [COLOR_YIELD_GOLD]Airbase[ENDCOLOR], which allows air units to be stationed on a land tile outside a city."/>
+			<Set Text="Allows you to build the [COLOR_XP_BLUE]Triplane[ENDCOLOR], an Air Unit Designed to gain control of the skies; the [COLOR_XP_BLUE]Great War Bomber[ENDCOLOR], which can devastate Land Units and Cites; and the [COLOR_XP_BLUE]Great War Naval Bomber[ENDCOLOR], which can devaste naval units from above. Also allows you to construct the [COLOR_CITY_GREEN]National Air Force Academy[ENDCOLOR], which boosts the [ICON_WAR] XP and [ICON_PRODUCTION] Production towards air units. Additionally allows [ICON_WORKER] Workers to construct an [COLOR_YIELD_GOLD]Airbase[ENDCOLOR], which allows air units to be stationed on a land tile outside a city."/>
 			<Where Tag="TXT_KEY_TECH_FLIGHT_HELP"/>
 		</Update>
 
 		<!-- Railroad -->
 		<Delete Tag="TXT_KEY_TECH_RAILROAD_HELP"/>
 		<Row Tag="TXT_KEY_TECH_RAILROAD_HELP">
-			<Text>Allows Workers to build [COLOR_YIELD_GOLD]Railroads[ENDCOLOR] on map tiles. [ICON_CONNECTED] Connecting cities with them will increase [ICON_PRODUCTION] Production, and units traveling along them will move more quickly. Also allows you to construct the [COLOR_CITY_GREEN]Central Terminal[ENDCOLOR] national wonder, which automatically upgrades all roads in the empire to railroads</Text>
+			<Text>Allows [ICON_WORKER] Workers to build [COLOR_YIELD_GOLD]Railroads[ENDCOLOR] on map tiles. [ICON_CONNECTED] Connecting cities with them will increase [ICON_PRODUCTION] Production, and units traveling along them will move more quickly. Also allows you to construct the [COLOR_CITY_GREEN]Central Terminal[ENDCOLOR] national wonder, which automatically upgrades all roads in the empire to railroads</Text>
 		</Row>
 		
 		<!-- Plastics -->

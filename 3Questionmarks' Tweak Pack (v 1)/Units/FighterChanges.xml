@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 3/5/2024 10:22:09 PM -->
 <GameData>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
 	<Units>
 		<Update>
 			<Set Cost="520" RangedCombat="65" Range="10" />

@@ -191,7 +191,7 @@
 		<Row>
 			<UnitType>UNIT_HEAVY_CAVALRY</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
-			<Cost>1</Cost>
+			<Cost>2</Cost>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
 	<Unit_Flavors>
@@ -216,7 +216,7 @@
 			<Text>Heavy Cavalry</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HEAVY_CAVALRY_STRATEGY">
-			<Text>The Heavy Cavalry is a devastating melee unit. It is much slower and much more expensive than the common cavalry however it is far stronger. It possess the heavy charge promotion, and a bonus vs fortified units. Use it to break through the enemies front line and force them to retreat. It requires both [ICON_RES_HORSE] Horse and [ICON_RES_IRON] Iron.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR].</Text>
+			<Text>The Heavy Cavalry is a devastating melee unit. It is much slower and much more expensive than the common cavalry however it is far stronger. It possess the heavy charge promotion, and a bonus vs fortified units. Use it to break through the enemies front line and force them to retreat.[NEWLINE]Requires [COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_HEAVY_CAVALRY">
 			<Text>Mounted Unit capable of devastating the front line of enemy armies. It is slow and expensive, but very powerful.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Diplomacy[ENDCOLOR].</Text>

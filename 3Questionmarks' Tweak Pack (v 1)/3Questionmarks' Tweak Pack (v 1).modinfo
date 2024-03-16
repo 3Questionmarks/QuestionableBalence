@@ -571,7 +571,7 @@
     <File md5="191BF88FD71D5B2372A4C42CD8BEF8BC" import="1">Improvements/New/ART/WTEmodIconAtlas64.dds</File>
     <File md5="F2F843AC93270C867B9C9DCE76AD90E3" import="0">Improvements/New/DeepseaMiningPlatform.xml</File>
     <File md5="0BA580FA63C8A38E93605E9C3134AD82" import="0">Improvements/New/Towns.lua</File>
-    <File md5="910AB306A248972EF6614A31364BE0D0" import="0">Improvements/New/Towns.xml</File>
+    <File md5="48E59F5EA2905ADDE3D7CDAA0C729CA2" import="0">Improvements/New/Towns.xml</File>
     <File md5="936BE9A30C43DF26524191F22B442760" import="0">Improvements/No2AdjacentGPTI.xml</File>
     <File md5="A9BC9BF58E08B9B1A8D2F74FFB687BCF" import="0">Improvements/PlantationChanges.xml</File>
     <File md5="C93FA66A6A5658626A5387C14BD22589" import="0">Improvements/RoadChanges.xml</File>
@@ -594,11 +594,11 @@
     <File md5="43C0DAC6D0E4BDD6C365347C549F1E37" import="0">Projects/ApolloProgramChanges.xml</File>
     <File md5="0266253823AADEAA8613E74A1132096C" import="0">Projects/ManhattanProjectChanges.xml</File>
     <File md5="ABFD3FC29D8A487B2788BD85A1014BBF" import="0">Ruins/MoreGoodyHut.xml</File>
-    <File md5="4BD84694729E9C92B95DFDA7B9C5C567" import="0">Shared/NoFreeFloatingGuardensWhenLUACallsAMissingBuilding.xml</File>
+    <File md5="A3EAB3F778B6CC72CF3CE44D1A9DDEA2" import="0">Shared/NoFreeFloatingGuardensWhenLUACallsAMissingBuilding.xml</File>
     <File md5="2BF649C76A1685527B9EC6BC56A3EB1D" import="0">Shared/Unit Created (v 5)/Promotion_Created.xml</File>
     <File md5="E3AB73844886B35F4B78A604FA2D13D2" import="0">Shared/Unit Created (v 5)/SerialEventUnitCreatedGood.lua</File>
     <File md5="60BB5C05A28D5AE0960C8A19E3806D31" import="0">Specialists/SpecialistChanges.xml</File>
-    <File md5="324968885D66F394D4F578913DF77AB0" import="0">Tech/Ancient Era.xml</File>
+    <File md5="A2C3BB8CC4D93467A16C6B799EA58C6D" import="0">Tech/Ancient Era.xml</File>
     <File md5="3972F138E82BF3297B485878D941DFE9" import="0">Tech/ART/Fishing_Icons.xml</File>
     <File md5="6D3686384824252E340E833A7D597AA1" import="1">Tech/ART/fishing_portrait128.dds</File>
     <File md5="6A5CE0137DC04C318A39B157DA310FA8" import="1">Tech/ART/fishing_portrait212.dds</File>
@@ -610,7 +610,7 @@
     <File md5="03011D8262F8EBFB26DB757C1CA4DBA8" import="1">Tech/NoBeelineConfigurations.lua</File>
     <File md5="D9257BBAD9299935BEE3C22850C0BF84" import="0">Tech/NoTechTreeBeelining.lua</File>
     <File md5="3044012A0EAF3DBE32F322D2BFEBCE34" import="0">Tech/SlowerTech.xml</File>
-    <File md5="A8EDDCE1BBE57EFBF868618817687381" import="0">Tech/TechTextChanges.xml</File>
+    <File md5="0039A8E266D538C44FFE62221AAEDCF7" import="0">Tech/TechTextChanges.xml</File>
     <File md5="A53A6FCE8D3FEF0FCCC3F69521CE6E36" import="0">Terrain/BadTilesTweak.xml</File>
     <File md5="967D0721E44BD4B09B5249EEDB178391" import="0">Terrain/chopjungle.sql</File>
     <File md5="5AE865C8E270D4AB1C5A25A3B6F5B937" import="0">Terrain/CopperBuff.xml</File>
@@ -640,28 +640,33 @@
     <File md5="EA4DE63A0F0305E4090B79B21FD9AC96" import="0">Units/ArtilleryChanges.xml</File>
     <File md5="29AE9C7CFBE8384B6D82DA6774E5960A" import="0">Units/AtomicBombChanges.xml</File>
     <File md5="D7C78BCAF4BECFB52ECAC290DE1E5BAE" import="0">Units/BallistaChanges.xml</File>
-    <File md5="CBD5678EE2CF414C5238DCD1C9A6B4F2" import="0">Units/BattleshipChanges.xml</File>
+    <File md5="3764C5975F21DE47D81076D76AD6F6FB" import="0">Units/BattleshipChanges.xml</File>
     <File md5="7099DE2BDA02B4661BE38905C317027D" import="0">Units/BazzookaChanges.xml</File>
-    <File md5="82AA563A2E99DA2951FCA16BB79EAE6A" import="0">Units/BomberChanges.xml</File>
+    <File md5="206B9945BB14AA06B50BA14646FA47F3" import="0">Units/BomberChanges.xml</File>
     <File md5="D214056C3DF0E35DEDA53E68490820F0" import="0">Units/BuffMeleeUnits.xml</File>
     <File md5="1A6C678F42FC4B9EFBD1BE79A24C1F1E" import="0">Units/CannonChanges.xml</File>
     <File md5="82752427226CDB940CB8CE6A42B48220" import="0">Units/CaravelChanges.xml</File>
-    <File md5="D6554F6F9EA95F919FA383A890561774" import="0">Units/CarrierChanges.xml</File>
+    <File md5="CFB555146D706393917E8D545317CAAB" import="0">Units/CarrierChanges.xml</File>
     <File md5="048888F1CA8A48856D24E76278FCE4A1" import="0">Units/CatapultChanges.xml</File>
+    <File md5="0524D1C83CB44A9C4AE008DD8DF92FE5" import="0">Units/CavalryChanges.xml</File>
     <File md5="D8F8D52CFA9DA4F1EBD8EAF80F0E993B" import="0">Units/CompositeBowmanChanges.xml</File>
     <File md5="A33F8E719EA7FDBF4D6E0DF510401FCD" import="0">Units/CrossbowmanChanges.xml</File>
-    <File md5="A86FFF60F871FCCCEF0E8C77DCB34A91" import="0">Units/DestroyerChanges.xml</File>
-    <File md5="594063C5DDB2B8E626B4633DF55DEC8D" import="0">Units/FighterChanges.xml</File>
+    <File md5="BB1B18EB9D218E14B40AEF33DE9FBFFD" import="0">Units/DestroyerChanges.xml</File>
+    <File md5="7F4125BEED4DDB7CB3FC3312FFA4D66F" import="0">Units/FighterChanges.xml</File>
     <File md5="64E0366F98DFDDD429665DBC411065BA" import="0">Units/FrigateChanges.xml</File>
     <File md5="9627958A02A487B6947F54C5F6D96F6E" import="0">Units/GalleassChanges.xml</File>
+    <File md5="4623401F93CD7E613AE96152BB164179" import="0">Units/GreatWarBomberChanges.xml</File>
+    <File md5="595AFB766F2893BA962FF3BEEDF95D43" import="0">Units/KnightChanges.xml</File>
     <File md5="8C98898A876DA7AAE4A5A4CED90021B5" import="0">Units/GattlingGunChanges.xml</File>
     <File md5="0D7A913E8571BA0AAF7518418D1CFE0D" import="0">Units/GreatWarInfantryChanges.xml</File>
     <File md5="92CA63F4E8FC507EE4189BF4EF1D098D" import="0">Units/GuidedMissileChanges.xml</File>
     <File md5="8622EEC40BDAEDB6D8150B7EC3CB6C81" import="0">Units/HelecopterChanges.xml</File>
     <File md5="14E2CADA52D5A0E8EB3556DC6AD8BEB5" import="0">Units/InfantryChanges.xml</File>
     <File md5="EB02D31423FF4D4BD14B955254984561" import="0">Units/JetFighterChanges.xml</File>
-    <File md5="7E94C628ABBABBAD7DDE7CB6789D0774" import="0">Units/LancerChanges.xml</File>
+    <File md5="04DB44EB3A53FA5608D9B308DC663D17" import="0">Units/LancerChanges.xml</File>
+    <File md5="D0660F8448328E8D193CDECF4B6B1688" import="0">Units/LandshipChanges.xml</File>
     <File md5="ED3C87FCE68778E1E76407D9FAF49D0C" import="0">Units/LandsknechtsChanges.xml</File>
+    <File md5="9E656783AFC5C6E5EC21F2887A4C2D5D" import="0">Units/IroncladChanges.xml</File>
     <File md5="3570BCCCDE4EC6E076A110388E2F2AD9" import="0">Units/New/SpecialForces.xml</File>
     <File md5="2BECA49A7880F307CED74DBC44F87B08" import="0">Units/PromotionCorrection.lua</File>
     <File md5="788C441F3B6492ED1A47DE0CE0A46483" import="0">Units/MachineGunChanges.xml</File>
@@ -689,9 +694,9 @@
     <File md5="161790A6EFCC6BE0362F30A981606F69" import="1">Units/New/ART/TacticalNuclearMissile80.dds</File>
     <File md5="D6E69C4F822C3422F18F7A16DAB51FBD" import="0">Units/New/Colonist.xml</File>
     <File md5="840624EB090E8E494513E979CA983401" import="0">Units/New/Explorer.xml</File>
-    <File md5="06874D4A81314723A9CF714A36CA5B01" import="0">Units/New/GreatWarNavalBomber.xml</File>
-    <File md5="0C798995CD76D2C9ED225E36A8717A1E" import="0">Units/New/LandIronclad.xml</File>
-    <File md5="8608D6F07A6E0C052484536228F1E4D3" import="0">Units/New/NavalBomber.xml</File>
+    <File md5="35CCAAF9F5317B7AE285B51410A862A8" import="0">Units/New/GreatWarNavalBomber.xml</File>
+    <File md5="F42D6167BDF529A4787CC0CF90CA7CE6" import="0">Units/New/LandIronclad.xml</File>
+    <File md5="7D8185CFADB2B339B202248CC9DF1DAC" import="0">Units/New/NavalBomber.xml</File>
     <File md5="2641FD7F99CB62A6861F62A38649693B" import="0">Units/New/NavalStealthBomber.xml</File>
     <File md5="E1E59C493F7CE497A7F81CA614BCA98E" import="0">Units/New/NuclearDestroyer.xml</File>
     <File md5="F2FC49ACE9BC1E9204A57BEB66444082" import="0">Units/New/Pioneer+Colonist.lua</File>
@@ -708,13 +713,13 @@
     <File md5="228706D908F22F22B0B5C5DC9512717D" import="0">Units/RiflemanChanges.xml</File>
     <File md5="6966B0D5388640278B4314EEB0A66750" import="0">Units/RocketArtilleryChanges.xml</File>
     <File md5="8952425EF44452836842C865072CD3AC" import="0">Units/ScoutsIngoreBorders.xml</File>
-    <File md5="A9FBE5177FC37E5252057296F24D0BE2" import="0">Units/SSPartsChanges.xml</File>
+    <File md5="00DA240D57F3D60597CFB6B34D43D437" import="0">Units/SSPartsChanges.xml</File>
     <File md5="06707DDDBFFF449FEF1DA28B391A6F7D" import="0">Units/StrealthBomberChanges.xml</File>
-    <File md5="03DE033DF0CACC3DB52E56B5BB417374" import="0">Units/SubChanges.xml</File>
+    <File md5="86C3F40B179E34795D9D9A1811E54A35" import="0">Units/SubChanges.xml</File>
     <File md5="E1788303F595A4B1CD3905491120D80E" import="0">Units/Swordsman Changes.xml</File>
-    <File md5="A40BFBDA841BAE337097049720EFD046" import="0">Units/TankChanges.xml</File>
+    <File md5="3BBD027040C759805B0D9D08F6F101F6" import="0">Units/TankChanges.xml</File>
     <File md5="C60B0ECC556257DBFDA16969B1BDE917" import="0">Units/TrebuchetChanges.xml</File>
-    <File md5="11F7E4EEC32285FDADBDF564DA3B97D3" import="0">Units/TriplaneChanges.xml</File>
+    <File md5="432E1D72F65F2C97001535C9EB72713C" import="0">Units/TriplaneChanges.xml</File>
     <File md5="858B3473978FBE9F30733DDD9A306F01" import="0">Units/TriremeChanges.xml</File>
     <File md5="8A950B65715F628511BB0A383E2BE222" import="0">Units/WorkBoatChanges.xml</File>
     <File md5="27CAB5D4DA164E39CAFE9A811E9F7BBB" import="0">Units/WorkerChanges.xml</File>
@@ -902,7 +907,7 @@
     <File md5="211099DEB3115803D78E7089A5D65397" import="0">zBuildings/New/Ritual Site.xml</File>
     <File md5="28082AE2C0131462DEABACAA5C923B17" import="0">zBuildings/New/Sculptors Workshop.xml</File>
     <File md5="AF83BB7ACBB8D8564CA0E84A90110F48" import="0">zBuildings/New/SewerSystem.xml</File>
-    <File md5="902ACF0CD1D037067C0DFC92C4A86ECC" import="0">zBuildings/New/Smelter.xml</File>
+    <File md5="FEA2D7A8CB2F16A32DFB25309DC1D264" import="0">zBuildings/New/Smelter.xml</File>
     <File md5="3D49384BB40E4AD31F7E7E2FE0C19EBB" import="0">zBuildings/New/Smokehouse.xml</File>
     <File md5="EA52044177678F9A6B6281EE3F5B06DC" import="0">zBuildings/New/Tailor.xml</File>
     <File md5="8BD15764185407393A5E39A5DAE3E779" import="0">zBuildings/New/Tannery.xml</File>
@@ -913,7 +918,7 @@
     <File md5="659522917C56C43296F9DED4A301E0C2" import="0">zBuildings/ObservatoryChanges.xml</File>
     <File md5="D785949153C1132EF7DF0BFA087574E4" import="0">zBuildings/ReasearchLabChanges.xml</File>
     <File md5="F6442B07EB65014EC85B7DF09BA115A0" import="0">zBuildings/RecyclingCenterChanges.xml</File>
-    <File md5="1183257B87EC74D11FD8DA84B01ED9E4" import="0">zBuildings/StoneworksChanges.xml</File>
+    <File md5="CDBDA94AC412E2C155DCC4685CF1512C" import="0">zBuildings/StoneworksChanges.xml</File>
     <File md5="A8EA87BCF24C8CA92824C5AB39885D68" import="0">zBuildings/TempleChanges.xml</File>
     <File md5="7DDEB33582EDEF44A9D45BEF7A93707B" import="0">zBuildings/UniversityChanges.xml</File>
     <File md5="D579080FCBFD2596AA42618349F3CC19" import="0">zBuildings/WaterMillChanges.xml</File>
@@ -1209,6 +1214,11 @@
       <UpdateDatabase>Terrain/BadTilesTweak.xml</UpdateDatabase>
       <UpdateDatabase>GameplayChanges/EspionageChanges.xml</UpdateDatabase>
       <UpdateDatabase>Shared/NoFreeFloatingGuardensWhenLUACallsAMissingBuilding.xml</UpdateDatabase>
+      <UpdateDatabase>Units/KnightChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Units/CavalryChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Units/GreatWarBomberChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Units/LandshipChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Units/IroncladChanges.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>

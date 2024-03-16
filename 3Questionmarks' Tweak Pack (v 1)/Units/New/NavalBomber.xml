@@ -80,6 +80,12 @@
 		<Row>
 			<UnitType>UNIT_NAVAL_BOMBER</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NAVAL_BOMBER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
 	<Unit_ClassUpgrades>

@@ -8,6 +8,11 @@
 			<ResourceType>RESOURCE_OIL</ResourceType>
 			<Cost>1</Cost>
 		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
 	</Unit_ResourceQuantityRequirements>
 	<Units>
 		<Update>

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 3/5/2024 11:58:45 PM -->
 <GameData>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_TANK</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GERMAN_PANZER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
 	<Units>
 		<Update>
 			<Set Cost="600" />

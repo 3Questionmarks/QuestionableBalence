@@ -65,9 +65,9 @@ VALUES	('PROMOTION_JFD_FORCE_PUBLIQUE',	'TXT_KEY_PROMOTION_JFD_FORCE_PUBLIQUE',	
 -- Units
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Units 	
-		(Type, 						Class,						CombatClass, PurchaseOnly, PrereqTech,		   Cost, Combat, RangedCombat, Range, FaithCost, RequiresFaithPurchaseEnabled, Moves, CivilianAttackPriority, Special, Domain, DefaultUnitAI,	Description, 						Help, 										Strategy, 									  Civilopedia, 								ShowInPedia, OneShotTourism, OneShotTourismPercentOthers, AdvancedStartCost, WorkRate, ObsoleteTech, MilitarySupport, MilitaryProduction, IgnoreBuildingDefense, Mechanized, CombatLimit,  GoldenAgeTurns,  XPValueAttack, XPValueDefense, Conscription, MoveRate, UnitArtInfo, 						UnitFlagAtlas, 								UnitFlagIconOffset,  IconAtlas,								PortraitIndex)
-SELECT	'UNIT_JFD_FORCE_PUBLIQUE',	'UNITCLASS_FOREIGNLEGION',	CombatClass, 1,			   'TECH_STEAM_POWER', Cost, Combat, RangedCombat, Range, FaithCost, RequiresFaithPurchaseEnabled, Moves, CivilianAttackPriority, Special, Domain, DefaultUnitAI,	'TXT_KEY_UNIT_JFD_FORCE_PUBLIQUE',	'TXT_KEY_UNIT_JFD_FORCE_PUBLIQUE_HELP', 	'TXT_KEY_UNIT_JFD_FORCE_PUBLIQUE_STRATEGY',   'TXT_KEY_UNIT_JFD_FORCE_PUBLIQUE_TEXT',	ShowInPedia, OneShotTourism, OneShotTourismPercentOthers, AdvancedStartCost, WorkRate, ObsoleteTech, MilitarySupport, MilitaryProduction, IgnoreBuildingDefense, Mechanized, CombatLimit,  GoldenAgeTurns,  XPValueAttack, XPValueDefense, Conscription, MoveRate, 'ART_DEF_UNIT_JFD_FORCE_PUBLIQUE',	'JFD_BELGIUM_LEOPOLD_II_UNIT_FLAG_ATLAS',	0,					 'JFD_BELGIUM_LEOPOLD_II_ICON_ATLAS',	3
-FROM Units WHERE Type = 'UNIT_FRENCH_FOREIGNLEGION';   	
+		(Type, 						Class,						    CombatClass, PurchaseOnly, PrereqTech, Cost, Combat,   RangedCombat, Range, FaithCost, RequiresFaithPurchaseEnabled, Moves, CivilianAttackPriority, Special, Domain, DefaultUnitAI,	Description, 						Help, 										Strategy, 									  Civilopedia, 								ShowInPedia, OneShotTourism, OneShotTourismPercentOthers, AdvancedStartCost, WorkRate, ObsoleteTech, MilitarySupport, MilitaryProduction, IgnoreBuildingDefense, Mechanized, CombatLimit,  GoldenAgeTurns,  XPValueAttack, XPValueDefense, Conscription, MoveRate, UnitArtInfo, 						UnitFlagAtlas, 								UnitFlagIconOffset,  IconAtlas,								PortraitIndex)
+SELECT	'UNIT_JFD_FORCE_PUBLIQUE',	'UNITCLASS_FORRIEGN_BATTALION',	CombatClass, 1,            PrereqTech, Cost, Combat+2, RangedCombat, Range, FaithCost, RequiresFaithPurchaseEnabled, Moves, CivilianAttackPriority, Special, Domain, DefaultUnitAI,	'TXT_KEY_UNIT_JFD_FORCE_PUBLIQUE',	'TXT_KEY_UNIT_JFD_FORCE_PUBLIQUE_HELP', 	'TXT_KEY_UNIT_JFD_FORCE_PUBLIQUE_STRATEGY',   'TXT_KEY_UNIT_JFD_FORCE_PUBLIQUE_TEXT',	ShowInPedia, OneShotTourism, OneShotTourismPercentOthers, AdvancedStartCost, WorkRate, ObsoleteTech, MilitarySupport, MilitaryProduction, IgnoreBuildingDefense, Mechanized, CombatLimit,  GoldenAgeTurns,  XPValueAttack, XPValueDefense, Conscription, MoveRate, 'ART_DEF_UNIT_JFD_FORCE_PUBLIQUE',	'JFD_BELGIUM_LEOPOLD_II_UNIT_FLAG_ATLAS',	0,					 'JFD_BELGIUM_LEOPOLD_II_ICON_ATLAS',	3
+FROM Units WHERE Type = 'UNIT_FORRIEGN_BATTALION';   	
 --------------------------------------------------------------------------------------------------------------------------
 -- UnitGameplay2DScripts
 --------------------------------------------------------------------------------------------------------------------------
@@ -81,35 +81,35 @@ FROM UnitGameplay2DScripts WHERE UnitType = 'UNIT_RIFLEMAN';
 INSERT INTO Unit_AITypes 	
 		(UnitType, 					UnitAIType)
 SELECT	'UNIT_JFD_FORCE_PUBLIQUE',	UnitAIType
-FROM Unit_AITypes WHERE UnitType = 'UNIT_RIFLEMAN';
+FROM Unit_AITypes WHERE UnitType = 'UNIT_FORRIEGN_BATTALION';
 --------------------------------------------------------------------------------------------------------------------------
 -- Unit_Flavors
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Unit_Flavors 	
 		(UnitType, 					FlavorType, Flavor)
 SELECT	'UNIT_JFD_FORCE_PUBLIQUE',	FlavorType, Flavor
-FROM Unit_Flavors WHERE UnitType = 'UNIT_RIFLEMAN';
+FROM Unit_Flavors WHERE UnitType = 'UNIT_FORRIEGN_BATTALION';
 ------------------------------------------------------------------------------------------------------------------------
 -- Unit_ClassUpgrades
 ------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Unit_ClassUpgrades 	
 		(UnitType, 					UnitClassType)
 SELECT	'UNIT_JFD_FORCE_PUBLIQUE',	UnitClassType
-FROM Unit_ClassUpgrades WHERE UnitType = 'UNIT_RIFLEMAN';
+FROM Unit_ClassUpgrades WHERE UnitType = 'UNIT_FORRIEGN_BATTALION';
 --------------------------------------------------------------------------------------------------------------------------
 -- Unit_ResourceQuantityRequirements
 --------------------------------------------------------------------------------------------------------------------------
 --INSERT INTO Unit_ResourceQuantityRequirements
 --		(UnitType, 					ResourceType, Cost)
 --SELECT	'UNIT_JFD_FORCE_PUBLIQUE',	ResourceType, Cost
---FROM Unit_ResourceQuantityRequirements WHERE UnitType = 'UNIT_GREAT_WAR_INFANTRY';
+--FROM Unit_ResourceQuantityRequirements WHERE UnitType = 'UNIT_FORRIEGN_BATTALION';
 --------------------------------------------------------------------------------------------------------------------------
 -- Unit_FreePromotions
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Unit_FreePromotions 		
 		(UnitType, 						PromotionType)
 SELECT	'UNIT_JFD_FORCE_PUBLIQUE',		PromotionType
-FROM Unit_FreePromotions WHERE UnitType = 'UNIT_RIFLEMAN';
+FROM Unit_FreePromotions WHERE UnitType = 'UNIT_FORRIEGN_BATTALION';
 
 INSERT INTO Unit_FreePromotions 		
 		(UnitType, 						PromotionType)

@@ -2,13 +2,6 @@
 <!-- Created by ModBuddy on 3/9/2024 2:03:20 AM -->
 <GameData>
 	<!-- Allow unqiue promotion to pass on, but nurf to +25%-->
-	<Unit_FreePromotions>
-		<Delete UnitType="UNIT_BYZANTINE_DROMON" PromotionType="PROMOTION_NAVAL_BONUS"/>
-		<Row>
-			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
-			<PromotionType>PROMOTION_GREEK_FIRE</PromotionType>
-		</Row>
-	</Unit_FreePromotions>
 	<UnitPromotions>
 		<Row>
 			<Type>PROMOTION_GREEK_FIRE</Type>
@@ -42,6 +35,14 @@
 		</Row>
 	</Language_en_US>
 
+	<Unit_FreePromotions>
+		<Delete PromotionType="PROMOTION_NAVAL_BONUS"/>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<PromotionType>PROMOTION_GREEK_FIRE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
 	<IconTextureAtlases>
 		<Row>
 			<Atlas>GREEK_FIRE_ICON</Atlas>

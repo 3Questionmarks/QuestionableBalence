@@ -253,21 +253,51 @@
 		</Row>
 	</Unit_YieldFromKills>
 	<Unit_ResourceQuantityRequirements>
+        <!-- Base -->
+        <Row>
+			<UnitType>UNIT_MC_JERUSALEM_CRUSADER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+        <Row>
+			<UnitType>UNIT_MC_JERUSALEM_CRUSADER</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+        <!--Knights Templar-->
 		<Row>
 			<UnitType>UNIT_MC_JERUSALEM_CRUSADER_TEMPLARS</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
 		</Row>
+        <!--Teutonic Order-->
 		<Row>
 			<UnitType>UNIT_MC_JERUSALEM_CRUSADER_TEUTONIC</UnitType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 		</Row>
+        <Row>
+			<UnitType>UNIT_MC_JERUSALEM_CRUSADER_TEUTONIC</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+        <!--Knights of Saint John-->
+        <Row>
+			<UnitType>UNIT_MC_JERUSALEM_CRUSADER_ST_JOHN</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+        <!--Order of the Holy Sepulchre-->
 		<Row>
 			<UnitType>UNIT_MC_JERUSALEM_CRUSADER_SEPULCHRE</UnitType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 		</Row>
+        <Row>
+			<UnitType>UNIT_MC_JERUSALEM_CRUSADER_SEPULCHRE</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+        <!--Knights of St. Lazarus-->
 		<Row>
 			<UnitType>UNIT_MC_JERUSALEM_CRUSADER_LAZARUS</UnitType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+        <Row>
+			<UnitType>UNIT_MC_JERUSALEM_CRUSADER_LAZARUS</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
 </GameData>

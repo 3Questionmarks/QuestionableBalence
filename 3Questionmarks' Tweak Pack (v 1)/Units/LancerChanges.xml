@@ -19,6 +19,13 @@
 			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_LANCER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_UNIT_LANCER_STRATEGY"/>
 		<Row Tag="TXT_KEY_UNIT_LANCER_STRATEGY">

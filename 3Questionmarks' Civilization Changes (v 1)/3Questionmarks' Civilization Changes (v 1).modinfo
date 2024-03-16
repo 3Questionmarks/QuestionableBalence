@@ -55,7 +55,7 @@
     <File md5="8465BF36B6E080975B1C39F0E5F9A391" import="1">Civs/Byzantium/ART/PeristyleIcon45.dds</File>
     <File md5="4B4BF285428BFD7813D9973B405C8C0F" import="1">Civs/Byzantium/ART/PeristyleIcon64.dds</File>
     <File md5="9A808BB9DC51456D1EC69CFE8E567C12" import="0">Civs/Byzantium/Building.xml</File>
-    <File md5="9E7C39B665271BFE387C86EFF9E5429C" import="0">Civs/Byzantium/Unit.xml</File>
+    <File md5="32272FC8B428A5367BFBB0361FE6BE3C" import="0">Civs/Byzantium/Unit.xml</File>
     <File md5="C8FD68B8B96D14B0ECF4E52BB23D3880" import="0">Civs/Byzantium/Trait.xml</File>
     <File md5="E4DEDE3CA45564DF0DB01060DC19E0BE" import="0">Civs/Carthage/Trait.lua</File>
     <File md5="6C85DB97749459A087F9CB6B63C6FADC" import="0">Civs/Carthage/Trait.sql</File>
@@ -102,7 +102,7 @@
     <File md5="098F2A7591454098193B1ECA6209CC7B" import="0">Civs/Greece/Units.xml</File>
     <File md5="1425F1B275214FA42E7C57945EB6CD88" import="0">Civs/Huns/Promotions.xml</File>
     <File md5="BDE2AF77583C82D35B89B03BFD23AEF8" import="0">Civs/Huns/Trait.xml</File>
-    <File md5="9327269EBD9A6C392179B2C9728549F2" import="0">Civs/Huns/Units.xml</File>
+    <File md5="31827885C315ED5B2E4633F30693FABB" import="0">Civs/Huns/Units.xml</File>
     <File md5="35016816C242DE90E9F858406A5F13C1" import="0">Civs/Inca/Improvement.xml</File>
     <File md5="47C2A9D697025F01B7B66999116C01BA" import="0">Civs/Inca/Trait.lua</File>
     <File md5="B2D33D3CEB7AB30B4F10678E5FDE79C0" import="0">Civs/Inca/Trait.xml</File>
@@ -174,7 +174,7 @@
     <File md5="CB16D2FD60C55AB703DBDAC5AB83514D" import="0">Civs/Persia/Trait.xml</File>
     <File md5="BEF0715AD18F6CF62480BCAA5658DB51" import="0">Civs/Poland/Building.xml</File>
     <File md5="A788DF79ACEB2FE396B2A74A4C95DE2C" import="0">Civs/Poland/Trait.xml</File>
-    <File md5="D267C7EA27F0016024613D7B94E6FC9F" import="0">Civs/Poland/Unit.xml</File>
+    <File md5="27E375A84C12798A327980A7627D8D65" import="0">Civs/Poland/Unit.xml</File>
     <File md5="2FA8F94B82717E7B2E745762764ECAA6" import="0">Civs/Portugal/Improvement.xml</File>
     <File md5="AA61A3DCA2B7086A032A9CC9996696BD" import="0">Civs/Portugal/Trait.xml</File>
     <File md5="3C70046A2BAB136A47247A9F2849994D" import="0">Civs/Portugal/Units.xml</File>
@@ -192,7 +192,7 @@
     <File md5="F1618521919A067F3FB9CB3A371B56AB" import="0">Civs/Rome/Building.xml</File>
     <File md5="E29E66225714EA807C55C165AB55EFE9" import="0">Civs/Rome/Unit.xml</File>
     <File md5="79A896D99A41A078D03A4F93B46EA70F" import="0">Civs/Russia/Building.xml</File>
-    <File md5="EEF27E91E9A10B45161F408877F8C292" import="0">Civs/Russia/Trait.xml</File>
+    <File md5="944AC8DFD7549E66ACF87251EF7CC6C7" import="0">Civs/Russia/Trait.xml</File>
     <File md5="A08C19692B84901A392389C20F31F4B5" import="0">Civs/Russia/Units.xml</File>
     <File md5="0A0883843FAE9E1ABD682CB4590336EC" import="1">Civs/Shoshone/ART/4buffalopound128.dds</File>
     <File md5="0EC0F6710D54965C9921B588E390620C" import="1">Civs/Shoshone/ART/4buffalopound256.dds</File>

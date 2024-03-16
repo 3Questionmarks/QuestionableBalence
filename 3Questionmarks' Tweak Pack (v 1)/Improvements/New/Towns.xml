@@ -32,12 +32,12 @@
 		</Row>
 	</Improvements>
 
-	<!-- Prereq tech for Village (aka Trading Post) is now Trapping -->
+	<!-- Prereq tech for Village (aka Trading Post) is now at Wheel -->
 	<Builds>
 		<Update>
 			<Where Type="BUILD_TRADING_POST" />
 			<Set>
-				<PrereqTech>TECH_TRAPPING</PrereqTech>
+				<PrereqTech>TECH_THE_WHEEL</PrereqTech>
 				<Time>600</Time>
 				<!-- default: 700 -->
 			</Set>

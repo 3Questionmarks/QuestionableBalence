@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Created by ModBuddy on 3/5/2024 11:55:54 PM -->
+<!-- Created by ModBuddy on 3/16/2024 4:42:39 AM -->
 <GameData>
 	<Unit_ResourceQuantityRequirements>
 		<Row>
-			<UnitType>UNIT_BOMBER</UnitType>
+			<UnitType>UNIT_WWI_TANK</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
 			<Cost>1</Cost>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
-	<Units>
-		<Update>
-			<Set Cost="520" />
-			<Where Class="UNITCLASS_BOMBER" />
-		</Update>
-	</Units>
-  
 </GameData>

@@ -12,9 +12,9 @@
 		<Row>
 			<Type>BUILDING_SMELTER</Type>
 			<BuildingClass>BUILDINGCLASS_SMELTER</BuildingClass>
-			<Cost>60</Cost>
+			<Cost>100</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SMELTER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SMELTER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_SMELTER_STRATEGY</Strategy>
@@ -70,12 +70,6 @@
 			<Flavor>30</Flavor>
 		</Row>
 	</Building_Flavors>
-	<Building_ClassesNeededInCity>
-		<Row>
-			<BuildingType>BUILDING_SMELTER</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_STONE_WORKS</BuildingClassType>
-		</Row>
-	</Building_ClassesNeededInCity>
 	<Building_ResourceQuantity>
 		<Row>
 			<BuildingType>BUILDING_SMELTER</BuildingType>
@@ -88,7 +82,7 @@
 			<Text>Smelter</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SMELTER_HELP">
-			<Text>Provides 3 [ICON_RES_IRON] Iron. +1 [ICON_PRODUCTION] from [ICON_RES_IRON] Iron, [ICON_RES_COPPER] Copper and [ICON_RES_STONE] Stone. [NEWLINE][NEWLINE]Must have a source of [ICON_RES_IRON] Iron or [ICON_RES_STONE] Stone nearby the city and the ciry must contain a Stoneworks.</Text>
+			<Text>Provides 3 [ICON_RES_IRON] Iron. +1 [ICON_PRODUCTION] from [ICON_RES_IRON] Iron, [ICON_RES_COPPER] Copper and [ICON_RES_STONE] Stone. [NEWLINE][NEWLINE]Must have a source of [ICON_RES_IRON] Iron or [ICON_RES_STONE] Stone nearby the city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SMELTER_PEDIA">
 			<Text>In the Old World, humans learned to smelt metals in prehistoric times, more than 8000 years ago. The discovery and use of the "useful" metals — copper and bronze at first, then iron a few millennia later — had an enormous impact on human society. The impact was so pervasive that scholars traditionally divide ancient history into Stone Age, Bronze Age, and Iron Age. In the Americas, pre-Inca civilizations of the central Andes in Peru had mastered the smelting of copper and silver at least six centuries before the first Europeans arrived in the 16th century.[NEWLINE][NEWLINE]--Wikipedia</Text>

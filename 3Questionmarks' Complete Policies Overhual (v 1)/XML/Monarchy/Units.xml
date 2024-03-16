@@ -14,8 +14,8 @@
 			<Class>UNITCLASS_LIGHT_CATAPULT</Class>
 			<Type>UNIT_LIGHT_CATAPULT</Type>
 			<PolicyType>POLICY_OLIGARCHY</PolicyType>
-			<Combat>5</Combat>
-			<RangedCombat>6</RangedCombat>
+			<Combat>6</Combat>
+			<RangedCombat>7</RangedCombat>
 			<Cost>45</Cost>
 			<FaithCost>90</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>

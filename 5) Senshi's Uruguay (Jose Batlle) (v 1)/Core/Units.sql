@@ -38,7 +38,8 @@ FROM Unit_Flavors WHERE (UnitType = 'UNIT_LANCER');
 --==========================================================================================================================
 INSERT INTO Unit_ResourceQuantityRequirements
 			(UnitType, 					ResourceType)
-VALUES		('UNIT_SENSHI_BLANDENGUE', 	'RESOURCE_HORSE');
+VALUES		('UNIT_SENSHI_BLANDENGUE', 	'RESOURCE_HORSE'),
+            ('UNIT_SENSHI_BLANDENGUE', 	'RESOURCE_IRON');
 --==========================================================================================================================
 -- Unit_Builds
 --==========================================================================================================================

@@ -7,6 +7,13 @@
 			<Where Class="UNITCLASS_TRIPLANE" />
 		</Update>
 	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_TRIPLANE</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_TRIPLANE</UnitType>

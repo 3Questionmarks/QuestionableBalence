@@ -189,10 +189,6 @@
 		<Row Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_NEW_HELP">
 			<Text>+15% [ICON_FOOD] Food. Each worked Lake tile provides +2 [ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith.[NEWLINE][NEWLINE]City must be built next to a River or Lake.</Text>
 		</Row>
-		<Delete Tag="TXT_KEY_TECH_AGRICULTURE_HELP" />
-		<Row Tag="TXT_KEY_TECH_AGRICULTURE_HELP">
-			<Text>Allows [ICON_WORKER] Workers to construct [COLOR_YIELD_GOLD]Farms[ENDCOLOR], vital for increasing the [ICON_FOOD] Food output of map tiles.</Text>
-		</Row>
 	</Language_en_US>
 
 	<Civilization_BuildingClassOverrides>

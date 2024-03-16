@@ -8,6 +8,13 @@
 			<Where Type="UNIT_POLISH_WINGED_HUSSAR" />
 		</Update>
 	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_POLISH_WINGED_HUSSAR</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_POLISH_WINGED_HUSSAR</UnitType>

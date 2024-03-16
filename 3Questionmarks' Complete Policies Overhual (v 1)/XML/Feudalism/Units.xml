@@ -188,6 +188,11 @@
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<Cost>1</Cost>
 		</Row>
+		<Row>
+			<UnitType>UNIT_CRUSADER</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
 	</Unit_ResourceQuantityRequirements>
 	<Unit_Flavors>
 		<Row>

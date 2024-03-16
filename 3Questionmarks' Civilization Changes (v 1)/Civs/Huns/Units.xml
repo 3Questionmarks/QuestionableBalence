@@ -42,7 +42,7 @@
 	<!-- Battering Ram -->
 	<Units>
 		<Update>
-			<Set Class="UNITCLASS_CATAPULT" Combat="14" RangedCombat="0" Range="0"/>
+			<Set Class="UNITCLASS_CATAPULT" Combat="15" RangedCombat="0" Range="0" PrereqTech="TECH_MATHEMATICS"/>
 			<Where Type="UNIT_HUN_BATTERING_RAM" />
 		</Update>
 	</Units>

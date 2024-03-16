@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 4/22/2015 10:50:33 PM -->
 <GameData>
-    <!-- Moved to Masonary -->
+    <!-- Moved to Masonary ->
     <Buildings>
 		<Update>
 			<Set PrereqTech="TECH_MASONRY" />
 			<Where Type="BUILDING_STONE_WORKS" />
 		</Update>
-	</Buildings>
+	</Buildings-->
 	<!-- +2 Production on Mountains -->
 	<Building_FeatureYieldChanges>
 		<Row>

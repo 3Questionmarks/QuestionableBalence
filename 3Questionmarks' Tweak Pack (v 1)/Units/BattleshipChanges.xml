@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 2/27/2024 7:48:50 PM -->
 <GameData>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_BATTLESHIP</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_BATTLESHIP</UnitType>

@@ -35,4 +35,61 @@
 			<Where Class="UNITCLASS_SS_COCKPIT" />
 		</Update>
 	</Units>
+	
+	<!-- Increase Amount of Strategic Resources needed: -->
+	<Unit_ResourceQuantityRequirements>
+		<!-- Cockpit needs 3 Aluminium and 2 Iron-->
+		<Update>
+			<Where UnitType="UNIT_SS_COCKPIT" ResourceType="RESOURCE_ALUMINUM" />
+			<Set>
+				<Cost>3</Cost>
+			</Set>
+		</Update>
+		<Row>
+			<UnitType>UNIT_SS_COCKPIT</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<!-- Engine Needs 3 Aluminium and 2 Uranium -->
+		<Update>
+			<Where UnitType="UNIT_SS_ENGINE" ResourceType="RESOURCE_ALUMINUM" />
+			<Set>
+				<Cost>3</Cost>
+			</Set>
+		</Update>
+		<Row>
+			<UnitType>UNIT_SS_ENGINE</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<!-- Boosters need 2 Aluminium, 1 Uranium, and 2 Oil each -->
+		<Update>
+			<Where UnitType="UNIT_SS_BOOSTER" ResourceType="RESOURCE_ALUMINUM" />
+			<Set>
+				<Cost>2</Cost>
+			</Set>
+		</Update>
+		<Row>
+			<UnitType>UNIT_SS_BOOSTER</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SS_BOOSTER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+		<!-- Stasis Chamber needs 3 Aluminium and 2 Iron -->
+		<Update>
+			<Where UnitType="UNIT_SS_STASIS_CHAMBER" ResourceType="RESOURCE_ALUMINUM" />
+			<Set>
+				<Cost>3</Cost>
+			</Set>
+		</Update>
+		<Row>
+			<UnitType>UNIT_SS_STASIS_CHAMBER</UnitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Cost>2</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
 </GameData>

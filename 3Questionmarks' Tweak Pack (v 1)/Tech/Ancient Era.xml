@@ -164,43 +164,25 @@
 		</Update>
 	</Builds>
 	
-	<!-- Moved Forest and Jungle Chop to Logging -->
+	<!-- Language stuff done in "TechTextChanges" -->
+
+	<!-- Moved Jungle Chop to Mining -->
 	<BuildFeatures>
 		<Update>
-			<Set PrereqTech="TECH_LOGGING" />
+			<Set PrereqTech="TECH_MINING" />
 			<Where BuildType="BUILD_REMOVE_JUNGLE" />
 		</Update>
-	</BuildFeatures>
-	<Builds>
 		<Update>
-			<Set PrereqTech="TECH_LOGGING" />
-			<Where Type="BUILD_REMOVE_FOREST" />
-		</Update>
-	</Builds>
-	<BuildFeatures>
-		<Update>
-			<Set PrereqTech="TECH_LOGGING" />
-			<Where BuildType="BUILD_REMOVE_FOREST" />
+			<Set PrereqTech="TECH_MINING" />
+			<Where PrereqTech="TECH_BRONZE_WORKING" />
 		</Update>
 	</BuildFeatures>
 	<Builds>
 		<Update>
-			<Set PrereqTech="TECH_LOGGING" />
+			<Set PrereqTech="TECH_MINING" />
 			<Where Type="BUILD_REMOVE_JUNGLE" />
 		</Update>
 	</Builds>
-	<BuildFeatures>
-		<Update>
-			<Set PrereqTech="TECH_LOGGING" />
-			<Where PrereqTech="TECH_BRONZE_WORKING" />
-		</Update>
-		<Update>
-			<Set PrereqTech="TECH_LOGGING" />
-			<Where PrereqTech="TECH_MINING" />
-		</Update>
-	</BuildFeatures>
-	<!-- Language stuff done in "TechTextChanges" -->
-
 	<!-- Move Iron from Bronze Working to Mining -->
 	<Resources>
 		<Update>
@@ -208,6 +190,19 @@
 			<Where Type="RESOURCE_IRON" />
 		</Update>
 	</Resources>
+	<!-- Moved Marsh Clear to Bronze Working -->
+	<BuildFeatures>
+		<Update>
+			<Set PrereqTech="TECH_BRONZE_WORKING" />
+			<Where BuildType="BUILD_REMOVE_MARSH" />
+		</Update>
+	</BuildFeatures>
+	<Builds>
+		<Update>
+			<Set PrereqTech="TECH_BRONZE_WORKING" />
+			<Where Type="BUILD_REMOVE_MARSH" />
+		</Update>
+	</Builds>
 
 	<!-- Slightly Cheeper Ancient Era Tech -->
 	<Technologies>
