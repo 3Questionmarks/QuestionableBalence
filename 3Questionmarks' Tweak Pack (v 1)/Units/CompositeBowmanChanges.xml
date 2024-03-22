@@ -8,5 +8,11 @@
 			<Cost>1</Cost>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
+	<Units>
+		<Update>
+			<Set PrereqTech="TECH_STANDING_ARMY" />
+			<Where Class ="UNITCLASS_COMPOSITE_BOWMAN" />
+		</Update>
+	</Units>
   
 </GameData>

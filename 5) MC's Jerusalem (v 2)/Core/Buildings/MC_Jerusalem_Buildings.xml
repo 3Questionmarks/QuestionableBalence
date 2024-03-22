@@ -115,7 +115,7 @@
 			<BuildingClass>BUILDINGCLASS_MC_JERUSALEM_CHAPTER_HOUSE</BuildingClass>
 			<Cost>120</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<PrereqTech>TECH_RELIGIOUS_ORDERS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_MC_JERUSALEM_CHAPTER_HOUSE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_MC_JERUSALEM_CHAPTER_HOUSE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MC_JERUSALEM_CHAPTER_HOUSE_PEDIA</Civilopedia>

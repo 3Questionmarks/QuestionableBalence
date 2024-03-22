@@ -18,7 +18,7 @@
 			<Civilopedia>TXT_KEY_WONDER_KELDURHALL_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_KELDUR_HALL_QUOTE</Quote>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<PrereqTech>TECH_MYSTICISM</PrereqTech>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<GreatPeopleRateChange>1</GreatPeopleRateChange>

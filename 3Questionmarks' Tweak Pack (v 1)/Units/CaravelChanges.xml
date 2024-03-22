@@ -13,5 +13,21 @@
 			<Cost>1</Cost>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_CARAVEL</UnitType>
+			<UnitClassType>UNITCLASS_PRIVATEER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PORTUGUESE_NAU</UnitType>
+			<UnitClassType>UNITCLASS_PRIVATEER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Units>
+		<Update>
+			<Set ObsoleteTech="TECH_WARSHIPS"/>
+			<Where type="UNIT_CARAVEL"/>
+		</Update>
+	</Units>
   
 </GameData>

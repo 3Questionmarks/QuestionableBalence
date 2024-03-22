@@ -3,7 +3,7 @@
 <GameData>
 	<Units>
 		<Update>
-			<Set Combat="20" RangedCombat="30" Range="2" />
+			<Set Combat="20" RangedCombat="30" Range="2" PrereqTech="TECH_RIFLING" />
 			<Where Type="UNIT_GATLINGGUN"/>
 		</Update>
 	</Units>

@@ -13,9 +13,9 @@
 		<Row>
 			<Type>BUILDING_STEELMILL</Type>
 			<BuildingClass>BUILDINGCLASS_STEELMILL</BuildingClass>
-			<Cost>360</Cost>
+			<Cost>420</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
-			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+			<PrereqTech>TECH_ADVANCED_PRODUCTION</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STEELMILL</Description>
 			<Civilopedia>TXT_KEY_BUILDING_STEELMILL_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_STEELMILL_STRATEGY</Strategy>
@@ -43,7 +43,7 @@
 	</Building_ResourceQuantityRequirements>
 	<Building_YieldChanges>
 		<Row>
-			<BuildingType>BUILDING_STEELMILL</BuildingType>     yttttttt            
+			<BuildingType>BUILDING_STEELMILL</BuildingType>            
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>4</Yield>
 		</Row>

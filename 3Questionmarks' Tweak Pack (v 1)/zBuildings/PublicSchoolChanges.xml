@@ -4,7 +4,7 @@
 	<!-- Public School Moved to Ecomomics (Chemist replaces it at Sceintific Theory) -->
 	<Buildings>
 		<Update>
-			<Set PrereqTech="TECH_ECONOMICS" />
+			<Set PrereqTech="TECH_SOVEREIGNTY" />
 			<Where Type="BUILDING_PUBLIC_SCHOOL" />
 		</Update>
 	</Buildings>

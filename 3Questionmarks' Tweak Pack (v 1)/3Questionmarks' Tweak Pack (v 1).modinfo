@@ -22,7 +22,6 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="0062E085AA594B25434868919645C677" import="0">Diplomacy/EmbasyOpenborderChanges.xml</File>
     <File md5="C42CE124C5F79B1A6DDF74557538C66E" import="0">Diplomacy/LessWarmongerHate.sql</File>
     <File md5="D9BDD72241CEF9103E7A8CDDC234E424" import="0">GameplayChanges/BarbarianChanges.xml</File>
     <File md5="56351C370E3C11D78CD13FB118948905" import="0">GameplayChanges/CaptureChanges.xml</File>
@@ -34,7 +33,8 @@
     <File md5="0C94D32FFEAA167FEDB7E26115451731" import="0">GameplayChanges/ExtraHappinessPerLuxury.xml</File>
     <File md5="961B77C345936677B3AF3D47A1D06A73" import="0">GameplayChanges/FasterPolocies.xml</File>
     <File md5="8257E75C2CBAD69DF4661DE835C6888D" import="0">GameplayChanges/FlatlandCityExtraFood.xml</File>
-    <File md5="CB4726C9DF0ED26D3048443479F01DB4" import="0">GameplayChanges/FreshwaterFarmBonus.xml</File>
+    <File md5="89E0D9AE0C1D92E617548F9A7C48CBC6" import="0">GameplayChanges/FreshwaterFarmBonus.xml</File>
+    <File md5="EB670D07A5E2BDA018C3C2DEE0134D87" import="0">GameplayChanges/IdeologyTriggerChanges.xml</File>
     <File md5="77BDAE701D50EE00647587C6419B5D31" import="0">GameplayChanges/InlandSeaChanges.xml</File>
     <File md5="21B91C2FC3E5F7A3DF6C68212F6A9D17" import="0">GameplayChanges/Iska_CasusBelli.lua</File>
     <File md5="E904AD4A4A734070067D64C787F645FB" import="0">GameplayChanges/LessDamagedCityCapture.xml</File>
@@ -42,7 +42,7 @@
     <File md5="6116F0E4B7180BA6BE9E7907B6F0FC9F" import="0">GameplayChanges/NoPantheonCostIncrease.xml</File>
     <File md5="EF23CA9DE6C648B9119867ED927CD2C1" import="0">GameplayChanges/NurfWide.xml</File>
     <File md5="922FC108D616C51B266D9B3406F00228" import="0">GameplayChanges/PlotChanges.xml</File>
-    <File md5="8D170BB06BF6376D4B5B9CF57FFCAB0E" import="0">GameplayChanges/SmarterAI.xml</File>
+    <File md5="7A0675EEB8C2659ADD63F7E4AA9F2F8E" import="0">GameplayChanges/SmarterAI.xml</File>
     <File md5="86529AC224CAF22913D3067CBA3D8845" import="0">GameplayChanges/ThemingBonusChanges.xml</File>
     <File md5="A5A0A7A73BFF1087ED8F30AA730FD48C" import="0">GameplayChanges/WorldCongressChanges.xml</File>
     <File md5="95D68F3DEFFB9A771B97CCCADD800299" import="0">GreatPeople/+2Movement.xml</File>
@@ -484,12 +484,11 @@
     <File md5="C36CD29A13C9FC621E2A8B20888E1FF2" import="0">GreatPeople/ScientistChanges.xml</File>
     <File md5="EC371E6C8DF1639A1A991D9FEACCD5FB" import="0">GreatPeople/SeparateGreatPeopleCounters.lua</File>
     <File md5="BADD1CC6376EDF02024BB78D49E168F2" import="0">GreatPeople/WriterChanges.xml</File>
-    <File md5="3A695FA28A0A93DD732078D7AA188305" import="0">Improvements/CampsChanges.xml</File>
+    <File md5="FFF3AC163F135435F3A4DC0C0E985843" import="0">Improvements/CampsChanges.xml</File>
     <File md5="4B07A4AB49F0C23FF795CBAC7FFBBDD1" import="0">Improvements/CustomHouseChanges.xml</File>
     <File md5="D700AF7EFFC05741B213124ED6C88183" import="0">Improvements/FishingBoatsChanges.xml</File>
     <File md5="44FABD8412C4C72C3D9BB48B7BF27184" import="0">Improvements/FortChanges.xml</File>
     <File md5="082444D5499CA6237A060AE1FE4B8454" import="0">Improvements/FortTraining.lua</File>
-    <File md5="1638EB22EA3FAD2F06972264A13808B6" import="0">Improvements/IdeologyTriggerChanges.xml</File>
     <File md5="CD41AC63F931855D9CA6F3F5E0D516CB" import="0">Improvements/LumberMillsonJungles.xml</File>
     <File md5="FDE8D786A717F6FD00ECE0AD94B18BC7" import="0">Improvements/MineChanges.xml</File>
     <File md5="564C3F515E2AA81C2A8C1C551EAC7CF2" import="0">Improvements/MoreLuxeriesChanges.xml</File>
@@ -569,14 +568,14 @@
     <File md5="5D010736137741BEF4461D079CAA072E" import="1">Improvements/New/ART/WTEmodIconAtlas256.dds</File>
     <File md5="79890BE6661FF6051BB9B3F4771A1B2A" import="1">Improvements/New/ART/WTEmodIconAtlas45.dds</File>
     <File md5="191BF88FD71D5B2372A4C42CD8BEF8BC" import="1">Improvements/New/ART/WTEmodIconAtlas64.dds</File>
-    <File md5="F2F843AC93270C867B9C9DCE76AD90E3" import="0">Improvements/New/DeepseaMiningPlatform.xml</File>
+    <File md5="65E330FBE6E356ACF9EA139A563309AB" import="0">Improvements/New/DeepseaMiningPlatform.xml</File>
     <File md5="0BA580FA63C8A38E93605E9C3134AD82" import="0">Improvements/New/Towns.lua</File>
-    <File md5="48E59F5EA2905ADDE3D7CDAA0C729CA2" import="0">Improvements/New/Towns.xml</File>
+    <File md5="47EA29D6F0831A3303C0B35DF67EFFCE" import="0">Improvements/New/Towns.xml</File>
     <File md5="936BE9A30C43DF26524191F22B442760" import="0">Improvements/No2AdjacentGPTI.xml</File>
     <File md5="A9BC9BF58E08B9B1A8D2F74FFB687BCF" import="0">Improvements/PlantationChanges.xml</File>
     <File md5="C93FA66A6A5658626A5387C14BD22589" import="0">Improvements/RoadChanges.xml</File>
     <File md5="8ACDE8B42BC6D3F40F896E53D7E5CA89" import="1">Improvements/sv_pontoon_bridge.dds</File>
-    <File md5="0FB65EBE72FAED9D3E55F4F2C932F3C2" import="0">Improvements/PontoonBridge.xml</File>
+    <File md5="6DD443BEF705FEAAAD965DE1F384AA6F" import="0">Improvements/PontoonBridge.xml</File>
     <File md5="9303CAE71BF48B2060DFFB735088317C" import="0">Improvements/TundraFarms.xml</File>
     <File md5="2E5D7BA8BC92F30B2BAE5C913B37F64C" import="0">NewResources/Hardwood/ART/Art.xml</File>
     <File md5="F5EB30ED3C38E1F761DDE5D955263AC1" import="1">NewResources/Hardwood/ART/hardwood-fonticons.dds</File>
@@ -592,13 +591,33 @@
     <File md5="61FAA8FE39CF08B607547962B55567AA" import="0">NewResources/Hardwood/Text.xml</File>
     <File md5="B321ACD3AD39F84768CB11DD3ABCDCC3" import="0">NewResources/Hardwood/Unit.xml</File>
     <File md5="43C0DAC6D0E4BDD6C365347C549F1E37" import="0">Projects/ApolloProgramChanges.xml</File>
-    <File md5="0266253823AADEAA8613E74A1132096C" import="0">Projects/ManhattanProjectChanges.xml</File>
+    <File md5="9F1FECD1D4E4FC1480CF2F762E85B547" import="0">Projects/ManhattanProjectChanges.xml</File>
     <File md5="ABFD3FC29D8A487B2788BD85A1014BBF" import="0">Ruins/MoreGoodyHut.xml</File>
     <File md5="A3EAB3F778B6CC72CF3CE44D1A9DDEA2" import="0">Shared/NoFreeFloatingGuardensWhenLUACallsAMissingBuilding.xml</File>
     <File md5="2BF649C76A1685527B9EC6BC56A3EB1D" import="0">Shared/Unit Created (v 5)/Promotion_Created.xml</File>
     <File md5="E3AB73844886B35F4B78A604FA2D13D2" import="0">Shared/Unit Created (v 5)/SerialEventUnitCreatedGood.lua</File>
     <File md5="60BB5C05A28D5AE0960C8A19E3806D31" import="0">Specialists/SpecialistChanges.xml</File>
-    <File md5="A2C3BB8CC4D93467A16C6B799EA58C6D" import="0">Tech/Ancient Era.xml</File>
+    <File md5="1188A886F60A4C1AC8BEBC782A36DC3D" import="0">Tech/Ancient Era.xml</File>
+    <File md5="DE391A25282ADD5D1BCA1A7F4B5D7B28" import="0">Tech/ART/CodeofLawsIcons.xml</File>
+    <File md5="1D6C1B4E886261428A2F8C20283472D8" import="1">Tech/ART/code_of_laws_portrait_128.dds</File>
+    <File md5="50BE5127BD8A881AE0D616938BFABA12" import="1">Tech/ART/code_of_laws_portrait_214.dds</File>
+    <File md5="FA33E706F1B0D277B641D6AE97A51EF6" import="1">Tech/ART/code_of_laws_portrait_256.dds</File>
+    <File md5="F77E93409B80BA0FB1FAF930B64479EF" import="1">Tech/ART/code_of_laws_portrait_45.dds</File>
+    <File md5="0B0545EE8AC424DFE9B2F1B08A8AB6A4" import="1">Tech/ART/code_of_laws_portrait_64.dds</File>
+    <File md5="7F922C6175644D59640DC8FB0DD27F70" import="1">Tech/ART/code_of_laws_portrait_80.dds</File>
+    <File md5="53C60B83C3825FF62F187BDD285E9D2D" import="0">Tech/ART/CorpAtlas.xml</File>
+    <File md5="4D6C112B1933F1E1D1F028DB5A885635" import="1">Tech/ART/CorpAtlas128.dds</File>
+    <File md5="85DF7C32D32D396A29656837892B4357" import="1">Tech/ART/CorpAtlas256.dds</File>
+    <File md5="9670B95F962520CC8F77E6ECB8945DD0" import="1">Tech/ART/CorpAtlas45.dds</File>
+    <File md5="50D3F3BDC4AAB82F1499E94C2128E78B" import="1">Tech/ART/CorpAtlas64.dds</File>
+    <File md5="6C03B6D2BDD714A8C8F3EC8AE1950D1C" import="1">Tech/ART/CorpAtlas80.dds</File>
+    <File md5="EB7451E89C82AB039AF1DFB5C5AAD60E" import="0">Tech/ART/EnlightenmentTechAtlas.xml</File>
+    <File md5="E02F8337C9B904CA5F8042C3A6F6EFDF" import="1">Tech/ART/Enlightenment_Techs_128.dds</File>
+    <File md5="C21B4424322500605E5F54402C1EB33D" import="1">Tech/ART/Enlightenment_Techs_214.dds</File>
+    <File md5="3997A3A60577F8A7EFBE32B0E0184D25" import="1">Tech/ART/Enlightenment_Techs_256.dds</File>
+    <File md5="51690156A4A241BF658B57A96DB417E0" import="1">Tech/ART/Enlightenment_Techs_45.dds</File>
+    <File md5="158084A05E6604D6F8FBAA94BBE6D8F5" import="1">Tech/ART/Enlightenment_Techs_64.dds</File>
+    <File md5="6609DB90829F7411EF42834DAA3C31C5" import="1">Tech/ART/Enlightenment_Techs_80.dds</File>
     <File md5="3972F138E82BF3297B485878D941DFE9" import="0">Tech/ART/Fishing_Icons.xml</File>
     <File md5="6D3686384824252E340E833A7D597AA1" import="1">Tech/ART/fishing_portrait128.dds</File>
     <File md5="6A5CE0137DC04C318A39B157DA310FA8" import="1">Tech/ART/fishing_portrait212.dds</File>
@@ -606,11 +625,38 @@
     <File md5="BA1CDF7BF7A0E2A2A42B6325AC007644" import="1">Tech/ART/fishing_portrait44.dds</File>
     <File md5="022E8440C727E818B839725192EF07CC" import="1">Tech/ART/fishing_portrait64.dds</File>
     <File md5="92BC4FC1C4A7DD3E38D2FCDE09098EE4" import="1">Tech/ART/fishing_portrait80.dds</File>
-    <File md5="6B9B5DF880C5100D2B30BF686D44370B" import="0">Tech/InformationEra.xml</File>
+    <File md5="4EAB16EEB92277A3F2323B671C687EC4" import="0">Tech/ART/HiRiseAtlas.xml</File>
+    <File md5="80C091650B52E40F3B793F4BC1B84C24" import="1">Tech/ART/HiRiseAtlas128.dds</File>
+    <File md5="925D003F06785B1F6B17DAA6BA79BEC9" import="1">Tech/ART/HiRiseAtlas256.dds</File>
+    <File md5="9263E76EA6A6366380E4B7C5447137CB" import="1">Tech/ART/HiRiseAtlas45.dds</File>
+    <File md5="CD5C698EF6B084E5546A268494AE232E" import="1">Tech/ART/HiRiseAtlas64.dds</File>
+    <File md5="85B87DD9C2A4FC8DE47C5F55A6A113C5" import="0">Tech/ART/Iska_STS_Atlas.xml</File>
+    <File md5="63076600A15209787C3C46AA4675CAA0" import="1">Tech/ART/Iska_StS_Atlas_128.dds</File>
+    <File md5="930776FA49054649153F930A1EDD3353" import="1">Tech/ART/Iska_StS_Atlas_256.dds</File>
+    <File md5="024D27345001F750178CA9B7E6F08F80" import="1">Tech/ART/Iska_StS_Atlas_32.dds</File>
+    <File md5="A6C56CF1F7E3DCA0E70CC7BB2585F9FE" import="1">Tech/ART/Iska_StS_Atlas_45.dds</File>
+    <File md5="AC3B349E5FA9B2DE6E8493DC2E54EC78" import="1">Tech/ART/Iska_StS_Atlas_64.dds</File>
+    <File md5="58D161581350CCE4A4E5FA12CF3C568C" import="1">Tech/ART/Iska_StS_Atlas_80.dds</File>
+    <File md5="4CC19ED4EC8E3A607F7C063DED3967F2" import="0">Tech/ART/SenarioIconAtlas.xml</File>
+    <File md5="78EE906CB689F6949D9CBF51D05F8174" import="1">Tech/ART/vulture128.dds</File>
+    <File md5="127D456301B8A3CF912257AD915CCBF6" import="1">Tech/ART/vulture256.dds</File>
+    <File md5="F42A6BF11D637E364BEE1ACCB3ADFC51" import="1">Tech/ART/vulture32.dds</File>
+    <File md5="F5E68FA0774307A47F4EA0364C80C06A" import="1">Tech/ART/vulture45.dds</File>
+    <File md5="B2D9950B9D70FC22D092103E908101CA" import="1">Tech/ART/vulture48.dds</File>
+    <File md5="DE638AEA5DBB44064A890CB6AA593A5C" import="1">Tech/ART/vulture64.dds</File>
+    <File md5="3C806A0C27F1A5064172802F6101BB9A" import="1">Tech/ART/vulture80.dds</File>
+    <File md5="53B3FB1F955A86DF1F279D761E210CE2" import="0">Tech/ART/VultureAtlas.xml</File>
+    <File md5="C1FF58DBBC59910CB19A563AD383396A" import="0">Tech/AtomicEra.xml</File>
+    <File md5="32F734CD8FFBE19ED09EA9D6A41CCEBB" import="0">Tech/Classical Era.xml</File>
+    <File md5="06B8172FB40F86B0C19DAB26E9F0A721" import="0">Tech/IndustrialEra.xml</File>
+    <File md5="B8CBEF3192AF2201919CA5F097924ED3" import="0">Tech/InformationEra.xml</File>
+    <File md5="F402BF71A11FD6E2B96E83D5C08B9C48" import="0">Tech/MedievalEra.xml</File>
+    <File md5="555384132C78D9CC22CF755601B38F50" import="0">Tech/ModernEra.xml</File>
     <File md5="03011D8262F8EBFB26DB757C1CA4DBA8" import="1">Tech/NoBeelineConfigurations.lua</File>
     <File md5="D9257BBAD9299935BEE3C22850C0BF84" import="0">Tech/NoTechTreeBeelining.lua</File>
+    <File md5="E86CB56247ACF578CD2EB9D1019AB83E" import="0">Tech/RenaissanceEra.xml</File>
     <File md5="3044012A0EAF3DBE32F322D2BFEBCE34" import="0">Tech/SlowerTech.xml</File>
-    <File md5="0039A8E266D538C44FFE62221AAEDCF7" import="0">Tech/TechTextChanges.xml</File>
+    <File md5="255BFB845E2A888EB7907FD5868B1E43" import="0">Tech/TechTextChanges.xml</File>
     <File md5="A53A6FCE8D3FEF0FCCC3F69521CE6E36" import="0">Terrain/BadTilesTweak.xml</File>
     <File md5="967D0721E44BD4B09B5249EEDB178391" import="0">Terrain/chopjungle.sql</File>
     <File md5="5AE865C8E270D4AB1C5A25A3B6F5B937" import="0">Terrain/CopperBuff.xml</File>
@@ -645,19 +691,19 @@
     <File md5="206B9945BB14AA06B50BA14646FA47F3" import="0">Units/BomberChanges.xml</File>
     <File md5="D214056C3DF0E35DEDA53E68490820F0" import="0">Units/BuffMeleeUnits.xml</File>
     <File md5="1A6C678F42FC4B9EFBD1BE79A24C1F1E" import="0">Units/CannonChanges.xml</File>
-    <File md5="82752427226CDB940CB8CE6A42B48220" import="0">Units/CaravelChanges.xml</File>
+    <File md5="9B97C6865AB8E634DAAB6A819BBB7CD8" import="0">Units/CaravelChanges.xml</File>
     <File md5="CFB555146D706393917E8D545317CAAB" import="0">Units/CarrierChanges.xml</File>
     <File md5="048888F1CA8A48856D24E76278FCE4A1" import="0">Units/CatapultChanges.xml</File>
     <File md5="0524D1C83CB44A9C4AE008DD8DF92FE5" import="0">Units/CavalryChanges.xml</File>
-    <File md5="D8F8D52CFA9DA4F1EBD8EAF80F0E993B" import="0">Units/CompositeBowmanChanges.xml</File>
+    <File md5="ECE54B7B86D19FF620F16E9F6B0BF6A4" import="0">Units/CompositeBowmanChanges.xml</File>
     <File md5="A33F8E719EA7FDBF4D6E0DF510401FCD" import="0">Units/CrossbowmanChanges.xml</File>
     <File md5="BB1B18EB9D218E14B40AEF33DE9FBFFD" import="0">Units/DestroyerChanges.xml</File>
     <File md5="7F4125BEED4DDB7CB3FC3312FFA4D66F" import="0">Units/FighterChanges.xml</File>
-    <File md5="64E0366F98DFDDD429665DBC411065BA" import="0">Units/FrigateChanges.xml</File>
+    <File md5="960DC5BC193C77FB224CFC1E7316B894" import="0">Units/FrigateChanges.xml</File>
     <File md5="9627958A02A487B6947F54C5F6D96F6E" import="0">Units/GalleassChanges.xml</File>
     <File md5="4623401F93CD7E613AE96152BB164179" import="0">Units/GreatWarBomberChanges.xml</File>
     <File md5="595AFB766F2893BA962FF3BEEDF95D43" import="0">Units/KnightChanges.xml</File>
-    <File md5="8C98898A876DA7AAE4A5A4CED90021B5" import="0">Units/GattlingGunChanges.xml</File>
+    <File md5="4A6D37789C619B56D88EEF2E8F955CFE" import="0">Units/GattlingGunChanges.xml</File>
     <File md5="0D7A913E8571BA0AAF7518418D1CFE0D" import="0">Units/GreatWarInfantryChanges.xml</File>
     <File md5="92CA63F4E8FC507EE4189BF4EF1D098D" import="0">Units/GuidedMissileChanges.xml</File>
     <File md5="8622EEC40BDAEDB6D8150B7EC3CB6C81" import="0">Units/HelecopterChanges.xml</File>
@@ -665,9 +711,9 @@
     <File md5="EB02D31423FF4D4BD14B955254984561" import="0">Units/JetFighterChanges.xml</File>
     <File md5="04DB44EB3A53FA5608D9B308DC663D17" import="0">Units/LancerChanges.xml</File>
     <File md5="D0660F8448328E8D193CDECF4B6B1688" import="0">Units/LandshipChanges.xml</File>
-    <File md5="ED3C87FCE68778E1E76407D9FAF49D0C" import="0">Units/LandsknechtsChanges.xml</File>
+    <File md5="2A80E0E876F1B2A305E1528D7A629F51" import="0">Units/LandsknechtsChanges.xml</File>
     <File md5="9E656783AFC5C6E5EC21F2887A4C2D5D" import="0">Units/IroncladChanges.xml</File>
-    <File md5="3570BCCCDE4EC6E076A110388E2F2AD9" import="0">Units/New/SpecialForces.xml</File>
+    <File md5="7A71C5900CE6CA8FA659AAB81FB6CB9D" import="0">Units/New/SpecialForces.xml</File>
     <File md5="2BECA49A7880F307CED74DBC44F87B08" import="0">Units/PromotionCorrection.lua</File>
     <File md5="788C441F3B6492ED1A47DE0CE0A46483" import="0">Units/MachineGunChanges.xml</File>
     <File md5="533189150FA67B04FB3E8491B06BFB89" import="0">Units/MarineChanges.xml</File>
@@ -678,7 +724,7 @@
     <File md5="846211B8F05FB33CCA7924EFDB6026D5" import="0">Units/ModernArmourChanges.xml</File>
     <File md5="D80F78853B46D2EA9A7D911B9C83ABEE" import="0">Units/MoreSupply.xml</File>
     <File md5="BC244A7B068B6BBA4628FBC3466909E7" import="0">Units/MusketmanChanges.xml</File>
-    <File md5="E60D5FCE93482603FD58E6E44F79D041" import="0">Units/NecularSubChanges.xml</File>
+    <File md5="81CDEECC59A39734E156AFC45EDCCA29" import="0">Units/NecularSubChanges.xml</File>
     <File md5="F9E43E56FF19CBADD0667CCBA3A55B26" import="0">Units/New/Airship.xml</File>
     <File md5="AAEEBF231F621BE845A10050DB47C83B" import="0">Units/New/ART/CIV5IconTextureAtlases.xml</File>
     <File md5="9C714992E7224B22C9E1919D5BBF0E24" import="1">Units/New/ART/HardMobileLauncher128.dds</File>
@@ -707,43 +753,45 @@
     <File md5="329B078F35E319C5282B2A367166824C" import="0">Units/New/TaticalNuclearMissile.xml</File>
     <File md5="052BE00DE2BAC7BB5EF67E86156139CF" import="0">Units/ParatrooperChnages.xml</File>
     <File md5="72D80CDBF90F62F2668D4AE61D98D842" import="0">Units/PikemanChanges.xml</File>
-    <File md5="E1DCE600086E3292783BD71F53825E6F" import="0">Units/PrivateerChanges.xml</File>
+    <File md5="FF332E564C3753C8799942127551901C" import="0">Units/PrivateerChanges.xml</File>
     <File md5="03572E977970BE97DE3B6BFCDA391DED" import="0">Units/Promotions.xml</File>
     <File md5="E1CDA2E1F761D642238E9C91E4010AC2" import="0">Units/RemoveOPLateUnits.xml</File>
     <File md5="228706D908F22F22B0B5C5DC9512717D" import="0">Units/RiflemanChanges.xml</File>
     <File md5="6966B0D5388640278B4314EEB0A66750" import="0">Units/RocketArtilleryChanges.xml</File>
     <File md5="8952425EF44452836842C865072CD3AC" import="0">Units/ScoutsIngoreBorders.xml</File>
-    <File md5="00DA240D57F3D60597CFB6B34D43D437" import="0">Units/SSPartsChanges.xml</File>
+    <File md5="77EEA16CD035E2DD0D84B8E0E05F24ED" import="0">Units/SSPartsChanges.xml</File>
     <File md5="06707DDDBFFF449FEF1DA28B391A6F7D" import="0">Units/StrealthBomberChanges.xml</File>
     <File md5="86C3F40B179E34795D9D9A1811E54A35" import="0">Units/SubChanges.xml</File>
     <File md5="E1788303F595A4B1CD3905491120D80E" import="0">Units/Swordsman Changes.xml</File>
-    <File md5="3BBD027040C759805B0D9D08F6F101F6" import="0">Units/TankChanges.xml</File>
+    <File md5="B69C0A362E786E3117CAA14F900C9557" import="0">Units/TankChanges.xml</File>
     <File md5="C60B0ECC556257DBFDA16969B1BDE917" import="0">Units/TrebuchetChanges.xml</File>
     <File md5="432E1D72F65F2C97001535C9EB72713C" import="0">Units/TriplaneChanges.xml</File>
     <File md5="858B3473978FBE9F30733DDD9A306F01" import="0">Units/TriremeChanges.xml</File>
     <File md5="8A950B65715F628511BB0A383E2BE222" import="0">Units/WorkBoatChanges.xml</File>
     <File md5="27CAB5D4DA164E39CAFE9A811E9F7BBB" import="0">Units/WorkerChanges.xml</File>
     <File md5="F1A0D36EB94A95A76CE174D0086DCAFF" import="0">Wonders/AngkorWatChanges.xml</File>
-    <File md5="90FC7BCB1B82BF6537D43CCEC1E46FBB" import="0">Wonders/BigBenChanges.xml</File>
+    <File md5="4898B0F72FAA6BF5A6B2130F2465A6ED" import="0">Wonders/BigBenChanges.xml</File>
     <File md5="E5575A6136037C47E20E731F2B6BB7B2" import="0">Wonders/BorobudurChanges.xml</File>
     <File md5="ACA7B89F6FBC61203EC8FE5105EDE81A" import="0">Wonders/BrandenburgGateChanges.xml</File>
     <File md5="7114ABE0A334FBF4E1DC101F5007DBA3" import="0">Wonders/BroadwayChanges.xml</File>
+    <File md5="93D2FAE8344E1A651B18B35B2CDA542E" import="0">Wonders/ChichenItzaChanges.xml</File>
     <File md5="E9CAE9A6BFEED445ACAFA010E13A8615" import="0">Wonders/CNTowerChanges.xml</File>
     <File md5="1FF7F88F5185DE02169D43237B3C3819" import="0">Wonders/CristoRedentorChanges.xml</File>
     <File md5="9BE955C2EBC7A1255C67AFBAA42F463A" import="0">Wonders/EiffelTowerChanges.xml</File>
-    <File md5="B5A8A5E6C37AF4D3C166383F18B10A6D" import="0">Wonders/ForbiddenPalaceChanges.xml</File>
+    <File md5="C49978E11EEB1135B2575B407CFAE80E" import="0">Wonders/ForbiddenPalaceChanges.xml</File>
     <File md5="B2F4074C2DFC00273B6DF8688E42D47A" import="0">Wonders/GreatFirewallChanges.xml</File>
     <File md5="85BEF8F9C697932D6FB6B044CFA815B6" import="0">Wonders/GreatLighthouseChanges.xml</File>
     <File md5="B48F49ACF5279E0EDD6A23FD5A28B30F" import="0">Wonders/HalicarnassusChanges.xml</File>
     <File md5="0F555A74958E15E877A480EF2F55EF3A" import="0">Wonders/HangingGardenChanges.xml</File>
+    <File md5="7390F82E94E617E5B7542D33286C511D" import="0">Wonders/HimejiCastleChanges.xml</File>
     <File md5="B6450971FA4A700D778F3E06625644C7" import="0">Wonders/HSTChanges.xml</File>
     <File md5="7D615B214E956803098721185E3DFC9E" import="0">Wonders/KremlinChanges.xml</File>
     <File md5="1DDB5ADB6DE676087854B094D6A7B2FD" import="0">Wonders/LouvreChanges.xml</File>
-    <File md5="87AF9CA1D0ACD3D329E0B0B3B8561F7F" import="0">Wonders/MachuPichuChanges.xml</File>
+    <File md5="E7E000508C6786900E73848666A3C141" import="0">Wonders/MachuPichuChanges.xml</File>
     <File md5="01B7C6085D894A122C835357816ED323" import="0">Wonders/MosqueOfDjenneChanges.xml</File>
     <File md5="3D9CEE27B793F3E1CB354BAB4524B0D2" import="0">Wonders/NationalCollageChanges.xml</File>
-    <File md5="BDABAEA7D31461E8B317FF98E101481A" import="0">Wonders/NationalIntelligenceAgency.xml</File>
-    <File md5="02596CC960105DD9DF26394C1405F851" import="0">Wonders/NationalTouristCenterChanges.xml</File>
+    <File md5="A09F9174D33B3E72782FC075C1C5E53A" import="0">Wonders/NationalIntelligenceAgency.xml</File>
+    <File md5="CF0483054FCD00C46E74E35A7D232E00" import="0">Wonders/NationalTouristCenterChanges.xml</File>
     <File md5="8E1D99A9506D5ED35EFF009832A7E98D" import="0">Wonders/NaturalWonderChanges.xml</File>
     <File md5="B4A5B58F148A34A40B365735EA3D4D6C" import="0">Wonders/NeuschwansteinChanges.xml</File>
     <File md5="A5EA98BC37F2A579740985E7AB9AAA53" import="0">Wonders/New/ART/KeldurHall_IconTextureAtlases.xml</File>
@@ -760,22 +808,23 @@
     <File md5="41429FC8CCAD393A2B059B4F60F5E692" import="1">Wonders/New/ART/NWAtlas80.dds</File>
     <File md5="3E9DC2E6F7C7C0E4DBE43A1C1AA3856B" import="0">Wonders/New/ART/NW_IconAtlas.sql</File>
     <File md5="440AD2E61C157A49C65A7B32FDF4D6E8" import="0">Wonders/New/CenterForDiseaseControl.xml</File>
-    <File md5="5B1A048F4813D38E61A6456EC387B822" import="0">Wonders/New/FortKnox.xml</File>
+    <File md5="92BF3A437C6CEE07D292481807708079" import="0">Wonders/New/FortKnox.xml</File>
     <File md5="A0FFE01F6D4050FD22B3D7E86BB1C652" import="0">Wonders/New/HadronCollider.xml</File>
-    <File md5="C04A54B86103705F618DC97279D8393C" import="0">Wonders/New/KeldurHall.xml</File>
+    <File md5="F690C6AB447E56E9BB7672DB74FAB69F" import="0">Wonders/New/KeldurHall.xml</File>
     <File md5="91BC4B057AC4D9A85A6E37E24DC3B995" import="0">Wonders/New/NationalInstituteOfResearch.xml</File>
-    <File md5="78EC11C0C9A07CBC7D2D1112C7A9A204" import="0">Wonders/New/NW_AirAcademy.sql</File>
+    <File md5="4E08DCAB9DFC0423B1076DA5E1F135E8" import="0">Wonders/New/NavigationSchool.xml</File>
+    <File md5="4DCB5AD7AC49D66EC4ADD9C406ABC92B" import="0">Wonders/New/NW_AirAcademy.sql</File>
     <File md5="BFFD83ED5D46947DDFB0F65630B9B19D" import="0">Wonders/New/NW_CentralBank.lua</File>
-    <File md5="A36FC4B3BC3D32BB4FF41865104A0307" import="0">Wonders/New/NW_CentralBank.sql</File>
+    <File md5="BABB5F673E3F0B0697A5007461C10377" import="0">Wonders/New/NW_CentralBank.sql</File>
     <File md5="C68E36A813265A7541C8E69938224014" import="0">Wonders/New/NW_CentralStation.lua</File>
     <File md5="D8228597D849C42C5D64B2A78364C662" import="0">Wonders/New/NW_CentralStation.sql</File>
     <File md5="F429AE15B17D6B983ECBC934C0298BD2" import="0">Wonders/New/NW_ElectricCompany.lua</File>
     <File md5="B213A81E4BEC2E1173D22FA3E9A72E21" import="0">Wonders/New/NW_ElectricCompany.sql</File>
     <File md5="7293567F738A232B6F1B0AFF9C1EAC51" import="0">Wonders/New/NW_MilitaryAcademy.sql</File>
-    <File md5="B3B08768413B03D301684A5E0B57C3F3" import="0">Wonders/New/NW_NavalAcademy.sql</File>
+    <File md5="639DDA3151D49AFEEFCE7751EF2609A8" import="0">Wonders/New/NW_NavalAcademy.sql</File>
     <File md5="4F6DB4483B30C05A4DAC249A04796597" import="0">Wonders/New/NW_Text.xml</File>
     <File md5="786D3FFD01A58836ABB4AF08218DF1F1" import="0">Wonders/New/PanamaCanal.xml</File>
-    <File md5="2FFFFB2B2BDEC2D3DAF034D34DB456C6" import="0">Wonders/New/SilkRoad.xml</File>
+    <File md5="1F8E948BBDB48868B448718E9C228806" import="0">Wonders/New/SilkRoad.xml</File>
     <File md5="6A47CF00200C94B13E837A91B119B192" import="0">Wonders/NotreDameChanges.xml</File>
     <File md5="5DB5764636DD802CFC48375AB2AB417E" import="0">Wonders/OracleChanges.xml</File>
     <File md5="111D4798A85931BB2C94DD14ABA40797" import="0">Wonders/PentagonChanges.xml</File>
@@ -786,17 +835,18 @@
     <File md5="6499B3A1AF6536769DD4DAB9ADAF9C7D" import="0">Wonders/StatueofZeusChanges.xml</File>
     <File md5="7F72858D8605C2B56387750275EBE650" import="0">Wonders/StonehengeChanges.xml</File>
     <File md5="2978B573294A459ECA854A9F196A7403" import="0">Wonders/SydneyOperaHouseChanges.xml</File>
-    <File md5="72C7511B72D8FAF6DD1986A9DCE3FE1E" import="0">Wonders/TerracottaChanges.xml</File>
+    <File md5="03DC5E08272670D5045AE0930FE94DA3" import="0">Wonders/TerracottaChanges.xml</File>
     <File md5="61B9D2994FE16E683F66DF9C7D60BCDE" import="0">Wonders/UffiziChanges.xml</File>
     <File md5="A4F7A097CD54962E7C5020EC908AE831" import="0">zBuildings/AirportChanges.xml</File>
     <File md5="AF50BC756158EF30AF7DA1B477DB2594" import="0">zBuildings/AquaductChanges.xml</File>
     <File md5="B140F33F24ECCD465F99176D0ADCEBF0" import="0">zBuildings/ArmoryChanges.xml</File>
     <File md5="1E2D15790A3A59F47C7C9D2F1FC9910F" import="0">zBuildings/BarracksChanges.xml</File>
-    <File md5="479317C3CCD721B0D67F3F73229E98AB" import="0">zBuildings/BombShelterChanges.xml</File>
+    <File md5="F1302A4FD3E5C56C5B682A119AC7AB3D" import="0">zBuildings/BombShelterChanges.xml</File>
     <File md5="BE0CE9F87364D86188C61A0B607910B5" import="0">zBuildings/BroadcastTowerChanges.xml</File>
     <File md5="B7B75C2AD9533D43918534D358DC89AF" import="0">zBuildings/CircusChanges.xml</File>
-    <File md5="BBF7E63E01678271293561CBAD7317F8" import="0">zBuildings/ColosseumChanges.xml</File>
-    <File md5="B52DBA01ABF56267862F1F6787038246" import="0">zBuildings/ConstabularyChanges.xml</File>
+    <File md5="604F8776BC822B560AD8A734F0E8BEDB" import="0">zBuildings/ColosseumChanges.xml</File>
+    <File md5="66219103A040DF0C32455CB2C9721DE4" import="0">zBuildings/ConstabularyChanges.xml</File>
+    <File md5="EC5289C805173E8922B064F7EF4D175E" import="0">zBuildings/GardenChanges.xml</File>
     <File md5="372F63F381C7ABECCE0EDD7F69AE34FC" import="0">zBuildings/HotelChanges.xml</File>
     <File md5="1845B940C09669C0C350A36E185704AD" import="0">zBuildings/MedicalLabChanges.xml</File>
     <File md5="C58291937C22275053AE39E66D5CD3D4" import="0">zBuildings/MilitaryAcademyChanges.xml</File>
@@ -818,31 +868,32 @@
     <File md5="46F27144AF287779EF5B6BC96E8834AE" import="0">zBuildings/New/Alchemist.xml</File>
     <File md5="A99D201F96FDFBB6B266FDF4EB9C510B" import="0">zBuildings/New/NuclearTestFacility.xml</File>
     <File md5="AECDB4FB7F5F43B2D114E3D658C207DC" import="0">zBuildings/New/Racing Course.xml</File>
-    <File md5="F6B807FE46C443A986E1C1753C064710" import="0">zBuildings/New/School of Equestrian Art.xml</File>
-    <File md5="AF1851A17DC7C005B29E0F81424616D6" import="0">zBuildings/New/Steel Mill.xml</File>
+    <File md5="00A50CC5F859B2E2287D765466406C35" import="0">zBuildings/New/School of Equestrian Art.xml</File>
+    <File md5="EA9206502821170554179F831C0F7419" import="0">zBuildings/New/Steel Mill.xml</File>
     <File md5="8DDB1198C920CADB64C45F3A19C726D9" import="0">zBuildings/New/TextileMill.xml</File>
-    <File md5="F2236004AC68C5FD9535B93CEBBA9E3D" import="0">zBuildings/New/Grocer.xml</File>
+    <File md5="E88D0860F5518E0D4B8193837048AFBC" import="0">zBuildings/New/Grocer.xml</File>
     <File md5="93CA51FA7F562AF10C6DE6061E42EAF1" import="0">zBuildings/New/Chemist.xml</File>
-    <File md5="BA502AE351009366C5F99DE2BB6DE073" import="0">zBuildings/New/UraniumEnrichmentFacility.xml</File>
+    <File md5="48C09C4045562C102C137B14D8AD6DAA" import="0">zBuildings/New/UraniumEnrichmentFacility.xml</File>
     <File md5="1B8F87868A19E8992621EAAECF2FAA1B" import="0">zBuildings/NuclearPlantChanges.xml</File>
     <File md5="73FA9C73EA0D0DC80D6AA97D7B294E23" import="0">zBuildings/PoliceStation.xml</File>
-    <File md5="54BE5A777DF30D5B235E046818DFFC74" import="0">zBuildings/PublicSchoolChanges.xml</File>
-    <File md5="0C5CC7366EB52B17E1C15CF8BFFD0688" import="0">zBuildings/SolarPlantChanges.xml</File>
-    <File md5="5A932B7164208B7D120BF1FB40F59A17" import="0">zBuildings/SpaceshipFactoryChanges.xml</File>
-    <File md5="3D2A8A92AECC92C2A938B918C8FB9962" import="0">zBuildings/StadiumChanges.xml</File>
+    <File md5="AC13584F7D4453B328461CC824F879AA" import="0">zBuildings/PublicSchoolChanges.xml</File>
+    <File md5="B154797310ADB5253D913A304ADCB9FD" import="0">zBuildings/SolarPlantChanges.xml</File>
+    <File md5="EF0844967BA068D127157B9B94B6CAF5" import="0">zBuildings/SpaceshipFactoryChanges.xml</File>
+    <File md5="C07409BF1D632968D55337B3AF4EFA11" import="0">zBuildings/StadiumChanges.xml</File>
+    <File md5="DF077778B18A96A5570DD5745C8CFDC9" import="0">zBuildings/StockExchangeChanges.xml</File>
     <File md5="C655670A1BFEE07AB69C54EC3057C968" import="0">zBuildings/WatermillChanges.lua</File>
     <File md5="89B73C1035BE8970124BC1820010B27B" import="0">zBuildings/LighthouseChanges.lua</File>
     <File md5="0CB29649DBC2E1EB5007FDF33F770F38" import="0">zBuildings/HydroPlantChanges.lua</File>
     <File md5="12E7881FCFDCD333692445D81351DD3D" import="0">zBuildings/HydroPlantChanges.xml</File>
     <File md5="97120F8FC82C98F1127CD130F64710F9" import="0">zBuildings/CaravansaryChanges.xml</File>
-    <File md5="D9868E9B6EFC3923E7135A74C2A2D8EC" import="0">zBuildings/CourthouseChanges.xml</File>
+    <File md5="F855EE51C70187B12BFCC78212A37C01" import="0">zBuildings/CourthouseChanges.xml</File>
     <File md5="8CADA94A3635166EC275587300412BEE" import="0">zBuildings/GranaryChanges.xml</File>
     <File md5="4B80C98BF311AA90B2208C0387C47457" import="0">zBuildings/HarborChanges.xml</File>
-    <File md5="C229062D32FFCB42C496AAEB4207CE59" import="0">zBuildings/LibaryChanges.xml</File>
+    <File md5="D6B413AB3BAD86A4A79E737B8D10CD4E" import="0">zBuildings/LibaryChanges.xml</File>
     <File md5="EC65F50CB1E54C7EA4EEF9D5F7287BAC" import="0">zBuildings/LighthouseChanges.xml</File>
     <File md5="B901629BAB3E8289896FDA9D2EEF6DC3" import="0">zBuildings/MarketChanges.xml</File>
     <File md5="C46EBCE9B5A999DF525AA80CE6F96117" import="0">zBuildings/MuseumChanges.xml</File>
-    <File md5="F913A1B058828DBBB5B84719BA9156FC" import="0">zBuildings/New/Agora.xml</File>
+    <File md5="AD69AE9FFE38EA2108CEF06D1BA67B78" import="0">zBuildings/New/Agora.xml</File>
     <File md5="F4F283FA7AC9E96C61BF8ABF55D8C212" import="0">zBuildings/New/Potter.xml</File>
     <File md5="F5C7E12EADEAB3B45FBE07510FB1AEE2" import="1">zBuildings/New/ART/1mod_atlas_128.dds</File>
     <File md5="1EF1C861F9B9EC3A7AECED455A0A684A" import="1">zBuildings/New/ART/1mod_atlas_256.dds</File>
@@ -891,38 +942,38 @@
     <File md5="7CC2D2F3D4706D1AAF34D20DDA35FF65" import="0">zBuildings/New/Cistern.xml</File>
     <File md5="E6BEF096B905A09F6A55BA461762F3CB" import="0">zBuildings/New/CoastalBattery.xml</File>
     <File md5="272698DDF530C068FA2A87751648FCFB" import="0">zBuildings/New/Distillery.xml</File>
-    <File md5="9912211ABF9AC1BE10EA92C92EE453E1" import="0">zBuildings/New/Gem Merchant.xml</File>
-    <File md5="535131FDD80172A3C46EDEC6A9FA5E59" import="0">zBuildings/New/Gilder.xml</File>
-    <File md5="A1A18C7D26BDA4133511790627412C28" import="0">zBuildings/New/Herbalist.xml</File>
-    <File md5="BAAFAFFBD04850E87707F7EF76DFFF54" import="0">zBuildings/New/HuntingLodge.xml</File>
+    <File md5="2D422A6B3F3A8019CEF0FB6FED57CDC0" import="0">zBuildings/New/Gem Merchant.xml</File>
+    <File md5="7FBB0ACB3A31D3D3F56CAEF062B3D572" import="0">zBuildings/New/Gilder.xml</File>
+    <File md5="BBF1369E451C0A9681AA0541318C37FF" import="0">zBuildings/New/Herbalist.xml</File>
+    <File md5="0AFF398431327CEC3991DC7D9DE5D246" import="0">zBuildings/New/HuntingLodge.xml</File>
     <File md5="63AF7D29736C8447E8C4C1E71F7876FA" import="0">zBuildings/New/IndustrialMine.xml</File>
-    <File md5="E39B55D056F5F613C2A39B13746F5509" import="0">zBuildings/New/Inn.xml</File>
+    <File md5="1382182C5E959C4CAA168D9B690EAF55" import="0">zBuildings/New/Inn.xml</File>
     <File md5="D7A4374F9D061245AA50E7DA13FCEE68" import="0">zBuildings/New/Leatherworker.xml</File>
-    <File md5="98409A569F09F0EEEA644C057D58B221" import="0">zBuildings/New/Marina.xml</File>
-    <File md5="BE93D4A3AAE008464AA4DA21C37455D8" import="0">zBuildings/New/OilRefinery.xml</File>
+    <File md5="F9FED85BE438917337DECA14D0C4E3AB" import="0">zBuildings/New/Marina.xml</File>
+    <File md5="95472C75C75F025FCFDFB9DEAE7E875F" import="0">zBuildings/New/OilRefinery.xml</File>
     <File md5="EE1F6DFF748D18B017A3D9B36D5D4966" import="0">zBuildings/New/Perfumery.xml</File>
     <File md5="127D22056CD98453D6CF87FC81A3A512" import="0">zBuildings/New/Printer.xml</File>
-    <File md5="66EBC2F0264CD5CFEA940101DFA62544" import="0">zBuildings/New/Ranch.xml</File>
+    <File md5="63FA9B0F16F58A6725909A1E402EE52C" import="0">zBuildings/New/Ranch.xml</File>
     <File md5="2C79AD71730F3DA644D0771771D0215D" import="0">zBuildings/New/Restaurant.xml</File>
     <File md5="211099DEB3115803D78E7089A5D65397" import="0">zBuildings/New/Ritual Site.xml</File>
     <File md5="28082AE2C0131462DEABACAA5C923B17" import="0">zBuildings/New/Sculptors Workshop.xml</File>
     <File md5="AF83BB7ACBB8D8564CA0E84A90110F48" import="0">zBuildings/New/SewerSystem.xml</File>
     <File md5="FEA2D7A8CB2F16A32DFB25309DC1D264" import="0">zBuildings/New/Smelter.xml</File>
     <File md5="3D49384BB40E4AD31F7E7E2FE0C19EBB" import="0">zBuildings/New/Smokehouse.xml</File>
-    <File md5="EA52044177678F9A6B6281EE3F5B06DC" import="0">zBuildings/New/Tailor.xml</File>
+    <File md5="AC6C3B25C2722BB30B2B1045F82E248E" import="0">zBuildings/New/Tailor.xml</File>
     <File md5="8BD15764185407393A5E39A5DAE3E779" import="0">zBuildings/New/Tannery.xml</File>
-    <File md5="109B4EAD9CBC13646B3707248812065A" import="0">zBuildings/New/Tea House.xml</File>
+    <File md5="BFAA15F30A072B0066E66B96339F62C7" import="0">zBuildings/New/Tea House.xml</File>
     <File md5="6307C23CEFDA53C14BE11DE2973E9359" import="0">zBuildings/New/Thermopolium.xml</File>
     <File md5="A83360F27A4F99987052A411F036D81F" import="0">zBuildings/New/Weavery.xml</File>
-    <File md5="B0FD093F85CBFF05A7CFD229DB0C97CF" import="0">zBuildings/New/Wine Cellar.xml</File>
+    <File md5="D5EBE29C0C667283BBCD2A0DA080BFC6" import="0">zBuildings/New/Wine Cellar.xml</File>
     <File md5="659522917C56C43296F9DED4A301E0C2" import="0">zBuildings/ObservatoryChanges.xml</File>
     <File md5="D785949153C1132EF7DF0BFA087574E4" import="0">zBuildings/ReasearchLabChanges.xml</File>
-    <File md5="F6442B07EB65014EC85B7DF09BA115A0" import="0">zBuildings/RecyclingCenterChanges.xml</File>
+    <File md5="34893141C2A9E19320ACF17AA66E0547" import="0">zBuildings/RecyclingCenterChanges.xml</File>
     <File md5="CDBDA94AC412E2C155DCC4685CF1512C" import="0">zBuildings/StoneworksChanges.xml</File>
-    <File md5="A8EA87BCF24C8CA92824C5AB39885D68" import="0">zBuildings/TempleChanges.xml</File>
+    <File md5="C66D82DD68C3E1FEEB3A0481133A16B6" import="0">zBuildings/TempleChanges.xml</File>
     <File md5="7DDEB33582EDEF44A9D45BEF7A93707B" import="0">zBuildings/UniversityChanges.xml</File>
     <File md5="D579080FCBFD2596AA42618349F3CC19" import="0">zBuildings/WaterMillChanges.xml</File>
-    <File md5="5290CE0DD9F3FC4C873D7B5706206207" import="0">zBuildings/WindmillChanges.xml</File>
+    <File md5="ACD8BE3AA12886CE0DD3168DA7EE468F" import="0">zBuildings/WindmillChanges.xml</File>
     <File md5="01F210C447E439C5F413DC22641010EF" import="0">zBuildings/ZooChanges.xml</File>
   </Files>
   <Actions>
@@ -1123,7 +1174,6 @@
       <UpdateDatabase>GameplayChanges/SmarterAI.xml</UpdateDatabase>
       <UpdateDatabase>GameplayChanges/ThemingBonusChanges.xml</UpdateDatabase>
       <UpdateDatabase>GameplayChanges/AIHandicapChanges.xml</UpdateDatabase>
-      <UpdateDatabase>Diplomacy/EmbasyOpenborderChanges.xml</UpdateDatabase>
       <UpdateDatabase>Diplomacy/LessWarmongerHate.sql</UpdateDatabase>
       <UpdateDatabase>Improvements/PontoonBridge.xml</UpdateDatabase>
       <UpdateDatabase>GreatPeople/MoreGreatPeople/MemeGreatWork.xml</UpdateDatabase>
@@ -1219,6 +1269,26 @@
       <UpdateDatabase>Units/GreatWarBomberChanges.xml</UpdateDatabase>
       <UpdateDatabase>Units/LandshipChanges.xml</UpdateDatabase>
       <UpdateDatabase>Units/IroncladChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/Classical Era.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/ART/SenarioIconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/ART/CodeofLawsIcons.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/ART/Iska_STS_Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>zBuildings/GardenChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/MedievalEra.xml</UpdateDatabase>
+      <UpdateDatabase>Wonders/ChichenItzaChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/RenaissanceEra.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/ART/VultureAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Wonders/New/NavigationSchool.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/ART/EnlightenmentTechAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Wonders/HimejiCastleChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/IndustrialEra.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/ART/CorpAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>zBuildings/StockExchangeChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/ModernEra.xml</UpdateDatabase>
+      <UpdateDatabase>GameplayChanges/IdeologyTriggerChanges.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/ART/HiRiseAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Tech/AtomicEra.xml</UpdateDatabase>
+      <UpdateDatabase>zBuildings/SpaceshipFactoryChanges.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>

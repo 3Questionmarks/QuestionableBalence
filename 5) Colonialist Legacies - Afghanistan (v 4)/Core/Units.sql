@@ -2,8 +2,8 @@
 -- Units
 --==========================================================================================================================
 INSERT INTO Units
-(Type, 												Class, Cost, Range, PrereqTech, Combat, RangedCombat, Moves, FaithCost,	RequiresFaithPurchaseEnabled, CombatClass, MilitarySupport, MilitaryProduction, Domain, Pillage, IgnoreBuildingDefense, ObsoleteTech, GoodyHutUpgradeUnitClass, XPValueAttack, XPValueDefense, Conscription,  DefaultUnitAI, Description, 						Civilopedia, 							Help, 									Strategy,									AdvancedStartCost,	UnitArtInfo, 					  UnitFlagIconOffset,	UnitFlagAtlas,						PortraitIndex, 	IconAtlas)
-SELECT		('UNIT_CL_AFGHANISTAN_ZAMBURAK'),		Class, 200, Range, PrereqTech, Combat, RangedCombat, 5, FaithCost, RequiresFaithPurchaseEnabled, CombatClass, MilitarySupport, MilitaryProduction,	Domain, Pillage, IgnoreBuildingDefense, ObsoleteTech, GoodyHutUpgradeUnitClass, XPValueAttack, XPValueDefense, Conscription,  DefaultUnitAI, ('TXT_KEY_UNIT_CL_AFGHANISTAN_ZAMBURAK'),	('TXT_KEY_UNIT_CIV5_CL_AFGHANISTAN_ZAMBURAK_CIVILOPEDIA'), 	('TXT_KEY_UNIT_CL_AFGHANISTAN_ZAMBURAK_HELP'), 	('TXT_KEY_UNIT_CL_AFGHANISTAN_ZAMBURAK_STRATEGY'),	AdvancedStartCost, 	('ART_DEF_UNIT_CL_ZAMBURAK'),  0,					('CL_UNIT_FLAG_ZAMBURAK_ATLAS'),	3, 				('CL_AFGHANISTAN_ATLAS')
+(Type, 												Class, Cost, Range, PrereqTech,      Combat, RangedCombat, Moves, FaithCost, RequiresFaithPurchaseEnabled, CombatClass, MilitarySupport, MilitaryProduction, Domain, Pillage, IgnoreBuildingDefense, ObsoleteTech, GoodyHutUpgradeUnitClass, XPValueAttack, XPValueDefense, Conscription,  DefaultUnitAI, Description, 						Civilopedia, 							Help, 									Strategy,									AdvancedStartCost,	UnitArtInfo, 					  UnitFlagIconOffset,	UnitFlagAtlas,						PortraitIndex, 	IconAtlas)
+SELECT		('UNIT_CL_AFGHANISTAN_ZAMBURAK'),		Class, 200, Range, ('TECH_RIFLING'), Combat, RangedCombat, 4,     FaithCost, RequiresFaithPurchaseEnabled, CombatClass, MilitarySupport, MilitaryProduction, Domain, Pillage, IgnoreBuildingDefense, ObsoleteTech, GoodyHutUpgradeUnitClass, XPValueAttack, XPValueDefense, Conscription,  DefaultUnitAI, ('TXT_KEY_UNIT_CL_AFGHANISTAN_ZAMBURAK'),	('TXT_KEY_UNIT_CIV5_CL_AFGHANISTAN_ZAMBURAK_CIVILOPEDIA'), 	('TXT_KEY_UNIT_CL_AFGHANISTAN_ZAMBURAK_HELP'), 	('TXT_KEY_UNIT_CL_AFGHANISTAN_ZAMBURAK_STRATEGY'),	AdvancedStartCost, 	('ART_DEF_UNIT_CL_ZAMBURAK'),  0,					('CL_UNIT_FLAG_ZAMBURAK_ATLAS'),	3, 				('CL_AFGHANISTAN_ATLAS')
 FROM Units WHERE (Type = 'UNIT_GATLINGGUN');
 --==========================================================================================================================
 -- UnitGameplay2DScripts
@@ -39,12 +39,20 @@ FROM Unit_Flavors WHERE (UnitType = 'UNIT_GATLINGGUN');
 INSERT INTO Unit_ResourceQuantityRequirements
 			(UnitType, 							ResourceType)
 VALUES		('UNIT_CL_AFGHANISTAN_ZAMBURAK', 	'RESOURCE_HORSE');
+
+INSERT INTO Unit_ResourceQuantityRequirements
+			(UnitType, 							ResourceType)
+VALUES		('UNIT_CL_AFGHANISTAN_ZAMBURAK', 	'RESOURCE_IRON');
 --==========================================================================================================================
 -- Unit_FreePromotions
 --==========================================================================================================================
 INSERT INTO Unit_FreePromotions 	
 			(UnitType, 								PromotionType)
 VALUES		('UNIT_CL_AFGHANISTAN_ZAMBURAK', 		'PROMOTION_CAN_MOVE_AFTER_ATTACKING');
+
+INSERT INTO Unit_FreePromotions 	
+			(UnitType, 								PromotionType)
+VALUES		('UNIT_CL_AFGHANISTAN_ZAMBURAK', 		'PROMOTION_MOBILITY');
 
 INSERT INTO Unit_FreePromotions
 			(UnitType, 					PromotionType)

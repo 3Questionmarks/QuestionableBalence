@@ -4,11 +4,7 @@
 	<Buildings>
 		<Update>
 			<Where Type="BUILDING_TOURIST_CENTER" />
-			<Set Cost="800" />
-		</Update>
-		<Update>
-			<Where Type="BUILDING_TOURIST_CENTER" />
-			<Set GoldMaintenance="3" />
+			<Set Cost="800" GoldMaintenance="3" PrereqTech="TECH_INTERNET" />
 		</Update>
 	</Buildings>
   

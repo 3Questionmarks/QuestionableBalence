@@ -51,6 +51,12 @@
 			<Yield>2</Yield>
 		</Row>
 	</Building_FeatureYieldChanges>
+	<Buildings>
+		<Update>
+			<Set PrereqTech="TECH_RELIGIOUS_ORDERS" />
+			<Where Type="BUILDING_MACHU_PICHU" />
+		</Update>
+	</Buildings>
 	<Language_en_US>
 		<Update>
 			<Where Tag="TXT_KEY_WONDER_MACHU_PICHU_HELP" />

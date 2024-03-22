@@ -18,11 +18,7 @@
 	<Buildings>
 		<Update>
 			<Where Type="BUILDING_RECYCLING_CENTER" />
-			<Set Cost="520" />
-		</Update>
-		<Update>
-			<Where Type="BUILDING_RECYCLING_CENTER" />
-			<Set GoldMaintenance="5" />
+			<Set Cost="520" GoldMaintenance="5" />
 		</Update>
 	</Buildings>
 	<Language_en_US>

@@ -15,7 +15,7 @@
 			<BuildingClass>BUILDINGCLASS_HERBALIST</BuildingClass>
 			<Cost>100</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PrereqTech>TECH_MYSTICISM</PrereqTech>
 			<Description>TXT_KEY_BUILDING_HERBALIST</Description>
 			<Civilopedia>TXT_KEY_BUILDING_HERBALIST_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_HERBALIST_STRATEGY</Strategy>
@@ -68,7 +68,7 @@
 		<Row Tag="TXT_KEY_BUILDING_HERBALIST_HELP">
 			<Text></Text>
 		</Row>
-		<!-- Quote Tags, use for Wonders
+		<!- Quote Tags, use for Wonders
 		<Row Tag="TXT_KEY_BUILDING_EXAMPLE_QUOTE">
 			<Text></Text>
 		</Row>

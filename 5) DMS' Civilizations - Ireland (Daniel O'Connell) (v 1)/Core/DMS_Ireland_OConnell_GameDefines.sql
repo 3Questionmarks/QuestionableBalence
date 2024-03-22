@@ -15,8 +15,8 @@ VALUES	('BUILDING_DMS_PRESSURE_FROM_GREATWORKS',		'BUILDINGCLASS_DMS_PRESSURE_FR
 -- Buildings
 ------------------------------	
 INSERT INTO Buildings 	
-		(Type, 								BuildingClass,	Cost,	GoldMaintenance,	PrereqTech,	GreatWorkCount,	GreatWorkSlotType,				Description, 								Civilopedia, 								Help, 											Strategy,											ArtDefineTag,	EspionageModifier,	Espionage,	MinAreaSize,	NeverCapture,	HurryCostModifier,	PortraitIndex, 	IconAtlas)
-SELECT	('BUILDING_DMS_FRATERNAL_LODGE'),	BuildingClass,	Cost,	GoldMaintenance,	PrereqTech,	1,				('GREAT_WORK_SLOT_LITERATURE'),	('TXT_KEY_BUILDING_DMS_FRATERNAL_LODGE'),	('TXT_KEY_CIV5_DMS_FRATERNAL_LODGE_TEXT'),	('TXT_KEY_BUILDING_DMS_FRATERNAL_LODGE_HELP'),	('TXT_KEY_BUILDING_DMS_FRATERNAL_LODGE_STRATEGY'),	ArtDefineTag,	EspionageModifier,	Espionage,	MinAreaSize,	NeverCapture,	HurryCostModifier,	3,				'DMS_IRELAND_OCONNELL_ATLAS'
+		(Type, 								BuildingClass,	Cost,	GoldMaintenance, Happiness,	PrereqTech,           GreatWorkCount,	GreatWorkSlotType,				Description, 								Civilopedia, 								Help, 											Strategy,											ArtDefineTag,	EspionageModifier,	Espionage,	MinAreaSize,	NeverCapture,	HurryCostModifier,	PortraitIndex, 	IconAtlas)
+SELECT	('BUILDING_DMS_FRATERNAL_LODGE'),	BuildingClass,	Cost,	GoldMaintenance, 2        ,	('TECH_SOVEREIGNTY'), 1,				('GREAT_WORK_SLOT_LITERATURE'),	('TXT_KEY_BUILDING_DMS_FRATERNAL_LODGE'),	('TXT_KEY_CIV5_DMS_FRATERNAL_LODGE_TEXT'),	('TXT_KEY_BUILDING_DMS_FRATERNAL_LODGE_HELP'),	('TXT_KEY_BUILDING_DMS_FRATERNAL_LODGE_STRATEGY'),	ArtDefineTag,	EspionageModifier,	Espionage,	MinAreaSize,	NeverCapture,	HurryCostModifier,	3,				'DMS_IRELAND_OCONNELL_ATLAS'
 FROM Buildings WHERE (Type = 'BUILDING_CONSTABLE');
 
 INSERT INTO Buildings

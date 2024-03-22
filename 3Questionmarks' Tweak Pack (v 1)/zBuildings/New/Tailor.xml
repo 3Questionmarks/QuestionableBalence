@@ -13,7 +13,7 @@
 			<Type>BUILDING_DJSH_TAILOR</Type>
 			<BuildingClass>BUILDINGCLASS_DJSH_TAILOR</BuildingClass>
 			<Cost>120</Cost>
-			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
 			<Description>Tailor</Description>
 			<Civilopedia> tailor is a person who makes, repairs, or alters clothing professionally, especially suits and men's clothing. Although the term dates to the thirteenth century, tailor took on its modern sense in the late eighteenth century, and now refers to makers of men's and women's suits, coats, trousers, and similar garments, usually of wool, linen, or silk.</Civilopedia>
 			<Strategy>Increases [ICON_GOLDEN_AGE] Golden Age Length by 15% and this City's [ICON_GOLD] Gold output. The Tailor requires a Weavery in the city.</Strategy>

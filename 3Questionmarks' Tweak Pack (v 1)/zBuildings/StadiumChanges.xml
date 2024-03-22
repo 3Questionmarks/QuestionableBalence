@@ -3,16 +3,8 @@
 <GameData>
 	<Buildings>
 		<Update>
-			<Set Happiness="4" />
+			<Set Happiness="4" Cost="400" GoldMaintenance="4" PrereqTech="TECH_URBANISM" />
 			<Where Type="BUILDING_STADIUM" />
-		</Update>
-		<Update>
-			<Where Type="BUILDING_STADIUM" />
-			<Set Cost="400" />
-		</Update>
-		<Update>
-			<Where Type="BUILDING_STADIUM" />
-			<Set GoldMaintenance="4" />
 		</Update>
 	</Buildings>
 </GameData>

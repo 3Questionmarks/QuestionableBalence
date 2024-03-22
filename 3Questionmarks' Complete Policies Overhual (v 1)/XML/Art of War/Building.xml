@@ -14,7 +14,7 @@
 			<BuildingClass>BUILDINGCLASS_TCS_STRONGHOLD</BuildingClass>
 			<Cost>120</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+			<PrereqTech>TECH_STANDING_ARMY</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_TCS_STRONGHOLD</Description>
 			<Help>TXT_KEY_BUILDING_TCS_STRONGHOLD_HELP</Help>

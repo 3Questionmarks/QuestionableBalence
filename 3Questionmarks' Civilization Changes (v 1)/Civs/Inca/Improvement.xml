@@ -18,7 +18,7 @@
 	<Improvement_TechYieldChanges>
 		<Row>
 			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
-			<TechType>TECH_INDUSTRIALIZATION</TechType>
+			<TechType>TECH_FERTILIZER</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>

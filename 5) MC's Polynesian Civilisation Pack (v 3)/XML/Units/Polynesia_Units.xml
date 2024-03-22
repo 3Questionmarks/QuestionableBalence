@@ -19,7 +19,7 @@
 		<Row>
 			<Class>UNITCLASS_COMPOSITE_BOWMAN</Class>
 			<Type>UNIT_MC_RAPA_NUI_MATATOA</Type>
-			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<PrereqTech>TECH_STANDING_ARMY</PrereqTech>
 			<Combat>6</Combat>
 			<RangedCombat>10</RangedCombat>
 			<Cost>75</Cost>
@@ -52,7 +52,7 @@
 		<Row>
 			<Class>UNITCLASS_COMPOSITE_BOWMAN</Class>
 			<Type>UNIT_MC_RAPA_NUI_TANGATA_MANU</Type>
-			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<PrereqTech>TECH_STANDING_ARMY</PrereqTech>
 			<Combat>11</Combat>
 			<RangedCombat>16</RangedCombat>
 			<Cost>-1</Cost>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 2/6/2021 5:31:20 AM -->
 <GameData>
-	
-	remove this line when I want this file to load <makeinvalid> </makeinvalidyes>
-	
 	<!-- =========== City Strategies ===========-->
 	<AICityStrategies>
 		<Update>

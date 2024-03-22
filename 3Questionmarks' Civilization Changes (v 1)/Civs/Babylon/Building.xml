@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 9/20/2020 9:53:49 AM -->
 <GameData>
-	<!-- Walls of Babylon Changes and Code of Laws -->
+	<!-- Walls of Babylon Changes -->
 	<Buildings>
 		<Update>
 			<Where Type="BUILDING_WALLS_OF_BABYLON"/>
@@ -15,7 +15,7 @@
 			<BuildingClass>BUILDINGCLASS_COURTHOUSE</BuildingClass>
 			<Cost>75</Cost>
 			<GoldMaintenance>4</GoldMaintenance>
-			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<PrereqTech>TECH_CODE_OF_LAW</PrereqTech>
 			<Help>TXT_KEY_BUILDING_COURTHOUSE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_COURTHOUSE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_COURTHOUSE_PEDIA</Civilopedia>

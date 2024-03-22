@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/18/2024 7:58:18 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_NAVIGATION_SCHOOL</Type>
+			<DefaultBuilding>BUILDING_NAVIGATION_SCHOOL</DefaultBuilding>
+			<Description>TXT_KEY_NAVIGATION_SCHOOL</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_NAVIGATION_SCHOOL</Type>
+			<BuildingClass>BUILDINGCLASS_NAVIGATION_SCHOOL</BuildingClass>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_NAVIGATION</PrereqTech>
+			<Description>TXT_KEY_BUILDING_NAVIGATION_SCHOOL</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDING_NAVIGATION_SCHOOL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NAVIGATION_SCHOOL_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_NAVIGATION_SCHOOL_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<IconAtlas>ISKA_VULTURE_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<FreePromotion>PROMOTION_NAVIGATION</FreePromotion>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_NAVIGATION_SCHOOL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_NAVIGATION_SCHOOL</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NAVIGATION_SCHOOL</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_NAVIGATION_SCHOOL</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>65</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NAVIGATION_SCHOOL</BuildingType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>65</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NAVIGATION_SCHOOL</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_NAVIGATION_SCHOOL">
+			<Text>National Navigation School</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_NAVIGATION_SCHOOL_TEXT">
+			<Text>
+				Cartographers, shipbuilders, and educated captains just don’t come out of nowhere-many of these scholars and labor men were trained in institutes like Navigation Schools. Experienced captains and learned scholars would share their accumulated nautical knowledge at the school, which would then impart this wisdom upon the less experienced. Weather patterns of new routes were charted, cartographers were instructed in the use of the latest and greatest of instruments, and new kinds of ships were designed and constructed. It is commonly believed that Henry the Navigator of Portugal started the first Navigation School at his villa at Sagres. While he did keep a large group of cartographers to chart the coastlines of parts of Africa, no defining evidence has yet been found of a centralized school for navigators and scholars.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NAVIGATION_SCHOOL_HELP">
+			<Text>All Naval Units receive the [COLOR_POSITIVE_TEXT]Navigation[ENDCOLOR] Promotion, improving [ICON_MOVES] Movement and Sight by 1.[NEWLINE][NEWLINE]Must have built a Univercity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NAVIGATION_SCHOOL_STRATEGY">
+			<Text>Build the Navigation School to boost the Science output of your empire whist also granting naval units extra movement and sight. Unlike most of the other national wonders, the Navigation School does not require any buildings to be built in all of a player's cities first. However, it can only be constructed in a city that already has built a University.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Naval units gain +1 Movement and Sight -->
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_NAVIGATION</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVAL_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_NAVIGATION</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVAL_RANGED</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_NAVIGATION</Type>
+			<Description>TXT_KEY_PROMOTION_NAVIGATION</Description>
+			<Help>TXT_KEY_PROMOTION_NAVIGATION_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>TRUE</CannotBeChosen>
+			<MovesChange>1</MovesChange>
+			<VisibilityChange>1</VisibilityChange>
+			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_NAVIGATION</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_NAVIGATION">
+			<Text>Navigation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVIGATION_HELP">
+			<Text>+1 Movement and Sight.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

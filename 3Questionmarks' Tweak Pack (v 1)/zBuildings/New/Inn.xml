@@ -15,7 +15,7 @@
 			<BuildingClass>BUILDINGCLASS_INN</BuildingClass>
 			<Cost>100</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<PrereqTech>TECH_ORGANIZED_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_INN</Description>
 			<Civilopedia>TXT_KEY_BUILDING_INN_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_INN_STRATEGY</Strategy>

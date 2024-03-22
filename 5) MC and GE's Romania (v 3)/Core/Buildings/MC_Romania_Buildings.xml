@@ -13,7 +13,7 @@
 			<BuildingClass>BUILDINGCLASS_GARDEN</BuildingClass>
 			<Cost>120</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_MC_ROMANIAN_PAINTED_MONASTERY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_MC_ROMANIAN_PAINTED_MONASTERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MC_ROMANIAN_PAINTED_MONASTERY_PEDIA</Civilopedia>

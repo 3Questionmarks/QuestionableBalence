@@ -4,7 +4,7 @@
 	<!-- Landsknechts upgrade into Musketmen -->
 	<Units>
 		<Update>
-			<Set Combat ="19"/>
+			<Set Combat ="19" PrereqTech="TECH_GUILDS"/>
 			<Where Type ="UNIT_GERMAN_LANDSKNECHT" />
 		</Update>
 	</Units>

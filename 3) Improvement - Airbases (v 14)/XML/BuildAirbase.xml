@@ -3,7 +3,7 @@
   <Builds>
     <Row>
       <Type>BUILD_AIRBASE</Type>
-      <PrereqTech>TECH_FLIGHT</PrereqTech>
+      <PrereqTech>TECH_BALLISTICS</PrereqTech>
       <Time>800</Time>
       <ImprovementType>IMPROVEMENT_AIRBASE</ImprovementType>
       <Description>TXT_KEY_BUILD_AIRBASE</Description>

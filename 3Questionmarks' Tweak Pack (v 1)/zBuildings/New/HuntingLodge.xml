@@ -26,8 +26,8 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
-			<IconAtlas>TECH_ATLAS_2</IconAtlas>
 			<PortraitIndex>13</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_2</IconAtlas>
 		</Row>
 	</Buildings>
 	<Building_Flavors>

@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 4/5/2014 9:09:18 PM -->
 <GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_BIG_BEN" />
+			<Set PrereqTech="TECH_INCORPORATION" />
+		</Update>
+	</Buildings>
 	<Building_HurryModifiers>
 		<Update>
-			<Set HurryCostModifier="-20"/>
+			<Set HurryCostModifier="-20" />
 			<Where BuildingType="BUILDING_BIG_BEN"/>
 		</Update>
 	</Building_HurryModifiers>

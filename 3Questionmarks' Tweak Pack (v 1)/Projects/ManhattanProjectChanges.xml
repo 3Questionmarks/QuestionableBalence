@@ -4,7 +4,7 @@
 	<Projects>
 		<Update>
 			<Where Type="PROJECT_MANHATTAN_PROJECT" />
-			<Cost>1800</Cost>
+			<Set Cost="1800" />
 		</Update>
 	</Projects>
 

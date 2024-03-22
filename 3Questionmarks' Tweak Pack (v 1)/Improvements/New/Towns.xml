@@ -207,7 +207,7 @@
 
 	<!-- +1 Gold from Economics -->
 	<Improvement_TechYieldChanges>
-		<Row>
+		<!--Row>
 			<TechType>TECH_ECONOMICS</TechType>
 			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -218,7 +218,8 @@
 			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
-		</Row>
+		</Row-->
+		<Delete ImprovementType="IMPROVEMENT_TRADING_POST" TechType="TECH_ECONOMICS" />
 	</Improvement_TechYieldChanges>
 
 	<!-- Technology Flavors -->

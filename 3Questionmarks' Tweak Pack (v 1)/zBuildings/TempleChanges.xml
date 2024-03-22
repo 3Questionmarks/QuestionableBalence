@@ -4,7 +4,7 @@
 	<!-- Temple -->
 	<Buildings>
 		<Update>
-			<Set Happiness="1" Strategy="The Temple increases the [ICON_PEACE] Faith of a city, speeding up the rate at which you can found and spread religions, as well as the [ICON_CULTURE] Culture of a city. The city must contain a Shrine before the Temple can be constructed." />
+			<Set PrereqTech="TECH_MYSTICISM" Happiness="1" Strategy="The Temple increases the [ICON_PEACE] Faith of a city, speeding up the rate at which you can found and spread religions, as well as the [ICON_CULTURE] Culture of a city. The city must contain a Shrine before the Temple can be constructed." />
 			<Where Type="BUILDING_TEMPLE" />
 		</Update>
 	</Buildings>
@@ -15,10 +15,10 @@
 			<Yield>2</Yield>
 		</Row>
     </Building_YieldChanges>
-	<!-- Shul -->
+	<!-- Shul >
 	<Buildings>
 		<Update>
-			<Set Help="+1 [ICON_GOLD] Gold for outgoing Trade Routes for every two followers of your main religion in this city.[NEWLINE][NEWLINE]City must have a Shrine." Strategy="The Shul is the unique Temple replacement for Khazaria. Unlike the Temple, the Synagogue is unlocked at Currency, and generates additional [ICON_GOLD} Gold for your Trade Routes. The Shul increases the [ICON_GOLD] Gold output of outgoing Trade Routes by +1 for every two followers of your main religion in the city." Happiness="1" />
+			<Set PrereqTech="TECH_MYSTICISM" Help="+1 [ICON_GOLD] Gold for outgoing Trade Routes for every two followers of your main religion in this city.[NEWLINE][NEWLINE]City must have a Shrine." Strategy="The Shul is the unique Temple replacement for Khazaria. Unlike the Temple, the Synagogue is unlocked at Currency, and generates additional [ICON_GOLD} Gold for your Trade Routes. The Shul increases the [ICON_GOLD] Gold output of outgoing Trade Routes by +1 for every two followers of your main religion in the city." Happiness="1" />
 			<Where Type="BUILDING_JFD_SHUL" />
 		</Update>
 	</Buildings>
@@ -30,10 +30,10 @@
 		</Row>
     </Building_YieldChanges>
 
-	<!-- Ziggurat -->
+	< Ziggurat >
 	<Buildings>
 		<Update>
-			<Set Strategy="The Ziggurat is the Sumerian unique building, replacing the Temple. It is available sooner and provides +10% [ICON_RESEARCH] Science in addition to the standard [ICON_PEACE] Faith and [ICON_CULTURE] Culture bonuses of the Temple." Happiness="1" />
+			<Set PrereqTech="TECH_MYSTICISM" Strategy="The Ziggurat is the Sumerian unique building, replacing the Temple. It is available sooner and provides +10% [ICON_RESEARCH] Science in addition to the standard [ICON_PEACE] Faith and [ICON_CULTURE] Culture bonuses of the Temple." Happiness="1" />
 			<Where Type="BUILDING_AKKADIAN_MOD_ZIGGURAT" />
 		</Update>
 	</Buildings>
@@ -43,9 +43,15 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>
-    </Building_YieldChanges>
+    </Building_YieldChanges-->
     
     <!-- Grand Temple -->
+	<Buildings>
+		<Update>
+			<Set PrereqTech="TECH_RELIGIOUS_ORDERS" />
+			<Where Type="BUILDING_GRAND_TEMPLE" />
+		</Update>
+	</Buildings>
     <Building_FreeUnits>
 		<Row>
 			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
@@ -53,4 +59,14 @@
 			<NumUnits>1</NumUnits>
 		</Row>
 	</Building_FreeUnits>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_GRAND_TEMPLE_STRATEGY"/>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_TEMPLE_STRATEGY">
+			<Text>An important building for a civilization trying to spread their religion world-wide from an empire with few, populous cities. Must be built in a Holy City. Doubles religious pressure emanating from this city and provides a free [ICON_PROPHET] Great Prophet. A civilization must have a Temple in all cities before it can construct the Grand Temple.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_BUILDING_GRAND_TEMPLE_HELP"/>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_TEMPLE_HELP">
+			<Text>A free [ICON_PROPHET] Great Prophet appears near the city. Doubles religious pressure emanating from this City.[NEWLINE][NEWLINE]Must be built in a Holy City. Must have built a Temple in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+	</Language_en_US>
 </GameData>

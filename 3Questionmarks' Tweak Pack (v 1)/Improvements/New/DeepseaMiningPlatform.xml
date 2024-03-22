@@ -39,13 +39,7 @@
 	<Improvement_TechYieldChanges>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINING_PLATFORM</ImprovementType>
-			<TechType>TECH_ROBOTICS</TechType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
-			<TechType>TECH_ROBOTICS</TechType>
+			<TechType>TECH_ECOLOGY</TechType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>

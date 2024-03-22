@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/21/2024 7:38:25 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>HIRISE_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>HiRiseAtlas256.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>HIRISE_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>HiRiseAtlas128.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>HIRISE_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>HiRiseAtlas64.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>HIRISE_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>HiRiseAtlas45.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

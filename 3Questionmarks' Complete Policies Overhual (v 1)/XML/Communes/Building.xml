@@ -14,7 +14,7 @@
 			<BuildingClass>BUILDINGCLASS_TCS_DEPOT</BuildingClass>
 			<Cost>250</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_COMMERCE</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_TCS_DEPOT</Description>
 			<Help>TXT_KEY_BUILDING_TCS_DEPOT_HELP</Help>

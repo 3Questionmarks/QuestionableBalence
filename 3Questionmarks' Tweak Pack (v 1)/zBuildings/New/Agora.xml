@@ -15,7 +15,7 @@
 			<BuildingClass>BUILDINGCLASS_AGORA</BuildingClass>
 			<Cost>120</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<PrereqTech>TECH_CODE_OF_LAW</PrereqTech>
 			<Description>TXT_KEY_BUILDING_AGORA</Description>
 			<Civilopedia>TXT_KEY_BUILDING_AGORA_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_AGORA_STRATEGY</Strategy>

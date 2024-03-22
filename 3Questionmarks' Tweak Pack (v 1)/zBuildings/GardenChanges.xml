@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2024 4:05:02 PM -->
+<GameData>
+	<!-- Garden moved to Philosophy -->
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_GARDEN" />
+			<Set PrereqTech="TECH_PHILOSOPHY"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_CANDI" />
+			<Set PrereqTech="TECH_PHILOSOPHY"/>
+		</Update>
+	</Buildings>
+</GameData>

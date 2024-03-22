@@ -12,10 +12,10 @@
 		<Row>
 			<Type>BUILDING_TCS_GROCER</Type>
 			<BuildingClass>BUILDINGCLASS_TCS_GROCER</BuildingClass>
-			<Cost>320</Cost>
+			<Cost>250</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<Happiness>1</Happiness>
-			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<PrereqTech>TECH_ECONOMICS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_TCS_GROCER</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TCS_GROCER_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_TCS_GROCER_HELP</Help>

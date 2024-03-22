@@ -31,9 +31,11 @@
 			<Where Type="UNIT_NUCLEAR_SUBMARINE" />
 		</Update>
 	</Units>
+	
+	<!-- Move to Neclear Fission and increase cost -->
 	<Units>
 		<Update>
-			<Set Cost="1000" />
+			<Set Cost="1000" PrereqTech="TECH_NUCLEAR_FISSION" />
 			<Where Class ="UNITCLASS_NUCLEAR_SUBMARINE" />
 		</Update>
 	</Units>

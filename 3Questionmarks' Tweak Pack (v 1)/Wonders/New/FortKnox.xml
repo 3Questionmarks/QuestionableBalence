@@ -14,7 +14,7 @@
 			<Type>BUILDING_RA_FORT_KNOX</Type>
 			<BuildingClass>BUILDINGCLASS_RA_FORT_KNOX</BuildingClass>
 			<Cost>125</Cost>
-			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<Description>TXT_KEY_BUILDING_RA_FORT_KNOX</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDING_RA_FORT_KNOX_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_RA_FORT_KNOX_STRATEGY</Strategy>

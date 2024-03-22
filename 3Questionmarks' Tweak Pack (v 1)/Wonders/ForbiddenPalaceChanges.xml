@@ -6,6 +6,7 @@
 			<Where Type="BUILDING_FORBIDDEN_PALACE" />
 			<Set>
 				<PolicyBranchType>POLICY_BRANCH_EXPLORATION</PolicyBranchType>
+				<PrereqTech>TECH_SOVEREIGNTY</PrereqTech>
 			</Set>
 		</Update>
 	</Buildings>

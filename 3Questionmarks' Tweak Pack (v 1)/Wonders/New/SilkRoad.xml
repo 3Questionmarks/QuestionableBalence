@@ -14,7 +14,7 @@
 			<Type>BUILDING_RA_SILK_ROAD</Type>
 			<BuildingClass>BUILDINGCLASS_RA_SILK_ROAD</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<PrereqTech>TECH_ORGANIZED_TRADE</PrereqTech>
 			<Description>TXT_KEY_BUILDING_RA_SILK_ROAD</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDING_RA_SILK_ROAD_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_RA_SILK_ROAD_STRATEGY</Strategy>

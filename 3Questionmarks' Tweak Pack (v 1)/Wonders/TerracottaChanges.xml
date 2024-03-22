@@ -8,4 +8,10 @@
 			<Yield>5</Yield>
 		</Row>
 	</Building_YieldChanges>
+	<Buildings>
+		<Update>
+			<Set PrereqTech="TECH_STANDING_ARMY" />
+			<Where Type ="BUILDING_TERRACOTTA_ARMY" />
+		</Update>
+	</Buildings>
 </GameData>

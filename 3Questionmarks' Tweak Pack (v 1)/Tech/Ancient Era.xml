@@ -102,13 +102,21 @@
 			<Trade>true</Trade>
 			<GoodyTech>true</GoodyTech>
 			<GridX>2</GridX>
-			<GridY>7</GridY>
+			<GridY>8</GridY>
 			<Quote>TXT_KEY_TECH_LOGGING_QUOTE</Quote>
 			<PortraitIndex>1</PortraitIndex>
 			<IconAtlas>HardwoodMOD_ICON_ATLAS</IconAtlas>
 			<AudioIntro/>
 			<AudioIntroHeader/>
 		</Row>
+		<!-- Moving Masonry out the Way -->
+		<Update>
+			<Where Type="TECH_MASONRY" />
+			<Set>
+				<GridX>2</GridX>
+				<GridY>7</GridY>
+			</Set>
+		</Update>
 	</Technologies>
 	<!-- AI will actually want to choose Logging -->
 	<Technology_Flavors>
@@ -128,25 +136,25 @@
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<TechType>FLAVOR_DEFENSE</TechType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<TechType>TECH_LOGGING</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<TechType>FLAVOR_DEFENSE</TechType>
+			<TechType>TECH_LOGGING</TechType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 	</Technology_Flavors>
-	<!-- Updating and setting Prereq Techs -->
+	<!-- Setting Prereq Techs -->
 	<Technology_PrereqTechs>
 		<Row>
 			<TechType>TECH_LOGGING</TechType>
 			<PrereqTech>TECH_MINING</PrereqTech>
 		</Row>
 		<Row>
-			<TechType>TECH_CONSTRUCTION</TechType>
-			<PrereqTech>TECH_LOGGING</PrereqTech>
+			<TechType>TECH_LOGGING</TechType>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
 		</Row>
 	</Technology_PrereqTechs>
 	

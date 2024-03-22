@@ -4,11 +4,7 @@
 	<Buildings>
 		<Update>
 			<Where Type="BUILDING_SOLAR_PLANT" />
-			<Set Cost="520" />
-		</Update>
-		<Update>
-			<Where Type="BUILDING_SOLAR_PLANT" />
-			<Set GoldMaintenance="5" />
+			<Set Cost="520" GoldMaintenance="5" PrereqTech="TECH_METROPOLISM" />
 		</Update>
 	</Buildings>
   

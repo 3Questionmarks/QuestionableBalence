@@ -6,5 +6,23 @@
 			<Set Happiness="4" />
 			<Where Type="BUILDING_COLOSSEUM" />
 		</Update>
+		<Update>
+			<Set UnmoddedHappiness="8" PrereqTech="TECH_DRAMA" />
+			<Where Type="BUILDING_CIRCUS_MAXIMUS" />
+		</Update>
 	</Buildings>
+	<Building_YieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_CIRCUS_MAXIMUS" />
+			<Set>
+				<Yield>4</Yield>
+			</Set>
+		</Update>
+	</Building_YieldChanges>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_CIRCUS_MAXIMUS_STRATEGY"/>
+		<Row Tag="TXT_KEY_BUILDING_CIRCUS_MAXIMUS_STRATEGY">
+			<Text>This National Wonder increases [ICON_HAPPINESS_1] Happiness in the empire by 8. It also provides +4 [ICON_CULTURE] Culture. A civilization must have a Colosseum in all cities before it can construct a Circus Maximus.</Text>
+		</Row>
+	</Language_en_US>
 </GameData>

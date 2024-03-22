@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/16/2024 1:14:50 PM -->
+<GameData>
+
+	<!-- Added Mysticism-->
+	<Technologies>
+		<Row>
+			<Type>TECH_MYSTICISM</Type>
+			<Cost>105</Cost>
+			<Description>TXT_KEY_TECH_MYSTICISM_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_MYSTICISM_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_MYSTICISM_HELP</Help>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GridX>3</GridX>
+			<GridY>1</GridY>
+			<Quote>TXT_KEY_TECH_MYSTICISM_QUOTE</Quote>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>ISKA_STS_ATLAS</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to choose tech -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_MYSTICISM</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MYSTICISM</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MYSTICISM</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MYSTICISM</TechType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MYSTICISM</TechType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Setting Prereq Tech -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_MYSTICISM</TechType>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	<!-- Moved Temple and added Herbalist and Keldur Hall to it (done in respective files) -->
+	<!-- Language stuff done in "TechTextChanges" -->
+
+	
+	
+	<!-- Added Code of Law-->
+	<Technologies>
+		<Row>
+			<Type>TECH_CODE_OF_LAW</Type>
+			<Cost>105</Cost>
+			<Description>TXT_KEY_TECH_CODE_OF_LAW_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_CODE_OF_LAW_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_CODE_OF_LAW_HELP</Help>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GridX>3</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_CODE_OF_LAW_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_CODE_OF_LAW_ATLAS</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to choose tech -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_CODE_OF_LAW</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CODE_OF_LAW</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CODE_OF_LAW</TechType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CODE_OF_LAW</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CODE_OF_LAW</TechType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Setting Prereq Tech -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_CODE_OF_LAW</TechType>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Open Borders allowed at Code of Law. -->
+	<Technologies>
+		<Update>
+			<Set OpenBordersTradingAllowed="false" />
+			<Where Type="TECH_CIVIL_SERVICE" />
+		</Update>
+		<Update>
+			<Set OpenBordersTradingAllowed="true" />
+			<Where Type="TECH_CODE_OF_LAW" />
+		</Update>
+	</Technologies>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_DIPLOMACY_OPENBORDERS_HEADING3_BODY" />
+		<Row Tag="TXT_KEY_DIPLOMACY_OPENBORDERS_HEADING3_BODY">
+			<Text>You can enter into an Open Borders agreement with any civ where you have established an Embassy. (City-States can't make Open Borders agreements.) While an Open Borders agreement is in effect, the other civ's units can enter your territory without automatically triggering war. If the agreement is mutual, either civ's units can enter the other's territory freely; however it doesn't have to be mutual: one civ can grant another Open Borders without automatically receiving it in return.[NEWLINE][NEWLINE]An Open Borders agreement lasts for 20 turns. When 20 turns have passed, the agreement must be renegotiated or it lapses.</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Defensive Pact allowed at Code of Law. -->
+	<Technologies>
+		<Update>
+			<Set DefensivePactTradingAllowed="false" />
+			<Where Type="TECH_CHIVALRY" />
+		</Update>
+		<Update>
+			<Set DefensivePactTradingAllowed="true" />
+			<Where Type="TECH_CODE_OF_LAW" />
+		</Update>
+	</Technologies>
+	
+	<!-- Cant find Defensive pact text to update -->
+
+	<!-- Civil Service Requires Code of Law -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			<PrereqTech>TECH_CODE_OF_LAW</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Philosophy Requires Mysticism -->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_PHILOSOPHY</TechType>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
+		</Delete>
+		<Row>
+			<TechType>TECH_PHILOSOPHY</TechType>
+			<PrereqTech>TECH_MYSTICISM</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Courthouses and Town Council need the tech. (Done is respective change files) -->
+	<!-- Language stuff done in "TechTextChanges" -->
+	
+	
+	
+	<!-- Moving Construction to look better in line with prereqs -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_CONSTRUCTION" />
+			<Set>
+				<GridX>3</GridX>
+				<GridY>7</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- Updating Prereq tech-->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_CONSTRUCTION</TechType>
+			<PrereqTech>TECH_LOGGING</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	
+	
+	<!-- Added Standing Army Tech -->
+	<Technologies>
+		<Row>
+			<Type>TECH_STANDING_ARMY</Type>
+			<Cost>105</Cost>
+			<Description>TXT_KEY_TECH_STANDING_ARMY_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_STANDING_ARMY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_STANDING_ARMY_HELP</Help>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GridX>3</GridX>
+			<GridY>9</GridY>
+			<Quote>TXT_KEY_TECH_STANDING_ARMY_QUOTE</Quote>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_DLC_07</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to choose Standing Army -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_STANDING_ARMY</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_STANDING_ARMY</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_STANDING_ARMY</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_STANDING_ARMY</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_STANDING_ARMY</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Setting Prereq Techs -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_STANDING_ARMY</TechType>
+			<PrereqTech>TECH_LOGGING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_STANDING_ARMY</TechType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	
+	<!-- Composites and Terracotta Army require the tech. (Done is respective change files) -->
+	<!-- Language stuff done in "TechTextChanges" -->
+
+	
+	
+	<!-- Added Organized Trade-->
+	<Technologies>
+		<Row>
+			<Type>TECH_ORGANIZED_TRADE</Type>
+			<Cost>175</Cost>
+			<Description>TXT_KEY_TECH_ORGANIZED_TRADE_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_ORGANIZED_TRADE_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_ORGANIZED_TRADE_HELP</Help>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GridX>4</GridX>
+			<GridY>4</GridY>
+			<Quote>TXT_KEY_TECH_ORGANIZED_TRADE_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to choose tech -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_ORGANIZED_TRADE</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ORGANIZED_TRADE</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Setting Prereq Tech -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_ORGANIZED_TRADE</TechType>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ORGANIZED_TRADE</TechType>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			<PrereqTech>TECH_ORGANIZED_TRADE</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_CIVIL_SERVICE" PrereqTech="TECH_Horseback Riding" />
+	</Technology_PrereqTechs>
+	<!-- Moved Production to Gold to Organized Trade-->
+	<Processes>
+		<Update>
+			<Set TechPrereq="TECH_ORGANIZED_TRADE"/>
+			<Where Type="PROCESS_WEALTH"/>
+		</Update>
+	</Processes>
+	<!-- Silk Road, Inn, Gem Merchant, Royal Pyramid gold increase require the tech  (done in respective files) -->
+	<!-- Language stuff done in "TechTextChanges" -->
+
+	
+	
+	<!-- Iron Working Requires Standing Army -->
+	<Technology_PrereqTechs>
+		<Delete TechType="TECH_IRON_WORKING" />
+		<Row>
+			<TechType>TECH_IRON_WORKING</TechType>
+			<PrereqTech>TECH_STANDING_ARMY</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	
+</GameData>

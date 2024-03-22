@@ -17,7 +17,7 @@
 	<Language_en_US>
 		<Update>
 			<Where Tag="TXT_KEY_TRAIT_BUFFALO_HORNS"/>
-			<Set Text="Melee units do not require any [GOLD] gold to maintain. All units require 50% less [ICON_WAR] XP to earn promotions."/>
+			<Set Text="Melee units do not require any [ICON_GOLD] Gold to maintain. All units require 50% less [ICON_WAR] XP to earn promotions."/>
 		</Update>
 	</Language_en_US>
 </GameData>

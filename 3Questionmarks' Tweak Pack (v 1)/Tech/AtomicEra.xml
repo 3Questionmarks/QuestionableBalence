@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/21/2024 7:54:00 PM -->
+<GameData>
+	<!-- Penicillin needs Urbanism -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_PENICILIN</TechType>
+			<PrereqTech>TECH_URBANISM</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Moving Computers to where atomic Theory was -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_COMPUTERS" />
+			<Set>
+				<Cost>5100</Cost>
+				<GridX>13</GridX>
+				<GridY>3</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- No longer needs old prereqs and now needs Urbansim, Plastics and Electronics-->
+	<Technology_PrereqTechs>
+		<Delete TechType="TECH_COMPUTERS" />
+		<Row>
+			<TechType>TECH_COMPUTERS</TechType>
+			<PrereqTech>TECH_URBANISM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COMPUTERS</TechType>
+			<PrereqTech>TECH_PLASTIC</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_COMPUTERS</TechType>
+			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Moving Ecology up -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_ECOLOGY" />
+			<Set>
+				<GridX>14</GridX>
+				<GridY>0</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- No longer needs Atomic Theory-->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_ECOLOGY</TechType>
+			<PrereqTech>TECH_ATOMIC_THEORY</PrereqTech>
+		</Delete>
+	</Technology_PrereqTechs>
+	<!-- Moved Gold increase and added production increase to Ecology-->
+	<Improvement_TechYieldChanges>
+		<Delete ImprovementType="IMPROVEMENT_OFFSHORE_PLATFORM" TechType="TECH_ROBOTICS"  />
+		<Row>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<TechType>TECH_ECOLOGY</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<TechType>TECH_ECOLOGY</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+
+
+	<!-- Added Advanced Metropolism Tech -->
+	<Technologies>
+		<Row>
+			<Type>TECH_METROPOLISM</Type>
+			<Cost>6400</Cost>
+			<Description>TXT_KEY_TECH_METROPOLISM_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_METROPOLISM_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_METROPOLISM_HELP</Help>
+			<Era>ERA_POSTMODERN</Era>
+			<Trade>true</Trade>
+			<GridX>14</GridX>
+			<GridY>1</GridY>
+			<Quote>TXT_KEY_TECH_METROPOLISM_QUOTE</Quote>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>HIRISE_ATLAS</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to it -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_METROPOLISM</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_METROPOLISM</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_METROPOLISM</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>45</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Setting Prereq Techs -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_METROPOLISM</TechType>
+			<PrereqTech>TECH_PENICILIN</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_METROPOLISM</TechType>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	<!-- +1 Science from farms -->
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<TechType>TECH_METROPOLISM</TechType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<TechType>TECH_METROPOLISM</TechType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+	<!-- Moved Recycling Centre, School of Equestrain Art, Solar Plant and Chichee improvements to it (done in respective files) -->
+	<!-- Language stuff done in "TechTextChanges" -->
+
+	<!-- Moving Atomic Theory back a tech -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_ATOMIC_THEORY" />
+			<Set>
+				<Cost>6400</Cost>
+				<GridX>14</GridX>
+				<GridY>3</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- No longer needs Plastics or Electronics and now needs Computers-->
+	<Technology_PrereqTechs>
+		<Delete TechType="TECH_ATOMIC_THEORY" />
+		<Row>
+			<TechType>TECH_ATOMIC_THEORY</TechType>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Rocketry now needs computers -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_ROCKETRY</TechType>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Moving Combined Arms to where Computers was -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_COMBINED_ARMS" />
+			<Set>
+				<Cost>6400</Cost>
+				<GridX>14</GridX>
+				<GridY>7</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- Now needs Radar instead of Ballistics -->
+	<Technology_PrereqTechs>
+		<Delete TechType="TECH_COMBINED_ARMS" PrereqTech="TECH_BALLISTICS"  />
+		<Row>
+			<TechType>TECH_COMBINED_ARMS</TechType>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+</GameData>

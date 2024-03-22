@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/18/2024 8:18:34 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ENLIGHTENMENT_TECH_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Enlightenment_Techs_256.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ENLIGHTENMENT_TECH_ATLAS</Atlas>
+			<IconSize>214</IconSize>
+			<Filename>Enlightenment_Techs_214.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ENLIGHTENMENT_TECH_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Enlightenment_Techs_128.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ENLIGHTENMENT_TECH_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Enlightenment_Techs_80.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ENLIGHTENMENT_TECH_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Enlightenment_Techs_64.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ENLIGHTENMENT_TECH_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Enlightenment_Techs_45.dds</Filename>
+			<IconsPerRow>4</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

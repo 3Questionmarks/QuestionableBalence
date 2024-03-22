@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/20/2024 5:17:17 PM -->
+<GameData>
+	<!-- Moved to (new tech) Incorporation -->
+	<Buildings>
+		<Update>
+			<Set PrereqTech="TECH_INCORPORATION" />
+			<Where Type="BUILDING_STOCK_EXCHANGE" />
+		</Update>
+	</Buildings>
+</GameData>

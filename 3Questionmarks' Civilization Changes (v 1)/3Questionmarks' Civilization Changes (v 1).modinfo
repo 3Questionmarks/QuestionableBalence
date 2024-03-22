@@ -27,22 +27,23 @@
     <File md5="5AB7F608F1062E51B9F41C2A063BDC08" import="1">Civs/America/ART/MovieTheater256.dds</File>
     <File md5="1662871C4B9D105F9E080151091E4AC6" import="1">Civs/America/ART/MovieTheater45.dds</File>
     <File md5="262FEFD839577D76BD3F3B1BD1D0BE3E" import="1">Civs/America/ART/MovieTheater64.dds</File>
-    <File md5="0B0FCC6171E4CA7A66F0E4DA5116418E" import="0">Civs/America/Building.xml</File>
+    <File md5="74271A5B0BE4702D91564E1A632DA6EF" import="0">Civs/America/Building.xml</File>
     <File md5="050920D86167D314058EBDC4845B331C" import="0">Civs/America/Trait.xml</File>
     <File md5="E93772937BF13D568BCCF574392EB900" import="0">Civs/America/Unit.xml</File>
     <File md5="482D8ACBA4CC90FAC146C7A945439513" import="0">Civs/Assyria/Building.sql</File>
     <File md5="A4E8F1761D18EED7112F060ACFC232FF" import="0">Civs/Assyria/Building.xml</File>
     <File md5="2D67195EFE2895099EE812FCF3B7FC12" import="0">Civs/Assyria/Trait.xml</File>
     <File md5="D307604E6D3DC4230C2BC6631D6365A1" import="0">Civs/Assyria/Unit.xml</File>
+    <File md5="691872BAD087C575B1FBF74186848F49" import="0">Civs/Austria/Building.xml</File>
     <File md5="6EC0026256EBE6C45A18932F15E191E3" import="0">Civs/Austria/Civ.xml</File>
     <File md5="067B3149A80940FAC44C4DB649C538B5" import="0">Civs/Austria/Trait.xml</File>
     <File md5="4F4FA0C2EC4468DD634C9155A39C1FC4" import="0">Civs/Austria/Update.xml</File>
     <File md5="C9FF6198A2707076F5BB3618E8B08D0D" import="0">Civs/Aztecs/Promotions.xml</File>
     <File md5="510E8AC4A2483FA5C5C5797E458FE441" import="0">Civs/Aztecs/Trait.xml</File>
-    <File md5="04C660B2CEF9284C4914C8C036B2EE60" import="0">Civs/Babylon/Building.xml</File>
+    <File md5="BEC8365C0E75BB582E66AFE2BC849F67" import="0">Civs/Babylon/Building.xml</File>
     <File md5="AC8A425C441F3FFA4AD1CF6725AB9560" import="0">Civs/Babylon/Trait.xml</File>
     <File md5="86D988525F984CCBCB42C781C386348E" import="0">Civs/Babylon/Unit.xml</File>
-    <File md5="BFC9A0406BF43E34F05E1208E2370143" import="0">Civs/Brazil/Improvement.xml</File>
+    <File md5="2A0BBE6EA1675D335921718980B78D38" import="0">Civs/Brazil/Improvement.xml</File>
     <File md5="83C1504AD3EE537309A891A8D144C972" import="0">Civs/Brazil/Trait.xml</File>
     <File md5="307E83318913F71ADB72D78A03ED1994" import="0">Civs/Brazil/Unit.xml</File>
     <File md5="C4970DD44E48DDCF413A5CA32C5D5BA2" import="1">Civs/Byzantium/ART/greekfire_portrait256.dds</File>
@@ -71,7 +72,7 @@
     <File md5="BB6F4B1E3F007B48D98482475ABCD895" import="0">Civs/Denmark/Denmark_TradingPost.sql</File>
     <File md5="74308CD39AA5A9D3C69C71D02AB9FCAF" import="0">Civs/Denmark/Trait.xml</File>
     <File md5="ADC5FF85DD114A31962D8666E8F7756D" import="0">Civs/Denmark/Unit.xml</File>
-    <File md5="F3C60A65AA4E616FE99D8E89E691412C" import="0">Civs/Egypt/Building.xml</File>
+    <File md5="EE5218EEA18732EC6E01D0207D595490" import="0">Civs/Egypt/Building.xml</File>
     <File md5="6B32E33B4B5DB1F61F553111F9D9BFC8" import="0">Civs/Egypt/Trait.xml</File>
     <File md5="287D9E753B36774D25FA7A518ABD61EA" import="0">Civs/Egypt/Units.xml</File>
     <File md5="F62EF8AC6ECF68C2AD514AF4A21D1DD8" import="0">Civs/England/Promotions.xml</File>
@@ -94,7 +95,7 @@
     <File md5="3A823071EA7F471FEF8F2DC6247A7358" import="1">Civs/France/ART/salon256.dds</File>
     <File md5="D77DBA4268CB37EF08DFB6CED966D15F" import="0">Civs/France/Building.sql</File>
     <File md5="006D2D144A2DF11A923D2CB95EEEA421" import="0">Civs/France/Building.xml</File>
-    <File md5="3D9EC04A9A6996519D80EF1A889996E0" import="0">Civs/France/Improvement.xml</File>
+    <File md5="8E39A0D3DBD5272DEC49DB0E3226D886" import="0">Civs/France/Improvement.xml</File>
     <File md5="7789E47986B160C453B1B91A70C41339" import="0">Civs/France/Trait.xml</File>
     <File md5="58504CEDCF775BF97F242FE6A0F57CC8" import="0">Civs/Germany/Trait.xml</File>
     <File md5="404B3F84CC9548FF5FB97D0DBE589E91" import="0">Civs/Germany/Unit.xml</File>
@@ -103,7 +104,7 @@
     <File md5="1425F1B275214FA42E7C57945EB6CD88" import="0">Civs/Huns/Promotions.xml</File>
     <File md5="BDE2AF77583C82D35B89B03BFD23AEF8" import="0">Civs/Huns/Trait.xml</File>
     <File md5="31827885C315ED5B2E4633F30693FABB" import="0">Civs/Huns/Units.xml</File>
-    <File md5="35016816C242DE90E9F858406A5F13C1" import="0">Civs/Inca/Improvement.xml</File>
+    <File md5="D9E574735C76FE70FA2B7344A4DE68A2" import="0">Civs/Inca/Improvement.xml</File>
     <File md5="47C2A9D697025F01B7B66999116C01BA" import="0">Civs/Inca/Trait.lua</File>
     <File md5="B2D33D3CEB7AB30B4F10678E5FDE79C0" import="0">Civs/Inca/Trait.xml</File>
     <File md5="63D8CB65E680DA8C512A31431F4EFDC5" import="0">Civs/India/Building.xml</File>
@@ -148,7 +149,7 @@
     <File md5="EFAD8ABA7A4EE41C1E577910B3F8A161" import="0">Civs/Mongolia/Promotion.xml</File>
     <File md5="DBF75B0E590BBC6700BC379F068E3372" import="0">Civs/Mongolia/Trait.xml</File>
     <File md5="F269348183B0B47E4679E8261EC940AD" import="0">Civs/Mongolia/Units.xml</File>
-    <File md5="A710CB628354D1970010847E7AEA44E3" import="0">Civs/Morocco/Improvement.xml</File>
+    <File md5="4ABE17B0B4CB797F6EE4AF1E97144FFA" import="0">Civs/Morocco/Improvement.xml</File>
     <File md5="6865EB5ECCAD9C92BC47A79118E9C18F" import="0">Civs/Morocco/Trait.xml</File>
     <File md5="58354465C43D2195C54A250373BA9504" import="0">Civs/Neatherlands/Civ.xml</File>
     <File md5="23CC87AA34FDD06CBF41229D192A63DF" import="0">Civs/Neatherlands/Improvement.xml</File>
@@ -206,7 +207,7 @@
     <File md5="CB611A070379EBB1567E9B486CB32B47" import="0">Civs/Siam/Building.xml</File>
     <File md5="8BE1B555DCCFA0FAE8DB9EA484A863C8" import="0">Civs/Siam/Trait.xml</File>
     <File md5="598E0BEE2D59B3439B10940ED45F9BFA" import="0">Civs/Siam/Unit.xml</File>
-    <File md5="6DB11FE384E2BAEE0913EDBBB480AE96" import="0">Civs/Songhai/Building.xml</File>
+    <File md5="CBE11358F15E2620F0110E7703A42F4D" import="0">Civs/Songhai/Building.xml</File>
     <File md5="07ED8C5A44E3E2CE62B8AB329546DA16" import="0">Civs/Songhai/Trait.lua</File>
     <File md5="034F28990B618E3B4D77C17BEDEB8B34" import="0">Civs/Songhai/Trait.sql</File>
     <File md5="36F82095B28ED28ABE13C37999F834EA" import="0">Civs/Songhai/Trait.xml</File>
@@ -234,13 +235,13 @@
     <File md5="DED2DDD25807C919DD0AE935B3942C68" import="1">Civs/Venice/ART/Venice_64.dds</File>
     <File md5="441383499BB9D7D3AF9AF6247CB273F3" import="1">Civs/Venice/ART/Venice_80.dds</File>
     <File md5="EC4AB5B2E85B3AB8CD43DF87920CF296" import="0">Civs/Venice/ART/Venice_IconTextureAtlases.xml</File>
-    <File md5="E0EEE8A72E2C42AAFC805AAA83D3939C" import="0">Civs/Venice/Building.xml</File>
+    <File md5="730CDE6C96AF4257F7064621BC21C4F0" import="0">Civs/Venice/Building.xml</File>
     <File md5="B0B2A17479EE4347567370FAB0E83960" import="0">Civs/Venice/Civ.xml</File>
     <File md5="11614733350C4AE2330D9FAABDBB0880" import="0">Civs/Venice/Trait.xml</File>
     <File md5="57BA1E99B684B7A1297C7606E4426148" import="0">Civs/Venice/Unit.xml</File>
     <File md5="9057FBC0853FBD031DB0A72A25ACA86B" import="0">Civs/Zulu/Building.xml</File>
     <File md5="3871D3E79856FC5FF14E92841C967CF6" import="0">Civs/Zulu/Promotion.xml</File>
-    <File md5="FEB6353332199E65E25BD844A558BC0A" import="0">Civs/Zulu/Trait.xml</File>
+    <File md5="C51844CC10FCF28AF5977061A6F9E169" import="0">Civs/Zulu/Trait.xml</File>
     <File md5="6EA7BEEBB408CC43534998300BD2EEF1" import="0">Music Replacers/Mongolia/Genghis Khan Music Replacer.xml</File>
     <File md5="05890FF3A1EC8CFB8F7CE07AAFFB9BC9" import="0">Music Replacers/Mongolia/Genghis Khan War.mp3</File>
     <File md5="0B74D44E960B9994DAEAC97AC949D55E" import="0">Music Replacers/Japan/JapanPeaceMusicReplacer.xml</File>
@@ -437,6 +438,7 @@
       <UpdateDatabase>Civs/Poland/Unit.xml</UpdateDatabase>
       <UpdateDatabase>Civs/Iroquois/Unit.xml</UpdateDatabase>
       <UpdateDatabase>Civs/Byzantium/Unit.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Austria/Building.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>

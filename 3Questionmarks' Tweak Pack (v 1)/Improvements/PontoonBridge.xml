@@ -29,7 +29,7 @@
 	<Builds>
 		<Row>
 			<Type>BUILD_PONTOON_BRIDGE</Type>
-			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
 			<ImprovementType>IMPROVEMENT_PONTOON_BRIDGE</ImprovementType>
 			<Description>TXT_KEY_BUILD_PONTOON_BRIDGE</Description>
 			<Help>TXT_KEY_BUILD_PONTOONX_BRIDGE_HELP</Help>

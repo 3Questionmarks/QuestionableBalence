@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/20/2024 6:14:31 PM -->
+<GameData>
+	<!-- Added Advanced Production Tech -->
+	<Technologies>
+		<Row>
+			<Type>TECH_ADVANCED_PRODUCTION</Type>
+			<Cost>3100</Cost>
+			<Description>TXT_KEY_TECH_ADVANCED_PRODUCTION_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_ADVANCED_PRODUCTION_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_ADVANCED_PRODUCTION_HELP</Help>
+			<Era>ERA_MODERN</Era>
+			<Trade>true</Trade>
+			<GridX>11</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_ADVANCED_PRODUCTION_QUOTE</Quote>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>EXPANSION_SCEN_TECH_ATLAS</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to it -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_ADVANCED_PRODUCTION</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ADVANCED_PRODUCTION</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Setting Prereq Techs -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_ADVANCED_PRODUCTION</TechType>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ADVANCED_PRODUCTION</TechType>
+			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Moving +1 Food to Pastures from Fertilizer to Advanced Production -->
+	<Improvement_TechYieldChanges>
+		<Delete TechType="TECH_FERTILIZER" ImprovementType="IMPROVEMENT_PASTURE" />
+		<Row>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<TechType>TECH_ADVANCED_PRODUCTION</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+	<!-- Moved Synthetic Oil Refinery, Ranch, and Steel mill to tech (done in respective files) -->
+	<!-- Language stuff done in "TechTextChanges" -->
+
+	<!-- Moving Replacable Parts down -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_REPLACEABLE_PARTS" />
+			<Set>
+				<GridX>11</GridX>
+				<GridY>4</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- No Longer needs Electricity-->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_REPLACEABLE_PARTS</TechType>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+		</Delete>
+	</Technology_PrereqTechs>
+	
+	
+	<!-- Flight needs Incorporation -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_FLIGHT</TechType>
+			<PrereqTech>TECH_INCORPORATION</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+
+	<!-- Railroad needs Incorporation -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_RAILROAD</TechType>
+			<PrereqTech>TECH_INCORPORATION</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+
+	<!-- Added Urbanism Tech -->
+	<Technologies>
+		<Row>
+			<Type>TECH_URBANISM</Type>
+			<Cost>4100</Cost>
+			<Description>TXT_KEY_TECH_URBANISM_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_URBANISM_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_URBANISM_HELP</Help>
+			<Era>ERA_MODERN</Era>
+			<Trade>true</Trade>
+			<GridX>12</GridX>
+			<GridY>2</GridY>
+			<Quote>TXT_KEY_TECH_URBANISM_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>HIRISE_ATLAS</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to it -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_URBANISM</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_URBANISM</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_URBANISM</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_URBANISM</TechType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_URBANISM</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_URBANISM</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Setting Prereq Techs -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_URBANISM</TechType>
+			<PrereqTech>TECH_RADIO</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_URBANISM</TechType>
+			<PrereqTech>TECH_ADVANCED_PRODUCTION</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Adding Custom House and Village/Town/Large Town Food/Production/Culture/Gold increase by 1 -->
+	<Improvement_TechYieldChanges>
+		<!-- Town -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- Large Town -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- Village -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- Customs House -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<TechType>TECH_URBANISM</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+	<!-- Stadium, National Intelligence Agency, Kasbah Culture and Gold increase (done in respective files) -->
+	<!-- Language stuff done in "TechTextChanges" -->
+
+	<!-- Moving Plastics down -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_PLASTIC" />
+			<Set>
+				<GridX>12</GridX>
+				<GridY>3</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- No Longer needs Radio and now needs Advanced production-->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_PLASTIC</TechType>
+			<PrereqTech>TECH_RADIO</PrereqTech>
+		</Delete>
+		<Row>
+			<TechType>TECH_PLASTIC</TechType>
+			<PrereqTech>TECH_ADVANCED_PRODUCTION</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Electronics needs Advanced production -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_ELECTRONICS</TechType>
+			<PrereqTech>TECH_ADVANCED_PRODUCTION</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Moving Ballistics down -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_BALLISTICS" />
+			<Set>
+				<GridX>12</GridX>
+				<GridY>6</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	
+</GameData>

@@ -14,7 +14,7 @@
 			<BuildingClass>BUILDINGCLASS_TCS_TOWN_COUNCIL</BuildingClass>
 			<Cost>100</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PrereqTech>TECH_CODE_OF_LAW</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_TCS_TOWN_COUNCIL</Description>
 			<Help>TXT_KEY_BUILDING_TCS_TOWN_COUNCIL_HELP</Help>

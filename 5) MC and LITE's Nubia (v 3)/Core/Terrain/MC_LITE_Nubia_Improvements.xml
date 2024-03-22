@@ -69,27 +69,27 @@
     <Improvement_TechYieldChanges>
         <Row>
             <ImprovementType>IMPROVEMENT_MC_LITE_NUBIAN_ROYAL_PYRAMID</ImprovementType>
-            <TechType>TECH_CURRENCY</TechType>
+            <TechType>TECH_OPTICS</TechType>
             <YieldType>YIELD_GOLD</YieldType>
             <Yield>1</Yield>
         </Row>
         <Row>
             <ImprovementType>IMPROVEMENT_MC_LITE_NUBIAN_ROYAL_PYRAMID</ImprovementType>
-            <TechType>TECH_THEOLOGY</TechType>
+            <TechType>TECH_PHILOSOPHY</TechType>
             <YieldType>YIELD_CULTURE</YieldType>
             <Yield>1</Yield>
         </Row>
         <Row>
             <ImprovementType>IMPROVEMENT_MC_LITE_NUBIAN_ROYAL_PYRAMID</ImprovementType>
-            <TechType>TECH_THEOLOGY</TechType>
+            <TechType>TECH_PHILOSOPHY</TechType>
             <YieldType>YIELD_FAITH</YieldType>
             <Yield>1</Yield>
         </Row>
         <Row>
             <ImprovementType>IMPROVEMENT_MC_LITE_NUBIAN_ROYAL_PYRAMID</ImprovementType>
-            <TechType>TECH_ACOUSTICS</TechType>
+            <TechType>TECH_RADIO</TechType>
             <YieldType>YIELD_CULTURE</YieldType>
-            <Yield>1</Yield>
+            <Yield>2</Yield>
         </Row>
         <Row>
             <ImprovementType>IMPROVEMENT_MC_LITE_NUBIAN_ROYAL_PYRAMID</ImprovementType>
@@ -103,15 +103,15 @@
             <YieldType>YIELD_GOLD</YieldType>
             <Yield>1</Yield>
         </Row>
-        <Row>
+        <!--Row>
             <ImprovementType>IMPROVEMENT_MC_LITE_NUBIAN_ROYAL_PYRAMID</ImprovementType>
             <TechType>TECH_FLIGHT</TechType>
             <YieldType>YIELD_CULTURE</YieldType>
             <Yield>1</Yield>
-        </Row>
+        </Row-->
         <Row>
             <ImprovementType>IMPROVEMENT_MC_LITE_NUBIAN_ROYAL_PYRAMID</ImprovementType>
-            <TechType>TECH_RADAR</TechType>
+            <TechType>TECH_COMPUTERS</TechType>
             <YieldType>YIELD_CULTURE</YieldType>
             <Yield>1</Yield>
         </Row>

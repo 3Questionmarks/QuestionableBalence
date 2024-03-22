@@ -15,7 +15,7 @@
 			<Type>BUILDING_SCHOOL_OF_EQUESTRIAN_ART</Type>
 			<BuildingClass>BUILDINGCLASS_EQUESTRIANART</BuildingClass>
 			<Cost>600</Cost>
-			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			<PrereqTech>TECH_METROPOLISM</PrereqTech>
 			<Description>TXT_KEY_BUILDING_EQUESTRIANART</Description>
 			<Civilopedia>TXT_KEY_BUILDING_EQUESTRIANART_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_EQUESTRIANART_STRATEGY</Strategy>

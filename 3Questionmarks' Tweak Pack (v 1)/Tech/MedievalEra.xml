@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/17/2024 8:36:03 PM -->
+<GameData>
+	<!-- Moving Compass forward a tech -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_COMPASS" />
+			<Set>
+				<Cost>275</Cost>
+				<GridX>5</GridX>
+				<GridY>0</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- Now needs Philosophy instead of Theology -->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_COMPASS</TechType>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+		</Delete>
+		<Row>
+			<TechType>TECH_COMPASS</TechType>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	
+	<!-- Moving Theology down in the y value -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_THEOLOGY" />
+			<Set>
+				<GridX>5</GridX>
+				<GridY>2</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+
+	<!-- Moving Astronomy forward a tech -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_ASTRONOMY" />
+			<Set>
+				<Cost>485</Cost>
+				<GridX>6</GridX>
+				<GridY>0</GridY>
+				<Era>ERA_MEDIEVAL</Era>
+				<!-- Moved extra embarked moves to Cartography -->
+				<EmbarkedMoveChange>0</EmbarkedMoveChange>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- No longer needs Education -->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_ASTRONOMY</TechType>
+			<PrereqTech>TECH_EDUCATION</PrereqTech>
+		</Delete>
+	</Technology_PrereqTechs>
+
+	<!-- Added Cartography Tech -->
+	<Technologies>
+		<Row>
+			<Type>TECH_CARTOGRAPHY</Type>
+			<Cost>485</Cost>
+			<Description>TXT_KEY_TECH_CARTOGRAPHY_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_CARTOGRAPHY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_CARTOGRAPHY_HELP</Help>
+			<Era>ERA_MEDIEVAL</Era>
+			<Trade>true</Trade>
+			<GridX>6</GridX>
+			<GridY>1</GridY>
+			<Quote>TXT_KEY_TECH_CARTOGRAPHY_QUOTE</Quote>
+			<PortraitIndex>29</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+			<EmbarkedMoveChange>1</EmbarkedMoveChange>
+			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to it -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_CARTOGRAPHY</TechType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CARTOGRAPHY</TechType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CARTOGRAPHY</TechType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_CARTOGRAPHY</TechType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Setting Prereq Techs -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_CARTOGRAPHY</TechType>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CARTOGRAPHY</TechType>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_NAVIGATION</TechType>
+			<PrereqTech>TECH_CARTOGRAPHY</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	<!-- Moving +1 Gold to fishing boats from compass -->
+	<Improvement_TechYieldChanges>
+		<Delete TechType="TECH_COMPASS" ImprovementType="IMPROVEMENT_FISHING_BOATS" />
+		<Row>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<TechType>TECH_CARTOGRAPHY</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+	<!-- Recon units gain +1 Movement and Sight at it -->
+	<Technology_FreePromotions>
+		<Row>
+			<TechType>TECH_CARTOGRAPHY</TechType>
+			<PromotionType>PROMOTION_CARTOGRAPHY</PromotionType>
+		</Row>
+	</Technology_FreePromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_CARTOGRAPHY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_CARTOGRAPHY</Type>
+			<Description>TXT_KEY_PROMOTION_CARTOGRAPHY</Description>
+			<Help>TXT_KEY_PROMOTION_CARTOGRAPHY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>TRUE</CannotBeChosen>
+			<TechPrereq>TECH_CIVIL_SERVICE</TechPrereq>
+			<MovesChange>1</MovesChange>
+			<VisibilityChange>1</VisibilityChange>
+			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_CARTOGRAPHY</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_CARTOGRAPHY">
+			<Text>Cartography</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARTOGRAPHY_HELP">
+			<Text>+1 Movement and Sight.</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Language stuff done in "TechTextChanges" -->
+
+	<!-- Moving Education to look better in line with prereqs ->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_EDUCATION" />
+			<Set>
+				<GridX>6</GridX>
+				<GridY>3</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+
+	<!- Added Religious Orders Tech -->
+	<Technologies>
+		<Row>
+			<Type>TECH_RELIGIOUS_ORDERS</Type>
+			<Cost>485</Cost>
+			<Description>TXT_KEY_TECH_RELIGIOUS_ORDERS_TITLE</Description>
+			<Civilopedia>TXT_KEY_NEWWORLD_SCENARIO_TECH_RELIGIOUS_ORDERS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_RELIGIOUS_ORDERS_HELP</Help>
+			<Era>ERA_MEDIEVAL</Era>
+			<Trade>true</Trade>
+			<GridX>6</GridX>
+			<GridY>4</GridY>
+			<Quote>TXT_KEY_NEWWORLD_SCENARIO_TECH_RELIGIOUS_ORDERS_QUOTE</Quote>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_DLC_07</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to it -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_RELIGIOUS_ORDERS</TechType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_RELIGIOUS_ORDERS</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Setting Prereq Techs -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_RELIGIOUS_ORDERS</TechType>
+			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_RELIGIOUS_ORDERS</TechType>
+			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	
+	<!-- +2 Faith from Holy Sites -->
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+			<TechType>TECH_RELIGIOUS_ORDERS</TechType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+	<!-- Moved Grand Temple, Machu Picchu, and Crusaders to it (done in respective files)-->
+	<!-- Language stuff done in "TechTextChanges" -->
+
+	<!-- Machinery Needs Metal Casting -->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_MACHINERY</TechType>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+		</Delete>
+		<Row>
+			<TechType>TECH_MACHINERY</TechType>
+			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	
+</GameData>

@@ -3,7 +3,7 @@
 <GameData>
 	<Buildings>
 		<Update>
-			<Set Happiness="2" />
+			<Set Happiness="2" PrereqTech="TECH_SOVEREIGNTY" />
 			<Where Type="BUILDING_CONSTABLE" />
 		</Update>
 	</Buildings>

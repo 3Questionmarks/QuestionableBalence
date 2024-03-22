@@ -14,7 +14,7 @@ SELECT 'CIVILIZATION_MINOR',											'BUILDINGCLASS_FA_AIR_ACADEMY',		NULL;
 --Buildings
 --------------------------------------------------------------------------------------------------
 INSERT INTO Buildings (Type,			BuildingClass,						PrereqTech,			Cost,	NumCityCostMod,	TrainedFreePromotion,	NukeImmune,	NeverCapture,	HurryCostModifier,	IconAtlas,		PortraitIndex,	Description,						Help,									Strategy,									Civilopedia,								ArtDefineTag,					MinAreaSize,	AirModifier) 
-SELECT 'BUILDING_FA_AIR_ACADEMY',		'BUILDINGCLASS_FA_AIR_ACADEMY',		'TECH_FLIGHT',		600,	20,				'PROMOTION_EVASION',	1,			1,				-1,					'FA_NW_ATLAS',	8,				'TXT_KEY_BUILDING_FA_AIR_ACADEMY',	'TXT_KEY_BUILDING_FA_AIR_ACADEMY_HELP',	'TXT_KEY_BUILDING_FA_AIR_ACADEMY_STRATEGY',	'TXT_KEY_BUILDING_FA_AIR_ACADEMY_PEDIA',	'ART_DEF_BUILDING_IRONWORKS',	-1,				6;
+SELECT 'BUILDING_FA_AIR_ACADEMY',		'BUILDINGCLASS_FA_AIR_ACADEMY',		'TECH_BALLISTICS',		600,	20,				'PROMOTION_EVASION',	1,			1,				-1,					'FA_NW_ATLAS',	8,				'TXT_KEY_BUILDING_FA_AIR_ACADEMY',	'TXT_KEY_BUILDING_FA_AIR_ACADEMY_HELP',	'TXT_KEY_BUILDING_FA_AIR_ACADEMY_STRATEGY',	'TXT_KEY_BUILDING_FA_AIR_ACADEMY_PEDIA',	'ART_DEF_BUILDING_IRONWORKS',	-1,				6;
 
 --------------------------------------------------------------------------------------------------
 --Building Class Reqs

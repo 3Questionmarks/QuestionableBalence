@@ -25,7 +25,7 @@
 			<ConquestProb>66</ConquestProb>
 			<Happiness>3</Happiness>
 			<ArtDefineTag>ART_DEF_BUILDING_STOCK_EXCHANGE</ArtDefineTag>
-			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+			<PrereqTech>TECH_INCORPORATION</PrereqTech>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<PortraitIndex>0</PortraitIndex>

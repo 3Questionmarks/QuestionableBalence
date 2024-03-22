@@ -41,5 +41,15 @@
 			<Yield>1</Yield>
 		</Row>
 	</Improvement_ResourceType_Yields>
+	
+	<!-- +1 Food at Fertilizer -->
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<TechType>TECH_ADVANCED_PRODUCTION</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
 
 </GameData>

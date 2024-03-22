@@ -209,7 +209,7 @@
 		</Row>
 	</Language_en_US>
     
-    <!-- Slight buff to the dromon to make it not obsolete beacasue of warships -->
+    <!-- Slight buff to the dromon to make it not obsolete beacasue of warships ->
     <UnitPromotions>
         <Row>
             <Type>PROMOTION_NAVAL_BONUS_1</Type>
@@ -249,7 +249,7 @@
 			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
 			<Modifier>50</Modifier>
 		</Row>
-	</UnitPromotions_UnitCombatMods>
+	</UnitPromotions_UnitCombatMods-->
 
 	<!-- Shortbowman -->
 	<UnitClasses>
@@ -289,7 +289,7 @@
 			<UnitFlagIconOffset>20</UnitFlagIconOffset>
 			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
-            <PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+            <PrereqTech>TECH_STANDING_ARMY</PrereqTech>
 		</Row>
 	</Units>
 	<Unit_AITypes>

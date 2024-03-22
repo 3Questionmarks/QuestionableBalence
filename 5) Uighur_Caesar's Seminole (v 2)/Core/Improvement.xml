@@ -122,28 +122,28 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
-        <!-- Ecology -->
+        <!-- Metropolism -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_UC_SWAMP_CHICKEE</ImprovementType>
-			<TechType>TECH_ECOLOGY</TechType>
+			<TechType>TECH_METROPOLISM</TechType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_UC_SWAMP_CHICKEE</ImprovementType>
-			<TechType>TECH_ECOLOGY</TechType>
+			<TechType>TECH_METROPOLISM</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
         <Row>
 			<ImprovementType>IMPROVEMENT_UC_CHICKEE</ImprovementType>
-			<TechType>TECH_ECOLOGY</TechType>
+			<TechType>TECH_METROPOLISM</TechType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_UC_CHICKEE</ImprovementType>
-			<TechType>TECH_ECOLOGY</TechType>
+			<TechType>TECH_METROPOLISM</TechType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>

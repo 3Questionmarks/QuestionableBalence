@@ -10,8 +10,8 @@
 	</Building_YieldChanges>
 	<Buildings>
 		<Update>
-			<Where Type="BUILDING_BURIAL_TOMB" />
-			<Set Happiness="4" />
+			<Where Type="BUILDING_BURIAL_TOMB" /> 
+			<Set PrereqTech="TECH_MYSTICISM" Happiness="4" />
 		</Update>
 	</Buildings>
 </GameData>

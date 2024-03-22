@@ -22,9 +22,9 @@
 		<Row>
 			<Type>BUILDING_KAY_OIL_REFINERY</Type>
 			<BuildingClass>BUILDINGCLASS_KAY_OIL_REFINERY</BuildingClass>
-			<Cost>420</Cost>
+			<Cost>450</Cost>
 			<GoldMaintenance>5</GoldMaintenance>
-			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<PrereqTech>TECH_ADVANCED_PRODUCTION</PrereqTech>
 			<Description>TXT_KEY_BUILDING_KAY_OIL_REFINERY</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDING_KAY_OIL_REFINERY_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_KAY_OIL_REFINERY_STRATEGY</Strategy>

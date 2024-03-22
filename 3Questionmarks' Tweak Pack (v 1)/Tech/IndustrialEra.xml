@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/20/2024 4:20:10 PM -->
+<GameData>
+	<!-- Scientific Theoiry now needs Warships -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_SCIENTIFIC_THEORY</TechType>
+			<PrereqTech>TECH_WARSHIPS</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Industrialization now needs Metallurgy -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_INDUSTRIALIZATION</TechType>
+			<PrereqTech>TECH_METALLURGY</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Moving Rifling down -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_RIFLING" />
+			<Set>
+				<GridX>9</GridX>
+				<GridY>7</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- no longer needs Economics -->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_RIFLING</TechType>
+			<PrereqTech>TECH_ECONOMICS</PrereqTech>
+		</Delete>
+	</Technology_PrereqTechs>
+
+	<!-- Moving Electricity down a tech -->
+	<!--Technologies>
+		<Update>
+			<Where Type="TECH_ELECTRICITY" />
+			<Set>
+				<GridX>10</GridX>
+				<GridY>3</GridY>
+			</Set>
+		</Update>
+	</Technologies-->
+
+	<!-- Moving Steam power up -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_STEAM_POWER" />
+			<Set>
+				<GridX>10</GridX>
+				<GridY>4</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- no longer needs Rifling -->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_STEAM_POWER</TechType>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
+		</Delete>
+	</Technology_PrereqTechs>
+	
+	<!-- Added incorporation Tech -->
+	<Technologies>
+		<Row>
+			<Type>TECH_INCORPORATION</Type>
+			<Cost>2350</Cost>
+			<Description>TXT_KEY_TECH_INCORPORATION_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_INCORPORATION_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_INCORPORATION_HELP</Help>
+			<Era>ERA_INDUSTRIAL</Era>
+			<Trade>true</Trade>
+			<GridX>10</GridX>
+			<GridY>6</GridY>
+			<Quote>TXT_KEY_TECH_INCORPORATION_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CORP_ATLAS</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to it -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_INCORPORATION</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_INCORPORATION</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Setting Prereq Techs -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_INCORPORATION</TechType>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_INCORPORATION</TechType>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Moved Stock Echange, Big Ben, Patent Office, Kasbah production/food increase, and Iya Production/Gold increase (done in respective files) -->
+	<!-- Language stuff done in "TechTextChanges" -->
+  
+</GameData>

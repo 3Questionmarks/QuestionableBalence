@@ -11,7 +11,7 @@
 	</Building_ResourceYieldChanges>
     <Buildings>
 		<Update>
-			<Set ProhibitedCityTerrain="NULL" />
+			<Set ProhibitedCityTerrain="NULL" PrereqTech="TECH_SOVEREIGNTY" />
 			<Where BuildingClass="BUILDINGCLASS_WINDMILL" />
 		</Update>
 	</Buildings>

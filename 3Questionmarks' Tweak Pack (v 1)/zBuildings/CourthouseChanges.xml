@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	
-	<!-- Courthouse now costs 50% less Production. -->
+	<!-- Courthouse now costs 50% less Production and have been moved to Code of Law -->
 	<Buildings>
 		<Update>
 			<Where Type="BUILDING_COURTHOUSE" />
-			<Set Cost="75" />
+			<Set Cost="75" PrereqTech="TECH_CODE_OF_LAW"/>
 		</Update>
 	</Buildings>
 

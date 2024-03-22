@@ -12,7 +12,7 @@
 		<Row>
 			<Class>UNITCLASS_SPECIAL_FORCES</Class>
 			<Type>UNIT_SPECIAL_FORCES</Type>
-			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
+			<PrereqTech>TECH_PARTICLE_PHYSICS</PrereqTech>
 			<Combat>90</Combat>
 			<Cost>1200</Cost>
 			<FaithCost>2400</FaithCost>

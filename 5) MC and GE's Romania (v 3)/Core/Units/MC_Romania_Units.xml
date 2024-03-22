@@ -5,12 +5,12 @@
 		<Row>
 			<Class>UNITCLASS_GATLINGGUN</Class>
 			<Type>UNIT_MC_ROMANIAN_VINATOR</Type>
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<Combat>33</Combat>
-			<RangedCombat>33</RangedCombat>
-			<Range>1</Range>
+			<RangedCombat>23</RangedCombat>
+			<Range>2</Range>
 			<Cost>225</Cost>
-			<FaithCost>500</FaithCost>
+			<FaithCost>450</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
@@ -55,6 +55,13 @@
 			<UnitClassType>UNITCLASS_MACHINE_GUN</UnitClassType>
 		</Row>
 	</Unit_ClassUpgrades>
+    <Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_MC_ROMANIAN_VINATOR</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
 	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_MC_ROMANIAN_VINATOR</UnitType>

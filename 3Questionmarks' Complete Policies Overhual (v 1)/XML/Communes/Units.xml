@@ -269,7 +269,7 @@
 			<PortraitIndex>40</PortraitIndex>
 			<MoveRate>WOODEN_BOAT</MoveRate>
 			<UnitFlagAtlas>DLC02_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-            <PrereqTech>TECH_NAVIGATION</PrereqTech>
+            <PrereqTech>TECH_WARSHIPS</PrereqTech>
 		</Row>
 	</Units>
 	<Unit_AITypes>

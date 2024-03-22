@@ -14,7 +14,7 @@
 			<Class>UNITCLASS_PAPAL_MILITIA</Class>
 			<Type>UNIT_PAPAL_MILITIA</Type>
 			<PolicyType>POLICY_THEOCRACY</PolicyType>
-			<Combat>15</Combat>
+			<Combat>16</Combat>
 			<Cost>100</Cost>
 			<FaithCost>100</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
@@ -38,7 +38,7 @@
 			<IconAtlas>SMAN_EXOTIC_UNIT_ATLAS</IconAtlas>
 			<PortraitIndex>35</PortraitIndex>
 			<UnitFlagAtlas>SMAN_EXOTIC_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-            <PrereqTech>TECH_DRAMA</PrereqTech>
+            <PrereqTech>TECH_THEOLOGY</PrereqTech>
 		</Row>
 	</Units>
 	<Unit_YieldFromKills>
@@ -142,7 +142,7 @@
 			<PortraitIndex>6</PortraitIndex>
 			<MoveRate>QUADRUPED</MoveRate>
 			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-            <PrereqTech>TECH_CHIVALRY</PrereqTech>
+            <PrereqTech>TECH_RELIGIOUS_ORDERS</PrereqTech>
 		</Row>
 	</Units>
 	<Unit_YieldFromKills>

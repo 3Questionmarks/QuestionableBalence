@@ -15,7 +15,7 @@
 			<Cost>1000</Cost>
 			<GoldMaintenance>5</GoldMaintenance>
 			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
-			<Help>Requires 1 [ICON_RES_URANIUM] Uranium to build, but provides 2 [ICON_RES_URANIUM] Uranium after construction. Each source of [ICON_RES_URANIUM] Uranium worked by this city produces +2 [ICON_PRODUCTION] Production.</Help>
+			<Help>Requires 1 [ICON_RES_URANIUM] Uranium to build, but provides 3 [ICON_RES_URANIUM] Uranium after construction. Each source of [ICON_RES_URANIUM] Uranium worked by this city produces +2 [ICON_PRODUCTION] Production.</Help>
 			<Description>Uranium Enrichment Facility</Description>
 			<Civilopedia>Enriched uranium is a type of uranium in which the percent composition of uranium-235 has been increased through the process of isotope separation. Natural uranium is 99.284% U-238 isotope, with U-235 only constituting about 0.711% of its weight. U-235 is the only nuclide existing in nature (in any appreciable amount) that is fissile with thermal neutrons.[NEWLINE][NEWLINE]Enriched uranium is a critical component for both civil nuclear power generation and military nuclear weapons. The International Atomic Energy Agency attempts to monitor and control enriched uranium supplies and processes in its efforts to ensure nuclear power generation safety and curb nuclear weapons proliferation.[NEWLINE][NEWLINE]During the Manhattan Project enriched uranium was given the codename oralloy, a shortened version of Oak Ridge alloy, after the location of the plants where the uranium was enriched. The term oralloy is still occasionally used to refer to enriched uranium.</Civilopedia>
 			<ArtDefineTag>ART_DEF_BUILDING_NUCLEAR_PLANT</ArtDefineTag>
@@ -72,7 +72,7 @@
 		<Row>
 			<BuildingType>BUILDING_FACILITY</BuildingType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
-			<Quantity>2</Quantity>
+			<Quantity>3</Quantity>
 		</Row>
 	</Building_ResourceQuantity>
 

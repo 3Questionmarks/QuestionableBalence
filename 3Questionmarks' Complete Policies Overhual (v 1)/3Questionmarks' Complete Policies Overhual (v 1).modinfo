@@ -45,9 +45,9 @@
     <File md5="C341FCABDC0A7B0D883BC2B24A4E1E79" import="1">XML/Art of War/ART/SMAN_EU_MadyanArchers.gr2</File>
     <File md5="0FEC5F1F2EC6898AF9716CC415C7BC29" import="1">XML/Art of War/ART/SMAN_EU_MadyanArchers_diff.dds</File>
     <File md5="F60D427F1D9F4B94F07DE18C3A673447" import="1">XML/Art of War/ART/SMAN_EU_MadyanArchers_gloss.dds</File>
-    <File md5="C17A67AB9D9DD61784CF8826E382C847" import="0">XML/Art of War/Building.xml</File>
+    <File md5="BC511FD1DBF77250307BE4C488ED86C7" import="0">XML/Art of War/Building.xml</File>
     <File md5="398F66D94400D7AEEEB894AB374BE5DC" import="0">XML/Art of War/Policies.xml</File>
-    <File md5="3F4B33E62868733C1C889CF45EFF9C01" import="0">XML/Art of War/Units.xml</File>
+    <File md5="D0F1EE85D8F99DF42F6E33151DB2EAD5" import="0">XML/Art of War/Units.xml</File>
     <File md5="441DEE216380A7FB934759B14070C476" import="0">XML/Communes/ART/CorsairArtDefines.sql</File>
     <File md5="D65BD470A9CAFED1F110C71B983B3A69" import="0">XML/Communes/ART/DhowArtDefines.sql</File>
     <File md5="8090B298FAB7F80CE5FCE5CE7229577A" import="1">XML/Communes/ART/SMAN_EU_Corsair.fxsxml</File>
@@ -62,9 +62,9 @@
     <File md5="7038C2D91B8CFDBE084AE650311D0165" import="1">XML/Communes/ART/SMAN_EU_WarJunk_diff.dds</File>
     <File md5="A0259BA1FB1B544F89BBD5A07BE8B90F" import="1">XML/Communes/ART/SMAN_EU_WarJunk_sref.dds</File>
     <File md5="476F493747ADA572482E1314ECA9728F" import="0">XML/Communes/ART/WarJunkArtDefines.sql</File>
-    <File md5="5FAA69682B2AF1C09A002C99FFCC000D" import="0">XML/Communes/Building.xml</File>
+    <File md5="49401113D1270DD4994C212B1BAE2036" import="0">XML/Communes/Building.xml</File>
     <File md5="B1C80E7DC6D3A034476262A1860BFBD3" import="0">XML/Communes/Policies.xml</File>
-    <File md5="0A6B420E6388C82EFDCC45699EC4EFE3" import="0">XML/Communes/Units.xml</File>
+    <File md5="7CB1420ABA35804CC6F2DA67E4DDCFBF" import="0">XML/Communes/Units.xml</File>
     <File md5="20124B488A6093D4031EED1395AB5920" import="0">XML/Democracy/ART/CheyenneDSArtDefines.sql</File>
     <File md5="A69C7661C61B0C00B8FAF64199CC7E9E" import="1">XML/Democracy/ART/fx_triggers_SMAN_EU_CDS.ftsxml</File>
     <File md5="38ECF0CB7A9302BC25659E9BFB7F348F" import="1">XML/Democracy/ART/SMAN_EU_CDS.fxsxml</File>
@@ -73,7 +73,7 @@
     <File md5="17FE9F1C9A4AFF2C233918CB06DFE03C" import="1">XML/Democracy/ART/SMAN_EU_CDS_Horse_diff.dds</File>
     <File md5="4EC10543D28DE1048527FAFDDC47DE13" import="1">XML/Democracy/ART/SMAN_EU_CDS_Horse_sref.dds</File>
     <File md5="E5E6AE27DD8042529CA684662060A413" import="1">XML/Democracy/ART/SMAN_EU_CDS_sref.dds</File>
-    <File md5="178B7E42B8FEA92934E10502403324AC" import="0">XML/Democracy/Building.xml</File>
+    <File md5="72DDE2243E63EFD21D095E5FB82B1C7C" import="0">XML/Democracy/Building.xml</File>
     <File md5="14AEDC9FC5094E88B758CB2B5F72201D" import="0">XML/Democracy/Policies.xml</File>
     <File md5="A46D3ED483BC3ECA9E90E381AE47BE26" import="0">XML/Democracy/Units.xml</File>
     <File md5="2F5F51D702CEE4501F7AD35118639F10" import="0">XML/Diplomacy/ART/CavalierArtDefines.sql</File>
@@ -83,7 +83,7 @@
     <File md5="5153CC917DEC990CDB4F911F01B34859" import="1">XML/Diplomacy/ART/SMAN_EU_Cavalier_Confederate_cav_sref.dds</File>
     <File md5="51D4FAAB21AC4EEC4AAFDCC945A91733" import="1">XML/Diplomacy/ART/SMAN_EU_Cavalier_Musketeer_diff.dds</File>
     <File md5="5F75B69AFD02477F0057234F5C649F7B" import="1">XML/Diplomacy/ART/SMAN_EU_Cavalier_Musketeer_sref.dds</File>
-    <File md5="B3A919EAE570F83E8CBE066C6A45D65D" import="0">XML/Diplomacy/Building.xml</File>
+    <File md5="BB591BA8A918D45D170CF997FB4370B9" import="0">XML/Diplomacy/Building.xml</File>
     <File md5="0724D7DC12DAF7EB0A650CB0F69211D8" import="0">XML/Diplomacy/Policies.xml</File>
     <File md5="1F53E19F84717E894903BA28CC172E2E" import="0">XML/Diplomacy/Units.xml</File>
     <File md5="3E45CE03376F7001D48EEB82DF50D3AD" import="0">XML/Empire/Building.xml</File>
@@ -104,10 +104,10 @@
     <File md5="FC3A469C3CC30588C17830094133E724" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Venice.fxsxml</File>
     <File md5="CCAB07C15C2104E1F9D4CA35927FD2DC" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Venice.gr2</File>
     <File md5="120C87D94087EC516EA1C074074E039E" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Venice_diff.dds</File>
-    <File md5="315311E049F777DFB4BA9DCFA2D1563C" import="0">XML/Feudalism/Building.xml</File>
+    <File md5="98B1DB8ADE27A5E8BEFCFE271FDFE83A" import="0">XML/Feudalism/Building.xml</File>
     <File md5="75AA90B7B2F7D219BE74020E2F64F2A3" import="0">XML/Feudalism/Policies.xml</File>
-    <File md5="3FDFED366329FC4B3FD9B0A6566BA6F3" import="0">XML/Feudalism/Units.xml</File>
-    <File md5="3FBCCE10F866842D2D0A53277D1A1EAF" import="0">XML/Industry/Building.xml</File>
+    <File md5="2991DFD7E221D03B644D3F917748368E" import="0">XML/Feudalism/Units.xml</File>
+    <File md5="835C690EF613D240BFB06FDCC7AB06E2" import="0">XML/Industry/Building.xml</File>
     <File md5="4AF510426F2F6B7082A551FFDE5E5590" import="0">XML/Industry/Policies.xml</File>
     <File md5="EC0736F0ECC30C1CBE5BA025212EE0A4" import="0">XML/Industry/Units.xml</File>
     <File md5="EE74068DDB8D6E426767B469199A1618" import="0">XML/Monarchy/ART/3UC_ASSYRIA.sql</File>
@@ -141,7 +141,7 @@
     <File md5="A33FAFCA5CF24639E26B90ECB9B5C675" import="1">XML/Patonage/ART/IronwoodTrebuchet64.dds</File>
     <File md5="3D99F028EEE5BE58B94FEC20F6483EEF" import="1">XML/Patonage/ART/IronwoodTrebuchet80.dds</File>
     <File md5="1B1AA368E1FB1E88C2A0943F0DF0EE1A" import="1">XML/Patonage/ART/ITrebuchetAlpha32.dds</File>
-    <File md5="D60E743E7C785276A180AF6541182665" import="0">XML/Patonage/Building.xml</File>
+    <File md5="C9D6DC4F370985F4D670B7F12D6E8DAB" import="0">XML/Patonage/Building.xml</File>
     <File md5="899D0711D5E5973FD4CF922E9CF1FC5B" import="0">XML/Patonage/Policies.xml</File>
     <File md5="FDCC14D2092C39821129980414F2EF97" import="0">XML/Patonage/Units.xml</File>
     <File md5="650C66C482B7427A416747AB4398CDBD" import="0">XML/Shared/Policies Grant Building (v 8)/PGB_Tables.xml</File>

@@ -13,7 +13,7 @@
 			<Type>BUILDING_DJSH_GILDER</Type>
 			<BuildingClass>BUILDINGCLASS_DJSH_GILDER</BuildingClass>
 			<Cost>160</Cost>
-			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
 			<Description>Gilder</Description>
 			<Civilopedia>The term gilding covers a number of decorative techniques for applying fine gold leaf or powder to solid surfaces such as wood, stone, or metal to give a thin coating of gold. A gilded object is described as "gilt". Where metal is gilded, it was traditionally silver in the West, to make silver-gilt objects, but gilt-bronze is commonly used in China, and also called ormolu if it is Western.</Civilopedia>
 			<Strategy>Requires a Mint in this City. Increases the City's [ICON_CULTURE] Cultural output and allows for faster Great Artist generation by filling the Artist Specialist slot!</Strategy>

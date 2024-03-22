@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Improvement_TechFreshWaterYieldChanges>
+	<Improvement_TechNoFreshWaterYieldChanges>
+		<Delete ImprovementType="IMPROVEMENT_FARM" />
+		<Delete ImprovementType="IMPROVEMENT_TERRACE_FARM"  />
+	</Improvement_TechNoFreshWaterYieldChanges>
+	<Improvement_TechYieldChanges>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
 			<TechType>TECH_FERTILIZER</TechType>
@@ -13,13 +17,5 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-	</Improvement_TechFreshWaterYieldChanges>
-    <Improvement_TechYieldChanges>
-        <Row>
-			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
-			<TechType>TECH_FERTILIZER</TechType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-    </Improvement_TechYieldChanges>
+	</Improvement_TechYieldChanges>
 </GameData>

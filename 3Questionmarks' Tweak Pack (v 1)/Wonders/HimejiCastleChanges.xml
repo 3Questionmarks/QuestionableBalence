@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/19/2024 6:19:17 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set GreatPeopleRateModifier="25" />
+			<Where Type="BUILDING_HIMEJI_CASTLE" />
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_HIMEJI_CASTLE_HELP"/>
+		<Row Tag="TXT_KEY_WONDER_HIMEJI_CASTLE_HELP">
+			<Text>+15% [ICON_STRENGTH] combat strength for units fighting in friendly territory. +25% [ICON_GREAT_PEOPLE] Great Person genration and provides a free Castle in the city in which it is built.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

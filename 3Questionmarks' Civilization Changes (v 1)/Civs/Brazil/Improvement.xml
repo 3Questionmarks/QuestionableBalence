@@ -41,7 +41,7 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
-			<TechType>TECH_INDUSTRIALIZATION</TechType> 
+			<TechType>TECH_SCIENTIFIC_THEORY</TechType> 
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>2</Yield>
 		</Row>

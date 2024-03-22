@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/18/2024 6:23:24 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set PrereqTech="TECH_THEOLOGY" />
+			<Where Type="BUILDING_CHICHEN_ITZA" />
+		</Update>
+	</Buildings>
+</GameData>

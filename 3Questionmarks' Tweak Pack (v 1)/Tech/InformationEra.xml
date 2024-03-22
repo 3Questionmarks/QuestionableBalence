@@ -1,60 +1,352 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 3/7/2024 1:31:50 AM -->
 <GameData>
-	<!-- Increased Information Era Tech cost-->
+	
+	<!-- Delete Telecom  -->
+	<Technologies>
+		<Delete Type="TECH_TELECOM" />
+	</Technologies>
+	<Technology_PrereqTechs>
+		<Delete PrereqTech="TECH_TELECOM" />
+		<Delete TechType="TECH_TELECOM" />
+	</Technology_PrereqTechs>
+	<!-- Nuke Sub moved to Neclear Fission, Bomb Shelter Moved to Globalization, Nationial Visitor Centre moved to The Internet (done in respective files)-->
+
+	<!-- Move Globlization Forward -->
 	<Technologies>
 		<Update>
-			<Where Type="TECH_TELECOM" />
-			<Set Cost="8000" />
+			<Where Type="TECH_GLOBALIZATION" />
+			<Set>
+				<Cost>8000</Cost>
+				<GridX>15</GridX>
+				<GridY>0</GridY>
+			</Set>
 		</Update>
-		<Update>
-			<Where Type="TECH_MOBILE_TACTICS" />
-			<Set Cost="8000" />
-		</Update>
-		<Update>
-			<Where Type="TECH_ADVANCED_BALLISTICS" />
-			<Set Cost="8000" />
-		</Update>
-		<Update>
-			<Where Type="TECH_SATELLITES" />
-			<Set Cost="8000" />
-		</Update>
-		<Update>
-			<Where Type="TECH_ROBOTICS" />
-			<Set Cost="8000" />
-		</Update>
-		<Update>
-			<Where Type="TECH_LASERS" />
-			<Set Cost="8000" />
-		</Update>
+	</Technologies>
+	<!-- Now Needs Ecology and Metropolism -->
+	<Technology_PrereqTechs>
+		<Delete TechType="TECH_GLOBALIZATION" />
+		<Row>
+			<TechType>TECH_GLOBALIZATION</TechType>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_GLOBALIZATION</TechType>
+			<PrereqTech>TECH_METROPOLISM</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	
+	<!-- Move The Internet Forward -->
+	<Technologies>
 		<Update>
 			<Where Type="TECH_INTERNET" />
-			<Set Cost="9500" />
+			<Set>
+				<Cost>8000</Cost>
+				<GridX>15</GridX>
+				<GridY>2</GridY>
+			</Set>
 		</Update>
+	</Technologies>
+	<!-- Now Needs Metropolism Atomic Theory -->
+	<Technology_PrereqTechs>
+		<Delete TechType="TECH_INTERNET" />
+		<Row>
+			<TechType>TECH_INTERNET</TechType>
+			<PrereqTech>TECH_METROPOLISM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNET</TechType>
+			<PrereqTech>TECH_ATOMIC_THEORY</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+
+
+	<!-- Moving Nuclear Fission back a tech -->
+	<Technologies>
 		<Update>
-			<Where Type="TECH_GLOBALIZATION" />
-			<Set Cost="9500" />
+			<Where Type="TECH_NUCLEAR_FISSION" />
+			<Set>
+				<Cost>8000</Cost>
+				<GridX>15</GridX>
+				<GridY>3</GridY>
+				<Era>ERA_FUTURE</Era>
+			</Set>
 		</Update>
+	</Technologies>
+	<!-- No longer needs Radar -->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_NUCLEAR_FISSION</TechType>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+		</Delete>
+	</Technology_PrereqTechs>
+
+	<!-- Swapping the possitions of Satellites and Advanced Ballistics -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_SATELLITES" />
+			<Set>
+				<Cost>8000</Cost>
+				<GridX>15</GridX>
+				<GridY>4</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- Now needs Atomic Theory -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_SATELLITES</TechType>
+			<PrereqTech>TECH_ATOMIC_THEORY</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Swapping the possitions of Satellites and Advanced Ballistics -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_ADVANCED_BALLISTICS" />
+			<Set>
+				<Cost>8000</Cost>
+				<GridX>15</GridX>
+				<GridY>5</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- No longer needs Nuclear Fission -->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_ADVANCED_BALLISTICS</TechType>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+		</Delete>
+	</Technology_PrereqTechs>
+
+	
+	<!-- Swapping the possitions of Lasers and Robotics-->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_LASERS" />
+			<Set>
+				<Cost>8000</Cost>
+				<GridX>15</GridX>
+				<GridY>6</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- No longer needs Computers and now needs Rocketry and Combined Arms -->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_LASERS</TechType>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+		</Delete>
+		<Row>
+			<TechType>TECH_LASERS</TechType>
+			<PrereqTech>TECH_ROCKETRY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_LASERS</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Swapping the possitions of Lasers and Robotics-->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_ROBOTICS" />
+			<Set>
+				<Cost>8000</Cost>
+				<GridX>15</GridX>
+				<GridY>7</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- No longer needs Computers and needs Combined Arms -->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_ROBOTICS</TechType>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+		</Delete>
+		<Row>
+			<TechType>TECH_ROBOTICS</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Increased Mobile Tactics Tech cost and moved to bottom of tree -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_MOBILE_TACTICS" />
+			<Set>
+				<Cost>8000</Cost>
+				<GridX>15</GridX>
+				<GridY>8</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- Now Needs Combined Arms -->
+	<Technology_PrereqTechs>
+		<Delete TechType="TECH_MOBILE_TACTICS" />
+		<Row>
+			<TechType>TECH_MOBILE_TACTICS</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+
+	<!-- Added Artifical General Intelligence Tech -->
+	<Technologies>
+		<Row>
+			<Type>TECH_ARTIFICIAL_INTELLIGENCE</Type>
+			<Cost>9500</Cost>
+			<Description>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_HELP</Help>
+			<Era>ERA_FUTURE</Era>
+			<Trade>true</Trade>
+			<GridX>16</GridX>
+			<GridY>0</GridY>
+			<Quote>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_QUOTE</Quote>
+			<PortraitIndex>13</PortraitIndex>
+			<IconAtlas>ISKA_STS_ATLAS</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to it -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Setting Prereq Techs -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
+			<PrereqTech>TECH_INTERNET</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
+			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	<!-- +5 Science from Academies -->
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+	<!-- Moved SS cockpit to it (done in respective files) -->
+	<!-- Language stuff done in "TechTextChanges" -->
+	
+
+	<!-- Increased Particle Physics Tech cost -->
+	<Technologies>
 		<Update>
 			<Where Type="TECH_PARTICLE_PHYSICS" />
 			<Set Cost="9500" />
 		</Update>
+	</Technologies>
+	<!-- Now needs neclear fission and the internet -->
+	<Technology_PrereqTechs>
+		<Delete TechType="TECH_PARTICLE_PHYSICS" />
+		<Row>
+			<TechType>TECH_PARTICLE_PHYSICS</TechType>
+			<PrereqTech>TECH_INTERNET</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_PARTICLE_PHYSICS</TechType>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Increased Nuclear Fusion Tech cost and moved it up -->
+	<Technologies>
 		<Update>
 			<Where Type="TECH_NUCLEAR_FUSION" />
-			<Set Cost="9500" />
+			<Set>
+				<Cost>9500</Cost>
+				<GridX>16</GridX>
+				<GridY>4</GridY>
+			</Set>
 		</Update>
+	</Technologies>
+	<!-- No longer needs robotics and now needs Satellites and Neclear Fission -->
+	<Technology_PrereqTechs>
+		<Delete TechType="TECH_NUCLEAR_FUSION" PrereqTech="TECH_ROBOTICS" />
+		<Row>
+			<TechType>TECH_NUCLEAR_FUSION</TechType>
+			<PrereqTech>TECH_SATELLITES</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_NUCLEAR_FUSION</TechType>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Increased Nanotechnology Tech cost -->
+	<Technologies>
 		<Update>
 			<Where Type="TECH_NANOTECHNOLOGY" />
 			<Set Cost="9500" />
 		</Update>
+	</Technologies>
+	<!-- Now needs Advanced Ballistics and Lasers -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_NANOTECHNOLOGY</TechType>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_NANOTECHNOLOGY</TechType>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Increased Stealth Tech cost and mvoed down-->
+	<Technologies>
 		<Update>
 			<Where Type="TECH_STEALTH" />
-			<Set Cost="9500" />
+			<Set>
+				<Cost>9500</Cost>
+				<GridX>16</GridX>
+				<GridY>8</GridY>
+			</Set>
 		</Update>
+	</Technologies>
+	<!-- Now also needs Mobile Tactics -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_STEALTH</TechType>
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Increased Future Tech cost -->
+	<Technologies>
 		<Update>
 			<Where Type="TECH_FUTURE_TECH" />
 			<Set Cost="10000" />
 		</Update>
 	</Technologies>
+	<!-- No Longer Needs the Internet and Globalization and now needs Artifical General Intelligence-->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_FUTURE_TECH</TechType>
+			<PrereqTech>TECH_INTERNET</PrereqTech>
+		</Delete>
+		<Delete>
+			<TechType>TECH_FUTURE_TECH</TechType>
+			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
+		</Delete>
+		<Row>
+			<TechType>TECH_FUTURE_TECH</TechType>
+			<PrereqTech>TECH_ARTIFICIAL_INTELLIGENCE</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
   
 </GameData>

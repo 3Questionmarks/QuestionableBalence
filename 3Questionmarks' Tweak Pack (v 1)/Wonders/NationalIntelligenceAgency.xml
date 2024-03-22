@@ -3,7 +3,7 @@
 <GameData>
 	<Buildings>
         <Update>
-			<Set Happiness="4" />
+			<Set Happiness="4" PrereqTech="TECH_URBANISM" />
 			<Where Type="BUILDING_INTELLIGENCE_AGENCY" />
 		</Update>
 	</Buildings>

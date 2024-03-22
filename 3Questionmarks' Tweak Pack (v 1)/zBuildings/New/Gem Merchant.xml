@@ -14,7 +14,7 @@
 			<BuildingClass>BUILDINGCLASS_DJSH_GEM_MERCHANT</BuildingClass>
 			<Cost>100</Cost>
             <GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<PrereqTech>TECH_ORGANIZED_TRADE</PrereqTech>
 			<Description>Gem Merchant</Description>
 			<Civilopedia>A gem is a piece of mineral, which, in cut and polished form, is used to make jewelry or other adornments. Most gemstones are hard, but some soft minerals are used in jewelry because of their luster or other physical properties that have aesthetic value. Rarity is another characteristic that lends value to a gemstone. Around 7,000 years ago, the first sign of copper jewellery was seen. The first signs of established jewellery making in Ancient Egypt was around 3,000-5,000 years ago. The Egyptians preferred the luxury, rarity, and workability of gold over other metals.</Civilopedia>
 			<Strategy>The Gem Merchant can only be constructed in a city with improved [ICON_RES_GEMS] Gems [ICON_RES_JADE] Jade, [ICON_RES_AMBER] Amber, [ICON_PEARLS] Pearls, or [ICON_RES_LAPIS] Lapis Lazuli resources nearby. The Gem Merchant increases the [ICON_GOLD] Gold output of each such resource the city has access to. Land trade routes originating from this city have a 25% increase in range.</Strategy>

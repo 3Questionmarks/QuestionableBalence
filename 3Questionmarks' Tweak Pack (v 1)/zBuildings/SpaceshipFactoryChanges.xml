@@ -4,11 +4,7 @@
 	<Buildings>
 		<Update>
 			<Where Type="BUILDING_SPACESHIP_FACTORY"/>
-			<Set Cost ="1500" />
-		</Update>
-		<Update>
-			<Where Type="BUILDING_SPACESHIP_FACTORY" />
-			<Set GoldMaintenance="10" />
+			<Set Cost ="1500" GoldMaintenance="10" />
 		</Update>
 	</Buildings>
 </GameData>

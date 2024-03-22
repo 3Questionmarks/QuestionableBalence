@@ -14,7 +14,7 @@ SELECT 'CIVILIZATION_MINOR',											'BUILDINGCLASS_FA_SEA_ACADEMY',		NULL;
 --Buildings
 --------------------------------------------------------------------------------------------------
 INSERT INTO Buildings (Type,			BuildingClass,						PrereqTech,			Cost,	NumCityCostMod,	TrainedFreePromotion,		NukeImmune,	NeverCapture,	HurryCostModifier,	IconAtlas,		PortraitIndex,	Description,						Help,									Strategy,									Civilopedia,								ArtDefineTag,					MinAreaSize) 
-SELECT 'BUILDING_FA_SEA_ACADEMY',		'BUILDINGCLASS_FA_SEA_ACADEMY',		'TECH_NAVIGATION',	360,	20,				'PROMOTION_FA_SEA_ACADEMY',	1,			1,				-1,					'FA_NW_ATLAS',	0,				'TXT_KEY_BUILDING_FA_SEA_ACADEMY',	'TXT_KEY_BUILDING_FA_SEA_ACADEMY_HELP',	'TXT_KEY_BUILDING_FA_SEA_ACADEMY_STRATEGY',	'TXT_KEY_BUILDING_FA_SEA_ACADEMY_PEDIA',	'ART_DEF_BUILDING_IRONWORKS',	-1;
+SELECT 'BUILDING_FA_SEA_ACADEMY',		'BUILDINGCLASS_FA_SEA_ACADEMY',		'TECH_WARSHIPS',	360,	20,				'PROMOTION_FA_SEA_ACADEMY',	1,			1,				-1,					'FA_NW_ATLAS',	0,				'TXT_KEY_BUILDING_FA_SEA_ACADEMY',	'TXT_KEY_BUILDING_FA_SEA_ACADEMY_HELP',	'TXT_KEY_BUILDING_FA_SEA_ACADEMY_STRATEGY',	'TXT_KEY_BUILDING_FA_SEA_ACADEMY_PEDIA',	'ART_DEF_BUILDING_IRONWORKS',	-1;
 
 --------------------------------------------------------------------------------------------------
 --Building Class Reqs

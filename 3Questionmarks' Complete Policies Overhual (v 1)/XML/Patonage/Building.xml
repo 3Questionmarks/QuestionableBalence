@@ -14,7 +14,7 @@
 			<BuildingClass>BUILDINGCLASS_TCS_MEMORIAL</BuildingClass>
 			<Cost>250</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+			<PrereqTech>TECH_SOVEREIGNTY</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_AESTHETICS</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_TCS_MEMORIAL</Description>
 			<Help>TXT_KEY_BUILDING_TCS_MEMORIAL_HELP</Help>

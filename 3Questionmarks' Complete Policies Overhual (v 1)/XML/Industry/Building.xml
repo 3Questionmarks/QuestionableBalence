@@ -14,7 +14,7 @@
 			<BuildingClass>BUILDINGCLASS_TCS_PATENT_OFFICE</BuildingClass>
 			<Cost>300</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<PrereqTech>TECH_INCORPORATION</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_RATIONALISM</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_TCS_PATENT_OFFICE</Description>
 			<Help>TXT_KEY_BUILDING_TCS_PATENT_OFFICE_HELP</Help>

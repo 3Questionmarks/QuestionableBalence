@@ -13,7 +13,7 @@
 			<Type>BUILDING_TCS_PAROCHIAL_SCHOOL</Type>
 			<BuildingClass>BUILDINGCLASS_TCS_PAROCHIAL_SCHOOL</BuildingClass>
 			<Cost>120</Cost>
-			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_TCS_PAROCHIAL_SCHOOL</Description>
 			<Help>TXT_KEY_BUILDING_TCS_PAROCHIAL_SCHOOL_HELP</Help>

@@ -28,10 +28,10 @@
 			<Where Class="UNITCLASS_SS_BOOSTER" />
 		</Update>
 	</Units>
-	<!-- SS cockpit now at gloablization -->
+	<!-- SS cockpit now at Artifical General Intelligence -->
 	<Units>
 		<Update>
-			<Set PrereqTech="TECH_GLOBALIZATION" />
+			<Set PrereqTech="TECH_ARTIFICIAL_INTELLIGENCE" />
 			<Where Class="UNITCLASS_SS_COCKPIT" />
 		</Update>
 	</Units>

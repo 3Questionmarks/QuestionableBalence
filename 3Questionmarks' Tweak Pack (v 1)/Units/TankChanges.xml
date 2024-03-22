@@ -15,11 +15,11 @@
 	</Unit_ResourceQuantityRequirements>
 	<Units>
 		<Update>
-			<Set Cost="600" />
+			<Set Cost="600" Combat="80" />
 			<Where Type="UNIT_TANK" />
 		</Update>
 		<Update>
-			<Set Cost="550" />
+			<Set Cost="550" Combat="85" />
 			<Where Type="UNIT_GERMAN_PANZER" />
 		</Update>
 	</Units>

@@ -12,8 +12,8 @@
 		<Row>
 			<Type>BUILDING_DJSH_TEA_HOUSE</Type>
 			<BuildingClass>BUILDINGCLASS_DJSH_TEA_HOUSE</BuildingClass>
-			<Cost>100</Cost>
-			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<Cost>180</Cost>
+			<PrereqTech>TECH_BANKING</PrereqTech>
 			<Description>Tea House</Description>
 			<Civilopedia>A tea house or tea room is an establishment which primarily serves tea and other light refreshments. Although its function varies widely depending on the culture, tea houses often serve as centers of social interaction. Some cultures have a variety of distinct tea-centered houses or parlors that all qualify under the English language term "tea house" or "tea room."</Civilopedia>
 			<Strategy>The Tea House can only be constructed in a city with improved tea or coffee resources nearby. The Tea House increases the [ICON_FOOD] Food and [ICON_CULTURE] Culture output of each such resource the city has access to. +1 [ICON_GOLD] Gold per incoming Trade Route (also +1 [ICON_GOLD] Gold for the owner of the route).</Strategy>

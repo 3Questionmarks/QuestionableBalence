@@ -4,7 +4,7 @@
 	<Buildings>
 		<Update>
 			<Where Type="BUILDING_MUD_PYRAMID_MOSQUE" />
-			<Set CultureRateModifier="10" />
+			<Set PrereqTech="TECH_MYSTICISM" CultureRateModifier="10" />
 		</Update>
 	</Buildings>
 	<Language_en_US>

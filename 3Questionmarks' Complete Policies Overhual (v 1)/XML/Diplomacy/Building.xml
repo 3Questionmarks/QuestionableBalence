@@ -14,7 +14,7 @@
 			<BuildingClass>BUILDINGCLASS_TCS_CHANCERY</BuildingClass>
 			<Cost>120</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
+			<PrereqTech>TECH_BANKING</PrereqTech>
 			<PolicyBranchType>POLICY_BRANCH_PATRONAGE</PolicyBranchType>
 			<Description>TXT_KEY_BUILDING_TCS_CHANCERY</Description>
 			<Help>TXT_KEY_BUILDING_TCS_CHANCERY_HELP</Help>

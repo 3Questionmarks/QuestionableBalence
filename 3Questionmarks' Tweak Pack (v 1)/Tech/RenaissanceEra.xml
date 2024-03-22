@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/18/2024 7:05:02 PM -->
+<GameData>
+	<!-- Moving Navigation forward a tech -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_NAVIGATION" />
+			<Set>
+				<Cost>780</Cost>
+				<GridX>7</GridX>
+				<GridY>1</GridY>
+				<IconAtlas>ENLIGHTENMENT_TECH_ATLAS</IconAtlas>
+				<PortraitIndex>1</PortraitIndex>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- Now needs Education -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_NAVIGATION</TechType>
+			<PrereqTech>TECH_EDUCATION</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	<!-- Sea Trade Route Extention moved from Compass -->
+	<Technology_TradeRouteDomainExtraRange>
+		<Delete TechType="TECH_COMPASS"/>
+		<Row>
+			<TechType>TECH_NAVIGATION</TechType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Range>10</Range>
+		</Row>
+	</Technology_TradeRouteDomainExtraRange>
+
+	
+	<!-- Moved Acoustics Up vissually -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_ACOUSTICS" />
+			<Set>
+				<GridX>7</GridX>
+				<GridY>2</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+
+	<!-- Added Sovereignty Tech -->
+	<Technologies>
+		<Row>
+			<Type>TECH_SOVEREIGNTY</Type>
+			<Cost>780</Cost>
+			<Description>TXT_KEY_TECH_SOVEREIGNTY_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_SOVEREIGNTY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_SOVEREIGNTY_HELP</Help>
+			<Era>ERA_RENAISSANCE</Era>
+			<Trade>true</Trade>
+			<GridX>7</GridX>
+			<GridY>4</GridY>
+			<Quote>TXT_KEY_TECH_SOVEREIGNTY_QUOTE</Quote>
+			<IconAtlas>ENLIGHTENMENT_TECH_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to it -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_SOVEREIGNTY</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SOVEREIGNTY</TechType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SOVEREIGNTY</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SOVEREIGNTY</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Setting Prereq Techs -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_SOVEREIGNTY</TechType>
+			<PrereqTech>TECH_EDUCATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SOVEREIGNTY</TechType>
+			<PrereqTech>TECH_RELIGIOUS_ORDERS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SOVEREIGNTY</TechType>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Moved Constabulatory (and uniques), Public School (and uniques), Windmill (and uniques), Himeji Castle, and Forbidden Palace to it (done in respective files) -->
+	<!-- Language stuff done in "TechTextChanges" -->
+
+	<!-- Banking no longer needs Education -->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_BANKING</TechType>
+			<PrereqTech>TECH_EDUCATION</PrereqTech>
+		</Delete>
+	</Technology_PrereqTechs>
+
+	
+	<!-- Moving Archaeology forward a tech -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_ARCHAEOLOGY" />
+			<Set>
+				<Cost>1150</Cost>
+				<GridX>8</GridX>
+				<GridY>1</GridY>
+				<Era>ERA_RENAISSANCE</Era>
+			</Set>
+		</Update>
+	</Technologies>
+	<!-- Now needs Acoustics instead of Architecture -->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_ARCHAEOLOGY</TechType>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+		</Delete>
+		<Row>
+			<TechType>TECH_ARCHAEOLOGY</TechType>
+			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+	
+	<!-- Removing the tech prereq for Archaeological Digs to create more space and since it doesn't matter anyway -->
+	<Builds>
+		<Update>
+			<Where Type="BUILD_ARCHAEOLOGY_DIG" />
+			<Set>
+				<PrereqTech></PrereqTech>
+			</Set>
+		</Update>
+	</Builds>
+
+
+	<!-- Added Warships Tech -->
+	<Technologies>
+		<Row>
+			<Type>TECH_WARSHIPS</Type>
+			<Cost>1150</Cost>
+			<Description>TXT_KEY_TECH_WARSHIPS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_WARSHIPS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_WARSHIPS_HELP</Help>
+			<Era>ERA_RENAISSANCE</Era>
+			<Trade>true</Trade>
+			<GridX>8</GridX>
+			<GridY>2</GridY>
+			<Quote>TXT_KEY_TECH_WARSHIPS_QUOTE</Quote>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_DLC_07</IconAtlas>
+			<AudioIntro/>
+			<AudioIntroHeader/>
+		</Row>
+	</Technologies>
+	<!-- AI will actually want to it -->
+	<Technology_Flavors>
+		<Row>
+			<TechType>TECH_WARSHIPS</TechType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Technology_Flavors>
+	<!-- Setting Prereq Techs -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_WARSHIPS</TechType>
+			<PrereqTech>TECH_NAVIGATION</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+		
+	<!-- Moved Frigate (and uniques), Privateer (and uniques), Galleon and National Naval Academey to it (done in respective files) -->
+	<!-- Language stuff done in "TechTextChanges" -->
+
+	<!-- Architecture Needs Sovereignty instead of banking -->
+	<Technology_PrereqTechs>
+		<Delete>
+			<TechType>TECH_ARCHITECTURE</TechType>
+			<PrereqTech>TECH_BANKING</PrereqTech>
+		</Delete>
+		<Row>
+			<TechType>TECH_ARCHITECTURE</TechType>
+			<PrereqTech>TECH_SOVEREIGNTY</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Econimics Needs Sovereignty -->
+	<Technology_PrereqTechs>
+		<Row>
+			<TechType>TECH_ECONOMICS</TechType>
+			<PrereqTech>TECH_SOVEREIGNTY</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<!-- Moving +1 Production to Mines and Quarries to Metallurgy from Chemistry. Increasing Production yield for manufactories to +2 -->
+	<Improvement_TechYieldChanges>
+		<Delete TechType="TECH_CHEMISTRY" ImprovementType="IMPROVEMENT_MINE" />
+		<Delete TechType="TECH_CHEMISTRY" ImprovementType="IMPROVEMENT_QUARRY" />
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<TechType>TECH_METALLURGY</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<TechType>TECH_METALLURGY</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Update>
+			<Set Yield="2" />
+			<Where TechType="TECH_CHEMISTRY" ImprovementType="IMPROVEMENT_MANUFACTORY" />
+		</Update>
+	</Improvement_TechYieldChanges>
+
+	<!-- Moving Metallurgy up -->
+	<Technologies>
+		<Update>
+			<Where Type="TECH_METALLURGY" />
+			<Set>
+				<GridX>8</GridX>
+				<GridY>7</GridY>
+			</Set>
+		</Update>
+	</Technologies>
+
+  
+</GameData>

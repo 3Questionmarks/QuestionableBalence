@@ -9,7 +9,7 @@
 			<BuildingClass>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClass>
 			<Cost>300</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
-			<PrereqTech>TECH_ECONOMICS</PrereqTech>
+			<PrereqTech>TECH_SOVEREIGNTY</PrereqTech>
 			<FaithCost>200</FaithCost>
 			<UnlockedByBelief>true</UnlockedByBelief>
 			<Help>TXT_KEY_BUILDING_SYLLABARY_SCHOOL_HELP</Help>

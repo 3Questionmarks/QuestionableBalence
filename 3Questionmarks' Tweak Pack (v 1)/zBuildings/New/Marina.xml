@@ -13,10 +13,10 @@
 		<Row>
 			<Type>BUILDING_MARINA</Type>
 			<BuildingClass>BUILDINGCLASS_MARINA</BuildingClass>
-			<Cost>360</Cost>
+			<Cost>180</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<FreshWater>true</FreshWater>
-			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<PrereqTech>TECH_CARTOGRAPHY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MARINA</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MARINA_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_MARINA_STRATEGY</Strategy>

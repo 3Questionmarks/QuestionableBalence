@@ -46,7 +46,7 @@
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
 			<Cost>100</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
-			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PrereqTech>TECH_MYSTICISM</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MC_HAWAIIAN_HEIAU</Description>
 			<Civilopedia>TXT_KEY_BUILDING_MC_HAWAIIAN_HEIAU_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_MC_HAWAIIAN_HEIAU_STRATEGY</Strategy>

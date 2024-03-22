@@ -12,9 +12,9 @@
 		<Row>
 			<Type>BUILDING_RANCH</Type>
 			<BuildingClass>BUILDINGCLASS_RANCH</BuildingClass>
-			<Cost>360</Cost>
+			<Cost>420</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
-			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+			<PrereqTech>TECH_ADVANCED_PRODUCTION</PrereqTech>
 			<Description>TXT_KEY_BUILDING_RANCH</Description>
 			<Civilopedia>TXT_KEY_BUILDING_RANCH_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_RANCH_HELP</Help>

@@ -13,5 +13,11 @@
 			<Cost>1</Cost>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
+	<Units>
+		<Update>
+			<Set PrereqTech="TECH_WARSHIPS" />
+			<Where Class ="UNITCLASS_FRIGATE" />
+		</Update>
+	</Units>
   
 </GameData>
