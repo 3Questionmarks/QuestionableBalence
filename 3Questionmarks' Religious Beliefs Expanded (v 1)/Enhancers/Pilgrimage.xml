@@ -12,9 +12,8 @@
     
     <Belief_YieldChangePerForeignCity>
 		<Update>
+			<Where BeliefType="BELIEF_PILGRIMAGE" />
             <Set>
-                <BeliefType>BELIEF_PILGRIMAGE</BeliefType>
-                <YieldType>YIELD_FAITH</YieldType>
                 <Yield>3</Yield>
             </Set>
         </Update>

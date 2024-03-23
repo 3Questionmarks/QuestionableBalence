@@ -28,6 +28,7 @@
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<FreePromotion>PROMOTION_NAVIGATION</FreePromotion>
+			<Water>1</Water>
 		</Row>
 	</Buildings>
 	<Building_ClassesNeededInCity>
@@ -77,10 +78,10 @@
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NAVIGATION_SCHOOL_HELP">
-			<Text>All Naval Units receive the [COLOR_POSITIVE_TEXT]Navigation[ENDCOLOR] Promotion, improving [ICON_MOVES] Movement and Sight by 1.[NEWLINE][NEWLINE]Must have built a Univercity.</Text>
+			<Text>All Naval Units receive the [COLOR_POSITIVE_TEXT]Navigation[ENDCOLOR] Promotion, improving [ICON_MOVES] Movement and Sight by 1.[NEWLINE][NEWLINE]Must have built a University in the city, and the city must be costal.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_NAVIGATION_SCHOOL_STRATEGY">
-			<Text>Build the Navigation School to boost the Science output of your empire whist also granting naval units extra movement and sight. Unlike most of the other national wonders, the Navigation School does not require any buildings to be built in all of a player's cities first. However, it can only be constructed in a city that already has built a University.
+			<Text>Build the Navigation School to boost the Science output of your empire whist also granting naval units extra movement and sight. Unlike most of the other national wonders, the Navigation School does not require any buildings to be built in all of a player's cities first. However, it can only be constructed in a city that already has built a University and in a city that is costal.
 			</Text>
 		</Row>
 	</Language_en_US>

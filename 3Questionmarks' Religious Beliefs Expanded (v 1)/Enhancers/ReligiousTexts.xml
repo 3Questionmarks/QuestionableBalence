@@ -9,13 +9,11 @@
 	</Beliefs>
     
     <Belief_YieldChangePerForeignCity>
-		<Update>
-            <Set>
-                <BeliefType>BELIEF_RELIGIOUS_TEXTS</BeliefType>
-                <YieldType>YIELD_FAITH</YieldType>
-                <Yield>3</Yield>
-            </Set>
-        </Update>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_TEXTS</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
 	</Belief_YieldChangePerForeignCity>
 
 	<Language_en_US>
