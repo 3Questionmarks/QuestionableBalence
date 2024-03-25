@@ -13,7 +13,7 @@
 	<BuildingClasses>
 		<Row>
 			<Type>BUILDINGCLASS_AQUARIUM</Type>
-			<DefaultBuilding>BUILDING_NAQUARIUM</DefaultBuilding>
+			<DefaultBuilding>BUILDING_AQUARIUM</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_AQUARIUM</Description>
 		</Row>
 	</BuildingClasses>

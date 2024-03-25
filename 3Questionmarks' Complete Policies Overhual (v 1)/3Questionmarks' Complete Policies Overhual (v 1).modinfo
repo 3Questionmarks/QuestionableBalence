@@ -87,7 +87,7 @@
     <File md5="0724D7DC12DAF7EB0A650CB0F69211D8" import="0">XML/Diplomacy/Policies.xml</File>
     <File md5="1F53E19F84717E894903BA28CC172E2E" import="0">XML/Diplomacy/Units.xml</File>
     <File md5="3E45CE03376F7001D48EEB82DF50D3AD" import="0">XML/Empire/Building.xml</File>
-    <File md5="364780B03BB0FAF613AD95B7355A4E05" import="0">XML/Empire/Policies.xml</File>
+    <File md5="71603D18FD8CCF017EF7675E0CF7C457" import="0">XML/Empire/Policies.xml</File>
     <File md5="71D39CF25C7E291A0BE22A732E9072F1" import="0">XML/Empire/Units.xml</File>
     <File md5="F2998C0A1ED89841689E62A65F7982C0" import="0">XML/Feudalism/ART/CondottieriArtDefines.sql</File>
     <File md5="6CB1C02FD7D8A166FEF34D4AAFBF7F4E" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_1_sref.dds</File>

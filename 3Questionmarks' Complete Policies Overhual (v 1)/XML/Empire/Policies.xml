@@ -529,12 +529,7 @@
 		<Row>
 			<PolicyType>POLICY_COLONIZATION</PolicyType>
 			<UnitClassType>UNITCLASS_CONQUISTADOR</UnitClassType>
-			<Count>1</Count>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_COLONIZATION</PolicyType>
-			<UnitClassType>UNITCLASS_CONQUISTADOR</UnitClassType>
-			<Count>1</Count>
+			<Count>2</Count>
 		</Row>
 	</Policy_FreeUnitClasses>
 	<Policy_PrereqPolicies>

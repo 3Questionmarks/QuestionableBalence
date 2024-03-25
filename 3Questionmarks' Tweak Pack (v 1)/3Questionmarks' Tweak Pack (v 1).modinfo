@@ -656,7 +656,7 @@
     <File md5="D9257BBAD9299935BEE3C22850C0BF84" import="0">Tech/NoTechTreeBeelining.lua</File>
     <File md5="E86CB56247ACF578CD2EB9D1019AB83E" import="0">Tech/RenaissanceEra.xml</File>
     <File md5="3044012A0EAF3DBE32F322D2BFEBCE34" import="0">Tech/SlowerTech.xml</File>
-    <File md5="255BFB845E2A888EB7907FD5868B1E43" import="0">Tech/TechTextChanges.xml</File>
+    <File md5="FEC8E7783C889202E6DB3030DE223AAC" import="0">Tech/TechTextChanges.xml</File>
     <File md5="A53A6FCE8D3FEF0FCCC3F69521CE6E36" import="0">Terrain/BadTilesTweak.xml</File>
     <File md5="967D0721E44BD4B09B5249EEDB178391" import="0">Terrain/chopjungle.sql</File>
     <File md5="5AE865C8E270D4AB1C5A25A3B6F5B937" import="0">Terrain/CopperBuff.xml</File>
@@ -807,7 +807,7 @@
     <File md5="0F8C0C049AE0F9FB32BBE96905DF68CC" import="1">Wonders/New/ART/NWAtlas64.dds</File>
     <File md5="41429FC8CCAD393A2B059B4F60F5E692" import="1">Wonders/New/ART/NWAtlas80.dds</File>
     <File md5="3E9DC2E6F7C7C0E4DBE43A1C1AA3856B" import="0">Wonders/New/ART/NW_IconAtlas.sql</File>
-    <File md5="440AD2E61C157A49C65A7B32FDF4D6E8" import="0">Wonders/New/CenterForDiseaseControl.xml</File>
+    <File md5="B5D2A6D299E556212A96C3DF4989A028" import="0">Wonders/New/CenterForDiseaseControl.xml</File>
     <File md5="92BF3A437C6CEE07D292481807708079" import="0">Wonders/New/FortKnox.xml</File>
     <File md5="A0FFE01F6D4050FD22B3D7E86BB1C652" import="0">Wonders/New/HadronCollider.xml</File>
     <File md5="F690C6AB447E56E9BB7672DB74FAB69F" import="0">Wonders/New/KeldurHall.xml</File>
@@ -852,7 +852,7 @@
     <File md5="C58291937C22275053AE39E66D5CD3D4" import="0">zBuildings/MilitaryAcademyChanges.xml</File>
     <File md5="20A4B39B4BD293913D148A3C51823657" import="0">zBuildings/MonumentChanges.xml</File>
     <File md5="2A6C7A0A78082329FA5E1258B62FEA16" import="0">zBuildings/New/Apothecary.xml</File>
-    <File md5="9BCFFA2D42106CA19892CE0FC7FC5ACA" import="0">zBuildings/New/Aquarium.xml</File>
+    <File md5="4BE59AB70FF6AFDC40832B492582060A" import="0">zBuildings/New/Aquarium.xml</File>
     <File md5="F5C7E12EADEAB3B45FBE07510FB1AEE2" import="1">zBuildings/New/ART/mod_atlas_128.dds</File>
     <File md5="1EF1C861F9B9EC3A7AECED455A0A684A" import="1">zBuildings/New/ART/mod_atlas_256.dds</File>
     <File md5="C7DA9485B34311AD9F06C42220335FEA" import="1">zBuildings/New/ART/mod_atlas_45.dds</File>
@@ -868,7 +868,7 @@
     <File md5="46F27144AF287779EF5B6BC96E8834AE" import="0">zBuildings/New/Alchemist.xml</File>
     <File md5="A99D201F96FDFBB6B266FDF4EB9C510B" import="0">zBuildings/New/NuclearTestFacility.xml</File>
     <File md5="AECDB4FB7F5F43B2D114E3D658C207DC" import="0">zBuildings/New/Racing Course.xml</File>
-    <File md5="00A50CC5F859B2E2287D765466406C35" import="0">zBuildings/New/School of Equestrian Art.xml</File>
+    <File md5="DE67EA8A7620C07C0F0FBC5E40434689" import="0">zBuildings/New/School of Equestrian Art.xml</File>
     <File md5="EA9206502821170554179F831C0F7419" import="0">zBuildings/New/Steel Mill.xml</File>
     <File md5="8DDB1198C920CADB64C45F3A19C726D9" import="0">zBuildings/New/TextileMill.xml</File>
     <File md5="E88D0860F5518E0D4B8193837048AFBC" import="0">zBuildings/New/Grocer.xml</File>

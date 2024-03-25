@@ -618,7 +618,7 @@
 		<!-- Penicilin -->
 		<Delete Tag="TXT_KEY_TECH_PENICILIN_HELP"/>
 		<Row Tag="TXT_KEY_TECH_PENICILIN_HELP">
-			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Infantry[ENDCOLOR], a basic late-game Land Unit as well as the [COLOR_POSITIVE_TEXT]Marine[ENDCOLOR], a specilised version of the Infantry that excells in amphibious assaults. Also allows you to build the [COLOR_BUILDING_TEXT]Medical Lab[ENDCOLOR], a building which speeds the [ICON_FOOD] growth of your Cities. Also allows for the [COLOR_CULTURE_STORED]establisment of an additional [ICON_INTERNATIONAL_TRADE] Trade Route[ENDCOLOR].</Text>
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Infantry[ENDCOLOR], a basic late-game Land Unit as well as the [COLOR_POSITIVE_TEXT]Marine[ENDCOLOR], a specilised version of the Infantry that excells in amphibious assaults. Also allows you to build the [COLOR_BUILDING_TEXT]Medical Lab[ENDCOLOR], a building which speeds the [ICON_FOOD] growth of your Cities. Also allows for the construction of the [COLOR_CITY_GREEN]Center for Disease Control[ENDCOLOR] national wonder. Additionally, allows for the [COLOR_CULTURE_STORED]establisment of an additional [ICON_INTERNATIONAL_TRADE] Trade Route[ENDCOLOR].</Text>
 		</Row>
 
 		<!-- Computers -->
@@ -642,7 +642,7 @@
 		<!-- Ecology -->
 		<Delete Tag="TXT_KEY_TECH_ECOLOGY_HELP"/>
 		<Row Tag="TXT_KEY_TECH_ECOLOGY_HELP">
-			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Aquarium[ENDCOLOR], which increases the [ICON_HAPPINESS_1] Happiness and [ICON_RESEARCH] Science of cities; and the [COLOR_BUILDING_TEXT]Recycling Center[ENDCOLOR], which provides bonus [ICON_RES_ALUMINUM] [COLOR_WHITE]Aluminum[ENDCOLOR]. Also allows for the construction of the [COLOR_CITY_GREEN]Center for Disease Control[ENDCOLOR] national wonder.</Text>
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Aquarium[ENDCOLOR], which increases the [ICON_HAPPINESS_1] Happiness and [ICON_RESEARCH] Science of cities; and the [COLOR_BUILDING_TEXT]Recycling Center[ENDCOLOR], which provides bonus [ICON_RES_ALUMINUM] [COLOR_WHITE]Aluminum[ENDCOLOR]. Additionally, [COLOR_CULTURE_STORED]increases the [ICON_PRODUCTION] Production of[ENDCOLOR] [COLOR_YIELD_GOLD]Deep Sea Mining Platforms[ENDCOLOR][COLOR_CULTURE_STORED] and the [ICON_PRODUCTION] Production and [ICON_GOLD] Gold of [ENDCOLOR] [COLOR_YIELD_GOLD]Offshore Platforms[ENDCOLOR][COLOR_CULTURE_STORED] by 2[ENDCOLOR].</Text>
 		</Row>
 
 		<!-- New Tech "Metropolism" -->
@@ -655,7 +655,7 @@
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_METROPOLISM_HELP">
-			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Solar Plant[ENDCOLOR], a building which may only be built in Cities on or next to Desert, and increases [ICON_PRODUCTION] Production. Also allows for the construction of the [COLOR_CITY_GREEN]School of Equestrian Art[ENDCOLOR] national wonder.  Additionally, [COLOR_CULTURE_STORED]increases the [ICON_RESEARCH] Science of[ENDCOLOR] [COLOR_YIELD_GOLD]Farms[ENDCOLOR][COLOR_CULTURE_STORED] by 1[ENDCOLOR].</Text>
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Solar Plant[ENDCOLOR], a building which may only be built in Cities on or next to Desert, and increases [ICON_PRODUCTION] Production. Also allows for the construction of the [COLOR_CITY_GREEN]School of Equestrian Art[ENDCOLOR] national wonder. Additionally, [COLOR_CULTURE_STORED]increases the [ICON_RESEARCH] Science of[ENDCOLOR] [COLOR_YIELD_GOLD]Farms[ENDCOLOR][COLOR_CULTURE_STORED] by 1[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_METROPOLISM_QUOTE">
 			<Text>[NEWLINE][TAB][TAB]"This City is what it is because our citizens are what they are.   -Plato[NEWLINE][TAB]</Text>

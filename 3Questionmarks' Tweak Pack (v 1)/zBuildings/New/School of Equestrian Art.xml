@@ -23,7 +23,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<NukeImmune>true</NukeImmune>
 			<NeverCapture>true</NeverCapture>
-			<EnhancedYieldTech>TECH_ECOLOGY</EnhancedYieldTech>
+			<EnhancedYieldTech>TECH_METROPOLISM</EnhancedYieldTech>
 			<TechEnhancedTourism>2</TechEnhancedTourism>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>MOD_ICON_ATLAS</IconAtlas>
