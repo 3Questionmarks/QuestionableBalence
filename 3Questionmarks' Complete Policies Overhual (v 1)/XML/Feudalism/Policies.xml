@@ -72,7 +72,7 @@
 				<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
 			</Where>
 			<Set>
-				<Yield>5</Yield>
+				<Yield>3</Yield>
 			</Set>
 		</Update>
 	</Policy_ImprovementYieldChanges>
@@ -100,11 +100,11 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_PIETY_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR] focuses on expanding ones [ICON_RELIGION] Religion and on growing the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR] provides +50% [ICON_PRODUCTION] Production when constructing a Shrine or Temple. Additionally you gain 75 [ICON_TOURISM] Tourism with all known civiliations when a [ICON_PROPHET] Great Prophet is born and 10 [ICON_TOURISM] Tourism when a [ICON_MISSIONARY] Missionary or a [ICON_INQUISITOR] Inquisitor is born. Also unlocks building [COLOR_BUILDING_TEXT]Parochial Schools[ENDCOLOR] and the [COLOR_CITY_GREEN]Great Mosque of Djenne[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies of Feudalism causes two free [ICON_PROPHET] Great Prophets to appear and [COLOR_YIELD_GOLD]Holy Sites[ENDCOLOR] to yield +5 [ICON_CULTURE] Culture. Additionally Shrines will yield +2 [ICON_CULTURE] Culture, Temples will yield +3 [ICON_CULTURE] Culture, the Grand Temple will yield +5 [ICON_CULTURE] Culture, and the wonders Borobudur and Stonehenge will yield +10 [ICON_CULTURE] Culture." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR] focuses on expanding ones [ICON_RELIGION] Religion and on growing the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR] provides +50% [ICON_PRODUCTION] Production when constructing a Shrine or Temple. Additionally you gain 75 [ICON_TOURISM] Tourism with all known civiliations when a [ICON_PROPHET] Great Prophet is born and 10 [ICON_TOURISM] Tourism when a [ICON_MISSIONARY] Missionary or a [ICON_INQUISITOR] Inquisitor is born. Also unlocks building [COLOR_BUILDING_TEXT]Parochial Schools[ENDCOLOR] and the [COLOR_CITY_GREEN]Great Mosque of Djenne[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies of Feudalism causes two free [ICON_PROPHET] Great Prophets to appear and [COLOR_YIELD_GOLD]Holy Sites[ENDCOLOR] to yield +3 [ICON_CULTURE] Culture. Additionally Shrines will yield +2 [ICON_CULTURE] Culture, Temples will yield +3 [ICON_CULTURE] Culture, the Grand Temple will yield +5 [ICON_CULTURE] Culture, and the wonders Borobudur and Stonehenge will yield +10 [ICON_CULTURE] Culture." />
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP" />
-			<Set Text="[COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR] focuses on expanding ones [ICON_RELIGION] Religion and on growing the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR] provides +50% [ICON_PRODUCTION] Production when constructing a Shrine or Temple. Additionally you gain 75 [ICON_TOURISM] Tourism with all known civiliations when a [ICON_PROPHET] Great Prophet is born and 10 [ICON_TOURISM] Tourism when a [ICON_MISSIONARY] Missionary or a [ICON_INQUISITOR] Inquisitor is born. Also unlocks building [COLOR_BUILDING_TEXT]Parochial Schools[ENDCOLOR] and the [COLOR_CITY_GREEN]Great Mosque of Djenne[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies of Feudalism causes two free [ICON_PROPHET] Great Prophets to appear and [COLOR_YIELD_GOLD]Holy Sites[ENDCOLOR] to yield +5 [ICON_CULTURE] Culture. Additionally Shrines will yield +2 [ICON_CULTURE] Culture, Temples will yield +3 [ICON_CULTURE] Culture, the Grand Temple will yield +5 [ICON_CULTURE] Culture, and the wonders Borobudur and Stonehenge will yield +10 [ICON_CULTURE] Culture." />
+			<Set Text="[COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR] focuses on expanding ones [ICON_RELIGION] Religion and on growing the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Adopting [COLOR_POSITIVE_TEXT]Feudalism[ENDCOLOR] provides +50% [ICON_PRODUCTION] Production when constructing a Shrine or Temple. Additionally you gain 75 [ICON_TOURISM] Tourism with all known civiliations when a [ICON_PROPHET] Great Prophet is born and 10 [ICON_TOURISM] Tourism when a [ICON_MISSIONARY] Missionary or a [ICON_INQUISITOR] Inquisitor is born. Also unlocks building [COLOR_BUILDING_TEXT]Parochial Schools[ENDCOLOR] and the [COLOR_CITY_GREEN]Great Mosque of Djenne[ENDCOLOR].[NEWLINE][NEWLINE]Adopting all the policies of Feudalism causes two free [ICON_PROPHET] Great Prophets to appear and [COLOR_YIELD_GOLD]Holy Sites[ENDCOLOR] to yield +3 [ICON_CULTURE] Culture. Additionally Shrines will yield +2 [ICON_CULTURE] Culture, Temples will yield +3 [ICON_CULTURE] Culture, the Grand Temple will yield +5 [ICON_CULTURE] Culture, and the wonders Borobudur and Stonehenge will yield +10 [ICON_CULTURE] Culture." />
 		</Update>
 	</Language_en_US>
 	
@@ -417,7 +417,7 @@
 			<PolicyType>POLICY_HOLYCITY</PolicyType>
 			<ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>3</Yield>
+			<Yield>2</Yield>
 		</Row>
         <Row>
 			<PolicyType>POLICY_HOLYCITY</PolicyType>
@@ -456,7 +456,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_POLICY_HOLYCITY_HELP</Tag>
-			<Text>[COLOR_POSITIVE_TEXT]Holy city[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold and +1 [ICON_PEACE] Faith for every 2 [ICON_CITIZEN] Citizens of the [ICON_CAPITAL] Capital City.[NEWLINE]+10% [ICON_FOOD] Growth in the [ICON_CAPITAL] Capital.[NEWLINE]+3 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold, and +1 [ICON_FOOD] Food from [COLOR_YIELD_GOLD]Holy Sites[ENDCOLOR].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Holy city[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold and +1 [ICON_PEACE] Faith for every 2 [ICON_CITIZEN] Citizens of the [ICON_CAPITAL] Capital City.[NEWLINE]+10% [ICON_FOOD] Growth in the [ICON_CAPITAL] Capital.[NEWLINE]+2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold, and +1 [ICON_FOOD] Food from [COLOR_YIELD_GOLD]Holy Sites[ENDCOLOR].</Text>
 		</Row>
 	</Language_en_US>
 	

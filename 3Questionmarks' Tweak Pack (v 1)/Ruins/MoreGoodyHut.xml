@@ -1,54 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Tomatekh -->
 <GameData>
+	
+	<!--
 	<HandicapInfo_Goodies>
-		<!-- -->
+		<Row>
+			<HandicapType>HANDICAP_SETTLER</HandicapType>
+			<GoodyType>GOODY_MAP</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_CHIEFTAIN</HandicapType>
+			<GoodyType>GOODY_MAP</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_WARLORD</HandicapType>
+			<GoodyType>GOODY_MAP</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_PRINCE</HandicapType>
+			<GoodyType>GOODY_MAP</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_KING</HandicapType>
+			<GoodyType>GOODY_MAP</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_EMPEROR</HandicapType>
+			<GoodyType>GOODY_MAP</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
+			<GoodyType>GOODY_MAP</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_DEITY</HandicapType>
+			<GoodyType>GOODY_MAP</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
+			<GoodyType>GOODY_MAP</GoodyType>
+		</Row>
+	</HandicapInfo_Goodies>
+		-->
+
+	<!-- Map Ruin -->
+	<!-- Combined with Barb Camp ruin and added a nearby resource reveal -->
+	<GoodyHuts>
+		<Update>
+			<Where Type="GOODY_MAP"/>
+			<Set MapRange="7" RevealUnknownResource="true" RevealNearbyBarbariansRange="10" />
+		</Update>
+	</GoodyHuts>
+
+	<!-- Barb Camp Ruin -->
+	<!-- Removed (combined with Map ruin)-->
+	<HandicapInfo_Goodies>
+		<Delete GoodyType="GOODY_REVEAL_NEARBY_BARBS"/>
+	</HandicapInfo_Goodies>
+
+	<!-- Tech Ruin -->
+	
+	<!-- Pop Ruin -->
+		
+	<!-- Upgrade Ruin -->
+	
+	<!-- Gold Ruin -->
+	<GoodyHuts>
+		<Update>
+			<Where Type="GOODY_GOLD"/>
+			<Set Gold="100" />
+		</Update>
+		<Update>
+			<Where Type="GOODY_LOW_GOLD"/>
+			<Set Gold="100" />
+		</Update>
+		<Update>
+			<Where Type="GOODY_HIGH_GOLD"/>
+			<Set Gold="150" />
+		</Update>
+	</GoodyHuts>
+
+	<!-- Culture Ruin -->
+	
+	<!-- Pantheon Faith Ruin -->
+	
+	<!-- Religion Faith Ruin -->
+	
+	<!-- Settler Ruin -->
+	<!-- Added to Cheiftain -->
+	<HandicapInfo_Goodies>
+		<Row>
+			<HandicapType>HANDICAP_CHIEFTAIN</HandicapType>
+			<GoodyType>GOODY_SETTLER</GoodyType>
+		</Row>
+	</HandicapInfo_Goodies>
+	
+	<!-- Worker Ruin -->
+	<!-- Added to All dificulties -->
+	<HandicapInfo_Goodies>
 		<Row>
 			<HandicapType>HANDICAP_CHIEFTAIN</HandicapType>
 			<GoodyType>GOODY_WORKER</GoodyType>
 		</Row>
 		<Row>
-			<HandicapType>HANDICAP_CHIEFTAIN</HandicapType>
-			<GoodyType>GOODY_SETTLER</GoodyType>
-		</Row>
-		<!-- -->
-		<Row>
-			<HandicapType>HANDICAP_SETTLER</HandicapType>
-			<GoodyType>GOODY_HEALING</GoodyType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_CHIEFTAIN</HandicapType>
-			<GoodyType>GOODY_HEALING</GoodyType>
-		</Row>
-		<Row>
 			<HandicapType>HANDICAP_WARLORD</HandicapType>
-			<GoodyType>GOODY_HEALING</GoodyType>
+			<GoodyType>GOODY_WORKER</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_PRINCE</HandicapType>
-			<GoodyType>GOODY_HEALING</GoodyType>
+			<GoodyType>GOODY_WORKER</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_KING</HandicapType>
-			<GoodyType>GOODY_HEALING</GoodyType>
+			<GoodyType>GOODY_WORKER</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_EMPEROR</HandicapType>
-			<GoodyType>GOODY_HEALING</GoodyType>
+			<GoodyType>GOODY_WORKER</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
-			<GoodyType>GOODY_HEALING</GoodyType>
+			<GoodyType>GOODY_WORKER</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_DEITY</HandicapType>
-			<GoodyType>GOODY_HEALING</GoodyType>
+			<GoodyType>GOODY_WORKER</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
-			<GoodyType>GOODY_HEALING</GoodyType>
+			<GoodyType>GOODY_WORKER</GoodyType>
 		</Row>
-		<!-- -->
+	</HandicapInfo_Goodies>
+
+	<!-- (New) Training, Unit that discovers it gains +20xp and fully heals -->
+	<HandicapInfo_Goodies>
 		<Row>
 			<HandicapType>HANDICAP_SETTLER</HandicapType>
 			<GoodyType>GOODY_EXPERIENCE</GoodyType>
@@ -85,94 +170,56 @@
 			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
 			<GoodyType>GOODY_EXPERIENCE</GoodyType>
 		</Row>
-		<!-- -->
+	</HandicapInfo_Goodies>
+	<GoodyHuts>
+		<Update>
+			<Where Type="GOODY_EXPERIENCE"/>
+			<Set Healing="100" Experience="20" />
+		</Update>
+	</GoodyHuts>
+
+	<!-- (New) Warrior Ruin Gain a free warrior -->
+	<HandicapInfo_Goodies>
 		<Row>
 			<HandicapType>HANDICAP_SETTLER</HandicapType>
-			<GoodyType>GOODY_REVEAL_RESOURCE</GoodyType>
+			<GoodyType>GOODY_WARRIOR</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_CHIEFTAIN</HandicapType>
-			<GoodyType>GOODY_REVEAL_RESOURCE</GoodyType>
+			<GoodyType>GOODY_WARRIOR</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_WARLORD</HandicapType>
-			<GoodyType>GOODY_REVEAL_RESOURCE</GoodyType>
+			<GoodyType>GOODY_WARRIOR</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_PRINCE</HandicapType>
-			<GoodyType>GOODY_REVEAL_RESOURCE</GoodyType>
+			<GoodyType>GOODY_WARRIOR</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_KING</HandicapType>
-			<GoodyType>GOODY_REVEAL_RESOURCE</GoodyType>
+			<GoodyType>GOODY_WARRIOR</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_EMPEROR</HandicapType>
-			<GoodyType>GOODY_REVEAL_RESOURCE</GoodyType>
+			<GoodyType>GOODY_WARRIOR</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
-			<GoodyType>GOODY_REVEAL_RESOURCE</GoodyType>
+			<GoodyType>GOODY_WARRIOR</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_DEITY</HandicapType>
-			<GoodyType>GOODY_REVEAL_RESOURCE</GoodyType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
-			<GoodyType>GOODY_REVEAL_RESOURCE</GoodyType>
-		</Row>
-		<!-- -->
-		<Row>
-			<HandicapType>HANDICAP_SETTLER</HandicapType>
-			<GoodyType>GOODY_SCOUT</GoodyType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_CHIEFTAIN</HandicapType>
-			<GoodyType>GOODY_SCOUT</GoodyType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_WARLORD</HandicapType>
-			<GoodyType>GOODY_SCOUT</GoodyType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_PRINCE</HandicapType>
-			<GoodyType>GOODY_SCOUT</GoodyType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
-			<GoodyType>GOODY_SCOUT</GoodyType>
-		</Row>
-		<!-- -->
-		<Row>
-			<HandicapType>HANDICAP_SETTLER</HandicapType>
-			<GoodyType>GOODY_WARRIOR</GoodyType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_CHIEFTAIN</HandicapType>
-			<GoodyType>GOODY_WARRIOR</GoodyType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_WARLORD</HandicapType>
-			<GoodyType>GOODY_WARRIOR</GoodyType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_PRINCE</HandicapType>
-			<GoodyType>GOODY_WARRIOR</GoodyType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_KING</HandicapType>
-			<GoodyType>GOODY_WARRIOR</GoodyType>
-		</Row>
-		<Row>
-			<HandicapType>HANDICAP_EMPEROR</HandicapType>
 			<GoodyType>GOODY_WARRIOR</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
 			<GoodyType>GOODY_WARRIOR</GoodyType>
 		</Row>
-		<!-- -->
+	</HandicapInfo_Goodies>
+	
+	<!-- (New) Trap ruin (scouting units are immune) -->
+	<HandicapInfo_Goodies>
 		<Row>
 			<HandicapType>HANDICAP_PRINCE</HandicapType>
 			<GoodyType>GOODY_BARBARIANS_WEAK</GoodyType>
@@ -204,37 +251,12 @@
 			<GoodyType>GOODY_BARBARIANS_STRONG</GoodyType>
 		</Row>
 		-->
-		<!-- -->
 	</HandicapInfo_Goodies>
-	<GoodyHuts>
-		<Update>
-			<Where Type="GOODY_HEALING"/>
-			<Set>
-				<DamagePrereq>50</DamagePrereq>
-			</Set>
-		</Update>
-		<Update>
-			<Where Type="GOODY_EXPERIENCE"/>
-			<Set>
-				<Experience>20</Experience>
-			</Set>
-		</Update>
-	</GoodyHuts>
 	<Improvements>
 		<Update>
 			<Set TilesPerGoody="20"/>
 			<Where Type="IMPROVEMENT_GOODY_HUT"/>
 		</Update>
 	</Improvements>
-	<Language_en_US>
-		<Update>
-			<Where Tag="TXT_KEY_GOODY_CHOOSE_REVEAL_RESOURCE"/>
-			<Set Text="Ask for directions to a nearby resource."/>
-		</Update>
-		<Update>
-			<Where Tag="TXT_KEY_GOODY_REVEAL_RESOURCE"/>
-			<Set Text="You find crudely-drawn maps which lead you to the location of an unknown resource! (You will still need to learn the proper technology to utilize the new resource)."/>
-		</Update>
-	</Language_en_US>
 	
 </GameData>

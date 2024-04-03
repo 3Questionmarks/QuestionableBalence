@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/3/2024 9:06:19 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COTHON">
+			<Text>Cothon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COTHON_HELP">
+			<Text>+1 [ICON_GOLD] Gold from water tiles, and +1 [ICON_CULTURE] Culture and [ICON_GOLD] Gold from Sea Resources worked by this city.[NEWLINE][NEWLINE]Forms a [ICON_CONNECTED] City Connection with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land). Sea trade routes originating from this city have a 50% increase in range and produce an additional 1 [ICON_GOLD] Gold when connecting to another civilization.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_COTHON_STRATEGY">
+			<Text>The Cothon is Dido's unique building, replacing the Harbour. In addition to its regular abilities, the also increases the [ICON_GOLD] Gold and [ICON_CULTURE] Culture output of Sea Resources worked by the city. Use it to vastly increase a costal cities [ICON_GOLD] Gold and [ICON_CULTURE] Culture output.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_COTHON_TEXT">
+			<Text>A cothon is an artificial, protected inner harbor such as that in Carthage during the Punic Wars c.200 BC. The cothon at Carthage was divided into a rectangular merchant harbor followed by an inner protected harbor reserved for military use only. This inner harbor was circular and surrounded by an outer ring of structures divided into a series of docking bays for ship maintenance, along with an island structure at its centre that also housed navy ships. Each individual docking bay featured a raised slipway. Above the raised docking bays was a second level consisting of warehouses where oars and rigging were kept along with supplies such as wood and canvas. On the island structure there existed a raised 'cabin' where the admiral in command could observe the whole harbor along with the surrounding sea. Altogether the inner docking complex could house up to 220 ships. The entire harbor was protected by an outer wall and the main entrance could be closed off with iron chains.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

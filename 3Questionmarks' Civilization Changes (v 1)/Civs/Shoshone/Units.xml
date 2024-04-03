@@ -23,5 +23,9 @@
 			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
 			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+		</Row>
 	</Unit_FreePromotions>
 </GameData>

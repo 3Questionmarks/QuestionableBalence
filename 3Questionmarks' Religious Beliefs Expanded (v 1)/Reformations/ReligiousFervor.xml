@@ -64,6 +64,18 @@
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_FERVOR</BeliefType>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_FERVOR</BeliefType>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_FERVOR</BeliefType>
 			<ImprovementType>IMPROVEMENT_WELL</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
@@ -130,6 +142,18 @@
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_RELIGIOUS_FERVOR</BeliefType>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_FERVOR</BeliefType>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_FERVOR</BeliefType>
 			<ImprovementType>IMPROVEMENT_WELL</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
@@ -139,7 +163,7 @@
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_FERVOR" />
 		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_FERVOR">
-			<Text>+2 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture from Farms, Mines, Camps, Pastures, Plantations, Quarries, Fishing Boats, Trading Posts, Oil Wells and Forts</Text>
+			<Text>+2 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture from Farms, Mines, Camps, Pastures, Plantations, Quarries, Fishing Boats, Villages, Towns, Large Towns, Oil Wells and Forts</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

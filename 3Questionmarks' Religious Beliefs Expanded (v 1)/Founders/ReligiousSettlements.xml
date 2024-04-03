@@ -39,7 +39,7 @@
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS" />
 		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS">
-			<Text>The [ICON_CULTURE] Culutre cost to grow to new tile is reduced by 50% and cities that you own provide +3 [ICON_PEACE] Faith. Newly trained settler units recive +1 [ICON_MOVES] Movement and Sight.</Text>
+			<Text>The [ICON_CULTURE] Culutre cost to grow to new tiles is reduced by 50% and cities that you own provide +3 [ICON_PEACE] Faith. Newly trained settler units recive +1 [ICON_MOVES] Movement and Sight.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RELIGIOUS_SETTLEMENTS">
 			<Text>Religious Settlements</Text>

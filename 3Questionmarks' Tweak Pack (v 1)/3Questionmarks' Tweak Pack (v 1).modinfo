@@ -32,7 +32,8 @@
     <File md5="5EF6510488F38EC0CB99370D91E2BA48" import="0">GameplayChanges/EspionageChanges.xml</File>
     <File md5="0C94D32FFEAA167FEDB7E26115451731" import="0">GameplayChanges/ExtraHappinessPerLuxury.xml</File>
     <File md5="961B77C345936677B3AF3D47A1D06A73" import="0">GameplayChanges/FasterPolocies.xml</File>
-    <File md5="8257E75C2CBAD69DF4661DE835C6888D" import="0">GameplayChanges/FlatlandCityExtraFood.xml</File>
+    <File md5="38BC34D0197F1645CEA5FEB0E8E6ADFB" import="0">GameplayChanges/FlatlandCityExtraFood.xml</File>
+    <File md5="7E8A96E4F43645095900913A1FD44055" import="0">GameplayChanges/FoodFlatlandCity.lua</File>
     <File md5="89E0D9AE0C1D92E617548F9A7C48CBC6" import="0">GameplayChanges/FreshwaterFarmBonus.xml</File>
     <File md5="EB670D07A5E2BDA018C3C2DEE0134D87" import="0">GameplayChanges/IdeologyTriggerChanges.xml</File>
     <File md5="77BDAE701D50EE00647587C6419B5D31" import="0">GameplayChanges/InlandSeaChanges.xml</File>
@@ -592,7 +593,7 @@
     <File md5="B321ACD3AD39F84768CB11DD3ABCDCC3" import="0">NewResources/Hardwood/Unit.xml</File>
     <File md5="43C0DAC6D0E4BDD6C365347C549F1E37" import="0">Projects/ApolloProgramChanges.xml</File>
     <File md5="9F1FECD1D4E4FC1480CF2F762E85B547" import="0">Projects/ManhattanProjectChanges.xml</File>
-    <File md5="ABFD3FC29D8A487B2788BD85A1014BBF" import="0">Ruins/MoreGoodyHut.xml</File>
+    <File md5="63940D21AE856AAD4AB631EDC9EA28D8" import="0">Ruins/MoreGoodyHut.xml</File>
     <File md5="A3EAB3F778B6CC72CF3CE44D1A9DDEA2" import="0">Shared/NoFreeFloatingGuardensWhenLUACallsAMissingBuilding.xml</File>
     <File md5="2BF649C76A1685527B9EC6BC56A3EB1D" import="0">Shared/Unit Created (v 5)/Promotion_Created.xml</File>
     <File md5="E3AB73844886B35F4B78A604FA2D13D2" import="0">Shared/Unit Created (v 5)/SerialEventUnitCreatedGood.lua</File>
@@ -792,7 +793,7 @@
     <File md5="3D9CEE27B793F3E1CB354BAB4524B0D2" import="0">Wonders/NationalCollageChanges.xml</File>
     <File md5="A09F9174D33B3E72782FC075C1C5E53A" import="0">Wonders/NationalIntelligenceAgency.xml</File>
     <File md5="CF0483054FCD00C46E74E35A7D232E00" import="0">Wonders/NationalTouristCenterChanges.xml</File>
-    <File md5="8E1D99A9506D5ED35EFF009832A7E98D" import="0">Wonders/NaturalWonderChanges.xml</File>
+    <File md5="250BE55110CCF9C2BC3B1826F673369E" import="0">Wonders/NaturalWonderChanges.xml</File>
     <File md5="B4A5B58F148A34A40B365735EA3D4D6C" import="0">Wonders/NeuschwansteinChanges.xml</File>
     <File md5="A5EA98BC37F2A579740985E7AB9AAA53" import="0">Wonders/New/ART/KeldurHall_IconTextureAtlases.xml</File>
     <File md5="532957F3BC13E93E5FF317AF2FDEEFA3" import="1">Wonders/New/ART/Keldur_Hall_icon128.dds</File>
@@ -888,7 +889,7 @@
     <File md5="97120F8FC82C98F1127CD130F64710F9" import="0">zBuildings/CaravansaryChanges.xml</File>
     <File md5="F855EE51C70187B12BFCC78212A37C01" import="0">zBuildings/CourthouseChanges.xml</File>
     <File md5="8CADA94A3635166EC275587300412BEE" import="0">zBuildings/GranaryChanges.xml</File>
-    <File md5="4B80C98BF311AA90B2208C0387C47457" import="0">zBuildings/HarborChanges.xml</File>
+    <File md5="ADFC9919067BE4DF01AF06577BB10AF9" import="0">zBuildings/HarborChanges.xml</File>
     <File md5="D6B413AB3BAD86A4A79E737B8D10CD4E" import="0">zBuildings/LibaryChanges.xml</File>
     <File md5="EC65F50CB1E54C7EA4EEF9D5F7287BAC" import="0">zBuildings/LighthouseChanges.xml</File>
     <File md5="B901629BAB3E8289896FDA9D2EEF6DC3" import="0">zBuildings/MarketChanges.xml</File>
@@ -1379,6 +1380,10 @@
     <EntryPoint type="InGameUIAddin" file="GameplayChanges/Iska_CasusBelli.lua">
       <Name>CasusBelli</Name>
       <Description>CasusBelli</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="GameplayChanges/FoodFlatlandCity.lua">
+      <Name>FoodFlatlandCity</Name>
+      <Description>FoodFlatlandCity</Description>
     </EntryPoint>
   </EntryPoints>
 </Mod>

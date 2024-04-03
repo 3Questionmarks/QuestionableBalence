@@ -4,9 +4,48 @@
 	
 	<Yields>
 		<Update>
-			<Set MinCityOnHillsAdjust="-1" MinCity="3" />
-			<Where Type="YIELD_FOOD" />
+			<Where Type="YIELD_PRODUCTION" />
+			<Set>
+				<MinCity>2</MinCity>
+			</Set>
 		</Update>
 	</Yields>
+	
+	<!-- Dummy Building for Extra food on flatland -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_FLATLAND_CITY</Type>
+			<DefaultBuilding>BUILDING_FLATLAND_CITY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_FLATLAND_CITY</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_FLATLAND_CITY</Type>
+			<BuildingClass>BUILDINGCLASS_FLATLAND_CITY</BuildingClass>
+			<Cost>-1</Cost>
+			<NukeImmune>true</NukeImmune>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<Description>TXT_KEY_BUILDING_FLATLAND_CITY</Description>
+			<Help>TXT_KEY_BUILDING_FLATLAND_CITY_HELP</Help>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FLATLAND_CITY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_FLATLAND_CITY">
+			<Text>Flatland city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FLATLAND_CITY_HELP">
+			<Text>City is not built on a hill</Text>
+		</Row>
+	</Language_en_US>
 	
 </GameData>

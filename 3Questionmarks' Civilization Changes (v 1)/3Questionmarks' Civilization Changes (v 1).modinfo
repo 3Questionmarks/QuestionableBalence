@@ -58,10 +58,36 @@
     <File md5="9A808BB9DC51456D1EC69CFE8E567C12" import="0">Civs/Byzantium/Building.xml</File>
     <File md5="32272FC8B428A5367BFBB0361FE6BE3C" import="0">Civs/Byzantium/Unit.xml</File>
     <File md5="C8FD68B8B96D14B0ECF4E52BB23D3880" import="0">Civs/Byzantium/Trait.xml</File>
-    <File md5="E4DEDE3CA45564DF0DB01060DC19E0BE" import="0">Civs/Carthage/Trait.lua</File>
-    <File md5="6C85DB97749459A087F9CB6B63C6FADC" import="0">Civs/Carthage/Trait.sql</File>
-    <File md5="6481CDA0FB2438F03E17421C81F6AFC6" import="0">Civs/Carthage/Trait.xml</File>
-    <File md5="5706D878F478A4036FDEA94E2E6D836E" import="0">Civs/Carthage/Unit.xml</File>
+    <File md5="957FB2844276D331E6D8225B3795956A" import="0">Civs/Carthage/ART/ArtDefines.sql</File>
+    <File md5="F9F64345D0F73D55F81D06B202B24720" import="1">Civs/Carthage/ART/JFD_CarthageDidoAlphaAtlas_128.dds</File>
+    <File md5="E9B8BE97421A5E02C92ECEFBF9293FFA" import="1">Civs/Carthage/ART/JFD_CarthageDidoAlphaAtlas_16.dds</File>
+    <File md5="AF651E495AB59BF8CB0859C51B800E0D" import="1">Civs/Carthage/ART/JFD_CarthageDidoAlphaAtlas_24.dds</File>
+    <File md5="68BD354D9E3CB28C2E7D712EECABBF2E" import="1">Civs/Carthage/ART/JFD_CarthageDidoAlphaAtlas_32.dds</File>
+    <File md5="315BA3371F86EB5A24AF83AD2E8B47EA" import="1">Civs/Carthage/ART/JFD_CarthageDidoAlphaAtlas_45.dds</File>
+    <File md5="5E8733A56748E6FB60E8892C6FF446B8" import="1">Civs/Carthage/ART/JFD_CarthageDidoAlphaAtlas_48.dds</File>
+    <File md5="57745FC119E56521E2A03800F6076F5C" import="1">Civs/Carthage/ART/JFD_CarthageDidoAlphaAtlas_64.dds</File>
+    <File md5="A0A847C406BC81BCA5093B2E31C7B656" import="1">Civs/Carthage/ART/JFD_CarthageDidoAlphaAtlas_80.dds</File>
+    <File md5="1A359C0180CF69212B85C67A0A79090B" import="1">Civs/Carthage/ART/JFD_CarthageDidoAtlas_128.dds</File>
+    <File md5="68D5CC3D98D531BED8E88A1075CA3F47" import="1">Civs/Carthage/ART/JFD_CarthageDidoAtlas_256.dds</File>
+    <File md5="24B145C9DE99E1A5090A39F261C16226" import="1">Civs/Carthage/ART/JFD_CarthageDidoAtlas_32.dds</File>
+    <File md5="DA61F9937841496879623A3B697843EA" import="1">Civs/Carthage/ART/JFD_CarthageDidoAtlas_45.dds</File>
+    <File md5="85142082E7EFB43F10778192AB8F7846" import="1">Civs/Carthage/ART/JFD_CarthageDidoAtlas_64.dds</File>
+    <File md5="952B9FB5E993B9C5532AB691DF3DE859" import="1">Civs/Carthage/ART/JFD_CarthageDidoAtlas_80.dds</File>
+    <File md5="194D4C1EEAF5EEB8A3AD107CB87A33B8" import="1">Civs/Carthage/ART/Shellfish/JFD_ShellFishFontIcons_22.ggxml</File>
+    <File md5="8E0131B4759A5E7E8A14B84BB185E343" import="1">Civs/Carthage/ART/Shellfish/Shellfish-FontIcons.dds</File>
+    <File md5="BA7AAE4F30432673E5A478D1755E9FEC" import="1">Civs/Carthage/ART/Shellfish/shellfish.fxsxml</File>
+    <File md5="354CEEBB0F4353FB5CA1F452BD25BC54" import="1">Civs/Carthage/ART/Shellfish/shellfish.gr2</File>
+    <File md5="1C21659E9650C0223D38FD5DB7469D1D" import="1">Civs/Carthage/ART/Shellfish/shellfish_diff.dds</File>
+    <File md5="029A67BAE7F667B23E6E168DAA57CB00" import="1">Civs/Carthage/ART/Shellfish/shellfish_industrial.fxsxml</File>
+    <File md5="55C4190894B910B558178D441A9DBC10" import="1">Civs/Carthage/ART/Shellfish/shellfish_industrial.gr2</File>
+    <File md5="15E2DEBCBEA09EC4A7F97E0032680359" import="1">Civs/Carthage/ART/Shellfish/shellfish_sref.dds</File>
+    <File md5="F2D3DDF9F710D3DE4D3AEE2B8C6BE703" import="1">Civs/Carthage/ART/Shellfish/sv_ShellFish.dds</File>
+    <File md5="99358B7082E30CBCECEE04F86516B1E2" import="0">Civs/Carthage/Building.sql</File>
+    <File md5="4C52B0E046F48C3B13700CCFC4E15B42" import="0">Civs/Carthage/Building.xml</File>
+    <File md5="4382D0E3020CA9244C8D86CE80B16978" import="0">Civs/Carthage/Trait.lua</File>
+    <File md5="07BC6C507F2A5C48222BA89E8037A2BC" import="0">Civs/Carthage/Trait.sql</File>
+    <File md5="22D15AFC7F8FB31DF850FD4A15757828" import="0">Civs/Carthage/Trait.xml</File>
+    <File md5="8880FBD994C7566E94CDCAF97CEF4DC9" import="0">Civs/Carthage/Unit.xml</File>
     <File md5="3990A114D2D3E806339632969ABDAFD7" import="0">Civs/Celts/Building.xml</File>
     <File md5="AA7A145152FFF848CD84FC020F57A624" import="0">Civs/Celts/Trait.xml</File>
     <File md5="4C9D2A90163A4ED59E31AC4CA12760D5" import="0">Civs/China/Building.xml</File>
@@ -203,7 +229,7 @@
     <File md5="CC4F4245D29463628081599FD8017F72" import="0">Civs/Shoshone/Building.xml</File>
     <File md5="ADB44340A9A4BB4C6D6D80F47C2EF4B6" import="0">Civs/Shoshone/Trait.lua</File>
     <File md5="C81B7A13DA8F19BFC552800C28CCBBB5" import="0">Civs/Shoshone/Trait.xml</File>
-    <File md5="EEF78A57E6D125C46E19F1B6AFB35776" import="0">Civs/Shoshone/Units.xml</File>
+    <File md5="BEDAA9D4508AAFFDFDF036463129ED31" import="0">Civs/Shoshone/Units.xml</File>
     <File md5="CB611A070379EBB1567E9B486CB32B47" import="0">Civs/Siam/Building.xml</File>
     <File md5="8BE1B555DCCFA0FAE8DB9EA484A863C8" import="0">Civs/Siam/Trait.xml</File>
     <File md5="598E0BEE2D59B3439B10940ED45F9BFA" import="0">Civs/Siam/Unit.xml</File>
@@ -273,11 +299,16 @@
     <File md5="A94D7A62E436179599DFF623B714F5E2" import="0">Music Replacers/Sweden/SwedenWarMusicReplacer.xml</File>
     <File md5="5C9A72289D176CAB8455E2BF85372555" import="0">Music Replacers/Zulu/MusicReplacementShaka.xml</File>
     <File md5="9FD5082D69199C7BF76221C4D5C86389" import="0">Music Replacers/Zulu/Shaka War.mp3</File>
+    <File md5="32D2AE11EA9A6E9FD98EC5A7FC6920F9" import="0">Shared/UserSettings.sql</File>
     <File md5="B4E22C0096BB556AF8C919F3BC7E3AC1" import="1">Shared/JFD_TopPanelUpdated.lua</File>
     <File md5="02C1B3C03249532E1C5FCF32599A5CCA" import="1">Shared/PlotIterators.lua</File>
     <File md5="2BF649C76A1685527B9EC6BC56A3EB1D" import="0">Shared/Promotion_Created.xml</File>
     <File md5="E3AB73844886B35F4B78A604FA2D13D2" import="0">Shared/SerialEventUnitCreatedGood.lua</File>
     <File md5="FA224CF6320CE41309C0864F202F4007" import="1">Shared/Serializer.lua</File>
+    <File md5="86C1C3EDCE4699DE320A932C4E70E22C" import="0">Shared/Sukritact MCIS/CityInfoStack.lua</File>
+    <File md5="120EB71025973A8A48B38314241DD0B3" import="0">Shared/Sukritact MCIS/CityInfoStack.xml</File>
+    <File md5="FF0F6084FED8EB97EA13A38872903A26" import="0">Shared/Sukritact MCIS/JFD_CarthageDido_CityInfo.lua</File>
+    <File md5="C6AC10B34C1ED269837921535F90DF13" import="0">Shared/Sukritact MCIS/JFD_CarthageDido_CityInfo.xml</File>
     <File md5="92D445C34334A73A66CD8C2BB5269432" import="1">Shared/UA_Functions.lua</File>
     <File md5="E7A7829DA046CAE14CD9E998EA2CDCC6" import="0">Shared/UA_Globals.sql</File>
     <File md5="4075CC9481FE196874FF9279811BA802" import="1">Shared/UA_Main.lua</File>
@@ -439,6 +470,12 @@
       <UpdateDatabase>Civs/Iroquois/Unit.xml</UpdateDatabase>
       <UpdateDatabase>Civs/Byzantium/Unit.xml</UpdateDatabase>
       <UpdateDatabase>Civs/Austria/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Carthage/ART/ArtDefines.sql</UpdateDatabase>
+      <UpdateDatabase>Civs/Carthage/Building.xml</UpdateDatabase>
+      <UpdateDatabase>Civs/Carthage/Building.sql</UpdateDatabase>
+      <UpdateDatabase>Shared/UserSettings.sql</UpdateDatabase>
+      <UpdateDatabase>Shared/Sukritact MCIS/CityInfoStack.xml</UpdateDatabase>
+      <UpdateDatabase>Shared/Sukritact MCIS/JFD_CarthageDido_CityInfo.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
@@ -485,6 +522,14 @@
     <EntryPoint type="InGameUIAddin" file="Civs/Carthage/Trait.lua">
       <Name>CarthageTrait</Name>
       <Description>CarthageTrait</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Shared/Sukritact MCIS/CityInfoStack.lua">
+      <Name>CityInfoStack</Name>
+      <Description>CityInfoStack</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Shared/Sukritact MCIS/JFD_CarthageDido_CityInfo.lua">
+      <Name>CarthageDido_CityInfo</Name>
+      <Description>CarthageDido_CityInfo</Description>
     </EntryPoint>
   </EntryPoints>
 </Mod>

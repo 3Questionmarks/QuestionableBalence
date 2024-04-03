@@ -2,11 +2,10 @@
 --Traits
 --------------------------------------------------------------------------------------------------
 
-ALTER TABLE Traits ADD COLUMN ClaimFoundedResources integer DEFAULT 0;
 ALTER TABLE Traits ADD COLUMN TradedResourceGoldPerTurn integer DEFAULT 0;
 
-INSERT INTO Traits (Type,	LuaToInclude,			RequiresExpansion,	ClaimFoundedResources,	TradedResourceGoldPerTurn,	FreeBuilding,		Description,				ShortDescription) 
-SELECT 'TRAIT_FA_DIDO',		'Dido_Commerce.lua',	1,					2,						2,							'BUILDING_HARBOR',	'TXT_KEY_TRAIT_FA_DIDO',	'TXT_KEY_TRAIT_FA_DIDO_SHORT';
+INSERT INTO Traits (Type,	LuaToInclude,			RequiresExpansion,		TradedResourceGoldPerTurn,	FreeBuilding,		Description,				ShortDescription) 
+SELECT 'TRAIT_FA_DIDO',		'Dido_Commerce.lua',	1,						2,							'BUILDING_CARTHAGEDUMMYBUILDING',	'TXT_KEY_TRAIT_FA_DIDO',	'TXT_KEY_TRAIT_FA_DIDO_SHORT';
 
 --------------------------------------------------------------------------------------------------
 UPDATE Leader_Traits SET TraitType = 'TRAIT_FA_DIDO' WHERE LeaderType = 'LEADER_DIDO';
@@ -57,7 +56,49 @@ SELECT 'LEADER_DIDO',						'FLAVOR_I_SEA_TRADE_ROUTE',			9 UNION ALL
 SELECT 'LEADER_DIDO',						'FLAVOR_I_TRADE_ORIGIN',			5 UNION ALL
 SELECT 'LEADER_DIDO',						'FLAVOR_I_TRADE_DESTINATION',		5 UNION ALL
 SELECT 'LEADER_DIDO',						'FLAVOR_AIRLIFT',					5;
-	
+
+--==========================================================================================================================
+-- RESOURCES
+--==========================================================================================================================
+-- Resources
+------------------------------
+INSERT INTO Resources 
+		(Type,							Description,						Civilopedia, 								TechCityTrade, 	ResourceClassType, 		Happiness,  CivilizationType,			AITradeModifier, 	AIObjective,	'Unique', 	IconString, 				ArtDefineTag,						PortraitIndex, 	IconAtlas)
+VALUES	('RESOURCE_JFD_SHELLFISH',		'TXT_KEY_RESOURCE_JFD_SHELLFISH',	'TXT_KEY_CIV5_RESOURCE_JFD_SHELLFISH_TEXT',	'TECH_SAILING',	'RESOURCECLASS_LUXURY',	4,			'CIVILIZATION_CARTHAGE',	20,					0, 				2, 			'[ICON_RES_JFD_SHELLFISH]',	'ART_DEF_RESOURCE_JFD_SHELLFISH',	2, 				'JFD_CARTHAGE_DIDO_ATLAS');
+------------------------------
+-- Resource_YieldChanges
+------------------------------
+INSERT INTO Resource_YieldChanges 	
+		(ResourceType, 					YieldType, 			Yield)
+VALUES	('RESOURCE_JFD_SHELLFISH',		'YIELD_GOLD',		2);
+------------------------------
+-- Resource_Flavors
+------------------------------
+INSERT INTO Resource_Flavors 	
+		(ResourceType, 					FlavorType, 		Flavor)
+VALUES	('RESOURCE_JFD_SHELLFISH', 		'FLAVOR_HAPPINESS', 10);
+------------------------------
+-- Resource_TerrainBooleans
+------------------------------
+INSERT INTO Resource_TerrainBooleans 	
+		(ResourceType, 					TerrainType)
+VALUES	('RESOURCE_JFD_SHELLFISH', 		'TERRAIN_COAST');
+------------------------------
+-- Improvement_ResourceTypes
+------------------------------
+INSERT INTO Improvement_ResourceTypes
+		(ResourceType, 					ImprovementType)
+VALUES	('RESOURCE_JFD_SHELLFISH',		'IMPROVEMENT_FISHING_BOATS');
+------------------------------
+-- Improvement_ResourceType_Yields
+------------------------------
+INSERT INTO Improvement_ResourceType_Yields
+		(ResourceType, 					ImprovementType,				YieldType,			Yield)
+VALUES	('RESOURCE_JFD_SHELLFISH',		'IMPROVEMENT_FISHING_BOATS',	'YIELD_GOLD',		1),
+		('RESOURCE_JFD_SHELLFISH',		'IMPROVEMENT_FISHING_BOATS',	'YIELD_CULTURE',	1),
+		('RESOURCE_JFD_SHELLFISH',		'IMPROVEMENT_FISHING_BOATS',	'YIELD_FOOD',		1);
+		
+			
 --------------------------------------------------------------------------------------------------
 -- JFD_TopPanelAdditions
 --------------------------------------------------------------------------------------------------

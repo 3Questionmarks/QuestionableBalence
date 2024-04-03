@@ -30,7 +30,7 @@
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_BELIEF_DEFENDER_FAITH" />
 		<Row Tag="TXT_KEY_BELIEF_DEFENDER_FAITH">
-			<Text>+25% [ICON_STRENGTH] Combat Strength near friendly Cities that follow this Religion. [ICON_MISSIONARY] Missonaries, [ICON_INQUISITOR] Inquisitors, and [ICON_PROPHET] Prophets gain +2 [ICON_MOVES] Movement and ingnore terrain costs.</Text>
+			<Text>+25% [ICON_STRENGTH] Combat Strength near friendly Cities that follow this [ICON_RELIGION] Religion. [ICON_MISSIONARY] Missonaries, [ICON_INQUISITOR] Inquisitors, and [ICON_PROPHET] Prophets gain +2 [ICON_MOVES] Movement and ingnore terrain costs.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DEFENDER_FAITH">
 			<Text>Defender of the Faith</Text>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 9/20/2020 11:00:25 AM -->
 <GameData>
+	
+	<!-- Carthaginian Forest Elephant (Removed) -->
 	<Unit_FreePromotions>
-		<Delete UnitType="UNIT_CARTHAGINIAN_FOREST_ELEPHANT" />
+		<!--Delete UnitType="UNIT_CARTHAGINIAN_FOREST_ELEPHANT" />
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_FOREST_ELEPHANT</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
@@ -18,7 +20,11 @@
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_FOREST_ELEPHANT</UnitType>
 			<PromotionType>PROMOTION_CAN_CROSS_MOUNTAINS</PromotionType>
-		</Row>
+		</Row-->
+	</Unit_FreePromotions>
+
+	<!-- Quinquereme -->
+	<Unit_FreePromotions>
 		<Row>
 			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
@@ -28,4 +34,6 @@
 			<PromotionType>PROMOTION_EXTRA_MOVES_I</PromotionType>
 		</Row>
 	</Unit_FreePromotions>
+		
+	
 </GameData>

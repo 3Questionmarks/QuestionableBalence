@@ -9,10 +9,16 @@
 	</Traits>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_TRAIT_FA_DIDO">
-			<Text>Costal cities receive a free Harbor and claim nearby resources. Each traded resource type generates 3 [ICON_GOLD] Gold and 3 [ICON_CULTURE] Culture per Turn. -50% Naval Unit [ICON_GOLD] Gold Maintainace. +33% [ICON_PRODUCTION] Production for naval units.</Text>
+			<Text>Costal cities receive a Cothon, claim workable water tiles, and spawn a source of [ICON_RES_JFD_SHELLFISH] Shellfish. Each traded resource type yields 3 [ICON_GOLD] Gold and [ICON_CULTURE] Culture. Naval Unit are produced 33% faster and cost 50% less [ICON_GOLD] Gold Maintainace.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_FA_DIDO_SHORT">
-			<Text>Trade Rule</Text>
+			<Text>Phoenician Heritage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_JFD_SHELLFISH">
+			<Text>Shellfish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_JFD_SHELLFISH_TEXT">
+			<Text>Muricidae is the name of a large and varied taxonomic family of small to large predatory sea snails, marine gastropod mollusks, commonly known as murex snails or rock snails. With about 1,600 living species, the Muricidae represent almost 10% of the Neogastropoda. Additionally, 1,200 fossil species have been recognized. Numerous subfamilies are recognized, although experts disagree about the subfamily divisions and about defining the genera. Many muricids have unusual shells which are considered attractive by shell collectors and by interior designers.</Text>
 		</Row>
 	</Language_en_US>
     

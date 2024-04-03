@@ -47,7 +47,7 @@
     <File md5="F60D427F1D9F4B94F07DE18C3A673447" import="1">XML/Art of War/ART/SMAN_EU_MadyanArchers_gloss.dds</File>
     <File md5="BC511FD1DBF77250307BE4C488ED86C7" import="0">XML/Art of War/Building.xml</File>
     <File md5="398F66D94400D7AEEEB894AB374BE5DC" import="0">XML/Art of War/Policies.xml</File>
-    <File md5="D0F1EE85D8F99DF42F6E33151DB2EAD5" import="0">XML/Art of War/Units.xml</File>
+    <File md5="2FEAB5CE0E4B2EE7507A9A4116D3D08E" import="0">XML/Art of War/Units.xml</File>
     <File md5="441DEE216380A7FB934759B14070C476" import="0">XML/Communes/ART/CorsairArtDefines.sql</File>
     <File md5="D65BD470A9CAFED1F110C71B983B3A69" import="0">XML/Communes/ART/DhowArtDefines.sql</File>
     <File md5="8090B298FAB7F80CE5FCE5CE7229577A" import="1">XML/Communes/ART/SMAN_EU_Corsair.fxsxml</File>
@@ -105,7 +105,7 @@
     <File md5="CCAB07C15C2104E1F9D4CA35927FD2DC" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Venice.gr2</File>
     <File md5="120C87D94087EC516EA1C074074E039E" import="1">XML/Feudalism/ART/SMAN_EU_Condittieri_Venice_diff.dds</File>
     <File md5="98B1DB8ADE27A5E8BEFCFE271FDFE83A" import="0">XML/Feudalism/Building.xml</File>
-    <File md5="75AA90B7B2F7D219BE74020E2F64F2A3" import="0">XML/Feudalism/Policies.xml</File>
+    <File md5="291B92EEAB2FA4A088116CACFBCD2152" import="0">XML/Feudalism/Policies.xml</File>
     <File md5="2991DFD7E221D03B644D3F917748368E" import="0">XML/Feudalism/Units.xml</File>
     <File md5="835C690EF613D240BFB06FDCC7AB06E2" import="0">XML/Industry/Building.xml</File>
     <File md5="4AF510426F2F6B7082A551FFDE5E5590" import="0">XML/Industry/Policies.xml</File>

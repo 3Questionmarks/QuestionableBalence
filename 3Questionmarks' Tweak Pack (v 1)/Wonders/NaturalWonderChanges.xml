@@ -1,251 +1,192 @@
 <GameData>
-	<Feature_YieldChanges>
-		<Update>
-			<Set Yield="4"/>
-			<Where FeatureType="FEATURE_CRATER" YieldType="YIELD_GOLD"/>
-		</Update>
-		<Update>
-			<Set Yield="6"/>
-			<Where FeatureType="FEATURE_CRATER" YieldType="YIELD_SCIENCE"/>
-		</Update>
-	</Feature_YieldChanges>
 	
-	<Feature_YieldChanges>
-		<Update>
-			<Set Yield="6"/>
-			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_CULTURE"/>
-		</Update>
-		<Update>
-			<Set Yield="4"/>
-			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_FAITH"/>
-		</Update>
-		<Update>
-			<Set Yield="4"/>
-			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_GOLD"/>
-		</Update>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
-		<Update>
-			<Set Yield="4"/>
-			<Where FeatureType="FEATURE_MESA" YieldType="YIELD_PRODUCTION"/>
-		</Update>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
-		<Update>
-			<Set Yield="2"/>
-			<Where FeatureType="FEATURE_REEF" YieldType="YIELD_GOLD"/>
-		</Update>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
-		<Update>
-			<Set Yield="3"/>
-			<Where FeatureType="FEATURE_GIBRALTAR"/>
-		</Update>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
-		<Update>
-			<Set Yield="7"/>
-			<Where FeatureType="FEATURE_KILIMANJARO" YieldType="YIELD_CULTURE"/>
-		</Update>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
-		<Update>
-			<Set Yield="4"/>
-			<Where FeatureType="FEATURE_SRI_PADA" YieldType="YIELD_FOOD"/>
-		</Update>
-	</Feature_YieldChanges>
-
+	
+	<!--
+	Points:
+	-Mountain: 2
+	-Lake: 2
+	-Oasis: 1
+	-Gold: 1
+	-Culture: 2
+	-Food: 3
+	-Faith: 3
+	-Production: 2
+	-Science: 2
+	-Discover/Adjacent Free promotion: 3
+	-Happiness in border: 1
+	-->
+	
+	
+	<!-- Cerro De Potosi -->
+	<!-- 
+	-is Mountain (2)
+	-5 Production (10)
+	-12 Gold (12)
+	-5 Culture (10)
+	-->
 	<Feature_YieldChanges>
 		<Row>
-			<FeatureType>FEATURE_CRATER</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>3</Yield>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
 		</Row>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
+		<Update>
+			<Where FeatureType="FEATURE_POTOSI" YieldType="YIELD_GOLD" />
+			<Set Yield="12" />
+		</Update>
 		<Row>
-			<FeatureType>FEATURE_MESA</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<FeatureType>FEATURE_MESA</FeatureType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
-		<Row>
-			<FeatureType>FEATURE_REEF</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
-		<Row>
-			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>5</Yield>
 		</Row>
-		<Row>
-			<FeatureType>FEATURE_VOLCANO</FeatureType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>4</Yield>
-		</Row>
 	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
-		<Row>
-			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
-		</Row>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
-		<Row>
-			<FeatureType>FEATURE_GEYSER</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>4</Yield>
-		</Row>
-		<Row>
-			<FeatureType>FEATURE_GEYSER</FeatureType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
-		</Row>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
-		<Row>
-			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
-		</Row>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
-		<Row>
-			<FeatureType>FEATURE_POTOSI</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>4</Yield>
-		</Row>
-		<Row>
-			<FeatureType>FEATURE_POTOSI</FeatureType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>3</Yield>
-		</Row>
-	</Feature_YieldChanges>
-
+	
+	<!-- El Dorado -->
+	<!-- 
+	-250 Gold on discovery (3)
+	-3 Food (9)
+	-2 Production (4)
+	-8 Gold (8) 
+	-5 Culture (10)
+	-->
+	<Features>
+		<Update>
+			<Where Type="FEATURE_EL_DORADO" />
+			<Set FirstFinderGold="250" />
+		</Update>
+	</Features>
 	<Feature_YieldChanges>
 		<Row>
 			<FeatureType>FEATURE_EL_DORADO</FeatureType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_EL_DORADO</FeatureType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<FeatureType>FEATURE_EL_DORADO</FeatureType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>8</Yield>
 		</Row>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
 		<Row>
-			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<FeatureType>FEATURE_EL_DORADO</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>8</Yield>
 		</Row>
 	</Feature_YieldChanges>
 
+	<!-- Fountain of Youth -->
+	<!-- 
+	-is Oasis: 1
+	-Adjacent promotion (3)
+	-4 Gold (4)
+	-5 Culture (10)
+	-10 Happiness (10)
+	-2 Food (6)
+	-->
 	<Feature_YieldChanges>
 		<Row>
-			<FeatureType>FEATURE_SOLOMONS_MINES</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
 		</Row>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
 		<Row>
-			<FeatureType>FEATURE_SRI_PADA</FeatureType>
+			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>
 	</Feature_YieldChanges>
-
+	
+	<!-- King Solomon's Mines -->
+	<!--
+	-10 Production (20)
+	-3 Culture (6)
+	-2 Gold (2)
+	-2 Faith (6)
+	-->
 	<Feature_YieldChanges>
+		<Update>
+			<Where FeatureType="FEATURE_SOLOMONS_MINES" YieldType="YIELD_PRODUCTION" />
+			<Set Yield="10" />
+		</Update>
 		<Row>
-			<FeatureType>FEATURE_MT_SINAI</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>6</Yield>
-		</Row>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
-		<Row>
-			<FeatureType>FEATURE_MT_KAILASH</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>4</Yield>
-		</Row>
-	</Feature_YieldChanges>
-
-	<Feature_YieldChanges>
-		<Row>
-			<FeatureType>FEATURE_ULURU</FeatureType>
+			<FeatureType>FEATURE_SOLOMONS_MINES</FeatureType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<FeatureType>FEATURE_ULURU</FeatureType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
+			<FeatureType>FEATURE_SOLOMONS_MINES</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_SOLOMONS_MINES</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>2</Yield>
 		</Row>
 	</Feature_YieldChanges>
-
-	<Features>
+	
+	<!-- Krakatoa -->
+	<!--
+	-is Mountain (2)
+	-4 Production (8)
+	-6 Science (12)
+	-6 Culture (12)
+	-->
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
+		</Row>
 		<Update>
-			<Set InBorderHappiness="5"/>
-			<Where Type="FEATURE_GEYSER"/>
+			<Where FeatureType="FEATURE_VOLCANO" YieldType="YIELD_SCIENCE" />
+			<Set Yield="6" />
 		</Update>
-	</Features>
+	</Feature_YieldChanges>
 
+	<!-- Lake Victoria -->
+	<!--
+	-is Lake (2)
+	-8 Food (24)
+	-3 Culture (6)
+	-2 Gold (2)
+	-->
 	<Features>
-		<Update>
-			<Set InBorderHappiness="4"/>
-			<Where Type="FEATURE_MT_KAILASH"/>
-		</Update>
-	</Features>
-    
-    <Features>
 		<Update>
 			<Where Type="FEATURE_LAKE_VICTORIA"/>
 			<Set AddsFreshWater="true" SeeThrough="0"/>
 		</Update>
 	</Features>
-
+	<Feature_YieldChanges>
+		<Update>
+			<Where FeatureType="FEATURE_LAKE_VICTORIA" YieldType="YIELD_FOOD" />
+			<Set Yield="8" />
+		</Update>
+		<Row>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_LAKE_VICTORIA</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Feature_YieldChanges>
 	<!--Building_FeatureYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
@@ -254,5 +195,266 @@
 			<Yield>2</Yield>
 		</Row>
 	</Building_FeatureYieldChanges-->
+
+	<!-- Mt. Fuji -->
+	<!--
+	-is Mountain (2)
+	-5 Gold (5)
+	-6 Culture (12)
+	-5 Faith (15)
+	-->
+	<Feature_YieldChanges>
+		<Update>
+			<Set Yield="5"/>
+			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_GOLD"/>
+		</Update>
+		<Update>
+			<Set Yield="6"/>
+			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_CULTURE"/>
+		</Update>
+		<Update>
+			<Set Yield="5"/>
+			<Where FeatureType="FEATURE_FUJI" YieldType="YIELD_FAITH"/>
+		</Update>
+	</Feature_YieldChanges>
+
+	<!-- Mt. Kailash -->
+	<!--
+	-is Mountain (2)
+	-4 Culture (8)
+	-6 Faith (18)
+	-6 Happiness (6)
+	-->
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_MT_KAILASH</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Feature_YieldChanges>
+	<Features>
+		<Update>
+			<Where Type="FEATURE_MT_KAILASH" />
+			<Set InBorderHappiness="6" />
+		</Update>
+	</Features>
+
+	<!-- Mt. Kilimanjaro -->
+	<!--
+	-is Mountain (2)
+	-3 Food (9)
+	-10 Culture (20)
+	-Adjacent Promotion (3)
+	-->
+	<Feature_YieldChanges>
+		<Update>
+			<Set Yield="10"/>
+			<Where FeatureType="FEATURE_KILIMANJARO" YieldType="YIELD_CULTURE"/>
+		</Update>
+	</Feature_YieldChanges>
+
+	<!-- Mt. Sinai -->
+	<!--
+	-is Mountain (2)
+	-8 Faith (24)
+	-4 Culture (8)
+	-->
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_MT_SINAI</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Feature_YieldChanges>
+
+	<!-- Old Faithful -->
+	<!--
+	-4 Gold (4)
+	-4 Science (8)
+	-4 Culture (8)
+	-5 Happiness (5)
+	-3 Faith (9)
+	-->
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_GEYSER</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Update>
+			<Set Yield="4"/>
+			<Where FeatureType="FEATURE_GEYSER" YieldType="YIELD_SCIENCE"/>
+		</Update>
+		<Row>
+			<FeatureType>FEATURE_GEYSER</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_GEYSER</FeatureType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Feature_YieldChanges>
+	<Features>
+		<Update>
+			<Set InBorderHappiness="5"/>
+			<Where Type="FEATURE_GEYSER"/>
+		</Update>
+	</Features>
+
+	<!-- Rock of Gibraltar -->
+	<!--
+	-4 Food (12)
+	-4 Production (8)
+	-3 Gold (3)
+	-4 Culture (8)
+	-Now gives +1 Sight (3)
+	-->
+	<Features>
+		<Update>
+			<Where Type="FEATURE_GIBRALTAR" />
+			<Set AdjacentUnitFreePromotion="PROMOTION_EXTRA_SIGHT_I" />
+		</Update>
+	</Features>
+	<Feature_YieldChanges>
+		<Update>
+			<Set Yield="4" />
+			<Where FeatureType="FEATURE_GIBRALTAR" YieldType="YIELD_FOOD"/>
+		</Update>
+		<Row>
+			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Update>
+			<Set Yield="3"/>
+			<Where FeatureType="FEATURE_GIBRALTAR" YieldType="YIELD_GOLD" />
+		</Update>
+		<Row>
+			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Feature_YieldChanges>
+
+	<!-- Sri Pada -->
+	<!--
+	-is Mountain (2)
+	-4 Food (12)
+	-2 Culture (4)
+	-4 Faith (12)
+	-4 Happiness (4)
+	-->
+	<Feature_YieldChanges>
+		<Update>
+			<Set Yield="4"/>
+			<Where FeatureType="FEATURE_SRI_PADA" YieldType="YIELD_FOOD"/>
+		</Update>
+		<Row>
+			<FeatureType>FEATURE_SRI_PADA</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Feature_YieldChanges>
+	<Features>
+		<Update>
+			<Where Type="FEATURE_SRI_PADA" />
+			<Set InBorderHappiness="4" />
+		</Update>
+	</Features>
+
+	<!-- The Barringer Crater -->
+	<!--
+	-4 Gold (4)
+	-10 Culture (20)
+	-5 Culture (10)
+	-->
+	<Feature_YieldChanges>
+		<Update>
+			<Set Yield="4"/>
+			<Where FeatureType="FEATURE_CRATER" YieldType="YIELD_GOLD"/>
+		</Update>
+		<Update>
+			<Set Yield="10"/>
+			<Where FeatureType="FEATURE_CRATER" YieldType="YIELD_SCIENCE"/>
+		</Update>
+		<Row>
+			<FeatureType>FEATURE_CRATER</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Feature_YieldChanges>
+
+	<!-- The Grand Mesa -->
+	<!--
+	-3 Food (9)
+	-6 Production (12)
+	-5 Gold (5)
+	-4 Culture (8)
+	-->
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_MESA</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Update>
+			<Set Yield="6"/>
+			<Where FeatureType="FEATURE_MESA" YieldType="YIELD_PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Yield="5"/>
+			<Where FeatureType="FEATURE_MESA" YieldType="YIELD_GOLD"/>
+		</Update>
+		<Row>
+			<FeatureType>FEATURE_MESA</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Feature_YieldChanges>
 	
+	<!-- Uluru -->
+	<!--
+	-2 Food (6)
+	-2 Production (4)
+	-3 Culture (6)
+	-6 Faith (18)
+	-->
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_ULURU</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_ULURU</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Feature_YieldChanges>
+
+	<!-- Great Barrier Reef -->
+	<!--
+	-2 Food (6)
+	-2 Production (4)
+	-2 Gold (2)
+	-2 Science (4)
+	-2 Culture (4)
+	-2 Tiles (14)
+	-->
+	<Feature_YieldChanges>
+		<Update>
+			<Set Yield="2"/>
+			<Where FeatureType="FEATURE_REEF"/>
+		</Update>
+	</Feature_YieldChanges>	
+	
+	<Feature_YieldChanges>
+		<Row>
+			<FeatureType>FEATURE_REEF</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Feature_YieldChanges>
 </GameData>

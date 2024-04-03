@@ -63,7 +63,7 @@
     <File md5="8D61D8589200B581E3A2CA5621FFFE94" import="0">Founders/CeremonialBurial.xml</File>
     <File md5="DDE1D3B5A61A34EB83D9EC43FC7F901C" import="0">Founders/CharitableMissions.xml</File>
     <File md5="EC865A33DC188189F9D9B070A37437A0" import="0">Founders/ChurchProperty.xml</File>
-    <File md5="5CFA75B8D322093F85F942D9CA933BA4" import="0">Founders/DefenderOfTheFaith.xml</File>
+    <File md5="C46E478DCCBF78754CF7D43DA8C03165" import="0">Founders/DefenderOfTheFaith.xml</File>
     <File md5="9187C2DE32A1AAC43864A41FBDE98405" import="0">Founders/FeedTheWorld.xml</File>
     <File md5="BD0F0CBB78F317136E1B28A5AEA8C70A" import="0">Founders/DefenderOfTheFaith.lua</File>
     <File md5="75B997734B809A290DFC38C3B35DCBC1" import="0">Founders/DivineEspionage.xml</File>
@@ -74,7 +74,7 @@
     <File md5="3709374BD859512F0AABF8B1F39855B8" import="0">Founders/Messiah.xml</File>
     <File md5="13D6561E5F39A4DF75DBBC2D5F82756F" import="0">Founders/PeaceLoving.xml</File>
     <File md5="9D08E2CE89EFC3DD6B9F8E664E9D1D8A" import="0">Founders/ReligiousCommunity.xml</File>
-    <File md5="3451174F6E159153837392279017A0DA" import="0">Founders/ReligiousSettlements.xml</File>
+    <File md5="9FC6F2AEB19F565F09D002C18AD969B4" import="0">Founders/ReligiousSettlements.xml</File>
     <File md5="1C3B3F3AA54E0FF5CABD389AC55A2B23" import="0">Founders/Tithe.xml</File>
     <File md5="C84616878F13FC7C1866DC7138E951FA" import="0">Founders/Transcendence.xml</File>
     <File md5="13A066DB7BEB460706E89FC384F648CD" import="0">Founders/_RemoveOldFounders.xml</File>
@@ -110,17 +110,17 @@
     <File md5="239E0CBB567F0DACCF585DB5CA8BEAF9" import="0">Pantheons/GodOfTheSea.xml</File>
     <File md5="217596AC17D01805338890A0515610FB" import="0">Pantheons/GodOfTheSky.xml</File>
     <File md5="62872B1F3E19113B06972E6B7DA192E8" import="0">Pantheons/GodOfWar.xml</File>
-    <File md5="0EBDE0CC7004F1CBC0C7DD39028BBECD" import="0">Pantheons/MonumentToTheGods.xml</File>
+    <File md5="546788BD0255DC02CA9250492758556E" import="0">Pantheons/MonumentToTheGods.xml</File>
     <File md5="6062D888EB323453D495AC4A0C70E444" import="0">Pantheons/MysticRituals.xml</File>
     <File md5="74E1E86F52DA5C984DDFFEB8C8DCCB57" import="0">Pantheons/OceansBounty.xml</File>
-    <File md5="835D40C73439270DB10AD87EA452638B" import="0">Pantheons/OneWithNature.xml</File>
+    <File md5="5CBD0ACF64BFA91CD427B16D35917CA5" import="0">Pantheons/OneWithNature.xml</File>
     <File md5="7CF70FADE83A719D08B62EE97CA4940C" import="0">Pantheons/OralTradition.xml</File>
     <File md5="43EC04E1BDD0B8AFE57A9B50C3B13CB3" import="0">Pantheons/ReligiousIdols.xml</File>
     <File md5="06D9FF6C70CE45E0DBF34293B7DE2553" import="0">Pantheons/RiteOfSpring.xml</File>
     <File md5="ABCBB0C4DDF9F79E5B9344664BF9BC26" import="0">Pantheons/SacredPath.xml</File>
     <File md5="B3C04401828B8287579BB34DF5F6E617" import="0">Pantheons/SacredWaters.xml</File>
     <File md5="E86821809A5446B380270B545DC33916" import="0">Pantheons/SpiritAnimals.xml</File>
-    <File md5="B22302D5B19B38AEDFDE82E4927A92DB" import="0">Pantheons/StoneCircles.xml</File>
+    <File md5="75CB268C6D22B9FD82F0F251C6687BB9" import="0">Pantheons/StoneCircles.xml</File>
     <File md5="7FCAE8B854C4242616EC2BC5775D89D0" import="0">Pantheons/SunGod.xml</File>
     <File md5="36B8FA2300A2D6E48734777F80F10F1D" import="0">Pantheons/Thrift.xml</File>
     <File md5="ACE3BEB484B5C7EFB2A392B8831C1994" import="0">Pantheons/VisionQuests.xml</File>
@@ -130,7 +130,7 @@
     <File md5="95B4CB808B5F08EA2F4B81AD3D5AA91F" import="0">Reformations/HousesOfWorship.xml</File>
     <File md5="112F9AFB33BFC71E6C806AF036AF9723" import="0">Reformations/IdeologicalCenter.xml</File>
     <File md5="5195C03DFA7B5DFE17A4C3DC2E85A5F1" import="0">Reformations/Indulgences.xml</File>
-    <File md5="9BC33A3B79347C7CB84A163475B49ED8" import="0">Reformations/ReligiousFervor.xml</File>
+    <File md5="B157715DF6AB67A095DA7AFD7FC29E83" import="0">Reformations/ReligiousFervor.xml</File>
     <File md5="10ED194CC6BB46E53D5D452999D3A771" import="0">Reformations/ReligiousUnity.xml</File>
     <File md5="446484BE1797E7FB42F218BE5A18515C" import="0">Reformations/SacredSites.xml</File>
     <File md5="71D5D677FAE8E8E336D5B1FA7DF6F09F" import="0">Reformations/SwordsToPlowshares.xml</File>
