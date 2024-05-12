@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 16:01:38 -->
+<GameData>
+	
+	<!-- Academy of Sciences: +1 Local Happiness from each Library, University, Public School, Observatory, and Research Lab. +5 Science and _3 production from acadimeis -->
+	<Policies>
+		<Update>
+			<Set Level="2" />
+			<Where Type="POLICY_ACADEMY_SCIENCES" />
+		</Update>
+	</Policies>
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP" />
+		<Row Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Academy of Sciences[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness from every [COLOR_BUILDING_TEXT]Library[ENDCOLOR], [COLOR_BUILDING_TEXT]University[ENDCOLOR], [COLOR_BUILDING_TEXT]Public School[ENDCOLOR], [COLOR_BUILDING_TEXT]Observatory[ENDCOLOR], and [COLOR_BUILDING_TEXT]Research Lab[ENDCOLOR]. [COLOR_YIELD_GOLD]Academies[ENDCOLOR] provide +5 [ICON_RESEARCH] Science and +3 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

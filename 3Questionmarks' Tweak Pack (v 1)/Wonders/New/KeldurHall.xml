@@ -31,56 +31,65 @@
 			<PortraitIndex>0</PortraitIndex>
 			<WonderSplashImage>Keldur_Hall_splash.dds</WonderSplashImage>
 			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
 		</Row>
 	</Buildings>
 	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_KELDUR_HALL</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>4</Yield>
+			<Yield>1</Yield>
 		</Row>
 	</Building_YieldChanges>
+	<Building_FreeUnits>
+		<Row>
+			<BuildingType>BUILDING_KELDUR_HALL</BuildingType>
+			<UnitType>UNIT_CARAVAN</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+	<Building_TechEnhancedYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_KELDUR_HALL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+	</Building_TechEnhancedYieldChanges>
 	<Building_TerrainYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_KELDUR_HALL</BuildingType>
 			<TerrainType>TERRAIN_TUNDRA</TerrainType>
-			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_KELDUR_HALL</BuildingType>
 			<TerrainType>TERRAIN_TUNDRA</TerrainType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_KELDUR_HALL</BuildingType>
 			<TerrainType>TERRAIN_SNOW</TerrainType>
-			<YieldType>YIELD_FOOD</YieldType>
+			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_KELDUR_HALL</BuildingType>
 			<TerrainType>TERRAIN_SNOW</TerrainType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_KELDUR_HALL</BuildingType>
-			<TerrainType>TERRAIN_SNOW</TerrainType>
-			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Building_TerrainYieldChanges>
 	<Building_Flavors>
 		<Row>
 			<BuildingType>BUILDING_KELDUR_HALL</BuildingType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_KELDUR_HALL</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
@@ -113,7 +122,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_KELDURHALL_HELP">
 			<Text>
-				+1 [ICON_CULTURE] Culture and +1 [ICON_PRODUCTION] Production for all Tundra. +1 [ICON_CULTURE] Culture, +1 [ICON_PRODUCTION] Production and +1 [ICON_FOOD] Food from Snow tiles worked by this city. City must be built on or next to Tundra.
+				+1 [ICON_RESEARCH] Science and +1 [ICON_GOLD] Gold from Tundra and Snow tiles worked by this city. Gains an additional trade route slot and a Caravan appears in the city. +6 [ICON_CULTURE] Culture once Archaeology is discovered. City must be built on or next to Tundra.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_KELDURHALL_DESC">

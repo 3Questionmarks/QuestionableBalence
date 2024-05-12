@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/12/2024 4:56:33 PM -->
+<GameData>
+	<!-- National Tundra Sanctuary -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_NTS</Type>
+			<DefaultBuilding>BUILDING_NTS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_NTS</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_NTS</Type>
+			<BuildingClass>BUILDINGCLASS_NTS</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_MYSTICISM</PrereqTech>
+			<Description>TXT_KEY_BUILDING_NTS</Description>
+			<Civilopedia>TXT_KEY_WONDER_NTS_DESC</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NTS_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_NTS_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NearbyTerrainRequired>TERRAIN_TUNDRA</NearbyTerrainRequired>
+			<IconAtlas>BW_ATLAS_KELDUR_HALL</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NTS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_TerrainYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NTS</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NTS</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NTS</BuildingType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NTS</BuildingType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_NTS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NTS</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NTS</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_NTS">
+			<Text>National Tundra Sanctuary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NTS_HELP">
+			<Text>
+				+1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production from Tundra and Snow tiles worked by this city. City must be built on or next to Tundra.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_NTS_DESC">
+			<Text>National Tundra Sanctuary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NTS_STRATEGY">
+			<Text>
+				 Build the National Tundra Sanctuary to increase the Food and Production of Tundra and Snow tiles within the city. Unlike most of the other national wonders, the National Tundra Sanctuary  does not require any buildings to be built in all of a player's cities first. It must be constructed in a city that is adjacent to Tundra.
+			</Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- National Desert Sanctuary -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_NDS</Type>
+			<DefaultBuilding>BUILDING_NDS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_NDS</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_NDS</Type>
+			<BuildingClass>BUILDINGCLASS_NDS</BuildingClass>
+			<Cost>250</Cost>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<Description>TXT_KEY_BUILDING_NDS</Description>
+			<Civilopedia>TXT_KEY_WONDER_NDS_DESC</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NDS_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_NDS_HELP</Help>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NearbyTerrainRequired>TERRAIN_DESERT</NearbyTerrainRequired>
+			<IconAtlas>EXPANSION_BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NDS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_TerrainYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NDS</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NDS</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_NDS</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NDS</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NDS</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_NDS">
+			<Text>National Desert Sanctuary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NDS_HELP">
+			<Text>
+				+1 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production from Desert. City must be built on or next to Desert.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_NDS_DESC">
+			<Text>National Tundra Sanctuary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NDS_STRATEGY">
+			<Text>
+				Build the National Desert Sanctuary to increase the Food and Production of Desert within the city. Unlike most of the other national wonders, the National Desert Sanctuary  does not require any buildings to be built in all of a player's cities first. It must be constructed in a city that is adjacent to Desert.
+			</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

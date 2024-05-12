@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="94fdc01f-edf6-4143-9e50-4b1a8882b041" version="8">
+  <Properties>
+    <Name>Unique Trait Collection</Name>
+    <Teaser>Replaces 12 base game Unique Traits.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]For Vanilla, G&amp;K, BNW, any DLC[ENDCOLOR]</Teaser>
+    <Description>[ICON_BULLET] Alexander [COLOR_POSITIVE_TEXT]Hellenization[ENDCOLOR]: Captured and founded cities receive a free Amphitheater. Great Generals can found cities. Receive a free Great General upon discovering Philosophy.
+[NEWLINE][NEWLINE][ICON_BULLET] Askia [COLOR_POSITIVE_TEXT]Tarik al-Sudan[ENDCOLOR]: Landlocked cities receive a free Caravansary. Upon discovering Education, [ICON_PEACE] Faith produced in the [ICON_CAPITAL] Capital contributes to [ICON_RESEARCH] Science.(Requires GnK or BNW)
+[NEWLINE][NEWLINE][ICON_BULLET] Bismarck [COLOR_POSITIVE_TEXT]Realpolitik[ENDCOLOR]: While at War, Happiness is converted to [ICON_CULTURE] Culture. While at Peace, Happiness is converted to [ICON_PRODUCTION] Production in the [ICON_CAPITAL] Capital.
+[NEWLINE][NEWLINE][ICON_BULLET] Boudicca [COLOR_POSITIVE_TEXT]Hare of Andraste[ENDCOLOR]: When war is declared, enemy units and cities are revealed. After attacking, land units have a chance to enter a short-lived Battle Rage.
+[NEWLINE][NEWLINE][ICON_BULLET] Dido [COLOR_POSITIVE_TEXT]Trade Rule[ENDCOLOR]: Cities founded on coasts receive a free Harbor and claim nearby resources. Each traded resource type generates 2 [ICON_GOLD] Gold per Turn.
+[NEWLINE][NEWLINE][ICON_BULLET] Elizabeth [COLOR_POSITIVE_TEXT]Regnum Gloriana[ENDCOLOR]: Cities founded after the Medieval Era generate [ICON_GOLDEN_AGE] Golden Age points. Writer specialists generate 3 [ICON_FOOD] Food. A Great Writer appears upon discovering Education.
+[NEWLINE][NEWLINE][ICON_BULLET] Gandhi [COLOR_POSITIVE_TEXT]Ahimsa[ENDCOLOR]: While at Peace, +2 [ICON_HAPPINESS_1] Happiness per City. Camps and Pastures generate [ICON_PEACE] Faith, but not [ICON_FOOD] Food.
+[NEWLINE][NEWLINE][ICON_BULLET] Isabella [COLOR_POSITIVE_TEXT]Reconquista[ENDCOLOR]: Conquered cities convert to the State religion and generate a one-time [ICON_PEACE] Faith bonus. Upon discovering Compass, all coastal lands are revealed. (Requires GnK or BNW)
+[NEWLINE][NEWLINE][ICON_BULLET] Montezuma [COLOR_POSITIVE_TEXT]Flower War[ENDCOLOR]: While at War, each Barracks yields +3 [ICON_HAPPINESS_1] Happiness and [ICON_CULTURE] Culture. Melee and Gun units have a chance to enslave defeated enemies.
+[NEWLINE][NEWLINE][ICON_BULLET] Oda Nobunaga [COLOR_POSITIVE_TEXT]Sakoku[ENDCOLOR]: Internal trade routes generate [ICON_RESEARCH] Science. Castles yield +2 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold. Captured cities receive a free Castle.
+[NEWLINE][NEWLINE][ICON_BULLET] Pedro II [COLOR_POSITIVE_TEXT]Export Empire[ENDCOLOR]: Founded cities claim all nearby Jungle tiles. Unimproved Jungles generate [ICON_PRODUCTION] Production. Plantations generate 1 additional [ICON_GOLD] Gold. Sugar [ICON_RES_SUGAR] resources are doubled.
+[NEWLINE][NEWLINE][ICON_BULLET] Suleiman [COLOR_POSITIVE_TEXT]Kanuni[ENDCOLOR]: Adopting policies in the Piety and Aesthetics branches increases [ICON_CULTURE] Culture and [ICON_GOLDEN_AGE] Golden Age Points by 20%. Siege weapons receive the Barrage Promotion.
+[NEWLINE][NEWLINE][ICON_BULLET] Washington [COLOR_POSITIVE_TEXT]Republicanism[ENDCOLOR]: Begin with the Liberty and Republic policies. Cannot adopt policies in the Tradition branch. [ICON_HAPPINESS_4] Unhappiness from number of Cities reduced by 25%.</Description>
+    <Authors>FramedArchitecture</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="304e4f11-e589-4d8b-afb1-025f083f4039" minversion="0" maxversion="999" title="Unique Building Collection" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="D58ECCC2CB814C0648EE03967081F733" import="1">Alexander/Alexander_Hellenism.lua</File>
+    <File md5="F4A20CD32C2004B5276654AD3DEB8DF9" import="0">Alexander/Alexander_Hellenism.sql</File>
+    <File md5="20CF6BF27E019B7E8C4E59D052EC39E2" import="1">Alexander/Art/Alexander_Atlas128.dds</File>
+    <File md5="BD7C8477F4062011B94FD884C8266C77" import="1">Alexander/Art/Alexander_Atlas256.dds</File>
+    <File md5="55E8D7EEFAD6836E3D47CD624D4D20AB" import="1">Alexander/Art/Alexander_Atlas45.dds</File>
+    <File md5="9AA5D1B00500D9996D7B1AD450906469" import="1">Alexander/Art/Alexander_Atlas64.dds</File>
+    <File md5="939628AD8DEE66FC5F7A0044C70C1A20" import="1">Alexander/Art/Alexander_Atlas80.dds</File>
+    <File md5="6FB8FC92D1224916CA5731C8D79C4182" import="1">Alexander/Art/GreatGeneral/Horseman_Greece.dds</File>
+    <File md5="D5B92B47E1C04827CA2A75CB41A18E21" import="1">Alexander/Art/GreatGeneral/Horseman_Greece.fxsxml</File>
+    <File md5="3287F12D645C8FF7E572DC768FB5C341" import="1">Alexander/Art/GreatGeneral/Horseman_Greece.gr2</File>
+    <File md5="72A682845FA5BC0B58F1B4DC62C82A42" import="1">Alexander/Art/GreatGeneral/Horseman_Greece_gloss.dds</File>
+    <File md5="DF527F3E69F8B8083512A3CBE6D85809" import="1">Alexander/Art/GreatGeneral/Horseman_Greece_Horse.dds</File>
+    <File md5="AC41C06BA721315512F26433220FEDF7" import="1">Alexander/Art/GreatGeneral/no_gloss.dds</File>
+    <File md5="07ED8C5A44E3E2CE62B8AB329546DA16" import="1">Askia/Askia_Chronicle.lua</File>
+    <File md5="E72B7D7CA88FA0E511DC46B3ABC48019" import="0">Askia/Askia_Chronicle.sql</File>
+    <File md5="FFFF6FF96C78C3C8F8389937BC8BFD02" import="1">Bismarck/Bismarck_Realpolitik.lua</File>
+    <File md5="6BA7EAD92AEC0A488F39ECEB5420B7B6" import="0">Bismarck/Bismarck_Realpolitik.sql</File>
+    <File md5="C56216EED9E7805C0E6C5F8D808E6BA4" import="1">Boudicca/Boudicca_Andraste.lua</File>
+    <File md5="CCDA02E8AE24F7E76D9BE91FDB5B1EEC" import="0">Boudicca/Boudicca_Andraste.sql</File>
+    <File md5="251D3006F849052F439B3A95EBED2F67" import="1">Dido/Dido_Commerce.lua</File>
+    <File md5="5065A64E4F702D66AF215DAA4907D371" import="0">Dido/Dido_Commerce.sql</File>
+    <File md5="EB89AF75CE0243C517F1A509111475A1" import="1">Elizabeth/Art/Elizabeth_Atlas128.dds</File>
+    <File md5="985B7C48BA6B9A1ABA3CBDA507198C15" import="1">Elizabeth/Art/Elizabeth_Atlas256.dds</File>
+    <File md5="C259A36025CF3379A4C8ED62119DE152" import="1">Elizabeth/Art/Elizabeth_Atlas45.dds</File>
+    <File md5="E037902ED7C185091FC5B08386766049" import="1">Elizabeth/Art/Elizabeth_Atlas64.dds</File>
+    <File md5="64E716C4C413517F963DC0B4AC16C9E9" import="1">Elizabeth/Art/Elizabeth_Atlas80.dds</File>
+    <File md5="E44F01417B4492E77E2A29F7061F1EC7" import="1">Elizabeth/Elizabeth_Gloriana.lua</File>
+    <File md5="6567839E6A5DD03EA31DA105DA29839F" import="0">Elizabeth/Elizabeth_Gloriana.sql</File>
+    <File md5="61BB333988F28F970E10584441AA5934" import="0">Gandhi/Gandhi_Ahimsa.xml</File>
+    <File md5="BFE8FB07F0E56FF2B66FB469C2970E70" import="1">Gandhi/Gandhi_Ahimsa.lua</File>
+    <File md5="68471BF525D8C5CC7B82937B1E947925" import="0">Gandhi/Gandhi_Ahimsa.sql</File>
+    <File md5="45EAFEC7FD8674EE454EC0530976A55F" import="1">Isabella/Isabella_Reconquista.lua</File>
+    <File md5="4EA8292FF3519A596783B2C3168E2F72" import="0">Isabella/Isabella_Reconquista.sql</File>
+    <File md5="C3538B89C169B4B612D4E46145737576" import="1">Montezuma/Art/Montezuma_Atlas128.dds</File>
+    <File md5="EC365A6B16FBEAAF0FF1B3EF1E73F122" import="1">Montezuma/Art/Montezuma_Atlas256.dds</File>
+    <File md5="8F9FAD3A809EAE4C8FEDBF2A0EF49860" import="1">Montezuma/Art/Montezuma_Atlas45.dds</File>
+    <File md5="25E3255636E9BFCFD13F00A1E3240BA0" import="1">Montezuma/Art/Montezuma_Atlas64.dds</File>
+    <File md5="1E548AFF7223049581DCC9D3A1E649CE" import="1">Montezuma/Art/Montezuma_Atlas80.dds</File>
+    <File md5="ED17D4C8C83343B3A28A5AB98C5238A1" import="1">Montezuma/Art/Slave/Spearman_Aztec.dds</File>
+    <File md5="C9DA1D1BB09CF1CD61A73AFD01C0DD37" import="1">Montezuma/Art/Slave/Spearman_Aztec.fxsxml</File>
+    <File md5="F4828A3D7816348168B350F53F3B62AB" import="1">Montezuma/Art/Slave/Spearman_Aztec.gr2</File>
+    <File md5="195F4CF10C588F97E26C6D2426ED7DD8" import="1">Montezuma/Art/Slave/Spearman_Aztec_gloss.dds</File>
+    <File md5="B936230FFDAF79D002998918B4983766" import="1">Montezuma/Montezuma_Sacrifice.lua</File>
+    <File md5="70EA0B90F503BDEAE74DB1E9DF9A151C" import="0">Montezuma/Montezuma_Sacrifice.sql</File>
+    <File md5="F3AD43D0B87AFA030D737A5B2D9FC846" import="1">Oda Nobunaga/Oda_Sakoku.lua</File>
+    <File md5="22D6892092E50B5643518B507439B3E2" import="0">Oda Nobunaga/Oda_Sakoku.sql</File>
+    <File md5="008179B8CB6E7CD379B9759A3990A412" import="1">Pedro/Pedro_Export.lua</File>
+    <File md5="D7092A66C40B242F0B94341B21FC9465" import="0">Pedro/Pedro_Export.sql</File>
+    <File md5="BB950ECEE1D3B6968E7E5233FFD89D16" import="0">readme.txt</File>
+    <File md5="3F99268A8633AF64CCD647A08B1F1D81" import="1">Suleiman/Suleiman_Lawgiver.lua</File>
+    <File md5="733F006E32217D317E34AE06272966D1" import="0">Suleiman/Suleiman_Lawgiver.sql</File>
+    <File md5="B4E22C0096BB556AF8C919F3BC7E3AC1" import="0">UA Global/JFD_TopPanelUpdated.lua</File>
+    <File md5="02C1B3C03249532E1C5FCF32599A5CCA" import="1">UA Global/PlotIterators.lua</File>
+    <File md5="FA224CF6320CE41309C0864F202F4007" import="1">UA Global/Serializer.lua</File>
+    <File md5="5E89260AE02262C2D7420C84BC21157B" import="1">UA Global/UA_Functions.lua</File>
+    <File md5="E7A7829DA046CAE14CD9E998EA2CDCC6" import="0">UA Global/UA_Globals.sql</File>
+    <File md5="4075CC9481FE196874FF9279811BA802" import="0">UA Global/UA_Main.lua</File>
+    <File md5="98E3BF0C34844894F2467685D49A1559" import="0">UA Global/UA_Text.xml</File>
+    <File md5="84096188E3BE7C1FC199CBD88789CE3B" import="0">Washington/Washington_Republicanism.xml</File>
+    <File md5="F2441C0277966B27FE5CE28D705B8F76" import="1">Washington/Washington_Republicanism.lua</File>
+    <File md5="834A58AABFA5AA59E9BE1D476E47A312" import="0">Washington/Washington_Republicanism.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>UA Global/UA_Globals.sql</UpdateDatabase>
+      <UpdateDatabase>UA Global/UA_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Alexander/Alexander_Hellenism.sql</UpdateDatabase>
+      <UpdateDatabase>Askia/Askia_Chronicle.sql</UpdateDatabase>
+      <UpdateDatabase>Bismarck/Bismarck_Realpolitik.sql</UpdateDatabase>
+      <UpdateDatabase>Boudicca/Boudicca_Andraste.sql</UpdateDatabase>
+      <UpdateDatabase>Dido/Dido_Commerce.sql</UpdateDatabase>
+      <UpdateDatabase>Elizabeth/Elizabeth_Gloriana.sql</UpdateDatabase>
+      <UpdateDatabase>Gandhi/Gandhi_Ahimsa.sql</UpdateDatabase>
+      <UpdateDatabase>Gandhi/Gandhi_Ahimsa.xml</UpdateDatabase>
+      <UpdateDatabase>Isabella/Isabella_Reconquista.sql</UpdateDatabase>
+      <UpdateDatabase>Montezuma/Montezuma_Sacrifice.sql</UpdateDatabase>
+      <UpdateDatabase>Oda Nobunaga/Oda_Sakoku.sql</UpdateDatabase>
+      <UpdateDatabase>Pedro/Pedro_Export.sql</UpdateDatabase>
+      <UpdateDatabase>Suleiman/Suleiman_Lawgiver.sql</UpdateDatabase>
+      <UpdateDatabase>Washington/Washington_Republicanism.sql</UpdateDatabase>
+      <UpdateDatabase>Washington/Washington_Republicanism.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="UA Global/UA_Main.lua">
+      <Name>UA Main</Name>
+      <Description>UA Main</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="UA Global/JFD_TopPanelUpdated.lua">
+      <Name>JFD_TopPanelUpdated</Name>
+      <Description>JFD_TopPanelUpdated</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

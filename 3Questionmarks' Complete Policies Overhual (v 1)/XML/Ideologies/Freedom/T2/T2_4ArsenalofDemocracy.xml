@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:08:59 PM -->
+<GameData>
+
+	<!-- Arsenal of Democracy: +25% Production towards military units. Newly trained units gain 15xp. -->
+	<Policies>
+		<Update>
+			<Set Level="2" IncludesOneShotFreeUnits="false" BaseFreeUnits="0" MilitaryProductionModifier="25" FreeExperience="15" />
+			<Where Type="POLICY_VOLUNTEER_ARMY" />
+		</Update>
+	</Policies>
+
+	<Policy_FreeUnitClasses>
+		<Update>
+			<Set Count="0" />
+			<Where PolicyType="POLICY_VOLUNTEER_ARMY" />
+		</Update>
+	</Policy_FreeUnitClasses>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Arsenal of Democracy[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Production towards military units. Newly trained militarty units start with an additioanl 15 [ICON_WAR] XP.</Text>
+		</Row>
+	</Language_en_US>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_VOLUNTEER_ARMY">
+			<Text>Arsenal of Democracy</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

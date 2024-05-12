@@ -3,7 +3,7 @@
 <GameData>
 	<Buildings>
 		<Update>
-			<Set Happiness="4" />
+			<Set PrereqTech="TECH_STANDING_ARMY" Happiness="4" />
 			<Where Type="BUILDING_COLOSSEUM" />
 		</Update>
 		<Update>

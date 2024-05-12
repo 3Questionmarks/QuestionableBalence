@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/14/2016 8:23:55 PM -->
+<GameData>
+	<!-- Universal Healthcare: +100% production towards hospitals and medical labs, and they each tield +3 Food and Science. +10% Food and Science from the Center of Desease Control. -->
+
+	<Policies>
+		<Row>
+			<Type>POLICY_UNIVERSAL_HEALTHCARE_NF</Type>
+			<Description>TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE</Description>
+			<Civilopedia>TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_NF_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_FREEDOM</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>25</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			<Level>2</Level>
+		</Row>
+	</Policies>
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE</PolicyType>
+			<FlavorType>FLAVOR_FOOD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Policy_Flavors>
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_RA_CDC</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>10</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_RA_CDC</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldMod>10</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>3</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_UNIVERSAL_HEALTHCARE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_NF_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Universal Healthcare[ENDCOLOR][NEWLINE]+100% [ICON_PRODUCTION] Production towards [COLOR_BUILDING_TEXT]Hospitals[ENDCOLOR] and [COLOR_BUILDING_TEXT]Medical Labs[ENDCOLOR], and they each yield +3 [ICON_FOOD] Food and [ICON_RESEARCH] Science. +10% [ICON_FOOD] Food and [ICON_RESEARCH] Science from the [COLOR_CITY_GREEN]Centre of Desase Control[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/12/2024 3:36:49 PM -->
+<GameData>
+	<!-- Changed +1 food and production to +1 Gold and Culture -->
+	<Building_FeatureYieldChanges>
+		<Delete BuildingType="BUILDING_PETRA" />
+	</Building_FeatureYieldChanges>
+
+	<Building_TerrainYieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_PETRA" />
+			<Set Yield="0" />
+		</Update>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_PETRA_HELP" />
+		<Row Tag="TXT_KEY_WONDER_PETRA_HELP">
+			<Text>+1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture for all desert tiles worked by this city. Gains an additional trade route slot and a Caravan appears in the city. +6 [ICON_CULTURE] Culture once Archaeology is discovered. City must be built on or next to Desert.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

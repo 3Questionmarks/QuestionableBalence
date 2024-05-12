@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 15:59:12 -->
+<GameData>
+	
+	<!-- Double Agents: Now also provides +2 Spies. -->
+	<!-- Making Dummy Building -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DOUBLEAGENTSDUMMYBUILDING</Type>
+			<Description>TXT_KEY_BUILDING_DOUBLEAGENTSDUMMYBUILDING</Description>
+			<DefaultBuilding>BUILDING_DOUBLEAGENTSDUMMYBUILDING</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DOUBLEAGENTSDUMMYBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_DOUBLEAGENTSDUMMYBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_DOUBLEAGENTSDUMMYBUILDING</Description>
+			<NukeImmune>true</NukeImmune>
+			<ExtraSpies>2</ExtraSpies>
+		</Row>
+	</Buildings>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_COVERTACTIONDUMMYBUILDING">
+			<Text>You should not see this in game?</Text>
+		</Row>
+	</Language_en_US>
+
+	<Policy_PGB_FreeBuildingClassCapital>
+		<Row>
+			<PolicyType>POLICY_DOUBLE_AGENTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_DOUBLEAGENTSDUMMYBUILDING</BuildingClassType>
+		</Row>
+	</Policy_PGB_FreeBuildingClassCapital>
+	
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Double Agents[ENDCOLOR][NEWLINE]Immediately gain two [ICON_SPY] Spies and [ICON_SPY] Spies are twice as likely to kill enemy [ICON_SPY] Spies when stationed in your Cities.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

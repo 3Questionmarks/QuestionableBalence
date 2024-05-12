@@ -171,7 +171,7 @@
 		<!-- Construction -->
 		<Delete Tag="TXT_KEY_TECH_CONSTRUCTION_HELP" />
 		<Row Tag="TXT_KEY_TECH_CONSTRUCTION_HELP">
-			<Text>Allows you to construct the [COLOR_BUILDING_TEXT]Colosseum[ENDCOLOR], which improves [ICON_HAPPINESS_1] Happiness in the empire, which in turn helps your city growth and makes [ICON_GOLDEN_AGE] Golden Ages more likely; the [COLOR_BUILDING_TEXT]Cistern[ENDCOLOR], which increases the [ICON_FOOD] Food output of a city; and the [COLOR_BUILDING_TEXT]Sculptor's Workshop[ENDCOLOR], which increases the speed at which [ICON_GREAT_PEOPLE] Great People are generated. Also, [COLOR_CULTURE_STORED][ICON_WORKER] Workers improve tiles 25% quicker[ENDCOLOR].</Text>
+			<Text>Allows you to construct the [COLOR_BUILDING_TEXT]Cistern[ENDCOLOR], which increases the [ICON_FOOD] Food output of a city; and the [COLOR_BUILDING_TEXT]Sculptor's Workshop[ENDCOLOR], which increases the speed at which [ICON_GREAT_PEOPLE] Great People are generated. Also, [COLOR_CULTURE_STORED][ICON_WORKER] Workers improve tiles 25% quicker[ENDCOLOR].</Text>
 		</Row>
 
 		<!-- New Tech "Standing Army" -->
@@ -182,7 +182,7 @@
 			<Text>A standing army is a permanent, often professional, army. It is composed of full-time soldiers who may be either career soldiers or conscripts. It differs from army reserves, who are enrolled for the long term, but activated only during wars or natural disasters, and temporary armies, which are raised from the civilian population only during a war or threat of war, and disbanded once the war or threat is over. Standing armies tend to be better equipped, better trained, and better prepared for emergencies, defensive deterrence, and particularly, wars. The term dates from approximately 1600 CE, although the phenomenon it describes is much older. --Wikipedia</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_STANDING_ARMY_HELP">
-			<Text>Allows you to build the [COLOR_XP_BLUE]Composite Bowman[ENDCOLOR], a powerful ranged infantry unit.</Text>
+			<Text>Allows you to construct the [COLOR_BUILDING_TEXT]Colosseum[ENDCOLOR], which improves [ICON_HAPPINESS_1] Happiness in the empire, which in turn helps your city growth and makes [ICON_GOLDEN_AGE] Golden Ages more likely. Also allows you to build the [COLOR_XP_BLUE]Composite Bowman[ENDCOLOR], a powerful ranged infantry unit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_STANDING_ARMY_QUOTE">
 			<Text>

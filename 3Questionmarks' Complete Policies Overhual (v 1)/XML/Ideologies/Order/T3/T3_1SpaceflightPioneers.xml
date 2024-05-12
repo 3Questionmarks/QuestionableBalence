@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 16:02:44 -->
+<GameData>
+
+	<!--  Spaceflight Pioneers: May finish Spaceship parts with Great Engineers. Whenever a Great Scientist is earned, a free great general appears and vice versa. -->
+	
+	<Policies>
+		<Update>
+			<Set IncludesOneShotFreeUnits="false"  />
+			<Where Type="POLICY_SPACEFLIGHT_PIONEERS" />
+		</Update>
+	</Policies>
+	<Policy_FreeUnitClasses>
+		<Delete PolicyType="POLICY_SPACEFLIGHT_PIONEERS" />
+	</Policy_FreeUnitClasses>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Spacelight Pioneers[ENDCOLOR][NEWLINE]May finish Spaceship parts with [ICON_GREAT_ENGINEER] Great Engineers. Whenever a [ICON_GREAT_SCIENTIST] Great Scientist is earned, a free [ICON_GREAT_ENGINEER] Great Engineer appears and vice versa.</Text>
+		</Row>
+	</Language_en_US>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_LUA_SPAWNED_UNIT_FLAG</Type>
+			<Description>Internal Promotion</Description>
+			<Help>Internal Promotion</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OrderPriority>6</OrderPriority>
+			<PortraitIndex>26</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>Internal Promotion</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+
+</GameData>

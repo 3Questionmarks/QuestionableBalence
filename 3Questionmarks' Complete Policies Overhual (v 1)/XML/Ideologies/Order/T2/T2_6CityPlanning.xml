@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/10/2018 7:19:15 PM -->
+<GameData>
+	
+  <!-- City Planning (changed from Hero of the people) -->
+	
+	<Policies>
+		<Update>
+			<Set GreatPeopleRateModifier="0" GoldenAgeDurationMod="0" HappinessPerTradeRoute="3" BuildingGoldMaintenanceMod="-50" Level="2" />
+			<Where Type="POLICY_HERO_OF_THE_PEOPLE" />
+		</Update>
+	</Policies>
+	
+	<!-- Text cleared up to match freedom entry. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE" />
+		<Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE">
+			<Text>City Planning</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]City Planning[ENDCOLOR][NEWLINE]+3 [ICON_HAPPINESS_1] Happiness from [ICON_CONNECTED] City Connections and -50% building [ICON_GOLD] Maintainance</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

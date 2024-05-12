@@ -46,7 +46,7 @@
     <File md5="1C44AC4450572EA560B2707BF873B2F8" import="0">Followers/Gurdwaras.xml</File>
     <File md5="499C630BBAFBCECA305085C11ED30B71" import="0">Followers/Guruship.xml</File>
     <File md5="3408C50486297E531BBFF9CC31A34EDA" import="0">Followers/WarriorMonks.xml</File>
-    <File md5="FF4FE30532DB080FB17CF9E07C2E923F" import="0">Followers/LiturgicalDrama.xml</File>
+    <File md5="6EE2C2D7B1A0ECFAA95D422A205F0A3B" import="0">Followers/LiturgicalDrama.xml</File>
     <File md5="60416E355E5C21BF221E6B08F92A2328" import="0">Followers/Madrassas.xml</File>
     <File md5="5EDCF56F2DAEF7F87BDE99EEA8D7C047" import="0">Followers/Mandirs.xml</File>
     <File md5="44E01747BAC46D3D9175D41F1E1FC324" import="0">Followers/ReligiousDiversity.xml</File>
@@ -67,7 +67,7 @@
     <File md5="9187C2DE32A1AAC43864A41FBDE98405" import="0">Founders/FeedTheWorld.xml</File>
     <File md5="BD0F0CBB78F317136E1B28A5AEA8C70A" import="0">Founders/DefenderOfTheFaith.lua</File>
     <File md5="75B997734B809A290DFC38C3B35DCBC1" import="0">Founders/DivineEspionage.xml</File>
-    <File md5="6B5A84C1FA572E6A4C32EAC7A98D0071" import="0">Founders/ReligiousSettlements.lua</File>
+    <File md5="DE3D1AAC5B53F9A12B8546EB2D72D5DA" import="0">Founders/ReligiousSettlements.lua</File>
     <File md5="738141C628A2336C8FCA0F878F1375EE" import="0">Founders/InitiationRites.lua</File>
     <File md5="704857163FEF14A02D288C2D877D7CDC" import="0">Founders/InitiationRites.xml</File>
     <File md5="494DA01533299027F8B0D2D3E61C0649" import="0">Founders/InterfaithDialogue.xml</File>

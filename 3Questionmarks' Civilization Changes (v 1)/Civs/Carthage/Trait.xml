@@ -9,7 +9,7 @@
 	</Traits>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_TRAIT_FA_DIDO">
-			<Text>Costal cities receive a Cothon, claim workable water tiles, and spawn a source of [ICON_RES_JFD_SHELLFISH] Shellfish. Each traded resource type yields 3 [ICON_GOLD] Gold and [ICON_CULTURE] Culture. Naval Unit are produced 33% faster and cost 50% less [ICON_GOLD] Gold Maintainace.</Text>
+			<Text>Costal cities receive a Cothon, claim workable water tiles, and spawn at least one source of [ICON_RES_JFD_SHELLFISH] Shellfish, a uniuqe luxuruy resource. Naval Unit are produced 33% faster and cost 50% less [ICON_GOLD] Gold Maintainace.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_FA_DIDO_SHORT">
 			<Text>Phoenician Heritage</Text>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:08:52 PM -->
+<GameData>
+
+	<!-- Covert Action: +2 Spies and doubles the chance sucsessfully rigging city states elections is doubled. -->
+
+	<!-- Making Dummy Building -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_COVERTACTIONDUMMYBUILDING</Type>
+			<Description>TXT_KEY_BUILDING_COVERTACTIONDUMMYBUILDING</Description>
+			<DefaultBuilding>BUILDING_COVERTACTIONDUMMYBUILDING</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_COVERTACTIONDUMMYBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_COVERTACTIONDUMMYBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_COVERTACTIONDUMMYBUILDING</Description>
+			<NukeImmune>true</NukeImmune>
+			<ExtraSpies>2</ExtraSpies>
+		</Row>
+	</Buildings>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_COVERTACTIONDUMMYBUILDING">
+			<Text>You should not see this in game?</Text>
+		</Row>
+	</Language_en_US>
+
+	<Policy_PGB_FreeBuildingClassCapital>
+		<Row>
+			<PolicyType>POLICY_COVERT_ACTION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COVERTACTIONDUMMYBUILDING</BuildingClassType>
+		</Row>
+	</Policy_PGB_FreeBuildingClassCapital>
+
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_COVERT_ACTION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_COVERT_ACTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Covert Action[ENDCOLOR][NEWLINE]Immediately gain two [ICON_SPY] Spies and the chance of successfully rigging a [ICON_CITY_STATE] City State election is doubled.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

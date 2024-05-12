@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 16:02:19 -->
+<GameData>
+	
+	<!-- Resettlement: Newly founded cities start with an extra 4 pop and buildings in all cities cost 25% less gold to purchace-->
+	<Policies>
+		<Update>
+			<Set Level="1" NewCityExtraPopulation="4" BuildingPurchaseCostModifier="-25"/>
+			<Where Type="POLICY_RESETTLEMENT" />
+		</Update>
+	</Policies>
+
+	<!-- localization -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT">
+			<Text>Resettlement</Text>
+		</Row>
+
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Resettlement[ENDCOLOR][NEWLINE]New cities start with 4 extra [ICON_CITIZEN] Population, and buildings in all cities cost 25% less [ICON_GOLD] Gold to purchase.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

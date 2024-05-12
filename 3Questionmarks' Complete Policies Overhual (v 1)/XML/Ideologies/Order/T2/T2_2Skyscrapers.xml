@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 15:58:13 -->
+<GameData>
+  
+	<!-- Skyscrapers (replaces Patriotic War): Gold cost of purchasing Buildings reduced by 50%. -->
+	<Policies>
+		<Update>
+			<Set Level="2" MilitaryProductionModifier="0" BuildingPurchaseCostModifier="-50" />
+			<Where Type="POLICY_PATRIOTIC_WAR" />
+		</Update>
+	</Policies>
+	<Policy_FreePromotions>
+		<Delete PolicyType="POLICY_PATRIOTIC_WAR" />
+	</Policy_FreePromotions>
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_PATRIOTIC_WAR</PolicyType>
+			<FlavorType>FLAVOR_EXPANTION</FlavorType>
+			<Flavor>33</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_PATRIOTIC_WAR" />
+		<Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR">
+			<Text>Skyscrapers.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP" />
+		<Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Skyscrapers[ENDCOLOR][NEWLINE][ICON_GOLD] Gold cost of purchasing buildings is reduced by 50%.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

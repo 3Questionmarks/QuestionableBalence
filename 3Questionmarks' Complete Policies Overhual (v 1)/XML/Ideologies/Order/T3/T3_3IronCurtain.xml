@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 15:59:52 -->
+<GameData>
+	
+	<!-- Iron Curtain: Internal trade routes provide triple base yield -->
+	<Policies>
+		<Update>
+			<Set Level="3" InternalTradeRouteYieldModifier="300" FreeBuildingOnConquest="NULL" />
+			<Where Type="POLICY_IRON_CURTAIN" />
+		</Update>
+	</Policies>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_IRON_CURTAIN_HELP" />
+		<Row Tag="TXT_KEY_POLICY_IRON_CURTAIN_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Iron Curtain[ENDCOLOR][NEWLINE]Internal [ICON_INTERNATIONAL_TRADE] Trade Routes provide three times the base yield.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

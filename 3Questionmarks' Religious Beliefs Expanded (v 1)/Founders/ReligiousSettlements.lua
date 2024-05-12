@@ -4,7 +4,7 @@
 --------------------------------------------------------------
 
 -- KNOWN LIMITATION:  Settlers that already exist when the religion is founded will not be given the healing promotion
-function DefenderFaith(playerID, unitID, hexVec, unitType, cultureType, civID, primaryColor, secondaryColor, unitFlagIndex, fogState, selected, military, notInvisible)
+function ReligiousSettle(playerID, unitID, hexVec, unitType, cultureType, civID, primaryColor, secondaryColor, unitFlagIndex, fogState, selected, military, notInvisible)
 	local player = Players[playerID];
 	local unit = player:GetUnitByID(unitID);
 	local eReligion = player:GetReligionCreatedByPlayer();
@@ -36,4 +36,4 @@ function DefenderFaith(playerID, unitID, hexVec, unitType, cultureType, civID, p
 	-- Give the great prophet the promotion
 	unit:SetHasPromotion(GameInfoTypes["PROMOTION_RELIGIOUS_SETTLEMENTS"], true);
 end
-LuaEvents.SerialEventUnitCreatedGood.Add(DefenderFaith);
+LuaEvents.SerialEventUnitCreatedGood.Add(ReligiousSettle);

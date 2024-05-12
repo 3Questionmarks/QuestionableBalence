@@ -430,6 +430,19 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>3</Yield>
 		</Row>
+		<!-- Shellfish -->
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<ResourceType>RESOURCE_JFD_SHELLFISH</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<ResourceType>RESOURCE_JFD_SHELLFISH</ResourceType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
 	</Building_ResourceYieldChanges>
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_WONDER_PORCELAIN_TOWER_HELP" />

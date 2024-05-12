@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:17:12 PM -->
+<GameData>
+	<!-- Industrial Espionage: +2 Spies and Spies steal technology twice as fast -->
+
+	<!-- Making Dummy Building -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_INDESPIONAGEDUMMYBUILDING</Type>
+			<Description>TXT_KEY_BUILDING_INDESPIONAGEDUMMYBUILDING</Description>
+			<DefaultBuilding>BUILDING_INDESPIONAGEDUMMYBUILDING</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_INDESPIONAGEDUMMYBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_INDESPIONAGEDUMMYBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_INDESPIONAGEDUMMYBUILDING</Description>
+			<NukeImmune>true</NukeImmune>
+			<ExtraSpies>2</ExtraSpies>
+		</Row>
+	</Buildings>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_INDESPIONAGEDUMMYBUILDING">
+			<Text>You should not see this in game?</Text>
+		</Row>
+	</Language_en_US>
+
+	<Policy_PGB_FreeBuildingClassCapital>
+		<Row>
+			<PolicyType>POLICY_INDUSTRIAL_ESPIONAGE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_INDESPIONAGEDUMMYBUILDING</BuildingClassType>
+		</Row>
+	</Policy_PGB_FreeBuildingClassCapital>
+
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Industrial Espionage[ENDCOLOR][NEWLINE]Immediately gain two [ICON_SPY] Spies and [ICON_SPY] Spies steal technology twice as quickly.</Text>
+		</Row>
+	</Language_en_US>	
+
+</GameData>

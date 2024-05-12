@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 15:58:45 -->
+<GameData>
+	
+	<!-- (New Policy) Utopianism: +6 Tourism in each City. -->
+
+	<Policies>
+		<Row>
+			<Type>POLICY_UTOPIANISM</Type>
+			<Description>Utopiantism</Description>
+			<Civilopedia>TXT_KEY_POLICY_UTOPIANISM_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_UTOPIANISM_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_ORDER</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<Level>1</Level>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_UTOPIANISM</PolicyType>
+			<FlavorType>FLAVOR_TOURISM</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_UTOPIANISM_DUMMY</Type>
+			<DefaultBuilding>BUILDING_UTOPIANISM_DUMMY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_UTOPIANISM_DUMMY</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_UTOPIANISM_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_UTOPIANISM_DUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_UTOPIANISM_DUMMY</Description>
+			<NukeImmune>true</NukeImmune>
+			<EnhancedYieldTech>TECH_AGRICULTURE</EnhancedYieldTech>
+			<TechEnhancedTourism>6</TechEnhancedTourism>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_UTOPIANISM_DUMMY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_UTOPIANISM_DUMMY">
+			<Text>Another Dummy Bites the Dust</Text>
+		</Row>
+	</Language_en_US>
+
+	<Policy_PGB_FreeBuildingClass>
+		<Row>
+			<PolicyType>POLICY_UTOPIANISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UTOPIANISM_DUMMY</BuildingClassType>
+		</Row>
+	</Policy_PGB_FreeBuildingClass>
+	
+	<!-- Texts -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UTOPIANISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Utopianism[ENDCOLOR][NEWLINE]+6 [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism in each City.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UTOPIANISM_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Utopian_socialism)[ENDCOLOR][NEWLINE][NEWLINE]Utopian socialism is a label used to define the first currents of modern socialist thought as exemplified by the work of Henri de Saint-Simon, Charles Fourier, Étienne Cabet, and Robert Owen. Utopian socialism is often described as the presentation of visions and outlines for imaginary or futuristic ideal societies, with positive ideals being the main reason for moving society in such a direction. Later socialists and critics of utopian socialism viewed "utopian socialism" as not being grounded in actual material conditions of existing society, and in some cases, as reactionary. These visions of ideal societies competed with Marxist-inspired revolutionary social democratic movements.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

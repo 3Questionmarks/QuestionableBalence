@@ -21,21 +21,21 @@ function FortTraining(PlayerID)
 			and pPlot:IsBeingWorked() then
 			if Game.GetGameSpeedType() > 1 or Game.GetElapsedGameTurns() % 2 == 0 then
 				if pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_FORT then
-					pUnit:ChangeExperience(1)
-				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_KASBAH then
-					pUnit:ChangeExperience(1)
-				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_CL_KALLE then
-					pUnit:ChangeExperience(1)
-				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_DZONG then
-					pUnit:ChangeExperience(1)
-				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_DZONG2 then
-					pUnit:ChangeExperience(2)
-				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_BENIN_MOD_IYA then
-					pUnit:ChangeExperience(2)
-				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_MC_MAORI_PA then
-					pUnit:ChangeExperience(2)
-				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_CITADEL then
 					pUnit:ChangeExperience(3)
+				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_KASBAH then
+					pUnit:ChangeExperience(3)
+				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_CL_KALLE then
+					pUnit:ChangeExperience(3)
+				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_DZONG then
+					pUnit:ChangeExperience(3)
+				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_DZONG2 then
+					pUnit:ChangeExperience(6)
+				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_BENIN_MOD_IYA then
+					pUnit:ChangeExperience(6)
+				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_MC_MAORI_PA then
+					pUnit:ChangeExperience(6)
+				elseif pPlot:GetImprovementType() == GameInfoTypes.IMPROVEMENT_CITADEL then
+					pUnit:ChangeExperience(6)
 				end
 			end
 		end

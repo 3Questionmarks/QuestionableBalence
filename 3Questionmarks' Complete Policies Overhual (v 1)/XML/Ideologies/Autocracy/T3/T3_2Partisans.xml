@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:17:12 PM -->
+<GameData>
+
+	<!-- Partisans (replaces Nationalism): +100% speed to city state election rig. Captured city states grant you _1 delegate to the world congress.. -->
+	<Policies>
+		<Update>
+			<Set Level="3" UnitGoldMaintenanceMod="0" RiggingElectionModifier="100" MilitaryUnitGiftExtraInfluence="0" Civilopedia="TXT_KEY_POLICY_PARTISANS_TEXT" />
+			<Where Type="POLICY_NATIONALISM" />
+		</Update>
+	</Policies>
+
+	<!-- Making Dummy Building -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_PARTISANDUMMYBUILDING</Type>
+			<Description>TXT_KEY_BUILDING_PARTISANDUMMYBUILDING</Description>
+			<DefaultBuilding>BUILDING_PARTISANDUMMYBUILDING</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PARTISANDUMMYBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_PARTISANDUMMYBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_PARTISANDUMMYBUILDING</Description>
+			<NukeImmune>true</NukeImmune>
+			<ExtraLeagueVotes>1</ExtraLeagueVotes>
+		</Row>
+	</Buildings>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PARTISANDUMMYBUILDING">
+			<Text>You should not see this in game?</Text>
+		</Row>
+	</Language_en_US>
+	<Policy_PGB_FreeBuildingClassCityStates>
+		<Row>
+			<PolicyType>POLICY_NATIONALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PARTISANDUMMYBUILDING</BuildingClassType>
+		</Row>
+	</Policy_PGB_FreeBuildingClassCityStates>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_NATIONALISM" />
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM">
+			<Text>Partisans</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_NATIONALISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Partisans[ENDCOLOR][NEWLINE][ICON_CITY_STATE] City State elections are rigged twice as fast. Each [ICON_CITY_STATE] City-State that you have [ICON_OCCUPIED] Occupied or [ICON_PUPPET] Puppeted grants 1 additional delegate in the World Congress.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_PARTISANS_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Partisan_(military))[ENDCOLOR][NEWLINE][NEWLINE]A partisan is a member of an irregular military force formed to oppose control of an area by a foreign power or by an army of occupation by some kind of insurgent activity. The term can apply to the field element of resistance movements, examples of which are the civilians who opposed Nazi German, Fascist Italian and Ustaše Croatian rule in several countries during World War II.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

@@ -37,6 +37,11 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_FLATLAND_CITY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>-1</Yield>
+		</Row>
 	</Building_YieldChanges>
 
 	<Language_en_US>

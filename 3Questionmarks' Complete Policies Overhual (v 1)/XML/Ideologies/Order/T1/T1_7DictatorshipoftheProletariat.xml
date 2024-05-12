@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 16:02:08 -->
+<GameData>
+
+	<!-- Dictatorship of the Proletariat: Negate Unhappiness from number of cities%. -->
+	<Policies>
+		<Update>
+			<Set Level="1" LessHappyTourismModifier="0" CityCountUnhappinessMod="-100" />
+			<Where Type="POLICY_DICTATORSHIP_PROLETARIAT" />
+		</Update>
+	</Policies>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP" />
+		<Row Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Dictatorship of the Proletariat[ENDCOLOR][NEWLINE]Negate [ICON_HAPPINESS_4] Unhappiness from the number of Cities.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

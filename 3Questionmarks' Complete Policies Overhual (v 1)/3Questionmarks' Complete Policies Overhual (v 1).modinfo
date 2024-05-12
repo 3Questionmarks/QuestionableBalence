@@ -107,6 +107,72 @@
     <File md5="98B1DB8ADE27A5E8BEFCFE271FDFE83A" import="0">XML/Feudalism/Building.xml</File>
     <File md5="291B92EEAB2FA4A088116CACFBCD2152" import="0">XML/Feudalism/Policies.xml</File>
     <File md5="2991DFD7E221D03B644D3F917748368E" import="0">XML/Feudalism/Units.xml</File>
+    <File md5="A5C5CF9426C18225FBEFA71A76C5A16B" import="0">XML/Ideologies/Autocracy/T1/T1_9Nationalism.xml</File>
+    <File md5="18E928D70088CC96E1B3B5C266028EFC" import="0">XML/Ideologies/Autocracy/T1/T1_1EliteForces.xml</File>
+    <File md5="1FA715156D4969BB79B83DAC779E20AE" import="0">XML/Ideologies/Autocracy/T1/T1_2GunboatDiplomacy.xml</File>
+    <File md5="324D212A56AA588A79BD1FC9CF82F0F8" import="0">XML/Ideologies/Autocracy/T1/T1_3Futurism.xml</File>
+    <File md5="19CB1ACD194519DE914229CCDCB7B87F" import="0">XML/Ideologies/Autocracy/T1/T1_4IndustrialEspionage.xml</File>
+    <File md5="15D6CAF982678ACC4A81C718074CE091" import="0">XML/Ideologies/Autocracy/T1/T1_5Jingoism.xml</File>
+    <File md5="CA2563F53ADFBD4A902ED9F7010FBC9C" import="0">XML/Ideologies/Autocracy/T1/T1_6Mobilization.xml</File>
+    <File md5="6B95FC6E52EFFD3951EFA65D935EFB2D" import="0">XML/Ideologies/Autocracy/T1/T1_7Fascism.xml</File>
+    <File md5="0EB10221304D011058EB859EA65D9FEA" import="0">XML/Ideologies/Autocracy/T1/T1_8Conscription.xml</File>
+    <File md5="F864B6728EE3CDF43F5CED02BACB5B87" import="0">XML/Ideologies/Autocracy/T2/T2_6IronFist.lua</File>
+    <File md5="5564A10DBD2F606820305BBF07AE1940" import="0">XML/Ideologies/Autocracy/T2/T2_1TotalWar.xml</File>
+    <File md5="621BF458FEE10B8E2D31C895A6BF393F" import="0">XML/Ideologies/Autocracy/T2/T2_2UnitedFront.xml</File>
+    <File md5="694D1DAABA636B2022837CF69E44D064" import="0">XML/Ideologies/Autocracy/T2/T2_3Militarism.xml</File>
+    <File md5="976EA13F216902983D61F69DE78D4642" import="0">XML/Ideologies/Autocracy/T2/T2_5ThirdAlternative.xml</File>
+    <File md5="B80D791AEBE3677A8C079682AE447DC1" import="0">XML/Ideologies/Autocracy/T2/T2_4PoliceState.xml</File>
+    <File md5="297059D98412663F173F18B97B330CD6" import="0">XML/Ideologies/Autocracy/T2/T2_6IronFist.xml</File>
+    <File md5="736F74D87B1B6EC31176AC065D46379F" import="0">XML/Ideologies/Autocracy/T3/T3_1LightningWarfare.xml</File>
+    <File md5="780CF7308F455B1FF7E5DE2C24D5937F" import="0">XML/Ideologies/Autocracy/T3/T3_2Partisans.xml</File>
+    <File md5="C0C1D780816BFDBF5DB4A62D6CE88274" import="0">XML/Ideologies/Autocracy/T3/T3_3CultOfPersonality.xml</File>
+    <File md5="604C1C552BF239C8034D477EC0400F99" import="0">XML/Ideologies/Autocracy/T3/T3_4WarHeroes.lua</File>
+    <File md5="8C269277BCAB4193511DDF9AE2A78064" import="0">XML/Ideologies/Autocracy/T3/T3_4WarHeroes.xml</File>
+    <File md5="461FC3857E915407DB558855E539D33A" import="0">XML/Ideologies/Autocracy/T3/T3_5Totalitarianism.xml</File>
+    <File md5="1E34E36E5CB88812ED104E378636675F" import="0">XML/Ideologies/Freedom/T1/ForiegnLegionChanges.xml</File>
+    <File md5="DA9DDB88025CC1C6FB5CF6EB8D026F2A" import="0">XML/Ideologies/Freedom/T1/T1_1CivilSociety.xml</File>
+    <File md5="D5578BFE0C0612A51C29C99997227AFA" import="0">XML/Ideologies/Freedom/T1/T1_2CovertAction.xml</File>
+    <File md5="5D9D982CC1A61EC3C4A5603C91F4D006" import="0">XML/Ideologies/Freedom/T1/T1_3EconomicUnion.xml</File>
+    <File md5="E755A8D020E557445397E0387A1DF35E" import="0">XML/Ideologies/Freedom/T1/T1_4FreeTrade.xml</File>
+    <File md5="8BCA0A629FDD61BD6E7518D8F91148EE" import="0">XML/Ideologies/Freedom/T1/T1_5CreativeExpression.xml</File>
+    <File md5="B96FA7A7435325A06A32362A323FF895" import="0">XML/Ideologies/Freedom/T1/T1_6Consimerism.xml</File>
+    <File md5="8D430AF5515C1CABCFA69F753EBC06A0" import="0">XML/Ideologies/Freedom/T1/T1_7NewDeal.xml</File>
+    <File md5="B1ED9518FC21A3E0347E960BFCBB60E4" import="0">XML/Ideologies/Freedom/T1/T1_8Urbanization.xml</File>
+    <File md5="273031A4D59E10321391D8295CBBD75F" import="0">XML/Ideologies/Freedom/T1/T1_9VolunteerArmy.xml</File>
+    <File md5="3A527A6EE8FB1C4CBC4FA6890F5C8204" import="0">XML/Ideologies/Freedom/T1/T1_9VolunteerArmy.lua</File>
+    <File md5="9E8488FA19F6E336DA83A96181EEF779" import="0">XML/Ideologies/Freedom/T2/T2_1AvanteGarde.xml</File>
+    <File md5="1D14AB972C6CB82F80D1F10206741130" import="0">XML/Ideologies/Freedom/T2/T2_2Inspiration.xml</File>
+    <File md5="4A46319E2008142BE3447E82D7ECCBEF" import="0">XML/Ideologies/Freedom/T2/T2_3FreeMarket.xml</File>
+    <File md5="8E7863BDA92C0A9062378F562D77425F" import="0">XML/Ideologies/Freedom/T2/T2_5UniversalSuffrage.xml</File>
+    <File md5="EC984472CB77DCDB5774144725A08342" import="0">XML/Ideologies/Freedom/T2/T2_6Universal Healthcare.xml</File>
+    <File md5="CEF3631D074EE2D3963D28533ADD897E" import="0">XML/Ideologies/Freedom/T2/T2_4ArsenalofDemocracy.xml</File>
+    <File md5="DD21642C3E35DB10C1246ED09D78A000" import="0">XML/Ideologies/Freedom/T3/T3_1TreatyOrganization.xml</File>
+    <File md5="7F8959CB7D12ABE41FAB09495689F1A0" import="0">XML/Ideologies/Freedom/T3/T3_4Capitalism.xml</File>
+    <File md5="6E21B6459541CD1340F20C923F6EA6EF" import="0">XML/Ideologies/Freedom/T3/T3_3MediaCulture.xml</File>
+    <File md5="39616614C296E53E2ED80FCD1FBC40FE" import="0">XML/Ideologies/Freedom/T3/T3_2SpaceProcurements.xml</File>
+    <File md5="6E79560FBAD60092A577FD7474C048EF" import="0">XML/Ideologies/Freedom/T3/T3_5NewAge.xml</File>
+    <File md5="935B71D907EBE0D76199767555D5BB93" import="0">XML/Ideologies/Order/T1/T1_4UniversalBasicIncome.xml</File>
+    <File md5="8B06D7F1BFC5C94838863D9C648C0CC3" import="0">XML/Ideologies/Order/T1/T1_9Resettlement.xml</File>
+    <File md5="96960BE642F05106427118C2D058D9CC" import="0">XML/Ideologies/Order/T1/T1_2RedArmy.xml</File>
+    <File md5="47A29124A93555A6BD464D24DED5CE91" import="0">XML/Ideologies/Order/T1/T1_3Utopianism.xml</File>
+    <File md5="13062BDBE41EF0C5A12CF66EE588613D" import="0">XML/Ideologies/Order/T1/T1_1HeroofthePeople.xml</File>
+    <File md5="1C514BD22A5D44688192622A89C51E54" import="0">XML/Ideologies/Order/T1/T1_5DoubleAgents.xml</File>
+    <File md5="F71B58A5EEFD131BFC07CAB806127A21" import="0">XML/Ideologies/Order/T1/T1_6Collectivization.xml</File>
+    <File md5="DDADE41686C42E7FB53501974AA86F26" import="0">XML/Ideologies/Order/T1/T1_7DictatorshipoftheProletariat.xml</File>
+    <File md5="5F54735166E0D292487D07A4C70EC4BA" import="0">XML/Ideologies/Order/T1/T1_8FiveYearPlan.xml</File>
+    <File md5="845DAABD01E3A6D3F7DCE8D609D5172B" import="0">XML/Ideologies/Order/T2/T2_1WorkersFaculties.xml</File>
+    <File md5="68D41B19336AFC907EA8D85B46E47C51" import="0">XML/Ideologies/Order/T2/T2_2Skyscrapers.xml</File>
+    <File md5="9500D3A2F60EA010638C7FE3FF81A1A6" import="0">XML/Ideologies/Order/T2/T2_3SatelliteStates.xml</File>
+    <File md5="96905211F7340A28726440EF16D06AE9" import="0">XML/Ideologies/Order/T2/T2_6CityPlanning.xml</File>
+    <File md5="93A272AA6DB77AD91C454BC89652AE69" import="0">XML/Ideologies/Order/T2/T2_4PartyLeadership.xml</File>
+    <File md5="176EEB71528B22447A1E3A2E46913AD2" import="0">XML/Ideologies/Order/T2/T2_5AcademyOfSciences.xml</File>
+    <File md5="312D9FDC77E0716C5D6F3BD4995A7E73" import="0">XML/Ideologies/Order/T3/T3_1SpaceflightPioneers.xml</File>
+    <File md5="9D4CDEE18D69718C420C8BBEBBB4D26F" import="0">XML/Ideologies/Order/T3/T3_3IronCurtain.xml</File>
+    <File md5="A28C6FDCEDAF5905407F7EA00A345AA1" import="0">XML/Ideologies/Order/T3/T3_2SocialistRealism.xml</File>
+    <File md5="1923CA878721DD6D5CF50EB6D18CF541" import="0">XML/Ideologies/Order/T3/T3_4Communism.xml</File>
+    <File md5="416BEB1CEFFF6A882475EE2A45896D79" import="0">XML/Ideologies/Order/T3/T3_1SpaceflightPioneers.lua</File>
+    <File md5="37459F6BF09D68E292D71CF28F252512" import="0">XML/Ideologies/Order/T3/T3_5TheRedMarch.lua</File>
+    <File md5="5556918BFB775C931F49DED11D3AF286" import="0">XML/Ideologies/Order/T3/T3_5TheRedMarch.xml</File>
     <File md5="835C690EF613D240BFB06FDCC7AB06E2" import="0">XML/Industry/Building.xml</File>
     <File md5="4AF510426F2F6B7082A551FFDE5E5590" import="0">XML/Industry/Policies.xml</File>
     <File md5="EC0736F0ECC30C1CBE5BA025212EE0A4" import="0">XML/Industry/Units.xml</File>
@@ -196,6 +262,66 @@
       <UpdateDatabase>XML/Patonage/Building.xml</UpdateDatabase>
       <UpdateDatabase>XML/Patonage/Policies.xml</UpdateDatabase>
       <UpdateDatabase>XML/Patonage/Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T1/T1_8FiveYearPlan.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T1/T1_7DictatorshipoftheProletariat.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T1/T1_6Collectivization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T1/T1_5DoubleAgents.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T1/T1_1HeroofthePeople.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T1/T1_3Utopianism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T1/T1_2RedArmy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T1/T1_9Resettlement.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T2/T2_5AcademyOfSciences.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T2/T2_4PartyLeadership.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T2/T2_6CityPlanning.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T2/T2_3SatelliteStates.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T2/T2_2Skyscrapers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T2/T2_1WorkersFaculties.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T3/T3_1SpaceflightPioneers.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T3/T3_3IronCurtain.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T3/T3_4Communism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T3/T3_2SocialistRealism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T1/T1_9VolunteerArmy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T1/T1_7NewDeal.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T1/T1_6Consimerism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T1/T1_5CreativeExpression.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T1/T1_4FreeTrade.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T1/T1_3EconomicUnion.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T1/T1_2CovertAction.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T1/T1_1CivilSociety.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T2/T2_4ArsenalofDemocracy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T2/T2_6Universal Healthcare.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T2/T2_5UniversalSuffrage.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T2/T2_3FreeMarket.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T2/T2_1AvanteGarde.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T3/T3_2SpaceProcurements.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T3/T3_3MediaCulture.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T3/T3_4Capitalism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T1/T1_8Conscription.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T1/T1_7Fascism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T1/T1_6Mobilization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T1/T1_5Jingoism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T1/T1_4IndustrialEspionage.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T1/T1_3Futurism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T1/T1_2GunboatDiplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T1/T1_1EliteForces.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T2/T2_6IronFist.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T2/T2_4PoliceState.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T2/T2_5ThirdAlternative.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T2/T2_3Militarism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T2/T2_2UnitedFront.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T2/T2_1TotalWar.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T3/T3_4WarHeroes.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T3/T3_3CultOfPersonality.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T3/T3_1LightningWarfare.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T3/T3_2Partisans.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T1/T1_9Nationalism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Autocracy/T3/T3_5Totalitarianism.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T1/T1_8Urbanization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T2/T2_2Inspiration.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T3/T3_1TreatyOrganization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Freedom/T3/T3_5NewAge.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T1/T1_4UniversalBasicIncome.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Ideologies/Order/T3/T3_5TheRedMarch.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>
@@ -218,6 +344,26 @@
     <EntryPoint type="InGameUIAddin" file="XML/Shared/Policies Grant Building (v 8)/Policy_PGB_FreeBuildingClassCityState_Table.lua">
       <Name>Policy_PGB_FreeBuildingClassCityState_Table</Name>
       <Description>Policy_PGB_FreeBuildingClassCityState_Table</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="XML/Ideologies/Autocracy/T3/T3_4WarHeroes.lua">
+      <Name>WarHeros</Name>
+      <Description>WarHeros</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="XML/Ideologies/Autocracy/T2/T2_6IronFist.lua">
+      <Name>Iron Fist</Name>
+      <Description>Iron Fist</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="XML/Ideologies/Freedom/T1/T1_9VolunteerArmy.lua">
+      <Name>VolunteerArmy</Name>
+      <Description>VolunteerArmy</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="XML/Ideologies/Order/T3/T3_1SpaceflightPioneers.lua">
+      <Name>SpaceflightPioneers</Name>
+      <Description>SpaceflightPioneers</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="XML/Ideologies/Order/T3/T3_5TheRedMarch.lua">
+      <Name>TheRedMarch</Name>
+      <Description>TheRedMarch</Description>
     </EntryPoint>
   </EntryPoints>
 </Mod>

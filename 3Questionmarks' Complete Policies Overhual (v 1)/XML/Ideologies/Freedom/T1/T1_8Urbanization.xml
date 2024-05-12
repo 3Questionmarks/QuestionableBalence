@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/11/2024 10:16:09 PM -->
+<GameData>
+	<!-- Urbanization: +2 Production from Granaries, Hunting Lodges, Water Mills, Hospotals and Medical Labs. +1 Food from farms and Terrace Farms -->
+	<Policy_BuildingClassHappiness>
+		<Delete PolicyType="POLICY_URBANIZATION" />
+	</Policy_BuildingClassHappiness>
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HUNTING_LODGE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_URBANIZATION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_URBANIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Urbanization[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production from every [COLOR_BUILDING_TEXT]Granary[ENDCOLOR], [COLOR_BUILDING_TEXT]Hunting Lodge[ENDCOLOR], [COLOR_BUILDING_TEXT]Water Mill[ENDCOLOR], [COLOR_BUILDING_TEXT]Hospital[ENDCOLOR], and [COLOR_BUILDING_TEXT]Medical Lab[ENDCOLOR]. +1 Food [ICON_FOOD] from [COLOR_YIELD_GOLD]Farms[ENDCOLOR] and [COLOR_YIELD_GOLD]Terrace Farms[ENDCOLOR].</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

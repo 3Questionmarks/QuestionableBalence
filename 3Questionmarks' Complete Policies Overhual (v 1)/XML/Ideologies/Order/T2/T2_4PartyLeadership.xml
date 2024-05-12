@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 16:10:53 -->
+<GameData>
+	
+	<!-- Party Leadership: +3 Food, Production, Gold, Science, and Culture per City. -->
+	
+	<Policy_CityYieldChanges>
+		<Update>
+			<Set Yield="3" />
+			<Where PolicyType="POLICY_PARTY_LEADERSHIP" />
+		</Update>
+	</Policy_CityYieldChanges>
+    
+    <Policies>
+		<Update>
+			<Set Level="2" />
+			<Where Type="POLICY_PARTY_LEADERSHIP" />
+		</Update>
+	</Policies>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP" />
+		<Row Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Party Leadership[ENDCOLOR][NEWLINE]+3 [ICON_FOOD] Food, +3 [ICON_PRODUCTION] Production, +3 [ICON_GOLD] Gold, +3 [ICON_RESEARCH] Science, and +3 [ICON_CULTURE] Culture per City.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

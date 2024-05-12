@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/12/2024 1:58:28 AM -->
+<GameData>
+	<!-- New Age (NEW POLICY): Enter a perminant golden age. -->
+	<Policies>
+		<Row>
+			<Type>POLICY_NEW_AGE</Type>
+			<Description>TXT_KEY_POLICY_NEW_AGE</Description>
+			<Civilopedia>TXT_KEY_POLICY_NEW_AGE_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_NEW_AGE_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_FREEDOM</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<Level>3</Level>
+			<PortraitIndex>22</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			<GoldenAgeTurns>99999</GoldenAgeTurns>
+		</Row>
+	</Policies>
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_INSPIRATION</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_INSPIRATION</PolicyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_INSPIRATION</PolicyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_INSPIRATION</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Policy_Flavors>
+	<!-- localization -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_NEW_AGE">
+			<Text>New Age</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NEW_AGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]New Age[ENDCOLOR][NEWLINE]Enter into a permanent (99999 turns) [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NEW_AGE_TEXT">
+			<Text>New Age</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

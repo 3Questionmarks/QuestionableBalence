@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:17:12 PM -->
+<GameData>
+
+	<!-- Cult of Personality: Gain +100% Tourism when fighting with a civ against a common foe. -->
+	<Policies>
+		<Update>
+			<Set Level="3" CommonFoeTourismModifier="100" />
+			<Where Type="POLICY_CULT_PERSONALITY" />
+		</Update>
+	</Policies>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_CULT_PERSONALITY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CULT_PERSONALITY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Cult of Personality[ENDCOLOR][NEWLINE]+100% [ICON_TOURISM] to Civilizations when fighting a common enemy.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

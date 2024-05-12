@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/28/2012 12:24:02 AM -->
+<GameData>
+	<!--UI-->
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TP_CULTURE_FOR_FREE" />
+			<Set Text="[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from Leader Trait." />
+		</Update>
+
+		<Row Tag="TXT_KEY_SAKOKU_INTERNAL_TRADE_SCIENCE">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from Internal Trade Routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIDO_TRADE_RESOURCE_GOLD">
+			<Text>{1_Num} from Traded Resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIDO_TRADE_RESOURCE_CULTURE">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from Traded Resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLORIANA_GOLDEN_AGE_POINTS">
+			<Text>{1_Num} is added per turn from Renaissance cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLORIANA_GOLDEN_AGE_TT">
+			<Text>Renaissance cities founded on foreign continents (New World Cities) generate additional [ICON_GOLDEN_AGE] Golden Age Points.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ASKIA_CAPITAL_FAITH_SCIENCE">
+			<Text>[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from [ICON_PEACE] Faith in the Capital.</Text>
+		</Row>
+	</Language_en_US>
+	<!--TRAITS-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_FA_ASKIA_SHORT">
+			<Text>Tarik al-Sudan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_FA_ASKIA">
+			<Text>Landlocked cities receive a free Mint. Upon discovering Education, [ICON_PEACE] Faith produced in the [ICON_CAPITAL] Capital contributes to [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_FA_ASKIA2">
+			<Text>Landlocked cities receive a free Caravansary. Upon discovering Education, [ICON_PEACE] Faith produced in the [ICON_CAPITAL] Capital contributes to [ICON_RESEARCH] Science.</Text>
+		</Row>
+	</Language_en_US>
+	<!--NOTIFICATIONS-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_FA_ISABELLA_DISCOVERY">
+			<Text>[COLOR_POSITIVE_TEXT]Voyage of Discovery[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ISABELLA_DISCOVERY_TEXT">
+			<Text>Our explorers have created a map of all the world's coastlines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_MONTEZUMA_SACRIFICE">
+			<Text>[COLOR_POSITIVE_TEXT]Captive Sacrifice[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_MONTEZUMA_SACRIFICE_TEXT">
+			<Text>Sacrificing a a Slave has increased {1_CityName}'s Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ODA_SCIENCE">
+			<Text>[COLOR_POSITIVE_TEXT]Trade Report[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ODA_SCIENCE_TEXT">
+			<Text>We are earning {1_Science} [ICON_RESEARCH] Science per turn from Internal Trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ASKIA_SCIENCE">
+			<Text>[COLOR_POSITIVE_TEXT]Education Report[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ASKIA_SCIENCE_TEXT">
+			<Text>We are earning {1_Science} [ICON_RESEARCH] Science per turn from [ICON_PEACE] Faith in the Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_DIDO_TRADES">
+			<Text>[COLOR_POSITIVE_TEXT]Trade Report[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_DIDO_TRADES_TEXT">
+			<Text>We are earning {1_Gold} [ICON_GOLD] Gold per turn from Resource trades.</Text>
+		</Row>
+	</Language_en_US>
+	<!--BUILDINGS-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_FA_GLORIANA01">
+			<Text>Renaissance City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FA_GLORIANA01_HELP">
+			<Text>+5 [ICON_GOLDEN_AGE] Golden Age points per Turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FA_GLORIANA02">
+			<Text>New World City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FA_GLORIANA02_HELP">
+			<Text>+10 [ICON_GOLDEN_AGE] Golden Age points per Turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FA_GLORIANA_STRATEGY">
+			<Text>English cities founded after the Medieval Era generate golden age points each turn. If the city is founded on a different continent than the English capital, the golden age points are doubled. If the city is ever captured, this effect will be permanently lost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FA_GLORIANA_TEXT">
+			<Text>
+				This image of Queen Elizabeth I was painted under the aegis of the her official Serjeant painter, George Gower, in the late 1580s, the decade in which she finally defeated the Spanish threat, and assured her place as one of England’s most successful and popular monarchs. 
+				[NEWLINE][NEWLINE]This portrait was owned by Edward Drewe MP, one of Elizabeth’s ablest lawyers, and has remained in his family ever since. A family legend suggests that the portrait was the gift of Elizabeth herself. It is in part through such portraits that the mystique and power of Elizabeth I was conveyed in her day. As such it is not merely a portrait of a monarch, but a symbolic statement of national supremacy.
+			</Text>
+		</Row>
+	</Language_en_US>
+	<!--UNITS-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_FA_ALEXANDER">
+			<Text>Hellenic General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FA_ALEXANDER_HELP">
+			<Text>Can found cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FA_MONTEZUMA">
+			<Text>Slave</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FA_MONTEZUMA_HELP">
+			<Text>Only available to the Aztecs. Delete in a city for a chance to increase that city's population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FA_MONTEZUMA_STRATEGY">
+			<Text>
+				This unit has a chance to spawn when an Aztec melee or gun unit defeats an enemy. The slave does not require any maintentance and can build anything that a regular worker can, although at a slower rate. The slave can also defend itself from attacks. 
+				[NEWLINE][NEWLINE]If BNW is installed, the Slave can be sacrificed (deleted) in an Aztec city for a chance to increase the population of that city.
+			</Text>
+		</Row>
+	</Language_en_US>
+	<!--UNIT NAMES-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_AGATHOCLES">
+			<Text>Agathocles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_ANDROSTHENES">
+			<Text>Androsthenes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_ANTIPATER">
+			<Text>Antipater</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_ARISTODEMUS">
+			<Text>Aristodemus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_CASSANDER">
+			<Text>Cassander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_CRATERUS">
+			<Text>Craterus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_DEMETRIUS_I">
+			<Text>Demetrius I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_DIODORUS">
+			<Text>Diodorus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_ECHECRATES">
+			<Text>Echecrates</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_LAGORAS">
+			<Text>Lagoras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_LEONNATUS">
+			<Text>Leonnatus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_LYSIAS">
+			<Text>Lysias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_LYSIMACHUS">
+			<Text>Lysimachus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_NICANOR">
+			<Text>Nicanor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_NICARCHUS">
+			<Text>Nicharchus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_OPHELLAS">
+			<Text>Ophellas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_PERDICCAS">
+			<Text>Perdiccas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_POLYXENIDAS">
+			<Text>Polyxenidas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_PTOLEMY">
+			<Text>Ptolemy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_PYRRHIAS">
+			<Text>Pyrrhias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_SCOPAS">
+			<Text>Scopas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_SELEUCUS">
+			<Text>Seleucus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FA_ALEXANDER_THEODOTUS">
+			<Text>Theodotus</Text>
+		</Row>
+	</Language_en_US>
+	<!--UNIT PROMOTIONS-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_FA_BOUDICCA">
+			<Text>Battle Rage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FA_BOUDICCA_HELP">
+			<Text>Can move after attacking. +25% Damage versus Wounded. [COLOR_NEGATIVE_TEXT]Duration: 3 Turns[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FA_MONTEZUMA">
+			<Text>Slaver</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FA_MONTEZUMA_HELP">
+			<Text>30% Chance to enslave defeated Enemy units.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/11/2024 4:42:12 PM -->
+<GameData>
+	<!-- Totalitarianism: +25% Science output while the empire is happy -->
+	<Policies>
+		<Row>
+			<Type>POLICY_TOTALITARIANISM</Type>
+			<Description>TXT_KEY_POLICY_TOTALITARIANISM</Description>
+			<Civilopedia>TXT_KEY_POLICY_TOTALITARIANISM_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_TOTALITARIANISM_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_AUTOCRACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
+			<Level>3</Level>
+			<HappinessToScience>25</HappinessToScience>
+		</Row>
+	</Policies>
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_TOTALITARIANISM</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_TOTALITARIANISM">
+			<Text>Totalitarianism</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_TOTALITARIANISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Totalitarianism[ENDCOLOR][NEWLINE]+25% [ICON_RESEARCH] Science output while the empire is happy.</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_TOTALITARIANISM_TEXT">
+			<Text>Totalitarianism</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

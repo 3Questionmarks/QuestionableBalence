@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 15:58:58 -->
+<GameData>
+
+	<!-- Hero of the People (Changed from Universal healthcare): +25% Great Personal Generation in all Cities and Golden Ages last 25% Longer -->
+	<Policy_BuildingClassHappiness>
+		<Delete PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O" />
+	</Policy_BuildingClassHappiness>
+
+	<Policies>
+		<Update>
+			<Set GreatPeopleRateModifier="25" GoldenAgeDurationMod="25" Description="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O" Civilopedia="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_TEXT" Help="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP" />
+			<Where Type="POLICY_UNIVERSAL_HEALTHCARE_O" />
+		</Update>
+	</Policies>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O">
+			<Text>Hero of the People</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_TEXT">
+			<Text>Hero of the People</Text>
+		</Row>
+	</Language_en_US>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Hero of the People[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE] Great People are earned 25% faster and [ICON_GOLDEN_AGE] Golden Ages last 25% longer.</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

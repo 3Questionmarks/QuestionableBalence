@@ -64,7 +64,7 @@ SELECT 'LEADER_DIDO',						'FLAVOR_AIRLIFT',					5;
 ------------------------------
 INSERT INTO Resources 
 		(Type,							Description,						Civilopedia, 								TechCityTrade, 	ResourceClassType, 		Happiness,  CivilizationType,			AITradeModifier, 	AIObjective,	'Unique', 	IconString, 				ArtDefineTag,						PortraitIndex, 	IconAtlas)
-VALUES	('RESOURCE_JFD_SHELLFISH',		'TXT_KEY_RESOURCE_JFD_SHELLFISH',	'TXT_KEY_CIV5_RESOURCE_JFD_SHELLFISH_TEXT',	'TECH_SAILING',	'RESOURCECLASS_LUXURY',	4,			'CIVILIZATION_CARTHAGE',	20,					0, 				2, 			'[ICON_RES_JFD_SHELLFISH]',	'ART_DEF_RESOURCE_JFD_SHELLFISH',	2, 				'JFD_CARTHAGE_DIDO_ATLAS');
+VALUES	('RESOURCE_JFD_SHELLFISH',		'TXT_KEY_RESOURCE_JFD_SHELLFISH',	'TXT_KEY_CIV5_RESOURCE_JFD_SHELLFISH_TEXT',	'TECH_FISHING',	'RESOURCECLASS_LUXURY',	4,			'CIVILIZATION_CARTHAGE',	20,					0, 				2, 			'[ICON_RES_JFD_SHELLFISH]',	'ART_DEF_RESOURCE_JFD_SHELLFISH',	2, 				'JFD_CARTHAGE_DIDO_ATLAS');
 ------------------------------
 -- Resource_YieldChanges
 ------------------------------
@@ -102,9 +102,9 @@ VALUES	('RESOURCE_JFD_SHELLFISH',		'IMPROVEMENT_FISHING_BOATS',	'YIELD_GOLD',		1
 --------------------------------------------------------------------------------------------------
 -- JFD_TopPanelAdditions
 --------------------------------------------------------------------------------------------------
-INSERT INTO JFD_TopPanelIncludes(FileName) 
-SELECT 'UA_Functions.lua';
+--INSERT INTO JFD_TopPanelIncludes(FileName) 
+--SELECT 'UA_Functions.lua';
 
-INSERT INTO JFD_TopPanelAdditions(CivilizationType,	YieldType,			YieldSourcefunction,			YieldSourceToolTip)
-SELECT 'CIVILIZATION_CARTHAGE',						'YIELD_CULTURE',	'GetDidoTradeResourceCulture',	'TXT_KEY_DIDO_TRADE_RESOURCE_CULTURE' UNION ALL
-SELECT 'CIVILIZATION_CARTHAGE',						'YIELD_GOLD',		'GetDidoTradeResourceGold',		'TXT_KEY_DIDO_TRADE_RESOURCE_GOLD';
+--INSERT INTO JFD_TopPanelAdditions(CivilizationType,	YieldType,			YieldSourcefunction,			YieldSourceToolTip)
+--SELECT 'CIVILIZATION_CARTHAGE',						'YIELD_CULTURE',	'GetDidoTradeResourceCulture',	'TXT_KEY_DIDO_TRADE_RESOURCE_CULTURE' UNION ALL
+--SELECT 'CIVILIZATION_CARTHAGE',						'YIELD_GOLD',		'GetDidoTradeResourceGold',		'TXT_KEY_DIDO_TRADE_RESOURCE_GOLD';

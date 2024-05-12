@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/12/2024 2:47:31 AM -->
+<GameData>
+	<!-- The Red March (NEW POLICY): The number of units your empire can support is increased by 50%. Whenever a military land unit is created, instead create 2. -->
+	<Policies>
+		<Row>
+			<Type>POLICY_THE_RED_MARCH</Type>
+			<Description>TXT_KEY_POLICY_THE_RED_MARCH</Description>
+			<Civilopedia>TXT_KEY_POLICY_THE_RED_MARCH_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_THE_RED_MARCH_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_ORDER</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<Level>3</Level>
+			<PortraitIndex>18</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			<UnitSupplyMod>50</UnitSupplyMod>
+		</Row>
+	</Policies>
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_THE_RED_MARCH</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_THE_RED_MARCH</PolicyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Policy_Flavors>
+	<!-- localization -->
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_THE_RED_MARCH">
+			<Text>The Red March</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_THE_RED_MARCH_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]The Red March[ENDCOLOR][NEWLINE]The number of units your empire can support is increased by 50%. Whenever you train a land military unit, you gain 2 units instead of only 1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_THE_RED_MARCH_TEXT">
+			<Text>The Red March</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

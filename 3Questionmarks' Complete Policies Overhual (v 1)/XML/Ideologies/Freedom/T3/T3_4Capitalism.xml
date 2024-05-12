@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:10:02 PM -->
+<GameData>
+
+	<!-- Capitalism: Specialists provide +1 Production, Food, Scinece, Culture and +3 Gold. -->
+	<Policies>
+		<Update>
+			<Set Level="3" />
+			<Where Type="POLICY_CAPITALISM" />
+		</Update>
+	</Policies>
+	<Policy_BuildingClassHappiness>
+		<Delete PolicyType="POLICY_CAPITALISM" />
+	</Policy_BuildingClassHappiness>
+	<Policy_SpecialistExtraYields>
+		<Row>
+			<PolicyType>POLICY_CAPITALISM</PolicyType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CAPITALISM</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CAPITALISM</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CAPITALISM</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CAPITALISM</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_SpecialistExtraYields>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_CAPITALISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CAPITALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Capitalism[ENDCOLOR][NEWLINE]Specialists provide +1 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_CULTURE] Culture, and +3 [ICON_GOLD] Gold.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

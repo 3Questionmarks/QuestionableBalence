@@ -84,9 +84,9 @@
     <File md5="F2D3DDF9F710D3DE4D3AEE2B8C6BE703" import="1">Civs/Carthage/ART/Shellfish/sv_ShellFish.dds</File>
     <File md5="99358B7082E30CBCECEE04F86516B1E2" import="0">Civs/Carthage/Building.sql</File>
     <File md5="4C52B0E046F48C3B13700CCFC4E15B42" import="0">Civs/Carthage/Building.xml</File>
-    <File md5="4382D0E3020CA9244C8D86CE80B16978" import="0">Civs/Carthage/Trait.lua</File>
-    <File md5="07BC6C507F2A5C48222BA89E8037A2BC" import="0">Civs/Carthage/Trait.sql</File>
-    <File md5="22D15AFC7F8FB31DF850FD4A15757828" import="0">Civs/Carthage/Trait.xml</File>
+    <File md5="B3B403F9AB8974AB0A708C7AF4D3043C" import="0">Civs/Carthage/CarthageTrait.lua</File>
+    <File md5="2826AD538DAA969C3EC2C366938812C5" import="0">Civs/Carthage/Trait.sql</File>
+    <File md5="9BED3D13FC270BE1AD5215F1B04F7ACD" import="0">Civs/Carthage/Trait.xml</File>
     <File md5="8880FBD994C7566E94CDCAF97CEF4DC9" import="0">Civs/Carthage/Unit.xml</File>
     <File md5="3990A114D2D3E806339632969ABDAFD7" import="0">Civs/Celts/Building.xml</File>
     <File md5="AA7A145152FFF848CD84FC020F57A624" import="0">Civs/Celts/Trait.xml</File>
@@ -131,7 +131,7 @@
     <File md5="BDE2AF77583C82D35B89B03BFD23AEF8" import="0">Civs/Huns/Trait.xml</File>
     <File md5="31827885C315ED5B2E4633F30693FABB" import="0">Civs/Huns/Units.xml</File>
     <File md5="D9E574735C76FE70FA2B7344A4DE68A2" import="0">Civs/Inca/Improvement.xml</File>
-    <File md5="47C2A9D697025F01B7B66999116C01BA" import="0">Civs/Inca/Trait.lua</File>
+    <File md5="47C2A9D697025F01B7B66999116C01BA" import="0">Civs/Inca/IncaTrait.lua</File>
     <File md5="B2D33D3CEB7AB30B4F10678E5FDE79C0" import="0">Civs/Inca/Trait.xml</File>
     <File md5="63D8CB65E680DA8C512A31431F4EFDC5" import="0">Civs/India/Building.xml</File>
     <File md5="609195FF77E02E9BB500F046EDC125D2" import="0">Civs/India/Trait.xml</File>
@@ -227,16 +227,14 @@
     <File md5="6303C0ECA165527FFB1326198FF02C95" import="1">Civs/Shoshone/ART/4buffalopound64.dds</File>
     <File md5="EC2A5CFD36D4EBDEC26C5B510BCE30E2" import="0">Civs/Shoshone/Building.sql</File>
     <File md5="CC4F4245D29463628081599FD8017F72" import="0">Civs/Shoshone/Building.xml</File>
-    <File md5="ADB44340A9A4BB4C6D6D80F47C2EF4B6" import="0">Civs/Shoshone/Trait.lua</File>
+    <File md5="ADB44340A9A4BB4C6D6D80F47C2EF4B6" import="0">Civs/Shoshone/ShoshoneTrait.lua</File>
     <File md5="C81B7A13DA8F19BFC552800C28CCBBB5" import="0">Civs/Shoshone/Trait.xml</File>
     <File md5="BEDAA9D4508AAFFDFDF036463129ED31" import="0">Civs/Shoshone/Units.xml</File>
     <File md5="CB611A070379EBB1567E9B486CB32B47" import="0">Civs/Siam/Building.xml</File>
     <File md5="8BE1B555DCCFA0FAE8DB9EA484A863C8" import="0">Civs/Siam/Trait.xml</File>
     <File md5="598E0BEE2D59B3439B10940ED45F9BFA" import="0">Civs/Siam/Unit.xml</File>
     <File md5="CBE11358F15E2620F0110E7703A42F4D" import="0">Civs/Songhai/Building.xml</File>
-    <File md5="07ED8C5A44E3E2CE62B8AB329546DA16" import="0">Civs/Songhai/Trait.lua</File>
-    <File md5="034F28990B618E3B4D77C17BEDEB8B34" import="0">Civs/Songhai/Trait.sql</File>
-    <File md5="36F82095B28ED28ABE13C37999F834EA" import="0">Civs/Songhai/Trait.xml</File>
+    <File md5="21B0B303D8DCD734D481DC4F42BEFC45" import="0">Civs/Songhai/Trait.xml</File>
     <File md5="5A663B9595B12EAF1BF27BA3DA9BEAE4" import="0">Civs/Songhai/Unit.xml</File>
     <File md5="D05F13C153557D775616A64BEE8D490F" import="0">Civs/Spain/ART/IconAtlas.xml</File>
     <File md5="C197B5B6F90DD40E2A106D5AED01A8DB" import="1">Civs/Spain/ART/IconAtlas032.dds</File>
@@ -299,7 +297,6 @@
     <File md5="A94D7A62E436179599DFF623B714F5E2" import="0">Music Replacers/Sweden/SwedenWarMusicReplacer.xml</File>
     <File md5="5C9A72289D176CAB8455E2BF85372555" import="0">Music Replacers/Zulu/MusicReplacementShaka.xml</File>
     <File md5="9FD5082D69199C7BF76221C4D5C86389" import="0">Music Replacers/Zulu/Shaka War.mp3</File>
-    <File md5="32D2AE11EA9A6E9FD98EC5A7FC6920F9" import="0">Shared/UserSettings.sql</File>
     <File md5="B4E22C0096BB556AF8C919F3BC7E3AC1" import="1">Shared/JFD_TopPanelUpdated.lua</File>
     <File md5="02C1B3C03249532E1C5FCF32599A5CCA" import="1">Shared/PlotIterators.lua</File>
     <File md5="2BF649C76A1685527B9EC6BC56A3EB1D" import="0">Shared/Promotion_Created.xml</File>
@@ -309,7 +306,6 @@
     <File md5="120EB71025973A8A48B38314241DD0B3" import="0">Shared/Sukritact MCIS/CityInfoStack.xml</File>
     <File md5="FF0F6084FED8EB97EA13A38872903A26" import="0">Shared/Sukritact MCIS/JFD_CarthageDido_CityInfo.lua</File>
     <File md5="C6AC10B34C1ED269837921535F90DF13" import="0">Shared/Sukritact MCIS/JFD_CarthageDido_CityInfo.xml</File>
-    <File md5="92D445C34334A73A66CD8C2BB5269432" import="1">Shared/UA_Functions.lua</File>
     <File md5="E7A7829DA046CAE14CD9E998EA2CDCC6" import="0">Shared/UA_Globals.sql</File>
     <File md5="4075CC9481FE196874FF9279811BA802" import="1">Shared/UA_Main.lua</File>
   </Files>
@@ -333,7 +329,6 @@
       <UpdateDatabase>Civs/Spain/Building.sql</UpdateDatabase>
       <UpdateDatabase>Civs/Spain/Trait.xml</UpdateDatabase>
       <UpdateDatabase>Shared/UA_Globals.sql</UpdateDatabase>
-      <UpdateDatabase>Civs/Songhai/Trait.sql</UpdateDatabase>
       <UpdateDatabase>Civs/Songhai/Trait.xml</UpdateDatabase>
       <UpdateDatabase>Civs/Songhai/Unit.xml</UpdateDatabase>
       <UpdateDatabase>Civs/Siam/Building.xml</UpdateDatabase>
@@ -473,7 +468,6 @@
       <UpdateDatabase>Civs/Carthage/ART/ArtDefines.sql</UpdateDatabase>
       <UpdateDatabase>Civs/Carthage/Building.xml</UpdateDatabase>
       <UpdateDatabase>Civs/Carthage/Building.sql</UpdateDatabase>
-      <UpdateDatabase>Shared/UserSettings.sql</UpdateDatabase>
       <UpdateDatabase>Shared/Sukritact MCIS/CityInfoStack.xml</UpdateDatabase>
       <UpdateDatabase>Shared/Sukritact MCIS/JFD_CarthageDido_CityInfo.xml</UpdateDatabase>
     </OnModActivated>
@@ -495,33 +489,21 @@
       <Name>Serializer</Name>
       <Description>Serializer</Description>
     </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="Shared/UA_Functions.lua">
-      <Name>UA_Functions</Name>
-      <Description>UA_Functions</Description>
-    </EntryPoint>
     <EntryPoint type="InGameUIAddin" file="Shared/UA_Main.lua">
       <Name>UA_Main</Name>
       <Description>UA_Main</Description>
     </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="Civs/Songhai/Trait.lua">
-      <Name>SonghaiTrait</Name>
-      <Description>SonghaiTrait</Description>
-    </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="Civs/Shoshone/Trait.lua">
+    <EntryPoint type="InGameUIAddin" file="Civs/Shoshone/ShoshoneTrait.lua">
       <Name>ShoshoneTrait</Name>
       <Description>ShoshoneTrait</Description>
     </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="Civs/Inca/Trait.lua">
+    <EntryPoint type="InGameUIAddin" file="Civs/Inca/IncaTrait.lua">
       <Name>IncaTrait</Name>
       <Description>IncaTrait</Description>
     </EntryPoint>
     <EntryPoint type="InGameUIAddin" file="Civs/Denmark/Denmark_TradingPost.lua">
       <Name>Denmark_TradingPost</Name>
       <Description>Denmark_TradingPost</Description>
-    </EntryPoint>
-    <EntryPoint type="InGameUIAddin" file="Civs/Carthage/Trait.lua">
-      <Name>CarthageTrait</Name>
-      <Description>CarthageTrait</Description>
     </EntryPoint>
     <EntryPoint type="InGameUIAddin" file="Shared/Sukritact MCIS/CityInfoStack.lua">
       <Name>CityInfoStack</Name>
@@ -530,6 +512,10 @@
     <EntryPoint type="InGameUIAddin" file="Shared/Sukritact MCIS/JFD_CarthageDido_CityInfo.lua">
       <Name>CarthageDido_CityInfo</Name>
       <Description>CarthageDido_CityInfo</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Civs/Carthage/CarthageTrait.lua">
+      <Name>CarthageTrait</Name>
+      <Description>CarthageTrait</Description>
     </EntryPoint>
   </EntryPoints>
 </Mod>
