@@ -15,7 +15,7 @@
 			<BuildingClass>BUILDINGCLASS_RACING_COURSE</BuildingClass>
 			<Cost>400</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_COMBUSTION</PrereqTech>
+			<PrereqTech>TECH_PLASTIC</PrereqTech>
 			<Description>TXT_KEY_BUILDING_RACING_COURSE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_RACING_COURSE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_RACING_COURSE_STRATEGY</Strategy>

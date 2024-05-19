@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/17/2024 1:14:54 AM -->
+<GameData>
+	<Building_UnitCombatProductionModifiers>
+		<Update>
+			<Where BuildingType="BUILDING_TEMPLE_ARTEMIS" />
+			<Set Modifier="20" />
+		</Update>
+	</Building_UnitCombatProductionModifiers>
+	
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP" />
+			<!-- Changed growth to food to keep it constistant with terminology for ingame -->
+			<Set Text="+10% [ICON_FOOD] Food in all cities. +20% [ICON_PRODUCTION] Production when building ranged units."/>
+		</Update>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d869ec23-7e24-4b61-9cff-271395958972" version="16">
+  <Properties>
+    <Name>UI - City Expansion</Name>
+    <Teaser>Players can choose their own cultural expansion plot for cities</Teaser>
+    <Description>Permits players to choose their own cultural expansion plot for non-puppet cities if there are within the working area</Description>
+    <Authors>William Howard</Authors>
+    <SpecialThanks>Translation: German - Mordino</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="1" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References>
+    <Mod id="66743884-90cd-4de4-9ea2-dfbbe608c3d1" minversion="0" maxversion="999" title="UI - Notification Options" />
+  </References>
+  <Blocks>
+    <Mod id="7cc1b8f8-f3be-46c1-96b4-dbcd424fda93" minversion="0" maxversion="999" title="UI - Next Turn Clock" />
+  </Blocks>
+  <Files>
+    <File md5="B6ED6CE7D0E0463C4BBDBBDC5122FE36" import="0">LUA/UICityExpansion.lua</File>
+    <File md5="533E4C5E73AFCE7AD3CDAA624C970CFA" import="1">LUA/UICityExpansionNotifications.lua</File>
+    <File md5="D5A898D4FFD2B2380A0829F79CC4F516" import="1">UI/InGame/CityView/CityView.lua</File>
+    <File md5="1A4C7F3B6C75E02A9684BB6D2CBFBD93" import="1">UI/InGame/CityView/CityView.xml</File>
+    <File md5="EA8525AE7091D8709E81044434DAC6B0" import="1">UI/InGame/CityView/CityView_small.xml</File>
+    <File md5="B84091B78484221A2F5D821873FA6790" import="1">UI/InGame/WorldView/ActionInfoPanel.lua</File>
+    <File md5="DDC13639E341074E461A53664932B6A1" import="0">XML/UICityExpansion.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/UICityExpansion.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="CityViewUIAddin" file="LUA/UICityExpansion.lua">
+      <Name>CityExpansion</Name>
+      <Description>City Expansion</Description>
+    </EntryPoint>
+    <EntryPoint type="CustomNotificationAddin" file="LUA/UICityExpansionNotifications.lua">
+      <Name>City Expansion Notifications</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

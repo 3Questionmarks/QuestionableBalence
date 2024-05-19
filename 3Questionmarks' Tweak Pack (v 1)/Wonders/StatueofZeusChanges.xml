@@ -3,18 +3,25 @@
 <GameData>
 	<Unitpromotions>
 		<Update>
-			<Set CityAttack="20" Help="+20% [ICON_STRENGTH] Combat Strength vs cities."/>
+			<Set CityAttack="30" Help="+30% [ICON_STRENGTH] Combat Strength vs cities."/>
 			<Where Type="PROMOTION_STATUE_ZEUS"/>
 		</Update>
 	</Unitpromotions>
+	<Building_FreeUnits>
+		<Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<UnitType>UNIT_GREAT_GENERAL</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+	</Building_FreeUnits>
 	<Language_en_US>
 		<Update>
 			<Where Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP"/>
-			<Set Text="All units gain +20% [ICON_STRENGTH] Combat Strength when attacking cities.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Art of War[ENDCOLOR]."/>
+			<Set Text="All units gain +30% [ICON_STRENGTH] Combat Strength when attacking cities. A free [ICON_GREAT_GENERAL] Great General appears. [NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Art of War[ENDCOLOR]."/>
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_WONDER_STATUE_ZEUS_GAME_INFO"/>
-			<Set Text="All units gain +20% [ICON_STRENGTH] Combat Strength when attacking cities.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Art of War[ENDCOLOR]."/>
+			<Set Text="All units gain +30% [ICON_STRENGTH] Combat Strength when attacking cities. A free [ICON_GREAT_GENERAL] Great General appears. [NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Art of War[ENDCOLOR]."/>
 		</Update>
 	</Language_en_US>
 </GameData>

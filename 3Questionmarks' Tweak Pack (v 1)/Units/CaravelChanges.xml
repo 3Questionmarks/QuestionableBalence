@@ -14,14 +14,14 @@
 		</Row>
 	</Unit_ResourceQuantityRequirements>
 	<Unit_ClassUpgrades>
-		<Row>
-			<UnitType>UNIT_CARAVEL</UnitType>
-			<UnitClassType>UNITCLASS_PRIVATEER</UnitClassType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_PORTUGUESE_NAU</UnitType>
-			<UnitClassType>UNITCLASS_PRIVATEER</UnitClassType>
-		</Row>
+		<Update>
+			<Where UnitType="UNIT_CARAVEL"/>
+			<Set UnitClassType="UNITCLASS_PRIVATEER"/>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_PORTUGUESE_NAU"/>
+			<Set UnitClassType="UNITCLASS_PRIVATEER"/>
+		</Update>
 	</Unit_ClassUpgrades>
 	<Units>
 		<Update>

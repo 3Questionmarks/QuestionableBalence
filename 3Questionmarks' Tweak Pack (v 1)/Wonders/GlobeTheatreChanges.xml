@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/19/2024 12:51:28 PM -->
+<GameData>
+	<Building_FreeUnits>
+		<Delete BuildingType="BUILDING_GLOBE_THEATER" />
+	</Building_FreeUnits>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_GLOBE_THEATER_HELP" />
+		<Row Tag="TXT_KEY_WONDER_GLOBE_THEATER_HELP">
+			<Text>Whenever a [ICON_GREAT_WRITER] Great Writer is born, an additional free [ICON_GREAT_WRITER] Great Writer appears.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

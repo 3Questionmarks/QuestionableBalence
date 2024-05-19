@@ -91,7 +91,7 @@
 	<!-- localization -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_POLICY_THEIR_FINEST_HOUR_HELP_NQ">
-			<Text>[COLOR_POSITIVE_TEXT]Volunteer Army[ENDCOLOR][NEWLINE]Land and Naval Military Units in friendly territory gain additional +15 HP when healing and +15% [ICON_STRENGTH] Strength. A free [COLOR_XP_BLUE]Forreign Legion[ENDCOLOR] appears in every city.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Volunteer Army[ENDCOLOR][NEWLINE]Land and Naval Military Units in friendly territory gain additional +15 HP when healing and +15% [ICON_STRENGTH] Strength. A free era-specific Infantry unit appears in every city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_THEIR_FINEST_HOUR">
 			<Text>Volunteer Army</Text>

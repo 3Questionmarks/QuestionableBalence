@@ -20,7 +20,7 @@
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP" />
 		<Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Arsenal of Democracy[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Production towards military units. Newly trained militarty units start with an additioanl 15 [ICON_WAR] XP.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Arsenal of Democracy[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Production towards military units. Newly trained military units start with an additional 15 [ICON_WAR] XP.</Text>
 		</Row>
 	</Language_en_US>
 	

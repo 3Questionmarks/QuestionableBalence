@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/18/2024 4:27:42 PM -->
+<GameData>
+
+	<Building_FreeUnits>
+		<Delete BuildingType="BUILDING_HAGIA_SOPHIA" />
+	</Building_FreeUnits>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP" />
+		<Row Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP">
+			<Text>Whenever a [ICON_PROPHET] Great Prophet is born, an additional free [ICON_PROPHET] Great Prophet appears. Provides a free Temple in the city in which it is built.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

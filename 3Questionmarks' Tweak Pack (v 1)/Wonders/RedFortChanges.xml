@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/19/2024 1:57:18 PM -->
+<GameData>
+	<Building_FreeUnits>
+		<Row>
+			<BuildingType>BUILDING_RED_FORT</BuildingType>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_RED_FORT_HELP" />
+		<Row Tag="TXT_KEY_WONDER_RED_FORT_HELP">
+			<Text>A free [ICON_GREAT_SCIENTIST] Great Scientist appears. Defensive Buildings in all Cities are 25% more effective.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

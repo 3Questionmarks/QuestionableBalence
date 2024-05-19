@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/17/2024 8:03:58 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_GREAT_WALL" />
+			<Set FreeBuilding="BUILDINGCLASS_WALLS" />
+		</Update>
+	</Buildings>
+	
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_GREAT_WALL_HELP" />
+		<Row Tag="TXT_KEY_WONDER_GREAT_WALL_HELP">
+			<Text>Enemy land Units must expend 1 extra [ICON_MOVES] movement per Tile inside your territory. Provides Walls for free all cities, and walls provide +2 [ICON_CULTURE] Culture. Upon discovering Dynamite, The Great Wall becomes obsolete.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -11,7 +11,7 @@
 		<Row>
 			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
 			<UnitType>UNIT_ENGINEER</UnitType>
-			<NumUnits>1</NumUnits>
+			<NumUnits>0</NumUnits>
 		</Row>
 	</Building_FreeUnits>
 	<Building_YieldChanges>
@@ -29,11 +29,11 @@
 	<Language_en_US>
 		<Update>
 			<Where Tag="TXT_KEY_WONDER_ANGKOR_WAT_HELP"/>
-			<Set Text="A free [ICON_GREAT_ENGINEER] Great Engineer appears."/>
+			<Set Text="Whenever a [ICON_GREAT_ENGINEER] Great Engineer is born, an additional free [ICON_GREAT_ENGINEER] Great Engineer appears."/>
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_WONDER_ANGKOR_WAT_GAME_INFO"/>
-			<Set Text="A free [ICON_GREAT_ENGINEER] Great Engineer appears."/>
+			<Set Text="Whenever a [ICON_GREAT_ENGINEER] Great Engineer is born, an additional free [ICON_GREAT_ENGINEER] Great Engineer appears."/>
 		</Update>
 	</Language_en_US>
 </GameData>

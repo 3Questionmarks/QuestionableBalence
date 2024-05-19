@@ -588,7 +588,7 @@
 		<!-- Plastics -->
 		<Delete Tag="TXT_KEY_TECH_PLASTICS_HELP"/> 
 		<Row Tag="TXT_KEY_TECH_PLASTICS_HELP">
-			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Research Lab[ENDCOLOR], a building which improves [ICON_RESEARCH] Science in a City.</Text>
+			<Text>Allows you to build the [COLOR_BUILDING_TEXT]Research Lab[ENDCOLOR], a building which improves [ICON_RESEARCH] Science in a City. Also allows you to construct Racing Courses, a [ICON_HAPPINESS_1] Happiness building which uses the otherwise obsolete [ICON_RES_HORCE] [COLOR_WHITE]Horse[ENDCOLOR] resource.</Text>
 		</Row>
 
 		<!-- Electronics -->
@@ -606,7 +606,7 @@
 		<!-- Combustion -->
 		<Delete Tag="TXT_KEY_TECH_COMBUSTION_HELP"/>
 		<Row Tag="TXT_KEY_TECH_COMBUSTION_HELP">
-			<Text>Allows you to build the [COLOR_XP_BLUE]Landship[ENDCOLOR], an incredibly powerful armored Unit that can move after attacking; and the [COLOR_XP_BLUE]Destroyer[ENDCOLOR], a fast ship capable of hunting down Submarines. Also allows you to construct Racing Courses, a [ICON_HAPPINESS_1] Happiness building which uses the otherwise obsolete [ICON_RES_HORCE] [COLOR_WHITE]Horse[ENDCOLOR] resource. Addiitonally, [COLOR_CULTURE_STORED]extends the range of land [ICON_INTERNATIONAL_TRADE] Trade Routes[ENDCOLOR], and [COLOR_CULTURE_STORED][ICON_WORKER] Workers improve tiles 25% quicker[ENDCOLOR].</Text>
+			<Text>Allows you to build the [COLOR_XP_BLUE]Landship[ENDCOLOR], an incredibly powerful armored Unit that can move after attacking; and the [COLOR_XP_BLUE]Destroyer[ENDCOLOR], a fast ship capable of hunting down Submarines. Also, [COLOR_CULTURE_STORED]extends the range of land [ICON_INTERNATIONAL_TRADE] Trade Routes[ENDCOLOR], and [COLOR_CULTURE_STORED][ICON_WORKER] Workers improve tiles 25% quicker[ENDCOLOR].</Text>
 		</Row>
 
 		

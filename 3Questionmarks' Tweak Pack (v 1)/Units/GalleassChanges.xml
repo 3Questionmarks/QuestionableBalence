@@ -8,5 +8,12 @@
 			<Cost>1</Cost>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
+
+	<Units>
+		<Update>
+			<Set ObsoleteTech="TECH_WARSHIPS"/>
+			<Where type="UNIT_GALLEASS"/>
+		</Update>
+	</Units>
   
 </GameData>

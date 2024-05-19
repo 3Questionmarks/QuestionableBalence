@@ -14,4 +14,10 @@
 			<Where Type ="BUILDING_TERRACOTTA_ARMY" />
 		</Update>
 	</Buildings>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP" />
+		<Row Tag="TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP">
+			<Text>Creates a copy of each type of military land unit you control and places the unit near the city where the Terracotta Army is constructed. Whenever a military land unit from the Ancient, Classical, or Medieval era is constructed, gain an adittional copy of the unit that spawns in this city.</Text>
+		</Row>
+	</Language_en_US>
 </GameData>

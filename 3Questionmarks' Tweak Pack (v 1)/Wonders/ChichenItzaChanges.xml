@@ -3,8 +3,30 @@
 <GameData>
 	<Buildings>
 		<Update>
-			<Set PrereqTech="TECH_THEOLOGY" />
+			<Set PrereqTech="TECH_THEOLOGY" Help="TXT_KEY_WONDER_CHICHEN_ITZA_HELP" />
 			<Where Type="BUILDING_CHICHEN_ITZA" />
 		</Update>
 	</Buildings>
+
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP"/>
+		<Row Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP">
+			<Text>Length of [ICON_GOLDEN_AGE] Golden Ages increased by 50%. +1 [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture from Jungle tiles worked by this city.</Text>
+		</Row>
+	</Language_en_US>
 </GameData>

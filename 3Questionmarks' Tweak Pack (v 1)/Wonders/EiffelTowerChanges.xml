@@ -4,8 +4,14 @@
 	<Buildings>
 		<Update>
 			<Where Type="BUILDING_EIFFEL_TOWER" />
-			<Set Cost="1200" />
+			<Set Cost="1200" FreeBuildingThisCity="BUILDINGCLASS_BROADCAST_TOWER" />
 		</Update>
 	</Buildings>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP" />
+		<Row Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP">
+			<Text>Provides +12 [ICON_TOURISM] Tourism and a free Broadcast Tower in the city.</Text>
+		</Row>
+	</Language_en_US>
   
 </GameData>

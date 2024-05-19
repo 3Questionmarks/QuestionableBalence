@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9bf82b05-0320-46d2-8024-760feb866f67" version="1">
+  <Properties>
+    <Name>Maps - Improved River Systems</Name>
+    <Teaser>Generates more interesting rivers</Teaser>
+    <Description>Generates longer rivers with more tributaries and lakes.
+
+Can very occasionally generate a geographically oddity where a river has two outflows.
+
+Modifies the core MapGenerator.lua file, so incompatible with any other mod that changes it</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="4210655A3EB78A3CC98A72DA17807390" import="1">LUA/MapGenerator.lua</File>
+    <File md5="43C0E4E81282AF534B859736A40285DB" import="0">XML/MapsImprovedRiverSystems.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/MapsImprovedRiverSystems.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

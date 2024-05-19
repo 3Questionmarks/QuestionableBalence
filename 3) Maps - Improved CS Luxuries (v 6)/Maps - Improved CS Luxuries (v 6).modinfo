@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="facba1b7-c00a-4698-86da-157e119dfff1" version="6">
+  <Properties>
+    <Name>Maps - Improved CS Luxuries</Name>
+    <Teaser>Improves distribution of luxuries to City States</Teaser>
+    <Description>Improves distribution of luxuries to City States.
+
+The standard resource placement methods assign three luxuries exclusively for City States and then distuributes the remaining ones across the map.
+
+When a luxury is assigned to a City State it has a 75% chance of getting one of the three exclusive ones and a 25% chance of getting a random one.  However, as the luxuries are terrain dependant it is frequently the case that the CS can only actually have one of the exclusive ones placed near it - usually a sea or mined or tundra luxury as City States tend to occupy the marginal land - so it has a 75% chance of getting that luxury and a 25% chance of getting a random one. This frequently results in maps where the vast majority of City States have the same luxury.
+
+To reduce the likelihood of this happening, this mod changes two key parts of the CS luxury distribution code
+  1) the number of exclusive luxuries is increased to one quarter of the number of City States on the map (min 3, max 7) - so a map with 20 City States will have 5 luxuries reserved for City States
+  2) the chance of getting an exclusive luxury is a function of the number of possible exclusive luxuries for that CS (and not a fixed value).  On a map with 20 City States, a CS that could only have one of the five exclusive luxuries would have a 25% chance of getting that exclusive luxury and a 75% chance of getting a random one, whereas a CS that could possibly have 3 of the 5 would have a 50% chance of getting an exclusive on and a 50% chance of getting a random one.
+
+The net effect of these changes is that City States have a greater variety of luxury resources, and the "almost all City States have the same luxury" annoyance is avoided.</Description>
+    <Authors>William</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="ABA8A7329EDD9CCE9B56937BAD43B61F" import="1">MAPS/AssignStartingPlots.lua</File>
+  </Files>
+</Mod>

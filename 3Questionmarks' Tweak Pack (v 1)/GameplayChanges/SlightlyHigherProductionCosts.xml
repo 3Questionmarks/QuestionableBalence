@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/16/2024 12:10:44 AM -->
+<GameData>
+	<GameSpeeds>
+		<Update>
+			<Where Type="GAMESPEED_MARATHON"/>
+			<Set TrainPercent="250" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_EPIC"/>
+			<Set TrainPercent="150" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_STANDARD"/>
+			<Set TrainPercent="100" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_QUICK"/>
+			<Set TrainPercent="50" />
+		</Update>
+
+		<Update>
+			<Where Type="GAMESPEED_MARATHON"/>
+			<Set ConstructPercent="250" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_EPIC"/>
+			<Set ConstructPercent="170" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_STANDARD"/>
+			<Set ConstructPercent="120" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_QUICK"/>
+			<Set ConstructPercent="70" />
+		</Update>
+	</GameSpeeds>
+  
+</GameData>

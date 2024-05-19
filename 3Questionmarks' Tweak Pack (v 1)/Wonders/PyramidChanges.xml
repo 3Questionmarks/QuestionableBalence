@@ -11,7 +11,7 @@
 	</Buildings>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_WONDER_PYRAMID_HELP1">
-			<Text>Tile improvement construction speed is increased by 25% and two free [ICON_WORKER] Workers appear.[NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR].</Text>
+			<Text>Tile improvement construction speed is increased by 25% and two free [ICON_WORKER] Workers appear. All [ICON_WORKER] Workers units gain +1 [ICON_MOVES] Movement. [NEWLINE][NEWLINE]Requires [COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR].</Text>
 		</Row>
 	</Language_en_US>
   

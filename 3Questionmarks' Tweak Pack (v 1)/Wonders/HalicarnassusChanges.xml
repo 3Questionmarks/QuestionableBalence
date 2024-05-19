@@ -57,14 +57,28 @@
 			<Yield>2</Yield>
 		</Row>
 	</Building_FeatureYieldChanges>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAUSOLEUM_HALICARNASSUS</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
 	<Language_en_US>
 		<Update>
 			<Where Tag="TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_HELP"/>
-			<Set Text="Gain 200 [ICON_GOLD] Gold each time a Great Person is expended. Each source of [ICON_RES_MARBLE] Marble or [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_GOLD] Gold. +2 [ICON_GOLD] Gold from Mountains."/>
+			<Set Text="Gain 200 [ICON_GOLD] Gold each time a Great Person is expended. Each source of [ICON_RES_MARBLE] Marble or [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_GOLD] Gold and [ICON_CULTURE] Culture. +2 [ICON_GOLD] Gold from Mountains."/>
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_GAME_INFO"/>
-			<Set Text="Gain 200 [ICON_GOLD] Gold each time a Great Person is expended. Each source of [ICON_RES_MARBLE] Marble or [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_GOLD] Gold. +2 [ICON_GOLD] Gold from Mountains."/>
+			<Set Text="Gain 200 [ICON_GOLD] Gold each time a Great Person is expended. Each source of [ICON_RES_MARBLE] Marble or [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_GOLD] Gold and [ICON_CULTURE] Culture. +2 [ICON_GOLD] Gold from Mountains."/>
 		</Update>
 	</Language_en_US>
 </GameData>

@@ -7,5 +7,14 @@
 			<Set Cost="1200" />
 		</Update>
 	</Buildings>
+	<Building_FreeUnits>
+		<Delete BuildingType="BUILDING_BROADWAY" />
+	</Building_FreeUnits>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_BROADWAY_HELP" />
+		<Row Tag="TXT_KEY_WONDER_BROADWAY_HELP">
+			<Text>When a [ICON_GREAT_MUSICIAN] Great Musician is born, an additional free [ICON_GREAT_MUSICIAN] Great Musician appears near the City where the Wonder was built.</Text>
+		</Row>
+	</Language_en_US>
 
 </GameData>

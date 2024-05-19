@@ -52,13 +52,13 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FA_ELECTRIC_CO_HELP">
 			<Text>
-				All cities on this continent receive Electric Power. Electric Power increases [ICON_RESEARCH] Science, [ICON_GOLD] Gold and [ICON_PRODUCTION] Production in its city.
+				All cities on this continent receive Electric Power. Electric Power increases [ICON_HAPPINESS_1] Happiness, [ICON_RESEARCH] Science, [ICON_GOLD] Gold. [ICON_CULTURE] Culture and [ICON_PRODUCTION] Production in its city by 3 each.
 				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Must be built in a city on a river.[ENDCOLOR]
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FA_ELECTRIC_CO2_HELP">
 			<Text>
-				All cities on this continent receive Electric Power. Electric Power increases [ICON_HAPPINESS_1] Happiness, [ICON_RESEARCH] Science, [ICON_GOLD] Gold and [ICON_PRODUCTION] Production in its city.
+				All cities on this continent receive Electric Power. Electric Power increases [ICON_HAPPINESS_1] Happiness, [ICON_RESEARCH] Science, [ICON_GOLD] Gold. [ICON_CULTURE] Culture and [ICON_PRODUCTION] Production in its city by 3 each.
 				[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Must be built in a city on a river.[ENDCOLOR]
 			</Text>
 		</Row>

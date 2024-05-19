@@ -15,6 +15,10 @@ function DoubleCreateUnits(playerID, unitID, unitType, plotX, plotY, isCiv)
 					if city then
 						unit2 = player:InitUnit(unit:GetUnitType(), city:GetX(), city:GetY())
 						unit2:SetHasPromotion(promotionID, true)
+						local xp = unit:GetExperience()
+						local halfxp = math.floor(xp / 2)
+                        unit:SetExperience(halfxp)
+						unit2:SetExperience(halfxp)
 					end
 				end
             end

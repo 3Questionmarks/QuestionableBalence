@@ -7,4 +7,10 @@
 			<Set Cost="1800" />
 		</Update>
 	</Buildings>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_PENTAGON_HELP" />
+		<Row Tag="TXT_KEY_WONDER_PENTAGON_HELP">
+			<Text>Whenever a [ICON_GREAT_ADMIRAL] Great Admiral, or [ICON_GREAT_GENERAL] Great General is born, an additional free one is created. [ICON_GOLD] Gold cost of upgrading military units reduced by 33%.</Text>
+		</Row>
+	</Language_en_US>
 </GameData>

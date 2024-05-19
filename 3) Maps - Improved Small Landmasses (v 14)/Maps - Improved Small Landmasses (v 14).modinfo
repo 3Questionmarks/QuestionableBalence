@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3752e8df-f651-4d2a-97ca-c6aa1203967c" version="14">
+  <Properties>
+    <Name>Maps - Improved Small Landmasses</Name>
+    <Teaser>Improved versions of Small Continents and Tiny Islands</Teaser>
+    <Description>Improved versions of Small Continents and Tiny Islands, including an enhanced TerrainGenerator
+
+Small Continents - Decreases the likelihood of mountain clusters and removes the tectonic islands.
+
+Tiny Islands - Increase island size, decreases likelihood of mountain clusters and enables the Resource menu.
+
+TerrainGenerator - Decreases the "width" of the desert latitudes, moves the snow and tundra lines nearer the poles, decreases the width of the equitorial grasslands and expands plains into all the gaps.
+
+Updates AdvancedSetup.lua to handle more than 22 major civs</Description>
+    <Authors>William Howard</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.2kgames.com/showthread.php?111770-MOD-Better-Small-Landmasses-Map-Scripts</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+    <PediaCategory>MAPS</PediaCategory>
+    <PediaAtlas>UNIT_ATLAS_2</PediaAtlas>
+    <PediaIndex>47</PediaIndex>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="C39806D85A61DD7CABC0D5A69F9F0117" import="1">MAPS/ImprovedSmallContinents.lua</File>
+    <File md5="A6691CDAF6F072832C4C34A3086169B1" import="1">MAPS/ImprovedTinyIslands.lua</File>
+    <File md5="BB0E76CC95DF53C01DAA6838528E9112" import="1">MAPS/TerrainGenerator.lua</File>
+    <File md5="8D4AD9CBEC87873E23AD39656FFEC317" import="1">UI/FrontEnd/GameSetup/AdvancedSetup.lua</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="MapScript" file="MAPS/ImprovedSmallContinents.lua">
+      <Name>ImprovedSmallContinents</Name>
+      <Description>ImprovedSmallContinents</Description>
+    </EntryPoint>
+    <EntryPoint type="MapScript" file="MAPS/ImprovedTinyIslands.lua">
+      <Name>ImprovedTinyIslands</Name>
+      <Description>ImprovedTinyIslands</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

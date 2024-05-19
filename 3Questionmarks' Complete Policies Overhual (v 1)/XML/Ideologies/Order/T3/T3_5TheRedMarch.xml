@@ -36,7 +36,7 @@
 			<Text>The Red March</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_THE_RED_MARCH_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]The Red March[ENDCOLOR][NEWLINE]The number of units your empire can support is increased by 50%. Whenever you train a land military unit, you gain 2 units instead of only 1.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]The Red March[ENDCOLOR][NEWLINE]The number of units your empire can support is increased by 50%. Whenever you train a land military unit, you gain 2 units, each with half xp, instead of only 1.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_THE_RED_MARCH_TEXT">
 			<Text>The Red March</Text>

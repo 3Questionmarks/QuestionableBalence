@@ -85,7 +85,7 @@
 	<!-- localization -->
 	<Language_en_US>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_NF_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Universal Healthcare[ENDCOLOR][NEWLINE]+100% [ICON_PRODUCTION] Production towards [COLOR_BUILDING_TEXT]Hospitals[ENDCOLOR] and [COLOR_BUILDING_TEXT]Medical Labs[ENDCOLOR], and they each yield +3 [ICON_FOOD] Food and [ICON_RESEARCH] Science. +10% [ICON_FOOD] Food and [ICON_RESEARCH] Science from the [COLOR_CITY_GREEN]Centre of Desase Control[ENDCOLOR].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Universal Healthcare[ENDCOLOR][NEWLINE]+100% [ICON_PRODUCTION] Production towards [COLOR_BUILDING_TEXT]Hospitals[ENDCOLOR] and [COLOR_BUILDING_TEXT]Medical Labs[ENDCOLOR], and they each yield +3 [ICON_FOOD] Food and [ICON_RESEARCH] Science. +10% [ICON_FOOD] Food and [ICON_RESEARCH] Science from the [COLOR_CITY_GREEN]Centre of Disease Control[ENDCOLOR].</Text>
 		</Row>
 	</Language_en_US>
 	

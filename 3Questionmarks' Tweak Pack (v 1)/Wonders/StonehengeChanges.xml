@@ -7,10 +7,58 @@
 			<Where Type="BUILDING_STONEHENGE" />
 		</Update>
 	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldChanges>
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_WONDER_STONEHENGE_HELP" />
 		<Row Tag="TXT_KEY_WONDER_STONEHENGE_HELP">
-			<Text>[ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles reduced by 25% in every city. </Text>
+			<Text>Upon finishing construction, grants large amount of [ICON_PEACE] Faith. [ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles reduced by 25% in every city. </Text>
+		</Row>
+	</Language_en_US>
+
+	<!-- Making Dummy Building -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_STONEHENGE_FAITH_ADDED</Type>
+			<Description>TXT_KEY_BUILDING_STONEHENGE_FAITH_ADDED</Description>
+			<DefaultBuilding>BUILDING_STONEHENGE_FAITH_ADDED</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_STONEHENGE_FAITH_ADDED</Type>
+			<BuildingClass>BUILDINGCLASS_STONEHENGE_FAITH_ADDED</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>false</NeverCapture>
+			<ConquestProb>100</ConquestProb>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_STONEHENGE_FAITH_ADDED</Description>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_STONEHENGE_FAITH_ADDED">
+			<Text>You should not see this in game?</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

@@ -8,5 +8,25 @@
 			<Set Value="3" />
 		</Update>
 	</Defines>
+
+	<GameSpeeds>
+		<Update>
+			<Where Type="GAMESPEED_MARATHON"/>
+			<Set SpyRatePercent="90" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_EPIC"/>
+			<Set SpyRatePercent="80" />
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_STANDARD"/>
+			<Set SpyRatePercent="70" />
+		</Update>
+		<!--Unchanged>
+		<Update>
+			<Where Type="GAMESPEED_QUICK"/>
+			<Set SpyRatePercent="50" />
+		</Update-->
+	</GameSpeeds>
   
 </GameData>

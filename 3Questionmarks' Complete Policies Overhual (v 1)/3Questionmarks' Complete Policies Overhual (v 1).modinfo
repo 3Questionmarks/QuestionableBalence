@@ -131,21 +131,21 @@
     <File md5="461FC3857E915407DB558855E539D33A" import="0">XML/Ideologies/Autocracy/T3/T3_5Totalitarianism.xml</File>
     <File md5="1E34E36E5CB88812ED104E378636675F" import="0">XML/Ideologies/Freedom/T1/ForiegnLegionChanges.xml</File>
     <File md5="DA9DDB88025CC1C6FB5CF6EB8D026F2A" import="0">XML/Ideologies/Freedom/T1/T1_1CivilSociety.xml</File>
-    <File md5="D5578BFE0C0612A51C29C99997227AFA" import="0">XML/Ideologies/Freedom/T1/T1_2CovertAction.xml</File>
+    <File md5="0F7130EE7C56F488C2499E7A1E78E3F6" import="0">XML/Ideologies/Freedom/T1/T1_2CovertAction.xml</File>
     <File md5="5D9D982CC1A61EC3C4A5603C91F4D006" import="0">XML/Ideologies/Freedom/T1/T1_3EconomicUnion.xml</File>
     <File md5="E755A8D020E557445397E0387A1DF35E" import="0">XML/Ideologies/Freedom/T1/T1_4FreeTrade.xml</File>
     <File md5="8BCA0A629FDD61BD6E7518D8F91148EE" import="0">XML/Ideologies/Freedom/T1/T1_5CreativeExpression.xml</File>
     <File md5="B96FA7A7435325A06A32362A323FF895" import="0">XML/Ideologies/Freedom/T1/T1_6Consimerism.xml</File>
     <File md5="8D430AF5515C1CABCFA69F753EBC06A0" import="0">XML/Ideologies/Freedom/T1/T1_7NewDeal.xml</File>
     <File md5="B1ED9518FC21A3E0347E960BFCBB60E4" import="0">XML/Ideologies/Freedom/T1/T1_8Urbanization.xml</File>
-    <File md5="273031A4D59E10321391D8295CBBD75F" import="0">XML/Ideologies/Freedom/T1/T1_9VolunteerArmy.xml</File>
-    <File md5="3A527A6EE8FB1C4CBC4FA6890F5C8204" import="0">XML/Ideologies/Freedom/T1/T1_9VolunteerArmy.lua</File>
+    <File md5="622793356E04AADD9C701808D37DB83B" import="0">XML/Ideologies/Freedom/T1/T1_9VolunteerArmy.xml</File>
+    <File md5="E3D9ED367F5BB818CB3F88A6801F68DE" import="0">XML/Ideologies/Freedom/T1/T1_9VolunteerArmy.lua</File>
     <File md5="9E8488FA19F6E336DA83A96181EEF779" import="0">XML/Ideologies/Freedom/T2/T2_1AvanteGarde.xml</File>
     <File md5="1D14AB972C6CB82F80D1F10206741130" import="0">XML/Ideologies/Freedom/T2/T2_2Inspiration.xml</File>
     <File md5="4A46319E2008142BE3447E82D7ECCBEF" import="0">XML/Ideologies/Freedom/T2/T2_3FreeMarket.xml</File>
     <File md5="8E7863BDA92C0A9062378F562D77425F" import="0">XML/Ideologies/Freedom/T2/T2_5UniversalSuffrage.xml</File>
-    <File md5="EC984472CB77DCDB5774144725A08342" import="0">XML/Ideologies/Freedom/T2/T2_6Universal Healthcare.xml</File>
-    <File md5="CEF3631D074EE2D3963D28533ADD897E" import="0">XML/Ideologies/Freedom/T2/T2_4ArsenalofDemocracy.xml</File>
+    <File md5="15070678BF8D59A340CE3D39ED065364" import="0">XML/Ideologies/Freedom/T2/T2_6Universal Healthcare.xml</File>
+    <File md5="05B2C2B8FDF55B1DC12E7D389252FC1B" import="0">XML/Ideologies/Freedom/T2/T2_4ArsenalofDemocracy.xml</File>
     <File md5="DD21642C3E35DB10C1246ED09D78A000" import="0">XML/Ideologies/Freedom/T3/T3_1TreatyOrganization.xml</File>
     <File md5="7F8959CB7D12ABE41FAB09495689F1A0" import="0">XML/Ideologies/Freedom/T3/T3_4Capitalism.xml</File>
     <File md5="6E21B6459541CD1340F20C923F6EA6EF" import="0">XML/Ideologies/Freedom/T3/T3_3MediaCulture.xml</File>
@@ -156,7 +156,7 @@
     <File md5="96960BE642F05106427118C2D058D9CC" import="0">XML/Ideologies/Order/T1/T1_2RedArmy.xml</File>
     <File md5="47A29124A93555A6BD464D24DED5CE91" import="0">XML/Ideologies/Order/T1/T1_3Utopianism.xml</File>
     <File md5="13062BDBE41EF0C5A12CF66EE588613D" import="0">XML/Ideologies/Order/T1/T1_1HeroofthePeople.xml</File>
-    <File md5="1C514BD22A5D44688192622A89C51E54" import="0">XML/Ideologies/Order/T1/T1_5DoubleAgents.xml</File>
+    <File md5="F912BFC8C7ED18652FAFA3B054CF0EAB" import="0">XML/Ideologies/Order/T1/T1_5DoubleAgents.xml</File>
     <File md5="F71B58A5EEFD131BFC07CAB806127A21" import="0">XML/Ideologies/Order/T1/T1_6Collectivization.xml</File>
     <File md5="DDADE41686C42E7FB53501974AA86F26" import="0">XML/Ideologies/Order/T1/T1_7DictatorshipoftheProletariat.xml</File>
     <File md5="5F54735166E0D292487D07A4C70EC4BA" import="0">XML/Ideologies/Order/T1/T1_8FiveYearPlan.xml</File>
@@ -171,8 +171,8 @@
     <File md5="A28C6FDCEDAF5905407F7EA00A345AA1" import="0">XML/Ideologies/Order/T3/T3_2SocialistRealism.xml</File>
     <File md5="1923CA878721DD6D5CF50EB6D18CF541" import="0">XML/Ideologies/Order/T3/T3_4Communism.xml</File>
     <File md5="416BEB1CEFFF6A882475EE2A45896D79" import="0">XML/Ideologies/Order/T3/T3_1SpaceflightPioneers.lua</File>
-    <File md5="37459F6BF09D68E292D71CF28F252512" import="0">XML/Ideologies/Order/T3/T3_5TheRedMarch.lua</File>
-    <File md5="5556918BFB775C931F49DED11D3AF286" import="0">XML/Ideologies/Order/T3/T3_5TheRedMarch.xml</File>
+    <File md5="1BF0751FA9B528F2E9F68498CCDEFD74" import="0">XML/Ideologies/Order/T3/T3_5TheRedMarch.lua</File>
+    <File md5="C7A95412BA16EFD2673C8C8CE2825DD5" import="0">XML/Ideologies/Order/T3/T3_5TheRedMarch.xml</File>
     <File md5="835C690EF613D240BFB06FDCC7AB06E2" import="0">XML/Industry/Building.xml</File>
     <File md5="4AF510426F2F6B7082A551FFDE5E5590" import="0">XML/Industry/Policies.xml</File>
     <File md5="EC0736F0ECC30C1CBE5BA025212EE0A4" import="0">XML/Industry/Units.xml</File>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ce861906-6f6d-45e7-a097-c4de3dfe828d" version="1">
+  <Properties>
+    <Name>AI - MP Diplomacy</Name>
+    <Teaser>Enables JdH's MP diplomacy features</Teaser>
+    <Description>Enables JdH's multi-player diplomacy features.  Also affects single player diplomacy displays.</Description>
+    <Authors>William Howard</Authors>
+    <SpecialThanks>JdH, Lynnes</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="84" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A180A682EBE1743FDF2FAB1E0B633C53" import="0">XML/AIMPDiplomacy.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/AIMPDiplomacy.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

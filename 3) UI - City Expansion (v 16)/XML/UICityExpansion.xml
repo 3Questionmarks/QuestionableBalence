@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<CustomModOptions>
+		<Update>
+			<Where Name="UI_CITY_EXPANSION"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<!-- If you change this value, you MUST also change g_PopupButtonOffset in UICityExpansion.lua -->
+			<Where Name="UI_CITY_EXPANSION_BUTTONPOPUP_MODDER_OFFSET"/>
+			<Set Value="0"/>
+		</Update>
+	</CustomModOptions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CHOOSE_CITY_TILE">
+			<Text>CHOOSE CITY TILE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_CITY_TILE_TT">
+			<Text>You may select a new tile for one of your Cities!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CITIZENS_TT">
+			<Text>{1_NumPopulation} population and {2_NumAutomaton} {2_NumAutomaton: plural 1?automaton; other?automatons;}</Text>
+		</Row>
+	</Language_en_US>
+	<Language_de_DE>
+		<Row Tag="TXT_KEY_CHOOSE_CITY_TILE">
+			<Text>Stadterweiterung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_CITY_TILE_TT">
+			<Text>Wähle ein neues Geländefeld für deine Stadt!</Text>
+		</Row>
+	</Language_de_DE>    
+</GameData>

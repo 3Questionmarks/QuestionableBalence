@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9bfe702c-19fd-4592-9f53-7eb2a6ca23ac" version="7">
+  <Properties>
+    <Name>UI - Trade Routes Enhancements</Name>
+    <Teaser>Various enhancements to the Trade Route screens</Teaser>
+    <Description>Adds
+ * View/Recall/End option to Trade Routes Overview
+ * Reduces city entry size when re-homing a trade unit
+ * Display destination cities in the tooltip when rehoming
+
+Domestic trade routes (shipping food/prod) can be cancelled immediately (ie don't send any more stuff)
+International trade routes (gold) can be recalled, and will end when the trade unit reaches its home city</Description>
+    <Authors>William Howard</Authors>
+    <SpecialThanks>Translation: Russian - Tomahawk.nsk</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="22" maxversion="999" title="DLL - Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="F1499C256113C941ACE1032188BFAF7D" import="1">UI/InGame/Popups/ChooseInternationalTradeRoutePopup.lua</File>
+    <File md5="BBBE65A425660A75799D201298A795DC" import="1">UI/InGame/Popups/ChooseInternationalTradeRoutePopup.xml</File>
+    <File md5="507FA8A8ED26BEDDAC035744C9F2FBCD" import="1">UI/InGame/Popups/ChooseTradeUnitNewHome.lua</File>
+    <File md5="BD9B995CADF4C24C8DB41AD7FE7CB22F" import="1">UI/InGame/Popups/ChooseTradeUnitNewHome.xml</File>
+    <File md5="23E7389D9DEE8336D9E3ADA8159C3F6F" import="1">UI/InGame/Popups/TradeRouteOverview.lua</File>
+    <File md5="3209DABE4E516FC35EE41474FA565667" import="1">UI/InGame/Popups/TradeRouteOverview.xml</File>
+    <File md5="D2ACBA38B9E881A58D09A5BE606A0729" import="0">XML/UITradeRoutesEnhancements.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/UITradeRoutesEnhancements.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

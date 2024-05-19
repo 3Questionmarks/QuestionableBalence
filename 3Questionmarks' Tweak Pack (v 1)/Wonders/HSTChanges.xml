@@ -19,7 +19,7 @@
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_WONDER_HUBBLE_HELP" />
 		<Row Tag="TXT_KEY_WONDER_HUBBLE_HELP">
-			<Text>1 Free Technology. +25% [ICON_PRODUCTION] Production when building Spaceship Parts.</Text>
+			<Text>Whenever a [ICON_GREAT_SCIENTIST] Great Scientist is born, an additonal free [ICON_GREAT_SCIENTIST] Great Scientist is created. 1 Free Technology. +25% [ICON_PRODUCTION] Production when building Spaceship Parts.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
