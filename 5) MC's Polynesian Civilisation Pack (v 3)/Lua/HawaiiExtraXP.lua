@@ -4,7 +4,7 @@
 ------------------------
 local XPPromo = GameInfoTypes.PROMOTION_MC_KOA_XP;
 local XPDone = GameInfoTypes.PROMOTION_MC_KOA_XP_CONSUMED;
-local XP = 10;
+local XP = 20;
 
 function MoreXP(iPlayer, iUnit)
     local pPlayer = Players[iPlayer];

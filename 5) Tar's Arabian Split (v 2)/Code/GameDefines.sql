@@ -474,6 +474,18 @@ WHERE Type = 'BUILDING_BAZAAR';
 DELETE FROM Building_ResourceYieldChanges WHERE BuildingType = 'BUILDING_BAZAAR';
 DELETE FROM Building_FeatureYieldChanges WHERE BuildingType = 'BUILDING_BAZAAR';
 
+INSERT INTO Building_TerrainYieldChanges 
+			(BuildingType, 					TerrainType,		YieldType,			 Yield)
+VALUES		('BUILDING_BAZAAR', 	       'TERRAIN_DESERT', 	'YIELD_FAITH',       1),
+            ('BUILDING_BAZAAR', 	       'TERRAIN_DESERT', 	'YIELD_GOLD',     	 1);
+            
+INSERT INTO Building_FeatureYieldChanges 
+			(BuildingType, 					FeatureType,		YieldType,			Yield)
+VALUES		('BUILDING_BAZAAR',         	'FEATURE_OASIS', 	'YIELD_SCIENCE', 	1),
+            ('BUILDING_BAZAAR',         	'FEATURE_OASIS', 	'YIELD_FOOD',    	1),
+            ('BUILDING_BAZAAR',         	'FEATURE_OASIS', 	'YIELD_CULTURE', 	1),
+            ('BUILDING_BAZAAR',         	'FEATURE_OASIS', 	'YIELD_PRODUCTION',	1);
+
 INSERT INTO Buildings
 			(Type, 							SpecialistType, SpecialistCount, BuildingClass, Cost, GoldMaintenance, PrereqTech, FaithCost, UnlockedByBelief, HurryCostModifier, ConquestProb, ThemingBonusHelp,								GreatWorkSlotType, 				GreatWorkCount, Description,							Help,										Civilopedia,							Strategy,										ArtDefineTag, MinAreaSize, 	HurryCostModifier, IconAtlas,				PortraitIndex)
 SELECT		('BUILDING_TAR_BIMARISTAN'),	SpecialistType, SpecialistCount, BuildingClass, Cost, GoldMaintenance, PrereqTech, FaithCost, UnlockedByBelief, HurryCostModifier, ConquestProb, ('TXT_KEY_GREAT_LIBRARY_THEMING_BONUS_HELP'),	('GREAT_WORK_SLOT_LITERATURE'),	2,				('TXT_KEY_BUILDING_TAR_BIMARISTAN'),	('TXT_KEY_BUILDING_TAR_BIMARISTAN_HELP'),	('TXT_KEY_CIV5_TAR_BIMARISTAN_TEXT'),	('TXT_KEY_BUILDING_TAR_BIMARISTAN_STRATEGY'),	ArtDefineTag, MinAreaSize, 	HurryCostModifier, ('TAR_ARABIA_ATLAS'), 	8

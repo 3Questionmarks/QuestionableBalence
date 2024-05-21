@@ -27,7 +27,7 @@
                             
                             
                     else
-                            player:ChangeGold(reward)
+                            player:ChangeGold(2 * reward)
                             
                             
                     end

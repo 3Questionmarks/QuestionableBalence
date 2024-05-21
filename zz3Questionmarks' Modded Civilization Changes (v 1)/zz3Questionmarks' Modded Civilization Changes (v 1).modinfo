@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="bb25ddd3-c634-4861-a725-aa3e1f720d90" version="1">
   <Properties>
-    <Name>3Questionmarks' Modded Civilization Changes</Name>
+    <Name>zz3Questionmarks' Modded Civilization Changes</Name>
     <Stability>Alpha</Stability>
     <Teaser>3Questionmarks' Modded Civilization Changes</Teaser>
     <Description>3Questionmarks' Modded Civilization Changes</Description>
@@ -37,11 +37,11 @@
     <File md5="00FC5C8F4099B163EE04FCD4F94A96B9" import="1">Rashidun/ART/Swordsman_Arabia_v3.fxsxml</File>
     <File md5="DBF50466EF50E296EE27C4B87C309014" import="1">Rashidun/ART/Swordsman_Arabia_v3.gr2</File>
     <File md5="05D2FD7780DB41FD0301732407A7D8AA" import="1">Rashidun/ART/Swordsman_Arabia_v3_gloss.dds</File>
-    <File md5="3869F20DEBF3BCE7238DC145C69576C5" import="0">Rashidun/Unit.sql</File>
+    <File md5="B548BB70120F61B164C754F36E26C3A5" import="0">Rashidun/Unit.sql</File>
     <File md5="8F81C13CD6DE878AB502B1B94E57E4FB" import="0">Rashidun/Trait.xml</File>
-    <File md5="56656A1D828D69F9E1F0DEDE59B41587" import="0">Rashidun/Units.xml</File>
-    <File md5="7BBC60B5DFFACC845858640775E9287C" import="0">Umayyads/Trait.xml</File>
-    <File md5="F1F482FD46531E7A50208BAA6F800FBC" import="0">Umayyads/Units.xml</File>
+    <File md5="D65797D240A565B5958208E51418B6BE" import="0">Rashidun/Units.xml</File>
+    <File md5="4E5AFFEF3DC8F292A0F7E25681F8BF7D" import="0">Umayyads/Trait.xml</File>
+    <File md5="CC3A207868597605E9F1C476959A6804" import="0">Umayyads/Units.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

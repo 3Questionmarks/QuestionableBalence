@@ -48,32 +48,32 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MC_MAORI_PA</ImprovementType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
         <Row>
 			<ImprovementType>IMPROVEMENT_MC_MAORI_PA</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
         <Row>
 			<ImprovementType>IMPROVEMENT_MC_MAORI_PA</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
         <Row>
 			<ImprovementType>IMPROVEMENT_MC_MAORI_PA</ImprovementType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
         <Row>
 			<ImprovementType>IMPROVEMENT_MC_MAORI_PA</ImprovementType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 	</Improvement_Yields>
     <Improvement_ResourceTypes>
@@ -131,7 +131,7 @@
             <ImprovementType>IMPROVEMENT_MC_MAORI_PA</ImprovementType>
             <TechType>TECH_EDUCATION</TechType>
             <YieldType>YIELD_SCIENCE</YieldType>
-            <Yield>1</Yield>
+            <Yield>2</Yield>
         </Row>
     </Improvement_TechYieldChanges>
 	<Builds>
@@ -200,6 +200,7 @@
 		</Row>
 	</Improvement_ResourceType_Yields>
     <Improvement_TechYieldChanges>
+        <Delete ImprovementType="IMPROVEMENT_MOAI" />
         <Row>
             <ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
             <TechType>TECH_FLIGHT</TechType>

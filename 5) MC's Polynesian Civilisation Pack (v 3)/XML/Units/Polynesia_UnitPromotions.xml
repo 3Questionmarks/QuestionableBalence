@@ -8,8 +8,8 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<PortraitIndex>59</PortraitIndex>
-			<LostWithUpgrade>true</LostWithUpgrade>
-			<ExperiencePercent>30</ExperiencePercent>
+			<LostWithUpgrade>false</LostWithUpgrade>
+			<ExperiencePercent>50</ExperiencePercent>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_SHARED</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_MC_TAIAHA_WARRIOR</PediaEntry>
@@ -21,9 +21,9 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<PortraitIndex>59</PortraitIndex>
-			<LostWithUpgrade>true</LostWithUpgrade>
-			<AttackMod>5</AttackMod>
-			<DefenseMod>5</DefenseMod>
+			<LostWithUpgrade>false</LostWithUpgrade>
+			<AttackMod>10</AttackMod>
+			<DefenseMod>10</DefenseMod>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_SHARED</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_MC_TAIAHA_COMBAT_BONUS</PediaEntry>
@@ -70,7 +70,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
 			<PortraitIndex>59</PortraitIndex>
-			<LostWithUpgrade>true</LostWithUpgrade>
+			<LostWithUpgrade>false</LostWithUpgrade>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_SHARED</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_MC_OUTRIGGER</PediaEntry>
@@ -90,6 +90,18 @@
 			<PediaEntry>TXT_KEY_PROMOTION_MC_ALLWATER_EMBARKATION</PediaEntry>
 		</Row>
 	</UnitPromotions>
+    <UnitPromotions_Terrains>
+		<Row>
+			<PromotionType>PROMOTION_MC_OUTRIGGER</PromotionType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<DoubleMove>true</DoubleMove>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MC_OUTRIGGER</PromotionType>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+			<DoubleMove>true</DoubleMove>
+		</Row>
+    </UnitPromotions_Terrains>
 	<UnitPromotions_UnitCombats>
 		<Row>
 			<PromotionType>PROMOTION_MC_ALLWATER_EMBARKATION</PromotionType>

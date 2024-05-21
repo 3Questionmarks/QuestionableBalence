@@ -18,7 +18,7 @@
 	<Units>
 		<Update>
 			<Where Type="UNIT_ARABIAN_CAMELARCHER" />
-			<Set Combat="16" RangedCombat="20" />
+			<Set Combat="16" RangedCombat="19" />
 		</Update>
 	</Units>
 	<UnitPromotions>

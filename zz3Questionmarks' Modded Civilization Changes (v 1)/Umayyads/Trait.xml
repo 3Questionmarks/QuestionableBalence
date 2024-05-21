@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:47:55 PM -->
+<GameData>
+	<!-- Dummy building for +3 Gold and Production from Oil -->
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_UMAYYADSDUMMYBUILDING</Type>
+			<Description>TXT_KEY_UMAYYADSDUMMYBUILDING</Description>
+			<DefaultBuilding>BUILDING_UMAYYADSDUMMYBUILDING</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_UMAYYADSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UMAYYADSDUMMYBUILDING</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_UMAYYADSDUMMYBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_UMAYYADSDUMMYBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_UMAYYADSDUMMYBUILDING</Description>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+
+	<!-- Dummy building -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_UMAYYADSDUMMYBUILDING">
+			<Text>You should not see this in game?</Text>
+		</Row>
+	</Language_en_US>
+
+	<Traits>
+		<Update>
+			<Where Type="TRAIT_TAR_UMAYYAD_ABD_AL_MALIK" />
+			<Set FreeBuilding="BUILDING_UMAYYADSDUMMYBUILDING" FreeBuildingOnConquest="BUILDING_UMAYYADSDUMMYBUILDING" />
+		</Update>
+	</Traits>
+	<Trait_YieldChangesPerTradePartner>
+		<Row>
+			<TraitType>TRAIT_TAR_UMAYYAD_ABD_AL_MALIK</TraitType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>0</Yield>
+		</Row>
+	</Trait_YieldChangesPerTradePartner>
+	<Trait_ResourceQuantityModifiers>
+		<Row>
+			<TraitType>TRAIT_TAR_UMAYYAD_ABD_AL_MALIK</TraitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+	</Trait_ResourceQuantityModifiers>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_TRAIT_TAR_UMAYYAD_ABD_AL_MALIK"/>
+			<Set Text="Gain 5 [ICON_PRODUCTION] Production per city equally divided amongst cities that follow your [ICON_RELIGION] Religion. [ICON_CONNECTED] City Connections yield 5 [ICON_GOLD] Gold. [ICON_RES_OIL] Oil resources yield +3 [ICON_GOLD] Gold and [ICON_PRODUCTION] Production, and provide double quantity."/>
+		</Update>
+	</Language_en_US>
+</GameData>

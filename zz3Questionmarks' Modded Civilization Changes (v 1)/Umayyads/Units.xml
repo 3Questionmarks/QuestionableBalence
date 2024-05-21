@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/5/2014 9:42:38 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Where Type="UNIT_TAR_YAMANI"/>
+			<Set Combat="20" />
+		</Update>
+	</Units>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_TAR_YAMANI</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+</GameData>
